@@ -3,19 +3,18 @@
 import { MessageCircle, Share2 } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
-import { formatMinutesAgo, formatCount } from "@/lib/threadz/format"
 import { Avatar } from "./avatar"
 
 interface ThreadCardProps {
   thread: ThreadzThread
-  commentCount: number
-  shareCount: number
+  visitor: { name: string; color: string } | null
   onOpen: () => void
   onShare: () => void
 }
 
-export function ThreadCard({ thread, commentCount, shareCount, onOpen, onShare }: ThreadCardProps) {
-  const author = getUser(thread.authorId)
+export function ThreadCard({ thread, visitor, onOpen, onShare }: ThreadCardProps) {
+  // cuitan buatan pengunjung (id negatif) tampil pakai identitas pengunjung
+  const author = thread.authorId < 0 && visitor ? visitor : getUser(thread.authorId)
 
   return (
     <article
@@ -23,41 +22,39 @@ export function ThreadCard({ thread, commentCount, shareCount, onOpen, onShare }
       onClick={onOpen}
       aria-label={`Cuitan dari ${author.name}`}
     >
-      <div className="flex items-center gap-1.5 text-[15px]">
+      {/* tanpa waktu. biar semuanya kerasa baru kemarin sore. */}
+      <div className="flex items-center gap-2 text-[15px]">
         <Avatar name={author.name} color={author.color} size={36} />
         <span className="truncate font-semibold text-stone-900">{author.name}</span>
-        <span className="shrink-0 text-stone-400">· {formatMinutesAgo(thread.minutesAgo)}</span>
       </div>
 
       <p className="mt-2.5 whitespace-pre-wrap text-[15px] leading-relaxed text-stone-700">
         {thread.content}
       </p>
 
-      {/* Di dunia ini cuma ada dua aksi: komen & share. Gak ada like. */}
+      {/* Di dunia ini cuma ada dua aksi: komen & share. Gak ada like, gak ada angka. */}
       <div className="mt-3 flex items-center gap-1">
         <button
           type="button"
-          className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
+          className="flex items-center rounded-full px-3 py-1.5 text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
           onClick={(e) => {
             e.stopPropagation()
             onOpen()
           }}
-          aria-label={`${commentCount} komentar. Buka cuitan`}
+          aria-label="Lihat komentar"
         >
           <MessageCircle className="h-[17px] w-[17px]" strokeWidth={1.8} />
-          <span>{formatCount(commentCount)}</span>
         </button>
         <button
           type="button"
-          className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
+          className="flex items-center rounded-full px-3 py-1.5 text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
           onClick={(e) => {
             e.stopPropagation()
             onShare()
           }}
-          aria-label={`${shareCount} kali dibagikan. Bagikan cuitan`}
+          aria-label="Bagikan cuitan"
         >
           <Share2 className="h-4 w-4" strokeWidth={1.8} />
-          <span>{formatCount(shareCount)}</span>
         </button>
       </div>
     </article>

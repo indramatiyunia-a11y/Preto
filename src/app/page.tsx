@@ -9,6 +9,7 @@ import type { ThreadzThread } from "@/lib/threadz/types"
 import { ThreadCard } from "@/components/threadz/thread-card"
 import { ThreadModal, type LiveComment } from "@/components/threadz/thread-modal"
 import { ShareSheet } from "@/components/threadz/share-sheet"
+import { PostComposer } from "@/components/threadz/post-composer"
 import { Avatar } from "@/components/threadz/avatar"
 import { TABS, TAB_LABELS, type Tab } from "@/components/threadz/tabs"
 import { toast } from "@/hooks/use-toast"
@@ -21,20 +22,21 @@ const REPLY_CHANCE = 0.01
 
 interface ExtraStore {
   comments: Record<string, LiveComment[]>
-  shares: Record<string, number>
+  /** cuitan buatan pengunjung, id-nya negatif biar gak nabrak data seeded */
+  posts: ThreadzThread[]
 }
 
 function loadExtras(): ExtraStore {
   try {
     const raw = localStorage.getItem(LS_EXTRA)
     if (raw) {
-      const parsed = JSON.parse(raw) as ExtraStore
-      return { comments: parsed.comments ?? {}, shares: parsed.shares ?? {} }
+      const parsed = JSON.parse(raw) as Partial<ExtraStore>
+      return { comments: parsed.comments ?? {}, posts: parsed.posts ?? [] }
     }
   } catch {
     /* data rusak? buang aja */
   }
-  return { comments: {}, shares: {} }
+  return { comments: {}, posts: [] }
 }
 
 export default function Home() {
@@ -43,11 +45,11 @@ export default function Home() {
   const [openThreadId, setOpenThreadId] = useState<number | null>(null)
   const [shareThreadId, setShareThreadId] = useState<number | null>(null)
   const [liveByThread, setLiveByThread] = useState<Record<string, LiveComment[]>>({})
-  const [extraShares, setExtraShares] = useState<Record<string, number>>({})
+  const [myPosts, setMyPosts] = useState<ThreadzThread[]>([])
   const [visitor, setVisitor] = useState<{ name: string; color: string } | null>(null)
   const sentinelRef = useRef<HTMLDivElement>(null)
 
-  // identitas & komentar tersimpan dibaca setelah render pertama (localStorage cuma ada di browser)
+  // identitas, komentar & cuitan tersimpan dibaca setelah render pertama (localStorage cuma ada di browser)
   useEffect(() => {
     queueMicrotask(() => {
       try {
@@ -64,7 +66,7 @@ export default function Home() {
       }
       const extras = loadExtras()
       setLiveByThread(extras.comments)
-      setExtraShares(extras.shares)
+      setMyPosts(extras.posts)
     })
   }, [])
 
@@ -75,7 +77,7 @@ export default function Home() {
     const obs = new IntersectionObserver(
       (entries) => {
         if (entries[0]?.isIntersecting) {
-          setVisible((v) => Math.min(v + 10, THREADS.length))
+          setVisible((v) => v + 10)
         }
       },
       { rootMargin: "600px" }
@@ -89,24 +91,22 @@ export default function Home() {
     [liveByThread]
   )
 
-  const shareCountOf = useCallback(
-    (t: ThreadzThread) => t.shares + (extraShares[String(t.id)] ?? 0),
-    [extraShares]
-  )
+  // cuitan buatan lu nempel paling atas, sisanya urutan data
+  const allThreads = useMemo(() => [...myPosts, ...THREADS], [myPosts])
 
   const feed = useMemo(() => {
     if (tab === "terame") {
-      return [...THREADS].sort(
+      return [...allThreads].sort(
         (a, b) => commentCountOf(b) - commentCountOf(a) || a.minutesAgo - b.minutesAgo
       )
     }
     if (tab === "otak-belok") {
-      return THREADS.filter((t) => getUser(t.authorId).persona === "begok").sort(
-        (a, b) => a.minutesAgo - b.minutesAgo
-      )
+      return allThreads
+        .filter((t) => getUser(t.authorId)?.persona === "begok")
+        .sort((a, b) => a.minutesAgo - b.minutesAgo)
     }
-    return [...THREADS].sort((a, b) => a.minutesAgo - b.minutesAgo)
-  }, [tab, commentCountOf])
+    return [...allThreads].sort((a, b) => a.minutesAgo - b.minutesAgo)
+  }, [tab, commentCountOf, allThreads])
 
   const persistExtras = useCallback((next: ExtraStore) => {
     try {
@@ -116,7 +116,8 @@ export default function Home() {
     }
   }, [])
 
-  const openThread = openThreadId === null ? null : THREADS.find((t) => t.id === openThreadId) ?? null
+  const openThread =
+    openThreadId === null ? null : allThreads.find((t) => t.id === openThreadId) ?? null
 
   const handleComment = useCallback(
     (text: string) => {
@@ -131,7 +132,7 @@ export default function Home() {
       const tid = String(openThreadId)
       const updated = { ...liveByThread, [tid]: [...(liveByThread[tid] ?? []), mine] }
       setLiveByThread(updated)
-      persistExtras({ comments: updated, shares: extraShares })
+      persistExtras({ comments: updated, posts: myPosts })
 
       // 1% doang ada yang bales, tanpa indikator apa2. kebanyakan komen lu ya udah gitu aja.
       if (Math.random() < REPLY_CHANCE) {
@@ -146,24 +147,35 @@ export default function Home() {
           }
           setLiveByThread((cur) => {
             const next = { ...cur, [tid]: [...(cur[tid] ?? []), reply] }
-            persistExtras({ comments: next, shares: extraShares })
+            persistExtras({ comments: next, posts: myPosts })
             return next
           })
         }, 6000 + Math.floor(Math.random() * 9000))
       }
     },
-    [openThreadId, visitor, liveByThread, extraShares, persistExtras]
+    [openThreadId, visitor, liveByThread, myPosts, persistExtras]
   )
 
-  const handleShared = useCallback(() => {
-    if (shareThreadId === null) return
-    const tid = String(shareThreadId)
-    setExtraShares((cur) => {
-      const next = { ...cur, [tid]: (cur[tid] ?? 0) + 1 }
-      persistExtras({ comments: liveByThread, shares: next })
-      return next
-    })
-  }, [shareThreadId, liveByThread, persistExtras])
+  const handlePost = useCallback(
+    (text: string) => {
+      if (!visitor) return
+      const post: ThreadzThread = {
+        id: -Date.now(),
+        authorId: -1,
+        minutesAgo: 0,
+        content: text,
+        shares: 0,
+        comments: [],
+      }
+      const nextPosts = [post, ...myPosts]
+      setMyPosts(nextPosts)
+      persistExtras({ comments: liveByThread, posts: nextPosts })
+      setTab("terbaru")
+      setVisible(PAGE_SIZE)
+      toast({ description: "udah keposting. nongol paling atas." })
+    },
+    [visitor, myPosts, liveByThread, persistExtras]
+  )
 
   const rerollIdentity = useCallback(() => {
     const v = randomVisitor()
@@ -227,12 +239,14 @@ export default function Home() {
 
         {/* feed */}
         <main className="flex flex-col gap-3 pt-4">
+          {/* kotak nulis ala aplikasi ringan: nulis dulu, mikir belakangan */}
+          <PostComposer visitor={visitor} onPost={handlePost} />
+
           {shown.map((t) => (
             <ThreadCard
               key={t.id}
               thread={t}
-              commentCount={commentCountOf(t)}
-              shareCount={shareCountOf(t)}
+              visitor={visitor}
               onOpen={() => setOpenThreadId(t.id)}
               onShare={() => setShareThreadId(t.id)}
             />
@@ -248,7 +262,7 @@ export default function Home() {
           ) : (
             <div className="px-4 py-12 text-center text-sm text-stone-400">
               <p>lu udah nyampe ujung feed.</p>
-              <p className="mt-1">100 cuitan. nol tombol suka.</p>
+              <p className="mt-1">nol tombol suka. tetep rame.</p>
             </div>
           )}
         </main>
@@ -258,7 +272,6 @@ export default function Home() {
         thread={openThread}
         liveComments={openThreadId === null ? [] : liveByThread[String(openThreadId)] ?? []}
         visitor={visitor}
-        shareCount={openThread ? shareCountOf(openThread) : 0}
         onComment={handleComment}
         onOpenChange={(open) => {
           if (!open) setOpenThreadId(null)
@@ -267,11 +280,9 @@ export default function Home() {
 
       <ShareSheet
         threadId={shareThreadId}
-        shareCount={shareThreadId === null ? 0 : shareCountOf(THREADS.find((t) => t.id === shareThreadId)!)}
         onOpenChange={(open) => {
           if (!open) setShareThreadId(null)
         }}
-        onShared={handleShared}
       />
     </div>
   )

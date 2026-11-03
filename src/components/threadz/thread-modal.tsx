@@ -5,7 +5,6 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
 import { SendHorizontal } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
-import { formatMinutesAgo } from "@/lib/threadz/format"
 import { Avatar } from "./avatar"
 
 export interface LiveComment {
@@ -20,7 +19,6 @@ interface ThreadModalProps {
   thread: ThreadzThread | null
   liveComments: LiveComment[]
   visitor: { name: string; color: string } | null
-  shareCount: number
   onComment: (text: string) => void
   onOpenChange: (open: boolean) => void
 }
@@ -29,7 +27,6 @@ export function ThreadModal({
   thread,
   liveComments,
   visitor,
-  shareCount,
   onComment,
   onOpenChange,
 }: ThreadModalProps) {
@@ -44,8 +41,9 @@ export function ThreadModal({
 
   if (!thread) return null
 
-  const author = getUser(thread.authorId)
-  const commentCount = thread.comments.length + liveComments.length
+  // cuitan buatan pengunjung (id negatif) tampil pakai identitas pengunjung
+  const author = thread.authorId < 0 && visitor ? visitor : getUser(thread.authorId)
+  const emptyComments = thread.comments.length === 0 && liveComments.length === 0
 
   const submit = () => {
     const t = text.trim()
@@ -67,22 +65,14 @@ export function ThreadModal({
           <div className="flex gap-3 px-5 py-4">
             <Avatar name={author.name} color={author.color} size={44} />
             <div className="min-w-0 flex-1">
-              <div className="flex items-center gap-1.5 text-[15px]">
-                <span className="font-semibold text-stone-900">{author.name}</span>
-                <span className="text-stone-400">· {formatMinutesAgo(thread.minutesAgo)}</span>
-              </div>
+              <span className="text-[15px] font-semibold text-stone-900">{author.name}</span>
               <p className="mt-1.5 whitespace-pre-wrap text-[15px] leading-relaxed text-stone-700">
                 {thread.content}
-              </p>
-              <p className="mt-3 text-[13px] text-stone-400">
-                {commentCount > 0
-                  ? `${commentCount} komentar · ${shareCount} dibagikan`
-                  : `${shareCount} dibagikan`}
               </p>
             </div>
           </div>
 
-          {/* komentar */}
+          {/* komentar — gak ada angka, gak ada waktu. tinggal buka dan baca. */}
           <div className="border-t border-stone-100">
             {thread.comments.map((c, i) => {
               const u = getUser(c.authorId)
@@ -90,10 +80,9 @@ export function ThreadModal({
                 <div key={`${thread.id}-${i}`} className="flex gap-3 border-b border-stone-100 px-5 py-3">
                   <Avatar name={u.name} color={u.color} size={32} />
                   <div className="min-w-0 flex-1">
-                    <div className="flex items-center gap-1.5 text-[13px]">
-                      <span className="truncate font-semibold text-stone-800">{u.name}</span>
-                      <span className="shrink-0 text-stone-400">· {formatMinutesAgo(c.minutesAgo)}</span>
-                    </div>
+                    <span className="truncate text-[13px] font-semibold text-stone-800">
+                      {u.name}
+                    </span>
                     <p className="mt-0.5 text-[14px] leading-snug text-stone-700">{c.content}</p>
                   </div>
                 </div>
@@ -108,16 +97,15 @@ export function ThreadModal({
               >
                 <Avatar name={c.name} color={c.color} size={32} />
                 <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-1.5 text-[13px]">
-                    <span className="truncate font-semibold text-stone-800">{c.name}</span>
-                    <span className="shrink-0 text-stone-400">· {formatMinutesAgo(c.minutesAgo)}</span>
-                  </div>
+                  <span className="truncate text-[13px] font-semibold text-stone-800">
+                    {c.name}
+                  </span>
                   <p className="mt-0.5 text-[14px] leading-snug text-stone-700">{c.content}</p>
                 </div>
               </div>
             ))}
 
-            {commentCount === 0 && (
+            {emptyComments && (
               <p className="px-5 py-8 text-center text-sm text-stone-400">
                 belum ada yang komen di sini
               </p>

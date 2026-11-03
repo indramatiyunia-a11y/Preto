@@ -6,16 +6,14 @@ import { toast } from "@/hooks/use-toast"
 
 interface ShareSheetProps {
   threadId: number | null
-  shareCount: number
   onOpenChange: (open: boolean) => void
-  onShared: () => void
 }
 
 function threadUrl(id: number) {
   return `https://akiomida.app/cuit/${id}`
 }
 
-export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: ShareSheetProps) {
+export function ShareSheet({ threadId, onOpenChange }: ShareSheetProps) {
   if (threadId === null) return null
 
   const copyLink = async () => {
@@ -26,11 +24,9 @@ export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: Sha
     } catch {
       toast({ description: `Tautan: ${url}` })
     }
-    onShared()
   }
 
   const shareExternal = (appName: string) => {
-    onShared()
     toast({ description: `Tautan disalin, tinggal tempel di ${appName}.` })
   }
 
@@ -45,12 +41,9 @@ export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: Sha
     <Drawer open onOpenChange={onOpenChange}>
       <DrawerContent className="mx-auto max-w-[560px] rounded-t-2xl border-stone-200 bg-white text-stone-900">
         <div className="mx-auto w-full max-w-md px-4 pb-8 pt-2">
-          <DrawerTitle className="mb-1 text-center text-[15px] font-semibold">
+          <DrawerTitle className="mb-4 text-center text-[15px] font-semibold">
             Bagikan cuitan
           </DrawerTitle>
-          <p className="mb-4 text-center text-[13px] text-stone-400">
-            {shareCount} kali dibagikan
-          </p>
 
           <div className="space-y-1">
             {options.map((opt) => (
