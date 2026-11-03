@@ -4,18 +4,25 @@
 import type { ThreadzUser } from "./types"
 import { USERS } from "./data/users"
 
-/** Balasan yang SANGAT jarang muncul (1%) beberapa detik setelah lu berkomentar */
+/** Balasan yang SANGAT jarang muncul (1%) beberapa detik setelah lu berkomentar.
+ *  Suaranya campur: ada yang sopan, ada yang singkat, ada yang CAPS, ada yang males ngetik. */
 export const RARE_REPLIES: string[] = [
-  "wkwkwk bener juga ya",
-  "eh iya, gue kepikiran juga tadi. cuma gak sempet nulis",
+  "wkwkkw",
+  "bener juga. gue mikir ulang",
+  "eh iya ya. lupa itung",
+  "komen lu nempel lama di kepala. thanks",
+  "gue gak ngerti tapi gue baca dua kali",
+  "lanjut, abis itu gimana? gue penasaran",
+  "semoga lancar ya. serius",
+  "wah. baru sadar gue",
+  "btw itu beneran?? gue cek dulu deh",
+  "sedih ya. semangat",
   "deng, logika",
-  "komen lu nempel di kepala gue sampe besok, thanks banget",
-  "gue gak ngerti tapi gue ikut seneng",
-  "kalo gitu 1+1 kenapa bukan 11? JAWAB",
-  "terus terus, habis itu gimana? gue penasaran",
-  "gue simpen ya kalimatnya. buat ngingetin diri sendiri",
-  "mantap. sekarang gue harus mikir lagi padahal lagi rebahan",
-  "semoga lu sehat-sehat aja deh, yang nulis kayak gini",
+  "gue ikut ya. semoga kebaca",
+  "PAK JAWAB DONG KALO BEGITU",
+  "makasih, gue butuh baca ini hari ini",
+  "sama kaya kejadian di rumah gue. persis",
+  "iya. iya banget",
 ]
 
 /** Pilih user acak buat balas komen lu (kalo hoki 1%) */

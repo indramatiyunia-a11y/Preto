@@ -2,12 +2,13 @@ import type { ThreadzThread } from "../types"
 
 // PART 4: cuitan 76-100.
 //
-// PANDUAN SUARA:
-//  3: ahli, prinsip bahasa manusia           9: awam, cerita keluarga (anti-taruhan)
-// 42/45/48: ahli, bunga & peluang itu momok  40: awam tukang servis, cerita pelanggan
-// 28: awam, bingung hidup tapi jujur         25: bego "btw..." satu paragraf
-// ATURAN DUNIA: nol merek, nol nama usaha orang. Acuan universal: rumah, bus,
-// kelas, ladang, langit. Aman dibaca anak sampai kakek.
+// JARAN SUARA:
+//  26: memori kota & arah jalan.       9: cerita keluarga (anti-taruhan)
+//  42/45/48: bunga & peluang, bahasa sehari-hari.  40: HP keluarga rusak
+//  28: jujur bingung.                  25: "btw..." satu paragraf polos
+//  23: malam, pendek, gak suka titik akhir.  15: bapak tua, "Salam"
+// ATURAN DUNIA: nol merek, nol nama usaha/orang. Acuan: rumah, bus, kelas,
+// ladang, langit, gentong. Aman dibaca bocah sampai eyang.
 export const THREADS_PART4: ThreadzThread[] = [
   {
     id: 76,
@@ -15,7 +16,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 45,
     shares: 152,
     content:
-      "alamat hari ini: 'deket pohon beringin tua, seberang bengkel'.\n\npak. pohonnya udah gak ada sejak tahun 2019. bengkelnya pindah tahun 2021. yang ada: ruko kosong dan kenangan orang.\n\ngue nemuin rumahnya pakai cara sederhana: tanya 3 orang, ambil rata-rata arah jawabannya, jalan ke situ.",
+      "alamat hari ini: 'deket pohon beringin tua, seberang pos ronda'.\n\npak. pohonnya udah gak ada sejak 2019. pos ronda pindah tahun 2021. yang ada: lapangan kosong dan kenangan orang.\n\ngue nemuin rumahnya pakai cara sederhana: tanya 3 orang, ambil rata-rata arah jawabannya, jalan ke situ. nyampe.",
     comments: [
       { authorId: 45, minutesAgo: 38, content: "rata-rata arah jawaban 3 orang itu metode yang gak akan pernah masuk jurnal. tapi tingkat keberhasilannya tinggi" },
       { authorId: 7, minutesAgo: 20, content: "kenangan orang sebagai penunjuk jalan. selamat jalan, pohon yang sudah gugur" },
@@ -27,11 +28,11 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 90,
     shares: 173,
     content:
-      "prinsip yang simpel tapi jarang diinget:\n\nkalau sesuatu bikin rugi buat yang beli, dia gak akan ditawarin terus-terusan ke lu.\n\nlotre ditawarin di mana-mana, tiap hari, tiap jam. artinya: rata-rata, yang main rugi. terus-terusan. bukan kadang-kadang. dia didesain begitu. sama kayak penjual roti gak akan jual roti yang bikin orang gak mau balik.\n\nyang dijual lotre bukan tiket. yang dijual: mimpinya 3 hari. harganya 20 ribu. mimpinya gratis. kerugiannya yang bayar.",
+      "prinsip yang simpel tapi jarang diinget:\n\nkalau sesuatu bikin rugi buat yang beli, dia gak akan ditawarin terus-terusan ke lu.\n\ntiket angka ditawarin di mana-mana, tiap hari, tiap jam. artinya: rata-rata, yang main rugi. terus-terusan. bukan kadang-kadang. dia didesain begitu.\n\ngue pernah nanya ke yang jual: 'bang, lu sendiri main gak?'\n\ndia ketawa. 'kalo gue main, siapa yang jual.'\n\ngue gak beli. dan gue gak nyuruh lu. gue cuma kasih tau percakapan itu.",
     comments: [
-      { authorId: 14, minutesAgo: 80, content: "'yang dijual mimpinya 3 hari' — dan dia susut tiap pengumuman. makanya harus dibeli lagi. sistem paling stabil di dunia" },
+      { authorId: 14, minutesAgo: 80, content: "'kalo gue main, siapa yang jual' — jawaban paling jujur sepanjang sejarah jualan" },
       { authorId: 46, minutesAgo: 60, content: "gue kasih ini ke suami baca. dia diam 1 menit. terus bilang 'yaudah gue berenti'. harapannya amin, tahun depan masih begitu" },
-      { authorId: 27, minutesAgo: 35, content: "analogi roti itu tepat. penjual roti butuh pelanggan balik. lotre juga butuh pelanggan balik. bedanya roti kenyang. lotre gak pernah kenyang" },
+      { authorId: 27, minutesAgo: 35, content: "yang gak pernah dipajang di mana-mana itu yang bener bisa bikin untung. yang dipajang terus, ya itu" },
     ],
   },
   {
@@ -49,13 +50,13 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 180,
     shares: 241,
     content:
-      "'bang, HP gue cuma dibanting dikit.'\n\ndikit tuh ukurannya gimana? gue terima: layar retak 3 arah, kamera keluar 2 milimeter, tombol nyala pindah kerja ke tombol volume.\n\ndikit itu relatif. kaya 'sebentar lagi sampai' dari kurir yang masih 8 kilometer.",
+      "anak gue banting HP pas kalah main. 'dikit kok bapak.'\n\ndikit tuh ukurannya gimana? layar retak 3 arah, tombol nyala pindah kerja ke tombol volume.\n\ngue gak teriak. gue duduk, gue suruh dia duduk.\n\n'yang rusak itu barang. yang banting itu pilihan. besok mainnya habis magrib aja, biar layar gak keburu panas.'\n\ndia ngangguk, mukanya kusut, terus dia pamit tidur lebih cepet dari biasa. anak kalah itu capek banget ya. besok kita coba lagi.",
     comments: [
-      { authorId: 43, minutesAgo: 170, content: "'tombol nyala pindah kerja' — gue minta izin nyimpen kalimat ini buat bikin bapak gue ketawa" },
+      { authorId: 43, minutesAgo: 170, content: "'yang rusak itu barang. yang banting itu pilihan' — gue catet. buat diri gue sendiri juga, bukan cuma buat anak" },
       { authorId: 37, minutesAgo: 150, content: "'dikit itu relatif' — sama kaya 'gajinya dikit doang, kerjanya banyak'" },
       { authorId: 26, minutesAgo: 120, content: "sebagai pihak yang sering bilang 'sebentar lagi sampai', gue merasa terwakili. 8 kilometer itu jujurnya 40 menit kalau hujan" },
       { authorId: 12, minutesAgo: 90, content: "gue banting HP sendiri pas kalah main. dikit. sekarang gue main pake HP yang sedang berebut hidup" },
-      { authorId: 46, minutesAgo: 50, content: "anak gue banting tablet pas dikalahin adiknya. tabletnya udah gak minta hidup lagi. bapaknya yang bayar" },
+      { authorId: 46, minutesAgo: 50, content: "anak kalah itu capek banget ya — iya. makanya malam-malamnya butuh makan enak, bukan ceramah tambahan" },
     ],
   },
   {
@@ -66,7 +67,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "manusia tidur 1/3 hidupnya. itu standar.\n\ngue tambah 1/4 buat scroll. tinggal 5/12 buat 'hidup yang bener2 dirasakan'.\n\n5/12 itu 42%. dan gue ngerasa 42% itu banyak. padahal gue inget cuma 12%.",
     comments: [
-      { authorId: 24, minutesAgo: 230, content: "42% terasa banyak karena dia gak disimpen ke ingatan. ingatan kita milih yang bermakna. jadi gak perlu panik: hidup yang bener2 dirasakan itu yang kelak diinget, bukan yang dihitung" },
+      { authorId: 24, minutesAgo: 230, content: "42% terasa banyak karena dia gak disimpen ke ingatan. ingatan kita milih yang bermakna. jadi gak perlu panik: yang kelak diinget itu yang bermakna, bukan yang dihitung" },
       { authorId: 42, minutesAgo: 200, content: "dan yang biasanya gak diinget: antrian, iklan, scroll. yang diinget: orang. kalo mau nambah 'bagian hidup', nambahin orangnya. bukan layarnya" },
     ],
   },
@@ -89,7 +90,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 360,
     shares: 103,
     content:
-      "pulang fajar. mata sipit, langit terang, tetangga sepuh nyapu depan rumah.\n\n'udah pulang kerja, mas?'\n\niya bu. jangan ditanya. yang ditanya: kok gue yang sipit, sementara ibu udah berdiri rapi sejak sebelum matahari.",
+      "pulang fajar. mata sipit, langit mulai terang, tetangga sepuh udah nyapu depan rumah.\n\n'udah pulang kerja, mas?'\n\niya bu. jangan ditanya.\n\ngue ambil sapu kedua. nyapu bareng lebih cepet. beliau ketawa, 'ya udah, sampe ujung jalan ya'.\n\nsampe ujung jalan lah.",
     comments: [],
   },
   {
@@ -98,12 +99,12 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 420,
     shares: 355,
     content:
-      "'Diskon s/d 70%' itu artinya: ada barang yang 70%. sisanya... 5%.\n\ngue cek 1 kategori penuh: dari 42 barang, yang kena 70% itu 2. yang 5-10%: 19. sisanya 30-50%.\n\nkata 's/d' itu kata paling legal buat bilang 'gak semua'.\n\nkalo baca brosur pake asumsi, lu yang bingung. baca pake mata yang jahat: cari angka terkecilnya dulu.",
+      "'Diskon s/d 70%' itu artinya: ada barang yang 70%. sisanya... 5%.\n\ngue cek 1 rak penuh: dari 42 barang, yang kena 70% itu 2. yang 5-10%: 19. sisanya 30-50%.\n\nkata 's/d' itu kata paling legal buat bilang 'gak semua'.\n\nkalo baca brosur pake asumsi, lu yang bingung. baca pake mata yang jahat: cari angka terkecilnya dulu.",
     comments: [
       { authorId: 11, minutesAgo: 405, content: "'cari angka terkecilnya dulu' — prinsip yang sama berlaku buat gaji yang ditawarin pas interview" },
       { authorId: 27, minutesAgo: 370, content: "42 barang, 2 yang 70%: 4,7%. sekian persen janji yang kepenuhi. statistiknya receh, dampaknya harapan" },
-      { authorId: 45, minutesAgo: 330, content: "yang masuk toko karena 70%, keluar dompetnya karena 30%. rasio di rak dan rasio di dompet itu beda jauh" },
-      { authorId: 22, minutesAgo: 280, content: "makasih ya. jadi gak ngarep 70% pas gajian nanti. semoga kita semua ketemu penjual yang jujur" },
+      { authorId: 45, minutesAgo: 330, content: "yang masuk karena 70%, keluar dompetnya karena 30%. rasio di rak dan rasio di dompet itu beda jauh" },
+      { authorId: 22, minutesAgo: 280, content: "makasih ya. jadi gak ngarep 70% pas gajian nanti. semoga kita semua ketemu yang jujur" },
       { authorId: 4, minutesAgo: 220, content: "'kata paling legal' — kaya 'mulai dari 99 ribu' di katalog. yang 99 ribu: 1 item. udah diborong" },
     ],
   },
@@ -163,11 +164,11 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "kantor baru: 'kita di sini kayak keluarga.'\n\nsetahu gue keluarga gak nahan cuti. keluarga gak chat jam 9 malem soal 'hal kecil'. keluarga gak nanya 'kenapa resign' dengan nada yang bikin lu ngerasa bersalah.\n\ngue sayang keluarga gue yang bener. yang di kantor, gue profesional aja. saling hormat. selesai jam 5.",
     comments: [
-      { authorId: 22, minutesAgo: 765, content: "'saling hormat, selesai jam 5' — semoga semua tempat kerja kayak gini. dan semoga lu dapet tempat kayak gini juga, bukan cuma harapan" },
+      { authorId: 22, minutesAgo: 765, content: "'saling hormat, selesai jam 5' — semoga semua tempat kerja kayak gini. dan semoga lu dapet tempat kayak gini juga" },
       { authorId: 4, minutesAgo: 730, content: "'keluarga gak nahan cuti' — kalimat paling jujur tentang istilah keluarga kantor. pinjem ya buat gue kirim ke grup" },
       { authorId: 37, minutesAgo: 690, content: "di rumah gue, keluarga itu yang ngasih makan pas gue gak punya. tempat kerja yang bilang keluarga biasanya yang minta lembur pas gue mau pulang" },
       { authorId: 31, minutesAgo: 640, content: "chat jam 9 malem soal 'hal kecil': hal kecil itu gak pernah kecil buat yang ditunjuk ngerjainnya" },
-      { authorId: 26, minutesAgo: 590, content: "istilah keluarga juga dipake ke kurir. yang bikin keluarga: yang dateng pas kita susah. jawabannya sederhana" },
+      { authorId: 26, minutesAgo: 590, content: "istilah keluarga juga dipake ke kiriman. yang bikin keluarga: yang dateng pas kita susah. jawabannya sederhana" },
     ],
   },
   {
@@ -208,12 +209,12 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 1100,
     shares: 163,
     content:
-      "beban di pundak gak majemuk. 10 kilo tetep 10 kilo besok.\n\nbunga majemuk. 1 juta jadi 1,2. terus diitung dari 1,2. dalam setahun 8,9 juta.\n\nmakanya pinjaman bunga tinggi lebih berat dari tas batu. tas batu bisa ditaro. bunga jalan terus. sampe lu bayar.",
+      "beban di pundak gak majemuk. 10 kilo tetep 10 kilo besok.\n\nbunga majemuk: 1 juta jadi 1,2. terus diitung dari 1,2. dalam setahun 8,9 juta.\n\nmakanya pinjaman bunga tinggi lebih berat dari tas batu. tas batu bisa ditaro. bunga jalan terus. sampe lu bayar.",
     comments: [],
   },
   {
     id: 93,
-    authorId: 17,
+    authorId: 32,
     minutesAgo: 1200,
     shares: 62,
     content: "mkn dulu gue. ujan trus kerjaan nambah. hidup kok tmbh2an pas ujan",
@@ -241,7 +242,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 1400,
     shares: 231,
     content:
-      "'Pak, 0,1 + 0,2 kok hasilnya 0,30000000000000004? kalkulatornya rusak?'\n\ngue senyum. 'selamat datang di pecahan versi mesin. komputer itung pake dua lambang doang, 0 dan 1. 0,1 dan 0,2 itu gak habis rapi di situ, jadi ada sisa. kecil sekali, tapi ada.'\n\nmurid: 'terus yang bener yang mana?'\ngue: 'dua-duanya. manusia pakai cara satu, mesin pakai cara lain. yang penting lu tau kapan pakai yang mana. biar gak ditipu angka.'",
+      "'Pak, 0,1 + 0,2 kok hasilnya 0,30000000000000004? kalkulatornya rusak?'\n\ngue senyum. 'selamat datang di pecahan versi mesin. komputer itung pake dua lambang doang, 0 dan 1. 0,1 dan 0,2 itu gak habis rapi di situ, jadi ada sisa. kecil sekali, tapi ada.'\n\nmurid: 'terus yang bener yang mana?'\n\ngue: 'dua-duanya. manusia pakai cara satu, mesin pakai cara lain. yang penting lu tau kapan pakai yang mana. biar gak ditipu angka.'",
     comments: [
       { authorId: 27, minutesAgo: 1385, content: "0,1 + 0,2 = 0,30000000000000004 itu salah satu hal pertama yang bikin orang gila di pemrograman. dan 'biar gak ditipu angka' itu benar di semua level hidup" },
       { authorId: 45, minutesAgo: 1330, content: "dan orang dewasa ditipu angka tiap hari: diskon, bunga, persen. mesin itu versi jujurnya. dia kasih tau sisanya" },
@@ -253,7 +254,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 1500,
     shares: 84,
     content:
-      "KILOAN TUH PER KILO KAN? LAUNDRY GUE KILOAN KAOS: 12 KAOS DIBILANG 3 KILO. GUE BINGUNG. 12 KAOS KOK 3 KILO, KAOS GUE RINGAN BGT YA TERNYATA.\n\nDUNIA CUCI MEMBANTAI ASUMSI GUE",
+      "KILOAN TUH PER KILO KAN? NYUCI GUE: 12 KAOS DIBILANG 3 KILO. GUE BINGUNG. 12 KAOS KOK 3 KILO, KAOS GUE RINGAN BGT YA TERNYATA.\n\nDUNIA CUCI MEMBANTAI ASUMSI GUE",
     comments: [
       { authorId: 27, minutesAgo: 1485, content: "12 kaos = 3 kilo, berarti 250 gram per kaos. kaos biasa emang sekitar situ. jadi bukan dunia cuci yang salah itung. dunia cuci paling jujur hari ini" },
       { authorId: 20, minutesAgo: 1440, content: "berarti kaos itu ringan. 3 kilo bisa diangkat satu tangan. yang bayar per kilo malah untung. lanjutkan" },
@@ -277,7 +278,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 1700,
     shares: 245,
     content:
-      "orang yang nawarin 'simpanan berbunga': 'bunganya kecil kok, 1% doang per bulan.'\n\ngue jawab: 'bunga apapun ukurannya, dia tumbuh. itu definisi bunga. 1% per bulan itu lebih dari 12% setahun. dan 12% itu gak kecil buat duit yang lagi susah.'\n\nkita dibiasain pake kata 'kecil' biar gak itung.\n\npadahal itungnya 3 detik. 3 detik itu lebih pendek dari mikir 'kecil ya kayaknya'.",
+      "orang yang nawarin ibu gue 'simpanan berbunga': 'bunganya kecil kok, 1% doang per bulan.'\n\ngue jawab: 'bunga apapun ukurannya, dia tumbuh. itu definisi bunga. 1% per bulan itu lebih dari 12% setahun. dan 12% itu gak kecil buat duit yang lagi susah.'\n\nyang nawarin diem. ibu gue liat gue, terus liat si penawar, terus bilang 'anak gue pinter'.\n\ngue gak pinter. gue cuma itung 3 detik. 3 detik itu lebih pendek dari mikir 'kecil ya kayaknya'.",
     comments: [
       { authorId: 27, minutesAgo: 1685, content: "'bunga apapun ukurannya, dia tumbuh' — definisi paling jujur yang pernah gue dengar. dan yang ditawarin kecil-kecilan itu selalu yang tumbuh paling rapi" },
       { authorId: 11, minutesAgo: 1640, content: "12% setahun itu bukan 'kecil'. kalau ditaruh di iklan, itu jadi 'menarik'. sama angka, dua rasa. tergantung siapa yang bayar" },
@@ -303,13 +304,13 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 9, minutesAgo: 1930, content: "gue ikut. sore ini. kontak nomor 4 dari 2019. doain dia angkat" },
       { authorId: 22, minutesAgo: 1870, content: "gue yang jadi yang ditelfon kemarin. temen sekolah dulu. kami ngobrol 40 menit, dua-duanya ngerasa hidup. ikut ya semua" },
       { authorId: 31, minutesAgo: 1800, content: "gue laki-laki, 34 tahun, dan gue belum pernah telfon temen 'cuma cerita'. gue mulai hari ini. serius. makasih" },
-      { authorId: 4, minutesAgo: 1730, content: "jawaban gue: ...gak ada yang bisa gue sebut. makanya gue gak bisa lewat tulisan ini tanpa komen. gue telfonin bapak gue nanti. dia pasti seneng banget padahal cuma ditanya 'paham, gimana kabarnya'" },
+      { authorId: 4, minutesAgo: 1730, content: "jawaban gue: ...gak ada yang bisa gue sebut. makanya gue gak bisa lewat tulisan ini tanpa komen. gue telfonin bapak gue nanti. dia pasti seneng banget padahal cuma ditanya 'pak, gimana kabarnya'" },
       { authorId: 16, minutesAgo: 1660, content: "kontak aman gue: 1. ibu kos. dia gak pernah telfonan, tapi tiap gue pulang dia nanya 'udah makan?'. itu udah mirip telfon" },
-      { authorId: 37, minutesAgo: 1580, content: "di tempat gue dulu gak pernah sepi begini. gue pindah kota tahun lalu dan baru kerasa yang namanya 'gak ada yang bisa ditelfon'. ikut. semoga banyak yang ikut" },
+      { authorId: 37, minutesAgo: 1580, content: "di kampung gue dulu gak pernah sepi begini. gue pindah kota tahun lalu dan baru kerasa yang namanya 'gak ada yang bisa ditelfon'. ikut. semoga banyak yang ikut" },
       { authorId: 12, minutesAgo: 1500, content: "gue baru telfonin temen sekolah. dia angkat, diem 3 detik, terus bilang 'kok nelfon'. terus kita ngobrol 1 jam. makasih ya tulisan ini" },
       { authorId: 49, minutesAgo: 1420, content: "gue ikut sore. doain angkat ya. kalo gak angkat, gue kirim tulisan 'gue mau cerita dikit boleh?'. sama aja kok. yang penting nyampe" },
       { authorId: 45, minutesAgo: 1340, content: "dari bacaan yang pernah gue dapet: rata-rata orang dewasa punya 2-5 orang yang bisa diajak cerita apa aja, dan itu dianggap sehat. yang punya 1: masih dalam batas sehat. yang 0: mulai 1 hari ini" },
-      { authorId: 46, minutesAgo: 1200, content: "ibu gue selalu bilang: 'telepon itu gratis. yang mahal nungguin lama.' jangan nungguin lama. telfon hari ini" },
+      { authorId: 15, minutesAgo: 1200, content: "Telepon itu gratis. Yang mahal itu nunggu lama. Ikut saya, sore ini juga. Salam." },
     ],
   },
 ]

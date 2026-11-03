@@ -55,7 +55,7 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
             <textarea
               ref={inputRef}
               value={text}
-              onChange={(e) => setText(e.target.value)}
+              onChange={(e) => setText(e.target.value.slice(0, MAX_POST))}
               onKeyDown={(e) => {
                 if (e.key === "Escape") {
                   setOpen(false)

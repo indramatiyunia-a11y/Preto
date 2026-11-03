@@ -2,12 +2,13 @@ import type { ThreadzThread } from "../types"
 
 // PART 3: cuitan 51-75.
 //
-// PANDUAN SUARA:
-// 39: ahli pendek ngena, "saya"              42: ahli anti-mesin, tenang ngeri
-// 45: ahli angka ngeri                       30: ahli panjang tapi manusiawi
-// 32: bego gen-z singkatan                   50: bego caps acak
-// ATURAN DUNIA: nol merek, nol nama usaha orang. Acuan universal: rumah, bus,
-// kelas, dapur, ladang, langit. Aman dibaca anak sampai kakek.
+// JARAN SUARA:
+//  39: pendek, "saya", to the point.   42: tenang, satu gambar cukup
+//  45: itungan rumah tangga.           30: cerita panjang orang nyelametin orang
+//  32: singkatan (tdi, mkn, gk).       50: CAPS mendadak
+//  14: guru, dialog sama anak murid.   40: teknisi rumahan, keluarga rusak
+// ATURAN DUNIA: nol merek, nol nama usaha/orang. Acuan: rumah, bus, kelas,
+// dapur, ladang, langit. Aman dibaca bocah sampai eyang.
 export const THREADS_PART3: ThreadzThread[] = [
   {
     id: 51,
@@ -15,7 +16,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 40,
     shares: 112,
     content:
-      "baru sadar: udah 2 tahun gak beli baju baru. bukan strategi hemat. lupa.\n\ndan yang lebih aneh: gak kangen belanja sama sekali. dulu rasanya penting banget. ternyata yang penting duit buat makan dan naik kendaraan.",
+      "baru sadar: udah 2 tahun gak beli baju baru. bukan strategi hemat. lupa.\n\ndan yang lebih aneh: gak kangen belanja sama sekali. dulu rasanya penting banget. ternyata yang penting duit buat makan dan naik kendaraan.\n\noke. tulisan ini gue posting biar gak lupa dua-duanya.",
     comments: [],
   },
   {
@@ -24,10 +25,10 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 80,
     shares: 143,
     content:
-      "'bunga harian 1% doang.'\n\noke kita itung. 1% per hari, dihitung berbunga-bunga: (1,01)^365 ≈ 37,8 kali setahun. dari 1 juta jadi 37,8 juta.\n\nsaya gak menipu. silakan cek kalkulator. kata 'doang' itu kata paling mahal di dunia pinjaman.",
+      "ibu gue ditawarin tetangga: 'simpanan, bunga harian 1% doang.'\n\nkita itung bareng di meja makan. 1% per hari, dan bunganya ikut berbunga: setahun jadi kira-kira 37 kali lipat.\n\n1 juta jadi 37 juta. ibu gue bilang, 'berarti tetangganya kaya dong'.\n\nnah. itu pertanyaan yang gak bisa dijawab si penawar.\n\nibu gue gak ikut. ibu selalu menang.",
     comments: [
-      { authorId: 1, minutesAgo: 70, content: "37,8 kali. gue baca 3 kali. baru kerasa ngerinya pas gue itung sendiri" },
-      { authorId: 46, minutesAgo: 55, content: "harusnya tulisan ini ditempel di pintu-pintu. banyak yang ditawarin '1% doang' sama orang dekat, gak sadar itu bola salju" },
+      { authorId: 1, minutesAgo: 70, content: "37 kali. gue baca 3 kali. baru kerasa ngerinya pas gue itung sendiri" },
+      { authorId: 46, minutesAgo: 55, content: "harusnya tulisan ini ditempel di pintu-pintu rumah. banyak yang ditawarin '1% doang' sama orang dekat" },
     ],
   },
   {
@@ -36,9 +37,9 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 120,
     shares: 95,
     content:
-      "nabung di kantong celana itu ide gak bener. udah gue buktiin 3 kali: tiap dicuci ilang.\n\ngue gak tau duit gue di mana. di mesin cuci? di alam semesta? tolong yang paham keuangan jelasin, gue siap belajar (kalau duitnya ketemu)",
+      "nabung di kantong celana itu ide gak bener. udah gue buktiin 3 kali: tiap dicuci ilang.\n\ngue gak tau duit gue di mana. di mesin cuci? di alam semesta? tolong yang paham keuangan jelasin.\n\ngue siap belajar. asal duitnya ketemu dulu.",
     comments: [
-      { authorId: 27, minutesAgo: 112, content: "celana itu bukan tempat nabung. dia tempat transit. nabung yang bener: tempat yang gak gampang lu sentuh. celana dicuci tiap minggu, rekening gak pernah dicuci. pilih sendiri" },
+      { authorId: 27, minutesAgo: 112, content: "celana itu bukan tempat nabung. dia tempat transit. nabung yang bener: tempat yang gak gampang lu sentuh. celana dicuci tiap minggu, gentong gak pernah dicuci. pilih sendiri" },
       { authorId: 20, minutesAgo: 95, content: "berarti lu rugi 3 kali nabung. kalo 50 ribu per nabung, 150 ribu. anggep aja biaya les 'jangan nabung di celana'. murah kok" },
     ],
   },
@@ -48,10 +49,10 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 170,
     shares: 158,
     content:
-      "diputusin via chat. hari yang sama gue ada ujian.\n\ndi kelas, gue baca chat di pojokan sambil jaga muka biar gak ketahuan.\n\nskor ujian: keluar besok. skor hati: keluar duluan.",
+      "diputusin via chat. hari yang sama gue ada ujian.\n\ndi kelas, gue baca chat itu di pojokan sambil jaga muka biar gak ketahuan.\n\nskor ujian: keluar besok. skor hati: keluar duluan, nanggung banget.",
     comments: [
       { authorId: 19, minutesAgo: 160, content: "jaga muka di kelas itu kerja berat. semangat dek. skor ujian bisa diulang. skor hati juga, cuma lebih lama" },
-      { authorId: 46, minutesAgo: 140, content: "kamu pasti kuat. yang nulis chat begitu gak sepadan sama yang nungguin balasan secepat dia nulis" },
+      { authorId: 46, minutesAgo: 140, content: "kamu pasti kuat. yang nulis chat begitu gak sepadan sama yang nungguin balasan" },
     ],
   },
   {
@@ -73,7 +74,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 290,
     shares: 71,
     content:
-      "PARAH BANGET. HP VIBRATES. GUE KIRA BONUS.\n\nTERNYATA PENGUMUMAN JADWAL LEMBUR AKHIR PEKAN.\n\nEKSPETASI TINGGI, REALITA RELA TIDAK",
+      "PARAH BANGET. HP GETAR. GUE KIRA BONUS.\n\nTERNYATA PENGUMUMAN JADWAL LEMBUR AKHIR PEKAN.\n\nEKSPETASI TINGGI, REALITA LEMBUR.",
     comments: [
       { authorId: 24, minutesAgo: 280, content: "ekspetasi tinggi, realita lembur. rasio kecewa: tak terbatas dibagi 2 hari" },
     ],
@@ -84,7 +85,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 340,
     shares: 96,
     content:
-      "penjual salah kembalin gue 10 ribu tadi pagi. gue udah nyampe rumah baru ngeh.\n\ngue balik lagi. dia bingung, terus senyum, terus makasihnya tiga kali.\n\nbukan pahlawan. cuma kembalian 10 ribu itu bisa beli banyak hal, gak bisa beli tidur nyenyak.",
+      "tadi sore gue inget gue minjem 10 ribu ke tetangga... 3 minggu lalu. dia udah lupa. gue gak lupa.\n\ngue balikin sekarang juga. dia bingung, terus senyum, terus makasihnya tiga kali.\n\nrasanya dada gak sesek lagi.\n\n10 ribu, 3 minggu, dada lega. itung-itungan begini yang gue suka.",
     comments: [],
   },
   {
@@ -97,7 +98,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     comments: [
       { authorId: 11, minutesAgo: 385, content: "rasio 3:0,5 itu bukan hidup seimbang. itu demo fisika tentang gesekan tanpa pelumas" },
       { authorId: 18, minutesAgo: 350, content: "nasi yang kena rasio salah masih bisa dimakan. manusia yang kena rasio salah harus dibenerin dulu sebelum bisa jalan lagi" },
-      { authorId: 45, minutesAgo: 310, content: "istirahat yang disarankan: 7-8 jam. rasio aktual banyak orang: 5 jam + terus scroll. hasilnya keliatan di kacamata dan di kesabaran" },
+      { authorId: 45, minutesAgo: 310, content: "istirahat yang disarankan 7-8 jam. rasio aktual banyak orang: 5 jam + terus scroll. hasilnya keliatan di kacamata dan di kesabaran" },
       { authorId: 33, minutesAgo: 260, content: "gue nyalahin panci. dia yang bilang 'masak'. padahal yang harus jalan kita" },
     ],
   },
@@ -107,9 +108,9 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 460,
     shares: 59,
     content:
-      "makan bareng 4 orang. total 400 ribu. gue pikir berarti tiap orang 100 ribu.\n\nyang pesen teh doang protes. kok ya padahal tehnya 10 ribu. kalo diturunin jadi 90 ribu kan kurang 10 ribu. terus siapa yang bayarin 10 ribu itu",
+      "makan bareng 4 orang. total 400 ribu. gue pikir berarti tiap orang 100 ribu.\n\nyang pesen teh doang protes. kok ya padahal tehnya 10 ribu. kalo diturunin jadi 90 ribu kan kurang 10 ribu. terus siapa yang bayarin 10 ribu itu.",
     comments: [
-      { authorId: 44, minutesAgo: 445, content: "yang bayarin 10 ribu itu yang paling beneran sayang. karena di grup, yang disangka rela diam-diam jadi dompet bersama. jangan biarin" },
+      { authorId: 44, minutesAgo: 445, content: "yang bayarin 10 ribu itu yang paling sayang. di grup, yang disangka rela diam-diam jadi dompet bersama. jangan biarin" },
       { authorId: 20, minutesAgo: 400, content: "solusinya gampang: catet per orang pas pesen. 4 orang 4 baris. selesai. patungan rata itu bukan keadilan, itu males itung" },
     ],
   },
@@ -133,10 +134,10 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 600,
     shares: 147,
     content:
-      "yang bilang 'dikit-dikit aja kok, 10 ribu doang':\n\n10 ribu/hari x 365 = 3,65 juta setahun.\n\ndan itu bukan sekali. itu TIAP TAHUN. lima tahun: 18,25 juta. sepuluh tahun: 36,5 juta.\n\n'cuma' 10 ribu itu bukan dikit. dia dikit di hari. tapi dia jabat tangan sama waktu.",
+      "di rumah kita skema begini: tiap hari masuk kaleng 10 ribu. bukan buat nabung gede. buat belajar.\n\nakhir bulan kita itung bareng anak-anak: 10 x 30 = 300 ribu.\n\nanak pertama itung. anak kedua ngecheck. anak ketiga nunggu giliran.\n\n300 ribu itu buat apa? anak-anak sendiri yang ngurusin daftarnya. sekarang daftarnya: sepeda kedua, buku, dan 'buat bantu ibu kalo-kalo'.\n\nudah jalan 3 bulan. kalengnya penuh. anak-anaknya bangga.",
     comments: [
-      { authorId: 3, minutesAgo: 585, content: "'jabat tangan sama waktu' — waktu gak pernah kalah jabat tangan. dia cuma nunggu lu lepas" },
-      { authorId: 37, minutesAgo: 540, content: "10 ribu per hari di tempat gue bisa jadi uang jajan 2 anak seminggu. dan ada yang bakar buat 'iseng'. sedihnya nyata" },
+      { authorId: 3, minutesAgo: 585, content: "'buat bantu ibu kalo-kalo' — yang nulis daftarnya anak ya? jangan dijawab. biar kita semua tetap kagum" },
+      { authorId: 37, minutesAgo: 540, content: "10 ribu per hari di tempat gue bisa jadi jajan 2 anak seminggu. kaleng begini gak pernah rugi. ikut ya" },
     ],
   },
   {
@@ -167,11 +168,11 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 830,
     shares: 176,
     content:
-      "tadi pagi di toko ada yang teriak: 'diskon 30% terus 30% lagi berarti 60% dong!'\n\ngue jawab pelan: 100 jadi 70, terus 49. jadi 51%.\n\ntoko jadi sepi 3 detik. terus semua orang balik belanja.\n\nkadang orang gak butuh benar. cuma butuh kedengeran.",
+      "tadi pagi di depan gudang ada yang teriak: 'diskon 30% terus 30% lagi berarti 60% dong!'\n\ngue jawab pelan: 100 jadi 70, terus 49. jadi 51%.\n\nsuasana diem 3 detik. terus semua orang lanjut ambil barang.\n\nanak gue bisik, 'pa, kenapa mereka tetep ambil?'\n\ngue juga gak jawab. sama kaya gue juga tetep ambil.",
     comments: [
       { authorId: 27, minutesAgo: 810, content: "100 → 70 → 49. tiga angka ini harusnya diajarkan di sekolah dasar pake cerita begini. hafal seumur hidup" },
-      { authorId: 24, minutesAgo: 750, content: "'orang gak butuh benar, cuma butuh kedengeran' — ini juga berlaku di kantor, di grup keluarga, di rumah" },
-      { authorId: 42, minutesAgo: 690, content: "dan penjual paling paham ini. makanya diskon yang dicetak gede selalu bertumpuk. keliatan gede, jujurnya 51" },
+      { authorId: 24, minutesAgo: 750, content: "'kenapa mereka tetep ambil' — pertanyaan itu juga berlaku di kantor, di grup keluarga, di rumah" },
+      { authorId: 42, minutesAgo: 690, content: "yang jual paling paham. makanya diskon yang dicetak gede selalu bertumpuk. keliatan 60, jujurnya 51" },
     ],
   },
   {
@@ -196,7 +197,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       "kalau hari ini kerasa gagal: lu bangun, lu masih coba. itu udah 2 hal yang gak semua orang bisa.\n\ngagal itu gak nempel di badan. dia lewat. kadang dia nunggu di sudut buat ngetes lu besok. tapi dia gak tinggal.\n\nistirahat ya. jangan nyerah.",
     comments: [
       { authorId: 27, minutesAgo: 985, content: "istirahat yang bener itu bagian dari kerja. mesin yang gak pernah mati biasanya rusak duluan" },
-      { authorId: 33, minutesAgo: 920, content: "'gagal gak nempel di badan, dia lewat' — pinjem buat tulisan besok pagi. dengan izin tentu" },
+      { authorId: 33, minutesAgo: 920, content: "'gagal gak nempel di badan, dia lewat' — gue tulis ulang di kertas, tempel di kulkas. biar dibaca tiap buka pintu" },
       { authorId: 46, minutesAgo: 840, content: "makasih ya. ibu-ibu baca ini sambil duduk 5 menit sebelum masak malam. tepat waktu banget" },
     ],
   },
@@ -206,7 +207,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1100,
     shares: 245,
     content:
-      "cerita singkat, harap dibaca sampai habis.\n\ntahun 2021 gue punya temen kuliah. orangnya rapi, sopan, jajan gak lebih dari 15 ribu. semester 5 dia kenal 'aplikasi yang bisa nambahin uang' dari senior.\n\n3 bulan: uang kuliah telat.\n6 bulan: HP dijual, ganti HP tua warisan.\n8 bulan: berhenti kuliah 1 semester, kerja buat lunasin.\nsekarang: udah lulus. tapi dia bilang, 'gue masih gak bisa lihat kata bonus tanpa deg-degan.'\n\nyang gue pelajari: aplikasi itu gak pernah jadi teman. dia jadi langganan. bedanya teman sama langganan: teman nolong pas susah. langganan nunggu lu gajian.\n\nkalo ada yang nawarin 'cuan' di layar, inget dia. tolong.",
+      "cerita singkat, harap dibaca sampai habis.\n\ntahun 2021 gue punya temen kuliah. orangnya rapi, sopan, jajan gak lebih dari 15 ribu. semester 5 dia kenal 'aplikasi yang bisa nambahin uang' dari senior.\n\n3 bulan: uang kuliah telat.\n6 bulan: HP dijual, ganti HP tua warisan.\n8 bulan: berhenti kuliah 1 semester, kerja buat lunasin.\nsekarang: udah lulus. tapi dia bilang, 'gue masih gak bisa lihat kata bonus tanpa deg-degan.'\n\ngue nulis ini bukan buat nasehatin siapa-siapa. gue cuma gak mau lupa.\n\naplikasi itu gak pernah jadi teman. dia jadi langganan. teman nolong pas susah. langganan nunggu lu gajian.",
     comments: [
       { authorId: 14, minutesAgo: 1080, content: "'teman nolong pas susah, langganan nunggu lu gajian' — kalimat ini yang harusnya masuk buku sekolah. siapa pun jurusannya" },
       { authorId: 37, minutesAgo: 1000, content: "di tempat gue ada versi kupas gaji: tiap tanggal 1 duitnya udah habis sebelum nyampe rumah" },
@@ -232,9 +233,9 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1300,
     shares: 176,
     content:
-      "ada yang nawarin gue 'investasi' 300% setahun. modal 1 juta jadi 3 juta. dikasih bukti transfer, testimoni, grup eksklusif.\n\ngue nanya 1 hal doang: 'dari mana duitnya?'\n\njawabannya: 'yang penting cair kan bang.'\n\niya. yang cair itu duit orang lain. yang gak cair: akal sehat.",
+      "ada yang nawarin gue 'investasi' 300% setahun. modal 1 juta jadi 3 juta. dikasih bukti transfer, testimoni, grup eksklusif.\n\ngue nanya 1 hal doang: 'dari mana duitnya?'\n\njawabannya: 'yang penting cair kan bang.'\n\niya. yang cair itu duit orang lain. akal sehat yang gak cair.",
     comments: [
-      { authorId: 16, minutesAgo: 1280, content: "'yang cair itu duit orang lain' — gue pernah masuk grup kayak gitu gara-gara 'bukti transfer'. keluar rugi 750 ribu. anggep aja bayar les jangan gampang percaya" },
+      { authorId: 16, minutesAgo: 1280, content: "gue pernah masuk grup kayak gitu gara-gara 'bukti transfer'. keluar rugi 750 ribu. anggep aja bayar les jangan gampang percaya" },
       { authorId: 26, minutesAgo: 1200, content: "300% setahun itu bukan investasi. itu ikan. ikan besar makan ikan kecil, yang masuk belakangan jadi makanan" },
       { authorId: 44, minutesAgo: 1100, content: "gue juga pernah ditawarin. untung duit gue gak ada. kadang miskin itu menyelamatkan" },
     ],
@@ -245,7 +246,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1400,
     shares: 129,
     content:
-      "slip gaji itu dokumen paling kreatif di dunia kerja:\n\n- gaji bruto: angka yang bikin lu seneng pas interview\n- gaji netto: angka yang nongol di rekening\n- take home pay: angka yang sama dengan netto tapi kedengeran lebih hangat\n\ntiga nama. satu dompet. dan yang paling sering dipake di chat: yang paling gede.",
+      "sepupu gue baru dapet kerja. dia kirim slip gaji pertamanya bingung.\n\n'gaji bruto 4,5. netto 3,9. take home pay 3,9. yang mana yang bener bang?'\n\ntiga nama. satu dompet. yang nyampe rekening ya yang 3,9.\n\ngue jawab: 'yang bener buat lu: 3,9. yang 4,5 itu buat cerita pas interview.'",
     comments: [
       { authorId: 11, minutesAgo: 1380, content: "bruto itu angka pemasaran. netto itu angka kenyataan. take home pay itu kenyataan yang dibungkus karung imut" },
       { authorId: 43, minutesAgo: 1300, content: "baru dapet tawaran kerja pertama dan sekarang gue mikir: 'yang mereka maksud yang mana ya'" },
@@ -304,17 +305,17 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1950,
     shares: 276,
     content:
-      "pelanggan: 'bang, komputer gue lambat. gak ada virus kan?'\n\ngue buka: 47 aplikasi jalan bareng. 12 di antaranya 'pembersih' yang saling bersihin. pembersih 3, saling tikung.\n\nRAM 4 GB. tab browser: 38.\n\ngue tanya: 'kemarin ngapain aja bang?'\njawab: 'biasa aja, buka chat doang.'\n\n'chat doang' yang punya 38 tab.\n\ngak jadi gue ceritain pembersih yang ketiga saling bunuh. biar jadi cerita lu sendiri pas HP lu lemot.\n\npesan gue satu: yang bikin lambat itu jarang virus. yang sering: isinya kebanyakan mikir bareng.",
+      "HP bapak gue lemot. gue bilang, 'coba liat isinya'.\n\nbuka: 47 aplikasi jalan bareng. 12 di antaranya aplikasi 'pembersih' yang saling bersihin. pembersih nomor 3 kayak lagi ngejar pembersih nomor 7.\n\ntab browser: 38. semuanya situs berita. 'bapak baca berita banyak ya.' 'oh iya ya.'\n\ngue tanya: 'kemarin ngapain aja pak?'\n\njawab: 'biasa aja, buka chat doang.'\n\n'chat doang' yang punya 38 tab.\n\nsekarang HP bapak gue lancar. beliau ngerasa beliau yang pinter. biarin.",
     comments: [
       { authorId: 9, minutesAgo: 1930, content: "38 tab. gue 61. dan gue gak mau ngaku dulu. hari ini gue tutup 20. hidup langsung enteng. bukan cuma HP" },
       { authorId: 31, minutesAgo: 1870, content: "'chat doang yang punya 38 tab' — kaya 'gue cuma nonton doang' terus nonton 4 jam" },
-      { authorId: 16, minutesAgo: 1780, content: "pembersih 3 saling tikung itu komedi. stand up jam 10 pagi di tempat servis" },
+      { authorId: 16, minutesAgo: 1780, content: "pembersih nomor 3 ngejar nomor 7 itu komedi. stand up jam 10 pagi di kamar" },
       { authorId: 43, minutesAgo: 1690, content: "gue baca ini sambil liat HP gue: 6 aplikasi 'bersih-bersih'. gue gak berani uninstall. gue takut kehilangan... gak tau apa. kemungkinan?" },
-      { authorId: 4, minutesAgo: 1590, content: "'yang bikin lambat jarang virus, yang sering isinya kebanyakan' — oke. gue merasa disindir tapi gak bisa buktiin" },
+      { authorId: 4, minutesAgo: 1590, content: "yang bikin lambat jarang virus, yang sering isinya kebanyakan. oke. gue merasa disindir tapi gak bisa buktiin" },
       { authorId: 12, minutesAgo: 1480, content: "bang gue mau nanya: HP gue nyala tapi layar item. itu virus gak? (abaikan. ternyata gue gak pencet tombol nyala. kegelapan doang)" },
       { authorId: 26, minutesAgo: 1350, content: "gue bersihin HP sendiri pas dulu pandemi. 'pembersih' dari 12 jadi 2. penghematan RAM sebesar hidup gue" },
       { authorId: 49, minutesAgo: 1200, content: "gue kirim ke grup. ada yang jawab 'gue 72 tab'. gue gak tau dia gimana caranya hidup" },
-      { authorId: 45, minutesAgo: 900, content: "RAM 4 GB, 47 aplikasi: 0,085 GB per aplikasi. buat perbandingan: 1 tab modern rata-rata makan 0,15 GB. jadi komputer lu bukan lambat. dia sedang berdoa" },
+      { authorId: 45, minutesAgo: 900, content: "RAM 4 GB, 47 aplikasi: kira-kira 0,085 GB per aplikasi. 1 tab browser modern rata-rata makan 0,15 GB. jadi HP lu bukan lambat. dia sedang berdoa" },
     ],
   },
 ]
