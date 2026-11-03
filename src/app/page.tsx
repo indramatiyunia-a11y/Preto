@@ -1,10 +1,10 @@
 "use client"
 
 import { useCallback, useEffect, useMemo, useState } from "react"
-import { Dices } from "lucide-react"
+import { ArrowDown, Dices } from "lucide-react"
 import { THREADS } from "@/lib/threadz/threads"
 import { getUser } from "@/lib/threadz/data/users"
-import { pickRandomReply, pickRandomReplyUser, randomVisitor } from "@/lib/threadz/extras"
+import { randomVisitor } from "@/lib/threadz/extras"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { ThreadCard } from "@/components/threadz/thread-card"
 import { ThreadModal, type LiveComment } from "@/components/threadz/thread-modal"
@@ -17,28 +17,6 @@ import { toast } from "@/hooks/use-toast"
 // feed tampil 10 post dulu, sisanya dibuka manual — biar ringan gak lagging
 const PAGE_SIZE = 10
 const LS_ME = "threadz:me"
-const LS_EXTRA = "threadz:extra"
-/** peluang ada yang bales komen lu. sengaja kecil. dunia gak diem nungguin lu. */
-const REPLY_CHANCE = 0.01
-
-interface ExtraStore {
-  comments: Record<string, LiveComment[]>
-  /** cuitan buatan pengunjung, id-nya negatif biar gak nabrak data seeded */
-  posts: ThreadzThread[]
-}
-
-function loadExtras(): ExtraStore {
-  try {
-    const raw = localStorage.getItem(LS_EXTRA)
-    if (raw) {
-      const parsed = JSON.parse(raw) as Partial<ExtraStore>
-      return { comments: parsed.comments ?? {}, posts: parsed.posts ?? [] }
-    }
-  } catch {
-    /* data rusak? buang aja */
-  }
-  return { comments: {}, posts: [] }
-}
 
 export default function Home() {
   const [tab, setTab] = useState<Tab>("terbaru")
@@ -49,9 +27,16 @@ export default function Home() {
   const [myPosts, setMyPosts] = useState<ThreadzThread[]>([])
   const [visitor, setVisitor] = useState<{ name: string; color: string } | null>(null)
 
-  // identitas, komentar & cuitan tersimpan dibaca setelah render pertama (localStorage cuma ada di browser)
+  // identitas doang yang diinget. cuitan & komentar buatan lu gak disimpen
+  // di mana pun — refresh, hilang. bersih, hemat, gak ada yang numpuk.
   useEffect(() => {
     queueMicrotask(() => {
+      // sisa data lama yang dulu sempat disimpen? buang. hemat itu juga.
+      try {
+        localStorage.removeItem("threadz:extra")
+      } catch {
+        /* biarin */
+      }
       try {
         const raw = localStorage.getItem(LS_ME)
         if (raw) {
@@ -64,9 +49,6 @@ export default function Home() {
       } catch {
         setVisitor(randomVisitor())
       }
-      const extras = loadExtras()
-      setLiveByThread(extras.comments)
-      setMyPosts(extras.posts)
     })
   }, [])
 
@@ -92,14 +74,6 @@ export default function Home() {
     return [...allThreads].sort((a, b) => a.minutesAgo - b.minutesAgo)
   }, [tab, commentCountOf, allThreads])
 
-  const persistExtras = useCallback((next: ExtraStore) => {
-    try {
-      localStorage.setItem(LS_EXTRA, JSON.stringify(next))
-    } catch {
-      /* penuh? yaudah */
-    }
-  }, [])
-
   const openThread =
     openThreadId === null ? null : allThreads.find((t) => t.id === openThreadId) ?? null
 
@@ -114,30 +88,9 @@ export default function Home() {
         content: text,
       }
       const tid = String(openThreadId)
-      const updated = { ...liveByThread, [tid]: [...(liveByThread[tid] ?? []), mine] }
-      setLiveByThread(updated)
-      persistExtras({ comments: updated, posts: myPosts })
-
-      // 1% doang ada yang bales, tanpa indikator apa2. kebanyakan komen lu ya udah gitu aja.
-      if (Math.random() < REPLY_CHANCE) {
-        const responder = pickRandomReplyUser(text)
-        window.setTimeout(() => {
-          const reply: LiveComment = {
-            key: `${Date.now()}-${Math.floor(Math.random() * 1e6)}`,
-            name: responder.name,
-            color: responder.color,
-            minutesAgo: 0,
-            content: pickRandomReply(text),
-          }
-          setLiveByThread((cur) => {
-            const next = { ...cur, [tid]: [...(cur[tid] ?? []), reply] }
-            persistExtras({ comments: next, posts: myPosts })
-            return next
-          })
-        }, 6000 + Math.floor(Math.random() * 9000))
-      }
+      setLiveByThread((cur) => ({ ...cur, [tid]: [...(cur[tid] ?? []), mine] }))
     },
-    [openThreadId, visitor, liveByThread, myPosts, persistExtras]
+    [openThreadId, visitor]
   )
 
   const handlePost = useCallback(
@@ -151,14 +104,12 @@ export default function Home() {
         shares: 0,
         comments: [],
       }
-      const nextPosts = [post, ...myPosts]
-      setMyPosts(nextPosts)
-      persistExtras({ comments: liveByThread, posts: nextPosts })
+      setMyPosts((cur) => [post, ...cur])
       setTab("terbaru")
       setVisible(PAGE_SIZE)
       toast({ description: "Cuitan berhasil dikirim." })
     },
-    [visitor, myPosts, liveByThread, persistExtras]
+    [visitor]
   )
 
   const rerollIdentity = useCallback(() => {
@@ -179,7 +130,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#f4f0e8] text-stone-900">
       <div className="mx-auto max-w-[660px] px-3 pb-16 sm:px-4">
         {/* header */}
-        <header className="sticky top-0 z-30 -mx-3 border-b border-stone-200/70 bg-[#f4f0e8]/90 backdrop-blur sm:-mx-4 sm:px-4">
+        <header className="sticky top-0 z-30 -mx-3 border-b border-stone-200/80 bg-[#f4f0e8]/92 shadow-[0_1px_10px_rgba(28,25,23,0.04)] backdrop-blur-md sm:-mx-4 sm:px-4">
           <div className="flex h-14 items-center justify-between px-3 sm:px-0">
             <div className="flex items-center gap-2.5">
               <span className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-stone-900 font-serif text-lg text-amber-300 shadow-[0_1px_3px_rgba(28,25,23,0.25)]">
@@ -212,7 +163,7 @@ export default function Home() {
                 className={`-mb-px border-b-2 pb-2.5 pt-1.5 text-[14px] transition-colors ${
                   tab === t
                     ? "border-orange-700 font-semibold text-stone-900"
-                    : "border-transparent text-stone-500 hover:border-stone-300 hover:text-stone-800"
+                    : "border-transparent font-medium text-stone-500 hover:border-stone-300 hover:text-stone-800"
                 }`}
                 aria-pressed={tab === t}
               >
@@ -243,14 +194,25 @@ export default function Home() {
               <button
                 type="button"
                 onClick={() => setVisible((v) => v + PAGE_SIZE)}
-                className="rounded-full border border-stone-300 bg-white px-8 py-2.5 text-[14px] font-semibold text-stone-700 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-all hover:border-stone-400 hover:bg-stone-50 hover:shadow-[0_2px_8px_rgba(28,25,23,0.08)] active:scale-[0.98]"
+                className="group flex items-center gap-2 rounded-full border border-stone-300 bg-white px-8 py-2.5 text-[14px] font-semibold text-stone-700 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-all hover:border-stone-400 hover:bg-stone-50 hover:shadow-[0_2px_8px_rgba(28,25,23,0.08)] active:scale-[0.98]"
               >
                 Lihat lainnya
+                <ArrowDown className="h-4 w-4 text-stone-400 transition-transform group-hover:translate-y-0.5" />
               </button>
             </div>
           ) : (
-            <div className="px-4 py-14 text-center text-sm text-stone-400">
-              <p>Kamu sudah sampai ujung feed.</p>
+            <div className="px-4 py-14 text-center">
+              <p className="text-sm text-stone-400">Kamu sudah sampai ujung feed.</p>
+              <button
+                type="button"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" })
+                  setVisible(PAGE_SIZE)
+                }}
+                className="mt-2 text-[13px] font-medium text-orange-800/70 underline-offset-2 transition-colors hover:text-orange-800 hover:underline"
+              >
+                Kembali ke atas
+              </button>
             </div>
           )}
         </main>

@@ -298,7 +298,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     shares: 1,
     content:
       "jam 2 pagi. gue makan pisang di dapur sambil berdiri. gelap, gak nyalain lampu, biar gak dianggap bangun sama siapa-siapa.\n\npisangnya matang pas. ya udah. itu aja laporan malam ini.",
-    comments: [{ authorId: 4, minutesAgo: 510, content: "laporan diterima" }],
+    comments: [],
   },
   {
     id: 20,

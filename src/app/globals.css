@@ -150,6 +150,11 @@ html {
   color-scheme: light;
 }
 
+/* seleksi teks ikut tema, gak biru bawaan browser */
+::selection {
+  background: rgba(217, 119, 6, 0.22);
+}
+
 /* scrollbar biar gak kasar */
 .tz-scroll::-webkit-scrollbar {
   width: 8px;
@@ -175,4 +180,27 @@ html {
 }
 .tz-pop {
   animation: tz-pop 0.25s ease-out;
+}
+
+/* kartu masuk pelan-pelan, gak nyolot */
+@keyframes tz-rise {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.tz-rise {
+  animation: tz-rise 0.3s ease-out both;
+}
+
+/* hormatin pengguna yang gak suka gerakan */
+@media (prefers-reduced-motion: reduce) {
+  .tz-rise,
+  .tz-pop {
+    animation: none;
+  }
 }

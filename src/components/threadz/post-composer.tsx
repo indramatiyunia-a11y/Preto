@@ -32,7 +32,7 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
   }
 
   return (
-    <div className="rounded-2xl border border-stone-200/90 bg-white px-5 py-4 shadow-[0_1px_2px_rgba(28,25,23,0.05)]">
+    <div className="rounded-2xl border border-stone-200/90 bg-white px-5 py-4 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-shadow focus-within:shadow-[0_2px_10px_rgba(28,25,23,0.07)]">
       {!open ? (
         <button
           type="button"
@@ -70,8 +70,10 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
             />
             <div className="mt-2 flex items-center justify-between border-t border-stone-100 pt-2.5">
               <span
-                className={`text-[12px] tabular-nums ${
-                  MAX_POST - text.length <= 50 ? "text-orange-700" : "text-stone-400"
+                className={`rounded-full px-2 py-0.5 text-[12px] tabular-nums transition-colors ${
+                  MAX_POST - text.length <= 50
+                    ? "bg-orange-50 font-medium text-orange-800"
+                    : "text-stone-400"
                 }`}
               >
                 sisa {MAX_POST - text.length} karakter
@@ -91,7 +93,7 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
                   type="button"
                   onClick={submit}
                   disabled={!text.trim()}
-                  className="rounded-full bg-stone-900 px-5 py-1.5 text-[13px] font-semibold text-white transition-all hover:bg-stone-700 active:scale-[0.97] disabled:opacity-30"
+                  className="rounded-full bg-stone-900 px-5 py-1.5 text-[13px] font-semibold text-white shadow-[0_1px_2px_rgba(28,25,23,0.2)] transition-all hover:bg-stone-700 active:scale-[0.97] disabled:opacity-30"
                 >
                   Kirim
                 </button>

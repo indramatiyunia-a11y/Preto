@@ -23,13 +23,29 @@ interface ThreadModalProps {
   onOpenChange: (open: boolean) => void
 }
 
-function CommentRow({ name, color, content, pop = false }: { name: string; color: string; content: string; pop?: boolean }) {
+/**
+ * Komentar tampil ala gelembung: avatar + balok abu yang memuat nama & isi.
+ * Satu balok satu orang — gak ada yang ketuker siapa ngomong apa.
+ */
+function CommentRow({
+  name,
+  color,
+  content,
+  pop = false,
+}: {
+  name: string
+  color: string
+  content: string
+  pop?: boolean
+}) {
   return (
-    <div className={`flex gap-3 px-5 py-3.5 ${pop ? "tz-pop" : ""}`}>
-      <Avatar name={name} color={color} size={32} />
-      <div className="min-w-0 flex-1">
-        <span className="block truncate text-[13px] font-semibold text-stone-900">{name}</span>
-        <p className="mt-0.5 whitespace-pre-wrap text-[14.5px] leading-relaxed text-stone-700">
+    <div className={`flex gap-2.5 px-5 ${pop ? "tz-pop" : ""}`}>
+      <Avatar name={name} color={color} size={30} />
+      <div className="min-w-0 max-w-[85%] rounded-2xl bg-stone-100 px-3.5 py-2">
+        <span className="block truncate text-[12.5px] font-semibold leading-tight text-stone-800">
+          {name}
+        </span>
+        <p className="mt-0.5 whitespace-pre-wrap break-words text-[14.5px] leading-relaxed text-stone-700">
           {content}
         </p>
       </div>
@@ -71,7 +87,7 @@ export function ThreadModal({
       <DialogContent
         key={thread.id}
         showCloseButton={false}
-        className="flex max-h-[85dvh] flex-col gap-0 overflow-hidden rounded-2xl border-stone-200/80 bg-white p-0 text-stone-900 shadow-[0_8px_40px_rgba(28,25,23,0.18)] sm:max-w-[580px]"
+        className="flex max-h-[85dvh] flex-col gap-0 overflow-hidden rounded-2xl border-stone-200/80 bg-white p-0 text-stone-900 shadow-[0_12px_48px_rgba(28,25,23,0.2)] sm:max-w-[580px]"
       >
         <DialogTitle className="sr-only">Cuitan {author.name}</DialogTitle>
 
@@ -104,32 +120,28 @@ export function ThreadModal({
           </div>
 
           {/* bagian komentar — dipisah jelas biar gak nyampur sama isinya */}
-          <div className="border-t border-stone-200/80 bg-stone-50/70">
-            <p className="px-5 pb-1.5 pt-4 text-[11.5px] font-semibold uppercase tracking-[0.1em] text-stone-400">
+          <div className="border-t border-stone-200/80 bg-stone-50/80">
+            <p className="px-5 pb-2.5 pt-4 text-[11.5px] font-semibold uppercase tracking-[0.12em] text-stone-400">
               Komentar
             </p>
 
-            {thread.comments.map((c, i) => {
-              const u = getUser(c.authorId)
-              return (
-                <div key={`${thread.id}-${i}`} className="border-b border-stone-200/50 last:border-b-0">
-                  <CommentRow name={u.name} color={u.color} content={c.content} />
-                </div>
-              )
-            })}
+            <div className="flex flex-col gap-3 pb-4">
+              {thread.comments.map((c, i) => {
+                const u = getUser(c.authorId)
+                return <CommentRow key={`${thread.id}-${i}`} name={u.name} color={u.color} content={c.content} />
+              })}
 
-            {/* komentar lu tampil persis kayak komentar orang lain */}
-            {liveComments.map((c) => (
-              <div key={c.key} className="border-b border-stone-200/50 last:border-b-0">
-                <CommentRow name={c.name} color={c.color} content={c.content} pop />
-              </div>
-            ))}
+              {/* komentar lu tampil persis kayak komentar orang lain */}
+              {liveComments.map((c) => (
+                <CommentRow key={c.key} name={c.name} color={c.color} content={c.content} pop />
+              ))}
 
-            {emptyComments && (
-              <p className="px-5 py-9 text-center text-[13.5px] text-stone-400">
-                Belum ada komentar. Jadilah yang pertama.
-              </p>
-            )}
+              {emptyComments && (
+                <p className="px-5 py-8 text-center text-[13.5px] text-stone-400">
+                  Belum ada komentar. Jadilah yang pertama.
+                </p>
+              )}
+            </div>
           </div>
         </div>
 
@@ -137,7 +149,7 @@ export function ThreadModal({
         <div className="shrink-0 border-t border-stone-200/80 bg-white px-4 py-3">
           <div className="flex items-center gap-2.5">
             <Avatar name={visitor?.name ?? "lu"} color={visitor?.color ?? "#a8a29e"} size={34} />
-            <div className="flex flex-1 items-center gap-2 rounded-full border border-stone-200 bg-stone-50 py-1.5 pl-4 pr-1.5 transition-colors focus-within:border-stone-400 focus-within:bg-white">
+            <div className="flex flex-1 items-center gap-2 rounded-full border border-stone-200 bg-stone-50 py-1.5 pl-4 pr-1.5 transition-all focus-within:border-stone-400 focus-within:bg-white focus-within:shadow-[0_1px_4px_rgba(28,25,23,0.06)]">
               <input
                 value={text}
                 onChange={(e) => setText(e.target.value)}

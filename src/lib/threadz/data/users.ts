@@ -1,7 +1,11 @@
-import type { ThreadzUser } from "../types"
+import type { ThreadzUser, Persona } from "../types"
 
-// 50 warga Threadz. Nama ditentukan sistem: akiomida + 8 angka random.
+// Warga Akiomida. Nama ditentukan sistem: akiomida + 8 angka.
 // Foto profil cuma boleh warna solid, gak ada foto lain di dunia ini.
+//
+// 50 warga utama = yang rajin nulis cuitan.
+// 300 warga lalu-lalang = rame di kolom komentar aja.
+// Total 350. Biar dunianya kerasa ramai, bukan 30 muka yang itu-itu aja.
 export const USERS: ThreadzUser[] = [
   { id: 1, name: "akiomida48291037", color: "#f43f5e", persona: "awam" },
   { id: 2, name: "akiomida73615284", color: "#fb923c", persona: "begok" },
@@ -55,7 +59,57 @@ export const USERS: ThreadzUser[] = [
   { id: 50, name: "akiomida86753091", color: "#f0abfc", persona: "begok" },
 ]
 
-const USER_MAP = new Map(USERS.map((u) => [u.id, u]))
+// ---------------------------------------------------------------------------
+// Warga lalu-lalang (id 51-350). Dibikin dari benih tetap, jadi hasilnya
+// selalu sama di server dan di browser — gak ada flash, gak ada mismatch.
+// ---------------------------------------------------------------------------
+function buatBenih(seed: number) {
+  let s = seed | 0
+  return () => {
+    s = (s + 0x6d2b79f5) | 0
+    let t = Math.imul(s ^ (s >>> 15), 1 | s)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+const WARNA_WARGA = [
+  "#f43f5e", "#fb7185", "#f97316", "#fb923c", "#f59e0b", "#facc15",
+  "#a3e635", "#84cc16", "#4ade80", "#34d399", "#2dd4bf", "#22d3ee",
+  "#38bdf8", "#818cf8", "#a78bfa", "#c084fc", "#e879f9", "#f0abfc",
+  "#f87171", "#fdba74", "#86efac", "#7dd3fc", "#d8b4fe", "#fda4af",
+  "#fcd34d", "#a5b4fc", "#6ee7b7", "#f9a8d4", "#bef264", "#5eead4",
+  "#a8a29e", "#94a3b8", "#d6a06a", "#b08968", "#c2843f", "#9f6b53",
+]
+
+function bangunWarga(): ThreadzUser[] {
+  const acak = buatBenih(11090101)
+  const terpakai = new Set(USERS.map((u) => u.name))
+  const daftar: ThreadzUser[] = []
+  for (let i = 0; i < 300; i++) {
+    let angka = ""
+    do {
+      angka = String(Math.floor(acak() * 1e8)).padStart(8, "0")
+    } while (terpakai.has(`akiomida${angka}`))
+    terpakai.add(`akiomida${angka}`)
+    // kebanyakan orang biasa. beberapa yang rame gaya, sesekali yang jeli angka.
+    const r = acak()
+    const persona: Persona = r < 0.72 ? "awam" : r < 0.87 ? "begok" : "ahli"
+    daftar.push({
+      id: 51 + i,
+      name: `akiomida${angka}`,
+      color: WARNA_WARGA[Math.floor(acak() * WARNA_WARGA.length)],
+      persona,
+    })
+  }
+  return daftar
+}
+
+export const WARGA_LALU_LALANG: ThreadzUser[] = bangunWarga()
+
+const SEMUA_WARGA: ThreadzUser[] = [...USERS, ...WARGA_LALU_LALANG]
+
+const USER_MAP = new Map(SEMUA_WARGA.map((u) => [u.id, u]))
 
 export function getUser(id: number): ThreadzUser {
   const u = USER_MAP.get(id)
