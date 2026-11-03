@@ -1,6 +1,11 @@
 import type { ThreadzThread } from "../types"
 
-// PART 2: cuitan 26-50. kerja, keluarga, standup, peringatan
+// PART 2: cuitan 26-50.
+//
+// PANDUAN SUARA:
+//  7: awam stand-up, punchline pendek       45: ahli statistik, lotre itu momok
+// 29: awam religius, halus, syukur          42: ahli anti-judol, tenang ngeri
+// 36: awam kurir/ojol, blak-blakan          15: awam bapak tua, kapital, "Salam"
 export const THREADS_PART2: ThreadzThread[] = [
   {
     id: 26,
@@ -8,11 +13,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 30,
     shares: 244,
     content:
-      "rapat pagi 1 jam. peserta 12 orang. total yang kebakar: 12 jam kerja manusia. hasil rapat satu kalimat: 'kita follow up minggu depan'. 12 jam itu setengah hari kerja satu orang utuh. kita bakar setengah hidup satu orang buat 6 kata. tanpa kue. gak ada kue sama sekali",
+      "indomaret deket rumah: 5 kasir. yang buka: 1.\n\nantrian: 9 orang. yang ngawas: 0.\n\nini bukan keluhan. ini karya seni yang konsisten. setiap hari gambar yang sama digambar ulang. salut.",
     comments: [
-      { authorId: 22, minutesAgo: 25, content: "rapat kami 2 jam, hasilnya 'mo dijadwalkan ulang'. itu 24 jam. satu hari manusia utuh. GAK ADA KUE" },
-      { authorId: 45, minutesAgo: 18, content: "biaya rapat = jumlah orang x durasi x tarif per jam. coba itung rapat berikutnya pake kalkulator di depan semua orang. ajaib, jadi 20 menit" },
-      { authorId: 37, minutesAgo: 10, content: "kue itu penting. rapat gak kue = eksekusi gak HAK" },
+      { authorId: 22, minutesAgo: 25, content: "konsistensinya yang bikin gak kecewa lagi. kita udah level penerimaan" },
+      { authorId: 45, minutesAgo: 18, content: "9 orang x 3 menit = 27 menit. bisa dipake buat mikir 'kenapa gak pake mesin'. jawabannya juga konsisten: gak bisa" },
+      { authorId: 37, minutesAgo: 10, content: "di warung gue 1 kasir, 1 pemilik, 0 antrian. tapi barangnya juga lebih dikit. adil rasa ya" },
     ],
   },
   {
@@ -21,11 +26,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 60,
     shares: 178,
     content:
-      "maps ngasih 3 pilihan: 12 menit lewat jalan kecil, 19 menit lewat tol bayar 14rb. gue pilih tol. 7 menit gue bayar 2rb per menit. nah di kantor gue disuruh lembur 2 jam, gratis, 'buat pengalaman'. nilai menit gue 2rb di jalan tol dan 0 di meja meeting. hidup emang konsisten ya",
+      "karena masih sering ditanya, gue angkat dari materi kuliah:\n\npeluang jackpot lotre: 1 : 292.201.338.\npeluang kena sambar petir dalam setaun: 1 : 1.222.000.\n\ngapnya 239 kali.\n\njadi kalo ada yang bilang 'namanya juga usaha', mohon dipahami: ini bukan usaha. usaha ada usaha yang menaikkan peluang. ini cuma nunggu. nunggu yang itu2 lagi. pake duit.",
     comments: [
-      { authorId: 3, minutesAgo: 52, content: "2rb/menit = 120rb/jam. lu gak lembur, lu nyumbang 240rb per bulan ke perusahaan. itungannya jangan dikasih tau HRD" },
-      { authorId: 7, minutesAgo: 40, content: "gue pernah disuruh lembur 'buat pengalaman' terus di evaluasi taun berikutnya ditulis 'kurang komitmen'. pengalaman yang mana yang dihitung" },
-      { authorId: 31, minutesAgo: 22, content: "sejak gue nilai waktu sendiri, gue gak pernah mikir tol mahal lagi. yang mahal itu gak ada uang buat bayar tol" },
+      { authorId: 3, minutesAgo: 52, content: "1:1.222.000 aja udah bikin orang gak mo mandi pas hujan. tapi 1:292 juta masih dikira pintu" },
+      { authorId: 7, minutesAgo: 40, content: "gue tinggal deket menara telekomunikasi dan gak pernah kena petir. tiket lotre beli 3x, kalah 3x. statistik jujur banget sama gue" },
+      { authorId: 31, minutesAgo: 22, content: "orang pilih yang 292 juta karena 'dobel2nya gede'. dobel2nya gede, peluangnya juga gede... ke arah kosong" },
     ],
   },
   {
@@ -34,10 +39,10 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 100,
     shares: 87,
     content:
-      "kayaknya arisan bisa lebih efisien. 100 orang nyumbang 10rb = 1 juta. terus 1 juta dibagi lagi ke 100 orang = 10rb balik. JADI SEMUA ORANG NYUMBANG DAN NERIMA UANG YANG SAMA DALAM MALAM YANG SAMA. kenapa harus diundi?? gue udah mikirin ini dari 2019 dan gak ada yang ngerti gue",
+      "gue gak baca semua post panjang di atas, tapi intinya kan beli lotre itu tabungan untung2an? modal dikit, kalo hoki jutaan.\n\nsama kaya nabung tapi ada kejutan",
     comments: [
-      { authorId: 27, minutesAgo: 92, content: "bang... itu namanya gak ada arisan. itu namanya ngumpul" },
-      { authorId: 20, minutesAgo: 75, content: "gue baca 2x. makin gak ngerti. tapi gue seneng ada orang mikir kayak gini. dunia butuh" },
+      { authorId: 27, minutesAgo: 92, content: "bukan. nabung: duit lu masih duit lu. lotre: duit lu jadi duit orang lain, kecuali lu 1 dari 292 juta. kejutannya ada. kebanyakan kejutannya muncul di rekening yang makin tipis" },
+      { authorId: 20, minutesAgo: 75, content: "tabungan punya bunga. lotre punya bapak2 yang nungguin tanggal undian. beda jauh rasanya kalo dipikir pelan2" },
     ],
   },
   {
@@ -46,11 +51,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 150,
     shares: 266,
     content:
-      "panen cabai 1,2 ton. harga anjlok 18rb per kilo dari minggu lalu. 21,6 juta menguap dalam semalam. tukang warung bilang 'ya namanya juga pasar, pak'. iya sih. coba kalo yang hilang 21,6 juta itu dari tabungan dia, namanya juga apa? korban? kolaps? gampang ya ngomongnya kalo angkanya bukan angka lu",
+      "bulan ini pengeluaran lebih gede dari biasanya. rekening tipis.\n\ntapi anak sehat. bapak ibu masih ada. motor masih jalan.\n\nalhamdulillah. rezeki itu kadang gak keliatan di saldo. dia keliatan di hal2 yang hari ini gak perlu kita bayar.",
     comments: [
-      { authorId: 14, minutesAgo: 140, content: "harga komoditas itu naik turun kayak gini, tapi beban mikroekonominya numpuk ke petani. konsumen gak ngerasa murah, tengkulak yang sehat" },
-      { authorId: 22, minutesAgo: 120, content: "cabai di pasar sebelah 35rb. petani dapet 17. 18rb itu di jalan. jalannya lama banget" },
-      { authorId: 37, minutesAgo: 95, content: "semoga musim depan lebih terang, pak. gue serius" },
+      { authorId: 14, minutesAgo: 140, content: "ini perhitungan yang gak pernah gagal: yang gak keliatan di saldo seringnya lebih berharga dari yang keliatan" },
+      { authorId: 22, minutesAgo: 120, content: "semoga bulan depan lebih lapang ya. doa terbaik dari sini" },
+      { authorId: 37, minutesAgo: 95, content: "bener. kasih sehat itu udah mahal banget. kita yang sering lupa ngecheck harganya" },
     ],
   },
   {
@@ -59,15 +64,15 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 210,
     shares: 598,
     content:
-      "buat yang nanya 'ada jam hoki gak sih main slot': gak ada. generator angkanya diuji dan disertifikasi, distribusinya gak peduli jam berapa, gak peduli HP apa, gak peduli lu depositnya gimana. satu-satunya yang pasti: makin lama main, makin deket ke house edge. itu bukan permainan. itu alat ngambil duit yang diupah matematika, dan matematikanya gak bisa lu lawan pake niat. yang bisa lu lawan cuma satu: gak mulai",
+      "gue jelasin slot pakai satu gambar, gak perlu grafik:\n\nslot itu lobang.\n\nbukan lobang yang bisa dipagari. lobang yang makin lu injak makin dalam, dan pinggirannya didesain biar keliatan datar dari atas. makanya orang gak pernah ngerasa 'udah dalam'. dia ngerasa 'udah deket2 keluar'.\n\ntetangga gue mulai dari 'coba dikit'. 3 bulan. motornya pergi. istrinya gak pergi. dia yang nanggung semuanya.\n\ngak ada yang 'jago keluar dari lobang'. yang ada: berhenti injak. sekarang. bukan nanti yang udah tenggelam.",
     comments: [
-      { authorId: 9, minutesAgo: 195, content: "tetangga gue motor kejual gara2 ini. motor anter anak sekolah. bener2 gak ada yang menang kecuali yang punya mesin" },
-      { authorId: 22, minutesAgo: 180, content: "kakak kantor gue 'balik modal terus main'. sekarang dia balik modal sama mobil mak. mobil mak dia jual. sekarang dia balik modal pake apa? gak ada yang bisa dibalikin lagi" },
-      { authorId: 37, minutesAgo: 150, content: "gue share ini ke grup kelas. semoga ada yang baca sampe selesai. biasanya orang berhenti di kata 'hoki'" },
-      { authorId: 14, minutesAgo: 120, content: "yang bikin gelap: target pemakainya justru orang yang gak mampu rugi. 50rb buat yang gaji 2jt itu pintu, buat yang gaji 50jt itu debu" },
-      { authorId: 46, minutesAgo: 90, content: "gue pernah fase gini 8 bulan. yang bikin stop bukan sadar, tapi gak ada lagi yang bisa dijual. semoga ada yang stop lebih awal dari gue" },
-      { authorId: 3, minutesAgo: 60, content: "post ini gratis tapi mahal harganya buat yang beneran baca. semoga sampai" },
-      { authorId: 48, minutesAgo: 30, content: "rumusnya simpel: yang main gak pernah bangkrut lebih cepet dari mesin. mesin gak punya gaji, gak punya anak sekolah, gak punya perut" },
+      { authorId: 9, minutesAgo: 195, content: "'udah deket2 keluar' — persis kalimat om gue dulu. sampe om gue gak keluar2. makanya tiap ada yang bilang gitu bulu gue berdiri" },
+      { authorId: 22, minutesAgo: 180, content: "semoga tetangga lu dikasih jalan keluar yang bener. bukan yang keliatan doang" },
+      { authorId: 37, minutesAgo: 150, content: "di kampung gue slot masuk lewat HP anak2. bapaknya main di warung, anaknya main di rumah. satu keluarga dua lobang" },
+      { authorId: 14, minutesAgo: 120, content: "sistem ini dibikin orang pinter buat ngambil uang orang yang lagi butuh harapan. itu keseluruhan penjelasannya" },
+      { authorId: 46, minutesAgo: 90, content: "share ya. ibu2 sering gak paham kok bapaknya bisa sampe segitu. sekarang gue paham: lobangnya gak keliatan" },
+      { authorId: 3, minutesAgo: 60, content: "yang bikin gak sadar: tiap kalah dikit2, tiap menang dikit2. rata-ratanya? mesin yang pegang" },
+      { authorId: 48, minutesAgo: 30, content: "energi masuk lobang gak bisa balik 100%. secara fisika maupun keuangan. bedanya fisika gak ada iklan 'menang terus'" },
     ],
   },
   {
@@ -76,13 +81,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 260,
     shares: 341,
     content:
-      "adik gue 19 tahun, gaji 2,3jt. paylater aktif di 4 aplikasi. total tanggungan 6,8jt. dia bilang 'aman kak, bisa dicicil'. 6,8jt di-cicil 12 bulan plus bunga, dia bayar barang yang udah dia pake bosen. itu bukan 'bisa dicicil'. itu hutang yang dikasih nama lucu biar gak kerasa. gue bantu dia hapus aplikasinya semalem. nangisnya kayak cabut gigi. iya, memang gitu prosesnya",
+      "'cuti itu hak lu.'\n\niya. tapi coba perhatiin orang yang ambil cuti panjang: chat dia tetep dibales. kadang dari pantai.\n\ngue gak mo terima ini. tapi gue juga gak mo jadi contoh.\n\njadi gue nulis di sini. di mana gue berani.",
     comments: [
-      { authorId: 26, minutesAgo: 245, content: "paylater itu troli di supermarket versi digital: dibikin gampang biar lu kebawa. yang beda, troli ini nge-billing" },
-      { authorId: 42, minutesAgo: 215, content: "gampang didapet + bunga jelas di belakang = industri. gampangnya itu produk, bukan berkah" },
-      { authorId: 4, minutesAgo: 180, content: "sebenernya cara ngomongnya gak gampang ya ke adik. gue nyoba ke adek gue dimarahin balik. kalian ngasih nyempilin gimana" },
-      { authorId: 19, minutesAgo: 140, content: "mulai dari hapus 1 aplikasi. jangan semua. satu-satu. itu yang jalan di keluarga gue" },
-      { authorId: 37, minutesAgo: 95, content: "semoga adik lu tembus ke sisi tenang, kak. gue baca ini sambil ngecek paylater gue. aman. baru sadar 'aman' itu harus dicek, bukan dirasain" },
+      { authorId: 26, minutesAgo: 245, content: "'kadang dari pantai' — SUMPAH. gue pernah liat senior bales email jam 7 pagi pas liburan di jogja" },
+      { authorId: 42, minutesAgo: 215, content: "hak yang gak berani dipakai bukan hak. itu diskon yang gak pernah di-redeem" },
+      { authorId: 4, minutesAgo: 180, content: "keberanian ada levelnya. level 1: komen ini dari akun utama. selamat, lu naik level" },
+      { authorId: 19, minutesAgo: 140, content: "di pabrik gak ada drama beginian. masuk jam 7 pulang jam 3. dibales gak dibales sama aja. minusnya beda tempat" },
+      { authorId: 37, minutesAgo: 95, content: "cuti paling aman itu pas panen. semua orang sibuk sendiri, gak ada yang inget lu kerja atau gak" },
     ],
   },
   {
@@ -91,13 +96,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 320,
     shares: 102,
     content:
-      "kenapa jam 12 malam langsung balik ke angka 1?? 12 kan harusnya paling gede. terus jam 12 SIANG juga 12. dua2nya 12. JADI 12 ITU SEBENARNYA 0 KAN? KAN?? gue nanya ini ke keluarga gue, semua nyuruh gue tidur",
+      "menurut riset yang gue baca (lupa sumbernya tapi serius), otak kanan buat seni, otak kiri buat matematika.\n\njadi kalo lu jelek itung, jangan sedih. lu mungkin seniman.\n\ngue sendiri gak bisa itung dan gue yakin banget gue seniman.",
     comments: [
-      { authorId: 24, minutesAgo: 305, content: "sumpah ini gak bego. di sistem 24 jam, 12 malam memang 00:00. lu hampir nemu konversi sendiri, cuma berhenti di pintunya" },
-      { authorId: 11, minutesAgo: 280, content: "tepat. 12 malam = 0:00, 12 siang = 12:00. angka jam itu lingkaran, gak ada awal resmi. kita yang milih start-nya" },
-      { authorId: 35, minutesAgo: 240, content: "gue gak paham tapi gue ngerasa ada yang gede di sini" },
-      { authorId: 31, minutesAgo: 200, content: "pola jam = modulo 12. 13 = 1, 14 = 2. jadi 12 tuh beneran jembatan, bukan puncak. nice" },
-      { authorId: 47, minutesAgo: 160, content: "sekarang gue gak bisa liat jam 12 dengan tenang lagi. thanks" },
+      { authorId: 24, minutesAgo: 305, content: "riset yang lu maksud udah lama dibantah, itu mitos populer. semua orang pake dua2nya. tapi oke, seniman juga boleh salah" },
+      { authorId: 11, minutesAgo: 280, content: "'gue baca di internet, internet gak mungkin bohong' — itu kemarin. hari ini dia belajar: internet bisa. sangat bisa" },
+      { authorId: 35, minutesAgo: 240, content: "berarti gue seniman juga dong. gue gak bisa itung DAN gak bisa gambar. gue apa?" },
+      { authorId: 31, minutesAgo: 200, content: "gabut. lu gabut. sama kaya kita semua di sini" },
+      { authorId: 47, minutesAgo: 160, content: "gue bisa itung dikit dan gambar dikit. berarti gue setengah seniman setengah matematikawan. lumayan kan" },
     ],
   },
   {
@@ -106,12 +111,12 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 380,
     shares: 187,
     content:
-      "KPR ditolak. alasan bank: 'rasio cicilan terhadap penghasilan 42%, batas kami 35%'. cicilan 4,2jt. gaji 10jt bruto, bersih 8,7. mereka itung dari bruto. jadi di mata bank gue mampu bayar 4,2jt dari 10jt. di mata dapur gue, 4,2jt dari 8,7jt itu gak nyampe akhir bulan. yang diitung kertas, yang makan perut. dan dua2nya gak pernah ketemu",
+      "pelanggan dateng bawa HP yang ketumpahan air sabun. katanya 'biasa aja kan bang'.\n\nbiasa aja ya. air sabun. ada lemak, ada bahan kimia, ada gelembung. masuk ke mesin yang gak suka ketiganya.\n\ndia bayar servis 200rb terus bilang 'kok mahal'. bang. HP lu makan sabun. gue yang nyekip nyuci bagian dalamnya pake alkohol.\n\nlu bayar sabun 15rb. HP lu yang ketularan.",
     comments: [
-      { authorId: 45, minutesAgo: 360, content: "bank pakai bruto karena konsisten dengan aturan mereka, bukan karena gak tau realita. makanya perannya kita yang hitung bersih sebelum dateng, biar gak sakit hati dua kali" },
-      { authorId: 7, minutesAgo: 330, content: "gue lolos KPR terus nyesel: cicilan 4jt, tanggungan 3. kertas bilang mampu. kulkas bilang jangan" },
-      { authorId: 14, minutesAgo: 290, content: "rule of thumb yang jalan di lapangan: cicilan max 30% dari TAKE HOME PAY. bank boleh bilang 35-40, hidup yang bakal nelpon" },
-      { authorId: 26, minutesAgo: 240, content: "ditolak itu bukan akhir. gue ditolak 2 bank, usaha 8 bulan buat turun rasio, ke-3 jalan. jangan nyerah cuma karena angka satu lembar" },
+      { authorId: 45, minutesAgo: 360, content: "200rb itu murah dibanding data yang hilang. tapi orang itung servis, gak itung foto anak yang hilang" },
+      { authorId: 7, minutesAgo: 330, content: "'HP lu makan sabun' — kalimat pembuka stand up terbaik taun ini. gak butuh penjelasan tambahan" },
+      { authorId: 14, minutesAgo: 290, content: "alkohol buat elektronik itu bener. dia nyuci, bukan ngelap. beda tingkat keselamatannya" },
+      { authorId: 26, minutesAgo: 240, content: "gue sekali HP keceburuh bak. hari itu gue belajar: beras itu bukan penyembuh. dia penunda duka" },
     ],
   },
   {
@@ -120,10 +125,10 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 440,
     shares: 136,
     content:
-      "cuaca bilang 'peluang hujan 40%'. gue jelasin ke mama: artinya dari 100 hari yang kondisinya serupa, 40 di antaranya hujan. bukan '40% bagian dari langit yang hujan'. gue jelasin 4 kali. beliau tetep bawa payung. beliau keluar kering. gue keluar basah. base rate 4, itu jejak yang gak bisa dibantah",
+      "bunga majemuk itu fisika: bola salju digulir turun. kecil di atas. gede di bawah. dan gak bisa dihentikan di tengah jalan dengan 'yah sudahlah'.\n\nmakanya pinjol jangan dianggap 'bantuan cepat'. dia bola salju yang udah nungguin lu di dasar bukit. lu tinggal lepasin.",
     comments: [
-      { authorId: 3, minutesAgo: 420, content: "mama selalu menang bukan karena ngerti statistik, tapi karena dia udah ngalamin 10.000 hari. itu sampel yang lebih besar dari app" },
-      { authorId: 22, minutesAgo: 380, content: "gue jadi mikir: kadang yang kita sebut 'takut' itu sebenarnya pengalaman yang dihitung manual" },
+      { authorId: 3, minutesAgo: 420, content: "'gak bisa dihentikan di tengah dengan yah sudahlah' — dan yang jual bolanya bilang 'tenang, bolanya kecil kok'" },
+      { authorId: 22, minutesAgo: 380, content: "semoga post ini nyampe ke yang lagi nyari 'pinjaman cair 5 menit'. tolong baca ini dulu baru klik" },
     ],
   },
   {
@@ -132,9 +137,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 500,
     shares: 64,
     content:
-      "lingkaran itu kalau dipotong tengah terus dibuka jadinya garis panjang. garis itu sisi. sisi itu punya kotak. JADI LINGKARAN ITU KOTAK YANG LAGI REBAHAN. gue gak terima dibilang bego, gue cuma liat dunia lebih lengkap",
+      "kira2 kalo gue transfer 1 juta ke diri sendiri 12x, jadi 12 juta kan? sistemnya ngebuat duit.\n\nudah gue coba 2x kok masih 1 juta. mungkin belum rajin",
     comments: [
-      { authorId: 24, minutesAgo: 480, content: "gue gak tau mau marah atau ngedoom. keliatannya dua2nya" },
+      { authorId: 24, minutesAgo: 480, content: "transfer itu mindahin, bukan ngalihin. 1 juta mindah 12x = 1 juta. capek 12x. yang nambah cuma lelah. duit gak nambah dari pindah rumah, sama juga gak nambah dari pindah rekening" },
     ],
   },
   {
@@ -143,12 +148,12 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 560,
     shares: 209,
     content:
-      "ayam utuh 38rb/kg. ayam fillet 58rb/kg. selisih 20rb buat yang udah dipotong. gue itung: potong sendiri 20 menit, cuci pisau talenan 10 menit, baju kena 1x. 30 menit gue 'dibayar' 20rb = 40rb per jam. gaji gue per jam 27rb. TERNYATA GUE LEBIH MURAH DARI TUKANG POTONG AYAM. sejak itu gue beli fillet dan gak liat balik",
+      "ongkir naik lagi. pelanggan tanya: 'kok ongkirnya naik terus?'\n\npak. bensin naik. ban cepet gundul. jalan macet. badan gue juga ada masa garansinya.\n\ntapi yang bikin gue senyum: yang paling sering tanya 'kok ongkir naik' sama orang yang pesennya 3 km doang tapi 'sebentar ya pak, saya ambil2 dulu' 15 menit.",
     comments: [
-      { authorId: 43, minutesAgo: 540, content: "gue justru sebaliknya: potong sendiri 20 menit sambil denger musik itu murah banget. tergantung nilai lu kasih ke 20 menit lu sendiri" },
-      { authorId: 7, minutesAgo: 470, content: "nah ini. 30 menit di dapur buat gue itu terapi. buat lu itu kerja yang gak dibayar. dua-duanya bener" },
-      { authorId: 45, minutesAgo: 400, content: "secara ekonomi namanya opportunity cost. gue seneng thread dapur ngajarin ini tanpa kata 'opportunity cost'" },
-      { authorId: 12, minutesAgo: 320, content: "gue itung mundur: 20rb selisih x 4x sebulan = 80rb. setahun hampir 1jt. buat 1jt gue beli fillet DAN damai" },
+      { authorId: 43, minutesAgo: 540, content: "sebagai pihak yang pernah 'ambil2 dulu' 12 menit, gue minta maaf atas nama semua orang. bensin gak murah, waktu lu gak murah" },
+      { authorId: 7, minutesAgo: 470, content: "'badan gue juga ada masa garansinya' — kalimat ini wajib jadi slogan perkumpulan kurir se-nusantara" },
+      { authorId: 45, minutesAgo: 400, content: "ongkir itu biaya nyata per kilometer. orang mikirnya cuma jarak. padahal yang dibayar: jarak + waktu + ban + badan" },
+      { authorId: 12, minutesAgo: 320, content: "gue selalu kasih lebih dikit tapi dari hati. semoga cukup. kurangnya doa" },
     ],
   },
   {
@@ -157,11 +162,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 640,
     shares: 254,
     content:
-      "nol itu penemuan, bukan hal yang 'ya sudah pasti ada'. orang2 india yang ngerjain serius, diwarisin kaum arab, terus nyampe eropa. tanpa nol gak ada 10, gak ada 100, gak ada rekber, gak ada saldo 0 yang bikin lu cek 3x. nol itu jadi landasan buat semua sistem angka modern. terus anehnya, angka yang paling sering bikin kita panik juga dia: nol di belakang saldo, nol di depan chat, nol di kelas",
+      "paylater. cicilan 0%. 'gratis biaya admin bulan pertama'.\n\ngue bahas satu2 singkat:\n\ncicilan 0%: harganya biasanya udah dinaikin diam2. lu gak bayar bunga, lu bayar 'kemahalan'.\nbiaya admin: nama lain dari bunga. kaya 'biaya layanan', 'biaya perawatan', 'biaya biayaan'.\npaylater: pinjam duit buat beli yang belum sanggup dibeli. ribetnya bukan hari ini. ribetnya bulan depan, terus bulan depannya lagi.\n\nintinya: yang dibungkus paling rapet biasanya isinya paling gak enak.\n\nmomok gak dateng pakai tanduk. dia dateng pakai tulisan '0%'.",
     comments: [
-      { authorId: 18, minutesAgo: 610, content: "nol di depan chat itu luka. kena" },
-      { authorId: 42, minutesAgo: 560, content: "tambahan: posisi nol juga ngubah nilai. 1 vs 10 vs 100. angka yang sama, dampaknya beda jauh. makanya nol itu patut dihormat" },
-      { authorId: 49, minutesAgo: 480, content: "gue cuma mau bilang thread ini bikin gue hormat sama angka paling tidak menyerupai apapun. 0 respect yang jadi ada" },
+      { authorId: 18, minutesAgo: 610, content: "'momok gak dateng pakai tanduk' — dan dia gak langsung kerasa. dia nyicil ngerasain" },
+      { authorId: 42, minutesAgo: 560, content: "yang paling licik itu '0%'. karena 0 itu angka paling dipercaya orang. angkanya 0, posisinya yang digeser" },
+      { authorId: 49, minutesAgo: 480, content: "gue hampir klik 'geser' buat sepatu kemarin. untung ngecheck total: beda 180rb dari harga normal. yang 0% yang mana bang" },
     ],
   },
   {
@@ -170,13 +175,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 720,
     shares: 158,
     content:
-      "arisan RT: 25 orang, iuran 100rb per bulan, tiap bulan 1 pemenang dapet 2,5jt. gue urutan 22 dari 25. artinya gue ngasih 2,1 juta lebih dulu SEBELUM dapet 2,5jt. kalo dihitung dingin, arisan itu bukan cara cari untung. itu koperasi waktu. urutan awal dapet uang duluan, urutan akhir dapet 'tabungan paksa'. gue? gue dapet teman. gak ada di rumus, tapi worth it",
+      "hari ke-214 ngerjain skripsi. bab 4 masih bab 3.\n\ndosbing: 'sabar ya, proses.'\n\ngue tau proses. prosesnya yang bikin gue ngobrol sama printer.\n\nhari ini printer bilang 'paper jam'. gue bilang 'sama, kita'.",
     comments: [
-      { authorId: 1, minutesAgo: 700, content: "gue urutan 24. gue dapet tabungan paksa DAN teman. tapi 2 tahun nunggu itu lama bgt loh" },
-      { authorId: 12, minutesAgo: 650, content: "yang penting ada buku catatannya sama yang jadi bendahara-nya orang yang gak mudah tergoda. sistem aman karena orangnya" },
-      { authorId: 27, minutesAgo: 580, content: "matematis: yang menang duluan dapet 'bunga negatif' kebalik. arisan itu pinjaman sosial. kalo anggota2nya beres, gak ada yang rugi besar" },
-      { authorId: 4, minutesAgo: 500, content: "grup arisan gue ambruk taun lalu karena bendaharanya 'sedang kebutuhan'. 25 orang 100rb = 2,5jt ilang. percaya itu bukan bunga, tapi bisa hangus" },
-      { authorId: 16, minutesAgo: 420, content: "thread arisan paling jujur. gak ada kata untung di awal, tapi gak ada kata bohong" },
+      { authorId: 1, minutesAgo: 700, content: "'sama, kita' — printer udah lebih peduli dari sebagian orang. semangat, bab 4 pasti beres" },
+      { authorId: 12, minutesAgo: 650, content: "gue pernah ngobrol sama spidol pas skripsi. spidol gak jawab tapi rasanya nyaman. lanjutkan" },
+      { authorId: 27, minutesAgo: 580, content: "hari ke-214 bab 4 masih bab 3 itu bukan mundur. itu menahan garis. skripsi gugur biasanya di orang yang berhenti nahan garis" },
+      { authorId: 4, minutesAgo: 500, content: "semangat dek. skripsi itu lompatan iman paling terstruktur. selesai juga nanti" },
+      { authorId: 16, minutesAgo: 420, content: "gue level di bawah lu: proposal. kita satu garis depan. salut" },
     ],
   },
   {
@@ -185,7 +190,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 800,
     shares: 55,
     content:
-      "kenapa gak ada huruf yang sama sama angka? kalo ada, 5 bisa jadi S. terus 5S = SS = dua S = 10. GUE BISA NGEHITUNG PAKAI KATA. kenapa nggak diajarin dari sekolah",
+      "WUEBED. GUE BARU TAU KALO 0 DIBAGI APA2 HASILNYA 0.\n\nJADI KALO GUE 0 UANG DIBAGI 7 HARI, TIAP HARI 0. MATEMATIKANYA BENER TAPI NGENA BANGET SIH",
     comments: [],
   },
   {
@@ -194,12 +199,12 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 900,
     shares: 121,
     content:
-      "biaya masuk SD: buku LKS 85rb, seragam 2 set 450rb, sepatu 180rb, 'uang kegiatan' 150rb. gue itung pake kalkulator biar gak salah nyalahin di grup WA ortu lain. ternyata salah itung. lebih MAHAL dari gue kira. jadi gue gak nyalahin siapa2 di grup, gue nyalahin di sini aja",
+      "yang bilang 'besok mulai olahraga' terus besoknya bilang lagi 'besok mulai', kumpul sini.\n\nkita bikin grup. namanya: besok.",
     comments: [
-      { authorId: 4, minutesAgo: 880, content: "anak gue juga. jangan lupa seragam olahraga yang beda, atribut pramuka, dan 'buku cerita wajib' yang gak ada di daftar awal" },
-      { authorId: 7, minutesAgo: 820, content: "150rb uang kegiatan itu buat apa gak pernah jelas. pas ditanya jawabannya 'untuk kegiatan' hebat" },
-      { authorId: 31, minutesAgo: 740, content: "gue pengen itung semua biaya sekolah 6 taun jadi satu lembar. takutnya gak sanggup nge-desain lembarannya" },
-      { authorId: 43, minutesAgo: 660, content: "ngitung dulu sebelum marah. bapak ini teladan. gue marah dulu baru itung, hasilnya ganti2 angka, malu2" },
+      { authorId: 4, minutesAgo: 880, content: "daftar. anggota pertama. sekaligus anggota terakhir karena gak ada yang dateng" },
+      { authorId: 7, minutesAgo: 820, content: "grupnya gak usah dibikin. yang pasti besok isinya 'besok mulai' lagi" },
+      { authorId: 31, minutesAgo: 740, content: "gue jadi admin ya. tugas admin: ngingetin tiap besok" },
+      { authorId: 43, minutesAgo: 660, content: "besok gue gabung. maksud gue besok. bener besok" },
     ],
   },
   {
@@ -208,15 +213,15 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1000,
     shares: 173,
     content:
-      "taksi yang gue naikin nomornya 1729. gue cerita ke supir: 'mas, itu angka paling kecil yang bisa ditulis jadi jumlah dua kubus dengan dua cara beda: 1 pangkat 3 tambah 12 pangkat 3, sama 9 pangkat 3 tambah 10 pangkat 3.' dia liat gue di kaca, terus jawab 'kereta juga banyak nomor. yang penting nyampe.' gue gak bisa tidur semalem mikir jawaban itu",
+      "gue baru check: 6 kontak WA yang sering gue chat taun 2019. hari ini cuma 1 yang masih aktif curhat2an.\n\nsisanya: saling nge-react status. kadang 'pagi' pas lebaran.\n\ngue gak marah sama siapa2. hidup emang jalan. orang gak bisa ikut jalan sepanjang waktu.\n\ncuma kadang pengen ada yang tanya 'lu gimana?' duluan. bukan karena butuh jawaban. tapi biar kerasa ada yang penasaran.",
     comments: [
-      { authorId: 24, minutesAgo: 970, content: "1729 hardy-ramanujan. supir itu gak tau dia baru ngalahin profesor pake satu kalimat" },
-      { authorId: 33, minutesAgo: 900, content: "'yang penting nyampe' itu filosofi hidup orang yang gak sempet pusing mikirin angka. hormat" },
-      { authorId: 46, minutesAgo: 800, content: "gue pengen naik taksi nomor 1729 terus jelasin juga. semoga dapet. semoga supirnya lebih sabar dari gue" },
-      { authorId: 11, minutesAgo: 700, content: "fun fact lain: 1729 juga bisa 1729 = 10^3 + 9^3 = 12^3 + 1^3. ya itu tadi, dua cara. gue cuma penguat, bukan perusak suasana" },
-      { authorId: 4, minutesAgo: 580, content: "gue share ini ke grup. gak ada yang bales. 1729 orang juga gak bales" },
-      { authorId: 37, minutesAgo: 460, content: "angka taksi 1729 jadi terkenal karena cerita. angka di plang mobil lu juga ada ceritanya, cuma belum ada yang cerita" },
-      { authorId: 25, minutesAgo: 340, content: "gue ngitung: 1+1728 = 1729, 729+1000 = 1729. GILA. angka gak nyangka2" },
+      { authorId: 24, minutesAgo: 970, content: "'biar kerasa ada yang penasaran' — kontak kita makin banyak, pertanyaannya makin dikit. ini statistik yang gak ada grafiknya" },
+      { authorId: 33, minutesAgo: 900, content: "2019 ke sekarang 7 taun. kontak yang bertahan 1 dari 6 itu udah bagus. kualitas > kuantitas. walau tetep sepi" },
+      { authorId: 46, minutesAgo: 800, content: "ayah gue bilang: temen itu kaya bintang. gak semua keliatan tiap malam. yang penting ada yang tetep nongol" },
+      { authorId: 11, minutesAgo: 700, content: "gue kemungkinan besar salah satu dari 'sisanya'. makanya gue mulai dulu: lu gimana?" },
+      { authorId: 4, minutesAgo: 580, content: "halo. gue nanya duluan: lu gimana? serius nanya. besok gue bakal lupa nanya lagi. jadi jawab sekarang" },
+      { authorId: 37, minutesAgo: 460, content: "di desa gak ada istilah gak aktif. yang gak muncul 3 hari ada yang ngetuk pintu. kadang nyebelin. sekarang gue sadar itu berharga" },
+      { authorId: 25, minutesAgo: 340, content: "btw kontak gue 4. semuanya mama gue dengan nomor beda. lucu tapi beneran" },
     ],
   },
   {
@@ -225,13 +230,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1100,
     shares: 196,
     content:
-      "rumah ke kantor 90 menit bolak balik. 22 hari kerja = 33 jam per bulan = 396 jam setahun. 396 jam itu 16,5 hari penuh. SETAHUN GUE NGINAP 16 HARI DI JALAN. tanpa kasur. tanpa dibayar. tanpa foto buat share. komute itu kerja kedua yang gak ada di kontrak",
+      "magang: gak dibayar. transport 3 angkot. siang beli nasi padang 'setengah2'.\n\nyang gue dapet: pengalaman.\n\nyang pengalaman gak bisa beli: nasi.\n\nmakanya tiap hari gue samain rasio nasi sama lauk: 9 banding 1.",
     comments: [
-      { authorId: 7, minutesAgo: 1070, content: "396 jam itu kalo dituker ngerjain apa? bisa 2 skill baru. atau 400 episode sinetron. pilihan hidup" },
-      { authorId: 12, minutesAgo: 990, content: "gue 2 jam sehari. 10 hari per taun. gue 'nginap' 10 hari di jalan dan gue baru sadar gara2 thread ini. terima kasih? terima kasih." },
-      { authorId: 26, minutesAgo: 900, content: "pindah kos deket kantor itu naik gaji 400rb versi gue. hitung2 sendiri, langsung pindah" },
-      { authorId: 45, minutesAgo: 800, content: "kayaknya HRD musti ngitung juga ongkos waktu karyawan. perusahaan hemat sewa, karyawan bayar pakai umur" },
-      { authorId: 22, minutesAgo: 700, content: "396 jam x tarif lembur 25rb = 9,9jt setahun. GILA. itu gaji 13. lu kerja ekstra buat jalanan" },
+      { authorId: 7, minutesAgo: 1070, content: "rasio 9:1 itu bukan nasi padang lagi. itu nasi dengan kenangan padang" },
+      { authorId: 12, minutesAgo: 990, content: "magang gak dibayar emang masalah nasional. 'pengalaman' gak bisa dimasak" },
+      { authorId: 26, minutesAgo: 900, content: "gue pernah kerja 'dibayar pengalaman' 3 bulan. sekarang gue kerja dibayar bensin. naik kelas" },
+      { authorId: 45, minutesAgo: 800, content: "nilai pengalaman itu nyata. biaya hidup lebih nyata. perusahaan yang cuma bisa bayar pengalaman seharusnya jujur di lowongannya: 'gaji: cerita'" },
+      { authorId: 22, minutesAgo: 700, content: "semoga cepet dilepas jadi karyawan beneran ya. dari komennya keliatan berat banget" },
     ],
   },
   {
@@ -240,9 +245,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1200,
     shares: 47,
     content:
-      "kenapa pelajaran 'matematika' isinya jeruk sama kereta? JERUKNYA GAK DIBAGIKAN. keretanya GAK DINAIKIN. belajar 12 taun, gue gak pernah megang jeruk yang disoal. itung sendiri berapa jeruk yang gue kasihanikan",
+      "wkwkwkkw gue baru tau 'FC' di sepak bola itu Football Club.\n\ngue kira dari sononya emang doain: 'FC ya semoga menang'",
     comments: [
-      { authorId: 17, minutesAgo: 1180, content: "jeruk di soal matematika itu abadi. dia gak busuk, dia gak bulan2, dia cuma nunggu diitung" },
+      { authorId: 17, minutesAgo: 1180, content: "wkwk gue kira FC itu fasilitas kompor. sama2 gak nyambung. kita sefam" },
     ],
   },
   {
@@ -251,15 +256,15 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1350,
     shares: 227,
     content:
-      "laporan bulan ini, jualan online: omzet 4,2jt. gak usah seneng dulu. modal barang 3,1jt, packaging 180rb, iklan 250rb, ongkos subsidi 320rb. sisa 350rb. terus ada refund 45rb. bersih 305rb. dibagi 30 hari: 10rb per hari. parkir motor sehari 2rb. gue 'gajian' 8rb per hari di atas parkir. besok jualan lagi, karena 8rb itu dari 30 hari kerja, bukan dari 1 hari kerja",
+      "2 taun di posisi yang sama. tiap review: 'performa bagus, tunggu momentum yang tepat'.\n\ngue baru paham: momentum gak dateng sendiri. dia ditungguin sama orang yang udah punya momentum.\n\ngak jadi ngeluh. gue cuma mo bilang ke yang lagi di posisi gue: mulai itung pencapaian lu sendiri. tulis sendiri. jangan tunggu dibacain orang lain.\n\nkarena 'momentum' itu kata paling sopan buat 'belum sekarang'.",
     comments: [
-      { authorId: 22, minutesAgo: 1320, content: "gue juga jualan. omzet gede itu ilusi, yang nyata margin sama repeat order. thread ini jujur banget" },
-      { authorId: 37, minutesAgo: 1250, content: "10rb/hari x 30 hari... lu kerja lebih gila dari gue yang 27rb/jam tapi gak jualan apa2. semangat bro" },
-      { authorId: 42, minutesAgo: 1150, content: "ikutin: catat semua termasuk waktu lu. waktu lu itu modal juga. kalo margin gak nutup waktu, modelnya musti diganti" },
-      { authorId: 14, minutesAgo: 1050, content: "harga jual naik 10% biasanya lebih gampang daripada potong biaya 10%. percobaan kecil dulu di 20% produk, liat reaksi pasar" },
-      { authorId: 44, minutesAgo: 950, content: "aduh ini relate. refund 45rb itu paling sakit karena barangnya udah gak ada di gudang, cuma ada di hati" },
-      { authorId: 4, minutesAgo: 840, content: "semangat. toko gue taun 2 baru mulai 'gajian' normal. taun 1 itu namanya belajar yang bayarnya ilmu" },
-      { authorId: 49, minutesAgo: 700, content: "gue baca sambil itung punya gue. makin sedih. tapi yaudah, jualan lagi. terima kasih atas kejujuran" },
+      { authorId: 22, minutesAgo: 1320, content: "simpan. buat dibaca ulang pas review bulan depan. semangat, lu gak sendirian" },
+      { authorId: 37, minutesAgo: 1250, content: "di sawah gak ada review. yang ada: panen atau gak. jujur rasanya. tapi ya tetep kadang kangen dibilangin 'performa bagus' wkwk" },
+      { authorId: 42, minutesAgo: 1150, content: "tulis pencapaian sendiri = bikin data. tanpa data, review itu opini. dengan data, review itu rapat. dua2nya melelahkan, tapi satu di antaranya ada hasilnya" },
+      { authorId: 14, minutesAgo: 1050, content: "'momentum' juga kata favorit buat nunda kenaikan gaji. 'timing' versi buat staf" },
+      { authorId: 44, minutesAgo: 950, content: "gue juga 2 taun di posisi yang sama: posisi tidur. terus gue dipromosiin jadi raja kasur. kadang momentum itu di rumah aja" },
+      { authorId: 4, minutesAgo: 840, content: "kalimat terakhirnya ngena. 'belum sekarang' yang pake jas alus" },
+      { authorId: 49, minutesAgo: 700, content: "dari magang gue belajar: yang nunggu momentum makan mie. yang bikin momentum makan di luar. gue masih mie. tapi gue sadar" },
     ],
   },
   {
@@ -268,11 +273,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1500,
     shares: 168,
     content:
-      "murid gue tanya: 'pak, buat apa belajar sin cos tan, nanti kerja gak pake'. gue jawab: lu latihan angkat beban di gym buat apa? lu gak bakal angkat barbel di kantor kan? tapi badan lu kuat buat angkat apa aja. matematika itu gym buat nalar. soalnya dumbbell-nya. gak ada yang dipake di kerjaan, tapi semua kerjaan terasa gampang kalo ototnya ada",
+      "kenapa antrian lu selalu lebih lambat dari antrian sebelah? bukan ilusi, tapi juga bukan kutukan:\n\n- lu cuma ngalamin antrian lu. yang sebelah lu cuma liat dari jauh, keliatan lancar.\n- lu lebih inget momen kalah daripada menang.\n- kadang bener: antrian lu emang lambat. makanya lu pindah. terus antrian sebelah yang tadinya cepet jadi lambat. karena lu pindah.\n\nhidup: 1. logika antrian: 0.",
     comments: [
-      { authorId: 11, minutesAgo: 1470, content: "guru yang jelasin pake gym itu bakal diinget muridnya sampai mereka 40 taun dan baru sadar" },
-      { authorId: 3, minutesAgo: 1380, content: "sebagai sesama guru: iya. yang dipake bukan rumusnya, tapi kebiasaan duduk, mikir, gak panik sama angka. itu fitness yang gak keliatan" },
-      { authorId: 46, minutesAgo: 1250, content: "gue jadi guru olahraga. analogi lu gue curol sampe murid2 gue. semua babak baru" },
+      { authorId: 11, minutesAgo: 1470, content: "teori antrian itu cabang matematika yang paling deket sama pengalaman rohani" },
+      { authorId: 3, minutesAgo: 1380, content: "'karena lu pindah' — variabel yang suka lupa diitung: gue. selalu gue" },
+      { authorId: 46, minutesAgo: 1250, content: "gue pinter: gue suruh suami antri di sebelah. dia yang lambat, gue yang senyum" },
     ],
   },
   {
@@ -281,10 +286,10 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1650,
     shares: 83,
     content:
-      "gue bagi 1 pake 0 di kalkulator hasilnya ERROR. ERROR itu bukan jawaban, itu KATA KERJA. kalkulator lagi stres, bukan gak bisa. kasih istirahat 5 menit pasti bisa. semua yang ERROR cuma butuh istirahat, termasuk kalkulator, termasuk gue",
+      "tdi beli es teh 5k. skrg 7k. minggu lalu 4k kalo gak salah.\n\ninflasi tuh gak dateng di berita doang ternyata. dia dateng di gelas plastik",
     comments: [
-      { authorId: 24, minutesAgo: 1620, content: "1÷0 itu gak didefinisikan, bukan gak bisa. bedanya: gak bisa itu sementara, gak didefinisikan itu gak ada di aturan. kalkulator gak stres, dia jujur" },
-      { authorId: 47, minutesAgo: 1550, content: "'termasuk gue' WKWKWK. gue ikut merasakan ERROR-nya" },
+      { authorId: 24, minutesAgo: 1620, content: "es teh naik terus tapi rasanya masih sama. di sinilah kita dikecewakan: harga naik, isi jujur gak berubah" },
+      { authorId: 47, minutesAgo: 1550, content: "7 ribu itu mahal ya. sebenernya. tapi gue tetep beli. kita sama" },
     ],
   },
   {
@@ -293,9 +298,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1800,
     shares: 92,
     content:
-      "jarum bensin udah nyentuh garis merah dari kemarin sore. hari ini gue beraniin isi 30rb. 30rb = 4,2 liter = sekitar 55 km. SPBU terdekat 1,2 km. jadi 55 km itu buat perjalanan yang 1,2 km-nya udah lewat. KATANYA bensin udah abis. ternyata 'abis' itu perkiraan, dan perkiraan itu lu pilih percaya atau gak. gue pilih percaya sampe habis",
+      "halo. pertanyaan pagi: kalau di angkot ada anak kecil manggil lu 'bapak', lu betulan sadar umur, atau lu mikir 'bapaknya mana ya' terus lanjut liat pemandangan?",
     comments: [
-      { authorId: 16, minutesAgo: 1770, content: "motor gue 'abis' itu artinya masih ada 1,5 liter. motor gue jujur, gue yang gak" },
+      { authorId: 16, minutesAgo: 1770, content: "gue 24 dan diomelin 'dek' sama mbak2 penjual. pilihannya: nangis atau senyum. gue pilih senyum sambil nangis" },
     ],
   },
   {
@@ -304,13 +309,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1950,
     shares: 288,
     content:
-      "orang suka kangen: 'dulu nasi sepiring 500 perak!'. iya, 1998. gaji umr 1998 sekitar 180rb. nasi 500 berarti gaji itu 360 piring. sekarang nasi 15rb, umr sekitar 5jt = 333 piring. harga naik 30x, daya beli turun dikit. INI YANG GAK Dicerita pas orang kangen masa lalu: yang naik bukan cuma harga, yang turun gak juga seburuk keluhannya",
+      "cicilan 0%. HP terbaru. 'cukup 1,2 juta per bulan'.\n\ngue itung cepet: 1,2 x 12 = 14,4 juta. harga tunainya 11 juta.\n\nbeda 3,4 juta. itu bukan 0%. itu 0% yang ngumpet di harga.\n\naturan gue sederhana: kalo mo tau biaya beneran, jangan liat angka paling gede di brosur. liat total keluar. satu angka itu gak bisa dikabar2in.",
     comments: [
-      { authorId: 48, minutesAgo: 1930, content: " Ini bagus. Orang2 bandingin harga, gak bandingin gaji. kalo bandingin dua2nya, kadang dulu lebih susah" },
-      { authorId: 14, minutesAgo: 1850, content: "inflasi itu nyata tapi gak merata. kalo gajinya kaku, inflasi terasa dobel. makanya naik2 gaji itu penting dibahas" },
-      { authorId: 7, minutesAgo: 1750, content: "gue share ke grup keluarga. bapak gue bilang 'ya dulu lebih murah'. gue bales 'ya dulu lebih susah'. chat-nya dibaca. gak dibales" },
-      { authorId: 31, minutesAgo: 1600, content: "daya beli piring nasi itu metrik paling jujur buat hidup sehari2. kertas statistik susah dibaca, piring gampang" },
-      { authorId: 33, minutesAgo: 1450, content: "data sejarah gaji susah dicari pasti, tapi arah ceritanya masuk akal. 1998 krisis, 360 piring gak seburuk itu juga mungkin. intinya: jangan kangen masa lalu cuma pake satu variabel" },
+      { authorId: 48, minutesAgo: 1930, content: "3,4 juta itu bukan biaya kecil. itu 'biaya kemalasan ngecheck'. dan kemalasan selalu punya invoice" },
+      { authorId: 14, minutesAgo: 1850, content: "total keluar. dua kata yang bikin semua brosur turun derajat kepercayaannya" },
+      { authorId: 7, minutesAgo: 1750, content: "kabar2in gak bisa. jadi gosip pun gak bisa. angkanya terlalu jujur" },
+      { authorId: 31, minutesAgo: 1600, content: "ini persis yang gue tanya ke sales kemarin. dia pindah topik 3x. topiknya: 'tapi bang, fiturnya'..." },
+      { authorId: 33, minutesAgo: 1450, content: "angka paling gede di brosur itu bukan harga. itu iklan" },
     ],
   },
   {
@@ -319,7 +324,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 2150,
     shares: 68,
     content:
-      "bilangan bulat tuh kenapa namanya 'bulat'? 1 itu lancip kalo ditulis. 2 lancip. 3 lancip. 8 baru agak bulat. 0 bulat banget. JADI BILANGAN BULAT YANG BENER CUMA 0 DAN 8. SISANYA NIPU. gue siap berdebat sama siapa aja",
+      "btw 1 juta itu banyak ya. sebenernya.\n\ntapi kalo dipake bayar apa2 kok cepet abis. berarti 1 juta itu banyak buat disimpen, sedikit buat dipake. matematika uang tuh ngeselin",
     comments: [],
   },
   {
@@ -328,14 +333,14 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 2400,
     shares: 234,
     content:
-      "nasi padang langganan gue: nasi + rendang + sayur + es teh = 28rb. 12 taun lalu pesanan yang sama 12rb. gue itung naiknya sekitar 8% per tahun. inflasi resmi aja biasanya 3-5%. warung deket rumah inflasinya lebih galak dari bank mana pun. TAPI GUE GAK PINDAH. rendangnya gak punya pengganti di daerah ini. ada harga buat yang enak, dan gue bayar dengan rela, sambil itung",
+      "Anak-anak muda sekarang sering bilang capek.\n\nSaya mau bilang begini: capek itu bukan cuma milik zaman sekarang. zaman saya dulu juga capek. yang beda: dulu gak ada tempat curhat. sekarang paling tidak ada grup, ada status, ada teman yang bisa menjawab jam 2 malam.\n\nJadi jangan malu capek. Yang penting besok pagi bangun lagi.\n\nSalam hangat, dari bapak-bapak yang juga masih berjuang antar anak sekolah.",
     comments: [
-      { authorId: 9, minutesAgo: 2360, content: "rendang 28rb sekarang termasuk murah loh. gue sini 35rb, enak juga tapi nasi bungkus dua tangan" },
-      { authorId: 22, minutesAgo: 2280, content: "8% per tahun itu gila. 12 taun dobel dobel. itung 1,08^12 = 2,5. 12rb x 2,5 = 30rb. KOK NYARUH. matematika warung akurat" },
-      { authorId: 26, minutesAgo: 2200, content: "gue pernah pindah warung karena naik harga. seminggu balik. yang enak gak bisa diganti, yang murah cuma bisa ditahan" },
-      { authorId: 31, minutesAgo: 2100, content: "1,08^12 = 2,518. 12 x 2,518 = 30,2rb. itu kalo naik rata2 tiap taun. kenyataannya naik saat bbm naik, sisanya diam. warung juga mikir" },
-      { authorId: 44, minutesAgo: 1950, content: "warung yang naik harga secukupnya dan tetep enak itu aset nasional. lapor ke mana ya biar diplakin" },
-      { authorId: 7, minutesAgo: 1800, content: "es teh + rendang = kombinasi yang gak bisa dihitung pake uang doang. tapi 28rb, itungannya tetep kita rayakan" },
+      { authorId: 9, minutesAgo: 2360, content: "makasih, bapak. baca ini jam 1 malam abis lembur. langsung beda rasanya" },
+      { authorId: 22, minutesAgo: 2280, content: "salam balik. semoga bapak dan anak2 selalu sehat" },
+      { authorId: 26, minutesAgo: 2200, content: "antar anak sekolah itu olahraga juga ya bapak. tiap pagi 2x naik turun motor" },
+      { authorId: 31, minutesAgo: 2100, content: "'ada teman yang bisa menjawab jam 2 malam' — dan kadang jawabannya cuma 'sabar ya'. tapi cukup kok" },
+      { authorId: 44, minutesAgo: 1950, content: "bapak gue juga begini kalau ngetik. semua kata depan kapital. resmi, kayak surat dinas" },
+      { authorId: 7, minutesAgo: 1800, content: "'Salam hangat' dari orang yang belum kenal kita ternyata bisa bikin sejuk. ini bukan soal cuaca" },
     ],
   },
 ]
