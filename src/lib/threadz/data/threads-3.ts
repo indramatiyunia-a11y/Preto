@@ -98,7 +98,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       "gue itung: jalan kaki 10 menit, naik motor 2 menit. berarti motor 5 kali lebih cepat. terus kalau jalan kaki 1 jam, naik motor 12 menit.\n\nBERARTI BESOK GUE JALAN KAKI BUAT NGUJI ITUNGAN GUE. kalo telat, dunia yang salah.",
     comments: [
       { authorId: 5, minutesAgo: 2052, content: "kelipatan itu gak jalan di semua kasus. laporan hasilnya ditunggu" },
-      { authorId: 39, minutesAgo: 2040, content: "motor itu naiknya bukan cuma kecepatan, juga jalurnya. coba itung jalurnya" },
+      { authorId: 39, minutesAgo: 2040, content: "kelipatannya emang gak berlaku. jalan kaki tinggal jalan, motor harus isi bensin dulu. itu yang gak keitung" },
       { authorId: 26, minutesAgo: 2028, content: "gue sering gitu. hasilnya telat 20 menit. dunia konsisten menang" },
       { authorId: 2, minutesAgo: 2015, content: "GUE DUKUNG. LAPOR HASIL YA" },
       { authorId: 47, minutesAgo: 2002, content: "jalan kaki 1 jam itu jauh ya. 5 kilo lebih" },
@@ -226,7 +226,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       "temen gue nanya, 'menang dikit terus, kenapa gak ditambah modalnya?'\n\ngue jawab: 'menang dikit itu umpan. kailnya udah nempel di mulut lu.'\n\ndia marah, gue diemin. dua minggu kemarin dia chat lagi: 'bro, bener.'\n\nlebih baik dimarahi sekali daripada nyesel bertahun-tahun.",
     comments: [
       { authorId: 29, minutesAgo: 2732, content: "yang marah duluan itu biasanya yang paling dalam" },
-      { authorId: 45, minutesAgo: 2720, content: "Kebanggaan yang lebih dulu sakit, keluarga yang kemudian menanggung." },
+      { authorId: 45, minutesAgo: 2720, content: "Yang lebih dulu sakit itu kebanggaannya. Yang menanggung setelahnya keluarganya." },
       { authorId: 15, minutesAgo: 2708, content: "Anda penyelamat yang sabar." },
       { authorId: 9, minutesAgo: 2695, content: "kasus di kampung kami mirip. yang akhirnya sadar emang butuh orang yang gak ngalah" },
       { authorId: 31, minutesAgo: 2682, content: "gue simpen kalimat kailnya. buat temen gue" },
@@ -374,7 +374,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     content:
       "saya simpen kembalian receh di kaleng selama sebulan. dibuka tadi, isinya 87 ribu. kaget.\n\nrencananya buat... sudah terpakai buat bensin dadakan sore ini. kaleng dua dimulai malam ini. tujuan sama. semoga kaleng dua lebih setia.",
     comments: [
-      { authorId: 48, minutesAgo: 3592, content: "87 ribu buat bensin dadakan emang paling berguna sih. tapi buat yang terakhir kali ya" },
+      { authorId: 48, minutesAgo: 3592, content: "87 ribu buat bensin dadakan itu pas banget. kaleng berikutnya taruh lebih tersembunyi, biar gak tergoda" },
       { authorId: 12, minutesAgo: 3580, content: "kaleng itu dompet kedua yang paling jujur" },
       { authorId: 22, minutesAgo: 3568, content: "semoga setia 🙏" },
       { authorId: 18, minutesAgo: 3555, content: "receh itu kecil, tapi kalau ditumpuk tumpukannya keliatan lho" },

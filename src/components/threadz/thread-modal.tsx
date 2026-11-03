@@ -1,8 +1,8 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
-import { SendHorizontal } from "lucide-react"
+import { Dialog, DialogClose, DialogContent, DialogTitle } from "@/components/ui/dialog"
+import { SendHorizontal, X } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
 import { Avatar } from "./avatar"
@@ -21,6 +21,20 @@ interface ThreadModalProps {
   visitor: { name: string; color: string } | null
   onComment: (text: string) => void
   onOpenChange: (open: boolean) => void
+}
+
+function CommentRow({ name, color, content, pop = false }: { name: string; color: string; content: string; pop?: boolean }) {
+  return (
+    <div className={`flex gap-3 px-5 py-3.5 ${pop ? "tz-pop" : ""}`}>
+      <Avatar name={name} color={color} size={32} />
+      <div className="min-w-0 flex-1">
+        <span className="block truncate text-[13px] font-semibold text-stone-900">{name}</span>
+        <p className="mt-0.5 whitespace-pre-wrap text-[14.5px] leading-relaxed text-stone-700">
+          {content}
+        </p>
+      </div>
+    </div>
+  )
 }
 
 export function ThreadModal({
@@ -56,68 +70,74 @@ export function ThreadModal({
     <Dialog open onOpenChange={onOpenChange}>
       <DialogContent
         key={thread.id}
-        className="flex max-h-[85dvh] flex-col gap-0 overflow-hidden rounded-2xl border-stone-200 bg-white p-0 text-stone-900 sm:max-w-[560px]"
+        showCloseButton={false}
+        className="flex max-h-[85dvh] flex-col gap-0 overflow-hidden rounded-2xl border-stone-200/80 bg-white p-0 text-stone-900 shadow-[0_8px_40px_rgba(28,25,23,0.18)] sm:max-w-[580px]"
       >
         <DialogTitle className="sr-only">Cuitan {author.name}</DialogTitle>
 
+        {/* bilah judul: identitas penulis + tombol tutup yang jelas */}
+        <div className="flex shrink-0 items-center justify-between gap-3 border-b border-stone-200/80 bg-white px-4 py-2.5">
+          <div className="flex min-w-0 items-center gap-2.5">
+            <Avatar name={author.name} color={author.color} size={30} />
+            <span className="truncate text-[14px] font-semibold text-stone-900">
+              {author.name}
+            </span>
+          </div>
+          <DialogClose
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-stone-400 transition-colors hover:bg-stone-100 hover:text-stone-700"
+            aria-label="Tutup"
+          >
+            <X className="h-[18px] w-[18px]" strokeWidth={2} />
+          </DialogClose>
+        </div>
+
         <div ref={scrollRef} className="tz-scroll min-h-0 flex-1 overflow-y-auto">
-          {/* post utama */}
+          {/* isi cuitan */}
           <div className="flex gap-3 px-5 py-4">
-            <Avatar name={author.name} color={author.color} size={44} />
+            <Avatar name={author.name} color={author.color} size={42} />
             <div className="min-w-0 flex-1">
-              <span className="text-[15px] font-semibold text-stone-900">{author.name}</span>
-              <p className="mt-1.5 whitespace-pre-wrap text-[15px] leading-relaxed text-stone-700">
+              <span className="text-[14px] font-semibold text-stone-900">{author.name}</span>
+              <p className="mt-1.5 whitespace-pre-wrap text-[15.5px] leading-relaxed text-stone-800">
                 {thread.content}
               </p>
             </div>
           </div>
 
-          {/* komentar — gak ada angka, gak ada waktu. tinggal buka dan baca. */}
-          <div className="border-t border-stone-100">
+          {/* bagian komentar — dipisah jelas biar gak nyampur sama isinya */}
+          <div className="border-t border-stone-200/80 bg-stone-50/70">
+            <p className="px-5 pb-1.5 pt-4 text-[11.5px] font-semibold uppercase tracking-[0.1em] text-stone-400">
+              Komentar
+            </p>
+
             {thread.comments.map((c, i) => {
               const u = getUser(c.authorId)
               return (
-                <div key={`${thread.id}-${i}`} className="flex gap-3 border-b border-stone-100 px-5 py-3">
-                  <Avatar name={u.name} color={u.color} size={32} />
-                  <div className="min-w-0 flex-1">
-                    <span className="truncate text-[13px] font-semibold text-stone-800">
-                      {u.name}
-                    </span>
-                    <p className="mt-0.5 text-[14px] leading-snug text-stone-700">{c.content}</p>
-                  </div>
+                <div key={`${thread.id}-${i}`} className="border-b border-stone-200/50 last:border-b-0">
+                  <CommentRow name={u.name} color={u.color} content={c.content} />
                 </div>
               )
             })}
 
             {/* komentar lu tampil persis kayak komentar orang lain */}
             {liveComments.map((c) => (
-              <div
-                key={c.key}
-                className="tz-pop flex gap-3 border-b border-stone-100 px-5 py-3"
-              >
-                <Avatar name={c.name} color={c.color} size={32} />
-                <div className="min-w-0 flex-1">
-                  <span className="truncate text-[13px] font-semibold text-stone-800">
-                    {c.name}
-                  </span>
-                  <p className="mt-0.5 text-[14px] leading-snug text-stone-700">{c.content}</p>
-                </div>
+              <div key={c.key} className="border-b border-stone-200/50 last:border-b-0">
+                <CommentRow name={c.name} color={c.color} content={c.content} pop />
               </div>
             ))}
 
             {emptyComments && (
-              <p className="px-5 py-8 text-center text-sm text-stone-400">
-                belum ada yang komen di sini
+              <p className="px-5 py-9 text-center text-[13.5px] text-stone-400">
+                Belum ada komentar. Jadilah yang pertama.
               </p>
             )}
           </div>
         </div>
 
-        {/* composer */}
-        <div className="border-t border-stone-200 bg-white px-4 py-3">
+        {/* bilah tulis komentar */}
+        <div className="shrink-0 border-t border-stone-200/80 bg-white px-4 py-3">
           <div className="flex items-center gap-2.5">
             <Avatar name={visitor?.name ?? "lu"} color={visitor?.color ?? "#a8a29e"} size={34} />
-            <div className="flex flex-1 items-center gap-2 rounded-full border border-stone-200 bg-stone-50 py-1.5 pl-4 pr-1.5 focus-within:border-stone-400">
+            <div className="flex flex-1 items-center gap-2 rounded-full border border-stone-200 bg-stone-50 py-1.5 pl-4 pr-1.5 transition-colors focus-within:border-stone-400 focus-within:bg-white">
               <input
                 value={text}
                 onChange={(e) => setText(e.target.value)}
@@ -136,7 +156,7 @@ export function ThreadModal({
                 type="button"
                 onClick={submit}
                 disabled={!text.trim()}
-                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-stone-900 text-white transition-opacity hover:bg-stone-700 disabled:opacity-30"
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-stone-900 text-white transition-all hover:bg-stone-700 active:scale-95 disabled:opacity-30"
                 aria-label="Kirim komentar"
               >
                 <SendHorizontal className="h-4 w-4" />

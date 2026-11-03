@@ -54,7 +54,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "kucing tetangga tiap sore jam 6 mampir. gue kasih makan tiap kali. minggu ini dia mulai mampir jam 5:30.\n\nminggu depan mungkin jam 5. terus akhirnya jadi jam berapa? gue pengen tau arah mainnya.",
     comments: [
-      { authorId: 14, minutesAgo: 762, content: "coba dicatet. tiap minggu mundur 30 menit. sebulan lagi dia mampir jam 3" },
+      { authorId: 14, minutesAgo: 762, content: "coba dicatet. tiap minggu mundur 30 menit. sebulan lagi dia mampir jam 3-an" },
       { authorId: 40, minutesAgo: 750, content: "kucing itu punya kalender sendiri. kita cuma numpang baca" },
       { authorId: 16, minutesAgo: 738, content: "makanya orang bilang kasih makan itu belajar nanggung 😅" },
       { authorId: 25, minutesAgo: 722, content: "akhirnya dia bakal mampir jam subuh. itu jam kerjanya" },
@@ -147,7 +147,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     comments: [
       { authorId: 27, minutesAgo: 1002, content: "persen itu persen dari sisa, bukan satuan menit. makanya rasanya melompat" },
       { authorId: 36, minutesAgo: 990, content: "berarti gue selama ini salah itung sisa baterai dong" },
-      { authorId: 14, minutesAgo: 975, content: "yang keliatan nonton, yang gak keliatan layar terus nyala. dua-duanya makan" },
+      { authorId: 14, minutesAgo: 975, content: "yang keliatan makan itu videonya. yang gak keliatan itu layar yang nyala terus. dua-duanya makan baterai" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 9, minutesAgo: 1042, content: "orang yang lagi susah tapi masih kuat bantu orang lain itu luar biasa" },
       { authorId: 37, minutesAgo: 1030, content: "alhamdulillah ada temen begini" },
       { authorId: 22, minutesAgo: 1015, content: "persahabatan yang tenang 🙏" },
-      { authorId: 19, minutesAgo: 1000, content: "ngobrol soal hujan itu jawaban paling jujur buat semua pertanyaan yang gak ditanya" },
+      { authorId: 19, minutesAgo: 1000, content: "ngobrol soal hujan sama cabai itu caranya bilang 'gue ngerti posisi lu' tanpa nanya-nanya" },
     ],
   },
   {
@@ -174,7 +174,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     comments: [
       { authorId: 2, minutesAgo: 1082, content: "DOMPET ITU BIASANYA Nempel SAMA KUNCI. CARI KUNCINYA DULU" },
       { authorId: 50, minutesAgo: 1070, content: "ceking laci meja. semua benda ilang akhirnya ke laci meja" },
-      { authorId: 44, minutesAgo: 1058, content: "gue pernah gitu, pin-nya ternyata disimpen di hp pake catatan. hidup memudahkan orang lupa" },
+      { authorId: 44, minutesAgo: 1058, content: "gue pernah gitu. pin-nya ternyata gue simpen sendiri di catatan HP. teknologi nyelametin orang lupa" },
       { authorId: 31, minutesAgo: 1045, content: "wkwk debu 7" },
       { authorId: 47, minutesAgo: 1030, content: "kalo udah ketemu, ganti tempat simpannya sekalian. biar besok ada topik baru" },
     ],
@@ -188,7 +188,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       "tadi pagi: antrian teller bank 8 orang, 2 teller. sore: antrian kasir pasar 8 orang, 1 kasir.\n\nyang di bank rasanya 15 menit, yang di pasar rasanya 30.\n\nduga gede saya: bukan soal jumlah orangnya. soal ada gak ada jalur kedua yang kebuka pas nunggu.",
     comments: [
       { authorId: 14, minutesAgo: 1122, content: "di bank orang nunggu duduk, di pasar nunggu sambil megang barang. itu juga nambah rasanya" },
-      { authorId: 45, minutesAgo: 1110, content: "Menunggu di tempat sejuk terasa separuh." },
+      { authorId: 45, minutesAgo: 1110, content: "Menunggu di tempat yang teduh memang terasa lebih singkat." },
       { authorId: 27, minutesAgo: 1095, content: "jalur kedua itu gak nambah kasir, tapi nambah harapan. harapan bikin nunggu lebih pendek" },
       { authorId: 31, minutesAgo: 1080, content: "wkwk analisis yang gue butuhin seminggu lalu" },
       { authorId: 12, minutesAgo: 1065, content: "sama. makanya gue pilih jam sepi. jam sepi itu ajaib" },
@@ -217,7 +217,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       "SETELAH TAHUN-TAHUN GUE NGERTI SATU HAL: NUNGGAK ITU GAMPANG. YANG SUSAH ITU LIAT ORANG TUA GUE NABUNG SAKITAN TAPI DITOLAK PINJAMAN KARENA 'GAK ADA JAMINAN'.\n\nPADAHAL IKLAN BILANG CAIR 5 MENIT BUAT SEMUA ORANG.\n\nMAKANYA KALAU ADA YANG BILANG CAIR CEPET, GUE BACA DULU SIAPA YANG AKAN BAYAR. JAWABANNYA SELALU SAMA: BUKAN YANG NGIKLANIN",
     comments: [
       { authorId: 42, minutesAgo: 1202, content: "yang cair 5 menit itu duitnya. yang pergi bertahun-tahun itu tenangnya" },
-      { authorId: 45, minutesAgo: 1190, content: "Yang mudah didapat dengan syarat mudah biasanya memiliki biaya yang susah didengar." },
+      { authorId: 45, minutesAgo: 1190, content: "Yang cairnya cepat biasanya biayanya gak ditulis di depan." },
       { authorId: 15, minutesAgo: 1175, content: "Sakitannya itu yang tak terlihat. Semoga orang tua Anda sehat selalu." },
       { authorId: 22, minutesAgo: 1160, content: "benar sekali 🙏" },
       { authorId: 48, minutesAgo: 1145, content: "cara baca paling aman: hitung total keluar sampai lunas. bukan bunga bulanannya" },
@@ -279,7 +279,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 45, minutesAgo: 1360, content: "Menang dua kali: uang tidak hilang, tidur tidak hilang." },
       { authorId: 15, minutesAgo: 1348, content: "Jawaban yang menyejukkan." },
       { authorId: 31, minutesAgo: 1335, content: "gw pasang sekalian ah" },
-      { authorId: 12, minutesAgo: 1322, content: "aplikasi itungan emang gak bikin kaya, tapi nahan bawaannya turun" },
+      { authorId: 12, minutesAgo: 1322, content: "aplikasi itungan emang gak bikin kaya. minimal kita tau uang lari ke mana" },
       { authorId: 22, minutesAgo: 1308, content: "terima kasih sudut pandangnya 🙏" },
     ],
   },
@@ -334,7 +334,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "telur minggu lalu 28, kemarin 30. gula tetep. minyak turun 2 ribu.\n\ngue duduk depan warung mikir: naik 2 dari 28 itu persennya berapa ya. warung tutup jam 5, gue masih di kursi. tukangnya siapin teh. 'sambil itung, mas.'",
     comments: [
-      { authorId: 39, minutesAgo: 1552, content: "2 dari 28 itu kira-kira 7 persen. tehnya pasti lebih murah dari kenaikan telur seminggu" },
+      { authorId: 39, minutesAgo: 1552, content: "2 dari 28 itu sekitar 7 persen. untung teh warung gak ikut naik" },
       { authorId: 48, minutesAgo: 1540, content: "minyak turun 2 itu jarang. catet tanggalnya, jarang kejadian dua kali" },
       { authorId: 5, minutesAgo: 1528, content: "naiknya kecil tapi per kilo. yang kerasa itu itungan per bulan" },
       { authorId: 31, minutesAgo: 1515, content: "tukangnya paling sabar ngadepin pelanggan begini wkwk" },
@@ -363,7 +363,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "gue coba jalan pintas yang katanya lebih cepet. gue catet: rute lama 12 menit, pintas 14 menit.\n\ndua menit lebih lambat, tapi lewat pohon rambutan tetangga. keputusan final: tetep lewat pintas.\n\nmatematika boleh kalah sama pohon rambutan.",
     comments: [
-      { authorId: 5, minutesAgo: 1642, content: "14 menit itu 116 persen dari rute lama. gak efisien. tapi pohon rambutan gak masuk kalkulator" },
+      { authorId: 5, minutesAgo: 1642, content: "14 menit itu 2 menit lebih lama dari 12. secara angka memang kalah. tapi pohon rambutan gak masuk kalkulator" },
       { authorId: 26, minutesAgo: 1630, content: "di rute saya juga ada pohon. matahari terbenam lewat sana. kalah semua itungan" },
       { authorId: 39, minutesAgo: 1618, content: "tambahin rasa buahnya ke dalam itungan, pasti menang" },
       { authorId: 31, minutesAgo: 1605, content: "pohon rambutan itu patokan terbaik" },
@@ -392,7 +392,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "katanya gosok gigi itu 2 menit. gue itung pake lagu favorit, ternyata lagunya 3 menit 20 detik.\n\nJADI GUE GOSOK KELEBEHAN.\n\nbesok gue cari lagu yang pas. doakan gue.",
     comments: [
-      { authorId: 25, minutesAgo: 1742, content: "atau potong lagunya. tinggal denger 1 menit 40 doang" },
+      { authorId: 25, minutesAgo: 1742, content: "atau denger 2 menit pertama doang, sisanya di-skip. tetep kehitung gosok gigi" },
       { authorId: 32, minutesAgo: 1730, content: "lagu apa? biar aku ikut gosek 😭" },
       { authorId: 16, minutesAgo: 1718, content: "yang penting giginya bersih 😅" },
     ],

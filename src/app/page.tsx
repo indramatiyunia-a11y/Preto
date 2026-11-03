@@ -120,14 +120,14 @@ export default function Home() {
 
       // 1% doang ada yang bales, tanpa indikator apa2. kebanyakan komen lu ya udah gitu aja.
       if (Math.random() < REPLY_CHANCE) {
-        const responder = pickRandomReplyUser()
+        const responder = pickRandomReplyUser(text)
         window.setTimeout(() => {
           const reply: LiveComment = {
             key: `${Date.now()}-${Math.floor(Math.random() * 1e6)}`,
             name: responder.name,
             color: responder.color,
             minutesAgo: 0,
-            content: pickRandomReply(),
+            content: pickRandomReply(text),
           }
           setLiveByThread((cur) => {
             const next = { ...cur, [tid]: [...(cur[tid] ?? []), reply] }
@@ -156,7 +156,7 @@ export default function Home() {
       persistExtras({ comments: liveByThread, posts: nextPosts })
       setTab("terbaru")
       setVisible(PAGE_SIZE)
-      toast({ description: "udah keposting. nongol paling atas." })
+      toast({ description: "Cuitan berhasil dikirim." })
     },
     [visitor, myPosts, liveByThread, persistExtras]
   )
@@ -182,7 +182,7 @@ export default function Home() {
         <header className="sticky top-0 z-30 -mx-3 border-b border-stone-200/70 bg-[#f4f0e8]/90 backdrop-blur sm:-mx-4 sm:px-4">
           <div className="flex h-14 items-center justify-between px-3 sm:px-0">
             <div className="flex items-center gap-2.5">
-              <span className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-stone-900 font-serif text-lg text-amber-300">
+              <span className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-stone-900 font-serif text-lg text-amber-300 shadow-[0_1px_3px_rgba(28,25,23,0.25)]">
                 &Sigma;
               </span>
               <h1 className="font-serif text-[22px] font-bold tracking-tight text-stone-900">
@@ -192,7 +192,7 @@ export default function Home() {
             <button
               type="button"
               onClick={rerollIdentity}
-              className="flex items-center gap-2 rounded-full border border-stone-300 bg-white/70 py-1 pl-1 pr-3 text-[13px] text-stone-600 transition-colors hover:border-stone-400 hover:bg-white"
+              className="flex items-center gap-2 rounded-full border border-stone-200 bg-white py-1 pl-1 pr-3 text-[13px] text-stone-600 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-colors hover:border-stone-300 hover:bg-stone-50"
               aria-label="Undi ulang identitas"
             >
               <Avatar name={visitor?.name ?? "lu"} color={visitor?.color ?? "#a8a29e"} size={26} />
@@ -209,10 +209,10 @@ export default function Home() {
                   setTab(t)
                   setVisible(PAGE_SIZE)
                 }}
-                className={`-mb-px border-b-2 pb-2.5 pt-1 text-[14px] transition-colors ${
+                className={`-mb-px border-b-2 pb-2.5 pt-1.5 text-[14px] transition-colors ${
                   tab === t
                     ? "border-orange-700 font-semibold text-stone-900"
-                    : "border-transparent text-stone-500 hover:text-stone-800"
+                    : "border-transparent text-stone-500 hover:border-stone-300 hover:text-stone-800"
                 }`}
                 aria-pressed={tab === t}
               >
@@ -239,20 +239,18 @@ export default function Home() {
 
           {hasMore ? (
             /* penahan manual ala aplikasi ringan: scroll mentok, klik dulu baru lanjut */
-            <div className="flex flex-col items-center gap-2 py-6">
+            <div className="flex justify-center py-8">
               <button
                 type="button"
                 onClick={() => setVisible((v) => v + PAGE_SIZE)}
-                className="rounded-full border border-stone-300 bg-white px-6 py-2.5 text-[14px] font-semibold text-stone-700 transition-colors hover:border-stone-400 hover:bg-stone-50 active:scale-[0.98]"
+                className="rounded-full border border-stone-300 bg-white px-8 py-2.5 text-[14px] font-semibold text-stone-700 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-all hover:border-stone-400 hover:bg-stone-50 hover:shadow-[0_2px_8px_rgba(28,25,23,0.08)] active:scale-[0.98]"
               >
                 Lihat lainnya
               </button>
-              <span className="text-[12px] text-stone-400">biar gak berat, dibuka pelan-pelan</span>
             </div>
           ) : (
-            <div className="px-4 py-12 text-center text-sm text-stone-400">
-              <p>lu udah nyampe ujung feed.</p>
-              <p className="mt-1">nol tombol suka. tetep rame.</p>
+            <div className="px-4 py-14 text-center text-sm text-stone-400">
+              <p>Kamu sudah sampai ujung feed.</p>
             </div>
           )}
         </main>

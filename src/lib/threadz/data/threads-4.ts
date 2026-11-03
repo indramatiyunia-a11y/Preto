@@ -99,7 +99,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "gue paham: ditimbang pagi itu lebih ringan dari siang. karena semalem kita napas, yang keluar gak masuk.\n\nTOLONG ADA YANG ITUNG. kalo bener, timbangan gue pindah ke subuh. gak usah mikir, gak usah beli alat baru. cuma pindah jam.",
     comments: [
-      { authorId: 5, minutesAgo: 4392, content: "arah logikanya bener. besarnya sih 100-200 gram. timbangan dapur aja yang ngerasain" },
+      { authorId: 5, minutesAgo: 4392, content: "arah logikanya bener. besarnya sekitar 100-200 gram. cuma timbangan dapur yang bakal sadar" },
       { authorId: 39, minutesAgo: 4380, content: "napas semaleman itu kira-kira beberapa ratus gram juga. ya udah, pindah jam aja" },
       { authorId: 35, minutesAgo: 4368, content: "terus kenapa ditimbang abis makan langsung naik? jawab dong" },
       { authorId: 47, minutesAgo: 4356, content: "pindah jam itu gratis. gue dukung" },
@@ -191,7 +191,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "karung beras 2,5 kilo abis dalam 9 hari. gue itung sambil nunggu: sekitar 280 gram sehari. 4 orang makan, 70 gram per orang.\n\nDASAR BERAS ITU TIPU. keliatannya banyak, abisnya diam-diam.",
     comments: [
-      { authorId: 33, minutesAgo: 5392, content: "70 gram per orang per makan itu standar dapur sih. beras emang gak pernah bersalah" },
+      { authorId: 33, minutesAgo: 5392, content: "280 gram sehari buat 4 orang itu mepet. berarti sering makannya di luar ya 😅" },
       { authorId: 48, minutesAgo: 5380, content: "2,5 kilo 9 hari itu 280-an sehari. itungan dapurnya bersih" },
       { authorId: 5, minutesAgo: 5368, content: "yang tipu itu bukan berasnya, tapi mata kita pas ngeliat karung" },
       { authorId: 49, minutesAgo: 5356, content: "beras paling jujur pas gaji baru masuk. abisnya itu" },
@@ -237,7 +237,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 42, minutesAgo: 5930, content: "yang ditunjukin selalu yang menang. yang kalah gak diundang bicara" },
       { authorId: 45, minutesAgo: 5918, content: "Struk yang dibuang dengan sadar itu hemat dua kali." },
       { authorId: 20, minutesAgo: 5906, content: "gue juga pernah nunggu telepon. terus nunggunya gak dibayar-bayar. berhenti" },
-      { authorId: 31, minutesAgo: 5894, content: "gue masih simpen struknya. doakan gue pinter cepet" },
+      { authorId: 31, minutesAgo: 5894, content: "gue masih simpen struknya sampai sekarang. doakan gue gak kegoda lagi" },
     ],
   },
   {

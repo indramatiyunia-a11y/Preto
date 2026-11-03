@@ -88,7 +88,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     comments: [
       { authorId: 14, minutesAgo: 92, content: "gue pilih itung ubin dinding. hasilnya beda tiap gedung" },
       { authorId: 39, minutesAgo: 75, content: "43 itu angka prima. bonus info gratis" },
-      { authorId: 23, minutesAgo: 60, content: "..." },
+      { authorId: 23, minutesAgo: 60, content: "gue itung tombol lift juga tiap naik. gak pernah sampe segitu sih. tapi tetep ngitung" },
     ],
   },
   {
@@ -102,7 +102,7 @@ export const THREADS_PART1: ThreadzThread[] = [
       { authorId: 18, minutesAgo: 118, content: "gula sekarang mahal lho. segenggam kecil itu hemat 500-an" },
       { authorId: 16, minutesAgo: 105, content: "masakan itu bumbu sama kedekatan tetangga 😅" },
       { authorId: 49, minutesAgo: 88, content: "lodeh apapun enak, gak bisa dibantah" },
-      { authorId: 22, minutesAgo: 70, content: "sayang sekali tetangganya 🙏" },
+      { authorId: 22, minutesAgo: 70, content: "punya tetangga yang tukeran lauk itu berkah 🙏" },
     ],
   },
   {
@@ -113,7 +113,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content: "kenapa ya tangga darurat selalu di pojok. apa api-nya suka kejar orang yang jalan di tengah.",
     comments: [
       { authorId: 10, minutesAgo: 141, content: "BJIR GAK PERNAH MIKIR" },
-      { authorId: 5, minutesAgo: 128, content: "karena pojok itu paling deket ke mana-mana. kecuali ke dalam" },
+      { authorId: 5, minutesAgo: 128, content: "karena jalur darurat itu cuma satu arah: keluar. pojok biar gak ada yang bingung milih" },
     ],
   },
   {
@@ -155,7 +155,7 @@ export const THREADS_PART1: ThreadzThread[] = [
       { authorId: 5, minutesAgo: 225, content: "50 dari 100 jadi 50. 20 dari 50 jadi 10. totalnya 60. maaf, angka gak kenal kompromi" },
       { authorId: 2, minutesAgo: 214, content: "GUE MAU IKUT MENANG DONG, BOLEH GAK DIBIARKAN SALAH SEMINGGU" },
       { authorId: 6, minutesAgo: 200, content: "berarti dapet 60 ya? terus 40-nya ke mana? tanya serius" },
-      { authorId: 39, minutesAgo: 185, content: "60% dari 120 itu 72 ribu. lumayan juga sebenarnya" },
+      { authorId: 39, minutesAgo: 185, content: "50 terus 20 emang 60. makanya tiap abis bayar gue cek struk, biar kagetnya di tempat" },
       { authorId: 35, minutesAgo: 170, content: "yakin gak mau diitung ulang dulu?" },
       { authorId: 44, minutesAgo: 150, content: "gue pernah bilang gitu, langsung diketawain kasir" },
     ],
@@ -224,7 +224,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "makan malem tadi ada 2 ayam dibakar buat 8 orang di meja. om gue buka sesi: 'kalo bagi adil gimana?'\n\nkakak gue bilang bagi 8 sama rata. bapak gue bilang yang gede bagi 6, yang kecil bagi 4. terus sisanya? 'sisanya udah gue makan' kata bapak gue sambil nyimpen bagian dia.\n\nsekarang rumah punya dua kubu: tim 'sama rata' dan tim 'menurut kebutuhan'. gue gak ikut. gue tim 'yang penting dibagi sekarang, debatnya besok'.\n\nayamnya udah gak ada. debatnya masih nyala ampe sekarang di grup keluarga.",
     comments: [
-      { authorId: 48, minutesAgo: 365, content: "rumus kami: bagi per orang dulu, sisanya dikurangi yang lagi tumbuh gigi" },
+      { authorId: 48, minutesAgo: 365, content: "rumus kami: dibagi sama rata dulu, yang giginya lagi tumbuh dapat potongan tanpa tulang. aman semua" },
       { authorId: 42, minutesAgo: 352, content: "yang paling gendut minta dikit. itu solusi dunia nyata" },
       { authorId: 2, minutesAgo: 338, content: "TIM SAMARATA WOI. GAK ADA LAIN" },
       { authorId: 25, minutesAgo: 322, content: "kalo ayamnya 1,5 gimana? setengahnya dibagi ke siapa" },
@@ -255,7 +255,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "Nyokap ditawarin tetangga: 'pinjem 2 juta, bunga tipis, per bulan 200 ribu'. Nyokap nanya ke saya dulu. Saya tulis di kertas receh: 200 ribu kali 12 bulan jadi 2,4 juta. Duitnya tetep 2 juta, yang jalan 2,4.\n\nNyokap bilang, 'berarti yang jalan kita ya, bukan duitnya'. Betul. Akhirnya gak jadi ambil, nyokap malah kirimin tetangganya semangkuk sayur.\n\nUrusan duit selesai, urusan tetangga tetap aman.",
     comments: [
-      { authorId: 45, minutesAgo: 418, content: "200 ribu tiap bulan dari 2 juta itu sepuluh persen. Sepuluh persen tiap bulan setahun bisa dua kali pokoknya. Hati-hati memang." },
+      { authorId: 45, minutesAgo: 418, content: "200 ribu tiap bulan dari 2 juta itu sepuluh persen per bulan. Setahun kumpulannya 2,4 juta, sudah melebihi pokoknya. Itu yang perlu dihitung sejak awal." },
       { authorId: 42, minutesAgo: 405, content: "yang nawarin bunga tipis biasanya nunggangin admin gemuk di belakang" },
       { authorId: 22, minutesAgo: 390, content: "cara nyokap menutup topiknya bagus sekali 🙏" },
       { authorId: 21, minutesAgo: 372, content: "kertas receh lebih jujur daripada banyak brosur" },
@@ -271,7 +271,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "Setahun ini saya mencatat di kertas: kapan hujan mulai. Hasilnya, hujan paling sering datang jam 4 sore sampai magrib.\n\nJadwal jemuran saya pindah ke pagi. Satu tahun mencatat, hasilnya satu keputusan kecil. Tetap saya lanjutkan. Murah, dan berhasil.",
     comments: [
-      { authorId: 40, minutesAgo: 450, content: "cuaca itu patuh pola tapi gak patuh orang. salut setaun rajin" },
+      { authorId: 40, minutesAgo: 450, content: "jam 4 sampai magrib itu cocok sama pengamatan saya. setahun rajin nyatet, salut" },
       { authorId: 5, minutesAgo: 435, content: "iya. jam 4-6 itu frekuensinya paling tinggi di banyak tempat" },
       { authorId: 45, minutesAgo: 418, content: "Mencatat itu jarang gagal. Yang sering gagal itu mengingat." },
     ],
@@ -322,7 +322,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "anak gue 15 tadi sore: 'pap, beliin hp baru dong, yang sekarang lemot.' gue bilang oke, nanti gue hitung dulu.\n\nmalamnya gue liat dia duduk di depan HP-nya sendiri. ternyata dia yang hitung cicilannya: 300 ribu kali 12 bulan. dia tutup kalkulator, bilang 'hp sekarang masih bisa'.\n\ngue gak ngomong apa-apa. gue cuma ngepel lebih semangat tadi malam.",
     comments: [
-      { authorId: 15, minutesAgo: 568, content: "Anak yang menghitung sendiri itu lebih tahan lama daripada anak yang dilarang." },
+      { authorId: 15, minutesAgo: 568, content: "Anak yang sudah menghitung sendiri biasanya jadi realistis. Yang dilarang duluan biasanya malah penasaran." },
       { authorId: 48, minutesAgo: 555, content: "3,6 juta bisa buat kebutuhan sekolah setahun. dia pasti udah ngeh" },
       { authorId: 9, minutesAgo: 540, content: "papa ngepel lebih semangat wkwk. bagus" },
       { authorId: 12, minutesAgo: 522, content: "hp lama emang paling awet kalau cicilannya gak ada" },
@@ -337,7 +337,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "kemarin beli telor 3 biji 10 ribu. hari ini beli 6 biji 20 ribu. berarti makin banyak makin murah kan??\n\nTAPI HARGA PER BIJINYA SAMA AJA. 10 ribu dibagi 3... eh, 20 ribu dibagi 6... KOK SAMA.\n\ntukangnya ketawa gak jelas. gue juga ketawa. dua-duanya gak ngomong apa-apa lagi.",
     comments: [
-      { authorId: 2, minutesAgo: 600, content: "SATU BIJI 3.300 RIBU KALO DIBULETIN. 3 BIJI 3.300, 6 BIJI JUGA 3.300. MURAHNYA NGGAK MUNCUL WOI" },
+      { authorId: 2, minutesAgo: 600, content: "SATU BIJI KALO DIBULETIN 3.300. BELI 3 ATAU BELI 6, PER BIJINYA TETEP 3.300. MURAHNYA Nggak MUNCUL-MUNCUL WOI" },
       { authorId: 18, minutesAgo: 588, content: "makanya kalo mau murah itu negosiasinya di lidah, bukan di jumlah lho" },
       { authorId: 39, minutesAgo: 572, content: "10 per 3 itu 3,3. 20 per 6 juga 3,3. satu biji emang sama. yang beda cuma jumlahnya" },
       { authorId: 33, minutesAgo: 555, content: "telor itu gak kasih diskon. yang kasih cuma tukangnya kalau kita langganan" },

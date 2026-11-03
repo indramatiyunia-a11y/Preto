@@ -12,7 +12,7 @@ const MAX_POST = 1000
 
 /**
  * Kotak nulis di paling atas feed, ala aplikasi ringan:
- * avatar + pil "Apa yang ada di pikiranlu?" — diklik keluar textarea.
+ * avatar + pil "Apa yang ada di pikiranmu?" — diklik keluar textarea.
  */
 export function PostComposer({ visitor, onPost }: PostComposerProps) {
   const [open, setOpen] = useState(false)
@@ -41,8 +41,8 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
           aria-label="Buka kotak nulis cuitan"
         >
           <Avatar name={visitor?.name ?? "lu"} color={visitor?.color ?? "#a8a29e"} size={38} />
-          <span className="flex-1 rounded-full border border-stone-200 bg-stone-100/80 px-4 py-2 text-[14px] text-stone-400">
-            Apa yang ada di pikiranlu?
+          <span className="flex-1 rounded-full border border-stone-200 bg-stone-100/80 px-4 py-2 text-[14px] text-stone-400 transition-colors hover:border-stone-300 hover:bg-stone-100">
+            Apa yang ada di pikiranmu?
           </span>
         </button>
       ) : (
@@ -68,13 +68,13 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
               className="tz-scroll mt-1 w-full resize-none bg-transparent text-[15px] leading-relaxed text-stone-900 outline-none placeholder:text-stone-400"
               aria-label="Tulis cuitan"
             />
-            <div className="mt-2 flex items-center justify-between">
+            <div className="mt-2 flex items-center justify-between border-t border-stone-100 pt-2.5">
               <span
-                className={`text-[12px] ${
+                className={`text-[12px] tabular-nums ${
                   MAX_POST - text.length <= 50 ? "text-orange-700" : "text-stone-400"
                 }`}
               >
-                {MAX_POST - text.length}
+                sisa {MAX_POST - text.length} karakter
               </span>
               <div className="flex items-center gap-2">
                 <button
@@ -83,7 +83,7 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
                     setOpen(false)
                     setText("")
                   }}
-                  className="rounded-full px-3.5 py-1.5 text-[13px] text-stone-500 transition-colors hover:bg-stone-100"
+                  className="rounded-full px-3.5 py-1.5 text-[13px] font-medium text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-700"
                 >
                   Batal
                 </button>
@@ -91,7 +91,7 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
                   type="button"
                   onClick={submit}
                   disabled={!text.trim()}
-                  className="rounded-full bg-stone-900 px-4 py-1.5 text-[13px] font-semibold text-white transition-all hover:bg-stone-700 disabled:opacity-30"
+                  className="rounded-full bg-stone-900 px-5 py-1.5 text-[13px] font-semibold text-white transition-all hover:bg-stone-700 active:scale-[0.97] disabled:opacity-30"
                 >
                   Kirim
                 </button>
