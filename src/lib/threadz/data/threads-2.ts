@@ -170,13 +170,13 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1090,
     shares: 21,
     content:
-      "TOLONG. PIN ATM GUE ILANG. BUKAN KARTUNYA. PIN-nya.\n\nGUE CHECK 5 CELANA, 2 TAS. HASIL: DEBU 7, PIN 0.\n\nTEPAT JAM 12 SIANG GUE INGET: PIN ITU GUE SIMPEN DI DOMPET. DOMPETNYA MANA",
+      "KE TIDUR JAM 4 SORE. BANGUN-BANGUN GELAP GUE KIRA UDAH SUBUH. GUE SIKAT GIGI. GUE BANGUNIN ADIK GUE TERIAK 'CEPAT MANDI UDAH JAM ENAM'. TERUS IBU GUE LEWAT DEPAN KAMAR MAKEN ROTI SANTAI BANGET. ROTI. JAM ENAM MALEM. GUE MASIH NGANGKAT CELANA KERJA SAMPE SEKARANG GAK TAU MAU DIPAKE KE MANA",
     comments: [
-      { authorId: 2, minutesAgo: 1082, content: "DOMPET ITU BIASANYA Nempel SAMA KUNCI. CARI KUNCINYA DULU" },
-      { authorId: 50, minutesAgo: 1070, content: "ceking laci meja. semua benda ilang akhirnya ke laci meja" },
-      { authorId: 44, minutesAgo: 1058, content: "gue pernah gitu. pin-nya ternyata gue simpen sendiri di catatan HP. teknologi nyelametin orang lupa" },
-      { authorId: 31, minutesAgo: 1045, content: "wkwk debu 7" },
-      { authorId: 47, minutesAgo: 1030, content: "kalo udah ketemu, ganti tempat simpannya sekalian. biar besok ada topik baru" },
+      { authorId: 2, minutesAgo: 1082, content: "HAAA SIKAT GIGI JAM MAGRIB WKWKWK GUE PERNAH DUA KALI. DUA KALI" },
+      { authorId: 50, minutesAgo: 1070, content: "tidur sore itu berbahaya. badan bangun duluan, dunia belum" },
+      { authorId: 44, minutesAgo: 1058, content: "gue pernah lebih parah. mandi, baju kerja, tinggal gas. ternyata magrib. YAUDAH gue tidur lagi" },
+      { authorId: 31, minutesAgo: 1045, content: "wkwk rotinya buat sarapan apa makan malem nih" },
+      { authorId: 47, minutesAgo: 1030, content: "berarti adik lu gak jadi sekolah? terus celana kerjanya buat besok?" },
     ],
   },
   {
@@ -214,15 +214,15 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1210,
     shares: 96,
     content:
-      "SETELAH TAHUN-TAHUN GUE NGERTI SATU HAL: NUNGGAK ITU GAMPANG. YANG SUSAH ITU LIAT ORANG TUA GUE NABUNG SAKITAN TAPI DITOLAK PINJAMAN KARENA 'GAK ADA JAMINAN'.\n\nPADAHAL IKLAN BILANG CAIR 5 MENIT BUAT SEMUA ORANG.\n\nMAKANYA KALAU ADA YANG BILANG CAIR CEPET, GUE BACA DULU SIAPA YANG AKAN BAYAR. JAWABANNYA SELALU SAMA: BUKAN YANG NGIKLANIN",
+      "SERAGAM ADIK GUE MULAI TAHUN INI HARUS ABU-ABU. TAHUN KEMAREN SURATNYA MASIH BILANG WAJIB BIRU TUA. DAN BIRU TUANYA UDAH KEBELI DUA PAS. GUE TANYA KE SEKOLAH KENAPA GANTI, JAWABANNYA DUA KATA: KEBIJAKAN SEKOLAH. LUSA ADIK GUE BILANG TEMENNYA MASIH BANYAK YANG PAKAI BIRU TUA. GAK DIOMELIN. GAK DISURUH GANTI. TERUS BELI ABU-ABU BUAT APA",
     comments: [
-      { authorId: 42, minutesAgo: 1202, content: "yang cair 5 menit itu duitnya. yang pergi bertahun-tahun itu tenangnya" },
-      { authorId: 45, minutesAgo: 1190, content: "Yang cairnya cepat biasanya biayanya gak ditulis di depan." },
-      { authorId: 15, minutesAgo: 1175, content: "Sakitannya itu yang tak terlihat. Semoga orang tua Anda sehat selalu." },
-      { authorId: 22, minutesAgo: 1160, content: "benar sekali 🙏" },
-      { authorId: 48, minutesAgo: 1145, content: "cara baca paling aman: hitung total keluar sampai lunas. bukan bunga bulanannya" },
-      { authorId: 31, minutesAgo: 1130, content: "gue simpen. buat diajarin ke adik gue yang mau ambil" },
-      { authorId: 9, minutesAgo: 1115, content: "grup keluarga gue perlu baca ini" },
+      { authorId: 42, minutesAgo: 1202, content: "abu-abu itu warna paling cepet keliatan kusam. dobel ongkos lagi" },
+      { authorId: 45, minutesAgo: 1190, content: "Kalau bisa, tanya dulu apakah yang lama boleh dipakai sampai ganti ukuran. Seringnya aturan begitu longgar saat pelaksanaan." },
+      { authorId: 15, minutesAgo: 1175, content: "Semoga ada surat resmi soal masa transisi. Itu biasanya menolong banyak orang tua." },
+      { authorId: 22, minutesAgo: 1160, content: "sabar ya, pengeluaran dadakan selalu datang di bulan yang salah 🙏" },
+      { authorId: 48, minutesAgo: 1145, content: "coba minta daftar jadwal gantinya sekalian. minimal tahu beli berapa pas sampai lulus" },
+      { authorId: 31, minutesAgo: 1130, content: "dua pas biru tua itu. wkwk sabar" },
+      { authorId: 9, minutesAgo: 1115, content: "di gang kami sama aja. untung penjahitnya langganan, disetrika gratis sekali-sekali" },
     ],
   },
   {
