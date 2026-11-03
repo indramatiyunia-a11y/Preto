@@ -54,23 +54,26 @@ export default function Home() {
   const sentinelRef = useRef<HTMLDivElement>(null)
 
   // muat identitas & komentar tersimpan (kayak lagi login, padahal cuma localStorage)
+  // dibungkus queueMicrotask biar gak kena set-state sinkron di body effect
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(LS_ME)
-      if (raw) {
-        setVisitor(JSON.parse(raw))
-      } else {
-        const v = randomVisitor()
-        localStorage.setItem(LS_ME, JSON.stringify(v))
-        setVisitor(v)
+    queueMicrotask(() => {
+      try {
+        const raw = localStorage.getItem(LS_ME)
+        if (raw) {
+          setVisitor(JSON.parse(raw))
+        } else {
+          const v = randomVisitor()
+          localStorage.setItem(LS_ME, JSON.stringify(v))
+          setVisitor(v)
+        }
+      } catch {
+        setVisitor(randomVisitor())
       }
-    } catch {
-      setVisitor(randomVisitor())
-    }
-    const extras = loadExtras()
-    setLiveByThread(extras.comments)
-    setExtraShares(extras.shares)
-    setOnlineCount(1180 + Math.floor(Math.random() * 260))
+      const extras = loadExtras()
+      setLiveByThread(extras.comments)
+      setExtraShares(extras.shares)
+      setOnlineCount(1180 + Math.floor(Math.random() * 260))
+    })
   }, [])
 
   // counter online naik-turun dikit biar hidup
