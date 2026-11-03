@@ -2,315 +2,396 @@ import type { ThreadzThread } from "../types"
 
 // PART 4: cuitan 76-100.
 //
-// JARAN SUARA:
-//  26: memori kota & arah jalan.       9: cerita keluarga (anti-taruhan)
-//  42/45/48: bunga & peluang, bahasa sehari-hari.  40: HP keluarga rusak
-//  28: jujur bingung.                  25: "btw..." satu paragraf polos
-//  23: malam, pendek, gak suka titik akhir.  15: bapak tua, "Salam"
-// ATURAN DUNIA: nol merek, nol nama usaha/orang. Acuan: rumah, bus, kelas,
-// ladang, langit, gentong. Aman dibaca bocah sampai eyang.
+// KAMUS SUARA:
+//  29: pernah lihat judi merebut keluarga, emosinya diem-diem
+//  40: tanaman & cuaca, pelan, lowercase
+//  14: kering, presisi, gak banyak kata
+//  32: dramatis muda, huruf panjang, emoji 😭
+//  20: yakin tapi sering salah, percaya diri
+//  43: acara kampung & adab, 'saya', 🙏
+//   6: polos beneran, nanya serius, ketawa sendiri
+//  15: bapak tua, kapital di awal, 'Saya', pelan
+//  38: cewek remaja hiperbola, HAAA/GILS
+//   3: cerita panjang keluarga, gak pernah kasih kesimpulan
+//  18: jago harga pasar, 'lho', duduk mikir
+//  36: om penasaran teknologi, nyasar itungan
+//  12: pekerja shift, pendek, capek, tanpa emoji
+//  35: ragu-ragu, banyak tanya, sopan
+//  24: bapak anak kecil, dialog, sabar
+//  50: chaos, typo, plot twist sendiri
+//  16: ibu muda, huruf normal, 'aku', cerita anak
+//  27: iseng ngumpulin data, gak mau jadi guru
+//  22: ibu sopan, normal case, 🙏
+//   2: CAPS, typo, wkwk
+//   9: kampung & tetangga, panjang dikit, hangat
+//  47: polos-literal, praktis
+//  19: malem-malem, pendek, gak suka penutup
+//  28: baru pindah rumah, sopan, banyak nanya
+//  25: pertanyaan absurd, pendek
+//
+// ATURAN DUNIA: gak ada merek/toko/orang. angka dapur & angka jalan. aman
+// bocah sampai eyang. gak ada yang jualan, gak ada yang ngajarin.
 export const THREADS_PART4: ThreadzThread[] = [
   {
     id: 76,
-    authorId: 26,
-    minutesAgo: 45,
-    shares: 152,
+    authorId: 29,
+    minutesAgo: 3800,
+    shares: 178,
     content:
-      "alamat hari ini: 'deket pohon beringin tua, seberang pos ronda'.\n\npak. pohonnya udah gak ada sejak 2019. pos ronda pindah tahun 2021. yang ada: lapangan kosong dan kenangan orang.\n\ngue nemuin rumahnya pakai cara sederhana: tanya 3 orang, ambil rata-rata arah jawabannya, jalan ke situ. nyampe.",
+      "di kampung kami ada bapak yang dulu hancur karena slot online. sekarang dia jaga anak-anak nyebrang depan sekolah tiap pagi.\n\ngue nanya sekali, 'masih kepikiran?'. dia bilang, 'pikirannya masih lewat. tapi gue gak kasih tempat duduk.'\n\nsejak hari itu gue gak gampang ngomong 'sudah selesai' ke orang yang lagi di dalamnya. orang yang jalan kelarnya tau persis harganya.",
     comments: [
-      { authorId: 45, minutesAgo: 38, content: "rata-rata arah jawaban 3 orang itu metode yang gak akan pernah masuk jurnal. tapi tingkat keberhasilannya tinggi" },
-      { authorId: 7, minutesAgo: 20, content: "kenangan orang sebagai penunjuk jalan. selamat jalan, pohon yang sudah gugur" },
+      { authorId: 42, minutesAgo: 3790, content: "'gue gak kasih tempat duduk'. kalimat itu berat" },
+      { authorId: 45, minutesAgo: 3780, content: "Yang pulang dari lubang seperti itu, langkahnya berbeda dari orang lain." },
+      { authorId: 15, minutesAgo: 3770, content: "Semoga pagi-paginya selalu diberi kekuatan." },
+      { authorId: 9, minutesAgo: 3760, content: "anak-anak nyebrang itu aman di tangan dia" },
+      { authorId: 37, minutesAgo: 3750, content: "semoga terus kuat" },
+      { authorId: 22, minutesAgo: 3740, content: "sembuh yang pelan-pelan 🙏" },
+      { authorId: 31, minutesAgo: 3730, content: "gue baca dua kali" },
+      { authorId: 19, minutesAgo: 3720, content: "pagi paling jujur itu yang di depan sekolah" },
     ],
   },
   {
     id: 77,
-    authorId: 3,
-    minutesAgo: 90,
-    shares: 173,
+    authorId: 40,
+    minutesAgo: 3950,
+    shares: 14,
     content:
-      "prinsip yang simpel tapi jarang diinget:\n\nkalau sesuatu bikin rugi buat yang beli, dia gak akan ditawarin terus-terusan ke lu.\n\ntiket angka ditawarin di mana-mana, tiap hari, tiap jam. artinya: rata-rata, yang main rugi. terus-terusan. bukan kadang-kadang. dia didesain begitu.\n\ngue pernah nanya ke yang jual: 'bang, lu sendiri main gak?'\n\ndia ketawa. 'kalo gue main, siapa yang jual.'\n\ngue gak beli. dan gue gak nyuruh lu. gue cuma kasih tau percakapan itu.",
+      "hujan tiga hari. cabe di pot ketawa seneng, tomat di pot sebelah kurang setuju. satu halaman, dua cuaca.\n\nbesok saya tuker tempatnya. dunia pot sederhana banget: yang gak cocok dipindah, yang cocok dijaga.",
     comments: [
-      { authorId: 14, minutesAgo: 80, content: "'kalo gue main, siapa yang jual' — jawaban paling jujur sepanjang sejarah jualan" },
-      { authorId: 46, minutesAgo: 60, content: "gue kasih ini ke suami baca. dia diam 1 menit. terus bilang 'yaudah gue berenti'. harapannya amin, tahun depan masih begitu" },
-      { authorId: 27, minutesAgo: 35, content: "yang gak pernah dipajang di mana-mana itu yang bener bisa bikin untung. yang dipajang terus, ya itu" },
+      { authorId: 34, minutesAgo: 3942, content: "semoga dua-duanya bersemangat" },
+      { authorId: 41, minutesAgo: 3930, content: "tanaman itu kayak orang. ada yang suka ujan ada yang gak" },
+      { authorId: 22, minutesAgo: 3918, content: "semoga panennya lancar 🙏" },
     ],
   },
   {
     id: 78,
-    authorId: 2,
-    minutesAgo: 130,
-    shares: 66,
+    authorId: 14,
+    minutesAgo: 4100,
+    shares: 18,
     content:
-      "LU PERNAH GAK SIH MIKIR: kenapa namanya 'pembayaran'? karena kita bayar.\n\nTERUS 'PERBANKAN' KOK GAK PERBANKAN-AN. BAHASA GAK KONSISTEN",
-    comments: [],
+      "dari rumah ke pasar itu 23 lampu jalan. tadi pagi dua mati.\n\ntetep terang, tapi rasanya beda. dua dari 23 ternyata cukup buat bikin jalan kerasa sepi.\n\nangka kecil emang gak minta izin buat kerasa gede.",
+    comments: [
+      { authorId: 5, minutesAgo: 4092, content: "8-9 persen aja, tapi kerasanya jauh lebih dari itu" },
+      { authorId: 45, minutesAgo: 4080, content: "Mata itu tidak memperbesar. Ia hanya menunjukkan." },
+      { authorId: 39, minutesAgo: 4068, content: "coba itung pas malem, pasti beda lagi rasanya" },
+    ],
   },
   {
     id: 79,
-    authorId: 40,
-    minutesAgo: 180,
-    shares: 241,
+    authorId: 32,
+    minutesAgo: 4250,
+    shares: 65,
     content:
-      "anak gue banting HP pas kalah main. 'dikit kok bapak.'\n\ndikit tuh ukurannya gimana? layar retak 3 arah, tombol nyala pindah kerja ke tombol volume.\n\ngue gak teriak. gue duduk, gue suruh dia duduk.\n\n'yang rusak itu barang. yang banting itu pilihan. besok mainnya habis magrib aja, biar layar gak keburu panas.'\n\ndia ngangguk, mukanya kusut, terus dia pamit tidur lebih cepet dari biasa. anak kalah itu capek banget ya. besok kita coba lagi.",
+      "SUMPAH nangis tadi sore. bapak gue bawa pulang mangkok baru padahal yang lama masih ada.\n\n'yang lama buat kucing, yang baru buat kita. keluarga harus rapi.'\n\nBAPAK GUE ULANGI KALIMAT ITU DUA KALI SAMPE SEKARANG NYANGKUT",
     comments: [
-      { authorId: 43, minutesAgo: 170, content: "'yang rusak itu barang. yang banting itu pilihan' — gue catet. buat diri gue sendiri juga, bukan cuma buat anak" },
-      { authorId: 37, minutesAgo: 150, content: "'dikit itu relatif' — sama kaya 'gajinya dikit doang, kerjanya banyak'" },
-      { authorId: 26, minutesAgo: 120, content: "sebagai pihak yang sering bilang 'sebentar lagi sampai', gue merasa terwakili. 8 kilometer itu jujurnya 40 menit kalau hujan" },
-      { authorId: 12, minutesAgo: 90, content: "gue banting HP sendiri pas kalah main. dikit. sekarang gue main pake HP yang sedang berebut hidup" },
-      { authorId: 46, minutesAgo: 50, content: "anak kalah itu capek banget ya — iya. makanya malam-malamnya butuh makan enak, bukan ceramah tambahan" },
+      { authorId: 16, minutesAgo: 4242, content: "bapak-bapak kalau sayang ya gitu caranya 😭" },
+      { authorId: 22, minutesAgo: 4230, content: "menyentuh 🙏" },
+      { authorId: 46, minutesAgo: 4218, content: "'keluarga harus rapi'. simpen kalimatnya" },
+      { authorId: 37, minutesAgo: 4206, content: "alhamdulillah punya bapak begini" },
+      { authorId: 43, minutesAgo: 4194, content: "yang lama buat kucing itu bagian paling lucu sekaligus paling sayang 🙏" },
     ],
   },
   {
     id: 80,
-    authorId: 18,
-    minutesAgo: 240,
-    shares: 218,
+    authorId: 20,
+    minutesAgo: 4400,
+    shares: 36,
     content:
-      "manusia tidur 1/3 hidupnya. itu standar.\n\ngue tambah 1/4 buat scroll. tinggal 5/12 buat 'hidup yang bener2 dirasakan'.\n\n5/12 itu 42%. dan gue ngerasa 42% itu banyak. padahal gue inget cuma 12%.",
+      "gue paham: ditimbang pagi itu lebih ringan dari siang. karena semalem kita napas, yang keluar gak masuk.\n\nTOLONG ADA YANG ITUNG. kalo bener, timbangan gue pindah ke subuh. gak usah mikir, gak usah beli alat baru. cuma pindah jam.",
     comments: [
-      { authorId: 24, minutesAgo: 230, content: "42% terasa banyak karena dia gak disimpen ke ingatan. ingatan kita milih yang bermakna. jadi gak perlu panik: yang kelak diinget itu yang bermakna, bukan yang dihitung" },
-      { authorId: 42, minutesAgo: 200, content: "dan yang biasanya gak diinget: antrian, iklan, scroll. yang diinget: orang. kalo mau nambah 'bagian hidup', nambahin orangnya. bukan layarnya" },
+      { authorId: 5, minutesAgo: 4392, content: "arah logikanya bener. besarnya sih 100-200 gram. timbangan dapur aja yang ngerasain" },
+      { authorId: 39, minutesAgo: 4380, content: "napas semaleman itu kira-kira beberapa ratus gram juga. ya udah, pindah jam aja" },
+      { authorId: 35, minutesAgo: 4368, content: "terus kenapa ditimbang abis makan langsung naik? jawab dong" },
+      { authorId: 47, minutesAgo: 4356, content: "pindah jam itu gratis. gue dukung" },
+      { authorId: 25, minutesAgo: 4344, content: "kalo abis keramas lebih ringan gak ya?" },
+      { authorId: 31, minutesAgo: 4332, content: "wkwk sains versi dapur" },
     ],
   },
   {
     id: 81,
-    authorId: 13,
-    minutesAgo: 300,
-    shares: 79,
+    authorId: 43,
+    minutesAgo: 4560,
+    shares: 27,
     content:
-      "SUMPAH GUE BARU NYAMBUNG KENAPA DISEBUT 'AKAR'. KARENA NYANGKUT TANAH KAN.\n\nTERUS AKAR KUADRAT ITU APAN? KUADRATNYA NYEMPEL TANAH JUGA???",
+      "kerja bakti pagi ini rame. yang paling tua disuruh istirahat dua kali, dua-duanya pura-pura dengerin sambil nyambung ngelap.\n\nsaluran yang ketutup daun sejak minggu lalu akhirnya jalan lagi sebelum jam 9. selesai semua, yang paling tua duluan yang bilang 'mari minum dulu'.\n\nsemua pulang bawa pinggang kaku dan kenyang.",
     comments: [
-      { authorId: 5, minutesAgo: 290, content: "akar kuadrat: angka yang kalo dikali diri sendiri hasilnya si kuadrat. 3 x 3 = 9, jadi akar 9 itu 3. gak semua yang 'akar' nyangkut tanah. ada yang nyangkut di nilai ulangan" },
-      { authorId: 17, minutesAgo: 260, content: "GUE JUGA BARU NYAMBUNG TADI. KITA BARENG. TERUS AKAR KUBIK ITU TIGA TANAH YA? JAWAB DONG YANG PINTAR" },
-      { authorId: 33, minutesAgo: 220, content: "akar kubik: angka yang dikali dirinya sendiri dua kali (3 x 3 x 3). tanahnya makin dalam, angkanya makin kuat" },
+      { authorId: 9, minutesAgo: 4552, content: "yang paling tua itu presiden di lapangan" },
+      { authorId: 37, minutesAgo: 4540, content: "alhamdulillah, saluran lancar" },
+      { authorId: 15, minutesAgo: 4528, content: "Orang tua itu tidak pernah benar-benar diam. Ia hanya berpindah posisi." },
+      { authorId: 22, minutesAgo: 4516, content: "kerja sama yang rapi 🙏" },
     ],
   },
   {
     id: 82,
-    authorId: 23,
-    minutesAgo: 360,
-    shares: 103,
+    authorId: 6,
+    minutesAgo: 4720,
+    shares: 29,
     content:
-      "pulang fajar. mata sipit, langit mulai terang, tetangga sepuh udah nyapu depan rumah.\n\n'udah pulang kerja, mas?'\n\niya bu. jangan ditanya.\n\ngue ambil sapu kedua. nyapu bareng lebih cepet. beliau ketawa, 'ya udah, sampe ujung jalan ya'.\n\nsampe ujung jalan lah.",
-    comments: [],
+      "kenapa ya: kalau gue nabung 5 ribu tiap hari, gue gak ngerasa makin kaya. tapi kalau gue ngeluarin 5 ribu tiap hari, gue ngerasa makin miskin banget.\n\narahnya kan beda. kok ngerasanya gak adil.",
+    comments: [
+      { authorId: 5, minutesAgo: 4712, content: "dua-duanya kerasa. yang ngeluarin lebih nempel di kepala. namanya juga ngerasa, bukan itungan" },
+      { authorId: 48, minutesAgo: 4700, content: "makanya nabung itu jangan dianggep duit. dianggep barang yang lagi disimpen, baru kerasa" },
+      { authorId: 18, minutesAgo: 4688, content: "karena yang keluar itu keliatan wujudnya, yang masuk cuma angka lho" },
+      { authorId: 21, minutesAgo: 4676, content: "cara saya: nabung dulu, sisa baru buat jajan. kebalik dari biasa tapi aman" },
+      { authorId: 25, minutesAgo: 4664, content: "kalo nabungnya sambil nyebut 'satu lagi, dua lagi' bakal kerasa gak ya" },
+      { authorId: 31, minutesAgo: 4652, content: "sama. gue gak ngerti juga tapi gue iya-iya aja" },
+    ],
   },
   {
     id: 83,
-    authorId: 5,
-    minutesAgo: 420,
-    shares: 355,
+    authorId: 15,
+    minutesAgo: 4880,
+    shares: 34,
     content:
-      "'Diskon s/d 70%' itu artinya: ada barang yang 70%. sisanya... 5%.\n\ngue cek 1 rak penuh: dari 42 barang, yang kena 70% itu 2. yang 5-10%: 19. sisanya 30-50%.\n\nkata 's/d' itu kata paling legal buat bilang 'gak semua'.\n\nkalo baca brosur pake asumsi, lu yang bingung. baca pake mata yang jahat: cari angka terkecilnya dulu.",
+      "Pagi tadi hujan tiba-tiba. Di bawah tenda kecil depan toko ada empat orang menunggu. Tidak ada yang bicara, tetapi semuanya bergeser memberi tempat satu sama lain.\n\nKetika hujan reda, semua saling mengangguk seperti rekan lama. Hujan itu memang jago membuat orang rukun.",
     comments: [
-      { authorId: 11, minutesAgo: 405, content: "'cari angka terkecilnya dulu' — prinsip yang sama berlaku buat gaji yang ditawarin pas interview" },
-      { authorId: 27, minutesAgo: 370, content: "42 barang, 2 yang 70%: 4,7%. sekian persen janji yang kepenuhi. statistiknya receh, dampaknya harapan" },
-      { authorId: 45, minutesAgo: 330, content: "yang masuk karena 70%, keluar dompetnya karena 30%. rasio di rak dan rasio di dompet itu beda jauh" },
-      { authorId: 22, minutesAgo: 280, content: "makasih ya. jadi gak ngarep 70% pas gajian nanti. semoga kita semua ketemu yang jujur" },
-      { authorId: 4, minutesAgo: 220, content: "'kata paling legal' — kaya 'mulai dari 99 ribu' di katalog. yang 99 ribu: 1 item. udah diborong" },
+      { authorId: 43, minutesAgo: 4872, content: "tenda kecil itu sekolah rukun yang gak bayar 🙏" },
+      { authorId: 22, minutesAgo: 4860, content: "tenang dan hangat 🙏" },
+      { authorId: 34, minutesAgo: 4848, content: "semoga hari mereka lancar" },
+      { authorId: 37, minutesAgo: 4836, content: "alhamdulillah" },
+      { authorId: 41, minutesAgo: 4824, content: "dulu juga begitu. tenda depan toko itu tempat semua cerita pendek" },
     ],
   },
   {
     id: 84,
-    authorId: 10,
-    minutesAgo: 480,
-    shares: 44,
+    authorId: 38,
+    minutesAgo: 5050,
+    shares: 41,
     content:
-      "angka favorit gue 7.\n\ngue baru sadar: di kalender dia selalu nanggung. minggu ada 7 hari, tapi gue selalu nungguin dia lewat.\n\nangka yang sabar bener",
+      "HAAAA gue baru tau aturan eskalator: yang berdiri di kanan, yang ngebut jalan di kiri.\n\nGUE 17 TAHUN DI DUNIA BARU TAU. tadi pagi gue berdiri di kiri, di belakang gue ada bapak ngelus dada kayak nyetel ulang kesabarannya",
     comments: [
-      { authorId: 24, minutesAgo: 470, content: "7 itu angka yang kerja: 5 hari kerja + 2 hari yang dipake buat pulih dari kerja. yang sabar bukan si 7. yang sabar kita" },
+      { authorId: 10, minutesAgo: 5042, content: "WKWK BAPAKNYA SABAR BANGET" },
+      { authorId: 25, minutesAgo: 5030, content: "kalo dua-duanya jalan gimana? jalan bareng di kanan?" },
+      { authorId: 47, minutesAgo: 5018, content: "aturan itu biasanya ada tulisannya di dinding juga. kecil banget sih hurufnya" },
+      { authorId: 2, minutesAgo: 5006, content: "GUE JUGA BARU TAHUN LALU. KITA SENASIB" },
+      { authorId: 44, minutesAgo: 4994, content: "gue pernah diingetin baik-baik sama petugas. malu 3 hari" },
     ],
   },
   {
     id: 85,
-    authorId: 37,
-    minutesAgo: 550,
-    shares: 121,
+    authorId: 3,
+    minutesAgo: 5220,
+    shares: 44,
     content:
-      "harga panen turun lagi. katanya 'ikut harga di seberang lautan'.\n\ngue gak pernah ke seberang lautan. gue ke ladang, ke tengah, ke gudang. harga turunnya nyampai semua. pas naik, dia suka nyasar, gak sampai sini.\n\nya sudah. tetep tanam. orang tetep makan.",
+      "om gue punya teori: motor banyakan lewat pas hujan mulai, bukan pas hujan gede. gue bantah, taruhan satu es teh.\n\ngue itung sendiri 15 menit di teras: pas mulai hujan 7 motor, pas gede 3. gue kalah.\n\nom gue minum es tehnya sambil bilang 'itungan itu buat yang sabar duduk.' bapak gue dari dapur: 'sabar duduk itu mahal. makanya gak semua orang punya.'",
     comments: [
-      { authorId: 19, minutesAgo: 540, content: "harga turunnya nyampai, naiknya nyasar. ini juga terjadi di gaji, pak. kita satu perasaan" },
-      { authorId: 22, minutesAgo: 480, content: "semoga harga membaik pas panen depan ya, pak. yang makan setiap hari berhutang budi ke yang garap" },
+      { authorId: 12, minutesAgo: 5212, content: "om-om menang teori itu paling gede senyumnya" },
+      { authorId: 39, minutesAgo: 5200, content: "15 menit itu sampel kecil, tapi om gak peduli, yang penting menang. persis om saya" },
+      { authorId: 26, minutesAgo: 5188, content: "gue sering itung motor juga pas nganggur di teras" },
+      { authorId: 2, minutesAgo: 5176, content: "ES TEH KALAH TARUHAN ITU PALING ENAK" },
+      { authorId: 31, minutesAgo: 5164, content: "'itungan itu buat yang sabar duduk'. gue simpen" },
+      { authorId: 42, minutesAgo: 5152, content: "yang penting kebiasaan ngitung jalan terus. es tehnya bonus" },
     ],
   },
   {
     id: 86,
-    authorId: 33,
-    minutesAgo: 620,
-    shares: 197,
+    authorId: 18,
+    minutesAgo: 5400,
+    shares: 26,
     content:
-      "tombol 'tutup pintu' di lift itu placebo. di banyak lift modern, tombol itu gak terhubung ke apa-apa. lu pencet, pintu tetep tutup waktunya dia.\n\nbukti hidup yang paling jujur: kita suka ngerasa ada kontrol. padahal yang kita pegang: tombol kosong.",
+      "karung beras 2,5 kilo abis dalam 9 hari. gue itung sambil nunggu: sekitar 280 gram sehari. 4 orang makan, 70 gram per orang.\n\nDASAR BERAS ITU TIPU. keliatannya banyak, abisnya diam-diam.",
     comments: [
-      { authorId: 27, minutesAgo: 605, content: "tapi ada lift yang beneran nerima. biar gak salah: di beberapa lift, tahan tombol pintu bareng nomor lantai. sisanya: placebo yang lucu" },
-      { authorId: 11, minutesAgo: 560, content: "tombol kosong juga ada di rapat: 'kita dengarkan masukan lu'. pencet. gak ada yang gerak" },
+      { authorId: 33, minutesAgo: 5392, content: "70 gram per orang per makan itu standar dapur sih. beras emang gak pernah bersalah" },
+      { authorId: 48, minutesAgo: 5380, content: "2,5 kilo 9 hari itu 280-an sehari. itungan dapurnya bersih" },
+      { authorId: 5, minutesAgo: 5368, content: "yang tipu itu bukan berasnya, tapi mata kita pas ngeliat karung" },
+      { authorId: 49, minutesAgo: 5356, content: "beras paling jujur pas gaji baru masuk. abisnya itu" },
     ],
   },
   {
     id: 87,
-    authorId: 35,
-    minutesAgo: 700,
-    shares: 88,
+    authorId: 36,
+    minutesAgo: 5580,
+    shares: 38,
     content:
-      "bukannya kalo gue main mesin itu kadang menang? berarti sistemnya bisa dikalahin dong?\n\nterus kenapa ada yang bangkrut, padahal kadang kan menang",
+      "TV tua di rumah cuma mau nyala kalau dipukul dua kali, di sisi kanan atas. kata bapak itu bukan rusak, 'sapaan'.\n\nsampai sekarang kalau bapak gak ada, kita pukul sambil bilang 'pagi, bapak'.\n\nnyala semua. 20 tahun berjalan.",
     comments: [
-      { authorId: 27, minutesAgo: 690, content: "karena 'kadang menang' itu bagian dari desainnya. sistem kasih kemenangan kecil sesekali supaya lu balik. lu menang dikit-dikit, mesin menang terus. gak ada yang 'ngalahin sistem'. yang ada: yang belum kena gilirannya" },
-      { authorId: 42, minutesAgo: 660, content: "yang bangkrut itu bukan yang 'sial'. yang bangkrut itu yang balik lagi dan lagi. kemenangan kecil itu umpan. dan umpan selalu keliatan enak dari mulut ikan" },
-      { authorId: 3, minutesAgo: 620, content: "cara paling aman ngalahin mesin: gak main. menang: 100%. rugi: 0. satu-satunya strategi yang udah terbukti" },
+      { authorId: 41, minutesAgo: 5572, content: "TV zaman dulu emang paling setia. sama orangnya, sama pukulannya" },
+      { authorId: 46, minutesAgo: 5560, content: "sapaan itu yang bikin awet 😅" },
+      { authorId: 22, minutesAgo: 5548, content: "rumah yang hangat 🙏" },
+      { authorId: 34, minutesAgo: 5536, content: "semoga 20 tahun lagi masih nyala" },
     ],
   },
   {
     id: 88,
-    authorId: 49,
-    minutesAgo: 780,
-    shares: 203,
+    authorId: 12,
+    minutesAgo: 5760,
+    shares: 15,
     content:
-      "kantor baru: 'kita di sini kayak keluarga.'\n\nsetahu gue keluarga gak nahan cuti. keluarga gak chat jam 9 malem soal 'hal kecil'. keluarga gak nanya 'kenapa resign' dengan nada yang bikin lu ngerasa bersalah.\n\ngue sayang keluarga gue yang bener. yang di kantor, gue profesional aja. saling hormat. selesai jam 5.",
+      "lembur 3 jam hari ini. di kertas, 3 jam kali tarif, angkanya bikin senyum.\n\ndi kenyataan: pulang jam 11, tidur jam 12, bangun jam 5. senyumnya numpang di besok.\n\nbesok juga numpang. ya udah. kerja.",
     comments: [
-      { authorId: 22, minutesAgo: 765, content: "'saling hormat, selesai jam 5' — semoga semua tempat kerja kayak gini. dan semoga lu dapet tempat kayak gini juga" },
-      { authorId: 4, minutesAgo: 730, content: "'keluarga gak nahan cuti' — kalimat paling jujur tentang istilah keluarga kantor. pinjem ya buat gue kirim ke grup" },
-      { authorId: 37, minutesAgo: 690, content: "di rumah gue, keluarga itu yang ngasih makan pas gue gak punya. tempat kerja yang bilang keluarga biasanya yang minta lembur pas gue mau pulang" },
-      { authorId: 31, minutesAgo: 640, content: "chat jam 9 malem soal 'hal kecil': hal kecil itu gak pernah kecil buat yang ditunjuk ngerjainnya" },
-      { authorId: 26, minutesAgo: 590, content: "istilah keluarga juga dipake ke kiriman. yang bikin keluarga: yang dateng pas kita susah. jawabannya sederhana" },
+      { authorId: 26, minutesAgo: 5752, content: "senyum numpang itu yang paling sering telat dateng" },
+      { authorId: 1, minutesAgo: 5740, content: "sama bang. itungan kertas selalu lebih manis" },
+      { authorId: 31, minutesAgo: 5728, content: "3 jam itu gede ya kalau dibanding rasanya" },
+      { authorId: 42, minutesAgo: 5716, content: "yang penting dibayar sesuai kertas. itu minimal" },
     ],
   },
   {
     id: 89,
-    authorId: 21,
-    minutesAgo: 860,
-    shares: 117,
+    authorId: 35,
+    minutesAgo: 5950,
+    shares: 31,
     content:
-      "murid: 'Pak, buat apa belajar persen? nanti juga gak kepake.'\n\ngue jawab: 'biar lu gak diempot diskon. biar gak salah paham bunga. biar tau kenapa potongan di gaji lu bukan angka yang mereka sebut duluan.'\n\nmurid diam. terus nanya lagi: 'pak, terus biar dapet teman dekat gimana?'\n\nguru juga manusia. gue jawab: 'persen lu jelasin dulu. sisanya jalan sendiri.'",
+      "tanya: nomor undian di struk belanja itu panjangnya kenapa 12 angka? gue coba itung peluangnya di HP... gak selesai.\n\nyang gue tau: belanja tiap minggu 4 tahun, gak pernah kepanggil. yang bikin heran, iklannya selalu nunjukin yang menang.\n\nsekarang struknya gue buang di tong. hemat hati, hemat kertas.",
     comments: [
-      { authorId: 18, minutesAgo: 850, content: "'biar gak diempot diskon' — pelajaran yang paling dibutuhkan, diringkas jadi kalimat yang murid inget seumur hidup" },
+      { authorId: 5, minutesAgo: 5942, content: "peluangnya sekitar 1 banding juta-an. dan tiap undian mulai dari nol lagi. gak nyambung sama 4 tahun lamanya" },
+      { authorId: 42, minutesAgo: 5930, content: "yang ditunjukin selalu yang menang. yang kalah gak diundang bicara" },
+      { authorId: 45, minutesAgo: 5918, content: "Struk yang dibuang dengan sadar itu hemat dua kali." },
+      { authorId: 20, minutesAgo: 5906, content: "gue juga pernah nunggu telepon. terus nunggunya gak dibayar-bayar. berhenti" },
+      { authorId: 31, minutesAgo: 5894, content: "gue masih simpen struknya. doakan gue pinter cepet" },
     ],
   },
   {
     id: 90,
-    authorId: 6,
-    minutesAgo: 940,
-    shares: 57,
+    authorId: 24,
+    minutesAgo: 6140,
+    shares: 39,
     content:
-      "udh gue mikir 1 jam. hasilnya: mikir 1 jam. gak ada solusi.\n\ntapi kerasa produktif. bingung sendiri",
-    comments: [],
+      "anak gue bikin daftar keinginan 7 item. gue tanya 'semua?'.\n\ndia jawab, 'nggak pap. yang penting nomor 1 sama nomor 7. sisanya buat senyum-senyum doang pas nulisnya.'\n\nanak itu ngurutin sendiri apa yang dia mau. gue 40 tahun kadang masih nyampur semua jadi satu.",
+    comments: [
+      { authorId: 16, minutesAgo: 6132, content: "nomor 1 sama nomor 7. itu prioritas versi anak 🥰" },
+      { authorId: 46, minutesAgo: 6120, content: "anak yang tau urutan keinginannya itu jarang nangis di toko" },
+      { authorId: 48, minutesAgo: 6108, content: "daftar 7 itu pas banget. kebanyakan dari 7 malah susah milih" },
+      { authorId: 9, minutesAgo: 6096, content: "anak-anak gampang seneng. kita yang bikin ribet" },
+      { authorId: 15, minutesAgo: 6084, content: "Keinginan yang tertata adalah hadiah bagi orang tuanya." },
+    ],
   },
   {
     id: 91,
-    authorId: 4,
-    minutesAgo: 1020,
-    shares: 141,
+    authorId: 50,
+    minutesAgo: 6330,
+    shares: 12,
     content:
-      "umur 30. belum beli rumah, belum punya tabungan yang bisa diceritain, motor masih tahun 2016.\n\ntapi tiap pagi gue bisa antar ibu ke pasar. tiap malam tidur tanpa nangis.\n\ngue gak bilang hidup sukses. gue bilang: hidup jalan.\n\nkadang 'jalan doang' udah berat banget buat sebagian orang. dan gue gak akan ngecilin itu.",
+      "gue tiap hari bilang 'besok rapihin kamar'. udah 9 hari. besok hari ke-10.\n\nkalau besok tetep gak rapi, berarti gue gak tipu siapa-siapa kecuali diri gue sendiri. gratis pula.",
     comments: [
-      { authorId: 22, minutesAgo: 1005, content: "'gue gak akan ngecilin itu' — dan justru karena gak ngecilin, jalan lu bakal makin lapang. semangat" },
-      { authorId: 49, minutesAgo: 950, content: "gue 23 dan ngerasa telat semua. baca ini kerasa: gak ada yang telat. tiap orang jalan di jalan yang beda" },
+      { authorId: 44, minutesAgo: 6322, content: "gue juga. besok kita sama-sama mulai" },
+      { authorId: 10, minutesAgo: 6310, content: "HARI KE-10 WOI. LANJUTKAN TRADISINYA" },
+      { authorId: 47, minutesAgo: 6298, content: "kamar itu gak ngeluh kok. dia cuma nunggu" },
     ],
   },
   {
     id: 92,
-    authorId: 48,
-    minutesAgo: 1100,
-    shares: 163,
+    authorId: 16,
+    minutesAgo: 6520,
+    shares: 44,
     content:
-      "beban di pundak gak majemuk. 10 kilo tetep 10 kilo besok.\n\nbunga majemuk: 1 juta jadi 1,2. terus diitung dari 1,2. dalam setahun 8,9 juta.\n\nmakanya pinjaman bunga tinggi lebih berat dari tas batu. tas batu bisa ditaro. bunga jalan terus. sampe lu bayar.",
-    comments: [],
+      "anak gue (6) minta diitungin sampai seribu sambil diayun. jam 8 malem.\n\ngue itung sampe 300-an dia udah ngantuk. sebelum molor dia bilang, 'lanjut besok ya, dari 301.'\n\nbesok gue harus inget 301. janji anak juga janji. semoga gue gak lupa.",
+    comments: [
+      { authorId: 15, minutesAgo: 6512, content: "Kalau bapaknya lupa, anak akan mengingat. Memang begitu adanya." },
+      { authorId: 22, minutesAgo: 6500, content: "semoga inget 301-nya 🙏" },
+      { authorId: 37, minutesAgo: 6488, content: "alhamdulillah, anak yang minta diitungin itu rezeki" },
+      { authorId: 43, minutesAgo: 6476, content: "anak inget semua janji 🙏" },
+      { authorId: 34, minutesAgo: 6464, content: "catet di HP sekalian biar aman. anak gak maafin lupa 😅" },
+      { authorId: 46, minutesAgo: 6452, content: "anak gue dulu minta mulai dari 500. gue lupa. dia gak lupa sampe sekarang" },
+    ],
   },
   {
     id: 93,
-    authorId: 32,
-    minutesAgo: 1200,
-    shares: 62,
-    content: "mkn dulu gue. ujan trus kerjaan nambah. hidup kok tmbh2an pas ujan",
+    authorId: 27,
+    minutesAgo: 6720,
+    shares: 20,
+    content:
+      "gue catet 30 hari: 19 kali hujan sore. tapi anehnya, tiap gue jemur di luar, yang 19 itu kompak gak turun. yang nyamber selalu dari 11 sisa itu.\n\ngue udah ngerasa ini statistik yang sengaja nunggu jemuran.",
     comments: [
-      { authorId: 44, minutesAgo: 1190, content: "kayak gosip: makin ujan makin nambah. semangat, makan yang banyak. hidup gak bisa dibenerin kalo laper" },
+      { authorId: 40, minutesAgo: 6712, content: "hujan itu gak baca catatan. makanya gak kompatibel sama jemuran" },
+      { authorId: 5, minutesAgo: 6700, content: "19 dari 30 itu sekitar 63 persen. sore-sore emang paling rawan. jemur pagi aja" },
+      { authorId: 39, minutesAgo: 6688, content: "kemungkinannya memang gak adil, tapi itunganmu rapi. lanjut catet" },
+      { authorId: 35, minutesAgo: 6676, content: "berarti catet 60 hari dong, biar gak curiga sama 11 itu" },
     ],
   },
   {
     id: 94,
-    authorId: 9,
-    minutesAgo: 1300,
-    shares: 288,
+    authorId: 22,
+    minutesAgo: 6920,
+    shares: 33,
     content:
-      "om gue dulu main taruhan bola. mulai dari 50 ribu. 'cuma iseng ngerasain menang'.\n\nsekarang motor tua peninggalan eyang udah gak ada. rumah udah gak ada. yang masih ada: mata om gue tiap kali ada yang ngomongin bola. dia keluar ruangan.\n\ngue gak nulis ini buat menghina om gue. gue nulis ini supaya yang baca gak jadi om gue di cerita anak orang lain.\n\n'cuma iseng ngerasain menang' itu kalimat pembuka dari semua cerita sedih tentang taruhan.\n\nkalo ada yang bilang kalimat itu ke lu, jangan senyum. tarik dia pulang.",
+      "Tadi sore menghadiri pengajian tetangga. Yang saya ingat bukan acaranya.\n\nMereka yang datang paling awal justru yang paling senyap: langsung bekerja mengangkat kursi, menyiapkan air, menjaga pintu. Tidak ada yang meminta.\n\nSaya ikut menyalami sebentar dan pulang. Cukup.",
     comments: [
-      { authorId: 7, minutesAgo: 1285, content: "'jangan senyum. tarik dia pulang' — gue akan inget ini seumur hidup. makasih" },
-      { authorId: 22, minutesAgo: 1240, content: "semoga om lu dikasih ketenangan. dan semoga tulisan ini nyampe ke yang paling butuh baca" },
-      { authorId: 27, minutesAgo: 1190, content: "'mulai dari 50 ribu' — angka paling kecil yang jadi pintu terbesar. dan pintu itu gak ada gagangnya di sisi dalam" },
-      { authorId: 46, minutesAgo: 1100, content: "gue simpen tulisan ini. nanti gue baca ulang pas anak gue umurnya mulai nekat" },
+      { authorId: 43, minutesAgo: 6912, content: "begitulah orang yang baik. kerja tanpa suara 🙏" },
+      { authorId: 15, minutesAgo: 6900, content: "Yang datang untuk membantu tidak butuh duduk." },
+      { authorId: 37, minutesAgo: 6888, content: "alhamdulillah, semoga keluarga yang diuji diberi kekuatan" },
+      { authorId: 9, minutesAgo: 6876, content: "kursi, air, pintu. tiga hal yang jarang dipuji tapi paling dibutuhkan" },
     ],
   },
   {
     id: 95,
-    authorId: 14,
-    minutesAgo: 1400,
-    shares: 231,
+    authorId: 2,
+    minutesAgo: 7120,
+    shares: 28,
     content:
-      "'Pak, 0,1 + 0,2 kok hasilnya 0,30000000000000004? kalkulatornya rusak?'\n\ngue senyum. 'selamat datang di pecahan versi mesin. komputer itung pake dua lambang doang, 0 dan 1. 0,1 dan 0,2 itu gak habis rapi di situ, jadi ada sisa. kecil sekali, tapi ada.'\n\nmurid: 'terus yang bener yang mana?'\n\ngue: 'dua-duanya. manusia pakai cara satu, mesin pakai cara lain. yang penting lu tau kapan pakai yang mana. biar gak ditipu angka.'",
+      "GUE ITUNG UANG RECEH 100 DI DOMPET: 23 BIJI. BERARTI 2.300.\n\nGUE PIKIR MAU BELI APA. TERUS GUE PIKIR LAGI: SIMPEN AJA. BERARTI HARI INI GUE UNTUNG 2.300 TANPA NGERJAIN APA-APA.\n\nSALAM HEMAT",
     comments: [
-      { authorId: 27, minutesAgo: 1385, content: "0,1 + 0,2 = 0,30000000000000004 itu salah satu hal pertama yang bikin orang gila di pemrograman. dan 'biar gak ditipu angka' itu benar di semua level hidup" },
-      { authorId: 45, minutesAgo: 1330, content: "dan orang dewasa ditipu angka tiap hari: diskon, bunga, persen. mesin itu versi jujurnya. dia kasih tau sisanya" },
+      { authorId: 10, minutesAgo: 7112, content: "WKWK 2.300 ITU MODAL ES TEH SATU. TAPI LO GAK MAU MINUM. RESPECT" },
+      { authorId: 38, minutesAgo: 7100, content: "HAAA DOMPET GUE RECEHNYA BANYAKAN, GUE KIRA GUE KAYA" },
+      { authorId: 49, minutesAgo: 7088, content: "salam hemat dari sejuta umat" },
+      { authorId: 13, minutesAgo: 7076, content: "ITUNG RECEH ITU KEGIATAN PALING MENENANGKAN. SETUJU" },
+      { authorId: 31, minutesAgo: 7064, content: "simpen. nanti pas lagi butuh dikit, itu nyelametin" },
     ],
   },
   {
     id: 96,
-    authorId: 2,
-    minutesAgo: 1500,
-    shares: 84,
+    authorId: 9,
+    minutesAgo: 7330,
+    shares: 25,
     content:
-      "KILOAN TUH PER KILO KAN? NYUCI GUE: 12 KAOS DIBILANG 3 KILO. GUE BINGUNG. 12 KAOS KOK 3 KILO, KAOS GUE RINGAN BGT YA TERNYATA.\n\nDUNIA CUCI MEMBANTAI ASUMSI GUE",
+      "tadi pagi anak SD bantuin neneknya angkat galon naik satu lantai. dia istirahat dua kali sambil ngomel manis: 'nek, galon ini bohong. katanya 19 liter, kok rasanya 90.'\n\nneneknya ketawa. galon nyampe. laporan selesai.",
     comments: [
-      { authorId: 27, minutesAgo: 1485, content: "12 kaos = 3 kilo, berarti 250 gram per kaos. kaos biasa emang sekitar situ. jadi bukan dunia cuci yang salah itung. dunia cuci paling jujur hari ini" },
-      { authorId: 20, minutesAgo: 1440, content: "berarti kaos itu ringan. 3 kilo bisa diangkat satu tangan. yang bayar per kilo malah untung. lanjutkan" },
-      { authorId: 46, minutesAgo: 1400, content: "coba kalau celana panjang. 12 celana itu bisa 8 kilo. makanya nyuci kaos murah, nyuci celana bikin dompet olahraga" },
+      { authorId: 16, minutesAgo: 7322, content: "19 liter dibawa naik itu berat beneran 😅 anak itu kuat" },
+      { authorId: 46, minutesAgo: 7310, content: "ngomel manisnya yang bikin nenek muda" },
+      { authorId: 37, minutesAgo: 7298, content: "alhamdulillah ada yang bantu" },
     ],
   },
   {
     id: 97,
-    authorId: 19,
-    minutesAgo: 1600,
-    shares: 98,
+    authorId: 47,
+    minutesAgo: 7540,
+    shares: 37,
     content:
-      "shift normal: 3 x 8 jam. shift tempat gue: 2 x 10 jam + lembur 'sukarela'.\n\nhasil itungannya: sama-sama 24 jam.\n\nyang beda: kaki gue, mata gue, dan jumlah 'sukarela' yang gak ada di kamus sukarela.",
+      "sabun 1 batang 4 ribu. sabun 3 batang 10 ribu. gue itung, 3 kali 4 itu 12. berarti beli 3 itu hemat 2 ribu.\n\nTAPI GUE CUMA BUTUH 1. BELI 3 BERARTI GUE BELANJA 10 RIBU BUAT HEMAT 2 RIBU.\n\nGUE DIJEBOL SISTEM. ATAU GUE YANG GAK NGERTI SISTEM.",
     comments: [
-      { authorId: 22, minutesAgo: 1585, content: "semoga aturannya diperbaiki ya. kaki dan mata lu itu bukan biaya operasional. itu hidup lu" },
+      { authorId: 5, minutesAgo: 7532, content: "hemat 2 ribu itu bener, tapi cuma kalau ketiganya kepake sampai habis. yang gak kepake bukan hemat, itu stok yang nunggu" },
+      { authorId: 18, minutesAgo: 7520, content: "yang 2 ribu itu bener, tapi yang jualan juga gak bodoh. dua-duanya benar" },
+      { authorId: 48, minutesAgo: 7508, content: "aturan gampangnya: beli banyak cuma kalau barangnya gak basi. sabun gak basi. silakan" },
+      { authorId: 2, minutesAgo: 7496, content: "HEMAT 2 RIBU ITU HEMAT WOI. GUE TEAM BELI 3" },
+      { authorId: 25, minutesAgo: 7484, content: "kalo 4 batang 12 ribu gimana? tinggal nambah 2 ribu" },
+      { authorId: 31, minutesAgo: 7472, content: "sistem itu gak jebol. cuma pinter ngadepin manusia" },
     ],
   },
   {
     id: 98,
-    authorId: 8,
-    minutesAgo: 1700,
-    shares: 245,
+    authorId: 19,
+    minutesAgo: 7750,
+    shares: 6,
     content:
-      "orang yang nawarin ibu gue 'simpanan berbunga': 'bunganya kecil kok, 1% doang per bulan.'\n\ngue jawab: 'bunga apapun ukurannya, dia tumbuh. itu definisi bunga. 1% per bulan itu lebih dari 12% setahun. dan 12% itu gak kecil buat duit yang lagi susah.'\n\nyang nawarin diem. ibu gue liat gue, terus liat si penawar, terus bilang 'anak gue pinter'.\n\ngue gak pinter. gue cuma itung 3 detik. 3 detik itu lebih pendek dari mikir 'kecil ya kayaknya'.",
+      "jam 1 pagi ayam tetangga berkokok. salah jam.\n\ngue denger sambil senyum-senyum sendiri di kasur. satu kampung salah bareng, enak juga.",
     comments: [
-      { authorId: 27, minutesAgo: 1685, content: "'bunga apapun ukurannya, dia tumbuh' — definisi paling jujur yang pernah gue dengar. dan yang ditawarin kecil-kecilan itu selalu yang tumbuh paling rapi" },
-      { authorId: 11, minutesAgo: 1640, content: "12% setahun itu bukan 'kecil'. kalau ditaruh di iklan, itu jadi 'menarik'. sama angka, dua rasa. tergantung siapa yang bayar" },
+      { authorId: 23, minutesAgo: 7742, content: "ayamnya juga ada yang gak bisa tidur sepertinya" },
+      { authorId: 4, minutesAgo: 7730, content: "kokok salah jam itu paling lucu di dunia" },
     ],
   },
   {
     id: 99,
-    authorId: 25,
-    minutesAgo: 1800,
-    shares: 76,
+    authorId: 28,
+    minutesAgo: 7970,
+    shares: 17,
     content:
-      "btw senin itu awal minggu kan.\n\nterus kok kerasa akhir pekan doang rasanya. jam 8 malem udah lelahnya jumat.\n\njam manusia sama jam kalender beda. gak nyambung bgt",
-    comments: [],
+      "bulan kedua di sini. gue udah hafal jam motor sayur lewat: jam 6:40, klakson dua kali. gue nyiapin kantong jam 6:35.\n\ntetangga bilang 'lo udah lokal banget'.\n\nya jam keempat itu bahasa yang sama di mana-mana.",
+    comments: [
+      { authorId: 22, minutesAgo: 7962, content: "klakson motor sayur itu suara paling ramah di pagi hari 🙏" },
+      { authorId: 37, minutesAgo: 7950, content: "motor sayur memang tepat waktu. lebih tepat dari banyak orang" },
+      { authorId: 26, minutesAgo: 7938, content: "gue juga hafal yang di rute gue: jam 6:20. beda kampung, bahasa sama" },
+    ],
   },
   {
     id: 100,
-    authorId: 28,
-    minutesAgo: 1950,
-    shares: 402,
-    content:
-      "coba sekarang sebutin 1 orang yang lu bisa telfon cuma buat cerita. bukan minta tolong, bukan nanya kerjaan. cerita. 'gue hari ini lelah bang.'\n\n...sama gue.\n\ngue gak sedih kok. gue cuma baru ngeh: kita punya 800 kontak, dan kontak yang aman buat ngomong hal kayak gitu tinggal segini.\n\nkalo lu sama kaya gue: nanti sore gue telfonin satu orang yang udah lama gak gue telfon. buat apa-apa. cerita doang.\n\nkalo lu mau ikut, ikut aja. gratis.",
+    authorId: 25,
+    minutesAgo: 8200,
+    shares: 9,
+    content: "pertanyaan hari ini: kalau gue tidur jam 9, bangun jam 9:30, itu namanya tidur beneran atau cuma nyoba-nyoba?",
     comments: [
-      { authorId: 9, minutesAgo: 1930, content: "gue ikut. sore ini. kontak nomor 4 dari 2019. doain dia angkat" },
-      { authorId: 22, minutesAgo: 1870, content: "gue yang jadi yang ditelfon kemarin. temen sekolah dulu. kami ngobrol 40 menit, dua-duanya ngerasa hidup. ikut ya semua" },
-      { authorId: 31, minutesAgo: 1800, content: "gue laki-laki, 34 tahun, dan gue belum pernah telfon temen 'cuma cerita'. gue mulai hari ini. serius. makasih" },
-      { authorId: 4, minutesAgo: 1730, content: "jawaban gue: ...gak ada yang bisa gue sebut. makanya gue gak bisa lewat tulisan ini tanpa komen. gue telfonin bapak gue nanti. dia pasti seneng banget padahal cuma ditanya 'pak, gimana kabarnya'" },
-      { authorId: 16, minutesAgo: 1660, content: "kontak aman gue: 1. ibu kos. dia gak pernah telfonan, tapi tiap gue pulang dia nanya 'udah makan?'. itu udah mirip telfon" },
-      { authorId: 37, minutesAgo: 1580, content: "di kampung gue dulu gak pernah sepi begini. gue pindah kota tahun lalu dan baru kerasa yang namanya 'gak ada yang bisa ditelfon'. ikut. semoga banyak yang ikut" },
-      { authorId: 12, minutesAgo: 1500, content: "gue baru telfonin temen sekolah. dia angkat, diem 3 detik, terus bilang 'kok nelfon'. terus kita ngobrol 1 jam. makasih ya tulisan ini" },
-      { authorId: 49, minutesAgo: 1420, content: "gue ikut sore. doain angkat ya. kalo gak angkat, gue kirim tulisan 'gue mau cerita dikit boleh?'. sama aja kok. yang penting nyampe" },
-      { authorId: 45, minutesAgo: 1340, content: "dari bacaan yang pernah gue dapet: rata-rata orang dewasa punya 2-5 orang yang bisa diajak cerita apa aja, dan itu dianggap sehat. yang punya 1: masih dalam batas sehat. yang 0: mulai 1 hari ini" },
-      { authorId: 15, minutesAgo: 1200, content: "Telepon itu gratis. Yang mahal itu nunggu lama. Ikut saya, sore ini juga. Salam." },
+      { authorId: 50, minutesAgo: 8192, content: "itu namanya ngecas. cas 30 persen" },
+      { authorId: 10, minutesAgo: 8180, content: "BJIR GUE SERING. ITU TIDUR VERSI PENDEK" },
+      { authorId: 38, minutesAgo: 8168, content: "HAAA NYOBA-NYOBA WKWK" },
+      { authorId: 31, minutesAgo: 8156, content: "gue selalu nyoba-nyoba. ampe subuh" },
     ],
   },
 ]
