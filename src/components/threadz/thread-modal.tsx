@@ -129,7 +129,7 @@ export function ThreadModal({
                 }}
                 placeholder="Tulis komentar..."
                 className="w-full bg-transparent text-[15px] text-stone-900 outline-none placeholder:text-stone-400"
-                maxLength={280}
+                maxLength={1000}
                 aria-label="Tulis komentar"
               />
               <button

@@ -8,6 +8,8 @@ interface PostComposerProps {
   onPost: (text: string) => void
 }
 
+const MAX_POST = 1000
+
 /**
  * Kotak nulis di paling atas feed, ala aplikasi ringan:
  * avatar + pil "Apa yang ada di pikiranlu?" — diklik keluar textarea.
@@ -55,28 +57,24 @@ export function PostComposer({ visitor, onPost }: PostComposerProps) {
               value={text}
               onChange={(e) => setText(e.target.value)}
               onKeyDown={(e) => {
-                if (e.key === "Enter" && !e.shiftKey) {
-                  e.preventDefault()
-                  submit()
-                }
                 if (e.key === "Escape") {
                   setOpen(false)
                   setText("")
                 }
               }}
-              rows={3}
-              maxLength={280}
-              placeholder="tulis di sini..."
+              rows={5}
+              maxLength={1000}
+              placeholder="tulis di sini... (enter buat baris baru)"
               className="tz-scroll mt-1 w-full resize-none bg-transparent text-[15px] leading-relaxed text-stone-900 outline-none placeholder:text-stone-400"
               aria-label="Tulis cuitan"
             />
             <div className="mt-2 flex items-center justify-between">
               <span
                 className={`text-[12px] ${
-                  280 - text.length <= 20 ? "text-orange-700" : "text-stone-400"
+                  MAX_POST - text.length <= 50 ? "text-orange-700" : "text-stone-400"
                 }`}
               >
-                {280 - text.length}
+                {MAX_POST - text.length}
               </span>
               <div className="flex items-center gap-2">
                 <button

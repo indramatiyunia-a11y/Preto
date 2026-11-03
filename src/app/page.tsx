@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import { Dices } from "lucide-react"
 import { THREADS } from "@/lib/threadz/threads"
 import { getUser } from "@/lib/threadz/data/users"
@@ -14,7 +14,8 @@ import { Avatar } from "@/components/threadz/avatar"
 import { TABS, TAB_LABELS, type Tab } from "@/components/threadz/tabs"
 import { toast } from "@/hooks/use-toast"
 
-const PAGE_SIZE = 14
+// feed tampil 10 post dulu, sisanya dibuka manual — biar ringan gak lagging
+const PAGE_SIZE = 10
 const LS_ME = "threadz:me"
 const LS_EXTRA = "threadz:extra"
 /** peluang ada yang bales komen lu. sengaja kecil. dunia gak diem nungguin lu. */
@@ -47,7 +48,6 @@ export default function Home() {
   const [liveByThread, setLiveByThread] = useState<Record<string, LiveComment[]>>({})
   const [myPosts, setMyPosts] = useState<ThreadzThread[]>([])
   const [visitor, setVisitor] = useState<{ name: string; color: string } | null>(null)
-  const sentinelRef = useRef<HTMLDivElement>(null)
 
   // identitas, komentar & cuitan tersimpan dibaca setelah render pertama (localStorage cuma ada di browser)
   useEffect(() => {
@@ -68,22 +68,6 @@ export default function Home() {
       setLiveByThread(extras.comments)
       setMyPosts(extras.posts)
     })
-  }, [])
-
-  // infinite scroll
-  useEffect(() => {
-    const el = sentinelRef.current
-    if (!el) return
-    const obs = new IntersectionObserver(
-      (entries) => {
-        if (entries[0]?.isIntersecting) {
-          setVisible((v) => v + 10)
-        }
-      },
-      { rootMargin: "600px" }
-    )
-    obs.observe(el)
-    return () => obs.disconnect()
   }, [])
 
   const commentCountOf = useCallback(
@@ -189,6 +173,7 @@ export default function Home() {
   }, [])
 
   const shown = feed.slice(0, visible)
+  const hasMore = visible < feed.length
 
   return (
     <div className="min-h-screen bg-[#f4f0e8] text-stone-900">
@@ -252,12 +237,17 @@ export default function Home() {
             />
           ))}
 
-          <div ref={sentinelRef} aria-hidden="true" />
-
-          {visible < feed.length ? (
-            <div className="space-y-3 rounded-2xl border border-stone-200/70 bg-white/50 px-5 py-6">
-              <div className="h-4 w-2/3 rounded bg-stone-200/80" />
-              <div className="h-4 w-1/2 rounded bg-stone-200/80" />
+          {hasMore ? (
+            /* penahan manual ala aplikasi ringan: scroll mentok, klik dulu baru lanjut */
+            <div className="flex flex-col items-center gap-2 py-6">
+              <button
+                type="button"
+                onClick={() => setVisible((v) => v + PAGE_SIZE)}
+                className="rounded-full border border-stone-300 bg-white px-6 py-2.5 text-[14px] font-semibold text-stone-700 transition-colors hover:border-stone-400 hover:bg-stone-50 active:scale-[0.98]"
+              >
+                Lihat lainnya
+              </button>
+              <span className="text-[12px] text-stone-400">biar gak berat, dibuka pelan-pelan</span>
             </div>
           ) : (
             <div className="px-4 py-12 text-center text-sm text-stone-400">

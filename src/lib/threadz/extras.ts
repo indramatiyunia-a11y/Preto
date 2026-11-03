@@ -7,16 +7,15 @@ import { USERS } from "./data/users"
 /** Balasan yang SANGAT jarang muncul (1%) beberapa detik setelah lu berkomentar */
 export const RARE_REPLIES: string[] = [
   "wkwkwk bener juga ya",
-  "anjir ini relate banget",
-  "sumpah kepikiran juga, cuma gak sempet nulis",
+  "eh iya, gue kepikiran juga tadi. cuma gak sempet nulis",
   "deng, logika",
   "komen lu nempel di kepala gue sampe besok, thanks banget",
   "gue gak ngerti tapi gue ikut seneng",
   "kalo gitu 1+1 kenapa bukan 11? JAWAB",
   "terus terus, habis itu gimana? gue penasaran",
-  "secara statistik lu gak sendirian mikir ginian",
-  "gue bookmark dulu, biar keliatan ilmiah di HP gue",
+  "gue simpen ya kalimatnya. buat ngingetin diri sendiri",
   "mantap. sekarang gue harus mikir lagi padahal lagi rebahan",
+  "semoga lu sehat-sehat aja deh, yang nulis kayak gini",
 ]
 
 /** Pilih user acak buat balas komen lu (kalo hoki 1%) */
