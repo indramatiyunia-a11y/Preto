@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "threadz — semua otaknya nyasar ke matematika",
+  title: "Akiomida",
   description:
-    "Feed sosmed penuh cuitan dari orang awam, orang bego, dan ahli matematika. Gak ada like, cuma komen & share. Nama pengguna ditentuin sistem: akiomida + 8 angka.",
-  keywords: ["threadz", "matematika", "cuitan", "sosmed", "feed"],
+    "Cuitan sehari-hari dari orang awam, orang bego, dan ahli matematika. Nama ditentukan sistem: akiomida + 8 angka. Gak ada like — cuma komen & share.",
+  keywords: ["akiomida", "cuitan", "matematika", "feed", "sosmed"],
   icons: {
-    icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23fafafa'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23000'%3E%E2%88%9E%3C/text%3E%3C/svg%3E",
+    icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231c1917'/%3E%3Ctext x='50' y='72' font-size='58' text-anchor='middle' fill='%23fcd34d'%3E%CE%A3%3C/text%3E%3C/svg%3E",
   },
   openGraph: {
-    title: "threadz",
-    description: "Orang awam, orang bego, dan ahli matematika. Satu feed. Nol tombol like.",
+    title: "Akiomida",
+    description: "Orang awam, orang bego, dan ahli matematika. Satu feed. Nol tombol suka.",
     type: "website",
   },
 };

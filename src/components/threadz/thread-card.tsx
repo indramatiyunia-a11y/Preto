@@ -1,6 +1,6 @@
 "use client"
 
-import { MessageCircle, Send } from "lucide-react"
+import { MessageCircle, Share2 } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
 import { formatMinutesAgo, formatCount } from "@/lib/threadz/format"
@@ -19,49 +19,46 @@ export function ThreadCard({ thread, commentCount, shareCount, onOpen, onShare }
 
   return (
     <article
-      className="group/thread cursor-pointer border-b border-neutral-800 px-4 py-3 transition-colors hover:bg-neutral-950"
+      className="group/thread cursor-pointer rounded-2xl border border-stone-200/90 bg-white px-5 py-4 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-shadow hover:shadow-[0_2px_10px_rgba(28,25,23,0.08)]"
       onClick={onOpen}
       aria-label={`Cuitan dari ${author.name}`}
     >
-      <div className="flex gap-3">
-        <Avatar name={author.name} color={author.color} size={40} />
-        <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-1.5 text-[15px]">
-            <span className="truncate font-semibold text-neutral-100">{author.name}</span>
-            <span className="shrink-0 text-neutral-500">· {formatMinutesAgo(thread.minutesAgo)}</span>
-          </div>
-          <p className="mt-0.5 whitespace-pre-wrap text-[15px] leading-snug text-neutral-200">
-            {thread.content}
-          </p>
+      <div className="flex items-center gap-1.5 text-[15px]">
+        <Avatar name={author.name} color={author.color} size={36} />
+        <span className="truncate font-semibold text-stone-900">{author.name}</span>
+        <span className="shrink-0 text-stone-400">· {formatMinutesAgo(thread.minutesAgo)}</span>
+      </div>
 
-          {/* Hanya ada dua aksi di dunia ini: komentar & share. Gak ada like. Titik. */}
-          <div className="mt-2.5 flex items-center gap-1">
-            <button
-              type="button"
-              className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-neutral-400 transition-colors hover:bg-neutral-900 hover:text-neutral-100"
-              onClick={(e) => {
-                e.stopPropagation()
-                onOpen()
-              }}
-              aria-label={`${commentCount} komentar. Buka cuitan`}
-            >
-              <MessageCircle className="h-[18px] w-[18px]" strokeWidth={1.8} />
-              {commentCount > 0 && <span>{formatCount(commentCount)}</span>}
-            </button>
-            <button
-              type="button"
-              className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-neutral-400 transition-colors hover:bg-neutral-900 hover:text-neutral-100"
-              onClick={(e) => {
-                e.stopPropagation()
-                onShare()
-              }}
-              aria-label={`${shareCount} kali dibagikan. Bagikan cuitan`}
-            >
-              <Send className="h-[17px] w-[17px]" strokeWidth={1.8} />
-              {shareCount > 0 && <span>{formatCount(shareCount)}</span>}
-            </button>
-          </div>
-        </div>
+      <p className="mt-2.5 whitespace-pre-wrap text-[15px] leading-relaxed text-stone-700">
+        {thread.content}
+      </p>
+
+      {/* Di dunia ini cuma ada dua aksi: komen & share. Gak ada like. */}
+      <div className="mt-3 flex items-center gap-1">
+        <button
+          type="button"
+          className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
+          onClick={(e) => {
+            e.stopPropagation()
+            onOpen()
+          }}
+          aria-label={`${commentCount} komentar. Buka cuitan`}
+        >
+          <MessageCircle className="h-[17px] w-[17px]" strokeWidth={1.8} />
+          <span>{formatCount(commentCount)}</span>
+        </button>
+        <button
+          type="button"
+          className="flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm text-stone-500 transition-colors hover:bg-stone-100 hover:text-stone-900"
+          onClick={(e) => {
+            e.stopPropagation()
+            onShare()
+          }}
+          aria-label={`${shareCount} kali dibagikan. Bagikan cuitan`}
+        >
+          <Share2 className="h-4 w-4" strokeWidth={1.8} />
+          <span>{formatCount(shareCount)}</span>
+        </button>
       </div>
     </article>
   )

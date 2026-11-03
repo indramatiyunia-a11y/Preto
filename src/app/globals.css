@@ -121,30 +121,30 @@
   }
 }
 
-/* ============ Threadz: selalu dark, selalu hitam ============ */
+/* ============ Akiomida: tema kertas hangat ============ */
 :root {
-  --background: #000000;
-  --foreground: #fafafa;
-  --card: #101010;
-  --card-foreground: #fafafa;
-  --popover: #101010;
-  --popover-foreground: #fafafa;
-  --primary: #fafafa;
-  --primary-foreground: #000000;
-  --secondary: #1c1c1c;
-  --secondary-foreground: #fafafa;
-  --muted: #1c1c1c;
-  --muted-foreground: #8f8f8f;
-  --accent: #1c1c1c;
-  --accent-foreground: #fafafa;
-  --destructive: #f43f5e;
-  --border: #262626;
-  --input: #262626;
-  --ring: #525252;
+  --background: #f4f0e8;
+  --foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --popover: #ffffff;
+  --popover-foreground: #1c1917;
+  --primary: #1c1917;
+  --primary-foreground: #ffffff;
+  --secondary: #efeae1;
+  --secondary-foreground: #1c1917;
+  --muted: #efeae1;
+  --muted-foreground: #78716c;
+  --accent: #efeae1;
+  --accent-foreground: #1c1917;
+  --destructive: #b91c1c;
+  --border: #e0d8cb;
+  --input: #e0d8cb;
+  --ring: #c2410c;
 }
 
 html {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 /* scrollbar biar gak kasar */
@@ -152,32 +152,11 @@ html {
   width: 8px;
 }
 .tz-scroll::-webkit-scrollbar-thumb {
-  background: #262626;
+  background: #d6d3d1;
   border-radius: 8px;
 }
 .tz-scroll::-webkit-scrollbar-track {
   background: transparent;
-}
-
-/* titik-titik "lagi nulis" */
-@keyframes tz-blink {
-  0%,
-  80%,
-  100% {
-    opacity: 0.2;
-  }
-  40% {
-    opacity: 1;
-  }
-}
-.tz-dot {
-  animation: tz-blink 1.2s infinite;
-}
-.tz-dot:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.tz-dot:nth-child(3) {
-  animation-delay: 0.4s;
 }
 
 /* komentar baru muncul pop */

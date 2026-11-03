@@ -1,9 +1,9 @@
-export type Tab = "untuk-lu" | "paling-rame" | "gak-gamblang"
+export type Tab = "terbaru" | "terame" | "otak-belok"
 
 export const TAB_LABELS: Record<Tab, string> = {
-  "untuk-lu": "Untuk lu",
-  "paling-rame": "Paling rame",
-  "gak-gamblang": "Gak gamblang",
+  terbaru: "Terbaru",
+  terame: "Terame",
+  "otak-belok": "Otak belok",
 }
 
-export const TABS: Tab[] = ["untuk-lu", "paling-rame", "gak-gamblang"]
+export const TABS: Tab[] = ["terbaru", "terame", "otak-belok"]

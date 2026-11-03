@@ -1,7 +1,7 @@
 "use client"
 
 import { Drawer, DrawerContent, DrawerTitle } from "@/components/ui/drawer"
-import { Link2, MessageCircle, Send, Facebook, Users } from "lucide-react"
+import { Link2, MessageCircle, Send, Facebook } from "lucide-react"
 import { toast } from "@/hooks/use-toast"
 
 interface ShareSheetProps {
@@ -12,7 +12,7 @@ interface ShareSheetProps {
 }
 
 function threadUrl(id: number) {
-  return `https://threadz.otakz.ai/cuit/${id}`
+  return `https://akiomida.app/cuit/${id}`
 }
 
 export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: ShareSheetProps) {
@@ -22,9 +22,9 @@ export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: Sha
     const url = threadUrl(threadId)
     try {
       await navigator.clipboard.writeText(url)
-      toast({ description: "Tautan disalin. Tempel di mana aja, satgas share." })
+      toast({ description: "Tautan disalin." })
     } catch {
-      toast({ description: `Tautan lu: ${url}` })
+      toast({ description: `Tautan: ${url}` })
     }
     onShared()
   }
@@ -43,13 +43,13 @@ export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: Sha
 
   return (
     <Drawer open onOpenChange={onOpenChange}>
-      <DrawerContent className="mx-auto max-w-[600px] rounded-t-2xl border-neutral-800 bg-[#101010] text-neutral-100">
+      <DrawerContent className="mx-auto max-w-[560px] rounded-t-2xl border-stone-200 bg-white text-stone-900">
         <div className="mx-auto w-full max-w-md px-4 pb-8 pt-2">
           <DrawerTitle className="mb-1 text-center text-[15px] font-semibold">
             Bagikan cuitan
           </DrawerTitle>
-          <p className="mb-4 text-center text-sm text-neutral-500">
-            {shareCount} kali dibagikan · gak ada like di dunia ini
+          <p className="mb-4 text-center text-[13px] text-stone-400">
+            {shareCount} kali dibagikan
           </p>
 
           <div className="space-y-1">
@@ -61,17 +61,12 @@ export function ShareSheet({ threadId, shareCount, onOpenChange, onShared }: Sha
                   opt.action()
                   onOpenChange(false)
                 }}
-                className="flex w-full items-center gap-4 rounded-xl px-3 py-3 text-left text-[15px] transition-colors hover:bg-neutral-900"
+                className="flex w-full items-center gap-4 rounded-xl px-3 py-3 text-left text-[15px] transition-colors hover:bg-stone-100"
               >
-                <opt.icon className="h-5 w-5 text-neutral-400" strokeWidth={1.8} />
+                <opt.icon className="h-5 w-5 text-stone-500" strokeWidth={1.8} />
                 {opt.label}
               </button>
             ))}
-          </div>
-
-          <div className="mt-4 flex items-center justify-center gap-1.5 text-xs text-neutral-600">
-            <Users className="h-3.5 w-3.5" />
-            share juga dihitung. komentar juga. intinya yang penting gosip
           </div>
         </div>
       </DrawerContent>
