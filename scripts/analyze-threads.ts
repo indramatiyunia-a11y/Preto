@@ -18,8 +18,8 @@ THREADS.forEach((t) => t.comments.forEach((c) => commentAuthors.add(c.authorId))
 // penulis thread unik
 const threadAuthors = new Set(THREADS.map((t) => t.authorId))
 
-// topik judi/slot — harus sedikit
-const judiWords = /judi|slot|jackpot|bet|togel|koin|jack pot/i
+// topik judi/slot — harus sedikit. "bet" pakai word boundary biar "betul" gak salah tangkap
+const judiWords = /judi|slot|jackpot|\bbet\b|togel|koin|jack pot/i
 const judiPosts = THREADS.filter((t) => judiWords.test(t.content))
 
 // cek struktur template: 3+ baris yang diawali angka + "X, Y, N" list
