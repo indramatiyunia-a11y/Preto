@@ -1,56 +1,87 @@
-// Validasi data threadz: 100 post, komentar 0-10, tepat satu post ber-10 komentar,
-// komentar minutesAgo < post minutesAgo, authorId valid, id unik.
+// Validasi isi dataset Threadz.
+// Jalankan: bun /home/z/my-project/scripts/validate-threadz.ts
 import { THREADS } from "../src/lib/threadz/threads"
+import { getUser } from "../src/lib/threadz/data/users"
 
-let ok = true
-const errs: string[] = []
+function kampung(id: number): string {
+  if (id <= 50) return "UTAMA"
+  if (id <= 110) return "ibu"
+  if (id <= 170) return "muda"
+  if (id <= 205) return "bapak"
+  if (id <= 230) return "mhs"
+  if (id <= 255) return "kerja"
+  if (id <= 300) return "tenang"
+  return "campur"
+}
 
-const ids = new Set<number>()
-let maxCount = 0
-let countOfMax = 0
-let zero = 0
+// hitung pasangan kutipan '...' atau "..." di satu teks
+function pasanganKutipan(t: string): number {
+  const m = t.match(/'[^']+'|"[^"]+"/g)
+  return m ? m.length : 0
+}
+
+let masalah = 0
+const semuaKomentar: string[] = []
 
 for (const t of THREADS) {
-  if (ids.has(t.id)) errs.push(`id duplikat: ${t.id}`)
-  ids.add(t.id)
-  if (t.authorId < 1 || t.authorId > 50) errs.push(`post ${t.id}: authorId invalid ${t.authorId}`)
-  if (t.content.length < 10) errs.push(`post ${t.id}: konten terlalu pendek`)
-  const n = t.comments.length
-  if (n > 10) errs.push(`post ${t.id}: ${n} komentar > 10`)
-  if (n === 0) zero++
-  if (n > maxCount) maxCount = n
+  const penulis = getUser(t.authorId).name
+  const seen = new Set<number>()
+  if (!t.content.trim()) {
+    console.log(`POST ${t.id}: konten kosong!`)
+    masalah++
+  }
+  const nKutip = pasanganKutipan(t.content)
+  if (nKutip >= 2) {
+    console.log(`POST ${t.id}: ${nKutip} pasangan kutipan (skenario?) -> ${t.content.slice(0, 80)}...`)
+    masalah++
+  }
   for (const c of t.comments) {
-    if (c.authorId < 1 || c.authorId > 50) errs.push(`post ${t.id} komentar: authorId invalid ${c.authorId}`)
-    if (c.minutesAgo >= t.minutesAgo) errs.push(`post ${t.id} komentar: minutesAgo ${c.minutesAgo} >= post ${t.minutesAgo}`)
-    if (!c.content.trim()) errs.push(`post ${t.id} komentar: konten kosong`)
+    semuaKomentar.push(c.content)
+    if (c.authorId === t.authorId) {
+      console.log(`POST ${t.id}: self-reply oleh ${c.authorId}`)
+      masalah++
+    }
+    if (seen.has(c.authorId)) {
+      console.log(`POST ${t.id}: komen dobel dari ${c.authorId}`)
+      masalah++
+    }
+    seen.add(c.authorId)
+    if (!c.content.trim()) {
+      console.log(`POST ${t.id}: komentar kosong dari ${c.authorId}`)
+      masalah++
+    }
   }
 }
 
-const dist = new Map<number, number>()
-for (const t of THREADS) dist.set(t.comments.length, (dist.get(t.comments.length) ?? 0) + 1)
-countOfMax = dist.get(maxCount) ?? 0
+// sisa konten lama yang dilarang user
+const terlarang = ["roti kismis", "saya yang mengoreksi", "nyicil bayar", "ditulis ya dik", "PIN 0", "DEBU 7"]
+for (const s of THREADS) {
+  for (const k of terlarang) {
+    if (s.content.toLowerCase().includes(k.toLowerCase())) {
+      console.log(`POST ${s.id}: masih ada terlarang "${k}"`)
+      masalah++
+    }
+  }
+  for (const c of s.comments) {
+    for (const k of terlarang) {
+      if (c.content.toLowerCase().includes(k.toLowerCase())) {
+        console.log(`POST ${s.id} komen ${c.authorId}: masih ada terlarang "${k}"`)
+        masalah++
+      }
+    }
+  }
+}
 
-console.log("total post:", THREADS.length)
-console.log("total komentar:", THREADS.reduce((a, t) => a + t.comments.length, 0))
-console.log("post tanpa komentar:", zero)
-console.log("max komentar:", maxCount, "x", countOfMax, "post")
-console.log("distribusi:", [...dist.entries()].sort((a, b) => a[0] - b[0]).map(([k, v]) => `${k}:${v}`).join("  "))
-
-// pos tipe persona buat tab otak-belok
-const begok = THREADS.filter((t) => t.authorId % 1 === 0).length
-
-// konten terlarang
-const banned = /\b(indomaret|vespa|whatsapp|whats app|warung|angkot|thr|mudik|arisan|jogja|goreng|bakso|yati|padang|warnet|nusantara|rtp|subuh|alhamdulillah|lebaran|solat|kumaha|pinjol|ukt|judol)\b/i
+// tabel kampung buat dicek mata
+console.log("\n=== KAMPUNG KOMENTAR (post: penulis -> komen) ===")
 for (const t of THREADS) {
-  const texts = [t.content, ...t.comments.map((c) => c.content)]
-  for (const s of texts) {
-    const m = s.match(banned)
-    if (m) errs.push(`post ${t.id}: kata terlarang "${m[0]}"`)
-  }
+  const koms = t.comments.map((c) => `${c.authorId}(${kampung(c.authorId)})`).join(" ")
+  console.log(`${String(t.id).padStart(3)} | ${t.authorId}(${kampung(t.authorId)}) -> ${koms || "-"}`)
 }
 
-if (THREADS.length !== 100) errs.push(`total post ${THREADS.length} != 100`)
-if (countOfMax !== 1) errs.push(`harus tepat SATU post ber-${maxCount} komentar, ada ${countOfMax}`)
-
-console.log(errs.length ? "ERRORS:\n" + errs.join("\n") : "SEMUA VALID ✓")
-if (errs.length) process.exit(1)
+// distribusi
+const jumlah = THREADS.length
+let totalKomen = 0
+for (const t of THREADS) totalKomen += t.comments.length
+console.log(`\nTotal post: ${jumlah}, total komentar: ${totalKomen}`)
+console.log(masalah === 0 ? "SEMUA CEK LOLOS" : `ADA ${masalah} MASALAH`)

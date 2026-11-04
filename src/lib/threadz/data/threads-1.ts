@@ -3,30 +3,40 @@ import type { ThreadzThread } from "../types"
 // PART 1: cuitan 1-25 (paling baru di feed).
 //
 // ATURAN ISI (berlaku buat semua part):
-//  1. Gak ada ritme baku. Tiap cuitan harus beda BENTUKNYA, bukan cuma beda
-//     kosakata: ada yang satu blok nahan napas, ada yang baris pendek, ada
-//     yang berhenti di tengah tanpa kesimpulan, ada yang nanya ke orang
-//     nggak jelas, ada yang cuma keluhan. DILARANG memaku akhiran reflektif
-//     ("ya udah, yang penting X" / "X itu Y yang Z") — itu yang bikin semua
-//     kisah kerasa ditulis satu tangan.
-//  2. Komentar itu dari ORANG ASING yang lagi scroll. Separuhnya pendek
-//     (reaksi: wkwk / sama / semangat). Makasimal satu komentar per post yang
-//     nyambung ke detail spesifik post, dan harus santai, bukan esai.
-//  3. GAK ADA cameo tokoh: bu guru gak muncul "saya yang mengoreksi", temen
-//     sebangku gak muncul ngeles, penulis gak bales komennya sendiri. Dunia
-//     post cukup hidup di post-nya, komentar cuma dengung orang lewat.
-//  4. Kampung akun tetap: 51-110 ibu-ibu, 111-170 anak muda, 171-205 bapak,
+//  1. Dunia ini kampung matematika: siswa, mahasiswa, guru, les privat, kasir,
+//     pedagang, ibu-ibu yang ngawal PR anak, ojol yang itung tarif, orang
+//     kantoran yang hidup di angka. KEBANYAKAN cuitan itu OBROLAN MATEMATIKA
+//     yang beda-beda topiknya: perkalian, diskon, pecahan, KPK, desimal,
+//     persen, bunga, kecepatan, statistik, geometri, itungan dapur, nilai
+//     ulangan. Yang sisa (± 1 dari 4) tetap urusan hidup biasa biar gak
+//     terasa satu klub matematika sehari penuh.
+//  2. Gak ada ritme baku. Tiap cuitan beda BENTUKNYA, bukan cuma kosakata:
+//     satu blok nahan napas, baris pendek, KAPITAL, kalimat kering, nanya ke
+//     nggak jelas, berhenti di tengah. DILARANG akhiran reflektif berulang
+//     ("ya udah, yang penting X" / "X itu Y yang Z") — variasikan penutup:
+//     ada yang berhenti begitu aja, ada yang nyuruh doain, ada yang nyambit.
+//  3. DILARANG cuitan bergaya SKENARIO KETEMUAN: cerita berantai "si A dateng
+//     bilang '...', terus si B jawab '...'" pake kutipan dialog lebih dari
+//     SATU. Itu naskah drama, bukan cuitan. Kutipan orang maksimal satu baris
+//     per cuitan, atau diceritain nggak langsung (kata mama, kata abang).
+//  4. Komentar itu dari ORANG ASING yang lagi scroll dan HARUS NYAMBUNG sama
+//     isi post — gak ada komentar nanya stok warung di atas cerita orang.
+//     Separuhnya reaksi pendek (wkwk / sama / semangat). MAKSIMAL SATU komen
+//     per post yang nyinggung detail spesifik, santai bukan esai.
+//  5. GAK ADA cameo tokoh: bu guru gak muncul "saya yang mengoreksi", temen
+//     sebangku gak muncul ngeles, penulis gak bales komennya sendiri.
+//  6. Kampung akun tetap: 51-110 ibu-ibu, 111-170 anak muda, 171-205 bapak,
 //     206-230 mahasiswa, 231-255 pekerja, 256-300 orang tenang, 301-350 campur.
-//     Akun utama (1-50) cuma sesekali, dan gak boleh jadi korps tetap.
+//     Akun utama (1-50) cuma sesekali, gak jadi korps tetap.
 //
 // Sidik jari penulis (kosakata & kebiasaan doang — bentuk bebas):
-//  1 : ibu muda. "Alhamdulillah/papanya/ya udah deh", emoji 😭 jarang
+//  1 : ibu muda. "Alhamdulillah/papanya/ya udah deh", anak-anak, 😭 jarang
 //  2 : anak kos laki, LEDAKAN KAPITAL + ekor lowercase, tanpa titik
-//  3 : ibu guru, "saya/Ananda", baku tapi hidup
+//  3 : ibu guru matematika SD, "saya/Ananda", baku tapi hidup
 //  4 : bapak kantoran pendiam, 2-4 kalimat kering, jam persis, tanpa emoji
 //  5 : anak warung, buku tulis, kolom kas, hangat
 //  6 : bego pede, lowercase mengalir tanpa tanda baca, itungan salah yakin
-//  7 : mahasiswi, "fix/yaudah/guys", tugas, emoticon 🙃
+//  7 : mahasiswi, "fix/yaudah/guys", skripsi & statistik, 🙃
 //  8 : RS shift malam, "gue", jam-jam presisi, kalimat satu baris
 //  9 : ojol muda, "bang/lu", jarak-tarif, baris pendek
 // 10 : SMA riuh, KAPITAL + wkwk bercampur, satu blok, tanpa titik
@@ -43,7 +53,7 @@ import type { ThreadzThread } from "../types"
 // 21 : anak kos cewek hemat, "deh/dah", ribuan, kaleng nabung
 // 22 : ibu sus galau, "anakku", doa singkat 🙏
 // 23 : begadang techy, kering minimal, kulkas & jam
-// 24 : nenek, SEMUA KAPITAL + typo (PURA2, GUAJAR), cucu
+// 24 : nenek, SEMUA KAPITAL + typo (PURA2, NGGAJAR), cucu
 // 25 : anak magang, "abes/tp", itungan gaji, lelah tapi jalan terus
 export const THREADS_PART1: ThreadzThread[] = [
   {
@@ -52,18 +62,15 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 25,
     shares: 12,
     content:
-      "Alhamdulillah sore tadi papanya anter beliin sepatu buat anak aku yang pertama, ukuran 33 pas. Barusan aku mau selimutin, tau2nya dia udah tidur pake sepatunya masih, kaus kaki jg nempel gitu aja. Aku gak enak lepasinnya, kasian takut dia bangun.\n\nYa udah aku biarin aja deh, besok subuh aku cuci diam2 😭",
+      "Alhamdulillah anak yang pertama akhirnya lancar perkalian 7. Dari sore dia ngasal sendiri soalnya, sembarang angka yang kutentuin. 7 kali 8, 7 kali 6, dijawab tanpa mikir lama. Katanya triknya satu: 7 kali 8 tuh 7 kali 4 doang lalu diulang dua kali. Aku gak ngerti matematikanya tapi kayaknya bener.\n\nYa udah deh, besok naikin ke 8.",
     comments: [
-      { authorId: 57, minutesAgo: 23, content: "MasyaAllah 😭 anakku dulu sampe 3 hari gak dilepas" },
-      { authorId: 63, minutesAgo: 21, content: "kasian tapi lucu ya kak 😭" },
-      { authorId: 72, minutesAgo: 19, content: "besok dia nyariin sepatunya kak, siap2 ngerjain cuciannya 😄" },
-      { authorId: 88, minutesAgo: 17, content: "anakku dulu tidur pake helm sepeda kak 😂" },
-      { authorId: 91, minutesAgo: 14, content: "kaus kakinya dicuci terpisah ya bu" },
-      { authorId: 95, minutesAgo: 12, content: "semoga sekolahnya menyenangkan ya bu 🙏" },
-      { authorId: 75, minutesAgo: 9, content: "aku baca sambil senyum kak 😭" },
-      { authorId: 59, minutesAgo: 7, content: "ukuran 33 besok2 naik lagi bu 😂" },
-      { authorId: 104, minutesAgo: 5, content: "belum apa2 udah disayang gitu, anaknya beruntung 🙏" },
-      { authorId: 67, minutesAgo: 3, content: "besok juga kamu yang nyuci kak 😄" },
+      { authorId: 71, minutesAgo: 22, content: "7 kali 8 itu 56 kak, anaknya bener 😄" },
+      { authorId: 85, minutesAgo: 19, content: "anakku dulu hafalnya tabel ditempel di dinding kak" },
+      { authorId: 93, minutesAgo: 16, content: "lancar terus ya kak, angka 8 juga nyusul 😄" },
+      { authorId: 102, minutesAgo: 13, content: "pintar banget, bangga ya kak 🙏" },
+      { authorId: 60, minutesAgo: 10, content: "aku umur segini masih itung pake jari kak 😭" },
+      { authorId: 66, minutesAgo: 8, content: "yang nemu trik dobel tuh siapa kak, sekolah atau papanya?" },
+      { authorId: 104, minutesAgo: 5, content: "semangat belajarnya buat anak kak 🙏" },
     ],
   },
   {
@@ -72,13 +79,13 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 55,
     shares: 30,
     content:
-      "GUE NYARI HP SATU JAM. ANGKAT KASUR, BUKA TAS, GELAR BAJU DI LANTAI. TAU GUE NEMU DIMANA? HP NYA GUE PEGANG DARI TADI. GUE PAKE BUAT SENTER PAS ANGKAT KASUR. DI MANA LOGIKANYA. YA SUDAH GUE TIDUR AJA",
+      "GUE MAU BELI SEPATU. DI ETALASE 400 RIBU. PAS BAYAR KATA KASIRNYA DISKON 25 PERSEN CUMA JALAN KALAU BELANJA DI ATAS 500 RIBU. GUE ITUNG DEPAN KASIR. KASIRNYA ITUNG JUGA. DUA2NYA SAMA2 BINGUNG. KESIMPULAN: GAK DAPAT DISKON, BAYAR 400. AKHIRNYA GUE BELI KAKI AYAM 12 RIBU PULANG",
     comments: [
-      { authorId: 44, minutesAgo: 52, content: "bre gue lebih parah, nyari kacamata padahal dipake wkwk" },
-      { authorId: 118, minutesAgo: 49, content: "senter mode on wkwk batre ente pasti abis" },
-      { authorId: 137, minutesAgo: 45, content: "yang penting ketemu bre, gue hp ilang beneran 🙏" },
-      { authorId: 129, minutesAgo: 41, content: "wkwkwk gak logik tapi relatable" },
-      { authorId: 10, minutesAgo: 37, content: "BJIR GUE PERNAH GITU JUGA WKWKWK" },
+      { authorId: 44, minutesAgo: 51, content: "diskon yang ada syarat2nya gitu itu penipuan halus bre wkwk" },
+      { authorId: 118, minutesAgo: 48, content: "kaki ayam 12 rebu penutup yang elegan wkwk" },
+      { authorId: 137, minutesAgo: 44, content: "pembeli sama kasir sama2 itung bareng itu adegan langka bre" },
+      { authorId: 10, minutesAgo: 39, content: "GUE PERNAH DITOLAK DISKON SOALNYA KATANYA CUMA BUAT APLIKASI WKWKWK" },
+      { authorId: 152, minutesAgo: 34, content: "sepatu nunggu gajian aja bre, kaki ayam dulu" },
     ],
   },
   {
@@ -87,12 +94,13 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 85,
     shares: 21,
     content:
-      "Semalam saya masih di dapur jam setengah satu, memotong kue untuk soal cerita ulangan hari ini: dua pertiga dan sepertiga. Kalau potongannya tidak masuk akal, yang dipertanyakan besok adalah saya, bukan anak-anak.\n\nKalau ada yang menjawab beda dari kunci, saya dengar dulu alasannya. Seringnya mereka yang benar.",
+      "Hari ini ada Ananda yang bertanya, Bu, buat apa belajar KPK. Saya tidak menjawab dengan teori. Kami menghitung jadwal bus: satu berangkat tiap 12 menit, satu tiap 18 menit, kapan keduanya jalan bersama lagi. Ananda menghitung sendiri sampai ketemu angkanya.\n\nPertanyaan yang mengganggu itu biasanya pintu masuk terbaik.",
     comments: [
-      { authorId: 77, minutesAgo: 80, content: "ibu guru kayak gini bikin anak2 nyaman ya bu" },
-      { authorId: 90, minutesAgo: 74, content: "potong kue tengah malam buat ulangan. semangat bu" },
-      { authorId: 262, minutesAgo: 68, content: "Konsep pecahan paling gampang masuk kalau dilihat langsung." },
-      { authorId: 103, minutesAgo: 61, content: "anakku dulu juga diajarin pake benda beneran bu 🙏" },
+      { authorId: 77, minutesAgo: 79, content: "cara menjelaskan yang bagus bu 🙏" },
+      { authorId: 90, minutesAgo: 72, content: "jadwal bus itu contoh nyata ya bu, anak langsung ngeh" },
+      { authorId: 262, minutesAgo: 66, content: "KPK memang paling mudah lewat kejadian yang berulang." },
+      { authorId: 103, minutesAgo: 60, content: "anakku kelas 4 sedang di bab itu bu. semoga ketemu gurunya seperti ibu 🙏" },
+      { authorId: 81, minutesAgo: 54, content: "semoga anak-anaknya makin paham ya bu" },
     ],
   },
   {
@@ -101,9 +109,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 115,
     shares: 3,
     content:
-      "Kereta saya terlambat 9 menit tadi pagi. Rapat mulai jam 8, saya masuk 8.14. Tidak ada yang bertanya, semua masih menatap layar. Saya duduk, menyeduh teh, rapat selesai 8.41.",
+      "Laporan bulanan butuh 14 angka. Saya mengisi 13. Satu kolom kosong karena sumbernya belum mengirim. Telepon ke sumbernya jam 10.02. Dijawab jam 15.47, isinya: 'usahakan ya Pak.'",
     comments: [
-      { authorId: 174, minutesAgo: 106, content: "9 menit masih sopan om" },
+      { authorId: 174, minutesAgo: 106, content: "kolom kosong itu yang paling lama ditunggu om" },
+      { authorId: 192, minutesAgo: 97, content: "15.47 buat jawaban begitu itu jam yang tepat om wkwk" },
     ],
   },
   {
@@ -112,12 +121,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 145,
     shares: 45,
     content:
-      "tadi sore mas pembeli langganan nyicil bayar utang seminggu. aku buka buku, coret yang lama, tulis yang baru. ibu mampir liat, bilang 'yang nyicil jangan dicoret semua, sisain dikit biar gak lupa'. jadi sekarang bukunya ada dua kolom: lunas dan sisain.\n\nmas tadi pas pamit bilang 'ditulis ya dik'. aku bilang iya. ibu yang nulis. aku gak berani nulis nama orang.",
+      "hari ini aku salah kasih kembalian dua kali. pagi kelebihan 1000, sore kekurangan 500. yang kelebihan gak balik, yang kekurangan balik sendiri mau bilang.\n\njadi inget pesan mama: kalo salah jangan pura2 bener. untung bukunya dua kolom, yang salah kucoret pake pensil dan kutandain kecil. besok aku itung pelan2, apalagi kalau orangnya lagi buru2.",
     comments: [
-      { authorId: 66, minutesAgo: 140, content: "teh, stok roti kismisnya tolong ditambah ya" },
-      { authorId: 15, minutesAgo: 133, content: "kata ibumu bener dik, nyicil suka lupa sendiri" },
-      { authorId: 205, minutesAgo: 126, content: "buku dua kolom itu rapi dik" },
-      { authorId: 118, minutesAgo: 118, content: "aku yang nyicil 2 rebu tiap lewat wkwk" },
+      { authorId: 66, minutesAgo: 139, content: "yang balikin kekurangan itu orang baik dik" },
+      { authorId: 15, minutesAgo: 131, content: "coretan pensil itu bijak dik, tinta susah dihapus" },
+      { authorId: 205, minutesAgo: 123, content: "buku dua kolom mah sistem waras dik" },
+      { authorId: 59, minutesAgo: 116, content: "kembalian tuh musuh halus dik wkwk" },
     ],
   },
   {
@@ -141,13 +150,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 205,
     shares: 41,
     content:
-      "angket skripsi: target 100, masuk 37. tiap sebar grup yang isi tetep 6-7 orang itu2.\nkemarin sebar ke grup sebelah, ada yang bales 'misi mbak gak ngerti' 🙃\n\nfix besok cetak kuesioner beneran, jalan ke kos2an bawa coklat sachet.\nmau gak ya kalian diisi angket cuma dibayar coklat. jujur.",
+      "dosen bilang sampel 37 gak cukup buat ambil kesimpulan. ya udah kuhitung ulang: populasi 200, pake rumus slovin, minimal 133 responden.\n\n133 orang itu setara dua angkatan satu jurusan. fix gue ganti jadi studi kasus. gampang, jujur, gagalnya jelas 🙃",
     comments: [
-      { authorId: 212, minutesAgo: 198, content: "fix mending coklat, responden mah gak nolak 🙃" },
-      { authorId: 152, minutesAgo: 192, content: "yang bales 'misi mbak' itu masih ngejawab kak 😭" },
-      { authorId: 217, minutesAgo: 185, content: "37 dari 100... kita sama km kak, semangat" },
-      { authorId: 213, minutesAgo: 179, content: "dateng abis magrib, pada di kamar. jangan sore" },
-      { authorId: 155, minutesAgo: 171, content: "aku isi deh kak, asal coklatnya 😄" },
+      { authorId: 212, minutesAgo: 198, content: "studi kasus itu pintu darurat semua skripsi kak 🙃" },
+      { authorId: 217, minutesAgo: 192, content: "slovin akhirnya kepake juga wkwk" },
+      { authorId: 213, minutesAgo: 185, content: "nyebul angket itu takdir mahasiswa kak" },
+      { authorId: 155, minutesAgo: 179, content: "semangat kak, pasti ada jalannya 🙃" },
     ],
   },
   {
@@ -156,10 +164,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 235,
     shares: 23,
     content:
-      "jaga malam tadi: satu pasien, gula darah dicek 3 kali. jam 2 minta selimut. jam 3 minta selimut lagi, katanya dingin. jam 4 selimutnya dikembalikan, katanya panas.\n\ngue duduk deket pintu ngitung: selimut itu pindah 2 kali dalam 2 jam. kopi di meja jaga udah dingin pas sempet dipegang.",
+      "jaga malam, satu pasien infus. gue itung tetesnya: 20 tetes per menit. setengah jam kemudian kantongnya turun 40 ml. berarti 600 tetes buat 40 ml.\n\ngak tau ini penting buat siapa. gue cuma butuh yakin keringat di pelipis gue jatuhnya lebih cepet dari tetesnya.",
     comments: [
-      { authorId: 12, minutesAgo: 226, content: "gue pernah 4 kali semalem. yang bolak balik selimut, bukan obatnya wkwk" },
-      { authorId: 248, minutesAgo: 217, content: "pasien yang masih mintain2 tuh bagus om" },
+      { authorId: 12, minutesAgo: 226, content: "itung tetes itu ritual jaga malam ya om" },
+      { authorId: 248, minutesAgo: 217, content: "pasien tidur nyenyak berarti aman om" },
     ],
   },
   {
@@ -168,12 +176,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 265,
     shares: 15,
     content:
-      "order tadi malem 6 km, tarif 14. hujan gede.\nsempet mikir ambil apa gak. ambil lah, sekalian jalan.\n\ndi restoran tunggu 12 menit, pesanannya belum jadi. jalan macet dikit, nyampe rumah pelanggan jam 21.40. dia bilang 'bang makasih ya masih mau jalan malem2 hujan'.\n\ntarif 14 plus bonus hujan 3, total 17. pulangnya lewat jalan sepi, 9 km.",
+      "itungan hari ini: 14 order, tarif kekumpul 208. bensin 42. pulsa 8. parkir 6.\nsisa 152 buat sehari jalan. bagus gak? gak tau. yang jelas angka 208 itu bikin senyum pas kebaca jam 9 malem.",
     comments: [
-      { authorId: 198, minutesAgo: 257, content: "yang makasih gitu jarang mas" },
-      { authorId: 240, minutesAgo: 249, content: "17 buat malem hujan kurang si om" },
-      { authorId: 115, minutesAgo: 242, content: "bonus hujan 3 lumayan bang wkwk" },
-      { authorId: 187, minutesAgo: 233, content: "pulang lewat jalan sepi enak bang, ritme sendiri" },
+      { authorId: 198, minutesAgo: 257, content: "208 omzet sehari itu rame mas" },
+      { authorId: 240, minutesAgo: 249, content: "152 sisa buat sehari jalan, lumayan mas" },
+      { authorId: 115, minutesAgo: 242, content: "senyum jam 9 malem itu wajib bang wkwk" },
+      { authorId: 187, minutesAgo: 233, content: "omzet gede gak otomatis sisa gede ya bang, itungan ojol emang gitu" },
     ],
   },
   {
@@ -201,7 +209,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     comments: [
       { authorId: 271, minutesAgo: 316, content: "Kebiasaan mencatat sebelum memakai itu jarang ada. Teruskan." },
       { authorId: 21, minutesAgo: 308, content: "aku kebalikannya, dompet duluan catat nyusul. tiap akhir bulan jadi detektif wkwk" },
-      { authorId: 262, minutesAgo: 300, content: "selisih kecil yang dicari itu tanda orangnya rapi." },
+      { authorId: 262, minutesAgo: 300, content: "Selisih kecil yang dicari itu tanda orangnya rapi." },
     ],
   },
   {
@@ -210,10 +218,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 355,
     shares: 5,
     content:
-      "shift malam. pasien tidur semua.\njam 1 cek tekanan darah, semua normal.\njam 2 kulkas obat bunyi, cuma kompresornya.\njam 3 ada yang panggil, cuma tanya jam berapa dokter dateng.\njawab: jam 8. dia bilang oke, terus tidur lagi.\ngue juga.",
+      "3 hari shift malam.\ntidur 4 jam, 5 jam, 3 jam.\ntotal 12 jam dalam 3 hari. standar manusia 8 jam sehari.\nberarti gue utang 12 jam tidur.\nbesok off. utang dicicil.",
     comments: [
-      { authorId: 8, minutesAgo: 347, content: "jam 3 malam nanya jam berapa dokter dateng itu sering. biasanya cuma mau denger suara orang" },
-      { authorId: 243, minutesAgo: 338, content: "jawaban 'jam 8' itu nenenin banget ya mbak" },
+      { authorId: 8, minutesAgo: 347, content: "utang tidur itu biasanya dicicil pake akhir pekan mbak" },
+      { authorId: 243, minutesAgo: 338, content: "12 jam dalam 3 hari itu berat mbak, istirahatnya beneran ya" },
     ],
   },
   {
@@ -264,11 +272,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 475,
     shares: 26,
     content:
-      "kerjaan utama hari ini: menelepon 32 nasabah yang jatuh tempo. Yang diangkat 14. Yang marah 3. Yang bercerita panjang soal usahanya 5, dan itu yang paling lama.\n\nSore, satu bapak bilang, 'non, ingetin aja tiap bulan, kadang aku lupa, bukan gak mau bayar.' Aku catat di kolom khusus. Ada kolom 'peringatan', ada kolom 'ingatkan tiap bulan'. Yang kedua isinya cuma 2 orang.",
+      "nasabah tadi nanya, kok cicilan bulan pertama kebayarnya bunga semua, pokoknya cuma sedikit.\nkujelasin pake angka kecil: utang 12 juta, bunga 1 persen per bulan dari sisa utang. bulan pertama sisa utangnya masih gede, jadi bunganya gede. makin dicicil makin mengecil.\nakhirnya dia paham. kalimat penutupnya: makin cepet lunas, makin hemat. bener. itu yang bikin seharian di telepon terasa terbayar.",
     comments: [
-      { authorId: 47, minutesAgo: 466, content: "kolom 'ingatkan tiap bulan' itu sistem yang manusiawi non" },
-      { authorId: 276, minutesAgo: 458, content: "Sabar menelepon 32 nasabah itu pekerjaan berat. Salut, Nona." },
-      { authorId: 268, minutesAgo: 449, content: "di catatan saya juga ada kolom serupa, isinya langganan 😄" },
+      { authorId: 276, minutesAgo: 466, content: "nasabah yang akhirnya ngerti itu hasil sabar non" },
+      { authorId: 268, minutesAgo: 458, content: "'makin cepet lunas makin hemat' itu kalimat emas non" },
+      { authorId: 11, minutesAgo: 449, content: "bunga dari sisa utang memang gak pernah nyakitin yang itung dengan benar." },
     ],
   },
   {
@@ -305,11 +313,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 565,
     shares: 21,
     content:
-      "bos tadi sore nyodorin HP, minta isi pulsa 25 rebu. terus dia buka aplikasi satu, tulisannya 'modal kecil cair besar'. dia minta tolong daftar-in.\naku bilang aku gak berani bos, itu biasanya makan uang orang, bukan kasih uang.\ndia diem. terus bilang 'ya udah, isi pulsa doang'. aku isi 25 rebu. semoga dia balik cuma buat pulsa.",
+      "bos tadi nyodorin HP minta isi pulsa 25 rebu. di layarnya masih kebuka aplikasi 'modal kecil cair besar' dari kemarin.\naku isi pulsa doang. pulsa itu jelas: 25 rebu dapet 25 rebu. aplikasi yang namanya janji cair gitu isinya gak jelas. mending pulsa.",
     comments: [
-      { authorId: 196, minutesAgo: 556, content: "di cukuran juga ada yang nawarin gini bos" },
-      { authorId: 236, minutesAgo: 548, content: "sebelahan gue ada yang daftar, motornya kejual om" },
-      { authorId: 23, minutesAgo: 539, content: "yang gitu biasanya makannya uang orang. om bener" },
+      { authorId: 196, minutesAgo: 556, content: "mending pulsa om, angkanya jelas" },
+      { authorId: 236, minutesAgo: 548, content: "yang namaannya cair besar biasanya besoknya kering om wkwk" },
     ],
   },
   {
@@ -336,7 +343,7 @@ export const THREADS_PART1: ThreadzThread[] = [
       { authorId: 209, minutesAgo: 616, content: "air putih seduh sendiri itu juara kak" },
       { authorId: 155, minutesAgo: 608, content: "'gak warna lagi' 😭 punyaku abu misterius" },
       { authorId: 68, minutesAgo: 600, content: "kaleng nabung suka kepake pas sakit kak wkwk" },
-      { authorId: 263, minutesAgo: 591, content: "cek kaleng dulu sebelum beli. kebiasaan yang bagus." },
+      { authorId: 263, minutesAgo: 591, content: "Cek kaleng dulu sebelum beli. Kebiasaan yang bagus." },
     ],
   },
   {
@@ -352,7 +359,6 @@ export const THREADS_PART1: ThreadzThread[] = [
       { authorId: 1, minutesAgo: 630, content: "semoga anaknya sehat terus ya bu 🙏" },
       { authorId: 82, minutesAgo: 622, content: "ANAKMU BAIK BU. CUCU AKU JARANG TELEPON TAPI TIAP PULANG BAWA BUAH. ALHAMDULILLAH" },
       { authorId: 81, minutesAgo: 613, content: "aamiin bu, semoga ketemu berikutnya lebih lama 🙏" },
-      { authorId: 66, minutesAgo: 606, content: "lima menit itu anaknya udah bisa diri sendiri bu" },
       { authorId: 97, minutesAgo: 601, content: "makan teratur kamar bersih uang cukup 🙏" },
     ],
   },
@@ -374,13 +380,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 715,
     shares: 12,
     content:
-      "CUCU AKU KALO DISURUH BELAJAR DIA MALES. KALO GAK DISURUH DIA MAU BELAJAR SENDIRI. ANEH YA. TADI SORE AKU PURA2 TIDUR DI KURSI. DIA BUKA BUKUNYA SENDIRI SAMPE MAGRIB. AKU GAK TEGA BANGUNIN. GUAJAR JUGA GAK BERANI NGOMONG APA2.",
+      "CUCU AKU NGHAFAL PERKALIAN 7. TADI AKU TANYA 7 KALI 8, DIA JAWAB 56. TAU2NYA DIA TANYA BALIK 7 KALI 9. AKU SENYAP. TERUS DIA BILANG, NENEK KOK CUMA NGGAJAR DOANG NANYA TERUS. PURA2 SIBUK DEH AKU. SEMOGA ULANGANNYA LANCAR.",
     comments: [
-      { authorId: 106, minutesAgo: 706, content: "Itu namanya anak berbakat mbak. Jangan dibangunin ya" },
-      { authorId: 84, minutesAgo: 698, content: "pura2 tidur itu jurus ampuh bu 😄" },
-      { authorId: 97, minutesAgo: 690, content: "semoga cucunya sehat dan rajin terus ya bu 🙏" },
-      { authorId: 22, minutesAgo: 681, content: "cucu yang rajin, neneknya juga pintar pura2 tidur. cocok bu 😄" },
-      { authorId: 110, minutesAgo: 673, content: "Belajar sampai magrib itu rejeki, bu. Neneknya sabar." },
+      { authorId: 106, minutesAgo: 706, content: "Ulangan perkalian mah tabelnya ditempel dulu mbak 😄" },
+      { authorId: 84, minutesAgo: 698, content: "Nenek ditanya balik itu tanda cucunya cerdas bu 😄" },
+      { authorId: 97, minutesAgo: 690, content: "Semoga ulangannya lancar ya bu 🙏" },
+      { authorId: 110, minutesAgo: 681, content: "7 kali 9 itu 63 bu. Kabarin cucunya wkwk" },
     ],
   },
   {

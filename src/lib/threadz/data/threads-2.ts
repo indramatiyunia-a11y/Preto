@@ -1,9 +1,9 @@
 import type { ThreadzThread } from "../types"
 
 // PART 2: cuitan 26-50. Lanjutan sidik jari:
-//  26 : driver angkot, "nah/bro", hitung penumpang, ayam ikut nyetir
+//  26 : driver angkot, "nah/bro", itungan tarif penumpang, ayam ikut naik
 //  27 : gudang, resi & dus, sistematis, dua paragraf pendek
-//  28 : SMA pinter yang meledak, wkwkwk, ulangan, satu blok panjang
+//  28 : SMA pinter yang meledak, wkwkwk, trigonometri, satu blok panjang
 //  29 : SMK bengkel, "om", rantai-sprocket, kalimat terpotong
 //  30 : guru les privat, "si anak", tarif per jam, tenang
 //  31 : kasir kios, struk & kembalian, kalimat pendek turun baris
@@ -13,7 +13,7 @@ import type { ThreadzThread } from "../types"
 //  35 : SMP dreamy, lowercase, mikir aneh, pendek banget
 //  36 : co-as kedokteran, "km/banget", panik ujian, hitung halaman
 //  37 : pengamat tetangga, kalimat lengkap, tenang, observasi
-//  38 : anak kelas 5, "bunda", jajan & celengan, typo imut
+//  38 : anak kelas 5, "bunda", pecahan & celengan, typo imut
 //  39 : matematikawan santai, "kurang lebih", pecah angka, sopan
 //  40 : nenek kebun, huruf campur, tomat-sambal, kagum bukan pamer
 //  41 : kurir paket, fragmen, alamat aneh, hujan
@@ -33,12 +33,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 775,
     shares: 14,
     content:
-      "penumpang pagi ini 14 orang. 3 bawa tas beras, 1 bawa kandang ayam.\nnah ayamnya bunyi tiap lampu merah. yang depan minta remnya halus, yang belakang buru2 turun. gue di tengah, nyetir aja.\n\nayam itu nyanyi terus sampe turun. gak tau dia nyanyi seneng apa kesel. bro.",
+      "itungan angkot pagi ini: 14 orang naik, tarif 3 ribu. kekumpul 42 ribu. ayam satu kandang ikut naik, gak bayar. gue catat dia jadi penumpang gratis resmi.\n\nnah ayamnya bunyi tiap lampu merah. penumpang ketawa, ayamnya makin semangat. 42 ribu plus hiburan gratis. bro.",
     comments: [
-      { authorId: 9, minutesAgo: 767, content: "ayam kandang tuh paling ribet bang wkwk" },
-      { authorId: 244, minutesAgo: 758, content: "ayamku dulu juga nyanyi tiap lampu merah wkwk" },
-      { authorId: 20, minutesAgo: 750, content: "rem halus wajib bro, tas beras gampang roboh" },
-      { authorId: 121, minutesAgo: 742, content: "nyanyi seneng apa kesel wkwk pertanyaan buat ayamnya" },
+      { authorId: 9, minutesAgo: 767, content: "penumpang gratis yang bunyi2 itu bang wkwk" },
+      { authorId: 121, minutesAgo: 758, content: "14 kali 3 ribu pas 42 bang, akurat wkwk" },
+      { authorId: 244, minutesAgo: 750, content: "ayam angkot mah hiburan umum bro wkwk" },
     ],
   },
   {
@@ -60,14 +59,14 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 835,
     shares: 26,
     content:
-      "ulangan mtk tadi. temen sebangku gue jawab pake 3 cara di kertas, gue jawab satu alur doang. pas dikoreksi nilai kita SAMA. 82. wkwkwk. bu guru bilang yang penting alurnya jelas. TAPI KENAPA YANG TIGA ALUR SAMA YANG SATU ALUR WKWK. terus temenku bilang 'kan hasilnya sama'. hmm iya sih. TAPI GUE MAU NILAI LEBIH DONG WKWK",
+      "ulangan trigonometri tadi. sin cos tan gue hafal semua, soal hitungan jalan. pas masuk soal gabungan segitiga sama lingkaran, gue diem 15 menit nulis sin terus hapus lagi. wkwkwk. nilai keluar 74. ulangan aljabar minggu lalu 89. KOK BISA ORANG JAGO ALJABAR TAPI KALAH SAMA SEGITIGA SENDIRI WKWK. besok koreksi bareng, gue mau tau melesetnya dimana",
     comments: [
-      { authorId: 156, minutesAgo: 828, content: "82 WKWK GUE BELUM NYAMPE SITU. HORMAT" },
-      { authorId: 160, minutesAgo: 820, content: "dari 65 ke 82 itu lompatan kak 😭" },
-      { authorId: 133, minutesAgo: 812, content: "temen lu jahat bgt wkwkwk" },
-      { authorId: 145, minutesAgo: 805, content: "alur gue aja gk ketemu dari kemarin wkwk" },
-      { authorId: 35, minutesAgo: 798, content: "nilai sama tapi capeknya beda ya" },
-      { authorId: 25, minutesAgo: 791, content: "asal naik dari kemarin udah syukur bre, di magang juga gitu" },
+      { authorId: 133, minutesAgo: 828, content: "trigono tuh penjahat resmi bre, aljabar masih saudara wkwk" },
+      { authorId: 145, minutesAgo: 820, content: "aljabar 89 trigono 74 itu beda negara kak 😭" },
+      { authorId: 160, minutesAgo: 812, content: "koreksi bareng itu bijak kak, kalem" },
+      { authorId: 127, minutesAgo: 805, content: "segitiga gak salah apa2, gue yang gak ngerti wkwk" },
+      { authorId: 35, minutesAgo: 798, content: "sin cos hafal, soal gabungan langsung kabur wkwk" },
+      { authorId: 25, minutesAgo: 791, content: "di kerjaan juga bre, jago satu bidang gagal di bidang lain. normal" },
     ],
   },
   {
@@ -335,9 +334,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1465,
     shares: 5,
     content:
-      "kepala tadi 12. rapi 9, cerewet 3.\nyang cerewet minta 'tipis dikit' 4 kali, terus bilang 'kok jadi pendek'. gimana sih bos.\ncermin kutunjukin, dia senyum, 'iya ya'.\npelanggan tuh kadang gak tau maunya. kita yang harus tau duluan.",
+      "kepala tadi 12. rapi 9, cerewet 3.\nyang cerewet minta tipis dikit, pas liat cermin kaget kok jadi pendek. bos, tipis sama pendek itu dua hal beda.\ncermin gak pernah bohong. kita yang disuruh jago duluan.",
     comments: [
-      { authorId: 194, minutesAgo: 1457, content: "'tipis dikit' 4 kali mah botak namanya om wkwkwk" },
+      { authorId: 194, minutesAgo: 1457, content: "minta tipis kaget pendek itu paket komplit om wkwk" },
       { authorId: 19, minutesAgo: 1449, content: "di kios juga gitu bos wkwk" },
       { authorId: 232, minutesAgo: 1440, content: "cermin itu alat bukti paling jujur om wkwk" },
     ],

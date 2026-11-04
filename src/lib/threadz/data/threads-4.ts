@@ -3,7 +3,8 @@ import type { ThreadzThread } from "../types"
 // PART 4: cuitan 76-100. Post kedua penulis 26-50.
 // Aturan sama dengan part 3: sidik jari tetap, bentuk & topik beda.
 // Gak ada rangkaian "kelanjutan cerita kemarin" yang disempurnakan,
-// gak ada komentar esai, gak ada cameo, gak ada self-reply.
+// gak ada skenario ketemuan multi-dialog, gak ada komentar esai,
+// gak ada cameo, gak ada self-reply, gak ada komentar nyasar.
 export const THREADS_PART4: ThreadzThread[] = [
   {
     id: 76,
@@ -88,7 +89,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2455,
     shares: 21,
     content:
-      "bos tadi malam yang aplikasi 'modal kecil cair besar' balik. gue kira mau daftar.\nternyata cuma beli pulsa 15 rebu. dia bilang, 'kemarin aku mikir terus om, mending pulsa, kebutuhannya jelas.'\n\nkuisi 15 rebu. dia pulang.",
+      "bos tadi malam yang aplikasi 'modal kecil cair besar' balik. gue kira mau daftar.\nternyata cuma beli pulsa 15 rebu. dia bilang kemarin dia mikir terus, mending pulsa, kebutuhannya jelas.\n\nkuisi 15 rebu. dia pulang.",
     comments: [
       { authorId: 197, minutesAgo: 2447, content: "bos yang mikir ulang itu selamat om" },
       { authorId: 236, minutesAgo: 2439, content: "kalau mau nambah, kerja lebih aja om wkwk" },
@@ -137,7 +138,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2575,
     shares: 30,
     content:
-      "pos 'dana paku lagi' kepake juga. tanggal 8, motor teman kos kena paku.\ngue gak punya ban, tapi punya pos: 140 rebu dari bulan lalu yang gak kepake.\n\ndipinjemin 60. dia bilang minggu depan balik. ok. kubikin kolom baru di catatan: 'temen'. isinya satu nama.",
+      "pos 'dana paku lagi' kepake juga. tanggal 8, motor teman kos kena paku.\ngue gak punya ban, tapi punya pos: 140 rebu dari bulan lalu yang gak kepake.\n\ndipinjemin 60. dia bilang minggu depan balik. ok. kubikin kolom baru di catatan: temen. isinya satu nama.",
     comments: [
       { authorId: 2, minutesAgo: 2567, content: "KOLOM 'TEMEN' WKWKWK ISI SATU NAMA ITU LUCU BRE" },
       { authorId: 223, minutesAgo: 2559, content: "tanggal tua semua orang diuji 😭" },
