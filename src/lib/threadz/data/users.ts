@@ -3,9 +3,13 @@ import type { ThreadzUser, Persona } from "../types"
 // Warga Akiomida. Nama ditentukan sistem: akiomida + 8 angka.
 // Foto profil cuma boleh warna solid, gak ada foto lain di dunia ini.
 //
-// 50 warga utama = yang rajin nulis cuitan.
-// 300 warga lalu-lalang = rame di kolom komentar aja.
-// Total 350. Biar dunianya kerasa ramai, bukan 30 muka yang itu-itu aja.
+// 50 warga utama = yang rajin nulis cuitan. Persona di sini BUKAN label
+// gaya nulis — gaya ditulis tangan di tiap cuitan (lihat data/threads-*.ts).
+// Persona cuma nentuin tab "otak-belok": yang di sana itu memang penulis
+// rame — laki kos KAPITAL, anak SMP jamet, chef mie, dan geng gagal masak.
+// 300 warga lalu-lalang = rame di kolom komentar aja, juga dikomen sesuai
+// kampung akunnya: ibu-ibu ngepost dikomen ibu-ibu, anak sekolah dikomen
+// anak sekolah. Total 350.
 export const USERS: ThreadzUser[] = [
   { id: 1, name: "akiomida48291037", color: "#f43f5e", persona: "awam" },
   { id: 2, name: "akiomida73615284", color: "#fb923c", persona: "begok" },
@@ -23,10 +27,10 @@ export const USERS: ThreadzUser[] = [
   { id: 14, name: "akiomida15384092", color: "#4ade80", persona: "ahli" },
   { id: 15, name: "akiomida89026437", color: "#d6a06a", persona: "awam" },
   { id: 16, name: "akiomida30758129", color: "#94a3b8", persona: "awam" },
-  { id: 17, name: "akiomida69407258", color: "#ef4444", persona: "begok" },
+  { id: 17, name: "akiomida69407258", color: "#ef4444", persona: "ahli" },
   { id: 18, name: "akiomida52617380", color: "#a855f7", persona: "ahli" },
   { id: 19, name: "akiomida04819273", color: "#14b8a6", persona: "awam" },
-  { id: 20, name: "akiomida81640392", color: "#d946ef", persona: "begok" },
+  { id: 20, name: "akiomida81640392", color: "#d946ef", persona: "awam" },
   { id: 21, name: "akiomida37205891", color: "#38bdf8", persona: "ahli" },
   { id: 22, name: "akiomida94061725", color: "#84cc16", persona: "awam" },
   { id: 23, name: "akiomida61803398", color: "#eab308", persona: "awam" },
@@ -38,7 +42,7 @@ export const USERS: ThreadzUser[] = [
   { id: 29, name: "akiomida71094386", color: "#f97316", persona: "begok" },
   { id: 30, name: "akiomida26479031", color: "#7c3aed", persona: "ahli" },
   { id: 31, name: "akiomida95127368", color: "#2dd4bf", persona: "awam" },
-  { id: 32, name: "akiomida08347219", color: "#f43f5e", persona: "begok" },
+  { id: 32, name: "akiomida08347219", color: "#f43f5e", persona: "awam" },
   { id: 33, name: "akiomida46281057", color: "#86efac", persona: "ahli" },
   { id: 34, name: "akiomida73901842", color: "#fbbf24", persona: "awam" },
   { id: 35, name: "akiomida20584763", color: "#d8b4fe", persona: "begok" },
@@ -47,13 +51,13 @@ export const USERS: ThreadzUser[] = [
   { id: 38, name: "akiomida13579246", color: "#fca5a5", persona: "begok" },
   { id: 39, name: "akiomida86420973", color: "#818cf8", persona: "ahli" },
   { id: 40, name: "akiomida37024619", color: "#fbbf24", persona: "awam" },
-  { id: 41, name: "akiomida29573061", color: "#ff7a59", persona: "begok" },
+  { id: 41, name: "akiomida29573061", color: "#ff7a59", persona: "awam" },
   { id: 42, name: "akiomida50817392", color: "#c2843f", persona: "ahli" },
   { id: 43, name: "akiomida76120948", color: "#b5a8f5", persona: "awam" },
   { id: 44, name: "akiomida38491057", color: "#6ee7b7", persona: "begok" },
   { id: 45, name: "akiomida62938471", color: "#64748b", persona: "ahli" },
   { id: 46, name: "akiomida70513649", color: "#f9a8d4", persona: "awam" },
-  { id: 47, name: "akiomida18033988", color: "#b08968", persona: "begok" },
+  { id: 47, name: "akiomida18033988", color: "#b08968", persona: "awam" },
   { id: 48, name: "akiomida94261830", color: "#be123c", persona: "ahli" },
   { id: 49, name: "akiomida31415926", color: "#86efac", persona: "awam" },
   { id: 50, name: "akiomida86753091", color: "#f0abfc", persona: "begok" },

@@ -2,16 +2,42 @@ import type { ThreadzThread } from "../types"
 
 // PART 1: cuitan 1-25 (paling baru di feed).
 //
-// Tiap akun punya dunia sendiri + cara ngetik sendiri. Beberapa contoh di
-// part ini:
-//  1 : ibu muda, anak baru SD, ejaan rapi, ending gak di-poles
-//  2 : anak kos, SEMUA HURUF BESAR, satu blok, typo
-//  3 : ibu guru kelas 4, kalimat baku tapi nyata, gak pernah nasehat
-//  5 : anak warung, angka buku tulis
-//  13: yakin banget sama hitungan salahnya sendiri
-//  20: om motor, hitungan BBM yang salah tapi pede
-// dst. Jangan diseragamin lagi — kalau dua cuitan kerasa "satu tangan",
-// itu gagal.
+// PRINSIP BARU: komentar gak boleh dicampur acak. Komentar ditulis tangan
+// dan authorId-nya DIPILIH sesuai dunia post-nya:
+//   - cuitan ibu-ibu  -> dikomen ibu-ibu (kak/bu/teh, "anakku juga", emoji)
+//   - cuitan anak sekolah -> dikomen anak sekolah (wkwk, lowercase, typo)
+//   - cuitan bapak-bapak -> dikomen bapak-bapak (pendek, "om", tanpa emoji)
+// Warga lalu-lalang juga punya "kampung" masing2 per rentang id (51+ ibu-ibu,
+// 111+ anak muda, 171+ bapak, 206+ mahasiswa, 231+ pekerja, 256+ formal) biar
+// gaya komennya konsisten tiap kali akun yang sama muncul.
+//
+// Sidik jari tiap penulis (contoh di part ini):
+//  1 : ibu muda. "Alhamdulillah/papanya/ya udah deh", emoji 😭 jarang, 1-2 blok
+//  2 : anak kos laki, LEDAKAN KAPITAL + ekor lowercase, tanpa titik
+//  3 : ibu guru, "saya/Ananda", baku tapi hidup, dua paragraf
+//  4 : bapak kantoran pendiam, 2-4 kalimat kering, jam persis, tanpa emoji
+//  5 : anak warung, buku tulis, kolom kas, hangat
+//  6 : bego pede, lowercase mengalir tanpa tanda baca, itungan salah yakin
+//  7 : mahasiswi, "fix/yaudah/guys", tugas, blok + emoticon 🙃
+//  8 : RS shift malam, "gue", jam-jam presisi, kalimat satu baris
+//  9 : ojol muda, "bang/lu", jarak-tarif, baris pendek
+// 10 : SMA riuh, KAPITAL + wkwk bercampur, satu blok, tanpa titik
+// 11 : akuntan kecil, "aku", rapi sopan, catatan-kolom
+// 12 : perawat shift, kalimat pendek turun baris, kering
+// 13 : SMP jamet, lowercase total, tanpa tanda baca, typo (gk,bgt,smpe), wkwk
+// 14 : tukang parkir, "om", fragmen pendek, koin
+// 15 : ibu pasar, "teh", lho/ya/deh, hangat, satu blok
+// 16 : karyawati leasing, "aku", rapi lelah, angka angsuran
+// 17 : mahasiswa teknik, "bro", konversi satuan, satu blok
+// 18 : pedagang buah, "om", musim-harga, baris pendek
+// 19 : kios pulsa, "bos", terang, tegas soal jelas-jelasnya uang
+// 20 : ojol senior, penumpang, tenang, paragraf pendek
+// 21 : anak kos cewek hemat, "deh/dah", ribuan, kaleng nabung
+// 22 : ibu sus galau, "anakku", doa singkat 🙏
+// 23 : begadang techy, kering minimal, kulkas & jam
+// 24 : nenek, SEMUA KAPITAL + typo (PURA2, GUAJAR), cucu
+// 25 : anak magang, "abes/tp", itungan gaji, lelah tapi jalan terus
+// Jangan diseragamin lagi. Kalau dua cuitan kerasa "satu tangan", gagal.
 export const THREADS_PART1: ThreadzThread[] = [
   {
     id: 1,
@@ -19,12 +45,18 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 25,
     shares: 12,
     content:
-      "anak aku yang pertama beli sepatu sekolah baru sore tadi, papanya yang nganter. ukuran 33. barusan aku liat dia tidur pake sepatunya masih. kaus kaki juga. aku gak tega ngerampas, takut dia kebangun.\n\nbesok pagi aku cuci diam-diam deh.",
+      "Alhamdulillah sore tadi papanya anter beliin sepatu buat anak aku yang pertama, ukuran 33 pas. Barusan aku mau selimutin, tau2nya dia udah tidur pake sepatunya masih, kaus kaki jg nempel gitu aja. Aku gak enak lepasinnya, kasian takut dia bangun.\n\nYa udah aku biarin aja deh, besok subuh aku cuci diam2 😭",
     comments: [
-      { authorId: 46, minutesAgo: 22, content: "papanya juga ya, terus pura-pura gak liat wkwk" },
-      { authorId: 48, minutesAgo: 19, content: "Catat ukurannya tiap semester. Naiknya cepat sekali." },
-      { authorId: 22, minutesAgo: 15, content: "semoga lancar sekolahnya, sayang 🙏" },
-      { authorId: 9, minutesAgo: 9, content: "anak tetangga ku juga gitu dulu, gak mau dilepas ampe disuruh mandi pake sepatu" },
+      { authorId: 57, minutesAgo: 22, content: "MasyaAllah, itu tandanya dia sayang banget sama sepatunya kak 😭 anakku dulu juga gitu, ampe 3 hari gak dilepas sepatunya" },
+      { authorId: 63, minutesAgo: 20, content: "kak besok kalo udah dicuci, jemurnya jangan kena matahari langsung ya, biar gak pecah kulitnya. aku pernah salah 😅" },
+      { authorId: 33, minutesAgo: 17, content: "kaus kakinya dicuci terpisah ya bu, yang itu biasanya bau paling keras, dari keringet seharian" },
+      { authorId: 46, minutesAgo: 14, content: "Alhamdulillah ya bu. Simpan kotaknya sekalian, nanti pas ganti ukuran bisa dipakai lagi buat adiknya" },
+      { authorId: 82, minutesAgo: 11, content: "kak, dari ukuran 33 ke 34 itu biasanya cepet banget ya? anakku dari 33 naik ke 34 cuma 4 bulan, dompetnya yang sakit 😂" },
+      { authorId: 91, minutesAgo: 8, content: "Semoga sekolahnya lancar ya bu anaknya. Dulu anak saya juga begitu, sepatu baru dipake tidur, kaus kaki juga. Sekarang disuruh beli sepatu malah males" },
+      { authorId: 22, minutesAgo: 5, content: "aku baca sambil senyum, anakku dulu juga gitu, takut lecet takut semuanya 🙏 selamat sekolah ya nak" },
+      { authorId: 69, minutesAgo: 4, content: "Anakku dulu juga begitu kak, dipake tidur 3 hari. Dilepas malah nangis, katanya rasanya kosong 😂" },
+      { authorId: 88, minutesAgo: 3, content: "sepatunya putih ya bu? kalau putih awas, minggu kedua pasti minta dibantu ngucek bareng2 😄" },
+      { authorId: 93, minutesAgo: 2, content: "terharu bacanya bu 😭 masa2 sepatu sekolah pertama tuh cuma sekali seumur hidup, catat tanggalnya ya" },
     ],
   },
   {
@@ -33,14 +65,16 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 55,
     shares: 30,
     content:
-      "HP GUE ILANG DARI MEJA. GUE CARI 40 MENIT. ANGKAT KASUR, GESER LEMARI, BUKA KANTONG RANSEL SEMUA. TAU GUE NEMU DIMANA? DI MEJA. TEPAT SEBELAH GELAS GUE. TERUS GUE DENGAR NOTIF DARI ARAH MEJA. DARI TADI. DARI MEJAAAA. GUE MAU NGAMUK KESIAPA?!",
+      "GUE NYARI HP SATU JAM. ANGKAT KASUR, BUKA TAS, GELAR BAJU DI LANTAI. TAU GUE NEMU DIMANA? HP NYA GUE PEGANG DARI TADI. GUE PAKE BUAT SENTER PAS ANGKAT KASUR. DI MANA LOGIKANYA. YA SUDAH GUE TIDUR AJA",
     comments: [
-      { authorId: 10, minutesAgo: 51, content: "BJIR NYARI HP PAKAI HP SEBELAH WKWKWK" },
-      { authorId: 38, minutesAgo: 47, content: "HAAHAHA GUE PERNAH NYARI KACAMATA SEMENTARA DIPAKE DI KEPALA" },
-      { authorId: 44, minutesAgo: 40, content: "YAUDAH yang penting ketemu. gue nyari kunci motor semalem sampe tetangga ikutan" },
-      { authorId: 31, minutesAgo: 33, content: "ampun wkwk" },
-      { authorId: 6, minutesAgo: 25, content: "klo bisa notif berarti ada chat ya masuk? dari siapa" },
-      { authorId: 49, minutesAgo: 17, content: "gue abis jaga juga baru nemu charger gue ketindih kasur pasien, wkwk" },
+      { authorId: 44, minutesAgo: 51, content: "gue lebih parah bre, nyari HP pake HP sambil muterin kos, tetangga nanya nyari apa wkwkwk" },
+      { authorId: 118, minutesAgo: 47, content: "senter mode on, gk heran batre ente abis terus wkwk" },
+      { authorId: 10, minutesAgo: 43, content: "BJIR GUE PERNAH GITU JUGA NYARI KACAMATA PADAHAL UDAH DIPAKE DI MATA WKWKWK" },
+      { authorId: 129, minutesAgo: 39, content: "yg penting ketemu bre, gue hp ilang beneran ampe skrg 🙏" },
+      { authorId: 224, minutesAgo: 35, content: "cara klasik: telepon dari HP orang lain, ikutin bunyinya. tapi kalo yang bunyi notif doang ya susah, harus ada chat masuk" },
+      { authorId: 13, minutesAgo: 31, content: "wkwkwk gak logik sih tapi relatable bgt bre" },
+      { authorId: 141, minutesAgo: 27, content: "gue pernah nyari charger ampe nangis, ketemunya udah dicolok di kamar tetangga. sklian malu wkwk" },
+      { authorId: 115, minutesAgo: 24, content: "pas nemu dipegang sendiri tuh berasa nemu harta karun tapi malu juga ya bre wkwk" },
     ],
   },
   {
@@ -49,313 +83,333 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 85,
     shares: 21,
     content:
-      "Semalam jam setengah satu saya masih bangun, memotong kue di meja dapur. Ternyata sedang menyusun soal cerita ulangan: kue dibagi dua pertiga dan sepertiga. Saya perlu memastikan potongannya masuk akal.\n\nBesok kalau ada anak yang menjawab berbeda dari kunci, saya dengarkan dulu alasannya. Sering kali mereka benar dan kuncinya yang kurang tepat.",
+      "Semalam saya masih di dapur jam setengah satu, memotong kue untuk soal cerita ulangan hari ini: dua pertiga dan sepertiga. Kalau potongannya tidak masuk akal, yang dipertanyakan besok adalah saya, bukan anak-anak.\n\nKalau ada yang menjawab beda dari kunci, saya dengar dulu alasannya. Seringnya mereka yang benar.",
     comments: [
-      { authorId: 48, minutesAgo: 79, content: "Yang menulis soal sampai mencoba potongannya sendiri itu jarang. Anak-anak beruntung." },
-      { authorId: 18, minutesAgo: 72, content: "dua pertiga itu porsi paling susah dipotong beneran ya, biasanya yang kebagian aku wkwk" },
-      { authorId: 5, minutesAgo: 63, content: "kue yang tadi dipotong masuk buku tulis aku juga, sebagai pengeluaran. hehe" },
-      { authorId: 30, minutesAgo: 50, content: "adikku kelas 3 juga belajar begitu, tapi dia membagi kuenya ke mulut dia dulu" },
+      { authorId: 48, minutesAgo: 79, content: "Guru yang mau repot memotong kue tengah malam demi soal ulangan, murid-muridnya beruntung." },
+      { authorId: 30, minutesAgo: 72, content: "saya juga pernah begitu, buat soal pembagian akhirnya beli dua roti biar bisa dipotong beneran di depan murid les. mereka lebih percaya kalau lihat bentuknya" },
+      { authorId: 262, minutesAgo: 64, content: "Ibu ini teladan. Saya dulu juga begitu, menghitung soal panen jeruk semalaman, besoknya jeruknya habis dimakan tetangga." },
+      { authorId: 39, minutesAgo: 57, content: "dua pertiga plus sepertiga itu satu utuh, jadi kuenya tinggal satu, tinggal dipotong dua kali. praktis" },
+      { authorId: 77, minutesAgo: 50, content: "semangat ya bu. anak saya yang kelas 4 sekarang suka bagi2 kue ke adiknya, katanya belajar dari gurunya 😄" },
+      { authorId: 5, minutesAgo: 42, content: "kuenya jangan lupa dibeli di warung kami bu, nanti aku catat sebagai pengeluaran riset wkwk" },
     ],
   },
   {
     id: 4,
-    authorId: 6,
+    authorId: 4,
     minutesAgo: 115,
     shares: 3,
     content:
-      "kok ya itunganku gk pernah bulat. tadi beli bensin 20 pas e-toll nya 18. ribu. terus di minimarket ambil roti 2 tanda terimanya 4.500. berarti 1 roti 2.250. knp gk bisa yang enak2 aja kayak 2 ribu pas. duit recehnya aja makin banyak di kantong, smpai macem2",
+      "Kereta saya terlambat 9 menit tadi pagi. Rapat mulai jam 8, saya masuk 8.14. Tidak ada yang bertanya, semua masih menatap layar. Saya duduk, menyeduh teh, rapat selesai 8.41.",
     comments: [
-      { authorId: 5, minutesAgo: 108, content: "harga memang jarang bulat, makanya warung ku suka bantu bulatin ke bawah kalau pembelinya langganan" },
-      { authorId: 42, minutesAgo: 96, content: "2.250 itu 2.000 plus 250. receh 500-an butuh setengah. lumayan buat latihan jari" },
+      { authorId: 27, minutesAgo: 108, content: "9 menit masih aman. di gudang kami telat 5 menit langsung dicatat satpam, walaupun satpamnya sendiri kadang telat" },
     ],
   },
   {
     id: 5,
-    authorId: 9,
+    authorId: 5,
     minutesAgo: 145,
     shares: 45,
     content:
-      "sore ini got depan rumah mampet. yang turun: pak RT pake kaos dalam, empat bapak-bapak, dan anak-anak yang cuma pegang tongkat. yang paling banyak ngomong umurnya 70. yang paling gak ngomong paling rajin.\n\nakhirnya selesai magrib. pak RT bilang, 'besok kalau ujan lagi, jangan disalurin ke sini ya, pindah ke selokan belakang.' semua orang geleng. terus pada pulang masing-masing.",
+      "tadi sore mas pembeli langganan nyicil bayar utang seminggu. aku buka buku, coret yang lama, tulis yang baru. ibu mampir liat, bilang 'yang nyicil jangan dicoret semua, sisain dikit biar gak lupa'. jadi sekarang bukunya ada dua kolom: lunas dan sisain.\n\nmas tadi pas pamit bilang 'ditulis ya dik'. aku bilang iya. ibu yang nulis. aku gak berani nulis nama orang.",
     comments: [
-      { authorId: 43, minutesAgo: 137, content: "pak RT yang begini jarang ya. biasanya yang ngomong doang" },
-      { authorId: 37, minutesAgo: 126, content: "yang paling gak ngomong paling rajin. bener itu" },
-      { authorId: 22, minutesAgo: 112, content: "semoga tetangga terus rukun 🙏" },
-      { authorId: 12, minutesAgo: 97, content: "di kompleks gue kerja bakti doang pas ada orang mati. biasa selesai dalam 20 menit" },
-      { authorId: 26, minutesAgo: 80, content: "got mampet + ujan = musuh abadi penumpang juga bang. tiap lewat gang ampe bilik jalan pelan" },
+      { authorId: 15, minutesAgo: 138, content: "bener itu kata ibunya teh, nyicil tuh seringnya lupa sendiri udah sampe mana. buku itu penyelamat" },
+      { authorId: 39, minutesAgo: 130, content: "kolom lunas sama sisain memang harus dipisah. kalau campur, yang nyangkut bisa kecoret tanpa sengaja" },
+      { authorId: 66, minutesAgo: 121, content: "warung teh, stok roti kismisnya tolong ditambah ya, tiap sore selalu abis duluan" },
+      { authorId: 21, minutesAgo: 113, content: "aku pembeli yang selalu nyicil 2 ribu tiap lewat. makasih ya gak diomelin wkwk" },
+      { authorId: 233, minutesAgo: 104, content: "aku suka warung yang jujur ngomongnya, kalo uang kurang dibales 'itu aja dulu dik'. hemat hati" },
+      { authorId: 48, minutesAgo: 96, content: "Buku kas warung itu arsip sosial lingkungan. Siapa rajin, siapa terlantar, semua tercatat." },
     ],
   },
   {
     id: 6,
-    authorId: 33,
+    authorId: 6,
     minutesAgo: 175,
-    shares: 21,
+    shares: 3,
     content:
-      "masak nasi tadi pindah panci, dari rice cooker ke dandang buat dikeplok buat abang. takaranku biasanya 4 gelas beras 5 gelas air. abang minta nasi lebih padat. aku tambah beras setengah gelas, airnya gak aku tambah.\n\njadinya kerasa kurang air dikit. aku kasih sendok teh air panas satu-satu sambil diaduk. pas abang makan dia bilang, 'ini enak, kok beda?'",
+      "beli bensin 20 rebu dibalikin 2 rebu berarti bensinnya 18 rebu. 18 itu 2 kali 9. 9 gk bisa dibagi rata ke 2 jadi knp ya kok nyebelin. terus beli roti 4500 berarti 2250 satu. 2250 itu separo dari 4500. separo terus separo kok gk abis2. ya udah yang penting kenyang. recehnya aku simpen di kaleng biskuit",
     comments: [
-      { authorId: 5, minutesAgo: 166, content: "itungan gelas itu paling awet di kepala. di warung kami takaran pakai gelas bekas juga" },
-      { authorId: 16, minutesAgo: 152, content: "bapak-bapak kalau nasi enak selalu nanya kok beda 😅 padahal kita yang repot" },
-      { authorId: 22, minutesAgo: 138, content: "sembahyang masakanmu lancar selalu" },
+      { authorId: 11, minutesAgo: 168, content: "4500 bagi 2 itu 2250, bener. tapi 18 ribu bagi 2 itu 9 ribu, bisa rata kok. yang gak bisa rata itu 9 dibagi 2. jangan numpang nyebelin" },
+      { authorId: 226, minutesAgo: 160, content: "wkwk ini puyeng sendiri, 2250 itu 2000 plus 250, 250 itu seperempat ribu. udah beres kan gitu aja" },
+      { authorId: 28, minutesAgo: 157, content: "wkwk bre 2250 itu emang 2 ribu plus 250, gue cek pake kalkulator biar gak ikut puyeng" },
+      { authorId: 49, minutesAgo: 154, content: "di cukuran juga ada yang itung gagal om. yang penting kenyang, receh disimpen kaleng bener juga" },
+      { authorId: 2, minutesAgo: 151, content: "GUE IKUT PUYENG BACA. TAPI YANG PENTING KENYANG. SATU PAKTIK" },
+      { authorId: 137, minutesAgo: 143, content: "kaleng biskuit tuh gk awet bre, abisnya kue nya gk smpe seminggu wkwkwk" },
     ],
   },
   {
     id: 7,
-    authorId: 12,
+    authorId: 7,
     minutesAgo: 205,
-    shares: 8,
+    shares: 41,
     content:
-      "pulang shift pagi, naik bus, tidur, kelewatan dua halte. jalan balik 40 menit. sepatu gue lecet. besok gue tidur berdiri aja kali ya biar gak kelewatan. capek. udah ah.",
+      "angket skripsi: target 100, masuk 37. tiap sebar grup, yang isi tetep 6-7 orang itu2. kemarin coba sebar ke grup sebelah, malah ada yang bales 'misi mbak gak ngerti' 🙃\n\nfix besok aku cetak kuesioner beneran, jalan kaki ke kamar2 kos sambil bawa coklat sachet. biar ada timbangan. berhasil apa gak gak tau. ya udahlah, yang penting minggu ini udah gerak.",
     comments: [
-      { authorId: 26, minutesAgo: 196, content: "bang kalau tidur jangan di halte terakhir, mending duduk deket pintu. gue yang tiap hari ngangkut" },
-      { authorId: 31, minutesAgo: 183, content: "capek banget dah" },
-      { authorId: 49, minutesAgo: 170, content: "satu jalur sama gue bang. gue tidur di kursi tunggu ruang jaga. ada yang bangunin malah kaget" },
+      { authorId: 25, minutesAgo: 198, content: "coklat sachet itu ampuh bre. dulu gue tawarin mi instan, respondennya malah nanya bisa refill gak" },
+      { authorId: 212, minutesAgo: 190, content: "perasaan banget ini, angket gue jalan 3 hari doang terus nganggur sampe sekarang 🙃" },
+      { authorId: 36, minutesAgo: 181, content: "km sisa brp lagi? kalo 63 mah masih sanggup 2 minggu kalau kos2an diserbu. semangat ya" },
+      { authorId: 152, minutesAgo: 172, content: "yang bales 'misi mbak' itu mending kak, yang gue alami diem doang terus ngalihin topik 😭" },
+      { authorId: 30, minutesAgo: 163, content: "kalau kos2an, dateng pas jam makan. habis magrib biasanya pada di kamar. jangan sore, sore pada tidur" },
     ],
   },
   {
     id: 8,
-    authorId: 13,
+    authorId: 8,
     minutesAgo: 235,
-    shares: 54,
+    shares: 23,
     content:
-      "GUYS DISKON 50% TERUS DAPET DISKON 20% LAGI ITU 70%. FIX. FINAL. GUE UDAH PAKE ITU BUAT BELI JAKET. terus kasirnya bilang 'kak jadinya 60%'. kata siapa? kata kertas? KATA MATEMATIKA YANG MANA?! yang penting gue hemat. gak terima koreksi. KECUALI koreksinya bikin makin murah. itu gue terima.",
+      "jaga malam tadi: satu pasien, gula darah dicek 3 kali. jam 2 minta selimut. jam 3 minta selimut lagi, katanya dingin. jam 4 selimutnya dikembalikan, katanya panas.\n\ngue duduk deket pintu ngitung: selimut itu pindah 2 kali dalam 2 jam. kopi di meja jaga udah dingin pas sempet dipegang. ya udah, minimal selimutnya hangat pas dibutuhin.",
     comments: [
-      { authorId: 5, minutesAgo: 228, content: "50 dari 100 jadi 50. 20 dari 50 itu 10. jadi 60. maaf, angka gak bisa ditekan" },
-      { authorId: 39, minutesAgo: 219, content: "harga 250, diskon 60% bayar 100. diskon 70% bayar 75. kasirnya bener, bedanya 25 ribu. cek strukmu" },
-      { authorId: 2, minutesAgo: 207, content: "WKWKWK BENER JUGA YA KATA KASIR TAPI GUE MAU IKUT PERCAYA YANG 70" },
-      { authorId: 6, minutesAgo: 195, content: "jadi mana yang bener, 70 atau 60? aku ikut yang paling murah aja deh" },
-      { authorId: 28, minutesAgo: 181, content: "wkwkwk gue pernah gitu sampe dijelasin pake kertas di kasir. memalukan tapi nambah ilmu" },
-      { authorId: 50, minutesAgo: 168, content: "gue denger diskon dobel itu mitos tapi juga tetep percaya, siapa tau tokonya beda aturan" },
-      { authorId: 45, minutesAgo: 154, content: "Kasir Anda jujur. Itu lebih berharga daripada potongannya." },
-      { authorId: 44, minutesAgo: 141, content: "gue pernah yakin kayak gitu, diketawain kasirnya. sakit hati tapi bener sih" },
-      { authorId: 33, minutesAgo: 128, content: "jaketya enak gak? itu yang penting" },
-      { authorId: 20, minutesAgo: 112, content: "bro 70% mah kalau diskonnya diaplikasi. di kasir mah patuh struk" },
+      { authorId: 12, minutesAgo: 228, content: "selimut 2 jam 2 kali itu masih adem. gue pernah 4 kali. yang bolak balik bukan obatnya, selimutnya wkwk" },
+      { authorId: 248, minutesAgo: 220, content: "selimut yang pindah2 itu tugasya paling manusiawi si om, panas dingin memang begitu" },
+      { authorId: 23, minutesAgo: 211, content: "jam 4 pagi itu jam paling jujur. badan bingung mau panas apa dingin, sama kayak kopinya" },
     ],
   },
   {
     id: 9,
-    authorId: 16,
+    authorId: 9,
     minutesAgo: 265,
-    shares: 41,
+    shares: 15,
     content:
-      "token listrik gue habis jam 6 pagi, pas lagi ngelap lantai. masukin 50, ya udah jalan lagi. sore ini aku duduk itung: bulan lalu 50, bulan ini 50, dua bulan lagi kayaknya harus 100.\n\nbesok aku kerjain: jemuran yang kemarin ujan, cuci sarung bantal, sama nabung receh di kaleng kue. kalengnya tinggal ditutup rapat biar gak kepake buat jajan.",
+      "order tadi malem 6 km, tarif 14. hujan gede.\nsempet mikir ambil apa gak. ambil lah, sekalian jalan.\n\ndi restoran tunggu 12 menit, pesanannya belum jadi. jalan macet dikit, nyampe rumah pelanggan jam 21.40. dia bilang 'bang makasih ya masih mau jalan malem2 hujan'.\n\ntarif 14 plus bonus hujan 3, total 17. pulangnya lewat jalan sepi, 9 km. dapet hiburan pikiran gratis.",
     comments: [
-      { authorId: 48, minutesAgo: 256, content: "Kalau token habis tiap awal bulan, catat pemakaiannya per minggu. Biasanya yang besarnya setrika dan kulkas lama." },
-      { authorId: 33, minutesAgo: 243, content: "kaleng kue itu penjara receh yang paling ampuh di setiap rumah 😄" },
-      { authorId: 1, minutesAgo: 228, content: "aku juga kaleng kue, isinya sekarang setengah, mulai godaan tiap sore" },
-      { authorId: 22, minutesAgo: 213, content: "semoga bulan depan hemat terus 🙏" },
+      { authorId: 20, minutesAgo: 257, content: "yang minta anter malem2 hujan biasanya emang lagi butuh. dapet makasih aja udah lumayan, mas" },
+      { authorId: 240, minutesAgo: 249, content: "17 buat 6 km plus hujan masih kurang si om, tapi yang penting ampe tujuan selamat" },
+      { authorId: 26, minutesAgo: 240, content: "kalau udah malem gitu gue turunin penumpangnya mepet gang aja biar gak kesandung jalan bolong. hati2 di jalan bro" },
+      { authorId: 115, minutesAgo: 231, content: "gaskeun bang, hujan mah rezeki juga wkwk, jas hujannya dipake dua, satu buat motor" },
     ],
   },
   {
     id: 10,
-    authorId: 39,
+    authorId: 10,
     minutesAgo: 295,
-    shares: 15,
+    shares: 26,
     content:
-      "tadi siang di bank. satu loket buka, baris 12 orang. rata-rata 3 menit satu orang, berarti gue nunggu sekitar 30 menit kalau gak ada yang ribut. gue pindah ke baris satunya yang keliatan lebih pendek.\n\nternyata isinya orang-orang yang minta buka rekening, satu orang bisa 15 menit. gue balik ke baris awal. posisi gue udah nomor 4. hidup gak selalu adil tapi kadang lucu.",
+      "ULANGAN MTK BESOK GILS. GUE BELAJAR DARI JAM 4 SORE, JAM 5 LAPAR MAKAN, JAM 6 LAPAR LAGI MAKAN LAGI, JAM 7 NGANTUK, SKRG JAM 9 BUKUNYA BELUM DIBUKA. BESOKNYA PERSAMAAN KUADRAT. PERSAMAANNYA TUH APA GUE GAK NGAFA. WKWKWK ADA YANG MAU NJELASIN GAK, BAYAR PAKAI RAKUSAN KANTIN GUE DUA HARI",
     comments: [
-      { authorId: 27, minutesAgo: 285, content: "buka rekening emang makan waktu. data satu-satu. gue sering nerima barang di gudang juga begitu, keliatan cepet ternyata ribet" },
-      { authorId: 8, minutesAgo: 270, content: "ini soal estimasi antrean favorit gue. yang paling bikin salah itu rata-rata tanpa sebaran" },
-      { authorId: 47, minutesAgo: 255, content: "aku kerja di balik loket. makasih udah balik, baris satunya emang penjara" },
-      { authorId: 31, minutesAgo: 240, content: "hidup gak adil tapi lucu. simpen buat caption" },
+      { authorId: 13, minutesAgo: 286, content: "wkwkwk persamaan kuadrat tuh yang ada pangkat 2 nya bre, rumus abc, hafalin itu doang dpet nilai 70 kok" },
+      { authorId: 28, minutesAgo: 278, content: "buka buku halaman 4 bagian bawah, di situ contohnya. abis itu latian 3 soal aja, besok pagi sarap dulu biar otak nyala" },
+      { authorId: 149, minutesAgo: 269, content: "rakusan kantin dua hari gak cukup bre 😭 gue aja nanya PR sekelas dibayar coklat sebulan" },
+      { authorId: 38, minutesAgo: 260, content: "kak persamaan kuadrat itu pelajaran kelas berapa ya? bunda bilang nanti jelasnya di smp. aku takut duluan aja deh" },
+      { authorId: 131, minutesAgo: 251, content: "rakusan?? wkwkwk ente nyewa tutor apa bagi2 biskuit bre" },
     ],
   },
   {
     id: 11,
-    authorId: 20,
+    authorId: 11,
     minutesAgo: 325,
-    shares: 30,
+    shares: 41,
     content:
-      "tangki motor gue 50 ribu penuh. gue kira itu berarti bensin 12-an ribu per liter karena tangki gue 4,2 liter. BRO. 4,2 LITER ISINYA 50 RIBU. BERARTI BENSIN 12 RIBUAN/LITER?? GAK MASUK AKAL. BERARTI TANGKI GUE YANG KECIL. ya udah tangki kecil gak dosa. cek sendiri kalau gak percaya",
+      "Gajian tadi siang. Kebiasaan saya: catat dulu sebelum dipakai. Sepuluh persen buat ibu, sedikit buat kaleng, sisanya bulan berjalan.\n\nTernyata setelah dicek masih ada satu pos yang lupa: sumbangan tiap Jumat di kantor. Jadi angka di catatan dan angka di dompet tidak cocok. Selisihnya kecil, tapi kalau dibiarkan nanti jadi biasa. Malam ini dirapikan dulu, baru senyum.",
     comments: [
-      { authorId: 39, minutesAgo: 313, content: "50 ribu dibagi 12 ribuan per liter itu sekitar 4,2 liter. pas, bukan gak sengaja" },
-      { authorId: 26, minutesAgo: 298, content: "bro tangki emang 4-4,5 liter, 50 ribu juga pas penuh. angkanya cocok semua" },
-      { authorId: 47, minutesAgo: 282, content: "aku salah itung kembalian aja bisa ngerti ini kok. 50 dibagi 12 ya sekitar 4" },
-      { authorId: 2, minutesAgo: 266, content: "GUE JUGA PERNAH KIRAIN TANGKI GUE BOCOR. TERNYATA GUE YANG SALAH ITUNG" },
-      { authorId: 42, minutesAgo: 250, content: "4,2 liter buat motor harian udah lumayan. yang penting tekanan angin, bukan tangki" },
-      { authorId: 13, minutesAgo: 235, content: "GUYS KALO GITU GUE 50 RIBU DAPET 4,2 LITER. MURAH BANGET DONG. ATAU MAHAL? GAK YAKIN" },
+      { authorId: 39, minutesAgo: 316, content: "selisih kecil yang dicari itu tanda orangnya rapi. kebanyakan orang biarin, terus heran uangnya kemana" },
+      { authorId: 271, minutesAgo: 308, content: "Menata catatan sebelum memakai uang itu kebiasaan baik. Saya belajar hal ini terlambat, sekitar usia empat puluhan." },
+      { authorId: 45, minutesAgo: 299, content: "Sepuluh persen untuk orang tua itu nafkah batin juga. Lanjutkan, Nona." },
+      { authorId: 21, minutesAgo: 290, content: "aku kebalikannya, dompet duluan baru nyusul catat. hasilnya tiap akhir bulan jadi detektif wkwk" },
+      { authorId: 59, minutesAgo: 281, content: "kak, sumbangan Jumat itu jangan dihitung rugi ya, itu tabungan di tempat lain 😄" },
     ],
   },
   {
     id: 12,
-    authorId: 4,
+    authorId: 12,
     minutesAgo: 355,
     shares: 5,
-    content: "kunci motor ilang dicari setengah jam. ketemu di kantong. kantong yang dari awal sudah diperiksa.",
-    comments: [],
+    content:
+      "shift malam. pasien tidur semua.\njam 1 cek tekanan darah, semua normal.\njam 2 kulkas obat bunyi, cuma kompresornya.\njam 3 ada yang panggil, cuma tanya jam berapa dokter dateng.\njawab: jam 8. dia bilang oke, terus tidur lagi.\ngue juga.",
+    comments: [
+      { authorId: 8, minutesAgo: 346, content: "jam 3 malam tanya cuma mau kepastian itu sering. kadang mereka cuma pengen denger suara orang sebelum tidur" },
+      { authorId: 243, minutesAgo: 338, content: "jawaban 'jam 8' itu menenangkan. kayak jadwal kereta, yang penting ada jamnya" },
+    ],
   },
   {
     id: 13,
-    authorId: 22,
+    authorId: 13,
     minutesAgo: 385,
     shares: 19,
     content:
-      "anakku telepon sore tadi, cuma lima menit. katanya makan udah teratur, kamar bersih, uang cukup. sudah itu saja yang ibu butuh dengar. selebihnya semoga 🙏",
+      "hari ini dpt jajan 10 rebu dari om. plng skolah beli cilok 5 rebu, es teh 2 rebu, sisa 3 rebu tadi kepake beli pulsa game 3 rebu. pas bgt gk sengaja wkwk. terus dpet skin gratis dari event. puas bgt hari ini. bsk jajan apa ya, tadi liat somay baru buka depan gang, blom coba",
     comments: [
-      { authorId: 1, minutesAgo: 376, content: "lima menit itu cukup kok bu. anak udah mikirin kita" },
-      { authorId: 40, minutesAgo: 361, content: "SEMOGA ANAKMU SEHAT. CUCU AKU JUGA JARANG TELEPON. TAPI AKU YAKIN DIA BAIK BAIK SAJA" },
-      { authorId: 22, minutesAgo: 347, content: "aamiin, semoga anakmu juga sehat" },
+      { authorId: 127, minutesAgo: 376, content: "cilok 5 rebu di sekolah mah banyak bgt itu bre, di tempat gue 3 rebu doang wkwk" },
+      { authorId: 10, minutesAgo: 368, content: "SOMAY BARU BUKA WAJIB COBA. KALO ENAK KABARIN GUE JUGA" },
+      { authorId: 35, minutesAgo: 359, content: "pulsa 3 rebu dpet skin gratis... hidupmu beruntung bgt sih" },
+      { authorId: 143, minutesAgo: 350, content: "itunganmu rapi bgt padahal kt orang2 males itung wkwkwk" },
+      { authorId: 38, minutesAgo: 341, content: "somay sama bakso sama aja gak kak? aku jg mau coba depan gang, tapi bunda bilang tunggu gajian" },
+      { authorId: 118, minutesAgo: 332, content: "es teh 2 rebu tuh minuman wajib pelajar bre, gk bisa ditawar wkwkwk" },
+      { authorId: 141, minutesAgo: 327, content: "pulsa 3 rebu dpet skin gratis tuh udah rezeki anak sekolah bre wkwk" },
+      { authorId: 133, minutesAgo: 324, content: "somay depan gang tuh gila rasanya bre, tapi beli setengah porsi dulu aja, aman" },
     ],
   },
   {
     id: 14,
-    authorId: 8,
+    authorId: 14,
     minutesAgo: 415,
-    shares: 23,
+    shares: 7,
     content:
-      "skripsi gue butuh minimal 100 responden. yang udah isi 37. tiap gue sebar angket, yang isi tetep 6-7 orang itu-itu, wong yang gue tanya balik pun mereka. terus gue itung: kalau kecepatannya 2 orang per hari, 63 orang lagi = sebulan lagi. deadline 3 minggu. ada selisih 9 hari yang harus gue tempuh dengan cara yang belum gue tau.",
+      "pagi ini om-om parkir bayarnya pake koin 500. kubumpul 34 keping. ada yang masih panas, abis dijepit jok.\nsore biasanya 40-an keping. om yang motor stangnya miring itu bayarnya paling cepet, om yang minta dikit dulu malah lupa sampe magrib.\ngak apa. koin aja bisa numpuk, masa orangnya gak balik.",
     comments: [
-      { authorId: 18, minutesAgo: 401, content: "sebar ke grup angkatan lain, jangan cuma satu. biasanya langsung naik" },
-      { authorId: 49, minutesAgo: 386, content: "37 responden masih mending. gue kena data pasien yang gak boleh gue sebar-sebar, nunggu izin doang seminggu" },
-      { authorId: 39, minutesAgo: 371, content: "2 per hari itu asumsi hari kerja atau kalender? kalau kalender, 9 hari selisihnya tinggal sekitar 5" },
-      { authorId: 28, minutesAgo: 356, content: "semangat kak, gue baru selesai ploto aja rasanya udah setengah mati" },
-      { authorId: 8, minutesAgo: 341, content: "di grup angkatan udah. malah ada yang bilang 'kuisioner lagi? wkwk'. sakit." },
+      { authorId: 186, minutesAgo: 406, content: "om stang miring emang tipe bayar duluan. yang nunda biasanya yang motornya paling kinclong" },
+      { authorId: 41, minutesAgo: 398, content: "kantong depan gue tiap sore bunyi juga om, isinya receh dari ongkir kecil2. berat lho wkwk" },
+      { authorId: 49, minutesAgo: 389, content: "pelanggan macem2 om. ada yang bayar duluan, ada yang minta digrooming dulu baru bayar. yang penting kembali" },
+      { authorId: 205, minutesAgo: 380, content: "34 keping kali 500 itu 17 ribu om. lumayan buat bensin motor kecil seminggu" },
     ],
   },
   {
     id: 15,
-    authorId: 14,
+    authorId: 15,
     minutesAgo: 445,
     shares: 17,
     content:
-      "di pasar tadi cuanki naik 500. tukang cuanki bilang 'bahan naik semua'. aku nanya bahan apa. dia jawab 'semuanya teh'. mmm. oke. ya aku beli dua porsi. satu buat makan sekarang, satu buat dibungkus. kan yang satu udah beli, kalau gak beli 500 itu buat apa lho.",
+      "tadi pagi teh cuanki naikin harga 500. aku tanya kenapa teh, dia jawab bahan naik. aku bilang oke terus pesen dua porsi, satu makan di tempat satu buat dibungkus. kan udah duduk teh, males pindah 😂\nbesok aku coba nawar yang dibungkus, siapa tau masih bisa. doain ya",
     comments: [
-      { authorId: 32, minutesAgo: 434, content: "aku juga suka nanya bahan naik apa, biasanya dijawab 'ya gitu lah teh'. sama saja" },
-      { authorId: 14, minutesAgo: 420, content: "yang dibungkus satu buat bapak? semoga enak yu" },
-      { authorId: 50, minutesAgo: 405, content: "katanya cuanki naik gara2 kuota. kuota apa? gak tau. yang penting gue percaya" },
-      { authorId: 5, minutesAgo: 390, content: "500 itu buat tenang hati sih. kadang beli bukan soal harga" },
+      { authorId: 72, minutesAgo: 436, content: "aku juga pernah teh, tanya2 malah dibales 'ya gitu lah'. mending beli aja, puyeng ntar 😂" },
+      { authorId: 32, minutesAgo: 428, content: "aku jualan juga teh, kadang naik emang berat. tapi yang suka nawar justru pelanggan yang paling sering dateng, itu pertanda baik" },
+      { authorId: 1, minutesAgo: 419, content: "aku kemarin sama teh, terong naik 2 ribu, aku tetep beli 3, anakku doyan tumisnya" },
+      { authorId: 88, minutesAgo: 410, content: "yang dibungkus satu buat bapaknya ya teh? semoga besok dapet harga enak 🙏" },
     ],
   },
   {
     id: 16,
-    authorId: 28,
+    authorId: 16,
     minutesAgo: 475,
     shares: 26,
     content:
-      "ulangan math tadi. temen sebangku gue jawab pake 3 cara di kertas, gue jawab satu alur doang. pas ploto dikoreksi nilai kita SAMA. 82. gils. aku mikir, berarti yang dinilai hasilnya ya bukan gayanya. terus bu guru bilang 'yang penting alurnya jelas'. TAPI KENAPA NILAI GUE YANG SATU ALUR SAMA YANG TIGA ALUR WKWKWK. ya udahlah.",
+      "Hari ini kerjaan utama: menelepon 32 nasabah yang jatuh tempo. Yang diangkat 14. Yang marah 3. Yang bercerita panjang soal usahanya 5, dan itu yang paling lama.\n\nSore, satu bapak bilang, 'non, ingetin aja tiap bulan, kadang aku lupa, bukan gak mau bayar.' Aku catat di kolom khusus. Ada kolom 'peringatan', ada kolom 'ingatkan tiap bulan'. Yang kedua isinya cuma 2 orang.",
     comments: [
-      { authorId: 18, minutesAgo: 462, content: "82 dua-duanya, berarti emang dua-duanya bener. alur beda hasil sama itu biasa kok di matematika" },
-      { authorId: 8, minutesAgo: 447, content: "dinilai di jawaban, bukan di dramanya wkwk" },
-      { authorId: 10, minutesAgo: 432, content: "GILS 82. GUE BLM NYAMPE ITU JUGA" },
-      { authorId: 3, minutesAgo: 417, content: "Saya yang mengoreksi ulangan hari itu. Dua-duanya rapi, sulit memilih. Salut." },
-      { authorId: 38, minutesAgo: 400, content: "SUMPAH GUE PERNAH GITU, NILAI GUE SAMA YANG NGOPYEK. DUNIA GAK ADIL TAPI GUE TETEP NGERASA MENANG WKWK" },
-      { authorId: 46, minutesAgo: 385, content: "anak gue juga gitu, nilai sama dengan yang senyap-senyap pinter. dia malah bangga" },
+      { authorId: 47, minutesAgo: 466, content: "setuju non, di balik loket juga gitu. nasabah yang cerita biasanya bukan gak niat, cuma kelebihan beban" },
+      { authorId: 276, minutesAgo: 458, content: "Pekerjaan menelepon dengan sabar itu seni. Semoga nasabahnya membalas dengan kejujuran." },
+      { authorId: 11, minutesAgo: 449, content: "kolom 'ingatkan tiap bulan' itu sistem yang bagus. di catatan aku juga ada kolom serupa, isinya tagihan langganan warung" },
     ],
   },
   {
     id: 17,
-    authorId: 24,
+    authorId: 17,
     minutesAgo: 505,
-    shares: 35,
+    shares: 30,
     content:
-      "rencana bulan depan: gas 180, laundry 45, listrik 60, mie dan beras 80, jajan jalan 50. total 415 ribu dari gaji magang 1,8 juta. sisanya untuk nabung dan satu kali makan enak tiap awal bulan.\n\nmasalahnya bulan ini gue gak sempet nabung karena ban motornya kena paku di tanggal 12. ban baru 140. rencana bulan depan: tambah satu pos, 'ban lagi'. kalo gak kena paku, uangnya jadi tabungan paku. aman.",
+      "laporan lab hari ini: massa jenis minyak 0,8 gram per cm kubik. dosen tanya kalau dipake buoyancy, berapa persen yang tenggelam. gue jwb 80 persen, bener. temen gue jawab 20 persen, jawabannya juga bener. beda yang ditanya. dosen cuma senyum.\nbro, itu momen gue sadar ngerjain soal yang penting baca pelan2, bukan ngehafal. tes berikutnya gue baca soal dua kali, skor naik dari 76 jadi 87. kecil tapi nyata",
     comments: [
-      { authorId: 11, minutesAgo: 493, content: "pos 'ban lagi' itu bijak. di kos gue juga ada pos 'isi ulang galon dadakan' 10 ribu" },
-      { authorId: 24, minutesAgo: 478, content: "setuju, pos dadakan itu penyelamat rencana" },
-      { authorId: 39, minutesAgo: 463, content: "1,8 juta dikurang 415 + 140 = 1.245. masih ada ruang untuk satu kali makan enak kok" },
-      { authorId: 47, minutesAgo: 448, content: "aku nabung di kaleng, abang di kos nabung di aplikasi. dua2nya abis pas tanggal tua wkwk" },
-      { authorId: 8, minutesAgo: 433, content: "gaji magang 1,8 itu udah bagus. skripsi gue aja belum gajian" },
+      { authorId: 39, minutesAgo: 496, content: "0,8 gram per cm kubik itu 800 kg per meter kubik, jadi 80 persen di dalam air, 20 persen di atas. dua2nya bener, tergantung ditanyain bagian mana" },
+      { authorId: 28, minutesAgo: 488, content: "wkwkwk ini beneran, gue dulu jawab 'tergantung' malah dikira sok tau. ternyata emang tergantung soalnya" },
+      { authorId: 219, minutesAgo: 479, content: "baca 2x naik 11 poin itu mah bukan kecil bre, itu lompatan. gue naik 2 poin aja syukur" },
+      { authorId: 36, minutesAgo: 470, content: "manusia yang baca pelan2 menang. abis lab ngapain lagi? aku ada kuis patologi minggu depan, minta doanya ya" },
     ],
   },
   {
     id: 18,
-    authorId: 10,
+    authorId: 18,
     minutesAgo: 535,
-    shares: 26,
+    shares: 14,
     content:
-      "ULKAN MATEMATIKA BESOK. GUE BELAJAR DARI JAM 4. JAM 5 LAPAR. JAM 6 LAPAR LAGI. JAM 7 GUE MAKAN. JAM 8 NGANTUK. SKRG JAM 9 GUE BELUM BUKA BUKU. BESOK ULANGANNYA PERSAMAAN KUADRAT. PERSAMAANNYA APA GUE BELUM TAU. GILS.",
+      "durian musim ini om. kemarin jual 25 rebu perkilo. hari ini 18. bukan karena jelek, panennya barengan semua.\nyang jual duluan untung. yang ngantor kaget harga turun, yang tukang nunggu lebih turun lagi. aku di tengah, jual aja.\nsore ini target abisin dua karung. kalau gak habis, dibikin jus buat anak-anak, katanya enak.",
     comments: [
-      { authorId: 28, minutesAgo: 522, content: "persamaan kuadrat itu ada pangkat 2 nya. sisanya cari di buku halaman 4 bagian bawah" },
-      { authorId: 6, minutesAgo: 506, content: "klo gue yang gak belajarnya sampe besok pagi baru panik. lo udah oke kok udah buka bukunya siapa tau" },
-      { authorId: 44, minutesAgo: 490, content: "YAUDAH besok nyontek ke gue. GUE JUGA GAK BISA WKWKWK" },
+      { authorId: 178, minutesAgo: 526, content: "turun 7 rebu sekali angin itu biasanya bener musim puncak om. beli sekarang, jangan nunggu minggu depan" },
+      { authorId: 32, minutesAgo: 518, content: "sayur juga gitu om. kangkung musim hujan murah banget, musim panas naik 2 kali, pembeli nyalahin aku, padahal tanah" },
+      { authorId: 15, minutesAgo: 509, content: "teh, aku beli yang 18 tadi ya, pilih yang buahnya belom kebuka semua biar tahan dua hari" },
+      { authorId: 199, minutesAgo: 500, content: "yang jual duluan untung itu bener om, sama kayak yang di pasar modal" },
     ],
   },
   {
     id: 19,
-    authorId: 47,
+    authorId: 19,
     minutesAgo: 565,
-    shares: 7,
+    shares: 21,
     content:
-      "tadi pelanggan nawar roti 2 ribu. stoknya banyak, aku kasih. terus dia minta kembalian 500 dibuletin. aku bilang oke. dia senyum, bilang 'kamu pinter'. aku gak pinter. aku cuma males debat pagi-pagi.",
+      "bos tadi sore nyodorin HP, minta isi pulsa 25 rebu. terus dia buka aplikasi satu, tulisannya 'modal kecil cair besar'. dia minta tolong daftar-in.\naku bilang aku gak berani bos, itu biasanya makan uang orang, bukan kasih uang.\ndia diem. terus bilang 'ya udah, isi pulsa doang'. aku isi 25 rebu. semoga dia balik cuma buat pulsa.",
     comments: [
-      { authorId: 5, minutesAgo: 552, content: "males debat itu bentuk pinter yang paling hemat tenaga" },
-      { authorId: 32, minutesAgo: 537, content: "aku tukang sayur, hampir tiap hari ada yang minta dibuletin. kadang aku senggol dia dikit hehe" },
-      { authorId: 45, minutesAgo: 521, content: "Mengalah pada hal kecil untuk menjaga suasana. Itu tidak berarti kalah." },
-      { authorId: 14, minutesAgo: 505, content: "roti 2 ribu tapi kembalian minta dibuletin, orangnya lucu juga ya" },
-      { authorId: 13, minutesAgo: 489, content: "GUE KASIH TAU RAHASIA: KALO MALES DEBAT, TINGGAL BILANG 'SESUAI HARGANYA YA'. FIX." },
+      { authorId: 49, minutesAgo: 556, content: "bener bos, di cukuran juga ada yang nawarin gini. jawabku sama: kerja yang jelas aja, potong rambut dapat uang potong rambut" },
+      { authorId: 236, minutesAgo: 548, content: "tangan om itu mungkin nyelametin dia. sebelahan gue ada yang mulai gini, sekarang motornya kejual" },
+      { authorId: 23, minutesAgo: 539, content: "aplikasi yang janjiin angka besar dari modal kecil, rumus matematikanya gak pernah seimbang. yang seimbang cuma buat yang bikin aplikasinya" },
+      { authorId: 283, minutesAgo: 530, content: "Menolak dengan sopan itu pelajaran. Semoga bapak tadi ingat pesan Anda." },
     ],
   },
   {
     id: 20,
-    authorId: 26,
+    authorId: 20,
     minutesAgo: 595,
     shares: 14,
     content:
-      "penumpang jam 10 malem, naik dari pasar, turun di perumahan ujung. di jalan dia tidur. gue lewat 3 polisi tidur, dia gak jatuh. sampai tujuan dia bangun, bilang 'bang, kita udah sampai?' gue bilang iya, udah 5 menit duduk di sini nungguin lu bangun. dia bilang makasih, gak ngasih apa-apa, tapi senyumnya gak bohong. udah. cukup cerita itu aja.",
+      "Penumpang jam 10 malam, turun di ujung perumahan. Di jalan dia tidur, kepala nyandar jendela. Gue pelankan aja, lewat polisi tidur tiga kali dia gak goyang.\n\nSampai tujuan dia bangun, tanya 'sudah sampai ya mas?'. Gue bilang sudah, dari tadi 5 menit nungguin lu bangun. Dia senyum, bayar, gak ngomong banyak. Itu aja. Gue jalan lagi.",
     comments: [
-      { authorId: 12, minutesAgo: 581, content: "penumpang tidur di motor tuh seimbang banget ya, gak pernah jatuh kiri kanan" },
-      { authorId: 34, minutesAgo: 565, content: "gue komuter, tiap liat ojol nganter orang ngantuk gue jadi mikir, capeknya sama aja kayak kita" },
-      { authorId: 22, minutesAgo: 549, content: "semoga penumpangnya sampai tujuan dengan selamat dan pulang ke rumah 🙏" },
-      { authorId: 26, minutesAgo: 533, content: "iya, senyumnya gak bohong, cukup itu" },
+      { authorId: 9, minutesAgo: 586, content: "penumpang tidur tuh percaya penuh sama kita bang. makanya di lempar polisi tidur jangan ngebut" },
+      { authorId: 26, minutesAgo: 578, content: "penumpang tidur di angkot pun gitu mas, kepala melayang kiri kanan tapi gak pernah jatuh. aneh tapi nyata" },
+      { authorId: 296, minutesAgo: 569, content: "5 menit nungguin orang tidur tanpa keberatan, itu kesabaran langka mas. semoga rezekinya lancar 🙏" },
+      { authorId: 12, minutesAgo: 560, content: "penumpang yang tidur biasanya habis shift juga kayak gue. makasih ya mas2 ojol yang nyetirnya pelan" },
     ],
   },
   {
     id: 21,
-    authorId: 5,
+    authorId: 21,
     minutesAgo: 625,
     shares: 21,
     content:
-      "hari ini warung untung bersih 86 ribu. dua belas ribu di antaranya masih dicatat, belum dibayar, pembelinya orang sebelah. ibu bilang jangan dihitung duluan yang belum masuk. jadi aku catat dua-duanya: yang masuk 74, yang nyangkut 12.\n\nbesok kalau dia bayar, 12 itu pindah kolom. buku tulis ku penuh kolom-kolom kecil begini dari tahun lalu. gak ada yang beli buku itu. tapi isinya jujur.",
+      "kaleng nabung gue bulan ini: 38 ribu. sumbernya receh kembalian sama penghematan es teh (seminggu gak beli, ganti air putih seduh sendiri).\n\ntadi mau beli kerudung baru, liat harga 65. gue itung: 38 di kaleng, 20 di dompet, kurang 7. ya udah minggu depan lagi. kerudung lama masih bisa, cuma warnanya udah gak warna lagi.",
     comments: [
-      { authorId: 39, minutesAgo: 610, content: "memisahkan yang masuk dan yang nyangkut itu prinsip akuntansi yang benar. mantap" },
-      { authorId: 48, minutesAgo: 594, content: "Buku tulis seperti itu akan sangat berharga kalau ibu perlu mengingat siapa yang baik." },
-      { authorId: 24, minutesAgo: 578, content: "aku juga punya buku begini buat kos-kosan, tapi isinya sering gak cocok sama realita wkwk" },
-      { authorId: 16, minutesAgo: 562, content: "warung itu kerja yang gak keliatan capeknya. semangat" },
+      { authorId: 7, minutesAgo: 616, content: "air putih seduh sendiri itu juara, gue juga. hemat 2 rebu sehari kalau konsisten, sebulan 60" },
+      { authorId: 155, minutesAgo: 608, content: "'warnanya udah gak warna lagi' 😭 aku relate banget kak, punyaku udah jadi abu misterius" },
+      { authorId: 16, minutesAgo: 599, content: "cek kaleng dulu sebelum beli itu kebiasaan yang jarang ada sekarang. salut" },
+      { authorId: 68, minutesAgo: 590, content: "kaleng nabung itu suka gak awet kak, biasanya kepake buat jajan pas sakit wkwk. semangat ya" },
     ],
   },
   {
     id: 22,
-    authorId: 29,
+    authorId: 22,
     minutesAgo: 655,
-    shares: 156,
+    shares: 19,
     content:
-      "sejak kemarin ibu naruh kunci-kunci rumah di gantungan dekat pintu. selama ini dia naruhnya di mana saja. di tas, di bantal, di atas kulkas… sekarang gantungannya rapi, ada tiga kunci sama satu gantungan kunci bekas.\n\naku gak nanya apa-apa. dia juga gak jelasin. ya udah gitu.",
+      "anakku telepon sore tadi, cuma lima menit. bilang makan udah teratur, kamar bersih, uang cukup.\nsudah itu saja yang ibu butuh dengar. selebihnya serahkan 🙏",
     comments: [
-      { authorId: 37, minutesAgo: 641, content: "rumah yang mulai tertata itu tanda orangnya mulai tenang lagi" },
-      { authorId: 45, minutesAgo: 625, content: "Kadang perbaikan datang tanpa diumumkan. Saya bersyukur membaca ini." },
-      { authorId: 9, minutesAgo: 609, content: "ibu-ibu begitu. yang penting gantungan kuncinya nempel di tempat yang sama tiap hari" },
-      { authorId: 48, minutesAgo: 593, content: "Saya juga berhenti bertanya kalau anggota keluarga mulai menertibkan sesuatu sendiri. Itu cara mereka memulihkan diri." },
+      { authorId: 74, minutesAgo: 646, content: "lima menit itu cukup kok bu. anak yang jauh kalau udah bilang cukup, berarti dia baik2 aja" },
+      { authorId: 103, minutesAgo: 638, content: "Anak yang menelepon dulu tanpa diminta itu tandanya dia ingat rumah. Syukuri ya bu." },
+      { authorId: 1, minutesAgo: 629, content: "semoga anaknya sehat terus ya bu, insyaAllah 🙏" },
+      { authorId: 24, minutesAgo: 620, content: "ANAKMU BAIK BU. CUCU AKU JARANG TELEPON TAPI SETIAP PULANG SELALU BAWA BUAH DARI KEBUN. ALHAMDULILLAH" },
+      { authorId: 81, minutesAgo: 611, content: "aamiin bu, semoga pertemuan berikutnya lebih lama 🙏" },
+      { authorId: 66, minutesAgo: 604, content: "lima menit itu mah anaknya udah mandiri bu. kalau ada masalah pasti dia telepon lebih lama" },
+      { authorId: 97, minutesAgo: 602, content: "makan teratur kamar bersih uang cukup, itu jawaban paling penenang buat ibu2 🙏" },
+      { authorId: 107, minutesAgo: 600, content: "Alhamdulillah ya bu. Anak yang telepon dulu tanpa diminta itu hasil didikan orang tuanya." },
     ],
   },
   {
     id: 23,
-    authorId: 19,
+    authorId: 23,
     minutesAgo: 685,
     shares: 2,
-    content: "jam 1 lewat. kulkas di dapur mati nyala mati nyala. satu-satunya penghuni rumah ini yang punya jadwal dan disiplin.",
+    content:
+      "jam 1 lewat. kulkas di dapur mati nyala mati nyala. satu2nya penghuni rumah ini yang punya jadwal kerja jelas.",
     comments: [
-      { authorId: 23, minutesAgo: 672, content: "gue juga denger kulkas. kita berdua tau jam keberapa dia istirahat" },
+      { authorId: 4, minutesAgo: 676, content: "Kulkas yang begini biasanya hanya butuh dibersihkan kumparan belakangnya. Saya pernah mengalaminya." },
+      { authorId: 249, minutesAgo: 668, content: "kulkas shift malam juga ternyata ya, sama kayak kita om" },
+      { authorId: 45, minutesAgo: 659, content: "Peralatan yang bekerja diam2 patut dihargai. Selamat istirahat." },
     ],
   },
   {
     id: 24,
-    authorId: 40,
+    authorId: 24,
     minutesAgo: 715,
     shares: 12,
     content:
-      "CUCU AKU KALO DISURUH BELAJAR DIA MALES. KALO TIDAK DISURUH DIA MAU BELAJAR SENDIRI. ANEH YA. TADI SORE AKU PURA2 TIDUR DI KURSI. DIA BUKA BUKUNYA SENDIRI SAMPE MAGRIB. AKU GAK TEGA BANGUNIN. GUAJAR JUGA GAK BERANI NGOMONG APA2.",
+      "CUCU AKU KALO DISURUH BELAJAR DIA MALES. KALO GAK DISURUH DIA MAU BELAJAR SENDIRI. ANEH YA. TADI SORE AKU PURA2 TIDUR DI KURSI. DIA BUKA BUKUNYA SENDIRI SAMPE MAGRIB. AKU GAK TEGA BANGUNIN. GUAJAR JUGA GAK BERANI NGOMONG APA2.",
     comments: [
-      { authorId: 1, minutesAgo: 700, content: "nenek pura-pura tidur itu jurus paling ampuh 😄 anak-anak suka kerasa bebas" },
-      { authorId: 48, minutesAgo: 685, content: "Anak yang belajar karena kehendak sendiri tahan lebih lama daripada yang disuruh." },
+      { authorId: 106, minutesAgo: 706, content: "Mbak, itu namanya anak berbakat. Jangan diinterupsi ya mbak, biarkan dia asyik sampai magrib" },
+      { authorId: 33, minutesAgo: 698, content: "pura2 tidur itu jurus ampuh bu, aku juga sering. anak2 jadi ngerasa bebas 😄" },
+      { authorId: 97, minutesAgo: 689, content: "semoga cucunya sehat dan rajin terus ya bu 🙏" },
+      { authorId: 22, minutesAgo: 680, content: "cucu yang rajin, neneknya juga pintar pura2 tidur. cocok bu 😄" },
+      { authorId: 1, minutesAgo: 677, content: "jangan lupa disiapin camilannya ya bu pas cucunya belajar, biar makin betah 😄" },
+      { authorId: 63, minutesAgo: 674, content: "semoga cucunya makin pintar dan sehat ya bu 🙏" },
+      { authorId: 74, minutesAgo: 671, content: "ini jurus yang sama kayak punya mertua aku dulu bu. yang keliatan cuma tidur, yang gak keliatan kerja 😄" },
+      { authorId: 110, minutesAgo: 668, content: "Bu, belajar sampai magrib itu rejeki. Nenek yang sabar menunggu itu berkah." },
     ],
   },
   {
     id: 25,
-    authorId: 31,
+    authorId: 25,
     minutesAgo: 745,
-    shares: 5,
-    content: "capek tapi gak ngantuk. gak marah tapi pengen banting sesuatu. akhirnya banting bantal. abis dah.",
+    shares: 30,
+    content:
+      "rencana gajian bulan depan udah gue susun rapi: sewa, makan, tabung dikit, sisanya jajan warung. TP. tanggal 12 ban motor kena paku. ban baru 140 rebu. abes itu rencana.\nya udahlah, gue tambahin satu pos di catatan: 'dana paku lagi'. bulan depan kena paku lagi gak? gak tau. yang jelas rencana sekarang lebih jujur dari kemarin.",
     comments: [
-      { authorId: 44, minutesAgo: 730, content: "bantal gak dosa. YAUDAH" },
-      { authorId: 23, minutesAgo: 715, content: "jam segini rasanya persis gini" },
+      { authorId: 2, minutesAgo: 736, content: "DANA PAKU LAGI WKWKWK. GUE ADA POS 'DANA KUNCI ILANG LAGI'. KITA SAMA2 DIGODA DUNIA" },
+      { authorId: 223, minutesAgo: 728, content: "140 rebu ban tuh sakit bre, dulu gue kena 2 minggu berturut, kanan kiri 😭" },
+      { authorId: 21, minutesAgo: 719, content: "dana paku lagi itu dana darurat versi jujur sih. bagus udah mikir ke situ" },
+      { authorId: 137, minutesAgo: 710, content: "rencana yang jujur emang harus ada pos dadakannya wkwk" },
     ],
   },
 ]
