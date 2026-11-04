@@ -184,13 +184,14 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 295,
     shares: 26,
     content:
-      "ULANGAN MTK BESOK GILS. GUE BELAJAR DARI JAM 4 SORE, JAM 5 LAPAR MAKAN, JAM 6 LAPAR LAGI MAKAN LAGI, JAM 7 NGANTUK, SKRG JAM 9 BUKUNYA BELUM DIBUKA. BESOKNYA PERSAMAAN KUADRAT. PERSAMAANNYA TUH APA GUE GAK NGAFA. WKWKWK ADA YANG MAU NJELASIN GAK, BAYAR PAKAI RAKUSAN KANTIN GUE DUA HARI",
+      "ULANGAN MTK BESOK GILS, BUKUNYA GUE BUKA SORE TADI LIAT LIAT DOANG TERUS GUE TUTUP LAGI WKWKWK, PERSAMAAN KUADRAT ITU B NYA DARI MANA C NYA DARI MANA, GUE GAK PAHAM DARI AWALNYA AJA, YA UDAH BESOK TERIMA NASIB, GILS ADA YANG MAU NJELASIN DARI NOL GAK, DUDUKNYA GUE PALING BELAKANG JADI GAK PERNAH DIPANGGIL BU NYA WKWK",
     comments: [
-      { authorId: 13, minutesAgo: 286, content: "wkwkwk persamaan kuadrat tuh yang ada pangkat 2 nya bre, rumus abc, hafalin itu doang dpet nilai 70 kok" },
-      { authorId: 28, minutesAgo: 278, content: "buka buku halaman 4 bagian bawah, di situ contohnya. abis itu latian 3 soal aja, besok pagi sarap dulu biar otak nyala" },
-      { authorId: 149, minutesAgo: 269, content: "rakusan kantin dua hari gak cukup bre 😭 gue aja nanya PR sekelas dibayar coklat sebulan" },
-      { authorId: 38, minutesAgo: 260, content: "kak persamaan kuadrat itu pelajaran kelas berapa ya? bunda bilang nanti jelasnya di smp. aku takut duluan aja deh" },
-      { authorId: 131, minutesAgo: 251, content: "rakusan?? wkwkwk ente nyewa tutor apa bagi2 biskuit bre" },
+      { authorId: 13, minutesAgo: 286, content: "wkwkwk persamaan kuadrat tuh yang ada pangkat 2 nya bre, gue catet rumus abc doang gk ngerti isinya, dua2nya sama2 menyala wkwk" },
+      { authorId: 28, minutesAgo: 279, content: "bre b itu angka yang nempel x, c itu angka nganggur sendirian. contoh 2x kuadrat + 3x + 1, b nya 3 c nya 1. catet itu aja, minimal besok gak bengong WKWK" },
+      { authorId: 38, minutesAgo: 271, content: "kak, itu pelajaran smp kan ya? bunda bilang nanti pas ke smp ada. aku ikut takutan aja deh wkwk" },
+      { authorId: 131, minutesAgo: 263, content: "wkwk gue juga gitu bre, buku dibuka doang gak dibaca, nilai keluar 68. lumayan buat anak yang pasrah" },
+      { authorId: 35, minutesAgo: 256, content: "tadi gue mikir, kalo gue jadi huruf b di soal itu gak enak ya, dipanggil terus wkwk" },
+      { authorId: 149, minutesAgo: 249, content: "gue kemarin nanya alur soal ke anak sebelah, bayarnya coklat 2 bungkus. tutor alam bre wkwk" },
     ],
   },
   {

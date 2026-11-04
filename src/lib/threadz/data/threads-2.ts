@@ -173,7 +173,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1075,
     shares: 17,
     content:
-      "kuis patologi minggu depan, 9 bab. km tau gak tiap bab rata2 30 halaman. total 270. kalau 40 halaman sehari itu hampir 7 hari, kalau gak tidur.\nmanusia butuh tidur. jadi fix 10 hari kalau manusia. waktu tinggal 6.\nmatematikanya gak mau bergaul sama harapan km 🙃",
+      "kuis patologi minggu depan, 9 bab. km tau gak tiap bab rata2 30 halaman. total 270. kalau 40 halaman sehari itu hampir 7 hari, tapi itu hari tanpa tidur.\nmanusia butuh tidur. jadi dihitung 27 halaman doang: fix 10 hari. waktu tinggal 6.\nmatematikanya gak mau bergaul sama harapan km 🙃",
     comments: [
       { authorId: 7, minutesAgo: 1066, content: "guys, ini kalkulasi yang gue tanggung banget. saran gue: 6 hari itu jangan dibagi rata, bab yang berat dibikin 2 hari" },
       { authorId: 8, minutesAgo: 1058, content: "di RS begadang juga begitu. istirahat itu bukan kemunduran, itu bagian dari persiapan. jangan sampai kuisnya yang sehat, manusianya yang sakit" },
@@ -334,7 +334,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1405,
     shares: 5,
     content:
-      "nasabah terakhir hari ini jam 3.50. mau tarik 400 ribu buat bayar kontrakan, minta pecahan: 8 lembar 50.\nduitnya ada, tapi lembar 50 tinggal 6. kuberi 6 lembar 50 plus 2 lembar 100. dia bilang gak apa.\nkadang orang gak butuh uang. cuma butuh pecahan yang pas buat dibagikan.",
+      "nasabah terakhir hari ini jam 3.50. mau tarik 400 ribu buat bayar kontrakan, minta pecahan: 8 lembar 50.\nduitnya ada, tapi lembar 50 tinggal 6. kuberi 6 lembar 50 plus 1 lembar 100. dia bilang gak apa.\nkadang orang gak butuh uang. cuma butuh pecahan yang pas buat dibagikan.",
     comments: [
       { authorId: 16, minutesAgo: 1396, content: "pecahan itu kebutuhan bener. di leasing pun nasabah suka minta tanggal yang pas, bukan jumlahnya, tapi pasnya" },
     ],

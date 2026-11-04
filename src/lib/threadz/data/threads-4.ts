@@ -181,14 +181,14 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2635,
     shares: 26,
     content:
-      "HASIL ULANGAN KUADRAT KELUAR. 71. GUE YANG KEMARIN PANIK SAMPE SAKIT PERUT ITU.\nGAK NYANGKA WKWKWK.\nTEMEN GUE YANG JUALAN RAKUSAN KANTIN ITU DAPET 70. GUE MENANG 1 POIN.\nRAKUSANNYA KUBAYAR SEHARI DOANG, GAK JADI DUA HARI. SISTEM GUE GILA TAPI JALAN",
+      "HASIL ULANGAN MTK KELUAR, 71. GUE YANG KEMARIN PANIK SAMPE SAKIT PERUT ITU WKWKWK. GUE KIRA CUMA MASUK 50AN, TERNYATA B NYA BENER SEMUA, YANG MELESAT C NYA DOANG. BU NYA BILANG LUMAYAN, LANJUT. YA GUE LANJUT. BULAN DEPAN ULANGAN LAGI, GILS, SEMOGA BUKUNYA GAK CUMA GUE BUKA TUTUP DOANG WKWK",
     comments: [
-      { authorId: 13, minutesAgo: 2626, content: "71 bre alhamdulillah, rakusan sehari doang murah bgt buat nilai 71 wkwk" },
-      { authorId: 28, minutesAgo: 2618, content: "gue yang ngajarin rumus abc itu kan, bagian gue mana WKWKWK. tapi congrats, 71 dari yang belum buka buku itu lompatan" },
-      { authorId: 160, minutesAgo: 2609, content: "menang 1 poin dari orang jualan rakusan itu kehormatan kak 😭 gue aja kalah dari anak yang tidur di kelas" },
-      { authorId: 38, minutesAgo: 2600, content: "kak 71 itu bagus gak ya? bunda bilang kalau di atas 70 itu bagus. aku harap kakak dapet es krim" },
-      { authorId: 131, minutesAgo: 2591, content: "sistem gila tapi jalan itu mah di semua umur bre, bukan cuma sekolah wkwkwk" },
-      { authorId: 149, minutesAgo: 2582, content: "panik sakit perut tapi tetep ngerjain itu udah menang mental sebelum menang nilai kak 😭 selamat" },
+      { authorId: 13, minutesAgo: 2626, content: "71 bre alhamdulillah, gue ulangan mtk kemarin 58, gk gue post, malu wkwk" },
+      { authorId: 28, minutesAgo: 2618, content: "gue yang ngajarin b c itu kan, bagian gue mana WKWKWK. tapi serius, 71 dari yang dulu gak buka buku itu lompatan bre" },
+      { authorId: 160, minutesAgo: 2609, content: "panik sakit perut tapi 71 itu mah menang mental dulu baru menang nilai kak 😭 gue aja gak sakit perut gak dapet2 71" },
+      { authorId: 38, minutesAgo: 2600, content: "kak, 71 itu bagus kan ya? bunda bilang di atas 70 itu bagus. kalo bagus bunda kasih jajan ekstra, doain kakak juga dapet 😄" },
+      { authorId: 131, minutesAgo: 2591, content: "b yang bener c yang meleset itu klasik bre, rumusnya bener masukinnya kebalik. cek ulang sebelum nyalin" },
+      { authorId: 149, minutesAgo: 2582, content: "71 buat yang kemarin gak buka buku itu bumerang buat yang sempet ngatain gak bakal lulus bre wkwk" },
     ],
   },
   {

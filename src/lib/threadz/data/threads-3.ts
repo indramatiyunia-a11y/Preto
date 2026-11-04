@@ -26,11 +26,11 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1555,
     shares: 21,
     content:
-      "bakso buatan sendiri 3 kilo, buat dijual ke tetangga 25 ribu per kilo. abang tanya untungnya.\n\nkuitung: daging 90, tepung 8, gas 6. jual 75. untungnya gak sampe 5 ribu per kilo. abang ketawa. tapi besok bikin 5 kilo, pesenan naik. itungan untung boleh kecil.",
+      "bakso buatan sendiri 3 kilo, buat dijual ke tetangga 55 ribu per kilo. abang tanya untungnya.\n\nkuitung: daging 120, tepung 12, gas 8. jual 165. untungnya 25, kebagian gak sampe 10 ribu per kilo. abang ketawa. tapi besok bikin 5 kilo, pesenan naik. itungan untung boleh kecil.",
     comments: [
-      { authorId: 1, minutesAgo: 1546, content: "bakso buatan sendiri 25 ribu per kilo tuh murah banget bu, yang jualan di depan aja 30-an. pesenan naik pasti karena enak 😄" },
-      { authorId: 15, minutesAgo: 1538, content: "untung 5 ribu tapi pembeli tetangga yang balik2, itu mah untung yang gak keliatan ya bu. lama2 pesenannya naik sendiri" },
-      { authorId: 93, minutesAgo: 1529, content: "daging 90 per 3 kilo itu bagus bu, biasanya yang bikin bakso campur tepungnya banyak. punya bu ini dagingnya bener" },
+      { authorId: 1, minutesAgo: 1546, content: "bakso buatan sendiri 55 ribu per kilo tuh masih murah bu, di bakso keliling sepanci aja 15. pesenan naik pasti karena enak 😄" },
+      { authorId: 15, minutesAgo: 1538, content: "untungnya 25 dari 3 kilo tapi pembeli tetangga yang balik2, itu mah untung yang gak keliatan ya bu. lama2 pesenannya naik sendiri" },
+      { authorId: 93, minutesAgo: 1529, content: "daging 120 buat 3 kilo itu bagus bu, berarti dagingnya bener, tepungnya gak dilebihin. makanya tetangga balik2" },
       { authorId: 22, minutesAgo: 1520, content: "semoga pesenannya tambah terus ya bu 🙏 bakso buatan ibu itu beda" },
       { authorId: 5, minutesAgo: 1511, content: "di buku warung, kategori 'untung kecil tapi balik lagi' itu paling dicari bu. beliau namanya pelanggan tetap" },
     ],
@@ -147,12 +147,12 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1795,
     shares: 21,
     content:
-      "jualan barang gak kepake ke tetangga: laku 3, sisa 2. dapet 28 ribu, masuk kaleng.\nkaleng sekarang 43. target kerudung 65. kurang 22. gue rasa bulan depan bisa.\n\nkalau gak bisa ya kerudungnya nunggu, gak apa. yang penting kalengnya jujur.",
+      "jualan barang gak kepake ke tetangga: laku 3, sisa 2. dapet 28 ribu, masuk kaleng.\nkaleng kemarin 38, sekarang 66. target kerudung 65. udah lewat 1 ribu wkwk.\n\nbesok gue beli. warnanya gak gue tentuin, yang penting gak abu misterius. kalau pas liat langsung gak cocok, ya kalengnya nunggu lagi, gak apa. yang penting kalengnya jujur.",
     comments: [
       { authorId: 7, minutesAgo: 1786, content: "28 dari jualan barang gak kepake itu bagus guys, sekalian bersih2 lemari. gue mau ikut ah, target jualan buku kuliah 😄" },
       { authorId: 155, minutesAgo: 1778, content: "'yang penting kalengnya jujur' 😭 kak ini filosofi yang banget, kaleng yang dihitung itu kaleng yang bisa dipercaya" },
       { authorId: 16, minutesAgo: 1769, content: "kalau angka kaleng dan angka target terlihat, biasanya tercapai. lanjutkan" },
-      { authorId: 68, minutesAgo: 1760, content: "kerudung 65 itu tuh kecil tapi tertata ya kak. doain laku 2 sisanya, sisa 22 tinggal seminggu kumpulin wkwk" },
+      { authorId: 68, minutesAgo: 1760, content: "lewat 1 ribu dari target itu bukan kurang kak, itu bonus 😄 besok jangan lupa cerita kerudungnya warna apa" },
     ],
   },
   {
