@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+# ============================================================================
+# dev.sh — ORKESTRATOR SISTEM BATCH AKIOMIDA
+#
+# Target   : 1000 cuitan (thread) di feed Akiomida.
+# Ritme    : nambah 25 cuitan per batch, SATU batch per sesi kerja — biar
+#            nyaman, gak overload, dan kualitas tiap cuitan tetap ditanganin.
+#
+# SISTEM LANJUT OTOMATIS:
+#   Tiap kali satu batch (25 cuitan) selesai dan lolos ./dev.sh check,
+#   asisten menjadwalkan cron one_time (± 5 menit kemudian) yang membuat
+#   sesi berikutnya memulai batch berikutnya secara mandiri. Chat yang
+#   aktif minta lanjut — user gak perlu mengejar. Untuk berhenti: bilang "stop".
+#
+# PROTOKOL SATU BATCH (WAJIB, urut):
+#   0. ./dev.sh status            -> lihat posisi & data batch berikutnya
+#   1. Baca scripts/sidik-jari.md -> riset sidik jari + buku besar topik
+#                                    (topik yang sudah kepake DILARANG diulang
+#                                    dengan bentuk sama; tiap cuitan wajib
+#                                    identitas sidik sendiri)
+#   2. Baca header ATURAN ISI di src/lib/threadz/data/threads-1.ts
+#   3. Tulis tangan 25 cuitan baru ke:
+#        src/lib/threadz/data/threads-<PART>.ts   (export THREADS_PART<PART>)
+#      - ids   : 100+(batch-1)*25+1 .. 100+batch*25
+#      - author: batch GANJIL -> authorId 1..25; batch GENAP -> authorId 26..50
+#                (urut sesuai id cuitan: cuitan pertama batch = author pertama)
+#      - menit : minutesAgo(id) = 25 + 30*(id-1)  (makin besar = makin lama)
+#      - komentar: kampung akun harus nyambung (peta di sidik-jari.md),
+#        register online, turun minutesAgo-nya, gak ada dobel/self-reply
+#   4. Daftarkan part baru di src/lib/threadz/threads.ts (import + spread)
+#   5. ./dev.sh check sampai BERSIH (audit + validasi + lint)
+#   6. Update BUKU BESAR TOPIK di scripts/sidik-jari.md (tabel per penulis)
+#   7. Cek dev.log + halaman render -> jadwalkan cron one_time batch berikutnya
+#      (payload menyebut dev.sh + protokol ini), lalu laporkan ke user.
+#
+# PERINTAH:
+#   ./dev.sh status    posisi campaign + detail batch berikutnya
+#   ./dev.sh check     audit isi + validasi + lint (harus bersih sebelum lanjut)
+#   ./dev.sh next      cetak spesifikasi teknis batch berikutnya saja
+#   ./dev.sh help      bantuan
+# ============================================================================
+set -euo pipefail
+cd "$(dirname "$0")"
+
+BASE=100
+TARGET=1000
+BSIZE=25
+
+hitung_post() {
+  grep -hE '^[[:space:]]+id:[[:space:]]*[0-9]+' src/lib/threadz/data/threads-*.ts | wc -l | tr -d ' '
+}
+
+spesifikasi_batch() {
+  local n=$1
+  local first=$(( BASE + (n - 1) * BSIZE + 1 ))
+  local last=$(( BASE + n * BSIZE ))
+  local part=$(( n + 4 ))
+  if (( n % 2 == 1 )); then
+    local authors="1-25"
+  else
+    local authors="26-50"
+  fi
+  local menit_awal=$(( 25 + 30 * (first - 1) ))
+  echo "  batch        : $n"
+  echo "  id cuitan    : $first .. $last"
+  echo "  authorId     : $authors (urut mengikuti id)"
+  echo "  minutesAgo   : $menit_awal, naik +30 tiap id"
+  echo "  file baru    : src/lib/threadz/data/threads-$part.ts (THREADS_PART$part)"
+  echo "  pendaftaran  : src/lib/threadz/threads.ts"
+  echo "  riset wajib  : scripts/sidik-jari.md + header threads-1.ts"
+}
+
+cmd_status() {
+  local posts; posts=$(hitung_post)
+  local batches_done=$(( (posts - BASE) / BSIZE ))
+  local next_batch=$(( batches_done + 1 ))
+  local sisa=$(( TARGET - posts ))
+  echo "=================================================================="
+  echo " AKIOMIDA — status campaign"
+  echo "=================================================================="
+  echo " cuitan       : $posts / $TARGET"
+  echo " sisa         : $sisa cuitan ( $(( (sisa + BSIZE - 1) / BSIZE )) batch lagi )"
+  echo " batch selesai: $batches_done"
+  echo " [$(printf '#%.0s' $(seq 1 $(( posts / 25 ))))$(printf -- '-%.0s' $(seq 1 $(( (TARGET - posts) / 25 ))))] (1 char = 25 cuitan)"
+  echo "------------------------------------------------------------------"
+  if (( posts >= TARGET )); then
+    echo " TARGET 1000 TERCAPAI. Sistem lanjut otomatis berhenti."
+    return 0
+  fi
+  echo " batch berikutnya:"
+  spesifikasi_batch "$next_batch"
+}
+
+cmd_next() {
+  local posts; posts=$(hitung_post)
+  local batches_done=$(( (posts - BASE) / BSIZE ))
+  spesifikasi_batch $(( batches_done + 1 ))
+}
+
+cmd_check() {
+  echo "== [1/3] audit isi (audit-full.ts) =="
+  bun scripts/audit-full.ts
+  echo
+  echo "== [2/3] validasi dataset (validate-threadz.ts) =="
+  bun scripts/validate-threadz.ts | tail -5
+  echo
+  echo "== [3/3] lint =="
+  bun run lint >/dev/null 2>&1 && echo " lint: bersih" || { echo " lint: ADA MASALAH"; bun run lint; exit 1; }
+  echo
+  echo "CHECK BERSIH ✔ — jangan lupa: update buku besar topik di"
+  echo "scripts/sidik-jari.md, cek dev.log, verifikasi halaman, lalu"
+  echo "jadwalkan cron one_time untuk batch berikutnya."
+}
+
+case "${1:-help}" in
+  status) cmd_status ;;
+  check)  cmd_check ;;
+  next)   cmd_next ;;
+  help|*) sed -n '2,45p' "$0" | sed 's/^# \{0,1\}//' ;;
+esac
