@@ -14,12 +14,14 @@
 #
 # PROTOKOL SATU BATCH (WAJIB, urut):
 #   0. ./dev.sh status            -> lihat posisi & data batch berikutnya
-#   1. Baca scripts/sidik-jari.md -> riset sidik jari + buku besar topik
+#   1. Baca scripts/rumus-v2.md   -> HUKUM TERTINGGI (rombak total + aturan
+#                                    ruh V2 dari Math.SE/Brainly/Gutefrage)
+#   2. Baca scripts/sidik-jari.md -> riset sidik jari + buku besar topik
 #                                    (topik yang sudah kepake DILARANG diulang
 #                                    dengan bentuk sama; tiap cuitan wajib
 #                                    identitas sidik sendiri)
-#   2. Baca header ATURAN ISI di src/lib/threadz/data/threads-1.ts
-#   3. Tulis tangan 25 cuitan baru ke:
+#   3. Baca header ATURAN ISI V2 di src/lib/threadz/data/threads-1.ts
+#   4. Tulis tangan 25 cuitan baru ke:
 #        src/lib/threadz/data/threads-<PART>.ts   (export THREADS_PART<PART>)
 #      - ids   : 100+(batch-1)*25+1 .. 100+batch*25
 #      - author: batch GANJIL -> authorId 1..25; batch GENAP -> authorId 26..50
@@ -27,10 +29,10 @@
 #      - menit : minutesAgo(id) = 25 + 30*(id-1)  (makin besar = makin lama)
 #      - komentar: kampung akun harus nyambung (peta di sidik-jari.md),
 #        register online, turun minutesAgo-nya, gak ada dobel/self-reply
-#   4. Daftarkan part baru di src/lib/threadz/threads.ts (import + spread)
-#   5. ./dev.sh check sampai BERSIH (audit + validasi + lint)
-#   6. Update BUKU BESAR TOPIK di scripts/sidik-jari.md (tabel per penulis)
-#   7. Cek dev.log + halaman render -> jadwalkan cron one_time batch berikutnya
+#   5. Daftarkan part baru di src/lib/threadz/threads.ts (import + spread)
+#   6. ./dev.sh check sampai BERSIH (audit + validasi + lint)
+#   7. Update BUKU BESAR TOPIK di scripts/rumus-v2.md + sidik-jari.md (tabel per penulis)
+#   8. Cek dev.log + halaman render -> jadwalkan cron one_time batch berikutnya
 #      (payload menyebut dev.sh + protokol ini), lalu laporkan ke user.
 #
 # PERINTAH:

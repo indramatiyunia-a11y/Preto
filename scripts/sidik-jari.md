@@ -1,10 +1,28 @@
 # SIDIK JARI WARGA AKIOMIDA — REGISTRI & BUKU BESAR TOPIK
 
 Dokumen riset buat sistem batch menuju **1000 cuitan** (nambah **25 per batch**).
-Aturan induk: `src/lib/threadz/data/threads-1.ts` (header ATURAN ISI).
+Aturan induk: **`scripts/rumus-v2.md` (HUKUM TERTINGGI sejak rombak total)** +
+header ATURAN ISI V2 di `src/lib/threadz/data/threads-1.ts`.
 Protokol teknis: `dev.sh` di root proyek.
 
 ---
+
+## ⚠️ FASE AKTIF: ROMBAK TOTAL V2 (WAJIB DIBACA DULU)
+
+User memutuskan: **semua cuitan lama dirombak total** karena 1000 penilai
+menyebutnya rekayasa/bot. Urutan rombak, status, model per penulis, dan buku
+besar topik yang berlaku ada di **`scripts/rumus-v2.md`**. Selama fase ini:
+
+- Jangan tambah batch baru; ganti isi file lama SATU file per sesi
+  (urutan: threads-2 → 3 → 4 → 5 → 6 → 7 → 8), slot id/authorId/minutesAgo TETAP.
+- Selama rombak, `./dev.sh status` akan tetap menampilkan "batch berikutnya"
+  — ABAIKAN, ikuti urutan rombak di rumus-v2.md.
+- Tabel batch lama di bawah (BATCH 2-4) dan buku besar lama berstatus
+  **ARSIP**: kontennya sedang/akan diganti, topik lama boleh dipakai ulang
+  asal bentuknya baru. Sumber kebenaran topik = Buku Besar V2 di rumus-v2.md.
+
+---
+
 
 ## PRINSIP SIDIK JARI (dari user, WAJIB)
 
