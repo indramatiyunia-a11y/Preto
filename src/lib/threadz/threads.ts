@@ -4,6 +4,7 @@ import { THREADS_PART2 } from "./data/threads-2"
 import { THREADS_PART3 } from "./data/threads-3"
 import { THREADS_PART4 } from "./data/threads-4"
 import { THREADS_PART5 } from "./data/threads-5"
+import { THREADS_PART6 } from "./data/threads-6"
 
 // ===========================================================================
 // FORMAT DITULIS TANGAN.
@@ -39,6 +40,7 @@ export const THREADS: ThreadzThread[] = [
   ...THREADS_PART3,
   ...THREADS_PART4,
   ...THREADS_PART5,
+  ...THREADS_PART6,
 ].map((t) => ({ ...t, content: rapi(t.content) }))
 
 export function getThread(id: number): ThreadzThread | undefined {

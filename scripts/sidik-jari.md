@@ -21,6 +21,17 @@ Protokol teknis: `dev.sh` di root proyek.
    kutipan), topik lagu/ultah, brand, domain pinjaman, "gue check …".
 5. **Rasio topik:** ± 3/4 obrolan matematika yang BERAGAM sudutnya, ± 1/4 hidup
    biasa. Subtopik matematika gak boleh diulang dua kali dalam satu batch.
+6. **ATURAN USER (WAJIB sejak batch 2):**
+   - NARASI CONDONG PELAJAR: perbanyak keluh kesah & aktivitas pelajar
+     (ulangan, PR, telat, tabungan siswa, magang, remedial) dibanding
+     aktivitas sehari-hari biasa. Aspek matematika tetap inti tiap cerita.
+   - REALITAS KERAS: gak ada kalimat rakitan yang kerasa fake/botter. Pakai
+     angka kecil, detail kusam, ending gak sempurna. Kalau kedengeran kayak
+     iklan atau naskah, buang dan tulis ulang.
+   - SATU KARAKTER SATU MODEL: satu penulis GAK BOLEH punya dua cuitan
+     dengan bentuk/model sama. Sebelum nulis, cek MODEL PER PENULIS di bawah;
+     cuitan baru wajib pake bentuk yang belum dia pake (timeline jam, blok
+     tanpa jeda, baris pendek, laporan GUYS, fragmen, tanya-jawab, dst).
 
 ## KAMPUNG KOMENTAR (peta akun 51–350)
 
@@ -95,6 +106,36 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 | 49 | 9 kepala cerewet | bocah takut gunting | — |
 | 50 | mie kuah tak dikenal | mie kornet nambah nasi | — |
 
+## BATCH 2 (cuitan 126-150, penulis 26-50) — topik & model
+
+| Penulis | Topik batch 2 (baru) | Model baru (beda dari post 1-2) |
+| ------- | -------------------- | ------------------------------- |
+| 26 | murid SMP kekurangan 500, kas 41,5 ribu | timeline jam (jam 6.20 → 7.05) |
+| 27 | buku paket 480 dibagi rata 6 kelas | satu blok tanpa jeda, tutup pertanyaan |
+| 28 | barisan deret kursi, total 390 | baris pendek, KAPITAL pecah |
+| 29 | rasio gigi sprocket 14:34 → 17:34 | kalimat terpotong + itungan inline |
+| 30 | hafal rumus tapi gagal pilih rumus | daftar hafalan → balik arah |
+| 31 | murid salah itung kepala 1.000 | mulai dari nomor struk |
+| 32 | konversi ikat-kilo (1 kilo = 4 ikat) | buka dari "yang aneh teh" |
+| 33 | resep sup porsi 1,5x, garam gak ikut dikali | kabar tamu → dua aturan takaran |
+| 34 | angka romawi jam gedung IIII vs IV | mulai dari fakta gedung + logbook |
+| 35 | 5 dibagi 0 kenapa dilarang | mulai dari soal ulangan, mikir melolo |
+| 36 | itungan waktu ujian 100 soal / 120 menit | tiga blok angka murni → kesimpulan |
+| 37 | les tetangga: SMA ngajar SD di teras | observasi jeda waktu (dua minggu) |
+| 38 | telat 4 menit, misi berangkat 6.40 | itungan jam nyata + misi |
+| 39 | pangkat nol = satu (tangga dibagi 2) | tanya-jawab anak tetangga |
+| 40 | jarak tanam cabe 300 cm / 30 cm = 10 lubang | mulai dari cucu pulang sekolah |
+| 41 | volumetrik paket boneka (dibagi 6.000) | fragmen angka + filosofi singkat |
+| 42 | aturan jam belajar kos pas musim ujian | pengumuman papan + protes anak |
+| 43 | target 1.200 vs 900, anak magang SMK | dialog magang + papan target |
+| 44 | kalori label per sajian, 1.400 kkal | baca label → keputusan absurd jujur |
+| 45 | PR cucu 3/4 dari 60, cara pensil | mulai dari soal cucu, ending pajangan |
+| 46 | input nilai 3 kelas = 744 kotak | itungan entri + satu angka nyawa |
+| 47 | tabungan pertama siswa, kotak sepatu 25 ribu | satu nasabah dari awal sampai kartu |
+| 48 | ngerjain PR di perpustakaan pas listrik mati | kalimat utuh, ending hening |
+| 49 | murid SMA cukur jambang sebelum ulangan | laporan kepala + tarip dua aras |
+| 50 | masak rame 4 orang: rasio air-mie & kerupuk | laporan GUYS versi katering kos |
+
 ## STOK SUBTOPIK MATEMATIKA (pilih yg belum kepake untuk batch berikutnya)
 
 Sudah terpakai (jangan ulang bentuknya): perkalian tabel, KPK bus, KPK jadwal
@@ -104,7 +145,12 @@ ojol, BBM per km, konsumsi stamina game, pajak per hari, gaji per jam, luas
 keramik + cadangan, diagonal TV (Pythagoras), kecepatan rata-rata, massa
 jenis, desimal 0,9 vs 0,15, trik distribusi 47×6, takaran nasi, takaran sus,
 celengan target, kaleng nabung, kolom tagihan (belum), utang tidur, struk
-kategori, frekuensi per jam, grosir vs eceran, porsi mengecil, harga musim.
+kategori, frekuensi per jam, grosir vs eceran, porsi mengecil, harga musim,
+barisan & deret aritmetika, rasio gigi sprocket, volumetrik paket, kalori
+label per sajian, pangkat nol, konversi liter-ml porsi 1,5x, angka romawi,
+jarak tanam (densitas lubang), bobot soal & waktu ujian, konversi ikat-kilo,
+pecahan dari angka (3/4 dari 60), perkalian entri (744 kotak), itungan telat
+(durasi jam), tabungan receh siswa, rasio air-mie porsi rame.
 
 Belum kepake (kandidat batch 6+): FPB bagi kelompok/kado-bingkisan rata,
 persen kupon member vs harga jual, skala denah/peta, luas lingkaran (nasi
