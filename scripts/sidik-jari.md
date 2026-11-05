@@ -101,31 +101,31 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 | 23 | kulkas mati-nyala | eksperimen kulkas 2.40 | download 3,6 Gbps vs realita |
 | 24 | nenek kalah perkalian 7 | nenek kirim "iya" HP | hitung mundur 8 hari cucu pulang |
 | 25 | rencana gajian kena paku | dana paku → kolom temen | gaji magang per jam |
-| 26 | angkot + ayam gratis | ibu sayur tikungan | — (batch 6) |
-| 27 | dus 42 masuk 38 keluar | masuk 51 keluar 47 | — |
-| 28 | trigonometri 74 | kecepatan rata2 0,13 | — |
-| 29 | ukur kendoran rantai, batas 20 mm (revisi casus goreng) | sprocket balik | — |
-| 30 | les jam 4, soal uang | kartu ulangan 78 | — |
-| 31 | kembalian 2.500 | tanggal tua struk 104 | — |
-| 32 | sayur langganan pisang | getuk barter | — |
-| 33 | takaran nasi 4:5 | beras diskon syarat | — |
-| 34 | ronde 6 menit ×12 | logbook kucing 03.10 | — |
-| 35 | lampu merah 90 detik | es teh coklat | — |
-| 36 | 270 halaman patologi | kuis selesai, kompresi | — |
-| 37 | pot bunga tetangga | kucing pindah pagar | — |
-| 38 | pecahan kue 1/2 | celengan 17 ribu | — |
-| 39 | trik 47×6 | desimal 0,9 vs 0,15 | — |
-| 40 | tomat panen | sambal tomat | — |
-| 41 | paket "bang ojol biasa" | alamat simbol hati | — |
-| 42 | listrik kamar A/B/C | angka pintu mingguan | — |
-| 43 | lembur 32 ribu | mesin no. 4 95% | — |
-| 44 | nasi goreng asap | telur dadar lupa garem | — |
-| 45 | pepaya 9 ribu | jeruk laporan | — |
-| 46 | rapat seragam 40 menit | undangan 26 kelas | — |
-| 47 | pecahan 8×50 ribu | koin 4 tas 318 ribu | — |
-| 48 | buku resep & atlas | buku telat 6 hari | — |
-| 49 | 9 kepala cerewet | bocah takut gunting | — |
-| 50 | mie kuah tak dikenal | mie kornet nambah nasi | — |
+| 26 | angkot + ayam gratis | ibu sayur tikungan | pendapatan sore 18×3.000, kembalian 4.000, tarif dihitung ulang |
+| 27 | dus 42 masuk 38 keluar | masuk 51 keluar 47 | rak 4×6 = 24 dus, 31 dateng sisa 7 lantai |
+| 28 | trigonometri 74 | kecepatan rata2 0,13 | median kelas 74 vs nilai 71, anak ke-16/17 |
+| 29 | ukur kendoran rantai, batas 20 mm (revisi casus goreng) | sprocket balik | karton jadwal servis: 2.000 km ÷ 25 km/hari = 80 hari |
+| 30 | les jam 4, soal uang | kartu ulangan 78 | rata rapor 375 ÷ 5 = 75, "murah buat dinaikin" |
+| 31 | kembalian 2.500 | tanggal tua struk 104 | bundling 32 ribu vs satuan 36 ribu, selisih 4 ribu |
+| 32 | sayur langganan pisang | getuk barter | rata belanja langganan 4 minggu = 70 ribu |
+| 33 | takaran nasi 4:5 | beras diskon syarat | es teh 35/185 → 25/195 (± 1:8) hasil komplain |
+| 34 | ronde 6 menit ×12 | logbook kucing 03.10 | jeda adzan 85 menit ÷ putaran 10 = 8 sisa 5 |
+| 35 | lampu merah 90 detik | es teh coklat | bak bocor: 300 ÷ (15-3) = 25 menit, 75 L mubazir |
+| 36 | 270 halaman patologi | kuis selesai, kompresi | jaga 30 hari ÷ 4 = 7,5 → 8/8/7/7 + barter |
+| 37 | pot bunga tetangga | kucing pindah pagar | sepeda 3 pagi 11/13/12 → rata 12 vs jalan kaki 25 |
+| 38 | pecahan kue 1/2 | celengan 17 ribu | pola kalender les naik 7, rollover jadi tanggal 1 |
+| 39 | trik 47×6 | desimal 0,9 vs 0,15 | denah skala 1:100: 12×9 cm = 108 m2 |
+| 40 | tomat panen | sambal tomat | kangkung: benih 8 ribu → 14 ikat × 2 = 28, untung 20 |
+| 41 | paket "bang ojol biasa" | alamat simbol hati | ganjil-genap no. rumah 1-77: 39 vs 38 |
+| 42 | listrik kamar A/B/C | angka pintu mingguan | bon warung kos 1.240 ribu ÷ 7, kamar C 300 |
+| 43 | lembur 32 ribu | mesin no. 4 95% | mundur gajian 13 hari, mie 9×12 ribu |
+| 44 | nasi goreng asap | telur dadar lupa garem | micu 3 menit vs tidur 40, selisih 37 |
+| 45 | pepaya 9 ribu | jeruk laporan | gaji dulu 300 vs pensiun 1,9 juta = 6 ribu kali |
+| 46 | rapat seragam 40 menit | undangan 26 kelas | abensi 7A 92 / 7B 88 / 8A 81 (21/26), rata 87 |
+| 47 | pecahan 8×50 ribu | koin 4 tas 318 ribu | setoran 10 ribu × 24 hari, target 2 juta = 8 bulan lebi |
+| 48 | buku resep & atlas | buku telat 6 hari | tahun terbit 1987/94/2001/08 tiap 7 tahun |
+| 49 | 9 kepala cerewet | bocah takut gunting | kapasitas sabtu 14 kepala × 15 menit = 210 menit |
+| 50 | mie kuah tak dikenal | mie kornet nambah nasi | stok mie 43 ÷ 14 per hari = 3 hari sisa 1 |
 
 ## BATCH 2 (cuitan 126-150, penulis 26-50) — topik & model
 
@@ -187,6 +187,36 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 | 24 | minus 5 vs minus 2 dijelasin pake kulkas | PR cucu + analogi suhu, kulkas dapat gelar |
 | 25 | jam PKL 400 = 8x5x10, minus 4 plus lembur 1 | itungan syarat surat + 3 jam ngambang, tutup kering |
 
+## BATCH 4 (cuitan 176-200, penulis 26-50) — topik & model
+
+| Penulis | Topik batch 4 (baru) | Model baru (beda dari post 1-2) |
+| ------- | -------------------- | ------------------------------- |
+| 26 | pendapatan angkot sore 18×3.000, anak SMP ngeyel tarif | laporan sore baris turun + kas inline, tanpa dialog |
+| 27 | rak 4×6 = 24 dus, 31 dateng, sisa 7 di lantai | dua blok + closing papan tulis, tanpa pertanyaan |
+| 28 | median kelas 74 vs nilai 71 (32 anak, ke-16/17) | satu blok riuh + satu kutipan temen sebangku |
+| 29 | karton jadwal servis: 2.000 km ÷ 25 = 80 hari | karton baris pendek + om cek speedometer sendiri |
+| 30 | rata rapor 375 ÷ 5 = 75, "murah buat dinaikin" | kolom angka + dialog inline, tutup kering tenang |
+| 31 | bundling 32 vs satuan 36 ribu, om gudang protes | banding dua harga inline + struk closing |
+| 32 | rata belanja langganan 4 minggu = 70 ribu | buka dari buku catatan pasar, tutup "teh" refleksi |
+| 33 | es teh 35/185 → 25/195 hasil komplain abang | uji dua gelas A/B + aturan dinding dapur |
+| 34 | jeda adzan 85 menit ÷ putaran 10 = 8 sisa 5 | pembagian interval dua blok, kucing refleksi |
+| 35 | bak bocor: 300 ÷ (15-3) = 25 menit, 75 L mubazir | PR fisika + kertas sobekan tempel dinding |
+| 36 | jaga 30 ÷ 4 = 7,5 → 8/8/7/7 + barter geser | kalender barter, panik 🙃 dua hitungan |
+| 37 | sepeda 3 pagi 11/13/12 → rata 12 vs kaki 25 | pengamatan terukur tiga titik + kesimpulan tenang |
+| 38 | pola kalender les naik 7, rollover jadi 1 | kalender dinding + jari, bunda jelasin waktu bulat |
+| 39 | denah skala 1:100: 12×9 cm = 108 m2 | monolog denah tetangga, tutup "kurang lebih" |
+| 40 | kangkung: benih 8 ribu → 14 ikat × 2 = untung 20 | untung kecil + kucing jahil, huruf campur |
+| 41 | ganjil-genap no. rumah 1-77: 39 vs 38 | fragmen blok rumah + trail off "eh. lanjut anter" |
+| 42 | bon warung kos 1.240 ribu ÷ 7, kamar C 300 | laporan bon + lembar dinding dapur, tutup tegas |
+| 43 | mundur gajian 13 hari, mie ayam 9×12 ribu | dua blok kering mundur tanggal, closing ATM |
+| 44 | micu 3 menit vs tidur 40, selisih 37 | satu blok mengalir wkwk, genre masakan berubah |
+| 45 | gaji dulu 300 vs pensiun 1,9 juta = 6 ribu kali | PR cucu sejarah + satu kutipan, tutup tandatangan |
+| 46 | abensi 7A 92 / 7B 88 / 8A 81 (21/26), rata 87 | laporan rapat persen inline + protes kelas 😅 |
+| 47 | setoran 10 ribu × 24 hari, target 2 juta = 8 bulan | dialog jendela teller + kertas itungan pelan |
+| 48 | tahun terbit 1987/94/2001/08 tiap 7 tahun | pengamatan rak + umur buku, tutup hening |
+| 49 | sabtu 14 kepala × 15 menit = 210 menit mepet | laporan kapasitas + antrean kardus tempel cermin |
+| 50 | stok mie 43 ÷ 14 per hari = 3 hari sisa 1 | GUYS audit stok + skema kupon absurd |
+
 ## REVISI CASUS 29 (batch 4, poin ATURAN USER 6-7)
 
 Cuitan lama id 29 diganti saat batch 4 (komplain user: jauh dari aspek + bot).
@@ -221,22 +251,32 @@ efektif vs jam hadir (8:4 sekolah), gacha pity 60 dari 80, aljabar 3x = 15
 (x = kotak), modus frekuensi seri, venn ekskul total minus irisan, soal
 umur (4x dan 3x), aturan saku 10-3-2, siklus timer 25+5, bilangan negatif
 suhu kulkas, jam PKL 400 (8x5x10), luas maksimum pagar 20 m = persegi 25,
-bagi bersusun 848:4, remedial & nol itu genap, kupon undian bon seragam.
+bagi bersusun 848:4, remedial & nol itu genap, kupon undian bon seragam,
+pendapatan angkot per penumpang + tarif dihitung ulang, kapasitas rak &
+sisa lantai, median nilai kelas vs nilai sendiri, jadwal servis km dibagi
+rute harian, rata-rata rapor 5 nilai, diskon bundling vs satuan, rata
+belanja 4 minggu langganan, rasio takaran es teh 1:8, interval adzan dibagi
+putaran ronde, bak bocor isi-kuras (liter mubazir), pembagian shift bulanan
+(30÷4), waktu tempuh sepeda 3 pagi (rata), pola kalender naik 7 + rollover
+bulan, skala denah 1:100, untung-rugi kebun kecil (benih vs ikat),
+ganjil-genap nomor rumah satu sisi, bon warung dibagi rata, hitung mundur
+gajian (biaya mie per hari), durasi timer vs tidur (selisih menit),
+konversi uang dulu vs sekarang (kali lipat), persen kehadiran rapat sekolah,
+setoran tetap × hari kerja menuju target, pola tahun terbit perpustakaan,
+kapasitas per kepala × durasi (cukur), stok ÷ konsumsi per hari (mie kos).
 
-Belum kepake (kandidat batch 4+): deret
+Belum kepake (kandidat batch 5+): deret
 tabung 500/1000 naik tiap minggu,
-bunga tabungan (tanpa kata "bunga persen"), angka di kWh tagihan listrik, hitung mundur hari kerja menuju
-gajian, batas detik lampu lalu lintas, rasio gula–air es teh jualan, tarif
-angkot dihitung ulang, nisbah/skala 1:1000 kertas denah rumah, median nilai
-kelas vs nilai sendiri, persen abensi kelas per bulan, pecahan desimal di
-meteran kain, volume tabung tandon air, konversi rupiah ke rupiah lama
-(cerita kakek), jadwal sholat vs jam belajar (interval), luas & keliling
-lapangan futsal (skala meter), diskon bundling 2 barang vs satuan, persen
-guru kelas di rapor (rata 5 nilai), estimasi biaya seragam vs bulan pakai,
-hitung uang kas kelas (bulanan), pola kalender (tanggal yang sama tiap
-minggu), deret belanja mingguan (banding 4 minggu), waktu tempuh naik
-sepeda vs jalan kaki ke sekolah, persen remidi siswa per kelas, angka
-stambuk/nis mahasiswa, soal cerita tangki bocor (kecepatan isi-kuras).
+bunga tabungan (tanpa kata "bunga persen"), angka di kWh tagihan listrik,
+batas detik lampu lalu lintas, pecahan desimal di meteran kain, volume
+tabung tandon air, luas & keliling lapangan futsal (skala meter), estimasi
+biaya seragam vs bulan pakai, hitung uang kas kelas (bulanan), persen remidi
+siswa per kelas, angka stambuk/nis mahasiswa, kecepatan elevator vs tangga
+(lantai per menit), sisa kuota internet per hari, ukur tinggi pohon pakai
+bayangan (perbandingan segitiga), tarif parkir per jam vs paket, porsi nasi
+warung harga per 100 gram, lembar undangan dibagi rata per kelas, persen
+baterai vs jam pakai. CATATAN BATCH 5: penulis 1-25 (banyak pelajar) —
+prioritaskan kandidat sekolah: kas kelas, remidi, seragam, stambuk.
 
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
