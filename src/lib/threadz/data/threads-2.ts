@@ -1,111 +1,85 @@
 import type { ThreadzThread } from "../types"
 
-// PART 2: cuitan 26-50. Lanjutan sidik jari:
-//  26 : driver angkot, "nah/bro", itungan tarif penumpang, ayam ikut naik
-//  27 : gudang, resi & dus, sistematis, dua paragraf pendek
-//  28 : SMA pinter yang meledak, wkwkwk, trigonometri, satu blok panjang
-//  29 : SMK bengkel, "om", rantai-sprocket, kalimat terpotong
-//  30 : guru les privat, "si anak", tarif per jam, tenang
-//  31 : kasir kios, struk & kembalian, kalimat pendek turun baris
-//  32 : tukang sayur keliling, "teh/bu", ikat-kilo, hangat
-//  33 : ibu dapur besar, takaran gelas, "abang", cerita masak
-//  34 : satpam, ronde-jam-logbook, kering, tanpa emoji
-//  35 : SMP dreamy, lowercase, mikir aneh, pendek banget
-//  36 : co-as kedokteran, "km/banget", panik ujian, hitung halaman
-//  37 : pengamat tetangga, kalimat lengkap, tenang, observasi
-//  38 : anak kelas 5, "bunda", pecahan & celengan, typo imut
-//  39 : matematikawan santai, "kurang lebih", pecah angka, sopan
-//  40 : nenek kebun, huruf campur, tomat-sambal, kagum bukan pamer
-//  41 : kurir paket, fragmen, alamat aneh, hujan
-//  42 : ibu kos, angka listrik per kamar, tegas tapi sayang
-//  43 : pekerja pabrik, shift-lembur-mesin, capek, pendek
-//  44 : anak kos gagal masak, lowercase wkwk, nasi goreng rasa asap
-//  45 : pensiunan, "saya", kalimat lengkap, pasar & catatan kecil
-//  46 : ibu PNS sekolah, rapat-seragam, angka menit, 😅
-//  47 : teller, nasabah & pecahan uang, sabar
-//  48 : kakek perpustakaan, buku, kalimat utuh, hening
-//  49 : tukang cukur, "bos", hitung kepala, cermin
-//  50 : chef mie kos, "GUYS", eksperimen resep, laporan absurd
+// PART 2: cuitan 26-50 — ROMBAK TOTAL V3 (Nov 2026).
+// Rujukan hukum: scripts/rumus-v2.md (BAGIAN 2 FORMULA HITAM — DILARANG:
+// log uang presisi, pamer itungan, dua entitas simetris, kutipan mutiara,
+// birokrat pencatat, resolusi sempurna, genre kerja-duit, esai bermoral).
+// Post lahir dari pertanyaan, PR, kebingungan, momen manusia. Boleh menggantung.
 export const THREADS_PART2: ThreadzThread[] = [
   {
     id: 26,
     authorId: 26,
     minutesAgo: 775,
-    shares: 14,
+    shares: 18,
     content:
-      "itungan angkot pagi ini: 14 orang naik, tarif 3 ribu. kekumpul 42 ribu. ayam satu kandang ikut naik, gak bayar. gue catat dia jadi penumpang gratis resmi.\n\nnah ayamnya bunyi tiap lampu merah. penumpang ketawa, ayamnya makin semangat. 42 ribu plus hiburan gratis. bro.",
+      "nah yang begini nih yang bikin gue betah di rute sore. ada ibu lansia naik, minta gue jalan pelan-pelan, katanya punggungnya gak enak kalau kendaraan goyang. gue pelan terus gue tanya darimana, ternyata balik dari rumah sakit ngunjungin suaminya. dia cerita dikit soal dulu tiap Kamis pergi bareng ke pasar. sampe halte dia bilang makasih dua kali, bro.\npelan-pelan itu ternyata ngebantu dua-duanya: punggungnya, dan kepala gue yang tadi pagi masih ribut",
     comments: [
-      { authorId: 9, minutesAgo: 767, content: "penumpang gratis yang bunyi2 itu bang wkwk" },
-      { authorId: 121, minutesAgo: 758, content: "14 kali 3 ribu pas 42 bang, akurat wkwk" },
-      { authorId: 244, minutesAgo: 750, content: "ayam angkot mah hiburan umum bro wkwk" },
+      { authorId: 199, minutesAgo: 766, content: "kejadian begini gak masuk laporan apa-apa bro, tapi nempel lama di kepala" },
+      { authorId: 272, minutesAgo: 759, content: "menyetir pelan untuk orang lain itu bentuk perhatian yang jarang disebut, mas" },
     ],
   },
   {
     id: 27,
     authorId: 27,
     minutesAgo: 805,
-    shares: 26,
+    shares: 9,
     content:
-      "masuk 42 dus hari ini, keluar 38. sisa 4. yang kemasannya rusak 2, dicatat terpisah.\n\ntukang angkut minta istirahat 10 menit. kasih aja, dia angkat 20 dus sendirian dari pagi. resi 8841 sampai 8850, semua kelar jam 3.",
+      "dari 60 dus yang dateng tadi pagi, 3 kemasannya penyek di sudut. gue foto satu-satu, kirim ke vendor, sampai sekarang gak ada balasan. yang aneh bukan penyeknya, tapi status chat gue cuma dibaca doang. besok telepon langsung aja deh. chat emang bukan bahasa vendor, bahasa mereka itu suara telepon jam 9 pagi.",
     comments: [
-      { authorId: 41, minutesAgo: 797, content: "20 dus sendirian om berat itu" },
-      { authorId: 196, minutesAgo: 789, content: "yang rusak dicatat terpisah itu penting om" },
-      { authorId: 34, minutesAgo: 780, content: "resi rapi itu bikin tenang. catatan beres, kerja beres" },
+      { authorId: 192, minutesAgo: 796, content: "vendor yang bales chat doang biasanya nunggu dikejar om. telepon besok pagi, biasanya beres sebelum siang" },
+      { authorId: 240, minutesAgo: 788, content: "3 dari 60 masih kategori bagus om, penyek sudut itu lazimnya urusan bantalan kurang, bukan urusan orangnya" },
     ],
   },
   {
     id: 28,
     authorId: 28,
     minutesAgo: 835,
-    shares: 26,
+    shares: 33,
     content:
-      "ulangan trigonometri tadi. sin cos tan gue hafal semua, soal hitungan jalan. pas masuk soal gabungan segitiga sama lingkaran, gue diem 15 menit nulis sin terus hapus lagi. wkwkwk. nilai keluar 74. ulangan aljabar minggu lalu 89. KOK BISA ORANG JAGO ALJABAR TAPI KALAH SAMA SEGITIGA SENDIRI WKWK. besok koreksi bareng, gue mau tau melesetnya dimana",
+      "wkwkwk guys gue abis gagal misi paling dasar. temen gue nanya soal fungsi kuadrat, gue jelasin pakai tiga cara beda, kasih lima contoh, gambar grafik, malah dia makin bingung terus bilang 'lo jelasin kayak orang lomba'. GILS. padahal pas bu guru jelasin dia langsung nyambung, cuma pake satu contoh doang WKWKWK. jadi bener ya kata bu guru: yang pinter gak otomatis bisa ngejelasin.\nada tips gak biar gue gak jadi mesin halaman buku hidup",
     comments: [
-      { authorId: 133, minutesAgo: 828, content: "trigono tuh penjahat resmi bre, aljabar masih saudara wkwk" },
-      { authorId: 145, minutesAgo: 820, content: "aljabar 89 trigono 74 itu beda negara kak 😭" },
-      { authorId: 160, minutesAgo: 812, content: "koreksi bareng itu bijak kak, kalem" },
-      { authorId: 127, minutesAgo: 805, content: "segitiga gak salah apa2, gue yang gak ngerti wkwk" },
-      { authorId: 35, minutesAgo: 798, content: "sin cos hafal, soal gabungan langsung kabur wkwk" },
-      { authorId: 25, minutesAgo: 791, content: "di kerjaan juga bre, jago satu bidang gagal di bidang lain. normal" },
+      { authorId: 131, minutesAgo: 828, content: "tips paling gampang bre: tanya dulu dia mentok di bagian mana, jangan mulai dari nol" },
+      { authorId: 154, minutesAgo: 821, content: "wkwkwk 'mesin halaman buku hidup' gue curi ya bre, nanti gue pake ke kakak gue" },
+      { authorId: 223, minutesAgo: 814, content: "ini namanya curse of knowledge kak, orang yang udah paham lupa rasanya gak paham. makanya tanya 'bagian mana yang gak nyambung' dulu 🙃" },
+      { authorId: 313, minutesAgo: 806, content: "satu contoh + satu gambar itu menang dari lima contoh bre, kertasnya aja kecapean" },
     ],
   },
   {
     id: 29,
     authorId: 29,
     minutesAgo: 865,
-    shares: 30,
+    shares: 11,
     content:
-      "klien om hari ini tiga, semua komplain rantai. om gak mau tebak-tebakan, disuruh ukur kendorannya pakai penggaris. batas rantai kendor itu 20 mm, angka bengkel, bukan angka perasaan.\n\nmotor pertama 14 mm, lolos, tinggal dikencengin. motor kedua 22 mm, motor ketiga 25 mm, dua-duanya diganti.\ngue yang nulis di form servis. pas motor ketiga, angka 25 kutulis 22. om ngoreksi sambil nunjuk angkanya pakai ujung obeng, 'yang ditulis di form itu janji ke pelanggan.'\n\ndari tadi tiap angka gue baca dua kali sebelum ditandatangan. tangannya masih agak gemetar itu lho.",
+      "om, tanya soal jangka sorong dong. gue baca ukuran ulir baut buat tugas, skala utama nunjuk 21 mm, tapi garis nonius yang pas itu yang ke-13. temen gue bilang tinggal tulis 21,13, gue bilang harusnya 21,26 soalnya 13 dikali 0,02. om-om yang biasa pegang jangka sorong tolong mastiin, soalnya besok dinilai dan gue gak mau kalah cuma gara-gara baca skala",
     comments: [
-      { authorId: 185, minutesAgo: 857, content: "bengkel deket rumah gak pernah ngukur om, langsung 'katanya kendor' wkwk" },
-      { authorId: 49, minutesAgo: 849, content: "salah angka di form itu bikin diem seharian om, pernah ngalamin" },
-      { authorId: 251, minutesAgo: 841, content: "pelanggan lebih tenang liat ada angkanya, bukan asal katanya" },
+      { authorId: 186, minutesAgo: 856, content: "21,26 benar. nonius itu pengganti koma, bukan tambalan angka. yang ditulis temenmu itu ukuran gaya nomor rumah" },
+      { authorId: 30, minutesAgo: 849, content: "cara hafalnya: nomor garis yang berpapasan dikali ketelitiannya. 13 × 0,02 = 0,26. murid yang latihan rutin biasanya hafal papasannya" },
+      { authorId: 322, minutesAgo: 842, content: "pas dinilai nanti tunjukin garis papasannya ke gurumu, bukan cuma angkanya. nilai sering turun dari situ" },
     ],
   },
   {
     id: 30,
     authorId: 30,
     minutesAgo: 895,
-    shares: 7,
+    shares: 14,
     content:
-      "si anak yang les rabu jam 4 hari ini dateng jam 4.40, bawa wajah males. aku gak maksa, kita mulai dari soal yang dia suka: soal uang.\nternyata dia bisa itung kembalian 12 ribu dari 50 di kepala. cepet. aku tulis di catatan kemajuan: 'bisa itung uang, perlu soal kontekstual'.\ntarif per jam, tapi hari ini aku tambah 15 menit gratis. karena dia akhirnya senyum pas matematika.",
+      "si anak les malam ini nanya yang bikin gue diam lima detik: 'kenapa harus ngerjain cara panjang kalau di kalkulator langsung keluar?' Saya jawab biar paham jalan ceritanya. Dia balik nanya: kalau paham jalan ceritanya tapi lambat, itu untung buat apa?\nAnak kelas 7 ini kelas berat kali bahasa logikanya. Saya jawab biar kalau kalkulatornya lupa dibawa dia tetap hidup, dia ketawa, tetapi saya rasa dia belum puas. Saya juga belum puas dengan jawaban saya sendiri, sejujurnya.",
     comments: [
-      { authorId: 46, minutesAgo: 887, content: "itu yang diinget anaknya sampe gede kak 😊" },
-      { authorId: 84, minutesAgo: 878, content: "anakku juga gitu, jago kalo soalnya duit jajan 😄" },
-      { authorId: 267, minutesAgo: 869, content: "Matematika yang dekat dengan hidup anak itu yang paling nempel. Lanjutkan." },
+      { authorId: 262, minutesAgo: 887, content: "jawaban yang lebih jujur: cara panjang itu melatih nalar, kalkulator hanya mempercepat yang sudah dipahami. tapi mengatakannya ke anak kelas 7 memang butuh seni" },
+      { authorId: 44, minutesAgo: 879, content: "gue dulu anaknya dia bre. sekarang jadi anak kos yang tetep nyalain kalkulator buat itung 2+3 wkwkwk tapi paham kenapanya" },
     ],
   },
   {
     id: 31,
     authorId: 31,
     minutesAgo: 925,
-    shares: 5,
+    shares: 20,
     content:
-      "pelanggan bayar 17.500 pake 20 ribu.\nkembalian 2.500: satu 2000, satu 500.\ndia bilang 'satu 2000 doang gak apa'. aku tetep kasih 500 nya. dia senyum.\n\nstruk nomor 0093. hari ini 91 lembar, rata2 12 ribu. kaki semutan dari jam 2. besok tanggal tua, biasanya rame.",
+      "tadi siang ada pembeli jajan dua bungkus, gue salah kasih kembalian kelebihan 5.000. dia udah jalan 20 meter, balik lagi, naruh uangnya di meja sambil bilang 'kak, ini kelebihan tadi'. gue cuma bisa ngangguk karena geli dan malu campur.\nsekarang dia nambah satu orang yang gue hafal makanannya, karena orang begini gak mungkin gak balik lagi.",
     comments: [
-      { authorId: 14, minutesAgo: 917, content: "om yang 'gak apa' gitu biasanya paling inget budi" },
-      { authorId: 5, minutesAgo: 909, content: "yang ditolak recehnya jarang balik lagi dik. bener kasihnya" },
-      { authorId: 192, minutesAgo: 899, content: "91 lembar sehari ramai ya dik wkwk" },
+      { authorId: 178, minutesAgo: 917, content: "orang jujur receh pun biasanya jadi langganan lama. layanan gue dobel buat dia mulai besok" },
+      { authorId: 84, minutesAgo: 910, content: "semoga rezekinya mudah kak, hati yang jujur receh biasanya dijaga 🙏" },
+      { authorId: 240, minutesAgo: 902, content: "gue dulu kerja di toko, pembeli begini yang bikin shift kerasa ringan" },
     ],
   },
   {
@@ -114,169 +88,154 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 955,
     shares: 12,
     content:
-      "sayur hari ini: kangkung sisa 2 ikat, bayem habis, tomat tinggal 1 kilo. bu pelanggan langganan minta disisain daun bawang, kusisain.\n sore balik dia bawa pisang 2 sisir. gak kuminta, dia bawa sendiri.\n jualan sayur itu gak cuma sayur ya teh. besok kangkungnya kuborong dua kali biar bu itu gak kehabisan.",
+      "yang aneh teh, kangkung hari ini ikatnya mungil tapi harga tetap seribu. yang beli gak ada yang protes, malah ada yang bilang 'uda teh, sayur mengecil itu musiman'. teh ikut senyum, tapi di dalam hati pengen ikat kangkung gede lagi.",
     comments: [
-      { authorId: 86, minutesAgo: 947, content: "aku pelanggan kayak bu itu teh 😄" },
-      { authorId: 69, minutesAgo: 939, content: "yang balik bawa2 itu langka teh" },
-      { authorId: 101, minutesAgo: 930, content: "Semoga jualannya lancar ya teh 🙏" },
+      { authorId: 102, minutesAgo: 948, content: "pembeli yang ngerti teh itu berkah, sabar ya, musim gede pasti dateng lagi 🙏" },
     ],
   },
   {
     id: 33,
     authorId: 33,
     minutesAgo: 985,
-    shares: 21,
+    shares: 25,
     content:
-      "masak nasi tadi, abang minta lebih padat. takaranku biasa 4 gelas beras 5 gelas air. kutambah beras setengah gelas, airnya gak kutambah.\n\njadinya kurang air dikit. kuberi air panas sendok teh satu2 sambil diaduk. pas abang makan dia bilang, 'ini enak, kok beda?'\nbapak2 kalau nasi enak selalu nanya kok beda. yang repot dapurnya 😄 besok coba takaran 4 gelas 4,5 gelas.",
+      "tanya yang suka masak ya. resep sup ayam buat 4 porsi pakai 2 sdt garam, 4 siung bawang, 400 ml santan. besok tamu datang 5 orang, jadi aku naikkan jadi 5 porsi. bumbu-bumbunya aku kali 1,25: bawang jadi 5 siung, santan 500 ml. tetapi garam? kalau ikut dikali jadi 2,5 sdt, nanti keasinan gak ya?\nkata bunda garam itu 'ikut rasa', tetapi tamu datang sekali ini, aku tidak mau eksperimen di hari tamu.",
     comments: [
-      { authorId: 60, minutesAgo: 977, content: "gelas bekas di rak dapur tuh bukan gelas bu, itu alat ukur 😄" },
-      { authorId: 65, minutesAgo: 969, content: "suamiku juga bu wkwk, nasi enak selalu nanya kok beda" },
-      { authorId: 76, minutesAgo: 960, content: "semoga abang puas terus ya bu 🙏" },
-      { authorId: 93, minutesAgo: 950, content: "kalo mau padat bu, 4 gelas 4 gelas" },
+      { authorId: 59, minutesAgo: 977, content: "betul kata bunda kak, garam itu ikut rasa. tamu lebih enak dikasih hambar sedikit daripada keasinan 😄" },
+      { authorId: 219, minutesAgo: 970, content: "aturan praktisnya kak: bumbu kering naik penuh 1,25, garam naik dikit aja lalu dicicip. santan 500 ml sudah tepat" },
+      { authorId: 84, minutesAgo: 962, content: "semoga tamunya sehat kak, sup yang disiapkan hati biasanya pas rasanya 🙏" },
     ],
   },
   {
     id: 34,
     authorId: 34,
     minutesAgo: 1015,
-    shares: 12,
+    shares: 6,
     content:
-      "ronde malam 12. tiap ronde 6 menit kalau jalan santai, total 72 menit cuma buat muter.\nsisa waktu duduk, catat, denger kucing. jam 2 ada mobil masuk, nomor dicatat, sopir ngangguk.\ndi logbook kutulis 'aman'. dua kata itu hasil kerja semalem. besok ronde lagi.",
-    comments: [
-      { authorId: 27, minutesAgo: 1007, content: "'aman' dua kata itu hasil paling susah om" },
-      { authorId: 238, minutesAgo: 998, content: "kucing itu patroli gak digaji om wkwk" },
-      { authorId: 199, minutesAgo: 989, content: "72 menit muter, sisanya duduk. seimbang om" },
-    ],
+      "ronde jam 02.00. kucing pos ikut sampai gerbang belakang, duduk kayak penjaga shift kedua.\nlogbook: kucing ikut ronde. aman.",
+    comments: [],
   },
   {
     id: 35,
     authorId: 35,
     minutesAgo: 1045,
-    shares: 2,
+    shares: 27,
     content:
-      "gue mikir: kalo semua orang jalan pelan2, lampu merah mah gak berguna ya.\n\ntadi gue mikir itu pas nunggu lampu hijau 90 detik. 90 detik itu bisa buat apa ya. belum ketemu jawabannya. besok lanjut mikir.",
-    comments: [],
+      "serius nanya, ada yang pernah mikir gini gak: kalau SEMUA orang di dunia lompat bareng di waktu yang sama persis, bumi geser gak ya? gue tau kecil banget rasanya dibanding bumi, tapi semua orang, ditambah semua bangunan yang goyang dikit, ditambah burung yang ikut lompat? emang gak ada efeknya sama sekali ya.\ngue nanya ke guru fisika, dia ketawa terus bilang 'coba itung sendiri massanya'. gue gak tau massanya berapa, gue gak punya data berapa banyak manusia yang bisa lompat serentak. kalau ada yang mau itung bareng, gue siap nyetok data wkwkwk",
+    comments: [
+      { authorId: 212, minutesAgo: 1037, content: "massa semua manusia di bumi itu sekitar 8×10^11 kg, bumi 6×10^24 kg. rasionya kira-kira 1 berbanding sepuluh triliun 🙃 efeknya gak bakal keluar dari alat ukur mana pun" },
+      { authorId: 336, minutesAgo: 1030, content: "yang bisa digerakkan semua manusia barengan malah gelombang di kolam renang, kalau semua lompat ke kolam yang sama wkwk" },
+      { authorId: 131, minutesAgo: 1022, content: "tapi kalau SEMUA orang lari ke satu sisi terus berhenti barengan, getarannya mungkin kebaca seismograf. itu yang pernah gue baca" },
+      { authorId: 39, minutesAgo: 1014, content: "kurang lebih seperti semut memukul gajah dengan seluruh tubuhnya. menariknya justru di keserentakan itu, yang mustahil terkoordinasi. jadi eksperimennya gagal di tahap persiapan wkwk" },
+    ],
   },
   {
     id: 36,
     authorId: 36,
     minutesAgo: 1075,
-    shares: 17,
+    shares: 16,
     content:
-      "kuis patologi minggu depan, 9 bab. km tau gak tiap bab rata2 30 halaman. total 270. kalau 40 halaman sehari itu hampir 7 hari, tapi itu hari tanpa tidur.\nmanusia butuh tidur. jadi dihitung 27 halaman doang: fix 10 hari. waktu tinggal 6.\nmatematikanya gak mau bergaul sama harapan km 🙃",
+      "km, tanya dong cara hafal tulang tengkorak yang bener. total 22 tulang tapi dibagi cranium sama wajah, terus ada yang tunggal ada yang berpasangan, gue kebalik-balik terus. ujian minggu depan, halaman atlas udah gue warnain pakai stabilo dua warna tapi masih nyasar pas disuruh sebut urutan dari atas. km-km yang sudah lewat fase ini gimana caranya? banget butuh bantuan sebelum gue bermimpi ditabrak tulang parietal sendiri",
     comments: [
-      { authorId: 7, minutesAgo: 1067, content: "jangan dibagi rata km, bab yang berat kasih 2 hari 🙃" },
-      { authorId: 215, minutesAgo: 1059, content: "jangan sampai kuisnya sehat, manusianya sakit" },
-      { authorId: 217, minutesAgo: 1050, content: "270 halaman 🙃 semangat km" },
-      { authorId: 158, minutesAgo: 1041, content: "'matematikanya gak mau bergaul sama harapan' 😭 simpen quote" },
+      { authorId: 227, minutesAgo: 1067, content: "kelompokin dulu kak: cranium 8, wajah 14. yang tunggal di wajah cuma vomer sama mandibula, sisanya berpasangan. sisanya dari atlas aja kak biar gak gue kasih info salah 🙃" },
+      { authorId: 71, minutesAgo: 1059, content: "semangat kak, kakek saya mantan perawat, katanya hafalan anatomi paling lenceng itu yang disebut sambil jalan-jalan" },
+      { authorId: 327, minutesAgo: 1051, content: "mimpi ditabrak tulang parietal itu mimpi produktif kak, artinya otak lagi ngatur arsipnya sendiri wkwk" },
     ],
   },
   {
     id: 37,
     authorId: 37,
     minutesAgo: 1105,
-    shares: 7,
+    shares: 8,
     content:
-      "Rumah sebelah kemarin menaruh pot bunga di pagar. Hari ini nambah tiga. Seminggu lalu halamannya masih disemen.\n\nOrang di rumah itu sedang merapikan sesuatu. Saya tidak bertanya, hanya tersenyum setiap bertemu. Rumah yang mulai tertata biasanya berarti penghuninya mulai tenang.",
+      "Tetangga sebelah memasang lampu sorot warna kuning menghadap halaman mereka. Setiap malam menyala sekitar jam tujuh, lalu padam sendiri tepat jam sepuluh. Tidak ada yang mengaturnya, saya pernah memperhatikan sambil menutup jendela. Mungkin ada pematuh waktu, mungkin hanya kebiasaan mereka yang teratur. Menyenangkan menonton kehidupan orang lain yang punya ritme.",
     comments: [
-      { authorId: 293, minutesAgo: 1097, content: "Senyum tanpa bertanya itu cara paling sopan." },
-      { authorId: 77, minutesAgo: 1089, content: "semoga keluarga di sebelah selalu tenang ya 🙏" },
+      { authorId: 258, minutesAgo: 1098, content: "rumah yang punya ritme itu bikin tetangganya ikut tenang, pak. semoga lampunya panjang umur" },
     ],
   },
   {
     id: 38,
     authorId: 38,
     minutesAgo: 1135,
-    shares: 12,
+    shares: 22,
     content:
-      "pelajaran hari ini: pecahan. bunda beliin kue 1 potong. aku potong 2, kasih adik 1. bunda bilang itu namanya setengah.\nternyata pecahan itu enak ya, soalnya ada kuenya. besok mau beli lagi buat belajar perempat.",
+      "bunda, PR-ku minta nyari bentuk sudut di rumah. aku nemu: atap lancip, pintu kanan (bunda bilang namanya siku-siku), jam dinding pas jam tiga juga siku-siku, terus kipas berdiri sama lantai juga siku. cuma satu yang lancip doang, bunda. nanti di sekolah aku cerita, temen-temenku biasanya nyari siku doang. aku nambahin kipas. bunda bilang itu namanya observasi. aku gak tau observasi itu apa tapi kayaknya keren.",
     comments: [
-      { authorId: 69, minutesAgo: 1127, content: "adiknya untung kak, dapet kue sekaligus pelajaran 😄" },
-      { authorId: 24, minutesAgo: 1119, content: "ANAK PINTAR. POTONG 2 KASIH 1 KE ADEK. NENEK DOAIN KUENYA ENAK" },
-      { authorId: 92, minutesAgo: 1110, content: "belajar perempat potongnya 4 ya nak, yang kebagian makin banyak 🙏" },
-      { authorId: 28, minutesAgo: 1101, content: "wkwkwk matematika paling berguna sedunia. kue perempat menunggu" },
+      { authorId: 90, minutesAgo: 1128, content: "observasi itu melihat dengan niat biar ketemu, nak. kamu sudah melakukannya tadi 😄" },
+      { authorId: 66, minutesAgo: 1121, content: "kipas berdiri itu siku emang dik, gue pernah cek pakai sudut kardus, cocok semua" },
     ],
   },
   {
     id: 39,
     authorId: 39,
     minutesAgo: 1165,
-    shares: 15,
+    shares: 35,
     content:
-      "Orang sering tanya, kok bisa itung cepet. Jawabannya gak ada rahasia: jangan takut angka jelek.\n\n47 kali 6 itu susah. Tapi 50 kali 6 gampang: 300. Terus 300 dikurang 3 kali 6, 18. Jadi 282. Kurang lebih 282. Persis.",
+      "Hari ini ada anak tetangga bertanya cara cepat perkalian sebelas. Metode klasiknya: pisahkan angka, jumlahkan di tengah. Contoh: 23 × 11. Tulis 2 dan 3 sebagai pinggir, sisipkan 2+3 = 5 di tengah, hasilnya 253. Bila jumlahnya melebihi 9, sisanya dibawa seperti sisa pembagian: 45 × 11 → 4, (4+5) = 9, 5 → 495. Anak itu mencoba tujuh bilangan sendiri dan semuanya cocok, lalu bertanya kenapa bisa begitu. Pertanyaan yang bagus; jawabannya ada di perkalian bersusun biasa, tempat digit puluhan bertumpuk. Kurang lebih begitu cerita sore ini.",
     comments: [
-      { authorId: 221, minutesAgo: 1157, content: "gue pake ini buat itung ongkos bulanan wkwk" },
-      { authorId: 17, minutesAgo: 1149, content: "distribusi ya bro, di kampus dipake terus" },
-      { authorId: 214, minutesAgo: 1140, content: "besok ini jadi soal pembuka di les ya, makasih" },
+      { authorId: 118, minutesAgo: 1157, content: "tambahan bre: 87×11 → 8, (8+7)=15, 7 → tulis 7, bawa 1 ke kiri, jadi 957. bagian bawa sisa itu yang paling seru" },
+      { authorId: 217, minutesAgo: 1149, content: "trik ini sebenarnya distributif bre: 23×11 = 23×10 + 23×1 = 230+23 = 253. makanya tengahnya hasil jumlah dua digit 🙃" },
+      { authorId: 268, minutesAgo: 1141, content: "anak yang bertanya kenapa itu calon penyuka aljabar. jawab dengan perkalian bersusun, bukan dengan 'memang begitu'" },
+      { authorId: 313, minutesAgo: 1134, content: "gue baru tau trik ini umur 20-an, anak tetangga lu sekarang ngalahin gue wkwk" },
     ],
   },
   {
     id: 40,
     authorId: 40,
     minutesAgo: 1195,
-    shares: 21,
+    shares: 10,
     content:
-      "Tomat di kebun tahun ini banyak, ya. Kemarin dipetik 4 kilo, hari ini 3 kilo lagi. Dibagi tetangga 2 kilo, sisanya dibikin sambal.\nAnakku bilang jangan tanam banyak-banyak, capek. Tapi lihat tomat merah gitu aja nggak bikin capek. Bikin kagum.",
+      "benih tomat yang kutanam dua belas, tumbuh sembilan. tiga tidak muncul, entah karena hujan minggu lalu atau karena tanah di ujung kebun terlalu padat. yang tumbuh daunnya rimbun, membuang waktu sembilan hari menunggu tiga yang tidak datang. tetapi kebun itu memang tempat menunggu dengan sopan.",
     comments: [
-      { authorId: 107, minutesAgo: 1187, content: "Tomat kebun sendiri rasanya lain ya bu" },
-      { authorId: 32, minutesAgo: 1179, content: "dibagi tetangga 2 kilo itu besar bu" },
-      { authorId: 97, minutesAgo: 1170, content: "kagum bukan capek. tomatnya makin deris ya bu 🙏" },
+      { authorId: 84, minutesAgo: 1188, content: "sembilan dari dua belas itu bagus mbak, yang gak tumbuh kadang cuma butuh tempat lain. doa kami ikut 🙏" },
     ],
   },
   {
     id: 41,
     authorId: 41,
     minutesAgo: 1225,
-    shares: 26,
+    shares: 17,
     content:
-      "paket hari ini 63. alamat lengkap 55. harus ditelepon dulu 8.\n\nsatu paket nama penerimanya cuma tulis 'bang ojol biasa anter sini'. yang penting sampai kata paketnya. ketemu, bener orangnya, tinggal di gang.",
+      "alamat hari ini: rumah warna biru, deket pohon nangka, pagar kayu. gue sampai di gang, ternyata ada TIGA rumah biru, dua di antaranya pagar kayu, dan dua-duanya deket pohon nangka. pohon nangka di gang itu kayak rumah kedua bagi semua orang. gue telepon penerima, gak diangkat. sekarang gue duduk di depan rumah biru tengah yang pagar paling rapi, nunggu keajaiban atau telpon balik.",
     comments: [
-      { authorId: 191, minutesAgo: 1217, content: "'bang ojol biasa anter sini' wkwk" },
-      { authorId: 235, minutesAgo: 1209, content: "63 paket ramai bang, gue 40 aja kaki gerah" },
-      { authorId: 188, minutesAgo: 1200, content: "alamat lengkap 55 dari 63 udah bagus bang" },
+      { authorId: 144, minutesAgo: 1217, content: "alamat begini itu ujian mental bre. gue pernah dapet 'rumah belakang masjid', masjidnya dua wkwkwk" },
+      { authorId: 187, minutesAgo: 1209, content: "tunggu di depan yang pagar paling rapi itu keputusan tepat mas, biasanya pemiliknya memang yang teliti" },
     ],
   },
   {
     id: 42,
     authorId: 42,
     minutesAgo: 1255,
-    shares: 12,
+    shares: 15,
     content:
-      "listrik anak kos naik 3 kamar kemarin. kupanggil satu2: kamar A setrika tiap malam, kamar B kulkas mini, kamar C... dia punya pemanas air sendiri.\n\nkubilang dik, air hangat ada di kamar mandi. dia bilang 'ibu, airnya gak terima'. akhirnya kupasang angka pemakaian di pintu per kamar. bukan marah.",
+      "Anak kamar C tadi sore bilang lampu kamarnya mati dan dia mau beli lampu sendiri lalu pasang sendiri, biar tidak merepotkan, katanya. Saya senang membaca niatnya, tetapi kursi plastik tempat dia biasa berdiri itu goyang, dan tangganya belum tentu sampai langit-langit kamar kos. Akhirnya saya setuju dengan satu syarat: pakai kursi yang stabil, dan saya yang memegang kursinya.\nKadang yang saya jaga bukan lampunya, tetapi cara anak-anak ini merasa bisa mengurus hidupnya sendiri.",
     comments: [
-      { authorId: 21, minutesAgo: 1247, content: "lebih tenang liat angka daripada ditegur nggak jelas ib" },
-      { authorId: 210, minutesAgo: 1239, content: "'airnya gak terima' wkwk bakat anak kos itu" },
-      { authorId: 214, minutesAgo: 1230, content: "pemanas air di kamar tuh ngeri ib 😅" },
-      { authorId: 109, minutesAgo: 1221, content: "Ibu kos yang tegas tapi adil itu dicari ib." },
-      { authorId: 310, minutesAgo: 1213, content: "anak kamar C itu mungkin nyuci tiap hari ib wkwk" },
+      { authorId: 71, minutesAgo: 1247, content: "ibu kos seperti ini langka bu. mengizinkan sambil menjaga itu bentuk sayang yang halus 🙏" },
+      { authorId: 258, minutesAgo: 1239, content: "kalimat terakhir itu ringkasan yang dalam bu. anak-anak hanya butuh ruang, bukan larangan" },
+      { authorId: 205, minutesAgo: 1231, content: "saya dulu anak kos juga bu. yang disetujui dengan syarat biasanya jadi kenangan lebih lama daripada yang dilarang" },
     ],
   },
   {
     id: 43,
     authorId: 43,
     minutesAgo: 1285,
-    shares: 5,
+    shares: 4,
     content:
-      "shift 2 hari ini. masuk jam 2 siang, keluar jam 10 malem. lembur 2 jam, tambahan 32 ribu.\n\nmesin nomor 4 suaranya beda. kulapor jam 5, kudiamin sampai jam 6, sambil kerja pelan dengerin mesin. target hari ini gak tercapai, kecuali satu: mesinnya gak meledak.",
+      "Mesin berhenti 20 menit, sabuk penggerak lepas. Semua menunggu teknisi. Saya mencuci botol minum yang tiga hari tersimpan di loker.\nSaat mesin menyala lagi, botol saya paling bersih di seluruh lini.",
     comments: [
-      { authorId: 246, minutesAgo: 1277, content: "mesin yang suaranya beda tuh minta dilirik om" },
-      { authorId: 192, minutesAgo: 1269, content: "mesinnya selamat itu yang paling mahal om" },
+      { authorId: 240, minutesAgo: 1277, content: "botol bersih itu bonus lembur versi orang dewasa mas" },
     ],
   },
   {
     id: 44,
     authorId: 44,
     minutesAgo: 1315,
-    shares: 30,
+    shares: 28,
     content:
-      "masak nasi goreng pertama kali di kos. hasil: nasi goreng rasa asap. asapnya bukan dari kompor, dari kejadian.\n\ngue salah tuang minyak, kena api sebentar. tetangga kamar nawarin nasi dari rumah makan, gue terima. dadar kemarin lupa garem, hari ini minyak yang salah. besok coba lagi, doain minyaknya nurut wkwk",
+      "hari ini gue gagal lagi wkwk. telur dadar gosong di tepi tapi masih cair di tengah. gue pikir api sedang itu artinya 'api yang sedang murka', ternyata artinya api setengah jalan antara kecil sama besar. temen kos bilang tunggunya harus kecil biar bagian dalam mateng bareng bagian luar. kok rumit sih jadi telur aja. besok coba lagi, kalau gagal lagi gue angkat tangan dan makan roti seumur kos",
     comments: [
-      { authorId: 50, minutesAgo: 1307, content: "gue lebih parah: mie kuah tak dikenal 😭" },
-      { authorId: 139, minutesAgo: 1300, content: "KENA API SEBENTAR ITU BIASA. YANG PENTING DAPAR GAK PECAH WKWKWK" },
-      { authorId: 128, minutesAgo: 1292, content: "tuang minyaknya pas kompor udah nyala bre" },
-      { authorId: 229, minutesAgo: 1284, content: "tetangga kamar yang nawarin makan itu wajib dijaga bre" },
-      { authorId: 146, minutesAgo: 1276, content: "gue kemarin masak mie airnya kebuang smua wkwk" },
-      { authorId: 10, minutesAgo: 1268, content: "ASAP BUKAN GAGAL BRE. ITU PEMBAKARAN WKWK" },
+      { authorId: 127, minutesAgo: 1307, content: "api sedang bre itu posisi kenop di tengah, bukan tingkat kemarahan wkwkwk. tunggan kecil + minyak cukup, telurnya bakal mateng rata" },
+      { authorId: 318, minutesAgo: 1299, content: "roti itu jalan ninja terakhir bre, tapi jangan nyerah, telur dadar itu bab paling pendek di buku masak" },
     ],
   },
   {
@@ -285,75 +244,73 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1345,
     shares: 7,
     content:
-      "Pagi ini saya kembali ke kantor lama mengurus surat pensiun. Ruangannya sama, kursinya beda. Ada yang menyapa, ada yang tidak, tidak apa-apa.\n\nDi jalan pulang mampir pasar, membeli pepaya satu buah, 9 ribu. Dulu yang membeli pepaya adalah istri saya. Sekarang saya, dengan catatan kecil di dompet: pepaya, 9 ribu, untuk kesehatan.",
+      "Jalan pagi hari ini tiga puluh menit, seperti biasa. Di tikungan ketiga ada kucing yang sama, duduk di batu yang sama, seolah menunggu. Saya membawa sisa ikan dari kemarin, ia menerimanya tanpa banyak gerak. Orang-orang berlalu, kami berdua sejenak. Itu saja, tidak ada yang luar biasa, dan justru itu enaknya.",
     comments: [
-      { authorId: 96, minutesAgo: 1337, content: "Semoga sehat selalu, Bapak 🙏" },
-      { authorId: 11, minutesAgo: 1329, content: "catatan 'untuk kesehatan' itu lebih berharga dari struk" },
-      { authorId: 274, minutesAgo: 1320, content: "Pensiunan yang tetap tertib itu contoh, Bapak." },
+      { authorId: 272, minutesAgo: 1337, content: "rutinitas yang damai itu kemewahan yang jarang disebut, pak. kucingnya sudah hafal jamnya" },
     ],
   },
   {
     id: 46,
     authorId: 46,
     minutesAgo: 1375,
-    shares: 12,
+    shares: 19,
     content:
-      "rapat komite sore tadi 2 jam 40 menit. agenda utama: seragam. hasil: seragam tetap, ditambah satu pasang olahraga per anak dari dana komite, pengukuran Sabtu pagi.\n\nyang paling lama debat: warna celana. 40 menit 😅 anak2 gak tau seragam mereka dibahas 40 menit. besok kutulis undangan pengukuran, 26 kelas, satu2.",
+      "Hari ini formulir undangan rapat wali murid siap dicetak. Setelah 6 lembar keluar, baru saya lihat nama sekolah salah satu hurufnya: Sekolah Dasar tertulis Sekolag Dasar. Mesin cetak tidak bisa diajak kompromi, seluruh 40 lembar harus diulang 😅\nRekan kerja bilang hal begini sudah ada sejak zaman karbon manual. Tidak ada yang berubah kecuali kelajuan salahnya.",
     comments: [
-      { authorId: 61, minutesAgo: 1367, content: "satu pasang olahraga per anak itu enak kak 🙏" },
-      { authorId: 73, minutesAgo: 1358, content: "kak, anaknya bawa sepatu olahraga juga gak?" },
-      { authorId: 89, minutesAgo: 1349, content: "26 kelas satu2 itu capek ya kak" },
+      { authorId: 192, minutesAgo: 1367, content: "huruf yang salah selalu lompat ke mata setelah lembar ke-enam. hukum alam birokrasi" },
+      { authorId: 71, minutesAgo: 1359, content: "semangat bu, yang penting ketahuan sebelum disebarkan 😅" },
     ],
   },
   {
     id: 47,
     authorId: 47,
     minutesAgo: 1405,
-    shares: 5,
+    shares: 21,
     content:
-      "nasabah terakhir hari ini jam 3.50. mau tarik 400 ribu buat bayar kontrakan, minta pecahan: 8 lembar 50.\nduitnya ada, tapi lembar 50 tinggal 6. kuberi 6 lembar 50 plus 1 lembar 100. dia bilang gak apa.\nkadang orang gak butuh uang. cuma butuh pecahan yang pas buat dibagikan.",
+      "Nasabah lanjut usia hari ini kesulitan mengisi formulir buka rekening. Tangannya gemetar, matanya mencari kolom yang kecil-kecil. Saya tuliskan datanya dengan tulisan tangan sambil membacakan satu per satu, ia mengangguk di setiap baris. Setelah selesai, ia berkata terima kasih sudah sabar, anaknya tinggal di kota.\nSebentar saja sebenarnya, tetapi rasanya seperti membantu seseorang menyeberang.",
     comments: [
-      { authorId: 16, minutesAgo: 1397, content: "yang minta pecahan pas itu biasanya buat dibagikan ya non. kasusnya bervariasi" },
+      { authorId: 84, minutesAgo: 1397, content: "terima kasih atas kebaikannya kak, semoga rezekinya lancar 🙏" },
+      { authorId: 262, minutesAgo: 1389, content: "membacakan satu per satu itu hal kecil yang terasa besar bagi yang menerimanya" },
+      { authorId: 283, minutesAgo: 1381, content: "anak di kota kalau tahu pasti senang. pelayanan begini yang bikin orang tenang ke bank" },
     ],
   },
   {
     id: 48,
     authorId: 48,
     minutesAgo: 1435,
-    shares: 21,
+    shares: 5,
     content:
-      "Perpustakaan hari ini dipinjam 11 buku. Yang paling banyak dibaca di tempat: buku resep. Yang paling lama di tangan: atlas.\n\nSeorang anak duduk di rak sejarah, membaca sambil berdiri, karena kursinya penuh. Saya tidak menyuruhnya pindah. Kursi akan datang dan pergi. Yang dibaca hari ini akan tinggal lebih lama.",
+      "Buku yang dikembalikan hari ini terlambat tiga hari. Peminjamnya anak SMP, datang dengan wajah bersalah, berbisik maaf kak. Saya hanya menurunkan denda yang sebenarnya sudah tidak ada isinya. Ia membawa buku itu dengan dua tangan, seperti membawa barang titipan yang dihargai.",
     comments: [
-      { authorId: 281, minutesAgo: 1427, content: "Rumah orang tidak punya dandang sebesar rak perpustakaan, Pak." },
-      { authorId: 45, minutesAgo: 1418, content: "Dulu saya juga lebih suka atlas, Pak." },
+      { authorId: 213, minutesAgo: 1427, content: "buku yang ditanggung dua tangan itu tanda anaknya masih punya rasa, pak" },
     ],
   },
   {
     id: 49,
     authorId: 49,
     minutesAgo: 1465,
-    shares: 5,
+    shares: 13,
     content:
-      "kepala tadi 12. rapi 9, cerewet 3.\nyang cerewet minta tipis dikit, pas liat cermin kaget kok jadi pendek. bos, tipis sama pendek itu dua hal beda.\ncermin gak pernah bohong. kita yang disuruh jago duluan.",
+      "Bocah SMP datang membawa gambar dari poster, minta rambutnya dibuat seperti di gambar. Gaya itu butuh rambut setebal dua arah potongan, dan rambut bocah ini tipis di bagian depan. Saya jujur bilang nanti miripnya setengah. Dia bilang tidak apa-apa, yang penting potongannya sama. Setelah selesai dia menatap cermin lama, lalu bilang udah mirip kok bang, yang penting rasanya.\nWaktu muda saya juga pernah minta potongan orang di poster. Memang rasanya yang penting.",
     comments: [
-      { authorId: 194, minutesAgo: 1457, content: "minta tipis kaget pendek itu paket komplit om wkwk" },
-      { authorId: 19, minutesAgo: 1449, content: "di kios juga gitu bos wkwk" },
-      { authorId: 232, minutesAgo: 1440, content: "cermin itu alat bukti paling jujur om wkwk" },
+      { authorId: 149, minutesAgo: 1457, content: "'yang penting rasanya' itu kalimat paling jujur di dunia pangkas bre. gue ikut ingat potongan masa SMP gue wkwk" },
+      { authorId: 186, minutesAgo: 1449, content: "pelanggan yang tahu dirinya itu pelanggan yang gampang dilayani bos" },
+      { authorId: 322, minutesAgo: 1441, content: "cermin pangkas itu kejujuran paling jujur bre, gak ada filter wkwk" },
     ],
   },
   {
     id: 50,
     authorId: 50,
     minutesAgo: 1495,
-    shares: 26,
+    shares: 47,
     content:
-      "GUYS eksperimen mie malam ini: mie, telur, sisa ayam kemarin, kecap. rencananya seimbang.\nkenyataannya: mie gak mateng semua, tengahnya kerass. kutambah air, jadilah mie kuah ayam kecap tak dikenal.\ntemen kamar makan 2 porsi. resep tak dikenal itu LAKU. besok gue ulang, kali ini mateng dulu baru diaduk. catat.",
+      "GUYS. LAPORAN DARI DAPUR LANTAI DUA.\nHARI INI ADA PELANGGAN MINTA MIE PEDAS LEVEL 7. GUE BIKIN PAKAI STANDAR LEVEL 7 GUE SENDIRI, SOALNYA GUE JUGA YANG KEBAGIAN NYECOPIKNYA. DIA MAKAN SAMPAI HABIS. TANPA MINUM. KEMUDIAN DIA BILANG 'ENAK BANG, BESOK LEVEL 8'. GUYS. LEVEL 8 NYA APA. GUE BELUM MENEMUKAN JAWABANNYA. GUE HANYA BISA MENATAP BOTOL SAMBAL. KAMI DUA-DUANYA MENGALAMI SESUATU MALAM INI.",
     comments: [
-      { authorId: 44, minutesAgo: 1487, content: "gue dadar aja lupa garem wkwk" },
-      { authorId: 140, minutesAgo: 1480, content: "NAMA RESERNYA WKWKWK. TEMEN KAMAR LU PENASARAN JURAGAN" },
-      { authorId: 126, minutesAgo: 1472, content: "kemarin aku kebalik, hasilnya kerass semua bre 😭" },
-      { authorId: 150, minutesAgo: 1464, content: "penilaian paling jujur emang temen kamar bre" },
-      { authorId: 147, minutesAgo: 1455, content: "besok kabarin kalah menang nya bre wkwk" },
+      { authorId: 144, minutesAgo: 1486, content: "GUYS GUE BACA SAMPAI MUKA GUE MERAH. LEVEL 8 WAJIB ADA BRE, JANGAN MENGHIANATI LEGENDA DAPUR" },
+      { authorId: 154, minutesAgo: 1478, content: "bre dia gak minum itu tanda penghormatan tertinggi, lu udah masuk mitos wkwkwk" },
+      { authorId: 313, minutesAgo: 1470, content: "pelanggan begini harus dibuatkan kartu anggota bre, level 8 bukan menu, itu ujian hidup" },
+      { authorId: 240, minutesAgo: 1462, content: "semangat chef, sambal yang menemukan lawan sepadan itu jarang sekali" },
+      { authorId: 44, minutesAgo: 1454, content: "bre besok gue yang anter sambal level 8, gue juga pengen ikut mengalami" },
     ],
   },
 ]

@@ -1,55 +1,23 @@
 import type { ThreadzThread } from "../types"
 
-// PART 1: cuitan 1-25 (paling baru di feed) — ROMBAK TOTAL V2 (Nov 2026).
-// Cuitan lama dihapus semua atas keputusan user: terasa rekayasa/bot.
+// PART 1: cuitan 1-25 (paling baru di feed) — ROMBAK TOTAL V3 (Nov 2026).
+// Rombak V2 dinyatakan gagal: cuma ganti bungkus, dunia post-nya masih buku
+// kas. V3 mengganti dunianya: post lahir dari pertanyaan, PR, kebingungan,
+// dan momen manusia. Rujukan lengkap: scripts/rumus-v2.md (FORMULA HITAM).
 //
-// ATURAN ISI V2 (hukum tertinggi, rujukan lengkap: scripts/rumus-v2.md):
-//  1. ≥60% post = PERTANYAAN SUNGGUHAN atau fragmen mentah — bukan anekdot
-//     bermoral. Pelajaran dari Math.SE / Brainly / Gutefrage: post = soal +
-//     usaha + titik mentok. Jangan meniru isinya, ambil ruhnya.
-//  2. Panjang WAJIB menyebar (ada yang di bawah 130 char, ada yang 500+).
-//     PUNCHLINE DILARANG. Ending sah: nanya, nyangkut, berhenti mendadak,
-//     doa, terima kasih.
-//  3. Matematika yang disebut HARUS benar. Kalau post sengaja salah
-//     (miskonsepsi siswa asli), wajib ada komentar yang mengoreksi dengan
-//     hitungan benar.
-//  4. Komentar: ±40% benar-benar MENJAWAB/MENGOREKSI/hint dengan angka.
-//     Sisanya reaksi spesifik ke isi. DILARANG tepuk tangan kosong
-//     bertubi-tubi ("semangat kak" berkali-kali).
-//  5. Jumlah komentar menyebar 0-6, gak boleh satu jumlah menguasai batch.
-//     Post pendek boleh 0-1 komen — itu hidup.
-//  6. DILARANG: punchline, dialog 2 kutipan (maks 1 pasangan), daftar
-//     bernomor, lagu/ultah, brand, pinjaman/KPR, "gue check", pengulangan
-//     mantra "X, X, X", ending reflektif formula, cerita mencari nafkah
-//     di luar sekolah/matematika (kasus "rantai kendor" — DILARANG TERULANG).
-//  7. Post boleh menggantung tanpa jawaban. Dunia gak bersih itu manusia.
-//
-// Sidik jari penulis (kosakata & kebiasaan doang — bentuk bebas):
-//  1 : ibu muda. "Alhamdulillah/papanya/ya udah deh", anak-anak, 😭 jarang
-//  2 : anak kos laki, LEDAKAN KAPITAL + ekor lowercase, tanpa titik
-//  3 : ibu guru matematika SD, "saya/Ananda", baku tapi hidup
-//  4 : bapak kantoran pendiam, 2-4 kalimat kering, jam persis, tanpa emoji
-//  5 : anak warung, buku tulis, kolom kas, hangat
-//  6 : bego pede, lowercase mengalir tanpa tanda baca, itungan salah yakin
-//  7 : mahasiswi, "fix/yaudah/guys", skripsi & statistik, 🙃
-//  8 : RS shift malam, "gue", jam-jam presisi, kalimat satu baris
-//  9 : ojol muda, "bang/lu", jarak-tarif, baris pendek
-// 10 : SMA riuh, KAPITAL + wkwk bercampur, satu blok, tanpa titik
-// 11 : akuntan kecil, "aku", rapi sopan, catatan-kolom
-// 12 : perawat shift, kalimat pendek turun baris, kering
-// 13 : SMP jamet, lowercase total, tanpa tanda baca, typo (gk,bgt,smpe), wkwk
-// 14 : tukang parkir, "om", fragmen pendek, koin
-// 15 : ibu pasar, "teh", lho/ya/deh, hangat, satu blok
-// 16 : karyawati leasing, "aku", rapi lelah, angka angsuran
-// 17 : mahasiswa teknik, "bro", konversi satuan, satu blok
-// 18 : pedagang buah, "om", musim-harga, baris pendek
-// 19 : kios pulsa, "bos", terang, tegas soal jelas-jelasnya uang
-// 20 : ojol senior, penumpang, tenang, paragraf pendek
-// 21 : anak kos cewek hemat, "deh/dah", ribuan, kaleng nabung
-// 22 : ibu sus galau, "anakku", doa singkat 🙏
-// 23 : begadang techy, kering minimal, kulkas & jam
-// 24 : nenek, SEMUA KAPITAL + typo (PURA2, NGGAJAR), cucu
-// 25 : anak magang, "abes/tp", itungan gaji, lelah tapi jalan terus
+// ATURAN ISI V3 (ringkas — hukum lengkap di scripts/rumus-v2.md):
+//  1. ≥60% post = pertanyaan sungguhan / PR / momen manusia mentah.
+//  2. Panjang menyebar (ada <130 char, ada 500+). PUNCHLINE DILARANG.
+//     Ending sah: nanya, nyangkut, doa, berhenti mendadak.
+//  3. Matematika HARUS benar; miskonsepsi siswa boleh asal ada komentar
+//     yang mengoreksi dengan hitungan benar.
+//  4. Komentar: ±40% benar-benar menjawab/mengoreksi. Sisanya reaksi
+//     spesifik. Dilarang tepuk tangan kosong bertubi-tubi.
+//  5. Jumlah komentar menyebar 0-6, mode gak boleh >30% post.
+//  6. DILARANG (FORMULA HITAM): log uang presisi, pamer itungan, dua
+//     entitas simetris, kutipan mutiara, birokrat pencatat, resolusi
+//     sempurna, genre kerja-duit, esai mini bermoral.
+//  7. Post boleh menggantung. Dunia gak bersih itu manusia.
 export const THREADS_PART1: ThreadzThread[] = [
   {
     id: 1,
@@ -57,13 +25,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 25,
     shares: 12,
     content:
-      "Alhamdulillah ada yang mau nanya di sini. Anak yang pertama pulang sekolah bilang nilainya tambah satu soal matematika, soalnya 47 + 28. Dia jawab 65, jawaban guru 75. Dia gak terima, bilang cara dia bener karena di rumah papanya juga begitu caranya. Aku coba pake kalkulator HP: 75. Sekarang dua berdua masih ngambek, satu karena dikoreksi, satu karena kalah sama kalkulator 😭\n\nYang aku mau tanya: cara jelasin bawa sisa 1-an itu gimana ya biar gak sampai nangis?",
+      "Alhamdulillah hari ini papanya yang nganterin sekolah, jadi aku kebagian denger obrolan pulangnya. Anak pertama nanya di mobil: 'Bu, 10 dikurang setengah kok hasilnya 9,5? Bukannya harus 9?' Aku jawab setengah itu 0,5, dia makin bingung. Setengahnya dari apa, Bu? Katanya. Sekarang tiap malam dia nanya hal kecil kayak gini terus, aku mulai kehabisan stok jawaban 😭\n\nAda yang punya cara jelasin desimal ke anak kelas 3 SD biar gak tambah bingung?",
     comments: [
-      { authorId: 71, minutesAgo: 22, content: "75 kak. 7 tambah 8 itu 15, satuannya ditulis, 1-nya disimpen ke puluhan. anaknya lupa bawa 1 😄" },
-      { authorId: 111, minutesAgo: 19, content: "47+28 bisa diakalin kak: 47 + 30 = 77, kurangin 2 balik = 75" },
-      { authorId: 88, minutesAgo: 15, content: "anakku juga gitu dulu, tambahannya bener tapi yang disimpen selalu kelupaan. ngaruh banget latihan 10 soal sehari" },
-      { authorId: 102, minutesAgo: 11, content: "jangan diomelin kak, itu fase bawa sisa. kalo dicoret pelan2 langsung nyambung 🙏" },
-      { authorId: 60, minutesAgo: 8, content: "papanya diajak ngambek anaknya 😄 semangat ya kak" },
+      { authorId: 74, minutesAgo: 21, content: "itu tahap bagus bu, anak mulai penasaran angka kecil. ajakin pakai koin: setengah dari 1.000 itu 500, tunjuk fisiknya dulu" },
+      { authorId: 59, minutesAgo: 18, content: "anakku juga gitu, akhirnya paham pas diajak ukur air setengah gelas di dapur 🙏" },
+      { authorId: 268, minutesAgo: 14, content: "gambar garis dari 0 sampai 1 bu, tunjuk titik tengahnya. 0,5 itu alamatnya, bukan sisa" },
+      { authorId: 88, minutesAgo: 10, content: "gak usah takut gak bisa jawab bu. bilang aja 'besok kita cari tahu bareng', anak jadi ikut mencari" },
     ],
   },
   {
@@ -72,12 +39,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 55,
     shares: 30,
     content:
-      "PR MATEMATIKA 20 SOAL DIKUMPUL JAM 7 PAGI. SEKARANG JAM 12 MALEM GUE BARU SELESAI NOMOR 3. SOALNYA 2X + 5 = 17, GUE JAWAB X = 6. TAPI DI BUKU ADA CATATAN KECIL 'CEK KEMBALI JAWABANMU'. GUE CEK EMPAT KALI HASILNYA TETEP 6. MEMANGNYA SALAH. KALO BENER KENAPA DISURUH CEK KALO SALAH KENAPA GAK DIBILANGIN LANGSUNG. tolong siapa pun yang masih melek, 17 soal lagi nunggu",
+      "PR KALKULUS BAGIAN INTEGRAL GUE STUCK DI SOAL PALING PERTAMA. INTEGRAL DARI 2X ITU KATANYA X² + C. KENAPA ADA +C. GUE TANYA TEMEN SEKOS, DIA JAWAB 'YA KAN KONSTANTA'. KONSTANTA APANYA BRE. KALAU DITURUNIN BALIK, X² + C MEMANG JADI 2X. TAPI KALAU C-NYA DIGANTI 7 JUGA BENAR. DIGANTI -3 JUGA BENAR. JADI JAWABANNYA ADA BANYAK?! ITU NAMA-NYA JAWABAN ATAU PELANGI.\nyang masih melek tolong jelasin kenapa wajib ditulis +C, soalnya dosen gue ngurangin nilai kalau lupa nulis itu. 17 soal lagi nunggu dan gue baru nembus soal nomor satu",
     comments: [
-      { authorId: 44, minutesAgo: 50, content: "lu bener bre. 2 kali 6 itu 12, tambah 5 = 17. bukunya yang ngegas wkwk" },
-      { authorId: 118, minutesAgo: 47, content: "x = 6 bener. 2x = 12, x = 6. jangan ragu, lanjut soal 4" },
-      { authorId: 137, minutesAgo: 43, content: "wkwkwk gue pernah gini, jawabannya bener malah dihapus dan diulang 2 jam" },
-      { authorId: 152, minutesAgo: 38, content: "17 soal jam 12 malem bre. tidur jam 2, bangun jam 5, lebih waras dari begadang penuh" },
+      { authorId: 212, minutesAgo: 51, content: "inti integral itu nanya 'fungsi apa yang kalau diturunin jadi 2x'. x² bisa, x²+7 juga bisa, x²-3 juga bisa. +C itu nampung semua kemungkinannya 🙃" },
+      { authorId: 44, minutesAgo: 47, content: "lu bener bre, jawabannya emang banyak. +C itu tas yang muat semua x² plus konstantanya" },
+      { authorId: 227, minutesAgo: 43, content: "dosen gue nyebutnya keluarga fungsi bre. x²+C itu satu keluarga, angkanya cuma beda urutan lahir" },
     ],
   },
   {
@@ -86,11 +52,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 85,
     shares: 21,
     content:
-      "Saya mau tanya cara menjelaskan perkalian bersusun. Ananda di kelas 4 menulis 35 × 4 = 1220. Waktu saya tanya langkahnya, dia menunjuk tulisannya: 3 × 4 = 12, 5 × 4 = 20, ditulis berdampingan jadi 1220. Logikanya jalan, tapi nilai tempatnya belum nyambung. Saya coba gambar kotak, dia malah makin bingung sendiri.\n\nAda yang pernah menghadapi kasus serupa? Cara paling cepat nyambung untuk Ananda seperti ini apa ya?",
+      "Saya butuh bantuan cara menjelaskan perkalian bilangan negatif. Murid kelas 5 saya bertanya: kalau dikurangi itu artinya turun, kenapa hasil dari (−2) × (−3) justru naik menjadi 6? Logika anak itu kuat, dan saya tidak mau menjawab 'memang begitu aturannya'. Saya sudah mencoba dengan garis bilangan, ia bertahan dengan pertanyaannya.\n\nAnanda itu cerdas. Ada yang bisa memberi saya analogi yang jujur untuk anak SD? Terima kasih banyak sebelumnya.",
     comments: [
-      { authorId: 90, minutesAgo: 79, content: "itu hitungan per angka tanpa nilai tempat bu. 35 itu 30 + 5, jadi 30×4 = 120, 5×4 = 20, jumlahnya 140" },
-      { authorId: 66, minutesAgo: 73, content: "pakai uang main biasanya cepet nyambung bu. 3 keping sepuluh sama 1 keping lima, dikali empat, jumlahin lagi" },
-      { authorId: 77, minutesAgo: 68, content: "saya punya murid persis begini bu. minta dia sebut 35 sebagai tiga puluh lima, bukan tiga-lima. biasanya setelah itu ketemu 🙏" },
+      { authorId: 277, minutesAgo: 79, content: "pakai arah waktu bu. suhu turun 2 derajat setiap jam. tiga jam yang lalu, udara lebih hangat 6 derajat dari sekarang. mundur ke belakang dari yang turun = jadinya naik" },
+      { authorId: 90, minutesAgo: 73, content: "analogi utang juga sering kepakai bu: dihapus tiga utang masing-masing 2, artinya hartanya nambah 6" },
+      { authorId: 66, minutesAgo: 68, content: "gue dulu gak percaya juga bu, sampai dihitung mundur pakai garis bilangan, lompatannya cocok semua" },
     ],
   },
   {
@@ -99,9 +65,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 115,
     shares: 3,
     content:
-      "Slip gaji masuk jam 10.31. Potongan bulan ini 341.600, bulan lalu 312.400. Selisih 29.200, tidak ada keterangan. HR bilang usahakan cek minggu depan. Angka itu duduk di kepala sampai sekarang.",
+      "Rapat evaluasi 90 menit. Empat poin agenda. Poin pertama selesai dalam 7 menit. Sisanya tempat arisan. AC bagus. Catatan saya dua baris.",
     comments: [
-      { authorId: 192, minutesAgo: 107, content: "selisih potongan selisih ratusan ribu itu biasanya ada koreksi premi atau iuran yang telat diproses om. minta rincian slipnya, jangan cuma 'cek lagi'" },
+      { authorId: 192, minutesAgo: 104, content: "90 menit itu udah singkat om. kemarin di tempat kami tiga jam, hasilnya satu keputusan: rapat lanjutan" },
     ],
   },
   {
@@ -110,11 +76,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 145,
     shares: 45,
     content:
-      "stok gulaku 7 kilo. om langganan ambil 2,5 kilo tiap tiga hari. kuhitung: hari ke-3 sisa 4,5, hari ke-6 sisa 2, hari ke-9 butuh 2,5 cuma ada 2, kurang setengah kilo. padahal rasanya lebih cepet abis dari itungan. itunganku yang salah, atau yang nyedot yang lebih banyak?\n\nbesok pagi kiriman dateng, semoga cukup buat nutup setengah kilo itu.",
+      "ada pelanggan nanya: 1 gelas beras itu berapa gram sih? dia mau nyoba resep dari internet yang ukurannya pakai gram, tapi di warung jualnya pakai gelas. aku jawab 'kira-kira kak' soalnya aku sendiri gak pernah itung. terus dia minta timbang di timbangan buah sebelah, katanya gelas kami itu 180 gram.\n\nsekarang aku penasaran: beda gelas beda gram ya? kalau resepnya minta 250 gram, harus ambil berapa gelas? balik sekolah mau aku timbang satu-satu semua gelas di warung, biar besok ada jawabannya",
     comments: [
-      { authorId: 59, minutesAgo: 138, content: "itungan lu bener dik. hari ke-6 sisa 2, pesenan ke-3 butuh 2,5, berarti hari ke-9 kurang setengah kilo" },
-      { authorId: 32, minutesAgo: 132, content: "catet aja hutang 0,5 kilo dik, langganan mah gak akan ke mana-mana" },
-      { authorId: 205, minutesAgo: 126, content: "gula itu rasanya memang abis duluan dari itungan dik wkwk" },
+      { authorId: 143, minutesAgo: 139, content: "beda kak, gelas di rumah gue 240 ml tapi beras lebih berat dari air. 250 gram itu sekitar 1,4 gelas ukuran warung lu" },
+      { authorId: 84, minutesAgo: 134, content: "semangat kak, setelah timbang sendiri sekali biasanya langsung hafal 🙏" },
     ],
   },
   {
@@ -123,12 +88,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 175,
     shares: 3,
     content:
-      "diskon 30 persen harga 50 rebu, gue itung bayarnya 20 rebu soalnya 50 kurang 30 ya 20. kasirnya ketawa, gue gak ketawa. sekarang gue diem2 naro itungan di sini, ada yang bisa mastiin gak, soalnya kasir tadi bilang 35 rebu. mana yang bener",
+      "gue gak percaya kalkulator lagi. itung 0,1 + 0,2 di ponsel, jawabannya 0,30000000000000004. gue itung ulang pakai kertas, tetap 0,3. gue nyalain kalkulator punya temen kos, hasilnya sama persis. berarti gue salah di dua tempat, atau mesinnya salah di dua tempat. tolong orang yang paham teknologi masuk sini. gue harus tahu dulu sebelum tidur, soalnya kalau mesin aja bisa bohong terus dunia ini gimana",
     comments: [
-      { authorId: 138, minutesAgo: 170, content: "bre. 30 persen dari 50 rebu itu 15 rebu. bayarnya 50 kurang 15 = 35. bukan 20 wkwk" },
-      { authorId: 161, minutesAgo: 165, content: "lu kurangin langsung angka persennya wkwkwk klasik banget" },
-      { authorId: 212, minutesAgo: 160, content: "aturannya: 30% × harga dulu, hasilnya baru dikurangin. 30% × 50.000 = 15.000, jadi bayar 35.000" },
-      { authorId: 143, minutesAgo: 154, content: "kalo ada yang jual 20 rebu tuh kabarin bre, gue ikut beli wkwk" },
+      { authorId: 219, minutesAgo: 170, content: "itu bukan mesin bohong bre, itu cara komputer nyimpen desimal yang namanya floating point. 0,1 dan 0,2 gak bisa ditulis persis dalam biner, jadi ada sisa super kecil" },
+      { authorId: 138, minutesAgo: 164, content: "wkwkwk klasik. coba 0,5 + 0,25, hasilnya bakal bersih soalnya setengah dan seperempat gampang ditulis biner" },
+      { authorId: 322, minutesAgo: 159, content: "tenang bre, sisa 0,00000000000000004 gak akan ngaruh ke dompet lu" },
+      { authorId: 149, minutesAgo: 152, content: "makhluk paling jujur di dunia itung-itungan itu masih kertas bre" },
     ],
   },
   {
@@ -137,11 +102,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 205,
     shares: 41,
     content:
-      "guys, hasil olah data: standar deviasi 0,8, skala likert 1-5. dosen nanya variance-nya berapa, gue diem. terus dia nanya 'lalu itu berarti datamu menyebar atau menumpuk', diem lagi. ya udah fix malam ini gue balik ke catatan statistik dasar semester 3. ada yang bisa kasih gambaran SD vs variance pake bahasa manusia? 🙃",
+      "guys, tolong yang paham file Excel. draft bab 4 gue ada di satu sheet, 96 baris data kuesioner yang udah gue rapikan semaleman. tadi sore laptop ngeheng, aku paksa matiin dari panik, dan pas dibuka lagi sheet-nya... kosong. sheet sebelah aman, cuma sheet draft yang hilang. dan aku belum pernah mengklik simpan dari awal 🙃\n\nada cara ngembaliin file yang belum pernah tersimpan? atau memang sudah tidak bisa? ya udah kalau sudah, gue terima nasib dan mulai ngetik ulang sambil nangis, datanya masih nempel di kepala kok, cuma tangan yang mau mogok 🙃",
     comments: [
-      { authorId: 212, minutesAgo: 198, content: "variance itu SD dipangkatkan dua kak. 0,8² = 0,64. jawab itu besok 🙃" },
-      { authorId: 217, minutesAgo: 192, content: "SD 0,8 di skala 1-5 artinya datanya cukup ngerumpun di rata-rata, wajar buat likert" },
-      { authorId: 213, minutesAgo: 185, content: "dosen gue juga tipe nanya balik ke definisi 🙃 semangat kak" },
+      { authorId: 217, minutesAgo: 197, content: "kalau belum pernah disimpan kak kemungkinannya tipis, tapi coba cek folder temp atau file sisa .tmp di folder kerja. semoga ada jejaknya 🙃" },
+      { authorId: 60, minutesAgo: 188, content: "semangat kak. kata temen kerja di kantor: ngetik ulang itu cepat, mikir ulang yang lama. dan mikirnya udah selesai kan" },
     ],
   },
   {
@@ -150,10 +114,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 235,
     shares: 23,
     content:
-      "pasien tanya: obat 8 jam sekali, sehari berapa? gue: 3. dia: kok bukan 3 setengah? jam 02.15 gue pura2 cek tetesnya.",
+      "pasien lansia minta jendela dibuka jam 04.10, katanya pengen dengar adzan sambil lihat langit masih gelap. gue buka.\ndia bilang rumahnya deket masjid, tapi yang suaranya ngepas di telinga tetangga sebelah rumah.",
     comments: [
-      { authorId: 248, minutesAgo: 228, content: "24 dibagi 8 emang 3 mbak. 3 setengah tuh 24 dibagi 7, pasiennya salah bagi wkwk" },
-      { authorId: 251, minutesAgo: 222, content: "jam 2 pagi memang jam pertanyaan-pertanyaan aneh ya mbak" },
+      { authorId: 258, minutesAgo: 229, content: "ada orang yang iramanya lebih menghentakan daripada tempatnya, mbak" },
     ],
   },
   {
@@ -162,10 +125,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 265,
     shares: 15,
     content:
-      "order balik 9 km, tarif 27 rebu. bensin tinggal dua jari. ambil gak ya. udah gue ambil ternyata. sekarang di jalan masih ragu.",
+      "ada bocah SMP naik sendirian, order dari rumah temennya, jarak 4 km. gue nanya udah sering gak, dia jawab 'aman bang' penuh percaya diri. pas turun dia bayar pakai uang kembalian yang digulung karet banget, bentuknya lucu. gue bilang hati-hati, dia lari masuk gang sambil ngelempar makasih bang.\nsekarang gue mikir, umur segitu dulu gue belum pernah naik ke mana-mana sendirian",
     comments: [
-      { authorId: 187, minutesAgo: 258, content: "27 ribu buat 9 km mah oke bang, bensin 2-3 ribu doang, sisanya masuk kantong" },
-      { authorId: 240, minutesAgo: 252, content: "yang penting cukup sampe rumah bang" },
+      { authorId: 137, minutesAgo: 258, content: "bre anak sekarang beda, adik gue kelas 4 udah punya jadwal anter sendiri, cuma gak pakai aplikasi" },
+      { authorId: 186, minutesAgo: 251, content: "asal bocahnya tenang kayak gitu aman bang. yang bikin cemas biasanya yang riuh di dalam mobil" },
     ],
   },
   {
@@ -174,13 +137,13 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 295,
     shares: 26,
     content:
-      "ULANGAN BARISAN DAN DERET BESOK PAGI DAN GUE BARU TAU KALAU BARISAN SAMA DERET ITU BEDA WKWKWK, KATA TEMEN GUE BARISAN ITU ANGKA BERJAJAR DOANG, DERET ITU DIJUMLAHIN, TERUS BU NYA BILANG SOALNYA CAMPUR DUA2NYA. GILS. ADA YANG MAU KASIH CONTOH SOAL SAMA CARANYA GAK BIAR GUE TIDUR NYENYAK, KALAU GAGAL LAGI INI remedial LAGI DAN MUKA IBU GUE UDAH DISENYAPKAN DARI SEMALEM",
+      "KUIS DADAK MATRIKS TADI DAN GUE BARU TAU KALAU DETERMINAN ITU BUKAN 'ANGKA DI KURUNG DITAMBAH SEMUA'. Matriksnya 3 5 / 2 4, gue jawab 14 karena 3+5+2+4 = 14. TEMEN GUE KETAWA SAMPE DIAMARIN BU. Katanya rumusnya ad minus bc, jadi 3×4 minus 5×2 = 2. GUE MIKIR, LHA KOK KALI-KALIAN, KAN MATRIKSNYA DITAMBAH. BU JELASIN PAKAI JAJARGENJANG 5 MENIT DAN GUE MASIH SEDANG MAKAN.\nADA YANG MAU JELASIN DARI NOL PAKAI BAHASA MANUSIA GAK, minggu depan ulangan dan gue gak mau diamarin dua kali wkwkwk",
     comments: [
-      { authorId: 127, minutesAgo: 287, content: "barisan: 2, 5, 8, 11 (selisih tetap 3). deret: 2+5+8+11 = 26. itu bedanya" },
-      { authorId: 131, minutesAgo: 281, content: "rumus suku ke-n: a + (n-1)b. contoh: suku ke-10 = 2 + 9×3 = 29" },
-      { authorId: 149, minutesAgo: 275, content: "buat jumlah n suku pertama: n/2 × (2a + (n-1)b). 4 suku = 2 × (4+9) = 26, cocok sama itungan atas" },
-      { authorId: 144, minutesAgo: 268, content: "ini bab paling waras di semester ini gils, lu pasti bisa wkwk" },
-      { authorId: 160, minutesAgo: 261, content: "kerjain 5 soal terus tidur, jangan baca doang wkwk" },
+      { authorId: 131, minutesAgo: 288, content: "determinan itu ukuran 'seberapa gede tempat yang dilipat' matriksnya bre, makanya pakai kali. 3×4 = 12, 5×2 = 10, selisihnya 2" },
+      { authorId: 118, minutesAgo: 283, content: "cek cepetnya: matriks 1 0 / 0 1 determinannya 1×1 − 0×0 = 1. kalau ditambah semua jadi 2, padahal jawaban benarnya 1" },
+      { authorId: 223, minutesAgo: 277, content: "gambar vektor (3,5) dan (2,4) di kertas kotak kak, luas jajargenjangnya bakal kelihatan sendiri kenapa harus dikali" },
+      { authorId: 154, minutesAgo: 271, content: "wkwkwk diamarin bu itu artinya kelas lu rame banget, istilahnya atmosfer kelas hidup bre" },
+      { authorId: 313, minutesAgo: 264, content: "14 itu kebetulan rapi bre, jawaban determinan aslinya biasanya janggal wkwk" },
     ],
   },
   {
@@ -189,10 +152,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 325,
     shares: 41,
     content:
-      "Selisih 3.500 di kolom kas hari ini. Sudah dicek tiga kali, tidak ketemu. Aturan kantor: kalau besok masih selisih, dicatat sebagai selisih kas dan ditandatangani saya. Sebelum sampai di situ, saya mau tanya: apakah ada cara yang biasa dipakai untuk menemukan selisih sekecil ini? Terima kasih sebelumnya.",
+      "Selasa lalu saya mengikuti kelas belajar daring untuk latihan angka. Soal latihannya: sebuah nilai naik 20 persen, lalu turun 20 persen. Saya yakin jawabannya kembali ke angka semula. Ternyata tidak: 100 naik 20 persen menjadi 120, kemudian turun 20 persen menjadi 96. Persen itu ternyata ditempelkan ke angka terbaru, bukan angka awal. Umur 34 tahun baru menyadarinya, agak malu tetapi lega.\n\nAda materi semacam ini yang sering keliru juga? Saya mau kumpulkan untuk latihan anak saya di rumah.",
     comments: [
-      { authorId: 262, minutesAgo: 317, content: "Kalau selisihnya kelipatan 9, biasanya ada angka yang tertukar posisi (56 jadi 65). 3.500 bukan kelipatan 9, jadi kemungkinan satu transaksi tidak tercatat atau tercatat dobel." },
-      { authorId: 268, minutesAgo: 310, content: "Coba cek struk dengan nominal 5.000-an. Selisih 3.500 sering dari situ, misalnya 5.000 tercatat 1.500." },
+      { authorId: 262, minutesAgo: 317, content: "klasik. kebalikannya juga sama: turun dulu 20% lalu naik 20% tetap 96. persen selalu hitung dari angka sekarang" },
+      { authorId: 205, minutesAgo: 310, content: "saya pernah terjebak yang begini saat melihat diskon toko. naik-turun dengan persen sama tidak pernah kembali ke asal" },
+      { authorId: 71, minutesAgo: 303, content: "contoh serupa yang sering keliru bu: harga naik 50% harus turun berapa persen biar balik? jawabannya sepertiga, bukan setengah" },
     ],
   },
   {
@@ -201,7 +165,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 355,
     shares: 5,
     content:
-      "jadwal obat pasien tiap 6 jam.\nshift gue: jam 7, 1, 7, 1.\nshift temen: jam 10, 4, 10, 4.\ndua-duanya 24 jam, empat dosis.\nrumah gue dua jam dari sini. tidur dulu.",
+      "shift malam hari kedua.\npasien kamar 5 dekak-dekak menyebut nama cucunya.\nkopi ketiga. koridor sepi.\nbesok libur. semoga.",
     comments: [],
   },
   {
@@ -210,12 +174,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 385,
     shares: 19,
     content:
-      "ada yang bisa bntu gk, pr gue gk jelas: keliling persegi panjang 36 cm, panjangnya 5 cm lebih dari lebar, lebar sama panjangnya brp. gue jawab lebar 6 panjang 11 tp gk yakin, di buku gk ada kunci jawabannya, chat bu guru gk dibales smpe skrg, wkwk yaudah gue tanya sini aja sblm tidur",
+      "guys tolong cek jawaban gue. soalnya: sebuah kubus volumenya 125 cm kubik, brp panjang rusuknya. gue jawab 25 cm soalnya 125 dibagi 5 kan 25?? terus temen gue bilang salah, harusnya 5, katanya harus cari angka yang dikali tiga kali. gue bingung, 5 itu kegedean gk sih buat kubus volume 125? tolong jgn asal bilang gue salah, nilai mat gue udah secandu itu wkwkwk, di buku gk ada pembahasannya smpe skrg",
     comments: [
-      { authorId: 143, minutesAgo: 377, content: "lebar 6,5 bre, panjang 11,5. 4x + 10 = 36, 4x = 26, x = 6,5" },
-      { authorId: 131, minutesAgo: 371, content: "jawaban lu 6 sama 11 kelilingnya 2(6+11) = 34 doang, kurang 2 dari 36" },
-      { authorId: 154, minutesAgo: 364, content: "yg penting dik: jawabannya gak harus bulat. 6,5 itu sah2 aja" },
-      { authorId: 118, minutesAgo: 356, content: "chat bu guru jgn jam 10 malem bre, bu juga butuh tidur wkwk" },
+      { authorId: 127, minutesAgo: 378, content: "volume = rusuk × rusuk × rusuk. 5×5×5 = 125 itu bener. lu bagi doang bre, 125÷5 = 25 tapi itu bukan cara nyari rusuk" },
+      { authorId: 138, minutesAgo: 371, content: "cek balik bre: 25×25×25 = 15.625. jelas kegedean wkwkwk" },
+      { authorId: 160, minutesAgo: 364, content: "kubus rusuk 5 cm itu ukurannya segede kotak pensil dik, gak gedean kok. bukan kulkas" },
+      { authorId: 331, minutesAgo: 357, content: "logikanya sama kayak volume balok dik: panjang×lebar×tinggi. kubus mah semua sisinya sama jadi sekali kali tiga angka yang sama" },
     ],
   },
   {
@@ -224,10 +188,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 415,
     shares: 7,
     content:
-      "om yang bayar 2.000 pake koin 500 itu hari ini gak dateng. biasanya jam 4 udah nongol, motor stangnya miring. kursi depan kosong. koin hari ini 26 keping, kemarin 34. kurang 8 keping. semoga dia cuma urusan.",
+      "om yang tiap hari parkir jam setengah tujuh, tiga hari ini gak muncul. motornya gak ada. pos jadi sepi, gue sampe sempet rapikan tumpukan koran yang selama ini jadi sandaran dia.\nsemoga baik-baik aja. kadang orang hilang gitu aja, tanpa pamit, terus muncul lagi kayak gak ada apa-apa.",
     comments: [
-      { authorId: 186, minutesAgo: 406, content: "om yang jarang dateng biasanya ada urusan keluarga mas, besok2 muncul lagi" },
-      { authorId: 199, minutesAgo: 399, content: "26 keping itu 13 ribu mas, kurang 8 keping dari kemarin" },
+      { authorId: 199, minutesAgo: 406, content: "om tipe begitu biasanya muncul lagi mas, orang yang punya kebiasaan susah pindah" },
+      { authorId: 272, minutesAgo: 399, content: "rapikan koran itu tanda pos sudah jadi miliknya juga mas. semoga om-om itu sehat" },
     ],
   },
   {
@@ -236,11 +200,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 445,
     shares: 17,
     content:
-      "tolong dong teh yang jago itung, bantu akang pikirin. tomat 12 rebu perkilo, biasanya laku 1,5 kilo. tadi aku ringkes jadi 11 rebu, yang beli langsung ambil 2 kilo. uangnya 22 lawan 18, tapi stok habis lebih cepet. untungnya nambah 4 rebu, capeknya nambah juga lho. besok turunin lagi gak ya? doain laku terus 😂",
+      "hujan dari subuh teh, lapangan kosong, payung nangkring di bawah meja, ceret kosong. cabai di karung masih bagus karena gak keburu lembap. satu pembeli dateng cuma buat bertanya kabar 😂\ndoain besok cerah ya teh-teh sekalian, dagangan gak tahan menunggu dua hari",
     comments: [
-      { authorId: 72, minutesAgo: 436, content: "yang 11 ribu teh. 11×2 = 22 ribu, yang 12×1,5 cuma 18 ribu. laku 2 kilo lebih untung 4 ribu" },
-      { authorId: 79, minutesAgo: 430, content: "harga ringkes memang bikin pembeli ambil lebih teh, cuma jangan sampe rugi ongkosnya 😄" },
-      { authorId: 88, minutesAgo: 424, content: "coba jalanin dua2nya seminggu teh, bandingin sendiri, datanya gak bisa bohong" },
+      { authorId: 102, minutesAgo: 437, content: "semangat teh, musim begini memang ujian sabar buat kita yang jualan di lapangan 🙏" },
     ],
   },
   {
@@ -249,10 +211,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 475,
     shares: 26,
     content:
-      "angsuran klien bulan ini 1.240.000, masuk 1.200.000, kurang 40.000. aku telepon, dia bilang besok dilengkapi. aku buka catatan lama: tiga bulan terakhir selisihnya 40 ribuan terus. bukan jumlah yang sama persis, tapi polanya begitu. aku tandai warna kuning dulu. kalau bulan depan masih begitu, baru aku naikin ke atasan.",
+      "Rapat koordinasi tadi dari jam 10 sampai jam 12. Ada 23 slide presentasi, dua diagram yang tidak ada yang membaca, satu diskusi panas soal jadwal absensi. Keputusan akhirnya satu kalimat: 'diteruskan seperti sebelumnya.'\nAku pulang kerja lelah, tetapi kelelahannya bukan karena memikirkan angka, hanya karena menahan diri untuk tidak menghela napas terlalu keras di ruangan ber-AC.",
     comments: [
-      { authorId: 236, minutesAgo: 466, content: "kurang 40 ribu tiga bulan berturut itu bukan lupa non, itu pola. catat tanggalnya, berguna pas naikin laporan" },
-      { authorId: 243, minutesAgo: 459, content: "tandai kuning itu langkah yang tepat non, jangan langsung gugat" },
+      { authorId: 243, minutesAgo: 466, content: "rapat begini itu gym mental non. yang paling pegal bukan tangan, tapi otot wajah yang jaga ekspresi" },
+      { authorId: 290, minutesAgo: 458, content: "satu kalimat setelah dua jam itu bukan kegagalan non. kadang itu tanda semua orang sudah sepaham" },
     ],
   },
   {
@@ -261,11 +223,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 505,
     shares: 30,
     content:
-      "itung listrik kamar: lampu 10 watt nyala 8 jam = 80 Wh = 0,08 kWh. tarif 1.444,7 per kWh, berarti 115,6 rupiah semalam. rasa-rasanya tagihan kos jauh lebih gede dari itungan begini. kulkas nyala 24 jam, charger laptop nongkrong, pompa air jam 5 pagi. bro, angka di struk itu emang gitu atau ada yang bocor di itunganku?",
+      "bro, tugas geometri jalan bikin gue mikir: rambu 'kemiringan 15%' itu artinya apa persisnya? gue duga miringnya 15 derajat, temen gue bilang bukan, katanya naik 15 meter tiap 100 meter jalan. gue cek: 15/100 = 0,15, dijadikan tan θ, hasilnya sekitar 8,5 derajat. beda jauh dari 15 derajat yang gue bayangin. bro, jadi persen di rambu itu tan, bukan derajat? terus kalau mobil naik jalan 15% kerasa gak ya buat yang biasa bawa beban, soalnya di tugas cuma diminta itung, gak diminta kerasa",
     comments: [
-      { authorId: 219, minutesAgo: 496, content: "itungan lu bener bro, 0,08 × 1.444,7 = 115,6. hole-nya di alat besar: kulkas 100 W nyala 24 jam = 2,4 kWh sehari" },
-      { authorId: 223, minutesAgo: 489, content: "setrika 350 W setengah jam aja 0,175 kWh. lampu doang mah receh, yang makan tuh yang panas sama yang muter terus" },
-      { authorId: 227, minutesAgo: 483, content: "coba audit kamar: kipas, kulkas, charger. catat watt-nya, itung semalem, langsung keliatan bocornya di mana bro" },
+      { authorId: 213, minutesAgo: 496, content: "betul bro, rambu pakai tan. 100% saja itu 45 derajat. bayangin kalau jalan 15 derajat, udah kayak tangga" },
+      { authorId: 336, minutesAgo: 488, content: "kerasa bro apalagi motor bawa penumpang. gak nyampe tangga sih, tapi gigi satu pasti keluar" },
+      { authorId: 30, minutesAgo: 478, content: "patokan sederhananya bro: trotoar yang terasa landai itu sekitar 5%. 15% sudah masuk kategori bukit di banyak buku teks" },
     ],
   },
   {
@@ -274,10 +236,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 535,
     shares: 14,
     content:
-      "semangka turun dari 8 rebu ke 6 rebu perkilo. panen raya om, semua kebon panen barengan. yang bikin mikir: harga turun, yang beli gak nambah. kemarin 30 biji, hari ini 28 biji. orang lagi hemat semua ya. besok coba potongin percobaan, siapa tau yang kemarin cuma nengok jadi beli.",
+      "semangka kemarin laku dikit. hari ini aku potongin dua buah buat contoh di depan lapak, merah banget untungnya. yang mampir cuma nengok-nengok doang, satu orang bahkan bilang 'besok ya om' padahal aku gak nawarin apa-apa.\nbesok coba lagi. kali ini taruh di posisi paling depan, siapa tau yang kemarin cuma pengen lihat jadi pengen beli.",
     comments: [
-      { authorId: 178, minutesAgo: 526, content: "harga turun pembeli gak nambah itu tandanya yang dateng emang langganan om, bukan pembeli baru" },
-      { authorId: 80, minutesAgo: 519, content: "semangka 6 rebu om? siap2 besok rame sendiri 😄" },
+      { authorId: 178, minutesAgo: 527, content: "potongin contoh itu cara lama tapi masih ampuh om. orang percaya sama yang bisa dilihat, bukan yang diceritakan" },
     ],
   },
   {
@@ -286,10 +247,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 565,
     shares: 21,
     content:
-      "bos yang jual genset tadi nawar komisi: dari 2 persen minta 5 persen, katanya biar semangat jualannya. itunganku gampang: 2 persen dari 12.240.000 itu 244.800. 5 persen itu 612.000. selisih 367.200 sebulan. gue gak marah, gue cuma jawab: angkanya yang bicara dulu, baru semangat.",
+      "jam 8 malam ke atas, sinyal di depan kios sering susah dipakai. pelanggan tanya kenapa, gue jawab jujur: tidak tahu. bisa karena awan, bisa karena banyak orang membuka ponselnya bersamaan.\npelanggan mengangguk seperti mengerti, padahal kami dua-duanya sama-sama tidak paham.",
     comments: [
-      { authorId: 196, minutesAgo: 556, content: "selisih 367 ribu sebulan om, 2 persen untuk usaha sekelas itu udah masuk akal" },
-      { authorId: 236, minutesAgo: 549, content: "janji semangat itu gak bisa dicairin om wkwk" },
+      { authorId: 240, minutesAgo: 557, content: "jawaban jujur itu tipe jawaban yang paling sering bikin pelanggan balik lagi bos" },
     ],
   },
   {
@@ -298,10 +258,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 595,
     shares: 14,
     content:
-      "penumpang tadi bawa dua kantong berat, mau ke bandara. gue sebut perkiraan 60 sampai 70 ribu tergantung macet. dia tawar flat 65. macet 40 menit, meteran ngendap di 71 ketika sampai. dia tetap bayar 65, minta struk, pamit sopan. dua-duanya sudah sepakat dari awal, gak ada yang merugi.",
+      "Penumpang tadi pagi lupa ponselnya di jok belakang. Saya baru sadar sepuluh menit kemudian, langsung balik ke alamat pemesanan. Ia belum menyadari kehilangan, masih sibuk membuka pagar. Saat diserahkan, ia diam sebentar, lalu berkata terima kasih dua kali.\nTidak ada yang berlebihan. Hanya ponsel yang kembali dan orang yang bisa melanjutkan hari.",
     comments: [
-      { authorId: 26, minutesAgo: 586, content: "flat 65 vs meter 71, penumpang untung 6 ribu mas. tapi yang jalan mulus dua jam mah nilai segitu" },
-      { authorId: 258, minutesAgo: 579, content: "kesepakatan flat itu dua sisi tahu risikonya. bagus kalau dua-duanya tenang." },
+      { authorId: 283, minutesAgo: 586, content: "sepuluh menit balik arah itu murah dibanding satu hari panik, pak. kerja bagus" },
+      { authorId: 97, minutesAgo: 578, content: "ponsel saya pernah hilang di taksi dan tidak kembali pak 😭 senang membaca yang begini" },
     ],
   },
   {
@@ -310,11 +270,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 625,
     shares: 21,
     content:
-      "kaleng nabung bulan ini 146 rebu. sepatu yang gue incar 289 rebu. kurang 143. itung2an nabung 15 rebu seminggu = butuh 9,5 minggu. hampir dua setengah bulan buat sepatu. dibanding temen gue yang tinggal bilang ke papanya, yaudah deh. tapi kaleng gue isi sendiri dari kembalian, jadi gak ada yang berhak protes. ada tips nabung yang gak siksa? siapa tau 9,5 minggu bisa dipangkas jadi 6.",
+      "masak nasi pakai 1 liter beras buat 3 orang, hasilnya kebanyakan parah. sekarang ada 5 porsi nasi dingin di kulkas dan menu besok-belakang udah pasti nasi terus. temen kos bilang takarannya air harus 1,5 kali beras, tapi kata ibu gue 'cukup satu ruas jari di atas beras'. dua-duanya bilang sambil nunjuk, bukan sambil ragu.\nkalian tim ruas jari atau tim rasio? besok aku coba 1 gelas beras dulu, pelan-pelan, daripada nasi nyangkut seminggu",
     comments: [
-      { authorId: 209, minutesAgo: 616, content: "tiap dapet receh 500/1000 langsung ke kaleng kak, biasanya bisa memangkas 1-2 minggu" },
-      { authorId: 133, minutesAgo: 609, content: "146 ke 289 itu jarak yang jujur banget ya kak 😭" },
-      { authorId: 68, minutesAgo: 601, content: "pelan2 kak, yang penting kalengnya gak dibuka 🙏" },
+      { authorId: 33, minutesAgo: 617, content: "tim ruas jari dah kak. gelas beda-beda ukuran, tapi ruas jari itu ikut jari kita sendiri. air satu ruas di atas beras, api kecil di akhir" },
+      { authorId: 106, minutesAgo: 610, content: "nasi dingin itu bahan goreng nasi paling enak kak, jangan buang 🙏" },
+      { authorId: 152, minutesAgo: 602, content: "tim rasio kak: 1 beras : 1,2-1,5 air tergantung tipe berasnya. yang penting catat hasil percobaan pertama, besok tinggal kurangin" },
     ],
   },
   {
@@ -323,12 +283,13 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 655,
     shares: 19,
     content:
-      "anakku tanya, bu, 1/2 + 1/3 kok hasilnya bukan 2/5. aku gak bisa jawab karena aku juga kira 2/5. besok dia ulangan pecahan. tolong yang bisa, jelasin cara yang paling gampang dipahami anak kelas 5, soalnya besok pagi sebelum berangkat aku mau ajarin dia. terima kasih banyak sebelumnya 🙏",
+      "Anakku hari ini menunjuk dua ekor kucing di halaman lalu berkata 'dua'. Bukan satu, bukan sembarangan, tetapi dua. Ibu minta mengulang, ia mengulang sambil menunjuk kucingnya satu-satu: satu, dua. Umurnya dua tahun tiga bulan, Alhamdulillah.\nSebentar lagi mungkin menghitung sampai sepuluh. Doakan saja ibu yang tidak sabar ini tidak mengajari anak berhitung sampai lupa menidurkannya siang 🙏",
     comments: [
-      { authorId: 74, minutesAgo: 647, content: "bukan 2/5 bu. penyebutnya disamain dulu: 1/2 = 3/6, 1/3 = 2/6, jumlahnya 5/6" },
-      { authorId: 103, minutesAgo: 641, content: "cara cepetnya bu: atas dikali silang lalu dijumlah, bawah dikali antar sendiri: (1×3 + 1×2)/(2×3) = 5/6" },
-      { authorId: 97, minutesAgo: 634, content: "ajarin pake gelas bu: setengah gelas air + sepertiga gelas air, dituang ke gelas sama besar, keliatan 5/6-nya" },
-      { authorId: 81, minutesAgo: 627, content: "anak untung punya ibu yang ikut belajar bu 🙏" },
+      { authorId: 77, minutesAgo: 647, content: "barakallah bu, fase begini cepat lewat, nikmatin sambil dicatat-catat kecil 🙏" },
+      { authorId: 59, minutesAgo: 640, content: "anakku dulu juga mulai dari kucing bu, dua kucing itu guru berhitung terbaik 😄" },
+      { authorId: 103, minutesAgo: 633, content: "jangan buru-buru ke sepuluh bu, dua itu sudah kejayaan. lanjutkan dengan barang berpasangan di rumah" },
+      { authorId: 309, minutesAgo: 625, content: "doa terbaik bu, anak sedang menghitung dunia sedikit demi sedikit" },
+      { authorId: 24, minutesAgo: 616, content: "CUCU IBU PINTAR. KUCING DUA ITU GURU YANG SABAR." },
     ],
   },
   {
@@ -337,9 +298,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 685,
     shares: 2,
     content:
-      "03.47. iseng itung ulang IPK pake bobot sks. nilai 3,5 dari matkul 3 sks, nilai 3,0 dari matkul 4 sks. rata2 polos 3,25. rata2 terbobot (3,5×3 + 3,0×4)/7 = 3,21. selama ini gue pake yang polos. kulkas bunyi. besok kerjain KRS yang bener.",
+      "kuota sisa 0,3 GB. tanggal 14. ponsel bilang pembaruan sistem tersedia, ukuran 2,1 GB. gue tunda tiga hari. malam ini tanpa sengaja menyentuh tombol unduh saat pegangan gelap. sekarang dengar kipas ponsel bernafas seperti kereta malam.\nbesok jalan kaki ke kantor. gratis, sehat, selaras.",
     comments: [
-      { authorId: 309, minutesAgo: 676, content: "bener, IPK itu rata-rata terbobot. rata2 polos cuma cocok kalau semua sks sama" },
+      { authorId: 318, minutesAgo: 677, content: "jalan kaki itu bukan hukuman bre, itu fitur bonus dari kecerobohan" },
     ],
   },
   {
@@ -348,11 +309,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 715,
     shares: 12,
     content:
-      "CUCU AKU PR BAGI PECAHAN. 1/2 DIBAGI 1/4 KATANYA HASILNYA 2. AKU BILANG SALAH, MASA DIBAGI HASILNYA MALAH BESAR. TERNYATA YANG BENAR DIA. DIJELASIN PAKAI KUE: SETENGAH KUE DIPOTONG SEBESAR SEPEREMPAT, ISINYA CUMA DUA POTONGAN. AKU PURA2 NGGAJAR PADAHAL BARU NGARTI DETIK ITU JUGA. NILAI ULANGANNYA DOAIN YANG BAGUS.",
+      "CUCU AKU ULANGAN PERKALIAN BESOK. DIA MENGAJARI AKU 8×7. AKU JAWAB 54, DIA BILANG SALAH, HARUSNYA 56. AKU TANYA ASALNYA DARI MANA, DIA BILANG TINGGAL AMBIL 8×6 LALU TAMBAH 8 LAGI. PIKIRANNYA CEPAT SEKALI PADAHAL TADI MASIH NGANTUK MAKAN LONTONG.\nAKU PURA2 TIDAK TAHU APA-APA PADAHAL AKU HANYA INGIN DIA MERASA SEDANG MENGAJAR. DOAKAN NILAINYA BAGUS. KALAU BAGUS AKU BUATKAN MAKANAN KESUKAANNYA.",
     comments: [
-      { authorId: 106, minutesAgo: 706, content: "benar itu mbak, 1/2 ÷ 1/4 = 1/2 × 4 = 2. pembaginya kecil, hasilnya bisa membesar 😄" },
-      { authorId: 84, minutesAgo: 699, content: "penjelasan kue itu ampuh mbak, langsung kebayang potongannya" },
-      { authorId: 110, minutesAgo: 691, content: "cucu jelasin ke nenek, nenek pura2 ngajar. tim yang solid wkwk" },
+      { authorId: 81, minutesAgo: 707, content: "8×6 lalu tambah 8 itu cara yang benar mbak, anaknya paham strukturnya, doa kami ikut 🙏" },
+      { authorId: 63, minutesAgo: 700, content: "cucu bisa mengajar berarti dia paham sungguhan mbak, bukan sekadar hafal" },
+      { authorId: 187, minutesAgo: 693, content: "lontong terbukti lintas zaman sebagai hadiah belajar mbak" },
+      { authorId: 327, minutesAgo: 685, content: "metode pura2 tidak tahu itu ampuh mbak, cucu jadi merasa penting dan belajarnya makin semangat" },
     ],
   },
   {
@@ -361,10 +323,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 745,
     shares: 30,
     content:
-      "tanya buat yang pernah magang di perusahaan gede: potongan transport 400 dipotong penuh padahal dua hari seminggu WFH. gaji 1.500 jadi masuk 1.100. pembimbing bilang standar semua begitu. standar di mana ya, gak ada yang nulis. pengen nanya ke HR tp takut dianggap rewel, magang cuman 6 bulan abes setiap tanggal muda rasanya beda.",
+      "hari ini presentasi pertama di depan tim. slide gue 12, latihan 4 kali semalem. pas gue buka, tangan gue gemetar sampe remote klikern bunyi klok-klok, abes itu gue fokus ke satu orang yang ngangguk terus, rasanya masuk akal banget.\npresentasi selesai. atasan gue cuma ngangguk lagi terus bilang 'oke, lanjut'. gak ada komentar. gak ada tepuk tangan. gue pulang kerja bingung, senang atau gak ya? tp sore tadi mentor gue bilang buat anak magang oke banget itu. yaudah. gue makan es krim.",
     comments: [
-      { authorId: 119, minutesAgo: 737, content: "tanya aja sopan pake angka bre: 'transport 400 dipotong penuh padahal 8 hari WFH, apakah bisa proporsional?' gak ada yang gugat orang yang nanya pake angka" },
-      { authorId: 152, minutesAgo: 729, content: "400 itu bukan uang jajan bre, wajar lu mikirin. yang nanya gak rewel, yang diem nyesek" },
+      { authorId: 144, minutesAgo: 737, content: "es krim itu bentuk resmi dari 'gue lolos bre'. selamat kak" },
+      { authorId: 236, minutesAgo: 730, content: "di dunia kerja 'oke, lanjut' itu pujian tingkat dewa. dari rekan magang yang sama-sama pernah gemetar: bangga" },
     ],
   },
 ]

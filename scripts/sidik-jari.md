@@ -7,19 +7,24 @@ Protokol teknis: `dev.sh` di root proyek.
 
 ---
 
-## ⚠️ FASE AKTIF: ROMBAK TOTAL V2 (WAJIB DIBACA DULU)
+## ⚠️ FASE AKTIF: EKSPANSI BATCH 5+ DENGAN RUMUS V3
 
-User memutuskan: **semua cuitan lama dirombak total** karena 1000 penilai
-menyebutnya rekayasa/bot. Urutan rombak, status, model per penulis, dan buku
-besar topik yang berlaku ada di **`scripts/rumus-v2.md`**. Selama fase ini:
+**Rombak total V3 SELESAI (5 Nov 2026):** seluruh 200 cuitan lama (termasuk
+hasil rombak V2 yang masih tercemar formula) sudah diganti dari nol. 9 contoh
+formula yang user kutip (log uang, koin parkir, komisi, flat vs meteran,
+kaleng nabung, dosis shift, angkot ayam, dus gudang, rantai kendor) sudah
+TIDAK ADA lagi di feed. Formulanya kini tercatat sebagai **FORMULA HITAM**
+di `scripts/rumus-v2.md` BAGIAN 2 — WAJIB dibaca sebelum menulis cuitan apa pun.
 
-- Jangan tambah batch baru; ganti isi file lama SATU file per sesi
-  (urutan: threads-2 → 3 → 4 → 5 → 6 → 7 → 8), slot id/authorId/minutesAgo TETAP.
-- Selama rombak, `./dev.sh status` akan tetap menampilkan "batch berikutnya"
-  — ABAIKAN, ikuti urutan rombak di rumus-v2.md.
-- Tabel batch lama di bawah (BATCH 2-4) dan buku besar lama berstatus
-  **ARSIP**: kontennya sedang/akan diganti, topik lama boleh dipakai ulang
-  asal bentuknya baru. Sumber kebenaran topik = Buku Besar V2 di rumus-v2.md.
+Kondisi sekarang:
+- 200 cuitan, 471 komentar, audit + validasi + lint bersih.
+- Rotasi rapi: tiap penulis (1-50) tepat 4 post.
+- Sumber kebenaran topik = **Buku Besar V3** di `scripts/rumus-v2.md`.
+- Langkah berikutnya: ekspansi batch 5 (threads-9.ts, cuitan 201-225,
+  penulis 1-25, minutesAgo 6025 +30 per id) sesuai protokol dev.sh, isi
+  mengikuti RUMUS V3. Cek Buku Besar V3 dulu; topik baru, bentuk baru.
+- Tabel batch lama di bawah (BATCH 2-4) berstatus **ARSIP** — kontennya
+  sudah diganti, jangan dipakai lagi sebagai acuan bentuk.
 
 ---
 
