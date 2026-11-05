@@ -32,6 +32,27 @@ Protokol teknis: `dev.sh` di root proyek.
      dengan bentuk/model sama. Sebelum nulis, cek MODEL PER PENULIS di bawah;
      cuitan baru wajib pake bentuk yang belum dia pake (timeline jam, blok
      tanpa jeda, baris pendek, laporan GUYS, fragmen, tanya-jawab, dst).
+   - ASPEK MATEMATIKA GAK BOLEH ILANG: sekecil apa pun angkanya, tiap cuitan
+     harus ada yang bisa diitung/diukur/dibandingin. Cuitan murni cerita tanpa
+     satu angka pun cuma boleh KADANG (kuota hidup biasa), dan kalau ada,
+     tetap harus kerasa manusia, bukan rakitan.
+
+7. **SEBAB MUSABAB GORENG REPUTASI (kasus cuitan 29, WAJIB DIHAPAL):**
+   cuitan lama "rantai kendor, rantai kendor, rantai kendor" sudah dihapus
+   karena ganda dosa: (a) NOL matematika — cuma obrolan bengkel, jauh dari
+   aspek platform; (b) pola PENGULANGAN SEGERA "X, X, X" — mantra robot yang
+   langsung ketahuan bot; (c) ending TERLALU RAPI ("sore dijalan coba semua
+   aman") — resolusi sempurna tanpa gesekan = kalimat rakitan; (d) dialog
+   dua kutipan bergaya naskah. **CHECKLIST SEBELUM CIUTAN DISIMPAN:**
+   1) ada angka yang dipakai untuk sesuatu (ukur, banding, bagi, itung ulang)?
+   2) gak ada frase yang diulang 3x berturut-turut seperti mantra?
+   3) ending-nya ada gesekan (salah tulis, males, gak muktamad, kabur),
+      BUKAN "semua aman/lancar/beres"?
+   4) kutipan dialog maksimal satu baris?
+   5) baca ulang: kalau kedengeran seperti iklan/naskah/slogan, BUKANG.
+
+   Catatan: pola "tidur, tidur, tidur" di cuitan 58 aman karena itu retorika
+   manusia (rencana libur), bukan mantra narasi — bedakan konteksnya.
 
 ## KAMPUNG KOMENTAR (peta akun 51–350)
 
@@ -83,7 +104,7 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 | 26 | angkot + ayam gratis | ibu sayur tikungan | — (batch 6) |
 | 27 | dus 42 masuk 38 keluar | masuk 51 keluar 47 | — |
 | 28 | trigonometri 74 | kecepatan rata2 0,13 | — |
-| 29 | rantai kendor ×3 | sprocket balik | — |
+| 29 | ukur kendoran rantai, batas 20 mm (revisi casus goreng) | sprocket balik | — |
 | 30 | les jam 4, soal uang | kartu ulangan 78 | — |
 | 31 | kembalian 2.500 | tanggal tua struk 104 | — |
 | 32 | sayur langganan pisang | getuk barter | — |
@@ -136,6 +157,45 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 | 49 | murid SMA cukur jambang sebelum ulangan | laporan kepala + tarip dua aras |
 | 50 | masak rame 4 orang: rasio air-mie & kerupuk | laporan GUYS versi katering kos |
 
+## BATCH 3 (cuitan 151-175, penulis 1-25) — topik & model
+
+| Penulis | Topik batch 3 (baru) | Model baru (beda dari post 1-3) |
+| ------- | -------------------- | ------------------------------- |
+| 1  | aljabar 3x=15, x = kotak ditutup | mulai dari suara pensil jam 8, tiga blok pendek, tanpa buka "Alhamdulillah" |
+| 2  | split bill 155 ribu, 38,75 per kepala | KAPITAL cuma di baris judul, sisanya ekor lowercase tanpa titik |
+| 3  | remedial 8 anak, nol itu genap | laporan jurnal kelas + nilai realita (2 naik, sisa besok) |
+| 4  | anak hitung jam hadir vs efektif 8:4 | narasi meja makan jam 19.40, tutup "Ia tampak lega" |
+| 5  | pembulatan 500-an titipan warung | satu blok aturan kas + kalimat akhir potong, tanpa refleksi |
+| 6  | bagi bersusun 848:4 = 212, yakin dulu cek kemudian | kebalik urutan: itung dulu baru ngecek HP |
+| 7  | modus: frekuensi seri dua-duanya | kuis gampang → salah kecil di soal kedua → mantra besok |
+| 8  | sudut jarum jam ketemu jam 3.16 | satu baris per kalimat, pasien nyatet buat cucu kelas 6 |
+| 9  | miliar = seribu juta, 20 ribu hari | dialog penumpang bocah SMP + itungan bareng di jalan |
+| 10 | luas maksimum pagar 20 m → 25 (persegi) | PR selesai: coba 3 bentuk, kalah dari persegi, tanpa panik |
+| 11 | kupon member toko buku, balik modal 250 ribu | hitungan balik modal + dialog anak (tanpa kutipan) |
+| 12 | aturan saku 10-3-2, dompet kecil ditunda | aturan rumah tangga turun baris, tutup "lama itu angka" |
+| 13 | venn ekskul: bola doang = total minus irisan | jawaban bener dihapus gara2 temen, buku bolong 4x |
+| 14 | umur kucing 4 x 7 = 28 | kejadian pagi-sore dua babak, kucing gak peduli |
+| 15 | luas lingkaran tampah 80 cm = 5.024 cm2 | pesanan sekolah + pelajar SMA itungin (banding ubin) |
+| 16 | skala denah 1 cm = 2 km, 30 km itu kertas | catatan kerja + tulisan tangan surveyor soal jam pulang SMP |
+| 17 | akar kuadrat: 4 m2 sisinya 2 bukan 4 | dua blok tanya-jawab lab, magang langsung nangkep pola |
+| 18 | FPB 24 & 36 = 12 tas bazar kelas | pesanan + itungan pembagi di kertas, tas rapi tanpa sisa |
+| 19 | gacha pity 60→70 dari 80, uang makan tetep makan | dialog kasir tegas soal uang, tanpa nasehat panjang |
+| 20 | kupon undian: 5 dari 20, 15 bulan lagi | paragraf tenang, kupon nyambung bon seragam anak |
+| 21 | estimasi antre bank 3 menit/nomor = 105 menit | pulang dulu, itung ulang jam 3, tutup "hemat di kaki" |
+| 22 | soal umur 4x, 5 thn lagi 3x → 10 | ibu ikut itung di kertas, doa ikut kelas 9 |
+| 23 | siklus timer 25+5 x6 = 3 jam di kertas | laporan eksperimen orang lain (adik), dugaan kulkas |
+| 24 | minus 5 vs minus 2 dijelasin pake kulkas | PR cucu + analogi suhu, kulkas dapat gelar |
+| 25 | jam PKL 400 = 8x5x10, minus 4 plus lembur 1 | itungan syarat surat + 3 jam ngambang, tutup kering |
+
+## REVISI CASUS 29 (batch 4, poin ATURAN USER 6-7)
+
+Cuitan lama id 29 diganti saat batch 4 (komplain user: jauh dari aspek + bot).
+Isi baru: PKL bengkel ukur kendoran rantai pakai penggaris — batas 20 mm,
+motor 14/22/25 mm (1 kencengin, 2 ganti), salah tulis angka di form servis
+(25 → 22) dikoreksi om, ending malu + tangannya masih gemetar. Komentar ikut
+diganti (185/49/251) biar nyambung ke isi baru. Topik "rantai kendor ×3" di
+buku besar diganti "ukur kendoran rantai (batas 20 mm)".
+
 ## STOK SUBTOPIK MATEMATIKA (pilih yg belum kepake untuk batch berikutnya)
 
 Sudah terpakai (jangan ulang bentuknya): perkalian tabel, KPK bus, KPK jadwal
@@ -150,20 +210,33 @@ barisan & deret aritmetika, rasio gigi sprocket, volumetrik paket, kalori
 label per sajian, pangkat nol, konversi liter-ml porsi 1,5x, angka romawi,
 jarak tanam (densitas lubang), bobot soal & waktu ujian, konversi ikat-kilo,
 pecahan dari angka (3/4 dari 60), perkalian entri (744 kotak), itungan telat
-(durasi jam), tabungan receh siswa, rasio air-mie porsi rame.
+(durasi jam), tabungan receh siswa, rasio air-mie porsi rame, FPB bagi tas
+rata (24 & 36), kupon member vs harga jual (balik modal 250 ribu), skala
+denah 1 cm = 2 km, luas lingkaran tampah tumpeng, sudut jarum jam bertemu
+lagi, median/estimasi antre bank (3 menit per nomor), peluang kupon undian
+(5 dari 20 lembar), umur kucing x7 = tahun
+manusia, akar kuadrat 4 m2 sisinya 2, juta-miliar (miliar = seribu juta),
+pembulatan 500-an warung, split bill per orang (155 ribu), rapat: jam
+efektif vs jam hadir (8:4 sekolah), gacha pity 60 dari 80, aljabar 3x = 15
+(x = kotak), modus frekuensi seri, venn ekskul total minus irisan, soal
+umur (4x dan 3x), aturan saku 10-3-2, siklus timer 25+5, bilangan negatif
+suhu kulkas, jam PKL 400 (8x5x10), luas maksimum pagar 20 m = persegi 25,
+bagi bersusun 848:4, remedial & nol itu genap, kupon undian bon seragam.
 
-Belum kepake (kandidat batch 6+): FPB bagi kelompok/kado-bingkisan rata,
-persen kupon member vs harga jual, skala denah/peta, luas lingkaran (nasi
-tumpeng? alas pot?), sudut jarum jam bertemu, deret tabung 500/1000 naik
-tiap minggu, bunga tabungan (tanpa kata "bunga persen"), konversi liter–ml
-di resep 1,5× porsi, median waktu antre bank, peluang kupon undian belanja,
-angka romawi di jam gedung, ukuran kain per meter (penjahit), volumetrik
-paket (kurir), kalori label kemasan per sajian, angka di kWh tagihan
-listrik, hitung mundur hari kerja menuju gajian, umur kucing → tahun
-manusia, batas detik lampu lalu lintas, rasio gula–air es teh jualan,
-akar kuadrat luas 2×2 = 4 m² (bukan 2), juta–miliar (angka berita),
-pembulatan 500-an warung, split bill per orang, tarif angkot dihitung
-ulang, rapat: jam efektif vs jam hadir, gacha pity (umum, tanpa brand).
+Belum kepake (kandidat batch 4+): deret
+tabung 500/1000 naik tiap minggu,
+bunga tabungan (tanpa kata "bunga persen"), angka di kWh tagihan listrik, hitung mundur hari kerja menuju
+gajian, batas detik lampu lalu lintas, rasio gula–air es teh jualan, tarif
+angkot dihitung ulang, nisbah/skala 1:1000 kertas denah rumah, median nilai
+kelas vs nilai sendiri, persen abensi kelas per bulan, pecahan desimal di
+meteran kain, volume tabung tandon air, konversi rupiah ke rupiah lama
+(cerita kakek), jadwal sholat vs jam belajar (interval), luas & keliling
+lapangan futsal (skala meter), diskon bundling 2 barang vs satuan, persen
+guru kelas di rapor (rata 5 nilai), estimasi biaya seragam vs bulan pakai,
+hitung uang kas kelas (bulanan), pola kalender (tanggal yang sama tiap
+minggu), deret belanja mingguan (banding 4 minggu), waktu tempuh naik
+sepeda vs jalan kaki ke sekolah, persen remidi siswa per kelas, angka
+stambuk/nis mahasiswa, soal cerita tangki bocor (kecepatan isi-kuras).
 
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 

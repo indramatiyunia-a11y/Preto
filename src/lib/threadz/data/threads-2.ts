@@ -75,11 +75,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 865,
     shares: 30,
     content:
-      "motor pelanggan hari ini: rantai kendor, rantai kendor, rantai kendor. 3 motor masalahnya sama.\nom-om bilang 'biasa om, dirantainya ketahan lama'. ya om, rantai itu bagian yang gerak terus, masa gak kendor.\nganti 2, kencengin 1. sore dijalan coba semua aman. besok om yang kemarin balik lagi kayaknya. suaranya udah gue hafal.",
+      "klien om hari ini tiga, semua komplain rantai. om gak mau tebak-tebakan, disuruh ukur kendorannya pakai penggaris. batas rantai kendor itu 20 mm, angka bengkel, bukan angka perasaan.\n\nmotor pertama 14 mm, lolos, tinggal dikencengin. motor kedua 22 mm, motor ketiga 25 mm, dua-duanya diganti.\ngue yang nulis di form servis. pas motor ketiga, angka 25 kutulis 22. om ngoreksi sambil nunjuk angkanya pakai ujung obeng, 'yang ditulis di form itu janji ke pelanggan.'\n\ndari tadi tiap angka gue baca dua kali sebelum ditandatangan. tangannya masih agak gemetar itu lho.",
     comments: [
-      { authorId: 183, minutesAgo: 857, content: "'ketahan lama' wkwkwk yakin banget om2 ini" },
-      { authorId: 49, minutesAgo: 850, content: "suaranya udah hafal wkwk, di cukuran juga gitu" },
-      { authorId: 251, minutesAgo: 841, content: "bengkel yang kencengin doang kalau masih bisa itu langka bang, bagus" },
+      { authorId: 185, minutesAgo: 857, content: "bengkel deket rumah gak pernah ngukur om, langsung 'katanya kendor' wkwk" },
+      { authorId: 49, minutesAgo: 849, content: "salah angka di form itu bikin diem seharian om, pernah ngalamin" },
+      { authorId: 251, minutesAgo: 841, content: "pelanggan lebih tenang liat ada angkanya, bukan asal katanya" },
     ],
   },
   {
