@@ -242,5 +242,7 @@ ok("beras: 68.000÷5 = 13.600; 125.000÷10 = 12.500; hemat 11.000 per 10 kg", [6
 ok("kereta: 150÷60 = 2,5 jam; 07.40 + 2:30 = 10.10", [150 / 60, 7 * 60 + 40 + 150].join(","), [2.5, 10 * 60 + 10].join(","))
 ok("es teh: 12.500÷5 = 2.500; untung 5.500; per gelas 1.100", [12500 / 5, 12500 - 7000, 5500 / 5].join(","), [2500, 5500, 1100].join(","))
 ok("2x+3y=12: (3,2) dan (0,4) dua-duanya solusi", [2 * 3 + 3 * 2, 2 * 0 + 3 * 4].join(","), [12, 12].join(","))
+ok("2x+3y=12: (6,0) juga solusi (komentar id 225, koreksi 7 Nov)", 2 * 6 + 3 * 0, 12)
+ok("dadu id 106: 60 lempar → ekspektasi 10 kali angka 6", 60 / 6, 10)
 
 console.log(process.exitCode ? "ADA KESALAHAN HITUNG" : "SEMUA HITUNGAN LOLOS ✓")

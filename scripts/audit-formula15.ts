@@ -75,6 +75,9 @@ const POLA_B: [string, RegExp, string][] = [
   ["B8 tanda kutip ganda di dalam cuitan (kutipan dramatis)",
     /[""]/,
     "kutipan dramatis orang lain sebagai aksesori sastra"],
+  ["B9 kata rentan LGBT (hukum user: dunia hanya wanita & pria)",
+    /\b(gay|lesbi|lesbian|homoseks|homoseksual|transgender|waria|bencong|banci|lgbt|queer)\b/i,
+    "dilarang keras — kalimat pro/rentan LGBT dihapus total (kasus: dadu 'gay' id 106)"],
 ];
 
 interface Hit { file: string; kind: string; id: number; authorId: number; pola: string; frag: string; catatan: string; }

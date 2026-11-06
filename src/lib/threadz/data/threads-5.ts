@@ -76,12 +76,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3175,
     shares: 4,
     content:
-      "gue yakin dadu gue gay. peluang keluar 6 itu kan 1 dari 6, terus gue lempar 10 kali gak sekali pun keluar 6. sepuluh kali bre. gue cek dadunya bulat-bulat gak ada yang aneh. terus temen kos bilang 1 dari 6 itu gak janji tiap 6 lempar. gue gak ngerti. kalau gak janji, buat apa ditulis 1/6? ada yang bisa jelasin gak pake istilah asing",
+      "gue curiga dadu gue cacat. peluang keluar 6 itu kan 1 dari 6, terus gue lempar 10 kali gak sekali pun keluar 6. sepuluh kali bre. gue cek dadunya bulat-bulat gak ada yang aneh. terus temen kos bilang 1 dari 6 itu gak janji tiap 6 lempar. gue gak ngerti. kalau gak janji, buat apa ditulis 1/6? ada yang bisa jelasin gak pake istilah asing",
     comments: [
       { authorId: 219, minutesAgo: 3167, content: "1/6 itu perkiraan kalau dilempar BANYAK kali bre. 10 kali itu kebanyakan, bisa aja gak muncul sama sekali. coba 60 kali, kira-kira 10 kali muncul 6, tapi juga gak pasti pas" },
       { authorId: 138, minutesAgo: 3159, content: "dadu gak ngerti janji bre wkwk. peluang itu ramalan rata-rata, bukan kontrak" },
       { authorId: 118, minutesAgo: 3151, content: "paling gampang: 10 lempar itu cuma cuplikan pendek. film 10 detik gak bisa dinilai bagus jeleknya" },
-      { authorId: 44, minutesAgo: 3143, content: "dadunya gay atau bukan, 10 lempar belum cukup buat buka kasus wkwk" },
+      { authorId: 44, minutesAgo: 3143, content: "dadunya cacat atau bukan, 10 lempar belum cukup buat buka kasus wkwk" },
     ],
   },
   {

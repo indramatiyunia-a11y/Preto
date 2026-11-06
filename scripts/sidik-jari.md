@@ -16,6 +16,16 @@ kaleng nabung, dosis shift, angkot ayam, dus gudang, rantai kendor) sudah
 TIDAK ADA lagi di feed. Formulanya kini tercatat sebagai **FORMULA HITAM**
 di `scripts/rumus-v2.md` BAGIAN 2 — WAJIB dibaca sebelum menulis cuitan apa pun.
 
+**HUKUM BARU 7 Nov 2026 — DUNIA FEED HANYA WANITA & PRIA (BAGIAN 1H +
+FORMULA HITAM 20):** kalimat pro/rentan LGBT DIBUANG TOTAL dari seluruh
+post & komentar — kata terlarang (gay/lesbi/homoseks/transgender/waria/
+bencong/banci/queer, termasuk pun "dadu gay") otomatis diblokir audit
+Pola B9. Kasus pertama: threads-5 id 106 "dadu gue gay" → "dadu gue cacat"
+(post + komentar). Sekaligus dikoreksi: komentar id 225 (authorId 313)
+berisi hitungan salah "3x+3y=12 baru bisa dikejar satu jawaban" → diganti
+solusi bulat (0,4)/(3,2)/(6,0). Sapaan & relasi di feed: hanya biner normal
+(suami-istri, bapak-ibu, kakak-adik, om-tante).
+
 Kondisi sekarang (setelah rombak V5 + BATCH 5, 6 Nov 2026):
 - 225 cuitan Indonesia (threads-1..9) + threads-intl (id 9001+). 622 komentar.
 - SELURUH feed 100% FORUM MATEMATIKA — diary harian sudah dihapus total

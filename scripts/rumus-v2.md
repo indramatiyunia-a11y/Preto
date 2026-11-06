@@ -169,6 +169,32 @@ TIGA HUKUM BARU yang lahir dari sini:
    25 post yang terbaca seperti satu orang = satu penulis hantu = gagal
    (lihat FORMULA HITAM 18).
 
+## BAGIAN 1H — SEBAB MUSABAB KETUJUH (kalimat rentan LGBT, 7 Nov 2026)
+
+User menangkap post dadu (threads-5 id 106) yang berbuka "gue yakin dadu
+gue gay. peluang keluar 6 itu kan 1 dari 6 ..." — maksud asli penulis adalah
+"dadu miring/tidak adil" (dadu cacat), TAPI kata "gay" bisa terbaca sebagai
+referensi LGBT. Keputusan user (kutip asli):
+
+> "Disini kita sangat jangan membuat kalimat yang pro gay atau LGBT, semua
+> aspek itu harus dibuang! Kita hanya pegang dalam Dunia ini hanya ada
+> Wanita Dan pria! catat itu! Jangan sampai pikiran tercuci! Karena ini
+> melanggar normal ngertikan!"
+
+TIGA HUKUM BARU yang lahir dari sini:
+
+1. **DUNIA FEED HANYA WANITA & PRIA.** Tidak ada kalimat pro-gay, pro-LGBT,
+   atau rentan mengacunya ke sana — hubungan/identitas yang ditampilkan di
+   feed hanya suami-istri, bapak-ibu, kakak-adik, dsb. yang biner normal.
+2. **KATA KUNCI TERLARANG di seluruh post & komentar:** gay, lesbi,
+   lesbian, homoseks, transgender, waria, bencong, banci, queer, LGBT —
+   termasuk pun yang menyamar (slang lama "dadu gay" = dadu cacat). Ganti
+   kata: "dadu cacat", "dadu miring", "dadu tidak adil".
+3. **SWEEP OTOMATIS.** scripts/audit-formula15.ts Pola B9 kini memblokir
+   semua kata di atas — satu temuan = satu blokir commit. Kata netral yang
+   SERUPA tapi aman: "gaya nulis", "gaya 2,5 kN" (fisika), "homogen" —
+   tidak kena regex \b...\b, dibiarkan.
+
 ## BAGIAN 2 — FORMULA HITAM (19 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
 
 1. **Log uang presisi.** 2+ nominal besar + hitung selisih/kurang
@@ -255,6 +281,11 @@ TIGA HUKUM BARU yang lahir dari sini:
     dari soal, PR, konsep, jawaban, kepanikan ujian, atau pengalaman
     yang PUSATNYA hitungan/bentuk/angka. Bahasa asing = threads-intl.ts
     (full bahasa, komentar satu bahasa), BUKAN post Indonesia campuran.
+
+20. **KALIMAT RENTAN LGBT (sejak 7 Nov 2026 — BAGIAN 1H).** Semua aspek
+    pro-gay/LGBT dibuang total; dunia feed hanya wanita dan pria. Kata
+    terlarang: gay/lesbi/homoseks/transgender/waria/bencong/banci/queer —
+    juga pun menyamar ("dadu gay"). Audit Pola B9 memblokirnya.
 
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
@@ -505,6 +536,14 @@ Format: `id → penulis: topik (aspek matematika)`.
 
 **threads-9 (201-225) — V5 BATCH 5 (forum campuran, penulis 51-75 BARU):**
 201 → 51: trapesium (10+16)/2×6 = 78, dua trapesium jadi kotak · 202 → 52: minimal satu angka dari 2 koin = 3/4 · 203 → 53: 3⁴ = 81 bukan 12, menambah vs berlipat · 204 → 54: 12 koin 500 = 6rb, kurang 4rb dari 10rb (panjang) · 205 → 55: 729÷9 = 81, sisa 9 di pembagian 9 gak sah (0 komen) · 206 → 56: 0,25+0,5 = 0,75, titik vs koma · 207 → 57: rata 74 dari (72,68,76) butuh 80 · 208 → 58: −8+5 = −3, utang-utangan (pendek) · 209 → 59: lapangan 25 m, 4 putaran 5 mnt = 4,8 km/j · 210 → 60: 3/4 ÷ 3 = 1/4 = 3/12, pecahan senilai · 211 → 61: jam 4.30 sudut 45° (pendek, 0 komen) · 212 → 62: rata 13/hari buat stok kardus · 213 → 63: 20% dari 45 = 9, bukan 12 · 214 → 64: aula 216 bangku, tamu 248, 32 vs 36 · 215 → 65: 3,2 km: jalan 4,8 vs angkot 12,8 km/j · 216 → 66: bus 12 & 18 mnt, KPK 36 → 07.06 · 217 → 67: (−3)² = 9 vs −3² = −9 (pendek) · 218 → 68: diskon 40% bayar 39rb; 26rb = diskon 60% (panjang) · 219 → 69: akuarium 72.000 cm³ = 72 L, setengah 36 kg · 220 → 70: umur adik 2 kakak 8, 4 thn lagi 2× · 221 → 71: modus 4 (muncul 3×) bukan 5 · 222 → 72: beras 13.600 vs 12.500/kg, hemat 11rb · 223 → 73: 150 km ÷ 60 = 2,5 jam → 10.10 bukan 10.40 · 224 → 74: es teh untung 1.100/gelas (pendek) · 225 → 75: 2x+3y=12 tak terhingga solusinya
+
+**PERBAIKAN 7 Nov 2026 (BAGIAN 1H + hukum 4):** (a) id 106 threads-5 "dadu
+gue gay" → "dadu gue cacat" (post + komentar authorId 44) — kalimat rentan
+LGBT dibuang, matematika tak berubah; (b) komentar id 225 authorId 313 yang
+bunga "3x+3y=12 baru bisa dikejar satu jawaban" adalah SALAH (satu persamaan
+dua variabel tetap tak terhingga) — diganti daftar solusi bulat (0,4)/(3,2)/
+(6,0) dengan cek 2×6+3×0 = 12. Keduanya sudah masuk cek cek-matematika-v5
+dan blokir Pola B9 audit-formula15.
 
 ## STOK SUBTOPIK YANG DILARANG DIPAKAI LAGI DENGAN BENTUK SAMA
 

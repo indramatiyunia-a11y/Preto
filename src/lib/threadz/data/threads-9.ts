@@ -334,7 +334,7 @@ export const THREADS_PART9: ThreadzThread[] = [
       { authorId: 212, minutesAgo: 6737, content: "satu persamaan dua variabel itu satu garis lurus bre. semua titik di garis itu jawaban. x = 3 y = 2 dan x = 0 y = 4 sama-sama duduk di garis itu, dan titik-titik lain juga" },
       { authorId: 227, minutesAgo: 6729, content: "contoh uang bre: gue bilang 'dua dompet isinya total 12 ribu'. dompet 3 dan 2? bisa. dompet 0 dan 4? bisa. dompet 1 dan... 3,33 ribu? bisa juga kalau recehnya nyata 🙃" },
       { authorId: 268, minutesAgo: 6721, content: "jawaban tunggal itu lahir kalau ada DUA persamaan bre. satu persamaan baru satu syarat, syarat satu itu longgar. tidur dulu, besok kelasnya jelas" },
-      { authorId: 313, minutesAgo: 6713, content: "3x + 3y = 12 baru bisa dikejar satu jawaban bre. soal lu satu persamaan doang, bebasnya di sana" },
+      { authorId: 313, minutesAgo: 6713, content: "solusi bulat nonnegatifnya aja udah tiga bre: (0,4), (3,2), (6,0). cek 2×6 + 3×0 = 12 ✓. yang pecahan masih numpuk di garisnya, gak habis itung" },
     ],
   },
 ]
