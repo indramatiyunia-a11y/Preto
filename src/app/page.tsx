@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { ArrowDown, Dices } from "lucide-react"
 import { THREADS } from "@/lib/threadz/threads"
-import { getUser } from "@/lib/threadz/data/users"
 import { randomVisitor } from "@/lib/threadz/extras"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { ThreadCard } from "@/components/threadz/thread-card"
@@ -11,16 +10,15 @@ import { ThreadModal, type LiveComment } from "@/components/threadz/thread-modal
 import { ShareSheet } from "@/components/threadz/share-sheet"
 import { PostComposer } from "@/components/threadz/post-composer"
 import { Avatar } from "@/components/threadz/avatar"
-import { TABS, TAB_LABELS, type Tab } from "@/components/threadz/tabs"
 import { toast } from "@/hooks/use-toast"
 
-// feed tampil 10 post dulu, sisanya dibuka manual — biar ringan gak lagging
+// feed tampil 10 post per halaman — buka berikutnya MENGGANTI isi layar,
+// bukan menumpuk: maksimal 10 post dirender kapan pun. anti-lag.
 const PAGE_SIZE = 10
 const LS_ME = "threadz:me"
 
 export default function Home() {
-  const [tab, setTab] = useState<Tab>("terbaru")
-  const [visible, setVisible] = useState(PAGE_SIZE)
+  const [page, setPage] = useState(0)
   const [openThreadId, setOpenThreadId] = useState<number | null>(null)
   const [shareThreadId, setShareThreadId] = useState<number | null>(null)
   const [liveByThread, setLiveByThread] = useState<Record<string, LiveComment[]>>({})
@@ -52,27 +50,13 @@ export default function Home() {
     })
   }, [])
 
-  const commentCountOf = useCallback(
-    (t: ThreadzThread) => t.comments.length + (liveByThread[String(t.id)]?.length ?? 0),
-    [liveByThread]
-  )
-
   // cuitan buatan lu nempel paling atas, sisanya urutan data
   const allThreads = useMemo(() => [...myPosts, ...THREADS], [myPosts])
 
-  const feed = useMemo(() => {
-    if (tab === "terame") {
-      return [...allThreads].sort(
-        (a, b) => commentCountOf(b) - commentCountOf(a) || a.minutesAgo - b.minutesAgo
-      )
-    }
-    if (tab === "otak-belok") {
-      return allThreads
-        .filter((t) => getUser(t.authorId)?.persona === "begok")
-        .sort((a, b) => a.minutesAgo - b.minutesAgo)
-    }
-    return [...allThreads].sort((a, b) => a.minutesAgo - b.minutesAgo)
-  }, [tab, commentCountOf, allThreads])
+  const feed = useMemo(
+    () => [...allThreads].sort((a, b) => a.minutesAgo - b.minutesAgo),
+    [allThreads]
+  )
 
   const openThread =
     openThreadId === null ? null : allThreads.find((t) => t.id === openThreadId) ?? null
@@ -105,8 +89,7 @@ export default function Home() {
         comments: [],
       }
       setMyPosts((cur) => [post, ...cur])
-      setTab("terbaru")
-      setVisible(PAGE_SIZE)
+      setPage(0)
       toast({ description: "Cuitan berhasil dikirim." })
     },
     [visitor]
@@ -123,8 +106,8 @@ export default function Home() {
     toast({ description: `Identitas baru: ${v.name}` })
   }, [])
 
-  const shown = feed.slice(0, visible)
-  const hasMore = visible < feed.length
+  const shown = feed.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
+  const hasMore = (page + 1) * PAGE_SIZE < feed.length
 
   return (
     <div className="min-h-screen bg-[#f4f0e8] text-stone-900">
@@ -132,14 +115,9 @@ export default function Home() {
         {/* header */}
         <header className="sticky top-0 z-30 -mx-3 border-b border-stone-200/80 bg-[#f4f0e8]/92 shadow-[0_1px_10px_rgba(28,25,23,0.04)] backdrop-blur-md sm:-mx-4 sm:px-4">
           <div className="flex h-14 items-center justify-between px-3 sm:px-0">
-            <div className="flex items-center gap-2.5">
-              <span className="flex h-8 w-8 items-center justify-center rounded-[10px] bg-stone-900 font-serif text-lg text-amber-300 shadow-[0_1px_3px_rgba(28,25,23,0.25)]">
-                &Sigma;
-              </span>
-              <h1 className="font-serif text-[22px] font-bold tracking-tight text-stone-900">
-                Akiomida
-              </h1>
-            </div>
+            <h1 className="font-serif text-[22px] font-bold tracking-tight text-stone-900">
+              Akiomida
+            </h1>
             <button
               type="button"
               onClick={rerollIdentity}
@@ -151,26 +129,6 @@ export default function Home() {
               <Dices className="h-4 w-4 text-stone-500" />
             </button>
           </div>
-          <nav className="flex gap-6 px-1" aria-label="Tab feed">
-            {TABS.map((t) => (
-              <button
-                key={t}
-                type="button"
-                onClick={() => {
-                  setTab(t)
-                  setVisible(PAGE_SIZE)
-                }}
-                className={`-mb-px border-b-2 pb-2.5 pt-1.5 text-[14px] transition-colors ${
-                  tab === t
-                    ? "border-orange-700 font-semibold text-stone-900"
-                    : "border-transparent font-medium text-stone-500 hover:border-stone-300 hover:text-stone-800"
-                }`}
-                aria-pressed={tab === t}
-              >
-                {TAB_LABELS[t]}
-              </button>
-            ))}
-          </nav>
         </header>
 
         {/* feed */}
@@ -189,11 +147,15 @@ export default function Home() {
           ))}
 
           {hasMore ? (
-            /* penahan manual ala aplikasi ringan: scroll mentok, klik dulu baru lanjut */
+            /* penahan manual anti-lag: klik = GANTI isi layar dengan 10 berikutnya,
+               bukan nambah — jadi render selalu maksimal 10 post */
             <div className="flex justify-center py-8">
               <button
                 type="button"
-                onClick={() => setVisible((v) => v + PAGE_SIZE)}
+                onClick={() => {
+                  setPage((p) => p + 1)
+                  window.scrollTo({ top: 0, behavior: "smooth" })
+                }}
                 className="group flex items-center gap-2 rounded-full border border-stone-300 bg-white px-8 py-2.5 text-[14px] font-semibold text-stone-700 shadow-[0_1px_2px_rgba(28,25,23,0.05)] transition-all hover:border-stone-400 hover:bg-stone-50 hover:shadow-[0_2px_8px_rgba(28,25,23,0.08)] active:scale-[0.98]"
               >
                 Lihat lainnya
@@ -207,11 +169,11 @@ export default function Home() {
                 type="button"
                 onClick={() => {
                   window.scrollTo({ top: 0, behavior: "smooth" })
-                  setVisible(PAGE_SIZE)
+                  setPage(0)
                 }}
                 className="mt-2 text-[13px] font-medium text-orange-800/70 underline-offset-2 transition-colors hover:text-orange-800 hover:underline"
               >
-                Kembali ke atas
+                Kembali ke awal
               </button>
             </div>
           )}
