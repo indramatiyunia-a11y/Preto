@@ -1,7 +1,11 @@
 import type { ThreadzThread } from "../types"
 
-// PART 5: cuitan 101-125 — ROMBAK TOTAL V3 (Nov 2026). Penulis 1-25 urut.
-// Hukum isi: scripts/rumus-v2.md BAGIAN 2 (FORMULA HITAM dilarang) + BAGIAN 4.
+// PART 5: cuitan 101-125 — ROMBAK V5 (6 Nov 2026): total ganti isi jadi FORUM
+// MATEMATIKA (V3 lama masih diary harian). Slot teknis TIDAK berubah:
+// id 101-125, authorId 1-25 urut, minutesAgo = 25 + 30*(id-1), komentar
+// menyebar 0-6, komentar minutesAgo lebih kecil dari post-nya.
+// Aturan lengkap: scripts/rumus-v2.md BAGIAN 1G + FORMULA HITAM 19 POLA.
+// Tema file ini: statistika & peluang — bentuk BARU.
 export const THREADS_PART5: ThreadzThread[] = [
   {
     id: 101,
@@ -9,11 +13,11 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3025,
     shares: 20,
     content:
-      "Anak pertama pulang dari lomba matematika antar sekolah bawa bingkisan peserta, terus masuk kamar, lampu dimatikan. Pas aku suruh makan dia keluar mata merah, bilang gak lolos, soal ceritanya kebalik semua. Aku peluk dia malah gemes, bilang jangan dipegang-pegang, abes itu nangis di bahu aku. Sekarang dia tidur, aku di luar masih mikir besok pagi harus bilang apa. Aku takut salah patah-patahin semangatnya, gak mau dia ngerasa gagalnya dobel. Ada saran dari orang tua yang pernah begini?",
+      "Alhamdulillah nilai anak naik terus tapi dia maunya lebih. Tiga ulangan terakhir: 70, 75, 80. Dia bertanya kalau ulangan keempat harus berapa supaya rata-ratanya 78. Papanya bilang 78 saja sudah bagus, anaknya ngotot mau hitung. Kami hitung bersama: total 70 + 75 + 80 = 225, supaya rata-rata 78 dalam 4 ulangan harus total 312, jadi ulangan keempatnya 87. Dia menatap angka 87 itu lama, terus bilang besok belajar lebih lama. Yang ingin saya tanya: 87 itu benar ya hitungannya, jangan-jangan kami berdua salah sama-sama",
     comments: [
-      { authorId: 71, minutesAgo: 3017, content: "besok bilang 'makan dulu ya, urusan lomba itu urusan hari lombanya' bu. jangan bahas dulu, biarkan dia pegang hari biasanya dulu 🙏" },
-      { authorId: 90, minutesAgo: 3009, content: "anak yang sedih begitu butuh diajak bicara pas dia siap, bukan pas kita siap. sabar ya, yang begini emang gak ada rumusnya" },
-      { authorId: 262, minutesAgo: 3001, content: "kata 'gagalnya dobel' itu tepat sekali. yang paling berat memang merasa gagal dua kali. cukup jadi tempat pulangnya dulu" },
+      { authorId: 268, minutesAgo: 3017, content: "benar kak, 312 − 225 = 87. anak itu menargetkan dirinya sendiri, itu kebiasaan yang baik" },
+      { authorId: 74, minutesAgo: 3009, content: "87 benar. cek baliknya: 225 + 87 = 312, dibagi 4 = 78. dua-duanya sudah dipegang angka" },
+      { authorId: 59, minutesAgo: 3001, content: "kak, anak bertanya begitu sebelum ujian itu langka. jangan diganggu, dia sedang menyusun rencana" },
     ],
   },
   {
@@ -22,10 +26,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3055,
     shares: 27,
     content:
-      "JAM 9 MALEM LAMPU KOS MATI. GUE DAN DUA TEMEN PINDAH BELAJAR KE TERAS WARKOP SEBELAH. TERNYATA MENGERIKAN: DI KASIR ADA LAMPU KUNING, DI MEJA KITA SATU LAMPU PUTIH, DAN SOAL INTEGRAL GUE JADI KELIHATAN LEBIH SEDERHANA, ATAU MATA GUE YANG SUDAH TIDAK JELAS. TEMEN GUE NYURUH GUE GANTI TEMPAT BELAJAR TIAP MINGGU KARENA 'OTAK BUTUH GANTI UDARA'.\ngue gak tahu itu sains atau omongan penjual minuman yang mau kami balik lagi. yang jelas tugasnya selesai jam 11 dan lampu kos masih mati",
+      "STATISTIKA KAMAR 6 ORANG DAN GUE GAK PUAS SAMA GURU. nilai mat: 60, 65, 70, 75, 80, 90. gue hitung mean: total 440 dibagi 6 = 73,3. median: 70 dan 75 dirata = 72,5. BUKAN APA-APA KALAU ANGKANYA BEDA TIPIS, YANG GUE BINGUNG KENAPA HARUS ADA DUA CARA. gurunya bilang biar adil. ADIL ITU ALASAN ATAU HIBURAN.\nyaudah gue nanya ke sini: kapan mean bohong dan median lebih jujur, kalo ada yang bisa jelasin pake contoh nyata makasih banyak deh",
     comments: [
-      { authorId: 212, minutesAgo: 3047, content: "ganti tempat belajar itu bener kak, otak nyimpen konteks ke tempat. makanya yang belajar di kasur suka ngesleep di kasur 🙃" },
-      { authorId: 44, minutesAgo: 3039, content: "warkop sebelah itu loker belajar rahasia bre, jangan bocorin ke anak kos gedung lain wkwk" },
+      { authorId: 212, minutesAgo: 3047, content: "contoh nyata: gaji kantor 9 orang 4 juta, satu bos 100 juta. mean jadi 13,6 juta, tidak ada yang gaji segitu. median tetap 4 juta. satu angka gede bisa menyeret mean" },
+      { authorId: 227, minutesAgo: 3039, content: "mean bohong kalau ada pencilan bre. median gak peduli sebesar apa angka ekstrem, dia cuma lihat yang tengah" },
+      { authorId: 209, minutesAgo: 3031, content: "mean itu tergantung semua angka, median cuma posisi. makanya berita gaji dan harga rumah pakai median" },
+      { authorId: 313, minutesAgo: 3023, content: "440 ÷ 6 = 73,3 bre, dan (70+75) ÷ 2 = 72,5. itungan lu rapi, tinggal pilih ceritanya" },
     ],
   },
   {
@@ -34,11 +40,11 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3085,
     shares: 24,
     content:
-      "Pertanyaan murid kelas 2 hari ini: Bu, kenapa 10 lebih besar dari 9, padahal 9 cuma kurang satu? Ia bertanya sambil menghitung jari, sungguh-sungguh. Saya jawab karena 10 datang setelah 9. Ia bertanya lagi: kalau hanya soal datang setelahnya, bukankah 11 juga datang setelahnya, kok tidak sebesar itu rasanya?\nSaya diam sebentar. Anak itu sedang menyentuh perbedaan urutan dan besaran, sesuatu yang biasa saya ajarkan di kelas 4 dengan cara melelahkan, dan ia menyentuhnya sendiri di kelas 2. Ada saran cara merangkul pertanyaan seperti ini tanpa membunuh kegembiraannya?",
+      "Kelas saya berisi 28 murid. Ketika nilai diurutkan dari terkecil, median terletak di antara urutan ke-14 dan ke-15, sehingga keduanya harus dirata-rata. Murid ke-14 bertanya hari ini: kenapa saya tidak jadi median saja, saya satu-satunya di tengah. Saya menjawab bahwa jumlah murid yang genap membuat posisi tengah terbelah dua, tetapi ia bertanya lagi: kalau begitu kenapa sekolah tidak mengatur kelas menjadi 29 orang supaya median tunggal? Saya tertawa, lalu tersadar bahwa pertanyaan itu sungguh menarik. Apakah ada pengajar yang pernah menjelaskan posisi median dengan cara yang tidak membuat murid tengah merasa diabaikan?",
     comments: [
-      { authorId: 39, minutesAgo: 3077, content: "rangkul dengan membuktikan bu: minta 9 kelereng dan 10 kelereng, pasangkan satu-satu, sisanya satu. itulah yang membuat 10 lebih besar, bukan karena giliran datang" },
-      { authorId: 258, minutesAgo: 3069, content: "ibu dulu juga pernah dibingungkan murid kayak gini, akhirnya jawab jujur 'pertanyaan bagus, besok kita cari bareng'. besoknya dia datang bawa kelereng sendiri" },
-      { authorId: 90, minutesAgo: 3061, content: "murid begini kalau dibiarkan penasaran biasanya tumbuh jadi anak yang suka membuktikan sendiri bu 😄" },
+      { authorId: 258, minutesAgo: 3077, content: "murid ke-14 dan ke-15 adalah dua penjaga pintu median bu. keduanya sama penting, tanpa salah satu, pintu tidak ada" },
+      { authorId: 268, minutesAgo: 3069, content: "anjurkan kelompok berpasangan bu: murid ke-1 dengan ke-28, ke-2 dengan ke-27, dan seterusnya. yang bertemu di tengah adalah ke-14 dan ke-15" },
+      { authorId: 39, minutesAgo: 3061, content: "kelas 29 orang tidak menjamin adil bu, hanya menggeser persoalan. yang penting murid memahami bahwa median adalah posisi, bukan jabatan" },
     ],
   },
   {
@@ -47,10 +53,8 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3115,
     shares: 3,
     content:
-      "AC ruang kerja baru menyala jam 10.14, setelah dua teknisi dan satu telepon ke gudang. Sebelum itu ruangan dilayani kipas meja yang suaranya seperti mau bercerita. Sekarang sejuk, sepi, dan surel mengalir kembali seperti biasa.",
-    comments: [
-      { authorId: 192, minutesAgo: 3107, content: "kipas meja itu pembicara paling setia di kantor om, sekali AC hidup langsung pensiun" },
-    ],
+      "Absen bulan lalu: 9 hari kerja, hadir 8. Persen 88,9. HRD menulis 89. Rekan menanyakan mana yang benar. Jawabannya tergantung berapa digit yang diminta laporan. Saya memilih tidak memperpanjang diskusi jam istirahat.",
+    comments: [],
   },
   {
     id: 105,
@@ -58,10 +62,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3145,
     shares: 36,
     content:
-      "guru matematika langganan warung nitip fotokopi soal 40 lembar, buat ulangan kelas 6 besok. dia bayar di muka, terus duduk nunggu sambil ngobrol sama pelanggan lain soal cara nyelametin anak yang takut matematika. gue fotokopi sambil dengar. dikit-dikit gue mikir: orang yang jago matematika aja masih mikirin cara bikin anak gak takut. berarti takut itu wajar banget ya",
+      "warung gue pasang roda undian 8 bagian, 2 bagian diantaranya hadiah. jadi peluang dapat hadiah 2/8 = 1/4. kemarin ada yang muter 20 kali, dapet hadiah 6 kali. dia curiga roda gue diatur. gue itung: 1/4 dari 20 itu 5. dapet 6 itu lebih satu. SEKARANG GUE YANG CURIGA, emang gak diatur kan? atau ada kira-kira batas wajar dapet hadiah berapa dari 20 muter, biar kalau ada yang ngeyel gue punya jawaban selain teriak",
     comments: [
-      { authorId: 272, minutesAgo: 3137, content: "guru yang masih mikirin rasa takut muridnya itu guru yang hatinya utuh, dik" },
-      { authorId: 84, minutesAgo: 3129, content: "40 lembar itu fotokopiannya gampang, yang susah nungguin mesinnya gak macet di lembar ke-37" },
+      { authorId: 262, minutesAgo: 3137, content: "harapan dari 20 putaran itu 5, tapi hasil nyata boleh naik-turun. dapat 6 masih sangat wajar. yang mencurigakan kalau 20 putaran dapat 15" },
+      { authorId: 118, minutesAgo: 3129, content: "kak, coba catat 100 putaran. kalau hasilnya mendekati 25, roda kakak jujur. 20 putaran itu terlalu pendek buat vonis" },
+      { authorId: 84, minutesAgo: 3121, content: "peluang itu ramalan jangka panjang kak, bukan janji tiap putaran. 6 dari 20 itu hoki pembeli, bukan magis roda" },
+      { authorId: 60, minutesAgo: 3113, content: "jawab aja pakai selera: lebih 1 hadiah = satu kotak es teh gratis. pembeli seneng, warung gak rugi berapa" },
     ],
   },
   {
@@ -70,12 +76,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3175,
     shares: 4,
     content:
-      "gue baru dikoreksi dua orang sekaligus gara-gara itungan telur. gue bilang setengah dozen itu 5 soalnya dozen itu 10, kan 10 dibagi 2. ternyata dozen itu 12. TERUS KENAPA ADA SATUAN YANG 12, KENAPA GAK 10 AJA, KAN JARI TANGAN CUMA 10. temen kos gue bilang dozen itu warisan jaman dulu. gue gak terima warisan yang bikin gue gak bisa itung telur. tolong yang paham jelasin, gue pengen menang satu kali aja di urusan telur",
+      "gue yakin dadu gue gay. peluang keluar 6 itu kan 1 dari 6, terus gue lempar 10 kali gak sekali pun keluar 6. sepuluh kali bre. gue cek dadunya bulat-bulat gak ada yang aneh. terus temen kos bilang 1 dari 6 itu gak janji tiap 6 lempar. gue gak ngerti. kalau gak janji, buat apa ditulis 1/6? ada yang bisa jelasin gak pake istilah asing",
     comments: [
-      { authorId: 212, minutesAgo: 3167, content: "dozen = 12 bre, setengahnya = 6. soal kenapa 12: itu bisa dibagi 2, 3, 4, 6, gampang buat jual-beli zaman dulu. jari tangan kalah fleksibel 🙃" },
-      { authorId: 118, minutesAgo: 3159, content: "coba itung nampan telur bre, kebanyakan isi 30, dan 30 juga gak gampang dibagi sama jari tangan wkwk" },
-      { authorId: 154, minutesAgo: 3151, content: "menang telur bukan prioritas bre, menang harga aja udah cukup" },
-      { authorId: 262, minutesAgo: 3143, content: "12 dipilih karena mudah dibagi dua, tiga, empat, dan enam. sistem lama suka angka yang bisa dibagi-bagi, bukan yang dekat dengan jari" },
+      { authorId: 219, minutesAgo: 3167, content: "1/6 itu perkiraan kalau dilempar BANYAK kali bre. 10 kali itu kebanyakan, bisa aja gak muncul sama sekali. coba 60 kali, kira-kira 10 kali muncul 6, tapi juga gak pasti pas" },
+      { authorId: 138, minutesAgo: 3159, content: "dadu gak ngerti janji bre wkwk. peluang itu ramalan rata-rata, bukan kontrak" },
+      { authorId: 118, minutesAgo: 3151, content: "paling gampang: 10 lempar itu cuma cuplikan pendek. film 10 detik gak bisa dinilai bagus jeleknya" },
+      { authorId: 44, minutesAgo: 3143, content: "dadunya gay atau bukan, 10 lempar belum cukup buat buka kasus wkwk" },
     ],
   },
   {
@@ -84,11 +90,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3205,
     shares: 32,
     content:
-      "guys, tolong bantu. bab metode penelitian gue disuruh jelasin beda populasi dan sampel pakai bahasa yang gak bikin dosen ngantuk. gue nyoba: populasi itu semua ayam di pasar, sampel itu yang lo beli. dosen bilang contohnya menarik tapi 'kurang serius'. LHA TERUS GIMANA SERIUSNYA. ada versi yang serius tapi tetap gampang? contoh kehidupan nyata boleh, yang penting gak kayak jawaban buku yang semua orang hafal tapi tidak ada yang paham 🙃",
+      "skripsi bab empat: dari 40 responden, 12 memakai fitur utama. gue hitung 12 ÷ 40 = 0,3 = 30%. pembimbing minta diagram lingkaran. gue baca-baca cara bikin: persen × 360 derajat. jadi 0,3 × 360 = 108 derajat buat irisan fitur utama. sisa 252 derajat untuk sisanya. TERUS GUE MIKIR, 108 itu angka yang aneh, kok bukan 90 ato 120, jadi gue cek ulang dua kali dan tetap 108. 🙃 bener kan ya 30% itu memang 108 derajat di lingkaran, gue gak mau salah di gambar paling gampang",
     comments: [
-      { authorId: 209, minutesAgo: 3197, content: "populasi = seluruh siswa di sekolah lu, sampel = beberapa kelas yang lu pilih buat kuesioner. semua anak vs beberapa anak yang mewakili 🙃" },
-      { authorId: 227, minutesAgo: 3189, content: "kalimat amannya kak: populasi itu kelompok lengkap yang mau diteliti, sampel itu bagian yang benar-benar diteliti karena tidak mungkin semua. aman buat tugas, gak kedengeran kayak curhat ayam wkwk" },
-      { authorId: 154, minutesAgo: 3181, content: "contoh ayam lu bener kak, cuma ganti pasar jadi peternakan, langsung kena nilai ilmiahnya wkwk" },
+      { authorId: 212, minutesAgo: 3197, content: "bener kak, 30% × 360° = 108°. angka gak harus bulat cantik, yang penting proporsinya pas" },
+      { authorId: 209, minutesAgo: 3189, content: "cek cepet kak: 10% = 36°, jadi 30% = 3 × 36 = 108°. cocok" },
+      { authorId: 154, minutesAgo: 3181, content: "252° sisanya juga tepat kak (70% × 360). diagramnya aman, lanjut ke pembahasan" },
+      { authorId: 143, minutesAgo: 3173, content: "108 itu derajat segi lima beraturan juga kak, kebetulan cantik kok 🙃" },
     ],
   },
   {
@@ -97,23 +104,23 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3235,
     shares: 7,
     content:
-      "catatan serah terima: kamar 7 urusan kecil, jangan panik.\nmasuk ternyata urusan kecil itu remot TV. pasien nunggu dari sore, gak ada yang ngecek, pasien udah hafal semua acara dari ingatan.\ngua ganti baterai. tetap mati. ternyata tombolnya yang rusak. dua jam gua buang buat remot yang sebenarnya udah pensiun.\ncatatan buat shift lain: kata kecil di laporan itu bohong, jangan dipercaya",
+      "suhu pasien 6 jam terakhir:\n37,0 / 37,5 / 38,0 / 37,5 / 37,0 / 36,5\njumlah 223,5, dibagi 6 = 37,25.\nrata-rata dibawah 37,5. grafik boleh turun ya dokter bilang.\nyang gue nanya: 37,25 itu ditulis apa di chart, dua angka di belakang boleh?",
     comments: [
-      { authorId: 258, minutesAgo: 3227, content: "kata 'urusan kecil' itu kode semua shift, isinya gak pernah kecil. kemarin 'kecil' di tempat kami ternyata pintu freezer yang udah mati dua hari" },
+      { authorId: 240, minutesAgo: 3227, content: "boleh, chart biasanya satu-dua desimal. 37,25 sah. tren turunnya yang lebih penting dari desimalnya" },
+      { authorId: 258, minutesAgo: 3219, content: "223,5 ÷ 6 = 37,25 benar. tulis 37,3 kalau chart satu desimal, ikut aturan unit" },
     ],
   },
   {
     id: 109,
     authorId: 9,
     minutesAgo: 3265,
-    shares: 21,
+    shares: 15,
     content:
-      "order jam 2 pagi, catatan pembacanya: bang nolep dulu di depan 5 menit, anak lagi tidur, jangan bunyi. gue parkir, matiin mesin, dengarkan suara jalan raya selama 5 menit. terus gue nyium bau roti dari dalam, entah roti siapa. gue kirim notifikasi pelan, pembeli keluar, ambil pesanan, bilang makasih dua kali.\ngue gak tau nama anaknya. yang gue tau, jam 2 pagi itu ada rumah yang lagi jaga tidur anak kecil, dan gue bagian dari yang menjaga jangan bunyi",
+      "lu pernah itung order batal gak bang. hari hujan: 10 order, 3 batal. gue itung 3 dari 10. temen gue bilang 30% itu kek gede banget, gue bilang hari hujan emang begitu. nah gue penasaran, berapa persen batal yang dianggap wajar buat ojol, dan batal seperti ini masuk hitungan app gak ya. gue gak mau ngeluh ke platform terus nanti dicap penakut",
     comments: [
-      { authorId: 199, minutesAgo: 3257, content: "pekerjaan begini bang, yang diantar bukan cuma makanan, tapi jeda tidur orang lain" },
-      { authorId: 272, minutesAgo: 3249, content: "5 menit mematikan mesin itu penghormatan paling murah dan paling mahal nilainya, bang" },
-      { authorId: 137, minutesAgo: 3241, content: "bre catatan begini yang bikin gue gak bisa marah ke aplikasi" },
-      { authorId: 84, minutesAgo: 3234, content: "catatan 'anak lagi tidur' itu yang bikin nyetir paling pelan seumur hidup. gua pernah, rasanya kayak jadi anggota keluarganya" },
+      { authorId: 137, minutesAgo: 3257, content: "hari hujan 30% batal itu biasa bang. hari cerah biasanya jauh dibawah itu" },
+      { authorId: 186, minutesAgo: 3249, content: "pelanggan yang batal tidak merugikan rating lu bang, cuma bikin emosi. yang bahaya lu yang batal duluan" },
+      { authorId: 154, minutesAgo: 3241, content: "catat bang tiap hari hujan. kalau rutin 30%, lu bisa atur jam ngetem lu sendiri, banyak untungnya" },
     ],
   },
   {
@@ -122,10 +129,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3295,
     shares: 25,
     content:
-      "SPRINT BELAJAR MATEMATIKA HARI INI: 25 MENIT KERJA, 5 MENIT ISTIRAHAT, EMPAT PUTARAN. GUE SAMPE PUTARAN KETIGA MASIH WARAS, PUTARAN KEEMPAT ISTIRAHAT 5 MENITNYA JADI 40 MENIT KARENA GUE NONTON SATU VIDEO KUCING DI LANTAI WARUNG. TEMEN GUE BILANG ITU NORMAL, KATANYA OTAK BUTUH BONUS. GUE BILANG BONUSNYA KEPANJANGAN.\nada rekomendasi timer yang gak bisa diutak-atik pas gue lagi males? timer ponsel gue gampang banget ditunda wkwkwk",
+      "PR DIAGRAM BATANG NYARIS HABISIN NYAWA GUE WKWKWK. nilai kelas, sumbu datar = nilai, sumbu tegak = jumlah orang. soalnya minta modus. gue jawab 80 karena batangnya paling tinggi, TERNYATA BATANG TERTINGGI ITU DI ATAS ANGKA 80 DI SUMBU DATAR, BUKAN NILAI 80 DOANG, SOALNYA NILAI 80 SAMA 85 DIGABUNG SATU BATANG. guru bilang hati-hati baca sumbunya. TEMEN GUE YANG JAWAB 82,5 DIANGGAP BENAR SOALNYA DIA PAKAI TITIK TENGAH BATANG. KOK BISA BEGITU. ada yang bisa jelasin kenapa titik tengah batang yang dipakai",
     comments: [
-      { authorId: 154, minutesAgo: 3287, content: "timer fisik bre, yang harus diputar manual. keliatan megah, susah dikorupsi wkwk" },
-      { authorId: 223, minutesAgo: 3279, content: "taruh ponselnya di ruangan lain kak, timer apa pun kalah sama ponsel yang dalam jangkauan 🙃" },
+      { authorId: 131, minutesAgo: 3287, content: "karena batang itu mewakili rentang bre. 80-85 diperlakukan sebagai satu kelompok, titik tengahnya 82,5 jadi wakilnya" },
+      { authorId: 223, minutesAgo: 3279, content: "modus data berkelompok itu emang pakai titik tengah kelas bre. gak pake satu nilai tunggal" },
+      { authorId: 143, minutesAgo: 3271, content: "kejadian lu itu classic bre wkwk. sumbu datar diagram batang itu jebakan favorit guru" },
+      { authorId: 313, minutesAgo: 3263, content: "catet bre: batang tinggi = sering muncul. titik tengah = alamatnya" },
     ],
   },
   {
@@ -134,11 +143,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3325,
     shares: 27,
     content:
-      "Ada hal yang mengganggu saya sejak sore. Untuk pekerjaan perhitungan, saya terbiasa dan cepat. Tetapi ketika seorang rekan meminta saya menjelaskan langkah-langkahnya, tiba-tiba saya lupa urutannya dan berbicara melompat-lompat, hingga ia makin bingung. Sepertinya otak menyimpan cara sebagai kebiasaan, bukan sebagai cerita.\nApakah ini hal biasa? Saya ingin bisa menjelaskan dengan rapi, bukan hanya melakukannya dengan rapi. Terima kasih sebelumnya.",
+      "Aku sedang membuat rata-rata bergerak 5 hari untuk laporan penjualan. Data: 120, 135, 128, 140, 132. Total 655, rata-rata 131. Hari ke-6 tercatat 150, sehingga rata-rata 6 hari menjadi 805 ÷ 6 = 134,17. Pertanyaanku dua: pertama, benar ya angka 134,17, saya membulatkan dua desimal. Kedua, kenapa rata-rata ikut naik 3,17 padahal hari ke-6 itu 150, tampak kecil pengaruhnya? Ia naik karena dibagi enam sekarang, tetapi rekan kantor berkeras naiknya harus sekitar 19. Aku butuh kalimat penjelasan yang tenang sebelum rapat Senin",
     comments: [
-      { authorId: 262, minutesAgo: 3317, content: "biasa, dan itu wajar. yang bisa dilakukan setengah tidur memang sulit dijadikan cerita. coba tulis langkahnya dulu, lalu baca ulang" },
-      { authorId: 209, minutesAgo: 3309, content: "ini curse of knowledge kak, yang jago lupa rasanya jago. jurusnya: jelaskan ke anak kecil sekali, langsung ketahuan bagian mana yang terlompat 🙃" },
-      { authorId: 192, minutesAgo: 3301, content: "dunia kerja penuh orang yang bisa tetapi tidak bisa menjelaskan. yang bisa dua-duanya itu jarang dan selalu dicari bu" },
+      { authorId: 262, minutesAgo: 3317, content: "134,17 benar kak. rata-rata menyesuaikan diri ke angka baru: semua nilai lama ikut terbagi. 150 itu satu dari enam, bukan satu dari satu" },
+      { authorId: 283, minutesAgo: 3309, content: "naik 19 itu salah kak, itu cuma selisih 150 dengan 131. rata-rata baru dihitung ulang dari total, bukan dari selisih terakhir" },
+      { authorId: 205, minutesAgo: 3301, content: "kalimatnya begini kak: rata-rata baru = (655 + 150) ÷ 6 = 134,17. angka lama ikut kebagian pembagi baru" },
+      { authorId: 258, minutesAgo: 3293, content: "rekan itu melupakan pembaginya kak. 150 memang di atas rata-rata lama 19, tetapi pengaruhnya diencerkan oleh enam hari" },
     ],
   },
   {
@@ -147,7 +157,7 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3355,
     shares: 4,
     content:
-      "pasien disuruh mencatat tekanan darah tiga kali sehari.\ngue periksa malam ini.\nisinya jam makan. lengkap. tiga hari.\nyang tercatat rapi tidak selalu yang diminta.",
+      "catat tekanan pasien 12 hari.\n3 hari bolong, pasien pulang kampung.\ndata utuh 9 hari.\ncukup gak buat lihat pola.",
     comments: [],
   },
   {
@@ -156,10 +166,11 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3385,
     shares: 18,
     content:
-      "nanya dong, soalnya gue gk nemu jawabannya: kubus sama balok kalau volumenya sama-sama 120, bedanya apa? kan sama-sama punya rusuk, sama-sama bisa ditaro di meja, sama-sama kotak. guru gue bilang beda bentuk, itu jawaban kayak gak jawab. ada yang bisa jelasin yang benar-benar beda? gue gk mau dijelasin pakai kata tentu saja beda lagi wkwkwk",
+      "gk ngerti peluang koin lagi. PR: lempar 2 koin, peluang muncul 2 gambar. gue jawab 1/3 soalnya kemungkinan itu cuma 3: dua2nya gambar, dua2nya angka, ato campur. guru coret, tulis 1/4. gue masih bingung smpe skrg, dari mana datengnya 4. temen bilang campur itu dipecah jadi dua. dipecah gimana sih. tolong jelasin pk benda nyata, jgn pake tabel aneh2, gk nangkep",
     comments: [
-      { authorId: 212, minutesAgo: 3377, content: "kubus semua rusuknya sama panjang bre, balok tidak harus. volume sama tidak bikin bentuk sama, seperti dua orang beratnya sama tapi tingginya beda 🙃" },
-      { authorId: 331, minutesAgo: 3369, content: "contoh nyatanya bre: rusuk kubus volume 120 itu bukan bilangan bulat, tapi balok bisa 5×4×6 = 120. balok lebih nawar" },
+      { authorId: 118, minutesAgo: 3377, content: "koin pertama dua kemungkinan, koin kedua dua kemungkinan. 2 × 2 = 4 bre: gambar-gambar, gambar-angka, angka-gambar, angka-angka. campur itu dua kemungkinan terpisah, bukan satu" },
+      { authorId: 331, minutesAgo: 3369, content: "coba lempar beneran bre 20 kali, catet. campur keluar lebih sering dari gambar-gambar. situ langsung nangkep kenapa 4" },
+      { authorId: 154, minutesAgo: 3361, content: "gambar-angka sama angka-gambar itu beda bre, urutannya beda. itu sumber angka 4-nya" },
     ],
   },
   {
@@ -168,147 +179,151 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3415,
     shares: 9,
     content:
-      "om-om yang tiap sore lewat pos, hari ini titip payung. katanya besok pagi dia ambil, sementara payungnya nginep di pos bareng gue dan korbannya. pos kecil itu tiba-tiba punya tamu. besok kalau dia lupa ambil, gue taruh di kursi paling terang, biar kelihatan dari jalan.",
+      "pos jam 07-08 masuk 14 motor. jam 08-09 masuk 22. jam 09-10 masuk 9. jam tersibuk 08-09. om nanya pos baru dibuka mana, gue tunjuk angka ini. cukup.",
     comments: [
-      { authorId: 272, minutesAgo: 3407, content: "mas, payung nginep di pos ini jangan lupa dicatet juga, biar besok ada bukti gak hilang wkwk" },
+      { authorId: 199, minutesAgo: 3407, content: "22 motor dalam sejam itu padat om. pos baru enak deket gedung kantor" },
     ],
   },
   {
     id: 115,
     authorId: 15,
     minutesAgo: 3445,
-    shares: 20,
+    shares: 14,
     content:
-      "pembeli baru bertanya, teh, beda ayam kampung sama broiler apa ya? aku jelaskan pakai tangan: yang kampung jaganya panjang, badannya mungil, kulitnya lebih kuning; yang broiler jaganya pendek, badannya lebar. dia mendengar serius, mengangguk, lalu di akhir bilang: ambil yang murah aja teh. aku ketawa sampai penjual sebelah ikut ketawa. dua-duanya ayam teh, yang beda cuma ceritanya",
+      "catatan buku tulis gue: omzet lima hari 210, 180, 240, 190, 230 ribu. jumlah 1.050, rata-rata 210 ribu. minggu lalu rata-rata 230 ribu, jadi turun 20 ribu sehari. gue udah itung dua kali pake kalkulator tetangga. yang gue mau nanya, turun 20 ribu itu jelek banget gak ya buat warung kecil? karena di kepala gue rasanya gede, tapi pembeli tetap lalu-lalang kayak biasa. teh gak mau panik sebelum waktunya",
     comments: [
-      { authorId: 84, minutesAgo: 3437, content: "beda ayam kampung sama broiler itu kayak beda nasi hangat sama nasi dingin, jelas rasanya tapi susah dijelasin pakai kata" },
-      { authorId: 102, minutesAgo: 3429, content: "yang murah itu broiler teh, tapi masak lama banget mah pakai kampung. dua-duanya punya jatah" },
-      { authorId: 71, minutesAgo: 3421, content: "penjelasan pakai tangan itu lebih nempel dari diagram teh 😄" },
-      { authorId: 262, minutesAgo: 3414, content: "ayam kampung jaganya panjang teh? baru tau saya, biasanya cuma nebak dari kulitnya, kadang ketuker" },
+      { authorId: 102, minutesAgo: 3437, content: "20 dari 230 itu sekitar 8,7 persen teh. masih normal naik-turun mingguan, panik kalau turunnya lewat 15 persen dua minggu beruntun" },
+      { authorId: 84, minutesAgo: 3429, content: "coba cek teh hari apa yang beda. kadang satu hari libur besar doang yang menyeret rata-rata turun" },
+      { authorId: 32, minutesAgo: 3421, content: "iya teh, ternyata jumat ada yang tutup pasar. berarti bukan dagangan yang jelek wkwk" },
     ],
   },
   {
     id: 116,
     authorId: 16,
     minutesAgo: 3475,
-    shares: 15,
+    shares: 9,
     content:
-      "AC ruangan kami diperbaiki dan hasilnya terlalu berhasil. Suhunya seperti ruang penyimpanan sayur. Hari ini empat orang membawa selimut, satu orang membawa sarung tangan rajutan buatan ibunya, dan rapat tetap berjalan serius sambil menggigil halus. Besok saya bawa jaket tebal dan satu kaus kaki ekstra.\nKita sering berharap keadaan berubah, lalu kaget karena benar-benar berubah.",
+      "Survei kantin kantor: 40 karyawan. 25 memilih kopi, 10 teh, 5 lain-lain. Persennya 62,5 / 25 / 12,5. Bos bertanya kenapa angka kopi bukan 60 persen, katanya sepertiga lebih dari teh seharusnya rapi. Aku menjelaskan 25 ÷ 40 = 0,625, tidak ada yang bisa digeser karena total harus 100. Ia masih menatap angka 62,5 dengan wajah meragukan. Adakah rekan yang pernah menghadapi bos yang meminta persen dibulatkan supaya rapi? Bagaimana caranya tetap jujur tanpa terdengar mengoreksi bos di depan karyawan lain",
     comments: [
-      { authorId: 243, minutesAgo: 3467, content: "kantor dengan AC kebanyakan dingin itu kantor dengan rapat panjang non, dua-duanya satu paket" },
-      { authorId: 283, minutesAgo: 3459, content: "kaus kaki ekstra itu langkah lebih bijak daripada protes ke gedung, non" },
+      { authorId: 262, minutesAgo: 3467, content: "62,5 itu tepat kak, tidak perlu dibulatkan. bos biasanya setuju begitu melihat 25 ÷ 40 di kalkulator" },
+      { authorId: 283, minutesAgo: 3459, content: "kalau dipaksa rapi kak, tetap cantumkan angka asli di lampiran. kejujuran tinggal di sana, rapat tenang" },
+      { authorId: 192, minutesAgo: 3451, content: "40 responden memang suka menghasilkan desimal kak. 62,5 = 5/8. angka yang sah" },
     ],
   },
   {
     id: 117,
     authorId: 17,
     minutesAgo: 3505,
-    shares: 19,
+    shares: 21,
     content:
-      "bro, tugas lab hari ini: ukur tebal karton cover buku pakai mikrometer. hasil gue 0,35 mm. karton milik temen gue 0,32 mm, karton yang dari perpustakaan 0,38 mm. gue mikir, kenapa karton yang sama-sama disebut cover beda-beda tebalnya? dosen bilang itu normal, tebal karton menyesuaikan berat isi buku, biar tidak melar pas dijilid. jadi buku tebal itu tidak cuma isinya yang berat, punggungnya juga diitung.\nbro, ada yang pernah jadi korban buku yang punggungnya melar?",
+      "bro, tugas laporan kecil nanya: waktu cetak 3D dicoba 5 kali: 42, 45, 44, 47, 42 menit. gue hitung rata-rata 44, range 47−42 = 5. temen gue bilang lapor range aja, gue bilang rata-rata, terus kita sama-sama bingung mana yang ditulis. laporan kecil doang sih tapi nilai nyangkut di situ bro. kalian biasanya nulis apa, dua-duanya atau pilih satu",
     comments: [
-      { authorId: 213, minutesAgo: 3497, content: "pernah bro, modul 400 halaman yang punggungnya melar sampai seperti dibekap buku sebelah. karton 0,35 itu standar cover teks biasa 🙃" },
-      { authorId: 223, minutesAgo: 3489, content: "mikrometer presisinya 0,01 mm bro, angka lu itu kepercayaan tinggi. jangan lupa cek zero error dulu 🙃" },
-      { authorId: 318, minutesAgo: 3481, content: "bro, mikrometer bisa buat karton juga ya, saya kenalnya cuma buat ukur kawat pas praktikum" },
+      { authorId: 213, minutesAgo: 3497, content: "dua-duanya bro. rata-rata 44 buat angka utama, range 5 buat nunjukin seberapa stabil. laporan beda cerita kalau cuma satu" },
+      { authorId: 336, minutesAgo: 3489, content: "42 muncul dua kali bro, itu juga layak disebut. waktu paling sering keluar" },
+      { authorId: 144, minutesAgo: 3481, content: "kalau disuruh pilih satu, rata-rata bro. range gak bisa dipakai menebak hasil berikutnya" },
     ],
   },
   {
     id: 118,
     authorId: 18,
     minutesAgo: 3535,
-    shares: 9,
+    shares: 11,
     content:
-      "paket hari ini enteng, isinya satu sepatu. gue kira salah kirim, gue tanya penerima, dia bilang benar, pasangannya dikirim kemarin lewat jalur lain, katanya biar tidak sekaligus hilang. logis juga sih, tapi bikin kerjaan gue dobel catat. sore ini pasangannya nyampe, gue taruh sebelahnya sambil foto, seumur kerja baru sekali lihat sepatu nyatu lagi",
+      "kemarin bawa 45 kilo mangga ke pasar. terjual 30. sisa 15. gue itung 30 dari 45 itu dua per tiga. besok bawa berapa enaknya ya om? musim rame tapi gak mau modal nganggur",
     comments: [
-      { authorId: 144, minutesAgo: 3527, content: "bre strategi pisah jalur itu cerdas, kalau satu hilang setengah cerita masih ada" },
-      { authorId: 187, minutesAgo: 3519, content: "pisah jalur itu biasa mas, apalagi sepatu mahal, katanya asuransinya juga ikut jalur beda" },
-      { authorId: 313, minutesAgo: 3511, content: "sepatu tunggal di satu rak itu foto harus dikeluarkan bre, momen langka" },
-      { authorId: 272, minutesAgo: 3503, content: "mas, sepatu kiriman terpisah biasanya pasangannya nyampe duluan ya? punya saya kemarin kebalik, yang satu nginep 4 hari" },
-      { authorId: 133, minutesAgo: 3496, content: "bre besok jangan diantar bareng lagi, biar ceritanya selesai di sini wkwk" },
+      { authorId: 199, minutesAgo: 3527, content: "kalau laku dua per tiga, besok turunkan dikit om, 40 kilo cukup. sisa 15 kilo itu modal yang nunggu" },
+      { authorId: 240, minutesAgo: 3519, content: "coba om catat per jam. dua per tiga itu angka hari, jam tersibuknya yang menentukan besok bawa berapa" },
     ],
   },
   {
     id: 119,
     authorId: 19,
     minutesAgo: 3565,
-    shares: 20,
+    shares: 16,
     content:
-      "pelanggan ibu-ibu datang membawa ponselnya, minta dibacakan pesan dari sekolah anaknya. tulisannya kecil, kacamatanya tertinggal di rumah. gue bacakan pelan: jadwal umum besok, bawa alas kaki putih, pulang jam setengah satu. ibunya minta diulang dua kali, gue mengulang dua kali, lalu dia menyimpannya di kepala sambil mengucap alhamdulillah.\nkios pulsa itu kadang menjadi kantor informasi yang tidak masuk daftar layanan",
+      "bos-bos, omzet kios tiga hari: 270, 310, 290 ribu. rata-rata 290. nah anehnya TIDAK ADA SATU HARI PUN yang omzetnya pas 290. hari pertama di bawah, kedua di atas, ketiga pas di rata-rata 290. eh ternyata ketiga ya 290, berarti ada satu yang pas. yaudah pertanyaan gue yang bener: rata-rata itu nilai yang nyata atau cuma nilai rakitan, soalnya di struk gak pernah ada tulisan 290 kecuali kebetulan",
     comments: [
-      { authorId: 84, minutesAgo: 3557, content: "ibuk-ibuk begini kalau udah percaya satu kios, merek lain gak akan disentuh lagi. iklan apapun gak bisa ngalahin itu" },
+      { authorId: 240, minutesAgo: 3557, content: "rata-rata itu angka rakitan bos, tapi berguna. dia nunjukin level harian tanpa peduli urutan" },
+      { authorId: 258, minutesAgo: 3549, content: "290 itu pusat gravitasi tiga hari bos. tidak perlu muncul di struk, cukup menggambarkan berat" },
+      { authorId: 199, minutesAgo: 3541, content: "day 3 emang pas 290 bos, jadi ada satu yang nyata wkwk. itu kebetulan yang jarang" },
     ],
   },
   {
     id: 120,
     authorId: 20,
     minutesAgo: 3595,
-    shares: 11,
+    shares: 12,
     content:
-      "Pemesanan tadi sore batal di menit terakhir, penumpang mengirim pesan minta maaf, ternyata dijemput keluarganya. Saya tidak apa-apa, itu bukan yang pertama. Saya melihatnya berjalan kaki bersama keluarganya sampai tikungan, dari belakang. Abis itu saya mampir es teh dulu di warung deket situ, nunggu orderan berikutnya sambil liatin jalan lengang",
+      "Dua penumpang pagi tadi memberi saya soal tanpa sadar. Perjalanan pertama 14 km ditempuh 25 menit. Perjalanan kedua 9 km ditempuh 20 menit. Penumpang kedua berkata perjalanannya lebih cepat karena angka semuanya lebih kecil. Saya menghitung sambil menyetir setelah menurunkannya: 14 ÷ 25 = 0,56 km per menit, sekitar 33,6 km per jam. Perjalanan kedua 9 ÷ 20 = 0,45, sekitar 27 km per jam. Perjalanan pertama ternyata yang lebih gesit per kilometer. Yang ingin saya tanyakan: mengapa orang mudah menganggap jarak kecil berarti lebih cepat, padahal waktunya tidak sepenuhnya sebanding?",
     comments: [
-      { authorId: 258, minutesAgo: 3587, content: "batal karena dijemput keluarga itu yang paling sopan pak, beda sama yang cancel cuma sekali chat terus diem" },
-      { authorId: 272, minutesAgo: 3579, content: "tikungan situ sempit gak pak? tempat turun rombongan biasanya rame, gak enak buat berhenti lama" },
+      { authorId: 258, minutesAgo: 3587, content: "karena manusia melihat dua angka sekaligus dan memilih yang lebih kecil, tanpa membaginya. kecepatan itu hasil bagi, bukan angka tunggal" },
+      { authorId: 268, minutesAgo: 3579, content: "33,6 dan 27 km per jam. perbedaan 6,6 km per jam itu terasa sekali di kota pak" },
+      { authorId: 192, minutesAgo: 3571, content: "penumpang itu sebenarnya menghitung kemudahan, bukan kecepatan pak. 9 km terasa dekat karena angkanya kecil" },
     ],
   },
   {
     id: 121,
     authorId: 21,
     minutesAgo: 3625,
-    shares: 23,
+    shares: 18,
     content:
-      "empat anak kos beli printer bareng buat nge-print slide kuliah. masalah muncul minggu kedua: aku print 8 lembar, temenku 120 lembar, kertas habis, tinta tinggal separuh. aku tidak marah, hanya merasa aturan bagi rata itu terlalu polos untuk printer. sekarang kami berdebat: bagi rata lagi, atau bagi sesuai jumlah lembar, atau kertas dan tinta dibagi berbeda?\nkalian yang pernah patungan, aturan seperti apa yang tidak bikin ribut? aku butuh cara yang bisa diterima empat orang yang sedang malas berpikir",
+      "tanya dong yang sering makan rame. total makan 96 ribu untuk 4 orang, bagi rata jadi 24 ribu per kepala. masalahnya dua orang makan jauh lebih banyak, dua orang kami doang makan soto kecil. gue usul bagi sesuai porsi, tapi gak ada yang catat harga per menu. udah malem, semua males itung, uangnya nyampur di meja. jadi pilih mana deh, bagi rata biar cepet pulang, atau itung ulang skrg biar adil? gue pengen adil tapi juga pengen tidur",
     comments: [
-      { authorId: 212, minutesAgo: 3617, content: "bagi sesuai pemakaian kak: kertas dan tinta per lembar. catat jumlah print per orang, dihitung mingguan. adil karena data, bukan karena rasa 🙃" },
-      { authorId: 152, minutesAgo: 3609, content: "cara paling damai kak: patungan awal untuk printer, terus konsumsi dibayar siapa pakai. tidak ada utang psikologis" },
-      { authorId: 318, minutesAgo: 3601, content: "yang print 120 lembar itu calon juara dunia ngeprint kak, ingatkan ada yang namanya rangkuman tangan" },
-      { authorId: 84, minutesAgo: 3593, content: "bagi tinta itu urusan seumur hidup anak kos. usul: catat siapa nyetak berapa lembar, rekap bulanan, gak jalan baru ganti aturan" },
+      { authorId: 60, minutesAgo: 3617, content: "bagi rata deh kak kalau makan rame terus, lain kali gantian yang kebanyakan mentraktir. hitung porsi pas males itu bikin rasa" },
+      { authorId: 102, minutesAgo: 3609, content: "24 ribu × 4 = 96 ribu kak, bagi rata itu matematisnya benar. adil atau tidak itu urusan makanannya" },
+      { authorId: 84, minutesAgo: 3601, content: "aturan kos kak: yang pesan terbanyak yang itung. dia yang paling kenal porsinya" },
+      { authorId: 106, minutesAgo: 3593, content: "96 ÷ 4 = 24 kak. itung ulang cuma worth it kalau selisihnya lebih dari 10 ribuan" },
     ],
   },
   {
     id: 122,
     authorId: 22,
     minutesAgo: 3655,
-    shares: 14,
+    shares: 19,
     content:
-      "Anakku hari ini menyusun mobil-mobilannya menjadi satu baris panjang, sembilan buah, dari yang paling besar ke yang paling kecil. Ketika satu diambil untuk dicuci, ia berdiri, memandangi barisan yang bolong, lalu mengembalikannya ke posisi asalnya.\nIa belum mengenal kata urutan. Ia sudah merasakan urutan.",
+      "Anakku bermain kelereng dengan sepupunya: 5 merah dan 3 biru dalam satu kantong. Aku tanya kalau diambil satu tanpa dilihat, mana yang mungkin keluar. Ia menjawab pasti merah, karena banyaknya merah lebih dari setengah. Aku menjelaskan bahwa mungkin saja biru, tinggal peluangnya lebih kecil, 5 dari 8 untuk merah. Ia memejamkan mata, mengambil, dan keluar biru. Sekarang ia berdiri di tengah teras seperti menemukan dunia baru. Bagaimana cara merawat momen begini supaya ia mengerti peluang bukan keajaiban, melainkan kebiasaan benda banyak dan sedikit?",
     comments: [
-      { authorId: 59, minutesAgo: 3647, content: "anak yang merasakan urutan sebelum tahu namanya itu anak yang siap menyukai matematika bu 🙏" },
+      { authorId: 77, minutesAgo: 3647, content: "biarkan ia mengulang pelan-pelan bu. 10 kali ambil, catat. biru akan muncul sekitar 3-4 kali. pengalaman mengalahkan ceramah" },
+      { authorId: 268, minutesAgo: 3639, content: "kantong itu gurunya bu. yang ditunggu bukan hasil satu kali, tapi pola banyak kali" },
+      { authorId: 63, minutesAgo: 3631, content: "anak yang sudah melihat biru keluar tidak akan pernah lupa peluang. momen itu mahal bu, simpan baik-baik" },
+      { authorId: 24, minutesAgo: 3623, content: "KELERENG BIRU ITU GURU TERBAIK. NENEK SETUJU. BANYAK-KAN KELERENGNYA, JANGAN BANYAK-KAN CERAMAH" },
     ],
   },
   {
     id: 123,
     authorId: 23,
     minutesAgo: 3685,
-    shares: 3,
+    shares: 2,
     content:
-      "tiap jam 02.00 perut bilang siap makan. otak bilang itu jam istirahat. gue tidak tahu siapa yang jujur: jam biologis atau jam kerja otak. yang gue tahu, kulkas menang dua malam terakhir, dan besok gue dijadwalkan bertemu kulkas jam 02.00 lagi.",
+      "log server: rata-rata 200 request/menit, 10 menit. ekspektasi 2.000. total masuk 1.874. drop 126 = 6,3%. jam 02.00-02.10. entah bot yang tidur entah kabel",
     comments: [
-      { authorId: 318, minutesAgo: 3677, content: "bre jam 02.00 itu jam kulkas membuka gerbang. otak cuma penjaga yang tidak digaji" },
+      { authorId: 213, minutesAgo: 3677, content: "6,3% drop di jam sepi itu masih dalam toleransi. bandingin sama jam 8 malem dulu" },
+      { authorId: 313, minutesAgo: 3669, content: "coba cek burst-nya bre. 200/menit itu rata, kalo 5 menit kosong terus 5 menit banjir tetap 1000" },
     ],
   },
   {
     id: 124,
     authorId: 24,
     minutesAgo: 3715,
-    shares: 15,
+    shares: 12,
     content:
-      "CUCU AKU MENGAJARI AKU PERMAINAN TEBAK ANGKA. ANGKA RAHASIA ANTARA 1 SAMPAI 50. AKU MENEBAK 25, DIA BILANG TERLALU KECIL. AKU MENEBAK 37, DIA BILANG TERLALU BESAR. AKU MENEBAK 30, BENAR. AKU MENANG DALAM TIGA TEBAKAN. DIA KECEWA, KATANYA NENEK CURANG KARENA TERLALU PINTAR MEMBAGI DUA.\nAKU TIDAK PAHAM ISTILAH MATEMATIKA MUDA, TETAPI AKU SUKA KALAU DIA BERKATA NENEK PINTAR. BESOK DIA JANJI MAU BALAS MENANG. AKU SURUH DIA JANGAN KASIH TAU TRIKNYA KE NENEK LAIN.",
+      "CUCU AKU DAPAT NILAI 6 DARI 10 DI ULANGAN. DIA BILANG BERARTI 60 PERSEN. AKU BILANG IYA. TERUS DIA TANYA NENEK, 60 ITU BAGUS ATAU JELEK. AKU BINGUNG JAWABNYA SOALNYA DULU SEKOLAH PAKAI ANGKA 1 SAMPAI 10, SEKARANG DIA MINTA PERSEN. AKU TANYA BALIK, KALAU KUE 10 POTONG DAN MAKA 6, ITU BANYAK KAN. DIA BILANG BANYAK TAPI KALAU ULANGAN, BANYAK ITU TANDA BELUM PAHAM.\nPertanyaanku: 60 dari 100 itu kategori apa ya buat anak SD sekarang, lulus atau remedial? AKU PURA2 TAU TERUS KEPO KE SINI, MAAPKAN NENEK",
     comments: [
-      { authorId: 39, minutesAgo: 3707, content: "itu trik bagi dua mbak, tebak tengah terus, paling cepet. keponakan saya sebel duluan sebelum nemu polanya wkwk" },
-      { authorId: 187, minutesAgo: 3699, content: "wajar dia sebel mbak, main sama nenek yang menebak 3 kali langsung kena, curang curang ini mah 😄" },
-      { authorId: 90, minutesAgo: 3691, content: "saya pernah menang 3 tebakan melawan keponakan, sejak itu dia gak mau main lagi wkwk. selamat atas kemenangannya mbak" },
+      { authorId: 63, minutesAgo: 3707, content: "di banyak sekolah bu, 60 itu KKMin, tepat lulus tapi mepet. jawaban kue nenek bagus sekali untuk pembanding" },
+      { authorId: 187, minutesAgo: 3699, content: "cucu itu sudah paham skala bu, jawabannya jujur. 60 = 6 dari 10, dan untuk ulangan memang tepat di batas" },
+      { authorId: 74, minutesAgo: 3691, content: "NENEK TIDAK PERLU MAAP. pertanyaan lulus atau remedial itu pertanyaan penting. jawaban sekolah beda-beda, tanya bu guru langsung paling aman" },
     ],
   },
   {
     id: 125,
     authorId: 25,
     minutesAgo: 3745,
-    shares: 29,
+    shares: 22,
     content:
-      "hari terakhir mentorku hari ini. aku menyiapkan slide catatan empat bulan magang, merapikan nama file, menyiapkan kata-kata untuk pamit. saat aku menyerahkan, dia hanya bilang lanjut lalu membuka laptop. aku duduk bingung tiga detik. tetapi setelah rapat dia mengirim pesan: folder berisi template untuk kandidat magang berikutnya, namanya 'lanjutan dari kamu'. aku membacanya lima kali.\nyaudah. aku pulang kerja sambil tersenyum sendiri di jalan, orang-orang mungkin mengira aku gila",
+      "absensi magang bulan ini: 24 hari kerja, gue hadir 22. gue itung 22 ÷ 24 = 0,9167, jadi 91,67 persen. mentor minta angka bulat di laporan, jadi gue tulis 92 persen. abes gue mikir, kalau HR pakai angka bulat juga, 92 vs 91,67 itu gak gede bedanya tp bisa beda kategori kan? tp gak ada pedoman yang gue baca. sekalian nanya, angka absensi magang dihitung sampai berapa desimal di kantor kalian",
     comments: [
-      { authorId: 236, minutesAgo: 3737, content: "folder 'lanjutan dari kamu' itu surat penghargaan versi orang kaku. selamat menempuh jenjang berikutnya" },
-      { authorId: 144, minutesAgo: 3729, content: "senyum sendiri di jalan itu bukti transaksinya kak, berhasil" },
+      { authorId: 236, minutesAgo: 3737, content: "kantor gaku satu desimal pak: 91,7. bulat 92 biasanya buat slide, lampiran tetap lengkap" },
+      { authorId: 144, minutesAgo: 3729, content: "91,67 itu tepat. tulis 92 di ringkasan, 91,67 di detail. dua-duanya hidup damai" },
     ],
   },
 ]

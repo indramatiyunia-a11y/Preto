@@ -16,13 +16,27 @@ kaleng nabung, dosis shift, angkot ayam, dus gudang, rantai kendor) sudah
 TIDAK ADA lagi di feed. Formulanya kini tercatat sebagai **FORMULA HITAM**
 di `scripts/rumus-v2.md` BAGIAN 2 — WAJIB dibaca sebelum menulis cuitan apa pun.
 
-Kondisi sekarang:
-- 200 cuitan, 471 komentar, audit + validasi + lint bersih.
-- Rotasi rapi: tiap penulis (1-50) tepat 4 post.
-- Sumber kebenaran topik = **Buku Besar V3** di `scripts/rumus-v2.md`.
-- Langkah berikutnya: ekspansi batch 5 (threads-9.ts, cuitan 201-225,
-  penulis 1-25, minutesAgo 6025 +30 per id) sesuai protokol dev.sh, isi
-  mengikuti RUMUS V3. Cek Buku Besar V3 dulu; topik baru, bentuk baru.
+Kondisi sekarang (setelah rombak V5 + BATCH 5, 6 Nov 2026):
+- 225 cuitan Indonesia (threads-1..9) + threads-intl (id 9001+). 622 komentar.
+- SELURUH feed 100% FORUM MATEMATIKA — diary harian sudah dihapus total
+  (sebab musabab keenam, FORMULA HITAM 19). Register menyebar per batch.
+- Batch 5 (threads-9, id 201-225) memakai 25 penulis BARU 51-75:
+  51 ojol yang nanya buat adiknya · 52 anak kuis panik KAPITAL · 53 kakak
+  pengajar santai · 54 pengamat warung teliti · 55 SMP jamet pembagian ·
+  56 anak HP titik-koma · 57 pemburu rata-rata KAPITAL · 58 SMP garis
+  bilangan · 59 pelari lapangan penghitung · 60 ibu kue hangat · 61 anak
+  jam-sudut pendek · 62 pedagang online penghitung stok · 63 penantang
+  persen jamet · 64 panitia aula KAPITAL · 65 penumpang angkot berhitung ·
+  66 pengamat halte baku · 67 pengepel KAPITAL emosional · 68 korban kasir
+  KAPITAL panjang · 69 pemilik akuarium tenang · 70 tukang tebak umur jamet ·
+  71 mahasiswi modus 🙃 · 72 pembeli beras rapi · 73 penumpang kereta teliti ·
+  74 penjual es teh hemat pendek · 75 begadang sistem persamaan
+- Verifikasi berjalan: audit-full + audit-formula15 (0 temuan),
+  cek-matematika-v5 (semua ✓, termasuk 27 hitungan threads-9),
+  validate-threadz + lint bersih (CHECK BERSIH ✔).
+- Langkah berikutnya: BATCH 6 — threads-10.ts (id 226-250, authorId 76-100,
+  minutesAgo 6775 +30 per id), isi forum matematika, register menyebar,
+  topik jangan ulang bentuk dari Buku Besar V5 di rumus-v2.md.
 - Tabel batch lama di bawah (BATCH 2-4) berstatus **ARSIP** — kontennya
   sudah diganti, jangan dipakai lagi sebagai acuan bentuk.
 

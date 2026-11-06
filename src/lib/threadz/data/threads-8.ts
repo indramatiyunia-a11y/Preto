@@ -1,7 +1,11 @@
 import type { ThreadzThread } from "../types"
 
-// PART 8: cuitan 176-200 — ROMBAK TOTAL V3 (Nov 2026). Penulis 26-50 urut.
-// Hukum isi: scripts/rumus-v2.md BAGIAN 2 (FORMULA HITAM dilarang) + BAGIAN 4.
+// PART 8: cuitan 176-200 — ROMBAK V5 (6 Nov 2026): total ganti isi jadi FORUM
+// MATEMATIKA (V3 lama masih diary harian). Slot teknis TIDAK berubah:
+// id 176-200, authorId 26-50 urut, minutesAgo = 25 + 30*(id-1), komentar
+// menyebar 0-6, komentar minutesAgo lebih kecil dari post-nya.
+// Aturan lengkap: scripts/rumus-v2.md BAGIAN 1G + FORMULA HITAM 19 POLA.
+// Tema file ini: pola, logika & bilangan — bentuk BARU.
 export const THREADS_PART8: ThreadzThread[] = [
   {
     id: 176,
@@ -9,10 +13,10 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5275,
     shares: 16,
     content:
-      "pagi tadi naik satu tukang sayur membawa empat ikat sayur di pangkuannya. gue bilang nak, taruh saja di kursi kosong, dia bilang tidak usah, biar gue pegang, nanti kusut. semua penumpang menggeser sedikit agar sayurnya dapat tempat. satu ibu malah memegangi ikat paling atas. tukang sayurnya turun di pasar, sayurnya tetap rapi gak kusut",
+      "nah bro, nomor angkot di pool gue: 14, 21, 28. anak kondektur baru nanya, nomor berikutnya berapa. gue jawab 35, soalnya nambah 7 terus. dia bilang kok cepet banget ngitungnya. gue bilang kelipatan 7 doang bro. dia masih bengong. pertanyaan gue: cara ngejelasin pola nambah tetap ke anak baru itu gimana bro, pake contoh apa yang dia paham dalam 30 detik",
     comments: [
-      { authorId: 102, minutesAgo: 5267, content: "naik angkot bareng tukang sayur itu untung, saya pernah dapat satu ikat kangkung gratis gara-gara bantu angkat" },
-      { authorId: 199, minutesAgo: 5259, content: "tukang sayur naik angkot pagi itu biasanya dari kebun jam 5, sayurnya masih ada embun, wanginya beda sama yang di pasar" },
+      { authorId: 137, minutesAgo: 5267, content: "bilang aja bro: 14 itu dua kali 7, 21 tiga kali 7, 28 empat kali 7. nomor berikutnya lima kali 7 = 35. rapi" },
+      { authorId: 186, minutesAgo: 5259, content: "35 bener bro. kasih dia karcisnya aja, angka di karcis kelipatan 7 semua, dia akan lihat sendiri" },
     ],
   },
   {
@@ -21,9 +25,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5305,
     shares: 8,
     content:
-      "Tukang angkut baru hari ini lupa mencatat satu pallet. Pencarian di daftar tidak menemukan apa-apa, kelompok kami nyaris menganggap pallet itu menguap. Sore ini ditemukan juga: ditaruh di ujung rak paling bawah, tertutup kardus kosong. Tukang angkut itu minta maaf dua kali, besok ia akan mencatat sebelum mengangkat, bukan setelah.\nGudang itu tempat yang menghukum kelalaian dengan cara yang sabar: barangnya muncul sendiri, malunya yang tidak.",
+      "susunan karung di gudang kami bentuk piramida: lapisan bawah 3, tengah 2, atas 1, total 6 karung satu piramida. kepala gudang minta piramida empat lapis: 4 + 3 + 2 + 1 = 10. anak magang nanya, kalau lima lapis berapa. gue hitung 5 + 4 + 3 + 2 + 1 = 15. dia bilang kok naiknya 5, bukan 4. saya jawab karena lapisan barunya sendiri adalah 5. dia mengangguk seperti tidak yakin. tolong konfirmasi 15 itu benar ya, sebelum dia susun 15 karung untuk sesuatu yang salah",
     comments: [
-      { authorId: 240, minutesAgo: 5297, content: "catat sebelum angkat. mantra itu harus dijahit di punggung semua orang gudang mas" },
+      { authorId: 240, minutesAgo: 5297, content: "15 benar pak. naiknya selalu sebesar lapisan baru yang ditambahkan" },
+      { authorId: 272, minutesAgo: 5289, content: "trik cepat pak: jumlahkan ujungnya lalu kali banyak lapisan. (5+1) × 5 ÷ 2 = 15. sama hasilnya" },
+      { authorId: 205, minutesAgo: 5281, content: "piramida 6 lapis jadi 21 pak. biar anak magang lihat polanya: 6, 10, 15, 21, selisihnya 4, 5, 6" },
     ],
   },
   {
@@ -32,23 +38,25 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5335,
     shares: 27,
     content:
-      "guys tolong cek pemahaman gue soal grafik fungsi kuadrat. gue paham: kalau a positif parabola buka ke atas, a negatif buka ke bawah. contoh y = x² − 4x + 3, a-nya 1 jadi buka ke atas. gue faktorkan jadi (x−1)(x−3), titik potong sumbu x-nya 1 dan 3. terus puncaknya di tengah-tengahnya kan? gue hitung (1+3)/2 = 2, lalu masukkan x = 2 ke rumus: 4 − 8 + 3 = −1. jadi puncaknya (2, −1).\nBENER GAK INI? temen gue bilang puncak itu pakai −b/2a, dan jawabannya sama aja. tapi gue pengen tahu kenapa bisa sama, bukan sekadar cocok",
+      "KUIS BILANGAN PRIMA DAN SATU JAWABAN BIKIN KELAS RUSUH WKWKWK. soal: tulis semua prima antara 30 dan 40. gue jawab 31 dan 37. temen gue nambah 33 sama 39, KATANYA ANGKANYA KEREN JADI KEBAYANG PRIMA. terus gue cek: 33 = 3 × 11, 39 = 3 × 13. DUA-DUANYA BUKAN PRIMA. dia masih ngeyel, KATANYA GAK DIBAGI APA2 KOK. gue bawa bukti perkalian ke mejanya. WKWKWK. pertanyaan gue ke kalian: kenapa ya orang otomatis ngerasa angka gede itu prima, padahal 3 sama 11-13 itu pembunuh senyap",
     comments: [
-      { authorId: 212, minutesAgo: 5327, content: "benar kak! −b/2a = −(−4)/2 = 2, dan (1+3)/2 = 2. keduanya sama karena titik puncak memang selalu tepat di tengah dua akar 🙃" },
-      { authorId: 223, minutesAgo: 5319, content: "puncak di tengah dua akar itu sifat simetri parabola kak, jadi caramu bukan kebetulan, itu sifat resminya 🙃" },
-      { authorId: 131, minutesAgo: 5311, content: "cara lu lebih cepet buat cek kilat bre, rumus −b/2a dipakai kalau gak sempet difaktorkan" },
+      { authorId: 131, minutesAgo: 5327, content: "karena orang cek pembagi kecil doang bre, 2 sama 5. 3 itu pembagi yang gak keliatan dari angka terakhirnya" },
+      { authorId: 223, minutesAgo: 5319, content: "trik bre: jumlah digit. 3+3 = 6 habis dibagi 3. 3+9 = 12 habis dibagi 3. dua-duanya mati begitu" },
+      { authorId: 313, minutesAgo: 5311, content: "prima antara 30-40 memang cuma 31 sama 37 bre. jawaban lu aman, temen lu kena jebakan estetika wkwk" },
+      { authorId: 84, minutesAgo: 5303, content: "jangan bawa bukti perkalian ke meja orang, bawa ke papan tulis. harga diri penting bre wkwk" },
     ],
   },
   {
     id: 179,
     authorId: 29,
     minutesAgo: 5365,
-    shares: 11,
+    shares: 10,
     content:
-      "proyek akhir gue disetujui: bikin sandaran sepeda dari besi bekas, tinggi dudukan 75 cm sesuai ukuran sepeda standar. om bengkel hanya bilang satu hal: ukur dulu sepeda paling kecil yang biasa dipakai anak-anak di sini, jangan kejar angka standar internet. jadi malam ini gue mengukur tiga sepeda tetangga, bukan satu.\nbengkel itu ternyata sekolah yang tidak memberi rapor",
+      "kotak baut di bengkel om: 8, 12, 16, 20 butir. om nanya kotak ke-10 isinya berapa. gue itung nambah 4 tiap kotak: 8 + 4 × 9 = 44. om bilang kok 9 kali, bukan 10. gue jawab karena kotak pertama udah 8, sisanya 9 loncatan. om diam, terus ngangguk sambil pegang kunci 14. bener kan 44 ya, gue gak mau ngulang itungan ini depan om lagi",
     comments: [
-      { authorId: 186, minutesAgo: 5357, content: "ukur yang ada, bukan yang tertulis. itu pelajaran bengkel paling mahal dan sekaligus paling murah om" },
-      { authorId: 213, minutesAgo: 5349, content: "75 cm itu cocok untuk ring 26-27 inci om, tetapi ukuran lokal selalu menang 🙃" },
+      { authorId: 186, minutesAgo: 5357, content: "44 bener om muda. 9 loncatan × 4 = 36, ditambah kotak pertama 8 = 44" },
+      { authorId: 240, minutesAgo: 5349, content: "rumusnya 4n + 4. kotak 1 dapet 8 ✓, kotak 10 dapet 44 ✓. loncatannya selalu 4, titik awalnya 8" },
+      { authorId: 213, minutesAgo: 5341, content: "ngangguk sambil pegang kunci itu bahasa om yang artinya gue benar wkwk" },
     ],
   },
   {
@@ -57,84 +65,89 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5395,
     shares: 15,
     content:
-      "Pertanyaan si anak les sore ini: kenapa harus belajar kecepatan kalau nanti tidak jadi sopir? Saya jawab karena kecepatan itu cara berpikir tentang jarak dan waktu, bukan urusan kendaraan. Dia balik bertanya: kalau begitu kenapa di bukunya contohnya selalu mobil? Saya terdiam, karena benar juga; semua contoh di buku itu kendaraan.\nMalam ini saya menyiapkan contoh baru: kecepatan mengetik, kecepatan menghafal, kecepatan menuruni tangga. Besok saya bawa. Kalau besok dia masih nanya kenapa, berarti pekerjaan rumah saya yang belum selesai.",
+      "Si anak menemukan kegembiraan baru: logika. Hari ini kita berlatih dua kalimat. Kalimat satu: semua kucing suka ikan. Ia menyimpulkan kucingnya suka ikan, dan itu sah. Kalimat dua: semua yang suka ikan adalah kucing. Ia menyimpulkan bebek tetangga yang suka ikan adalah kucing, lalu tertawa sangat lama. Saya ingin melatih logika lebih dalam tanpa membuatnya jadi anak yang menantang semua kalimat di rumah. Adakah soal logika ringan yang pernah berhasil di tangan anak usia SMP, semacam yang membuat tertawa tetapi tetap berpikir?",
     comments: [
-      { authorId: 262, minutesAgo: 5387, content: "contoh kecepatan menghafal itu bagus, karena yang dihitung anak sehari-hari memang begitu" },
-      { authorId: 39, minutesAgo: 5379, content: "pertanyaan si anak itu pertanyaan kurikulum, bukan pertanyaan matematika. gurunya yang harus menang" },
-      { authorId: 90, minutesAgo: 5371, content: "contoh menuruni tangga itu asyik, sekalian hitung anak tangganya, anak-anak suka yang bisa mereka cek sendiri" },
+      { authorId: 258, minutesAgo: 5387, content: "kalimat satu arah bu: semua kucing suka ikan tidak berarti semua penyuka ikan adalah kucing. kasih dia dua lingkaran yang tumpang tindih, bebek tinggal di lingkaran ikan luar" },
+      { authorId: 268, minutesAgo: 5379, content: "soal yang berhasil di siswa saya bu: kalau hujan jalanan basah. jalanan basah apakah selalu karena hujan? anak akan menemukan kunci sendiri" },
+      { authorId: 336, minutesAgo: 5371, content: "bebek penyuka ikan disebut kucing itu pintu masuk terbaik bu. tertawa dulu, berpikir kemudian" },
     ],
   },
   {
     id: 181,
     authorId: 31,
     minutesAgo: 5425,
-    shares: 17,
+    shares: 13,
     content:
-      "pelanggan tetangga membeli dua bungkus, katanya uangnya belum cair: catat aja kak, besok sore bayar. gue tulis di buku, tanpa tanda tangan, tanpa nomor rumah, hanya nama dan hari. gue tidak tahu ini namanya ceroboh atau namanya tetangga.\nyang gue tahu, tiga tahun membuka kios, catatan seperti ini belum satu pun hangus. besok sore dia datang, gue mau pura-pura lupa, biar dia yang senang lebih dulu",
+      "mesin kasir reset sendiri jam pagi, nomor struk balik ke 1 setelah semalaman jalan dari 103 ke 104. pelanggan jam 08.05 terima struk nomor 1 dan langsung curiga toko baru buka, padahal toko gue umur 4 tahun. auditor juga pasti tanya kenapa ada loncatan dari 104 ke 1. kalian kalau menghadapi nomor urut yang balik ke awal, cara menjelaskan ke pelanggan sama auditor itu seperti apa? gue cuma mau struk yang gak bikin orang mikir aneh",
     comments: [
-      { authorId: 102, minutesAgo: 5417, content: "catatan tanpa tanda tangan gitu jangan ditiru sama pembeli baru kak, om saya dulu ada yang numpang berulang terus gak bayar sampai pindah kampung" },
-      { authorId: 258, minutesAgo: 5409, content: "pura-pura lupa itu jurus bagus kak, tapi jangan sering, sekali-sekali aja biar gak jadi kebiasaan dia juga" },
+      { authorId: 205, minutesAgo: 5417, content: "tempel kertas kecil di mesin: nomor berulang tiap 104 struk. pelanggan baca, auditor baca, selesai" },
+      { authorId: 240, minutesAgo: 5409, content: "catat di buku: reset jam 08.00, struk terakhir 104. satu baris itu menyelamatkan satu rapat audit" },
+      { authorId: 84, minutesAgo: 5401, content: "struk nomor 1 bukan bukti toko baru, cuma bukti mesin hidup lagi. tenang aja" },
     ],
   },
   {
     id: 182,
     authorId: 32,
     minutesAgo: 5455,
-    shares: 13,
+    shares: 12,
     content:
-      "hujan semalam kencang, teh mengira sayur berantakan. ternyata pagi ini bayam justru segar, kangkung tetap tegak, yang lemas hanya daun ketumbar. teh mencuci, menata, dan tetap lumayan. pelanggan bertanya, teh, sayur begini tahan berapa hari di kulkas? teh menjawab dua hari paling enak, hari ketiga masih bisa, tetapi enaknya sudah pindah ke penggorengan. pelanggan ketawa.\njawaban jujur itu murah, teh tidak tahu kenapa jarang dipakai",
+      "pagi bawa 40 ikat sayur. tiap jam laku 5 ikat. pasar buka 6 jam. gue itung: 5 × 6 = 30 ikat laku, sisa 10. tapi kenyataannya jam 12.00 gue nyaris kosong, laku kayaknya 34-35. berarti tiap jamnya gak rata ya teh hitungnya. jam pagi laku lebih banyak? gue gak pernah catat per jam sebelumnya. teh mau mulai catat, ada saran bentuk catatan yang gak bikin tangan keramas",
     comments: [
-      { authorId: 84, minutesAgo: 5447, content: "gue pernah ditawarin sayur 'masih bagus' padahal udah lembap. sejak itu gue lebih percaya sama yang bilang 'ini yang terbaik hari ini'" },
+      { authorId: 102, minutesAgo: 5447, content: "catat teh per dua jam aja: 05-07, 07-09, 09-11. empat kolom doang, nggak repot, polanya kelihatan" },
+      { authorId: 84, minutesAgo: 5439, content: "5 × 6 = 30 itu kalau tiap jam sama teh. nyatanya pagi rakus, sore pelan. catatan per jam bakal nunjukin" },
+      { authorId: 15, minutesAgo: 5431, content: "kite sama teh, pagi itu yang emas. bawa stok lebih di dua jam pertama, sisa tak perlu banyak" },
     ],
   },
   {
     id: 183,
     authorId: 33,
     minutesAgo: 5485,
-    shares: 20,
+    shares: 22,
     content:
-      "Tanya takaran nasi sekali lagi. Biasa memasak 3 gelas beras dengan air sampai satu ruas jari di atas beras. Malam ini anak pulang membawa dua teman, jadi berasnya naik menjadi 4 gelas. Pertanyaannya: airnya ikut naik sebesar apa? Tetap satu ruas jari di atas beras, atau perlu ditambah lebih karena berasnya lebih banyak?\nAku pernah terlalu yakin dan hasilnya menjadi bubur. Sekarang aku ingin mendengar pengalaman yang lebih waras.",
+      "Resep menyebut 7 sendok teh gula. Sendok di dapurku: sendok makan dan sendok teh. Aku tahu 1 sendok makan memuat 3 sendok teh. Hitunganku: 2 sendok makan = 6 sendok teh, ditambah 1 sendok teh, jadi 7. Yang ingin saya pastikan: apakah 2 sendok makan + 1 sendok teh memang tepat 7 sendok teh, atau ada selisih karena bentuk sendoknya beda? Saya tidak ingin manisnya berlomba dengan kejadian kue kemarin yang rasanya seperti roti tawar",
     comments: [
-      { authorId: 59, minutesAgo: 5477, content: "ruas jari itu ikut naik bersama berasnya kak, karena ia rasio, bukan ukuran tetap. satu ruas di atas beras untuk 3 maupun 4 gelas tetap aman 🙏" },
-      { authorId: 219, minutesAgo: 5469, content: "air mengikuti rasio kak, bukan mengikuti panci. kalau 3 gelas dulu pas, untuk 4 gelas tinggal tambahkan sepertiga bagian air lamanya 🙃" },
+      { authorId: 277, minutesAgo: 5477, content: "1 sendok makan = 3 sendok teh adalah takaran standar bu. 2 × 3 + 1 = 7. manisnya aman" },
+      { authorId: 90, minutesAgo: 5469, content: "selisih antar sendok rumah biasanya kecil bu, yang lebih berpengaruh itu gula ditumpuk rata atau digunung" },
+      { authorId: 22, minutesAgo: 5461, content: "wkwk digunung itu namanya sendok tersenyum ya bu. oke, diratakan semua" },
     ],
   },
   {
     id: 184,
     authorId: 34,
     minutesAgo: 5515,
-    shares: 10,
+    shares: 6,
     content:
-      "Lampu jalan depan pos berkedip tiga malam. Saya mencatat ke admin: lokasi, waktu kedip, sisi jalan. Dua hari kemudian diperbaiki, dan malam ini lampunya menyala tenang tanpa kedip. Saya kirim balasan ke admin: terima kasih, lampunya sudah baik. Admin balas satu kata: sip. urusan selesai dalam dua baris.",
+      "ronde 45 menit sekali, mulai 22.00. urutan: 22.00, 22.45, 23.30, 00.15, 01.00, 01.45. ronde ke-6 jam 01.45. logbook ditulis. gantian 02.00. masalah kecil: ronde ke-5 cuma berjarak 45 menit dari ke-4, kok rasanya mepet banget di 01.00. memang 45 menit ya, gak salah tulis.",
     comments: [
-      { authorId: 199, minutesAgo: 5507, content: "pak, lampu jalan itu ada nomor tiangnya, lain kali sekalian foto tiangnya, perbaikan bisa lebih cepat" },
-      { authorId: 272, minutesAgo: 5499, content: "admin balas sip doang ya pak wkwk, admin kantor saya juga gitu, itu tandanya pekerjaannya udah kelar semua" },
-      { authorId: 336, minutesAgo: 5491, content: "wkwk admin-nya rajin juga pak, catatan kedip doang kok dua hari udah beres" },
+      { authorId: 199, minutesAgo: 5507, content: "45 menit konsisten pak, dari 22.00 sampai 01.45 enam ronde pas. rasanya mepet karena jam ke-1 pagi tidak pernah sopan" },
+      { authorId: 240, minutesAgo: 5499, content: "bener pak, 45 menit × 5 jeda = 225 menit = 3 jam 45 menit. 22.00 + 3:45 = 01.45" },
+      { authorId: 272, minutesAgo: 5491, content: "logbook rapi pakai jam, bukan perasaan. ronde 6 jam 01.45 sah" },
     ],
   },
   {
     id: 185,
     authorId: 35,
     minutesAgo: 5545,
-    shares: 22,
+    shares: 12,
     content:
-      "pikiran jam 11 malam: kalau SEMUA lampu di kota mati bersamaan selama satu detik, mata kita yang kebiasaan terang langsung bisa lihat bintang tidak ya? gue dengar di tempat yang benar-benar gelap, bintangnya semua kelihatan. tapi mata kita juga baru terkena gelap, harus adaptasi dulu kan, sekitar 15-30 menit katanya. jadi satu detik itu tidak cukup ya.\nberasa menyesal bertanya, tetapi tetap ingin tahu: ada yang pernah mengalami mati lampu lama di kota? bintangnya kelihatan tidak beneran?",
+      "mikir: kenapa cuma angka 2 yang prima dan genap sekaligus. angka genap lain kan semua habis dibagi 2, jadi otomatis punya tiga pembagi. kelar. tapi kenapa gak ada satu pun prima genap lainnya, kok cuma satu benda aneh di tengah semua angka. nanya ke guru, guru bilang karena definisi. definisi itu jawaban atau dinding? mikirnya sampe lupa jajan wkwk",
     comments: [
-      { authorId: 212, minutesAgo: 5537, content: "mata butuh waktu adaptasi bre, sekitar 20-30 menit untuk gelap penuh. satu detik tidak cukup, tetapi ada yang pernah mengalami padam seisi kota dan bilang langitnya berubah total 🙃" },
+      { authorId: 227, minutesAgo: 5537, content: "genap artinya habis dibagi 2 bre. prima genap otomatis habis dibagi 1, dirinya, dan 2. kalau dirinya memang 2, pembaginya cuma dua. itu sebabnya 2 sendirian" },
+      { authorId: 313, minutesAgo: 5529, content: "definisi itu dinding yang dibangun supaya jawaban gak melayang bre. 2 aneh memang, dia pintu masuk dunia prima" },
+      { authorId: 118, minutesAgo: 5521, content: "jajanan dulu bre, matematika gak ke mana-mana wkwk" },
     ],
   },
   {
     id: 186,
     authorId: 36,
     minutesAgo: 5575,
-    shares: 14,
+    shares: 16,
     content:
-      "km, malam ini gue menemukan cara menghafal tanda peradangan yang akhirnya menempel: rubor, calor, dolor, tumor, functio laesa. merah, panas, nyeri, bengkak, fungsi hilang. gue bikin kalimat sendiri: RUDY CINTA DODDY TUKANG FUTSAL. aneh, tetapi lama-lama menempel. kakak tingkat gue bilang metode begini namanya jembatan keledai yang personal, tidak bisa dipinjam orang lain.\nbenar juga. kalimat gue kalau dibaca orang lain pasti ketawa, tidak hafal",
+      "JADWAL HAFALAN RUSAK DAN GUE PANIK BANGET. target 60 istilah dalam 4 hari, artinya 15 per hari. HARI KEDUA KELEWAT GARA-GARA JAGA LAMPAU. sisa istilah 45 buat 2 hari, per hari 22,5. SETENGAH ISTILAH ITU GIMANA, hafal separuh kata terus tidur? gue pikir dua opsi: hari ini 22 dan besok 23, ato hari ini 23 besok 22. GUE MAU DUA-DUANYA TAPI OTAK GAK SETUJU. yang pernah ngejar hafalan begini, kalian pilih angka yang mana",
     comments: [
-      { authorId: 227, minutesAgo: 5567, content: "jembatan keledai personal itu hafalan paling awet kak, yang dipinjam biasanya cepat terlupakan 🙃" },
-      { authorId: 213, minutesAgo: 5559, content: "catatan kecil kak: empat tanda pertama dari Celsus, functio laesa yang kelima tambahan dari Galen. kalau ujiannya menanyakan sejarah, jangan lupakan Galen 🙃" },
-      { authorId: 71, minutesAgo: 5551, content: "semangat kak, RUDY CINTA DODDY TUKANG FUTSAL itu kalimat yang akan menguasai dunia 😄" },
-      { authorId: 327, minutesAgo: 5543, content: "gue akan mengingat DODDY TUKANG FUTSAL sampai kapan pun kak, terima kasih sudah mengajari" },
+      { authorId: 212, minutesAgo: 5567, content: "pilih 23 dulu, sisa 22 besok. beban penutup harus lebih ringan biar tidur cukup sebelum kuis" },
+      { authorId: 227, minutesAgo: 5559, content: "22,5 itu rata-rata kak, bukan kewajiban. bagi 23-22 biar ujungnya ringan 🙃" },
+      { authorId: 143, minutesAgo: 5551, content: "hafal 23 hari ini, besok 22 dan ulang cepat 45 istilah. ulang itu yang menentukan, bukan angkanya" },
     ],
   },
   {
@@ -143,37 +156,39 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5605,
     shares: 9,
     content:
-      "Bocah tetangga belajar naik sepeda empat sore berturut-turut. Hari pertama jatuh dua kali, hari kedua jatuh sekali lalu berhenti lebih awal, hari ketiga tidak jatuh tetapi belum berani dilepaskan. Hari keempat sore ini: ia melaju sendiri sepanjang jalan depan, sambil berteriak sambil melihat ke belakang, tidak memandang jalan.\nibunya udah nyiapin kunci pas dari tadi sore, katanya habis dia bisa, roda bantunya dibuka hari itu juga. bocahnya gak tau",
+      "Bocah sebelah sore tadi menata batu-batu kecil di tanah: satu, lalu satu lagi, lalu dua, tiga, lima, delapan. Saya memperhatikan dari jendela sambil menutup tenda jendela. Setiap batu baru adalah jumlah dua batu sebelumnya, dan ia tahu itu tanpa membaca buku. Ketika hampir sore, ia berdiri dan berkata tangganya belum selesai. Yang membuat saya menulis ini: dari mana anak-anak menemukan pola seperti itu tanpa diperintah? Apakah semua anak menyimpan tata rasa bilangan seperti ini, hanya saja tidak semua menemukan tanah yang pas untuk menatanya?",
     comments: [
-      { authorId: 262, minutesAgo: 5597, content: "sepeda anak sekarang rodanya gampang dilepas ya pak, jaman saya dulu roda bantunya dibuka pakai gergaji wkwk" },
-      { authorId: 199, minutesAgo: 5589, content: "sore keempat itu yang membuat tiga sore sebelumnya tidak terasa sia-sia" },
-      { authorId: 272, minutesAgo: 5581, content: "hati-hati pak, anak yang melihat ke belakang sambil berteriak itu biasanya nabrak, kasih teriakan pelan-pelan aja" },
+      { authorId: 258, minutesAgo: 5597, content: "pola itu bernama Fibonacci pak. anak menemukannya lewat benda, itulah cara matematika terbaik belajar" },
+      { authorId: 268, minutesAgo: 5589, content: "semua anak menyimpan rasa pola pak. yang berbeda adalah kesempatan dan tanahnya. kasih dia batu lagi minggu depan" },
+      { authorId: 199, minutesAgo: 5581, content: "tangga belum selesai berarti anak masih berpikir pak. biarkan, dia akan kembali kecil hati besok pagi" },
     ],
   },
   {
     id: 188,
     authorId: 38,
     minutesAgo: 5635,
-    shares: 21,
+    shares: 20,
     content:
-      "bunda membeli roti enam, aku makan dua, sisanya empat. aku menulis di kertas: 6 − 2 = 4. lalu aku berpikir, kalau rotinya dimakan semua, 6 − 6 = 0, artinya ada nol roti di atas meja. nol itu bukan sesuatu yang ada, tetapi kok aku bisa bilang ada nol roti? bunda bilang pertanyaanku membuatnya ikut berpikir.\nsekarang kami berdua duduk berpikir tentang nol sambil makan roti. nol itu tidak bisa dimakan, bunda",
+      "bunda, PR pola: 2, 6, 18, 54, ... aku jawab berikutnya 162 soalnya tiap angka kali 3. 2 × 3 = 6, 6 × 3 = 18, 18 × 3 = 54, 54 × 3 = 162. temen aku bilang nambah aja: 2 + 4 = 6, 6 + 12 = 18... eh dia gak bisa lanjut, nambahnya 4 lalu 12, gak rata. jadi punya aku yang bisa dilanjut kan bunda? tolong cek, kalau benar aku mau tulis alasan kali tiga di PR-nya biar gurunya paham aku mikir",
     comments: [
-      { authorId: 39, minutesAgo: 5627, content: "pertanyaanmu luar biasa nak. nol memang angka yang mewakili ketiadaan; kita bisa berbicara tentang sesuatu yang tidak ada, itu keajaiban bahasa sekaligus angka" },
-      { authorId: 90, minutesAgo: 5619, content: "coba eksperimen kecil: satu kotak kosong, satu kotak isi 1 kelereng, suruh dia hitung dua-duanya, nanti dia sendiri nemu beda ada dan tidak ada" },
+      { authorId: 63, minutesAgo: 5627, content: "benar dik, 162. polanya kali 3, dan alasanmu di PR itu justru yang dinilai guru, bukan cuma angkanya" },
+      { authorId: 143, minutesAgo: 5619, content: "temenmu menemukan bahwa beda antar angka itu 4, 12, 36, selalu kali 3 juga dik. tapi cara kali 3 kamu lebih langsung" },
+      { authorId: 24, minutesAgo: 5611, content: "KALI TIGA TERUS ITU POLA RAPI. CUCU KU JUGA SUKA. TULIS ALASANNYA, JANGAN CUMA ANGKA. NENEK MENGAWASI" },
+      { authorId: 187, minutesAgo: 5603, content: "2, 6, 18, 54, 162. lima angka itu kuadrat tiga dik: 3 dipangkatkan berurutan dikali... cek aja, jawabanmu bersih" },
     ],
   },
   {
     id: 189,
     authorId: 39,
     minutesAgo: 5665,
-    shares: 31,
+    shares: 32,
     content:
-      "Sering ditanya: kenapa 1 tidak termasuk bilangan prima? Jawabannya bukan karena 1 aneh, melainkan definisi: prima adalah bilangan yang memiliki tepat dua pembagi. 1 hanya punya satu pembagi, yaitu dirinya sendiri. Jika 1 dianggap prima, banyak pernyataan matematika harus menambah kalimat kecuali 1 di mana-mana; lebih nyaman memilih definisi yang membuat pernyataan lain bersih.\nAnak tetangga menilai itu sepertinya memilih aturan demi kerapian. Saya menjawab iya, matematika memang seni merapikan. Kurang lebih begitu sore ini.",
+      "Trik yang saya tunjukkan ke cucu pemilik warung dekat rumah: kuadrat yang berujung 5. Contoh 35 × 35. Ambil digit depannya 3, kalikan bilangan sesudahnya, yaitu 4: 3 × 4 = 12. Tempel 25 di belakang: 1.225. Coba 75: 7 × 8 = 56, jadi 5.625. Kurang lebih sama persis dengan menghitung 75 × 75 di kertas, tetapi jauh lebih cepat. Cucu itu mencoba 45, menemukan 2.025, lalu tertawa seperti menemukan uang. Kurang lebih begitu. Adakah trik lain yang membuat orang tertawa setelah menemukan jawabannya?",
     comments: [
-      { authorId: 212, minutesAgo: 5657, content: "contoh paling jelasnya bre: faktorisasi prima. kalau 1 ikut, 12 bisa menjadi 1×1×1×2×2×3 dan seterusnya tanpa ujung. mengerikan 🙃" },
-      { authorId: 227, minutesAgo: 5649, content: "tepat dua pembagi itu kuncinya bre. 1 hanya punya satu, jadi ia bukan prima dan bukan komposit, ia warga bebas 🙃" },
-      { authorId: 313, minutesAgo: 5641, content: "'matematika seni merapikan' itu kalimat yang akan gue tempel di meja belajar wkwk" },
-      { authorId: 209, minutesAgo: 5633, content: "inilah yang membuat gue suka matematika: aturannya boleh dipilih, asal konsekuensinya dihitung 🙃" },
+      { authorId: 318, minutesAgo: 5657, content: "45² = 2.025 benar pak. trik itu sah untuk semua angka berujung 5" },
+      { authorId: 262, minutesAgo: 5649, content: "alasannya pak: (10a+5)² = 100a² + 100a + 25 = 100 × a(a+1) + 25. 25 selalu nyangsung di belakang" },
+      { authorId: 283, minutesAgo: 5641, content: "trik pembuat orang tertawa adalah trik terbaik pak. 115 × 115 = 13.225, masih jalan sampai angka besar" },
+      { authorId: 258, minutesAgo: 5633, content: "cucu warung itu menemukan kegembiraan yang langka pak: matematika yang terasa seperti sulap" },
     ],
   },
   {
@@ -182,133 +197,137 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5695,
     shares: 13,
     content:
-      "Panen pertama kebun tomat: enam buah, tidak besar, kemerahannya belum merata. Tiga saya bawa ke tetangga, tiga lagi disimpan untuk sambal. Tetangga yang menerima berkata panen berikutnya harus lebih banyak, saya cuma senyum, benihnya masih ada setengah bungkus.\nSambalnya besok saya bikin. Kalau tiga tomat gak cukup, ya campur cabai rawit, namanya juga panen darurat.",
+      "kebun baru ditanam: baris pertama 1 lubang, baris kedua 3, ketiga 5, keempat 7. cucu aku bilang baris ke-6 pasti 11, katanya bilangan ganjil berurutan. aku hitung pakai batang korek: baris 1 = 1, baris 2 = 1+2 = 3, baris 3 = 3+2 = 5. JADI BARIS 6 = 11 KAN. cucu aku seneng banget sampe lupa makan. aku ikut seneng, kenapa ya angka ganjil itu kayak rapi susunannya",
     comments: [
-      { authorId: 84, minutesAgo: 5687, content: "enam buah itu sudah layak disebut panen. tahun depan kalau kelebihan baru rasanya jadi petani sungguhan" },
+      { authorId: 84, minutesAgo: 5687, content: "11 benar bu. baris ke-n itu 2n − 1. baris ke-6 = 12 − 1 = 11" },
+      { authorId: 90, minutesAgo: 5679, content: "bilangan ganjil itu memang rapi bu, jumlahnya selalu berbentuk persegi kalau ditaruh berdiri" },
+      { authorId: 199, minutesAgo: 5671, content: "cucu seneng sampe lupa makan itu harga mati bu wkwk. kebun baru yang menghasilkan dua panen" },
     ],
   },
   {
     id: 191,
     authorId: 41,
     minutesAgo: 5725,
-    shares: 15,
+    shares: 4,
     content:
-      "Paket tadi pagi berat, alamatnya kebun di ujung kampung, dari jalan masih jalan kaki dua ratus meter, becek. Penerimanya bapak lanjut usia, gue bantu angkut sampe pinggir kebun. Di situ disodorin teh hangat, gak enak nolak, minum dua gelas sambil denger cerita alat itu buat nanam cabai lagi, tahun lalu gagal panen. Yang bikin gue pengen nanya justru pas pulang: aplikasi ngarahin gue muter jauh, padahal jalan kebun itu lebih deket, gue lewat situ gak ada masalah kok. kenapa rute apps sering gak masuk akal gini sih, ada yang ngalamin juga gak",
+      "resi 4723. tiga digit pertama 4+7+2 = 13. digit ceknya 13 mod 10 = 3. cocok digit terakhir. resi sah. sistem gak bohong. gue yang sering lupa ini memang rumus sistem, bukan perasaan.",
     comments: [
-      { authorId: 258, minutesAgo: 5717, content: "teh di tepi kebun itu gak bisa ditolak mas, sekali ditawarin dua gelas, cerita panen tahun lalu ikut kebawa semua" },
-      { authorId: 199, minutesAgo: 5709, content: "jalan kebun emang gitu mas, sepatu saya dua kali sebulan harus dicuci, lumpurnya lengket" },
-      { authorId: 272, minutesAgo: 5701, content: "mas, alat pertanian berat itu biasanya dibantu angkut sampai gudang kan? jangan cuma ditaruh depan pagar, besok dia repot sendiri" },
+      { authorId: 240, minutesAgo: 5717, content: "bener bro, digit cek itu penjaga typo. 13 sisa 3, resi jalan" },
     ],
   },
   {
     id: 192,
     authorId: 42,
     minutesAgo: 5755,
-    shares: 16,
+    shares: 21,
     content:
-      "Jam dinding baru saya pasang di dapur, besar dan mudah terbaca dari lorong. Efeknya tak terduga: anak-anak kos yang biasanya mandi jam sembilan malam kini berlomba-lomba mandi jam delapan, katanya takut ketahuan jadwal mandinya tertinggal. Ada yang menulis jam mandi di kertas kecil dan menempelnya di pintu kamar.\nBesok saya beli satu jam lagi buat ruang tengah, buat yang lalu-lalu ngebut dari dapur padahal waktunya masih jam 7.",
+      "wifi kos 200 ribu, penghuni 7 orang. aku hitung 200.000 ÷ 7 = 28.571,428... ribet. jadi aku bulatkan 28.500 per orang. total 28.500 × 7 = 199.500. KURANG 500. siapa yang nutup 500 itu. aku bukan hemat, aku cuma gak mau bon wifi gak pas. kalian kalau jadi pengurus kos, bulatkan ke atas atau ke bawah? ke atas berarti ada satu orang rugi 3.500, ke bawah berarti aku nutup 500 tiap bulan",
     comments: [
-      { authorId: 71, minutesAgo: 5747, content: "yang ngebut dari dapur itu biasanya yang baru dilarang goreng di kamar ya wkwk" },
-      { authorId: 205, minutesAgo: 5739, content: "kertas kecil tempel pintu itu gampang rontok, suruh aja pakai lakban bening, punya saya dulu tiap pagi gak keliatan karena keburu gelap" },
+      { authorId: 60, minutesAgo: 5747, content: "bulatkan ke atas bu, 28.600 × 7 = 200.200, lebihnya 200 disimpan buat penuangan kopi darurat" },
+      { authorId: 84, minutesAgo: 5739, content: "atau ambil 29.000 bu, lebihnya 3.000 jadi dana router yang mati mendadak. wifi itu hidup mahal" },
+      { authorId: 106, minutesAgo: 5731, content: "200.000 ÷ 7 itu 28.571 bu. ke bawah 28.500 itu pilihan paling sopan, 500 ditutup pengurus. rasa aman penghuni lebih penting" },
+      { authorId: 143, minutesAgo: 5723, content: "catat di grup bu: 28.500 + 500 dari kas kos. transparan, gak ada yang mikir aneh" },
     ],
   },
   {
     id: 193,
     authorId: 43,
     minutesAgo: 5785,
-    shares: 6,
+    shares: 8,
     content:
-      "Mesin baru tiba hari ini, pelatihan operator berlangsung dua hari. Menariknya: yang paling banyak bertanya justru operator lama, karena mereka hafal di bagian mana mesin lama sering bermasalah, jadi mereka mencocokkan satu per satu. Yang paling percaya diri operator muda, sampai mencoba satu prosedur, diam beberapa detik, lalu bertanya juga.\nSore ini kedua kelompok duduk bersama menyalin catatan yang sama. Ada yang janji bawa kopi buat sesi besok pagi. Mesinnya sendiri baru mau dicoba start Kamis.",
+      "mesin cetak satu unit per 90 detik. order 1.000 unit. gue itung: 1.000 × 90 = 90.000 detik = 25 jam. satu mesin gak mungkin, dua mesin 12,5 jam, tiga mesin sekitar 8,3 jam. kepala gudang bilang pakai dua mesin dan lembur 5 jam. gue cek: 1.000 × 90 ÷ 2 = 45.000 detik = 12,5 jam. pas. pertanyaan gue: 8,3 jam itu artinya 8 jam 18 menit kan, atau 8 jam 30 menit? gue gak mau salah hitung jam lembur orang, itu urusan hidup mati di kantor",
     comments: [
-      { authorId: 240, minutesAgo: 5777, content: "mas, operator lama nanya banyak itu wajar, mereka takut ada prosedur baru yang beda sama kebiasaan mereka" },
-      { authorId: 199, minutesAgo: 5769, content: "pelatihan dua hari cukup ya mas? mesin baru di tempat saya dulu tiga hari, hari ketiganya cuma buat tanya-tanya bebas" },
-      { authorId: 272, minutesAgo: 5761, content: "kopinya jangan lupa ditagih mas wkwk, janji begini biasanya yang paling sering ilang" },
-      { authorId: 192, minutesAgo: 5753, content: "pelatihan dua hari dengan dua kelompok duduk bersama biasanya berakhir menjadi aturan tak tertulis yang paling kuat" },
+      { authorId: 240, minutesAgo: 5777, content: "8,33 jam itu 8 jam 20 menit pak. 0,33 × 60 = 19,8, kira-kira 20" },
+      { authorId: 272, minutesAgo: 5769, content: "tulis di laporan jam:menit, jangan desimal pak. 8:20 itu manusiawi, 8,33 itu kalkulator" },
+      { authorId: 236, minutesAgo: 5761, content: "90.000 ÷ 3.600 = 25 jam benar pak. dua mesin 12,5 jam. lembur 5 jam di atas 7,5 jam itu pas" },
     ],
   },
   {
     id: 194,
     authorId: 44,
     minutesAgo: 5815,
-    shares: 24,
+    shares: 5,
     content:
-      "hari ini gue merebus telur dua belas menit, tetapi karena asyik main ponsel menjadi dua puluh menit. pinggir kuningnya jadi abu-abu kehijauan. gue panik mengira telurnya tercemar, gue telusuri, ternyata itu reaksi besi dan sulfur telur kalau terlalu panas; tidak berbahaya, hanya tidak enak dilihat. temen kos menyarankan cepat-cepat dinginkan telurnya setelah merebus agar tidak terlanjur kepanasan.\ndapur itu sekolah kimia gratis. gue tidak mendaftar tetapi tidak bisa keluar",
+      "wkwk gue kalah sama kasir. mie 3.500 + telur 2.500 + es teh 2.000 = 8.000. gue bayar 10.000. kasir balikin 1.500. gue terima tanpa mikir, udah jalan 20 meter, kepala nyala: KOK 1.500, harusnya 2.000. gue balik, kasir cek kalkulator, ternyata gue yang telat sadar. GUE YANG KALAH ITUNGAN DOANG, KASIR BENER. wkwk gimana sih biar otak otomatis itung kembalian, gak kaya komputer lawas yang harus direset dulu",
     comments: [
-      { authorId: 213, minutesAgo: 5807, content: "itu cincin besi-sulfur bre, muncul di tepi kuning karena telur terlalu lama panas. dinginkan cepat dengan air dingin, tidak akan muncul lagi 🙃" },
-      { authorId: 318, minutesAgo: 5799, content: "kimia gratis plus gelar sarjana telur bre, lulusan dapur semua" },
+      { authorId: 152, minutesAgo: 5807, content: "10.000 − 8.000 = 2.000 bre. jurusnya jangan hitung uang balik, hitung sisa dari belanjaanmu" },
+      { authorId: 331, minutesAgo: 5799, content: "kasir balikin kurang itu kejadian umum bre, gue sering. kebiasaan terima tanpa lihat itu dosa malam wkwk" },
+      { authorId: 23, minutesAgo: 5791, content: "reset otak bre itu namanya tidur. minimal 5 jam wkwk" },
     ],
   },
   {
     id: 195,
     authorId: 45,
     minutesAgo: 5845,
-    shares: 7,
+    shares: 19,
     content:
-      "Melati yang saya tanam bulan lalu mulai berbunga. Tetangga berhenti di depan pagar, berkata wangi. Saya menjawab, dari tanaman itu juga.\nHal seperti itulah yang membuat pagi terasa cukup.",
-    comments: [],
+      "Menara masjid berbunyi 06.00, saya keluar rumah tepat saat suara kedua. Kembali melewati gerbang 06.40. Empat puluh menit jalan kaki tanpa terganggu apa pun kecuali seekor ayam yang menyeberang dengan keyakinan penuh. Tidak ada yang perlu dihitung hari ini, kecuali berterima kasih pada pagi yang memberi empat puluh menit penuh. Demikian laporan pagi.",
+    comments: [
+      { authorId: 283, minutesAgo: 5837, content: "40 menit penuh itu warisan pagi pak. ayam menyeberang itu hitungan yang tak perlu diperdebatkan" },
+      { authorId: 258, minutesAgo: 5829, content: "laporan pagi yang tenang pak. besok rutenya sama lagi ya" },
+    ],
   },
   {
     id: 196,
     authorId: 46,
     minutesAgo: 5875,
-    shares: 18,
+    shares: 10,
     content:
-      "Surat edaran kurikulum baru datang: 14 halaman. Seminggu kemudian turun ringkasannya: 2 halaman. Semua guru membaca ringkasannya, termasuk saya. Petugas administrasi bertanya, jika ringkasannya sudah cukup, untuk apa yang panjang? Saya menjawab: yang panjang itu untuk arsip, yang ringkas untuk hidup 😅\nBesok ringkasannya saya tempel di papan, dan yang panjang disimpan di lemari yang pintunya tertutup rapat.",
+      "Formulir semester baru: nomor urut murid 1 sampai 250. Satu halaman memuat 20 kotak. 250 ÷ 20 = 12,5. Setengah halaman itu tidak bisa dicetak, jadi totalnya 13 halaman dengan 10 kotak kosong di akhir. Bos bertanya kenapa tidak 12 halaman agar rapi. Karena 12 × 20 = 240, kurang 10 kotak untuk 10 murid yang tidak punya tempat tertulis 😅. Sekarang halaman ke-13 hanya berisi sepuluh kotak dan satu catatan kaki. Sebelum rapat besok, mohon konfirmasi: 13 halaman itu benar ya, gak ada cara lain yang lebih rapi?",
     comments: [
-      { authorId: 192, minutesAgo: 5867, content: "yang panjang untuk arsip, yang ringkas untuk hidup. kalimat itu layak masuk kumpulan catatan birokrasi bu" },
+      { authorId: 268, minutesAgo: 5867, content: "benar kak, 13 halaman. alternatifnya 15 kotak per halaman jadi 17 halaman penuh, tapi itu lebih banyak kerja, bukan lebih rapi" },
+      { authorId: 227, minutesAgo: 5859, content: "10 kotak kosong di akhir itu sah kak, biasanya justru dipakai murid mutasi. kasih catatan: cadangan 😅" },
+      { authorId: 322, minutesAgo: 5851, content: "250 ÷ 20 = 12,5 → 13 halaman kak. angka bulat itu mitos kantor wkwk" },
     ],
   },
   {
     id: 197,
     authorId: 47,
     minutesAgo: 5905,
-    shares: 19,
+    shares: 17,
     content:
-      "Nasabah datang membawa anaknya yang mungkin berusia empat tahun. Anak itu menatap ruangan, lalu bertanya keras-keras, ini rumah uang ya? Sebagian nasabah tertawa. Satu bapak menjawab, iya, nanti kamu tumbuh menjadi orang yang menjaganya. Saya memberi permen, anak itu mengangguk seperti menerima tugas.\nSeharian ruangan itu lebih ringan. Anak-anak punya cara memberi izin kepada ruangan untuk bernapas.",
+      "Nasabah menyetor koin seratus keping seribu rupiah, total 100.000, dalam satu tas plastik yang berbunyi seperti hujan. Saya menghitung manual selama 12 menit dengan mesin hitung koin yang berjalan pelan. Totalnya tepat. Nasabah bertanya apakah saya kesal, karena menunggu 12 menit terasa lama. Saya menjawab koin tidak boleh ditebak. Yang ingin saya tanyakan ke rekan teller: apakah 12 menit itu wajar untuk 100 keping, atau ada cara hitung yang lebih cepat yang belum saya temukan?",
     comments: [
-      { authorId: 84, minutesAgo: 5897, content: "anak kecil di antrean itu hiburan gratis sekaligus alarm buat yang gak sabaran. untung nasabahnya yang sabar" },
-      { authorId: 262, minutesAgo: 5889, content: "'rumah uang' itu nama yang jujur. orang dewasa menyebutnya dengan nama panjang yang berat, kak" },
-      { authorId: 205, minutesAgo: 5881, content: "bapak yang menjawab nanti kamu tumbuh menjaganya itu nasihat singkat yang bagus kak" },
-      { authorId: 283, minutesAgo: 5873, content: "permen dan anggukan itu transaksi paling polos hari ini kak" },
+      { authorId: 84, minutesAgo: 5897, content: "100 keping itu 7 detik per keping pak, sudah wajar dengan mesin pelan. jangan dipercepat, akurat lebih mahal daripada cepat" },
+      { authorId: 262, minutesAgo: 5889, content: "kalau mesinnya memungkinkan, timbang dulu pak: 100 koin 1.000 itu standar berat tertentu. timbangan mengecewakan, hitungan menegaskan" },
+      { authorId: 283, minutesAgo: 5881, content: "12 menit pak, dan nasabah pulang dengan keyakinan penuh. itu pulsa layanan yang sah" },
     ],
   },
   {
     id: 198,
     authorId: 48,
     minutesAgo: 5935,
-    shares: 11,
+    shares: 5,
     content:
-      "Pengunjung muda hari ini berdiri membaca satu bab selama hampir dua jam, dekat rak filsafat. Saya membawakan kursi tanpa bertanya. Ia menerima, mengucapkan terima kasih dua kali, lalu kembali membaca sambil berdiri. Besok saya taruh bangku tinggi dekat rak itu, sekalian tanya dia kuliah apa, soalnya selama dua jam itu bukunya gak ia pindah-pindah.",
+      "Rak katalog memakai kode A1 sampai A20, tiap rak empat tumpuk, jadi 80 posisi. Buku katalog hari ini 63. Sisa 17 posisi kosong, menunggu buku yang belum tiba. Kosong bukan kekurangan. Kosong adalah ruang yang sedang dijanjikan.",
     comments: [
-      { authorId: 258, minutesAgo: 5927, content: "rak filsafat itu memang bikin lupa waktu pak, saya pernah nyari satu buku di situ, keluar jam tutup, bukunya belum ketemu juga" },
-      { authorId: 262, minutesAgo: 5919, content: "berdiri dua jam itu kaki saya udah pindah-pindah tiga kali pak, anak ini kuat juga" },
-      { authorId: 272, minutesAgo: 5911, content: "kasih tau jam istirahat perpustakaannya juga pak, kadang pengunjung berdiri gara-gara gak tau bisa pindah ke ruang baca" },
-      { authorId: 313, minutesAgo: 5903, content: "gue membaca sambil berdiri juga pak, kakinya yang menjadi saksi diam-diam wkwk" },
-      { authorId: 322, minutesAgo: 5895, content: "rak filsafat memang membuat orang lupa duduk wkwk" },
+      { authorId: 336, minutesAgo: 5927, content: "17 posisi kosong pak, dan kalimat penutupnya lebih rapi dari katalognya" },
     ],
   },
   {
     id: 199,
     authorId: 49,
     minutesAgo: 5965,
-    shares: 14,
+    shares: 29,
     content:
-      "hari ini bos cuti dan gue menjaga toko sendirian pertama kali. kembalian lima ribu sering tidak tepat, satu pembeli yang sabar ikut membantu menghitung, lalu berkata santai bang, yang penting jujur. satu om lansia meminta potongan rapi, gue gagal dua kali, dia berkata potongan itu seni yang butuh sepuluh tahun.\nsore ini gue menutup toko, ngitung kembalian tiga kali soalnya masih deg-degan. besok bos balik, laporan gue satu kalimat: toko aman, potongan rapi belum jadi bagian dari diri gue",
+      "bos-bos, itung antrian tadi siang. datang 6 orang: 2 minta model rumit, 30 menit per kepala, 4 model biasa, 15 menit. gue itung: 2 × 30 = 60, 4 × 15 = 60, total 120 menit = 2 jam. yang pertama duduk 13.00, yang terakhir selesai 15.00. dia nanya kok lama, gue bilang karena rambutnya panjang doang, waktunya sama keadilan. kalian kalau duduk nomor 6 di barbershop, biasanya tetap nunggu atau kabur cari yang sepi",
     comments: [
-      { authorId: 186, minutesAgo: 5957, content: "pertama kali jaga sendirian itu gini bang, gue dulu salah kasih kembalian 50 ribu, besoknya nyeret laci dihitung mundur tiga kali" },
-      { authorId: 199, minutesAgo: 5949, content: "yang ngomongin sepuluh tahun itu omnya bercanda bang wkwk, atau dia emang nyekrip 30 tahun" },
-      { authorId: 144, minutesAgo: 5941, content: "potongan rapi butuh sepuluh tahun itu bilangan yang tidak berlebihan bang, gue setuju wkwk" },
+      { authorId: 118, minutesAgo: 5957, content: "2 jam itu standar bos. kabur itu rugi, rambut bakal nyari bos balik" },
+      { authorId: 199, minutesAgo: 5949, content: "60 + 60 = 120 bener bos. nomor 6 itu menunggu rambut terakhir, gajinya kecil tapi cukup" },
+      { authorId: 240, minutesAgo: 5941, content: "gue sih nunggu bos, kabur ke tempat sepi biasanya nemu jawatan baru yang modelnya lebih lambat wkwk" },
     ],
   },
   {
     id: 200,
     authorId: 50,
     minutesAgo: 5995,
-    shares: 48,
+    shares: 26,
     content:
-      "GUYS. LAPORAN AKHIR BULAN.\nPELANGGAN HARI INI BANYAK. GUE TIDAK SEMPAT MENGHITUNG, TIDAK SEMPAT MENCATAT, TIDAK SEMPAT BERPIKIR. YANG GUE INGET: PANCINYA PANAS, TANGAN GUE PANAS, SEMUANYA PANAS. SATU PELANGGAN BILANG 'SAMBARANMU NAIK KUALITAS BANG'. GUE TIDAK TAHU ITU PUJIAN ATAU TUDUHAN.\nBULAN INI DITUTUP DENGAN UAP, TANGAN, DAN SATU KESIMPULAN: BESOK GUE BUKA LAGI.",
+      "GUYS, LAPORAN SOSIS. stok 18 batang. tiap porsi 2 batang, gue rencana 8 porsi. gue itung: 2 × 8 = 16. sisa 2. DUA BATANG SOSIS SISA, GUYS. tamu datang 9 orang mendadak. 9 × 2 = 18. PAS, KOSONG HABIS. gue bingung pilih mana: hitungan 8 porsi yang sisa 2, atau hitungan 9 tamu yang pas. GUYS GUE MAU JAWABAN DARI KALIAN, bukan dari dapur, soalnya dapur udah memilih 9 tamu dan gue gak diikutkan rapat",
     comments: [
-      { authorId: 154, minutesAgo: 5987, content: "GUYS 'SAMBARANMU NAIK KUALITAS' ITU PUJIAN PALING KACAU BRE, GUE IKUT BANGGA" },
+      { authorId: 44, minutesAgo: 5987, content: "9 tamu guys, sosis gak kenal rapat. dua batang sisa memang ditakdirkan buat tamu kesembilan" },
+      { authorId: 154, minutesAgo: 5979, content: "2 × 8 = 16 guys, sisa 2. 9 × 2 = 18 pas. tamu menang, dapur menang, gak ada yang sisa" },
+      { authorId: 336, minutesAgo: 5971, content: "tambahan guys: potong 2 sisa jadi 4 setengah batang, jadi campuran. sosis berdamai dengan hitungan" },
     ],
   },
 ]

@@ -13,11 +13,12 @@ import { THREADS_PART5 as t5 } from "../src/lib/threadz/data/threads-5";
 import { THREADS_PART6 as t6 } from "../src/lib/threadz/data/threads-6";
 import { THREADS_PART7 as t7 } from "../src/lib/threadz/data/threads-7";
 import { THREADS_PART8 as t8 } from "../src/lib/threadz/data/threads-8";
+import { THREADS_PART9 as t9 } from "../src/lib/threadz/data/threads-9";
 
 const files: [string, any[]][] = [
   ["threads-1", t1 as any], ["threads-2", t2 as any], ["threads-3", t3 as any],
   ["threads-4", t4 as any], ["threads-5", t5 as any], ["threads-6", t6 as any],
-  ["threads-7", t7 as any], ["threads-8", t8 as any],
+  ["threads-7", t7 as any], ["threads-8", t8 as any], ["threads-9", t9 as any],
 ];
 
 // ---------- POLA A: SKRIP MIKRO-DRAMA (formula baru, di-blacklist hari ini) ----------

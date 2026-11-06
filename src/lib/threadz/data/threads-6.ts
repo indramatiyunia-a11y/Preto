@@ -1,7 +1,11 @@
 import type { ThreadzThread } from "../types"
 
-// PART 6: cuitan 126-150 — ROMBAK TOTAL V3 (Nov 2026). Penulis 26-50 urut.
-// Hukum isi: scripts/rumus-v2.md BAGIAN 2 (FORMULA HITAM dilarang) + BAGIAN 4.
+// PART 6: cuitan 126-150 — ROMBAK V5 (6 Nov 2026): total ganti isi jadi FORUM
+// MATEMATIKA (V3 lama masih diary harian). Slot teknis TIDAK berubah:
+// id 126-150, authorId 26-50 urut, minutesAgo = 25 + 30*(id-1), komentar
+// menyebar 0-6, komentar minutesAgo lebih kecil dari post-nya.
+// Aturan lengkap: scripts/rumus-v2.md BAGIAN 1G + FORMULA HITAM 19 POLA.
+// Tema file ini: rasio, proporsi & persen — bentuk BARU.
 export const THREADS_PART6: ThreadzThread[] = [
   {
     id: 126,
@@ -9,10 +13,10 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3775,
     shares: 17,
     content:
-      "bocah SMP naik sendirian pagi tadi, bareng satu temennya. gue dengar dia ngitung sendiri sambil buka dompet: dua kali tiga, enam ribu, pas buat dua orang. dia gak nanya ke gue, dia ngitung sendiri kayak lagi ujian rahasia. turun di depan sekolah, dia pamit sopan.\ngue mikir, itungan kecil begitu nanti gak ada yang inget, tapi buat bocah itu kelihatannya pengalaman gede",
+      "nah bro, rute biasa 9 km tadi kelar 27 menit gara-gara jalanan jelek. gue itung sambil nunggu lampu: 9 dibagi 27 menit, tiap menit 0,33 km, kali 60 jadi 20 km per jam. bener kan itung gue bro? terus penumpang nanya, kalau kecepatan begini terus-terusan, tarif ikut naik gak bro, soalnya di apps harga sama padahal waktu dobel",
     comments: [
-      { authorId: 143, minutesAgo: 3767, content: "bre itungan pertama sendirian itu momen jadi dewasa yang gak direkam siapa-siapa" },
-      { authorId: 199, minutesAgo: 3759, content: "naik sendirian pertama itu momen bre, keponakan saya dulu nyebut-nyebut tarif di rumah semaleman, takut salah" },
+      { authorId: 137, minutesAgo: 3767, content: "itungan bener bro, 20 km/jam itu lambat banget buat 9 km. tarif gak ikut waktu, ikut jarak" },
+      { authorId: 186, minutesAgo: 3759, content: "20 km per jam itu 3 km tiap 9 menit bro. macet mah untungnya mesin, bukan dompet" },
     ],
   },
   {
@@ -21,11 +25,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3805,
     shares: 8,
     content:
-      "Rak baru tiba sore tadi. Perencanaan: jarak antarrak 2,5 meter agar forklift lolos dengan beban. Admin gudang bertanya kenapa tidak 2 meter saja supaya rak bertambah satu. Saya belum bisa menjawab selain: lebar forklift dengan beban tidak bisa dinegosiasikan, dan saya pernah sekali melihat forklift tersangkut di lorong sempit. Besok kami mengukur ulang lorong bersama.",
+      "dua rak gudang, isinya selisih 24 dus. rasio isi rak A terhadap rak B itu 3 banding 5. anak magang langsung bilang A 3 bagian B 5 bagian, tapi dia bingung satu bagian berapa dus. gue itung: selisih 2 bagian = 24, jadi satu bagian 12, berarti A 36, B 60, total 96. dia nanya bener gak, terus nanya lagi kenapa selisihnya 2 bagian bukan 5 dikurang 3... eh itu sama doang. tolong konfirmasi angkanya biar saya bisa kasih tahu kepala gudang dengan tenang",
     comments: [
-      { authorId: 240, minutesAgo: 3797, content: "lorong sempit itu pengalaman yang tidak perlu diulang mas. ukur ulang itu keputusan tepat" },
-      { authorId: 192, minutesAgo: 3789, content: "2,5 meter itu bukan keinginan, itu ukuran mesin ditambah harga salahnya" },
-      { authorId: 272, minutesAgo: 3781, content: "mas, sekalian catat lebar forklift paling lebar ditambah sisi buat jalan kaki orang, biar gak cuma pas-pasan buat mesin" },
+      { authorId: 240, minutesAgo: 3797, content: "bener pak. 5 − 3 = 2 bagian selisihnya, 24 ÷ 2 = 12 per bagian. A 36, B 60" },
+      { authorId: 192, minutesAgo: 3789, content: "cek balik: 36 + 60 = 96, dan 60 − 36 = 24. dua syarat terpenuhi, aman" },
+      { authorId: 272, minutesAgo: 3781, content: "anak magang itu hampir nyampe pak, cuma mentok di langkah selisih. kasih dia kertas, dia pasti kejar" },
     ],
   },
   {
@@ -34,10 +38,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3835,
     shares: 26,
     content:
-      "guys gue mentok hafalin identitas trigonometri. sin² + cos² = 1 udah nempel karena cuma satu, tapi lanjutannya kacau: 1 + tan² = sec², terus sin 2x = 2 sin x cos x, semuanya kecampur pas ulangan. gue udah bikin kartu, tempel di dinding kamar, tetap lupa.\nada yang punya cara hafal yang beneran nempel? jangan 'dipahami saja' ya, gue udah paham. yang tidak nempel itu hafalannya wkwkwk",
+      "RESEP KUE DIPORSIKAN DAN TEMEN GUE MASIH PROTES WKWKWK. resep untuk 4 porsi: terigu 300 g, garam 6 g. mau bikin 7 porsi. gue hitung faktornya 7 ÷ 4 = 1,75. terigu 300 × 1,75 = 525 g. garam 6 × 1,75 = 10,5 g. temen gue nanya KOK GARAM IKUT DIKALI GARAM ITU CUMA DIKIT, ASAL TAMBAH DUA TIGA KOMPORAN AJA. gue bilang yang diubarin porsinya bukan selera. DIA MASIH NGEYEL. gue jelasin pakai angka: kalau garam gak ikut rasio, kue 7 porsi bakal keasinan atau kekurangan, tergantung muka si tukang takar wkwkwk. kalian pakai cara apa?",
     comments: [
-      { authorId: 212, minutesAgo: 3827, content: "turunkan sendiri satu kali kak dari sin²+cos²=1: bagi kedua ruas dengan cos² → 1 + tan² = sec². yang dihasilkan sendiri susah hilang 🙃" },
-      { authorId: 131, minutesAgo: 3819, content: "tempel satu identitas saja bre di dinding, sisanya diturunkan. dinding gue satu kalimat, kuis lancar" },
+      { authorId: 131, minutesAgo: 3827, content: "1,75 penuh bre, semua bahan ikut. yang beda perlakuan cuma bahan yang dirasakan di akhir, itu urusan penyesuaian, bukan urusan resep" },
+      { authorId: 223, minutesAgo: 3819, content: "7 ÷ 4 = 1,75 bre. terigu 525, garam 10,5. temen lu itu takut angka koma doang wkwk" },
+      { authorId: 154, minutesAgo: 3811, content: "garam 10,5 itu 10 setengah gram bre, masuk sendok teh kecil aja. gak serumit keliatannya" },
     ],
   },
   {
@@ -46,9 +51,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3865,
     shares: 10,
     content:
-      "om, hari ini gue diajarin urutan kabel jaringan berwarna, katanya tidak boleh salah satu. gue tanya kenapa, om cuma jawab signal-nya bisa kacau. gue masih penasaran: bukannya sinyal tidak peduli warna plastik? tapi temen gue yang sudah kerja bilang urutannya emang dibikin standar biar semua orang gampang nyari kesalahan. itu kedengeran benar juga, tapi gue masih ingin dengar penjelasan teknisnya dari om-om di sini",
+      "om-om, campuran oli mesin dua tak rasio 1:25. gue punya bensin 2,5 liter, jadi oli yang dibutuhin 100 ml. gue itung: 2.500 ml ÷ 25 = 100. ternyata om tukang bengkel tuang 150 ml, katanya biar mesin adem. mesin adem itu hitungan atau perasaan om? gue mau ikut om atau tetap pegang 100 ml",
     comments: [
-      { authorId: 213, minutesAgo: 3857, content: "urutan warna itu standar om. sinyal memang tidak peduli warna, tetapi alat ukur dan teknisi lain peduli. satu orang beda urutan = satu jam mencari kesalahan yang tidak ada" },
+      { authorId: 186, minutesAgo: 3857, content: "1:25 = 100 ml om muda, itungan lu bener. 150 itu rasio 1:16, kekentalan naik, asap nanti tebel" },
+      { authorId: 240, minutesAgo: 3849, content: "tanya om-omnya pakai rasio 1:16 ato 1:25. kadang om yang tuang besar ikut hafalan mesin lama, bukan perasaan" },
+      { authorId: 213, minutesAgo: 3841, content: "pegang buku mesin om. semua rasio udah ditulis di sana, om-om lama kadang hafalan lama ikut mesin lama" },
     ],
   },
   {
@@ -57,11 +64,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3895,
     shares: 15,
     content:
-      "Si anak les malam ini bertanya: kenapa nol dikali bilangan apa pun hasilnya nol? Saya jawab dengan kotak: lima kotak berisi kosong, tetap kosong. Ia menjawab: kalau kotaknya besar? Saya jawab kotak sebesar apa pun isinya tetap kosong. Ia berhenti sebentar, lalu bertanya yang membuat saya tertawa: kalau begitu kenapa nol dibagi apa pun tetap nol, tetapi apa pun dibagi nol tidak boleh?\nSaya jujur mengatakan itu pertanyaan bagus dan jawaban lengkapnya menunggu kelas berikutnya. Kadang mengajar itu mempersiapkan diri untuk dikalahkan sendiri.",
+      "si anak membawa soal peta: skala 1:250.000, jarak dua kota di peta 4,8 cm. Ia menjawab 1.200 km. Saya mencoba mengingatkan bahwa 250.000 yang dimaksud adalah sentimeter, sehingga 4,8 × 250.000 = 1.200.000 cm, dan 100.000 cm adalah 1 km, jadi hasilnya 12 km. Ia protes keras: kalau dikalikan bilangan besar, kok hasilnya jadi kecil. Saya menghargai protes itu, karena perpindahan satuan memang tidak terlihat. Apakah ada yang punya analogi sederhana untuk memperlihatkan bahwa cm ke km itu memotong lima nol, bukan menambah?",
     comments: [
-      { authorId: 262, minutesAgo: 3887, content: "guru yang berkata menunggu kelas berikutnya itu guru yang jujur. pertanyaan itu pintu ke materi yang lebih dalam" },
-      { authorId: 212, minutesAgo: 3879, content: "pertanyaan kedua anak itu emas kak. pembagian itu bertanya 'berapa kali nol menghasilkan lima?', dan tidak ada jawabannya, makanya tidak boleh 🙃" },
-      { authorId: 90, minutesAgo: 3871, content: "anak begini kalau bertemu guru yang sabar biasanya jadi anak yang menyukai matematika bu 😄" },
+      { authorId: 262, minutesAgo: 3887, content: "pakai tangga satuan bu: cm → m → km, tiap anak tangga memotong dua nol. lima nol terpotong total, jadi angka menyusut" },
+      { authorId: 268, minutesAgo: 3879, content: "biar kelihatan bu, tulis 1.200.000 cm di kertas besar, terus suruh dia ukur keliling lapangan 100.000 cm = 1 km. 12 lapangan = 12 km" },
+      { authorId: 143, minutesAgo: 3871, content: "kunci bu: satuan ikut dibawa. 1.200.000 cm itu memang besar, tapi dalam km dia hanya 12" },
     ],
   },
   {
@@ -70,10 +77,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3925,
     shares: 18,
     content:
-      "kembalian receh habis jam 10 pagi. pelanggan beli dua bungkus, gue tidak bisa memberi kembalian pas. dia bilang sambil ketawa: pokoknya pas pasan kak, sisanya besok saja. sekarang di buku catatan gue ada satu baris keterangan yang ditulis tangan pelanggan sendiri: iuran dari pembeli, dipakai seikhlasnya. besok dia kembali, gue beri kembalian lebih sedikit, dia pasti lupa. bagian itu yang membuat senang",
+      "sabun merek sama, rak kiri: 3 biji 13.500, rak kanan: 5 biji 21.000. pelanggan mau hemat, gue itungin: kiri 4.500 per biji, kanan 4.200 per biji, kanan lebih murah 300 per biji. dia ambil yang kiri 3 biji, katanya dia cuma butuh 3. gue mikir, hemat 300 per biji itu buat dia 900 kalau ambil 3, tapi ambil 5 berarti keluar uang lebih dulu 21.000 vs 13.500. hemat yang mana sebenarnya sih, per biji atau per total keluaran",
     comments: [
-      { authorId: 102, minutesAgo: 3917, content: "kembalian receh habis itu penyakit tiap awal bulan kak, gue sampai sedia permen buat ganti kembalian kecil" },
-      { authorId: 258, minutesAgo: 3909, content: "kertas tulisan tangan pembeli itu jangan dibuang kak, kumpulin di map, kalo besok dia lupa tinggal dilihat bareng, biasanya dia ketawa duluan" },
+      { authorId: 205, minutesAgo: 3917, content: "dua-duanya benar, tergantung butuh. per biji kanan lebih murah, tapi kalau hanya butuh 3, keluaran terkecil tetap kiri" },
+      { authorId: 240, minutesAgo: 3909, content: "hemat yang benar dihitung dari selisih pengeluaran buat kebutuhan yang sama. ambil lebih dari butuh itu nunda belanja, bukan hemat" },
+      { authorId: 84, minutesAgo: 3901, content: "pelanggan itu jujur sama dirinya bu, butuh 3 ya ambil 3. kasir yang jago itungin per biji tetap pegang nilai" },
     ],
   },
   {
@@ -82,9 +90,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3955,
     shares: 12,
     content:
-      "bayam hari ini segar-segar. teh memasang tulisan di kardus: ambil dua ikat hemat. pembeli membaca, tersenyum, mengambil satu ikat, lalu bilang terima kasih teh. teh tidak marah, teh hanya berpikir, tulisan itu kalah senjata dengan dompet orang. besok teh coba tulis: ambil satu, dua juga boleh. siapa tahu bahasa terbalik lebih laku",
+      "tomat kemarin 8 ribu per kilo, hari ini 10 ribu. pembeli ikut bernada: naik 2 ribu berarti naik 20 persen teh. gue ikut manggut-manggut, terus malam tadi kepikiran, 2 dari 8 itu bukan 2 dari 10. gue itung pakai kertas: 2 ÷ 8 = 0,25, jadi naik 25 persen. nah sekarang gue bingung sama diri sendiri, bener sih hitungan gue, tapi kenapa orang-orang otomatis pakai 10 sebagai pembaginya? teh ikut kacau juga di akhir pekan",
     comments: [
-      { authorId: 84, minutesAgo: 3947, content: "tulisan terbalik malah jadi magnet, orang otomatis berhenti baca dua kali. promosi gratis" },
+      { authorId: 102, minutesAgo: 3947, content: "pembaginya harga lama teh, 8 ribu. 2 ÷ 8 = 25 persen. orang otomatis pakai harga baru karena itu angka yang baru dilihat" },
+      { authorId: 84, minutesAgo: 3939, content: "25 persen teh bener. kenaikan selalu dibanding dari mana dia berangkat, bukan kemana dia tiba" },
+      { authorId: 60, minutesAgo: 3931, content: "teh tinggal bilang: dari 8 ke 10. kalau harga turun balik ke 8, turunnya 20 persen. bolak-baliknya gak simetris, itu yang bikin kacau" },
     ],
   },
   {
@@ -93,26 +103,21 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3985,
     shares: 22,
     content:
-      "Tanya proporsi yang suka memasak. Sambal terasi biasa saya buat untuk 4 orang memakai 10 cabai rawit dan 3 cabai merah besar. Besok tamu datang 6 orang. Saya menghitung: dari 4 ke 6 berarti kali 1,5, jadi cabai rawit 15 dan cabai merah sekitar 4-5 buah. Bunda selalu berkata bumbu boleh dibulatkan, cicipan yang menentukan. Tetap saja saya ingin tahu, apakah ada yang menghitung seperti saya dan hasilnya pas, atau memang sambal tidak pernah mengikuti perhitungan?",
+      "Resep nasi: 1 cup beras pakai 1,5 cup air. Aku akan memasak 3 cup beras, jadi airnya 4,5 cup. Yang membuatku ragu bagian garam: resep menulis 1/4 sendok teh untuk 2 cup beras. Untuk 3 cup berarti 1,5 kali bagian itu, yaitu 3/8 sendok teh. Setengah sendok teh kecil kekurangannya tidak sampai separuh, tetapi ketiga per delapan pun tidak ada alatnya di dapurku. Apakah 3/8 memang benar, dan kira-kira cara mengambilnya bagaimana tanpa membeli sendok baru?",
     comments: [
-      { authorId: 59, minutesAgo: 3977, content: "sambal itu satu-satunya resep yang ikut suasana hati kak 😄 hitunganmu sudah bagus, sisanya diputuskan saat mencicipi" },
-      { authorId: 219, minutesAgo: 3969, content: "rasionya tepat kak: 10 × (6/4) = 15. yang sering lupa: gula dan asam biasanya juga harus ikut naik 🙃" },
-      { authorId: 84, minutesAgo: 3961, content: "sambal itu satu-satunya masakan yang bahannya bisa dihitung tapi rasanya tetap kejutan" },
-      { authorId: 90, minutesAgo: 3954, content: "tambahan dari sesama ibu dapur kak: rawit dimasak duluan baru merah besar, urutan itu lebih menentukan daripada jumlahnya" },
+      { authorId: 277, minutesAgo: 3977, content: "3/8 benar bu: 1/4 × 1,5. ambil 1/4 sendok teh penuh lalu separuhnya lagi, jadilah 3/8" },
+      { authorId: 90, minutesAgo: 3969, content: "1/8 itu separuh dari 1/4 bu. jadi 1/4 penuh + 1/4 separuh = 3/8. tangan lebih praktis dari alat" },
+      { authorId: 59, minutesAgo: 3961, content: "ibu bisa juga lewati desimal: asin belakangan selalu bisa ditambah, asin dari awal susah ditarik" },
     ],
   },
   {
     id: 134,
     authorId: 34,
     minutesAgo: 4015,
-    shares: 11,
+    shares: 6,
     content:
-      "Malam ini pos kena serbuan: tiga kucing. Satu tidur di kursi tamu, dua di atas meja logbook. Tamu yang lewat bertanya, itu kucing satpam ya? Saya menjawab sebaliknya: mereka yang menyuruh saya berjaga, saya yang diberi izin tinggal. Tamu tertawa. Kucing di kursi tamu membuka mata sebentar, lalu kembali tidur seperti pihak yang berkuasa.\nLogbook malam ini: tiga pengaman tambahan. Satu masalah: besok pagi halaman logbook-nya penuh bulu.",
-    comments: [
-      { authorId: 240, minutesAgo: 4007, content: "mas, kucing di atas logbook jangan digeser, besok pagi tulisannya kanan kiri, pengalaman" },
-      { authorId: 199, minutesAgo: 3999, content: "pos dengan tiga kucing itu pos paling aman di kompleks, para pendatang tahu sendiri" },
-      { authorId: 272, minutesAgo: 3991, content: "pos saya juga sering dikunjungi kucing pak, tapi dia cuma numpang minum terus langsung pergi, gak mau jaga" },
-    ],
+      "4 lampu pos, 18 watt masing-masing, nyala 12 jam. 18 × 12 = 216 Wh per lampu. ×4 = 864 Wh. logbook: 0,86 kWh per malam. ronde.",
+    comments: [],
   },
   {
     id: 135,
@@ -120,9 +125,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4045,
     shares: 23,
     content:
-      "pikiran malam ini: kalau gue berdiri di kutub utara, gue ikut memutar bersama bumi satu putaran sehari, tetapi gue tidak bergerak sama sekali. jadi bergerak itu bukan soal gue jalan atau tidak, tapi soal gue sedang di mana dan referensinya apa. guru bilang itu namanya kerangka acuan. gue bilang itu namanya belum tidur jam 12 malam",
+      "mikir di angkot: motor 40 km per jam, terus berhenti warung 15 menit, terus jalan lagi 40 km per jam. rata-ratanya jadi berapa sih. kok rasanya bukan 40 lagi, karena waktunya kebanyakan. tapi kalau dibilang 40 dikurang sesuatu, dikurangnya berapa. nanya ke google pusing, nanya di sini mungkin lebih manusiawi",
     comments: [
-      { authorId: 212, minutesAgo: 4037, content: "kerangka acuan itu jawaban resminya bre. belum tidur jam 12 malam itu jawaban yang lebih jujur 🙃" },
+      { authorId: 227, minutesAgo: 4037, content: "rata-rata itu total jarak dibagi total waktu bre. berhenti 15 menit bikin waktu panjang, jadi rata-rata turun. butuh tau jarak perjalanan dulu baru bisa dihitung" },
+      { authorId: 118, minutesAgo: 4029, content: "misal bre: 40 km dalam 1 jam + 15 menit istirahat = 40 ÷ 1,25 jam = 32 km per jam. istirahat makan rata-rata" },
+      { authorId: 313, minutesAgo: 4021, content: "kuncinya bre: kecepatan gak diaverase-kan, yang diaverase jarak per waktu total. waktunya ikut dihitung walau diam" },
     ],
   },
   {
@@ -131,12 +138,12 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4075,
     shares: 16,
     content:
-      "km, butuh bantuan atur ulang jadwal. rencananya empat bab per hari selama lima hari, hari ketiga gugur karena jaga malam yang panjang, jadi tiga bab nyangkut untuk dua hari. gue hitung: harusnya sekarang 1,5 bab per hari, tetapi kecepatan baca gue turun kalau begadang, jadi kemungkinan malah selesai satu bab dan sisanya jadi utang.\nada yang pernah di situasi begini? milih ngejar jadwal atau geser target? banget butuh pendapat orang yang sudah keluar dari lubang ini",
+      "BAGIAN HAFALAN DIBAGI DAN GUE JADI SENGSEK BANGET. 120 slide atlas harus dibagi 5 orang, tiap orang 24. satu angkatan minta beban kurang seperempat karena dia jaga lab, jadi 24 × 3/4 = 18. sisa bebannya 102 buat 4 orang, per orang 25,5. GIMANA CARA NYA MIKIR 25,5 SLIDE. setengah slide itu artinya apa, halaman yang ketuker? gue panik mikir keadilan, yang minta dikurangi seneng, empat lainnya dendam diam-diam. ada yang pernah urus pembagian yang hasilnya gak bulat gini",
     comments: [
-      { authorId: 227, minutesAgo: 4067, content: "geser target kak. mengejar dengan kondisi begadang itu hafalannya menyewa, bukan membeli. satu bab per hari yang benar-benar masuk lebih baik 🙃" },
-      { authorId: 209, minutesAgo: 4059, content: "hitung energinya kak, bukan hitung babnya: kalau besok jaga lagi, jangan 1,5 bab. bab yang tidak masuk akan diulang dua kali 🙃" },
-      { authorId: 71, minutesAgo: 4051, content: "jaga makan walaupun jaga malam kak, gue dulu begadang terus laper, ujungnya beli gorengan jam 2 pagi tiga hari berturut" },
-      { authorId: 313, minutesAgo: 4044, content: "utang bab itu istilah gue banget kak, gue punya tiga utang bab tiap semester wkwk" },
+      { authorId: 212, minutesAgo: 4067, content: "25,5 itu berarti 25 + 26, dua orang dapat 26 dan dua orang dapat 25. total tetap 102" },
+      { authorId: 209, minutesAgo: 4059, content: "kalau slide gak bisa dibelah, yang dibelah bebannya: satu orang ambil slide gambar doang. gambar lebih ringan dari teks" },
+      { authorId: 227, minutesAgo: 4051, content: "cara adilnya undian kak, yang dapat 26 dan 25 ditentukan undi. keadilan prosedur bikin dendam hilang 🙃" },
+      { authorId: 143, minutesAgo: 4044, content: "24 × 3/4 = 18 kak, dan 102 ÷ 4 = 25,5. hitungannya sudah bener, tinggal dibulatkan dengan undian" },
     ],
   },
   {
@@ -145,10 +152,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4105,
     shares: 9,
     content:
-      "Kucing tetangga pindah ke atap rumah saya dua minggu lalu. Ia tidur di sisi timur, turun untuk makan di rumahnya, lalu naik lagi. Pemiliknya tidak mencarinya, mungkin sudah menganggap kucing ini memiliki hak di atas atap. Saya mulai memperhatikan jam turun-naiknya: sore sekitar lima, pagi sebelum tujuh.\nMinggu ini dia mulai tidur di kursi teras, bukan di atap. Tanya pemiliknya, dia bilang biarin, yang penting makan tetap di rumah. Berarti sekarang dia punya dua alamat. Enak banget hidupnya.",
+      "Warung es teh sebelah menaikkan harga dari 3 ribu menjadi 4 ribu awal bulan ini. Kenaikan itu 1 dari 3, sekitar 33 persen. Yang menarik, tetangga memperkirakan pelanggannya berkurang sedikit, tetapi dalam dua minggu terakhir deretan gelas di mejanya justru penuh lagi, terutama setelah magrib. Ia menambah satu toples kerupuk kecil di meja, mungkin itu pengaruhnya. Saya menghitung sekilas: kalau dulu sehari 100 gelas kini 90 gelas, pendapatannya berubah dari 300 ribu menjadi 360 ribu. Adakah pengalaman serupa di lingkungan warga, bahwa harga naik tetapi pembeli bertahan?",
     comments: [
-      { authorId: 262, minutesAgo: 4097, content: "hati-hati pak, kucing tukang atap pernah tinggal di atap saya sampai punya anak dua di sana, teras jadi rumah keduanya" },
-      { authorId: 187, minutesAgo: 4089, content: "makan tetap di rumah artinya pemiliknya masih yang kasih makan ya pak, jadi wajar dia bolak-balik" },
+      { authorId: 258, minutesAgo: 4097, content: "90 gelas × 4 ribu = 360 ribu benar pak. harga naik 33 persen, penjualan turun 10 persen, hasil tetap untung" },
+      { authorId: 283, minutesAgo: 4089, content: "es teh itu kebutuhan pak, bukan kemewahan. kalau naiknya sampai 5 ribu baru deretan gelas kosong" },
+      { authorId: 199, minutesAgo: 4081, content: "toples kerupuk itu pemasaran yang gak keluar biaya pak. pelanggan bayar 4 ribu, dapat perasaan 3 ribu" },
     ],
   },
   {
@@ -157,10 +165,12 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4135,
     shares: 20,
     content:
-      "bunda, aku bertanya ke cikgu matematika: kenapa nol tidak boleh menjadi pembagi? cikgu bilang nanti dijelasin pas SMP. AKU TIDAK MAU MENUNGGU SMP BUNDA. aku berpikir sendiri: kalau 10 dibagi 2 hasilnya 5, artinya 5 kali 2 = 10. kalau 10 dibagi 0, harusnya ada angka yang dikali 0 hasilnya 10. tetapi apa pun dikali 0 hasilnya 0. jadi tidak ada angkanya. benar tidak sih mikiranku? bunda hanya bilang hebat terus, aku butuh yang memastikan",
+      "bunda, PR peta: skala 1:10.000, jarak rumah ke sekolah di peta 3 cm. aku itung 3 × 10.000 = 30.000 cm. terus aku ubah ke meter: 30.000 ÷ 100 = 300 meter. bener kan? temen sebangku bilang 3.000 meter, dia gak bagi 100. aku yakin aku yang bener tapi dia bilang angka besar itu lebih kayak jarak sekolah wkwk. sekolah gue di seberang gang doang bunda, gak mungkin 3 km. tolong jawab sebelum dia posting hasil PR di grup kelas",
     comments: [
-      { authorId: 39, minutesAgo: 4127, content: "mikiranmu benar sekali nak. pembagian itu mencari angka yang jika dikali pembagi menghasilkan bilangan awal, dan tidak ada angka yang dikali nol menghasilkan 10. kamu menemukan alasannya sendiri" },
-      { authorId: 90, minutesAgo: 4119, content: "gak perlu nunggu SMP, mikiran dia udah bener. lanjut ke pembagian lain bunda, suruh dia buktiin sendiri dulu 😄" },
+      { authorId: 63, minutesAgo: 4127, content: "300 meter dik, hitunganmu benar. temenmu lupa cm ke m harus dibagi 100. 3 km itu jalan naik gunung, bukan ke sekolah" },
+      { authorId: 143, minutesAgo: 4119, content: "trik dik: 1:10.000 artinya 1 cm peta = 100 m nyata. jadi 3 cm = 300 m. hafalin konversi satu langkahnya" },
+      { authorId: 24, minutesAgo: 4111, content: "JAWABAN CUCU KU YANG LAIN JUGA 300. TEMENMU HARUS BELAJAR TANGGA SATUAN. JANGAN POSTING DI GRUP DULU, MALU" },
+      { authorId: 187, minutesAgo: 4103, content: "angka besar itu bukan bukti jarak besar dik. yang menentukan satuannya" },
     ],
   },
   {
@@ -169,145 +179,151 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4165,
     shares: 32,
     content:
-      "Hal kecil yang menyenangkan hari ini: ambil bilangan tiga digit dengan angka pertama dan terakhir berbeda minimal dua, balik urutannya, kurangkan. Contoh: 731 − 137 = 594. Lalu jumlahkan hasilnya dengan kebalikannya: 594 + 495 = 1089. Hasilnya selalu 1089 untuk bilangan mana pun yang memenuhi syarat. Saya mencoba enam bilangan, semuanya tiba di 1089.\nAnak tetangga menyebutnya sulap. Saya menyebutnya pembuktian yang menunggu ditemukan; sedikit kerja aljabar, dan angka itu tidak bisa bersembunyi. Kurang lebih begitu.",
+      "Trik kecil yang saya suka: 12,5 persen itu seperdelapan. Jadi menghitung 12,5 persen dari 200.000 sama saja membagi tiga kali: 200.000 ÷ 2 = 100.000, ÷ 2 = 50.000, ÷ 2 = 25.000. Kurang lebih sama hasilnya dengan 200.000 × 0,125, tetapi dibagi dua tiga kali itu tidak menuntut kertas. Keluarga pemilik warung dekat rumah sekarang memakai trik ini untuk hitung diskon dan menurut cerita mereka kepalanya lebih ringan. Kurang lebih itu saja. Adakah persen lain yang punya bentuk pecahan sewarna, yang bisa dipakai sehari-hari tanpa kalkulator?",
     comments: [
-      { authorId: 212, minutesAgo: 4157, content: "gue coba 853: 853 − 358 = 495, lalu 495 + 594 = 1089. benar semua kak 🙃" },
-      { authorId: 227, minutesAgo: 4149, content: "catatan kecil kak: syarat beda minimal dua itu supaya angka tengah hasilnya bukan nol, bagian yang paling sering terlewat 🙃" },
-      { authorId: 313, minutesAgo: 4141, content: "gue bakal pakai ini untuk gengsi ke adik gue, adik gue tidak perlu tahu ini matematika wkwk" },
+      { authorId: 318, minutesAgo: 4157, content: "25% = 1/4 pak, bagi dua dua kali. 75% = 3/4, bagi 4 kali 3. 20% = 1/5, bagi 5" },
+      { authorId: 262, minutesAgo: 4149, content: "6,25% = 1/16 pak, satu langkah lagi dari 12,5. sering muncul di cicilan... eh, di potongan kertas ujian" },
+      { authorId: 283, minutesAgo: 4141, content: "37,5% = 3/8 pak. setengah 75. trik yang sama, jalan mundur" },
+      { authorId: 258, minutesAgo: 4133, content: "keluarga warung itu contoh terbaik pak. matematika yang dipakai tiap hari jadi otot" },
     ],
   },
   {
     id: 140,
     authorId: 40,
     minutesAgo: 4195,
-    shares: 12,
+    shares: 13,
     content:
-      "Cabai di kebun memulai bunga pertama, dua tangkai, putih kecil menghadap ke bawah. Saya berdiri cukup lama sampai tetangga lewat bertanya sedang apa. Sedang menyaksikan awal, saya jawab. Dia ikut berdiri, lalu cerita punya dia minggu lalu cuma satu tangkai, sekarang udah enam. Pas kabar bagus datangnya dari kebun orang.",
+      "pupuk daun: 1 sendok teh untuk 2 liter air. ember aku 10 liter. cucu aku itung 10 × 1 = 10 sendok, aku bilang kok 10, 10 liter itu 5 kali dari 2 liter, jadi 5 sendok. dia ngotot, katanya 2 liter pakai 1 sendok, 10 liter pasti lebih banyak dari 5. aku cek pakai gelas: 2 liter itu 10 gelas, 10 liter 50 gelas. gelasnya 5 kali. JADI SENDOKNYA JUGA 5 KAN. kenapa anak sekarang itung kok membesar-membesarkan, aku ikut ragu padahal aku yang pegang ember",
     comments: [
-      { authorId: 84, minutesAgo: 4187, content: "dua tangkai di awal itu sinyal bagus, cabai memang suka drama di awal musim" },
+      { authorId: 84, minutesAgo: 4187, content: "5 sendok benar bu. 10 ÷ 2 = 5. cucunya mungkin mengira setiap liter butuh sendok" },
+      { authorId: 199, minutesAgo: 4179, content: "gelas 50 vs 10 itu 5 kali bu. rasio tumbuh sama sendoknya. hitungan nenek yang jalan" },
+      { authorId: 60, minutesAgo: 4171, content: "cucu itu mikir 10 liter = 10 bagian bu, padahal bagian yang benar 5 bagian isi 2 liter" },
     ],
   },
   {
     id: 141,
     authorId: 41,
     minutesAgo: 4225,
-    shares: 15,
+    shares: 4,
     content:
-      "Alamat hari ini: seberang warung makan, pagar hijau. Gue sampai lokasi, ada DUA warung makan berseberangan, masing-masing dengan pelayan yang mengangguk ke arah gue secara bersamaan. Gue bingung percaya yang mana, dua-duanya kelihatan benar. Gue menelepon penerima, terjawab: yang dimaksud warung nasi paling kanan, dan pagar hijau itu pagar warung sebelahnya yang catnya terkelupas menjadi hijau kekuningan.\nSekarang gue hafal gang itu seumur hidup.",
+      "paket boneka. 40 × 30 × 20 = 24.000 cm³. dibagi 6.000 = 4 kg volumetrik. berat asli 3 kg. bayar 4 kg. boneka menang lawan timbangan.",
     comments: [
-      { authorId: 144, minutesAgo: 4217, content: "alamat paling akurat di dunia adalah yang tidak akurat bre, karena begitu ketemu tidak akan lupa selamanya wkwkwk" },
-      { authorId: 187, minutesAgo: 4209, content: "warung berseberangan itu kompetisi alami mas, dua-duanya tahu kurir akan bingung, tetapi tetap mengangguk" },
-      { authorId: 318, minutesAgo: 4201, content: "cat hijau kekuningan itu detail detektif banget bre, nilai tambah" },
-      { authorId: 258, minutesAgo: 4193, content: "hafal gang itu warisan pekerjaan mas. satu pengiriman yang membingungkan melahirkan pengetahuan seumur hidup" },
+      { authorId: 240, minutesAgo: 4217, content: "volumetrik selalu makan kurir begitu bro. 24.000 ÷ 6.000 = 4 itu standar" },
+      { authorId: 205, minutesAgo: 4209, content: "pelanggan biasanya paham kalau ditunjukin kertas hitung: panjang kali lebar kali tinggi dibagi 6.000" },
     ],
   },
   {
     id: 142,
     authorId: 42,
     minutesAgo: 4255,
-    shares: 17,
+    shares: 21,
     content:
-      "Kulkas kecil di teras akhirnya kepake. Awalnya saya ragu, takut jadi tempat sisa makanan terlupakan. Ternyata anak kos nyimpen es batu, air putih, sama satu kotak kue dengan nama masing-masing di kertas kecil. Ada yang nulis nama panjang, ada yang inisial aja. Sekarang yang jadi soal justru aturannya: minuman boleh diambil siapa aja atau gak boleh, kertas nama itu berlaku sampe kapan, terus yang buang bekas es batunya siapa. Ada contoh aturan kulkas kos yang gak bikin berantem gak?",
+      "tagihan air bulanan tiga kamar: total pemakaian 24 m³, tagihan 61.200. dibagi rata jadi 20.400 per kamar. masalahnya kamar A dua orang, kamar B dua orang, kamar C cuma satu orang, dan C memang hampir tidak pernah mandi lama. si C protes, dua orang di kamar A juga protes kalau dibagi kepala mereka tanggung lebih. aku bukan pengacara, aku cuma ibu kos yang pegang bon. kalian kalau jadi pengurus kos, bagi rata atau bagi kepala?",
     comments: [
-      { authorId: 71, minutesAgo: 4247, content: "kertas nama di kulkas itu kelakuan anak kos paling manis bu 😄" },
-      { authorId: 205, minutesAgo: 4239, content: "kos saya dulu juga pake kulkas bersama, tapi gak ada kertas nama, kotak ayam saya pernah ilang dua kali 😄" },
-      { authorId: 102, minutesAgo: 4231, content: "kue di kulkas bersama itu umurnya pendek, biasanya malemnya juga udah diambil" },
+      { authorId: 60, minutesAgo: 4247, content: "bagi kepala bu: 5 orang × 12.240. kamar A 24.480, B 24.480, C 12.240. C miskonsepsi soal merata, bukan soal air" },
+      { authorId: 84, minutesAgo: 4239, content: "kalau alat ukur per kamar, keadilannya per kamar bu. yang ngeprotes itu biasanya yang baru pindah" },
+      { authorId: 106, minutesAgo: 4231, content: "61.200 ÷ 3 = 20.400 bu, hitungan rata kakaknya benar. tapi keadilan beda barang dengan hitungan" },
+      { authorId: 143, minutesAgo: 4223, content: "solusi tengah bu: bulan depan pasang catatan pemakaian per kamar. satu bulan data, semua protes selesai" },
     ],
   },
   {
     id: 143,
     authorId: 43,
     minutesAgo: 4285,
-    shares: 5,
+    shares: 8,
     content:
-      "Hari libur pabrik bergilir per minggu. Minggu ini giliran saya Selasa, tetangga sebelah Rabu. Artinya hari ini saya libur dan dia bekerja, besok sebaliknya. Sore tadi saya menyiram tanamannya, dia membalas dengan mengantar tabung gas saya yang kosong ke tukang isi. Tukar-libur itu menjadi tukar-jaga tanpa disuruh.",
+      "mesin utama kapasitas 240 unit per jam. shift 7,5 jam, jadi target 1.800. realisasi hari ini 1.620. kepala minta persen efisiensi. gue itung 1.620 ÷ 1.800 = 0,9, jadi 90 persen. dia tanya 10 persen itu unit berapa, gue jawab 180. dia diam lama, terus bilang catat besok jam berapa mesin berhenti. pertanyaan gue: efisiensi 90 persen itu di kalian dianggap bagus atau bahaya, biar gue tau harus senyum atau siap overtime",
     comments: [
-      { authorId: 272, minutesAgo: 4277, content: "tukar-jaga tanpa disuruh itu sistem kepercayaan yang paling hemat kata, mas" },
+      { authorId: 240, minutesAgo: 4277, content: "90 persen itu bagus pak di mesin tua, bahaya kalau mesin baru. yang penting trennya, bukan satu hari" },
+      { authorId: 272, minutesAgo: 4269, content: "180 unit itu 45 menit mesin penuh pak. catat durasi berhenti besok, angka akan bicara" },
+      { authorId: 236, minutesAgo: 4261, content: "kami standarnya 92. 90 itu masih aman tapi udah dipanggil rapat wkwk" },
     ],
   },
   {
     id: 144,
     authorId: 44,
     minutesAgo: 4315,
-    shares: 25,
+    shares: 5,
     content:
-      "hari ini gue hampir bikin kebakaran kecil: masak air, buka ponsel, lupa kompor. untungnya anak kos lain masuk dapur pas airnya sudah meletup-letup dan mematikan kompornya. gue digrak sepuluh menit soal keselamatan dapur, dan gue tidak bisa membantah satu kalimat pun karena memang gue yang salah.\nsekarang rekomendasi temen kos: pindah ke kompor yang mati sendiri kalau tidak ada panci. gue bilang mah, yang salah bukan kompornya, yang lupa ini",
+      "wkwk belanja otak gue jebol. telur ecer di tukang sayur 2.500 per butir. di warung ada paket setengah kilo katanya 10 butir 26.000. gue itung per butir 2.600. MAHAL 100 PERAK dibanding ecer. terus gue mikir, kenapa gue mikirin 100 perak sampe 5 menit di depan kulkas. kalian pilih mana, yang murah 100 perak tapi jalan jauh, atau yang langsung bisa dimasak",
     comments: [
-      { authorId: 127, minutesAgo: 4307, content: "bre, kompor mati sendiri itu namanya auto off, jangan diandelin buat masak beneran, cuma buat ngeheatin doang" },
-      { authorId: 318, minutesAgo: 4299, content: "grakan sepuluh menit itu masih adem bre, gue pernah digrak 30 menit plus wajib nulis komitmen di kertas" },
+      { authorId: 152, minutesAgo: 4307, content: "100 perak × 10 butir = 1.000 perak bre. ongkos jalan lu kemana-mana juga 1 ribuan. ambil yang deket" },
+      { authorId: 106, minutesAgo: 4299, content: "yang bisa dimasak sekarang bre, telur gak kenal harga wkwk" },
+      { authorId: 313, minutesAgo: 4291, content: "per kilo: 10 butir setengah kilo berarti 20 butir per kilo = 52.000. ecer 50.000 per kilo. beda 2.000 per kilo bre" },
     ],
   },
   {
     id: 145,
     authorId: 45,
     minutesAgo: 4345,
-    shares: 8,
+    shares: 19,
     content:
-      "Senam pagi kelurahan hari ini, gerakan keempat saya tidak mengikuti; tangan terlambat, kaki belum tahu arah. Saya tetap bergerak sesuai versi saya. Dua orang di sebelah menyusul melakukan gerakan yang salah sama persis, lalu kami bertukar pandang dan tertawa tanpa suara.\nBesok minggu gue berniat dateng lagi, tetap versi salah gue, yang penting gak sendirian.",
+      "Rutinitas jalan pagi saya: rute 2,4 km. Tahun lalu saya menyelesaikannya 35 menit. Sebulan latihan terakhir, 30 menit. Teman jalan pagi menyebut saya menjadi 14 persen lebih cepat, dan saya memperhatikan angka itu: selisih waktu 5 menit dibagi 35 menit memang sekitar 14 persen. Namun kalau dihitung kecepatan, dulu sekitar 4,11 km per jam, sekarang 4,8 km per jam, naik sekitar 16 persen. Dua persen itu pergi ke mana, saya belum menemukan penjelasan yang rapi. Mungkin di sini ada yang suka menghitung sambil jalan.",
     comments: [
-      { authorId: 272, minutesAgo: 4337, content: "pak, senam kelurahan itu gerakannya ganti tiap bulan kan? salah bareng minggu depan pasti keulang lagi" },
+      { authorId: 283, minutesAgo: 4337, content: "dua persen itu tidak hilang pak. satu dihitung dari waktu (5/35 = 14,3%), satu dari kecepatan (0,69/4,11 ≈ 16,8%). pembaginya beda" },
+      { authorId: 258, minutesAgo: 4329, content: "2,4 ÷ 0,5 jam = 4,8 km per jam. kecepatan sekarang pak, dan itu prestasi untuk usia mana pun" },
+      { authorId: 192, minutesAgo: 4321, content: "naiknya memang beda arah pak: waktu turun 14%, kecepatan naik lebih besar karena pembaginya ikut mengecil" },
     ],
   },
   {
     id: 146,
     authorId: 46,
     minutesAgo: 4375,
-    shares: 21,
+    shares: 10,
     content:
-      "Papan jadwal ujian ditempel terbalik. Dua kelas masuk ruangan yang salah, ujian dimulai 10 menit terlambat, dua guru berlari membawa lembar soal, dan satu anak bertanya apakah ini bagian dari soal menghadapi kenyataan 😅 Sore ini papan sudah ditempel benar, dengan empat paku, satu perekat, dan tanda tangan penanggung jawab tempelan.\nBesok saya dateng lebih pagi cuma buat mastiin papan ngadep yang bener, sekalian foto, biar jadi bukti kalau ada yang nyasar lagi.",
+      "Anggaran kegiatan sekolah: total 2.500.000. Untuk belanja kertas disetujui 12 persen. Aku hitung 2.500.000 × 12 ÷ 100 = 300.000. Bos berkata persetujuannya 250 ribu, karena 10 persen dari 2.500.000. Aku cek berulang: 12 persen itu memang 300 ribu. Kemungkinan bos mengingat persen lain, atau total lain. Besok rapat anggaran dan aku tidak ingin salah menyalahkan orang 😅. Tolong konfirmasi angka 300 ribu itu benar ya untuk 12 persen",
     comments: [
-      { authorId: 192, minutesAgo: 4367, content: "papan jadwal ditempel terbalik itu klasik bu, sekalian minta anak yang paling pagi jadi penjaga papan, kasih gelar resmi biar semangat" },
-      { authorId: 283, minutesAgo: 4359, content: "jawaban gurunya gak keliatan di post bu, anak itu ditanya lagi gak? penasaran saya 😄" },
-      { authorId: 71, minutesAgo: 4351, content: "10 menit terlambat itu masih sopan bu, di tempat kami pernah kelas salah masuk sampai soal dibagikan 😅" },
+      { authorId: 268, minutesAgo: 4367, content: "benar kak, 12% × 2.500.000 = 300.000. 250 ribu itu 10 persen. bos mungkin mencampur dua persen" },
+      { authorId: 227, minutesAgo: 4359, content: "siapkan dua angka di slide kak: 10% = 250 ribu, 12% = 300 ribu. bos akan pilih sendiri dan rapat beres 😅" },
+      { authorId: 322, minutesAgo: 4351, content: "2.500.000 × 0,12 = 300.000 kak. kalkulator, angka, dan matahari sepakat" },
     ],
   },
   {
     id: 147,
     authorId: 47,
     minutesAgo: 4405,
-    shares: 20,
+    shares: 17,
     content:
-      "Nasabah hari ini ingin melakukan transfer pertama melalui mesin layanan sendiri. Ia menulis nomor rekening tujuan di kertas kecil, lalu bertanya, apakah salah sedikit saja uangnya bisa hilang? Saya membacakan digit satu per satu, ia mengulang, kami mencocokkan dua kali. Ia berkata terima kasih sudah menemani, seperti menemani orang membaca surat.\nMesin memproses dalam delapan detik. Yang lama bukan mesinnya. Yang lama adalah memastikan tidak ada yang salah.",
+      "Nasabah menabung 750.000 setiap bulan selama empat bulan dan menganggap bukunya akan menunjukkan 3.000.000. Buku menampilkan 2.900.000. Ia datang dengan wajah merah karena mengira ada 100 ribu yang tertelan. Saya jelaskan pelan: empat bulan ada biaya administrasi 25.000 per bulan, total 100.000, sehingga saldonya 2.900.000. Ia menanyakan kenapa biaya tidak diberitahu waktu buka rekening. Pertanyaan itu sulit, karena kertasnya pernah ia tanda tangani. Yang ingin saya tanyakan ke rekan teller: cara menjelaskan biaya administrasi ke nasabah tanpa terdengar seperti menutupi kesalahan pihak kami sendiri?",
     comments: [
-      { authorId: 262, minutesAgo: 4397, content: "delapan detik dibayar dengan dua kali pemeriksaan. itu matematika yang benar, kak" },
-      { authorId: 84, minutesAgo: 4389, content: "dibacakan digit satu-satu itu paling aman. gue pernah transfer salah satu digit, uangnya nyasar, panik satu hari" },
-      { authorId: 283, minutesAgo: 4381, content: "menemani membaca surat itu perumpamaan yang tepat. transfer pertama itu surat yang tidak bisa diambil kembali" },
-      { authorId: 205, minutesAgo: 4373, content: "pelayanan yang memeriksa dua kali itulah yang membuat orang mau kembali kak" },
+      { authorId: 84, minutesAgo: 4397, content: "tunjukkan empat baris biaya di buku, satu per bulan, jangan dicampur. nasabah melihat pola, bukan teori" },
+      { authorId: 262, minutesAgo: 4389, content: "frasa yang sering membantu pak: ini biaya yang sama tiap bulan, bukan potongan acak. lalu tunjukkan tanggalnya" },
+      { authorId: 283, minutesAgo: 4381, content: "750 × 4 = 3.000.000 benar pak, dan 4 × 25.000 = 100.000. dua hitungan itu tidak bertengkar, hanya belum diperkenalkan" },
     ],
   },
   {
     id: 148,
     authorId: 48,
     minutesAgo: 4435,
-    shares: 4,
+    shares: 5,
     content:
-      "Jam empat sore perpustakaan sepi. Kucing rak atas melompat turun, duduk dekat pintu seperti penjaga shift sore.\nHari yang tenang juga bagian dari perpustakaan.",
+      "Peta dinding perpustakaan berskala 1:1.500. Jalan yang panjangnya 6 cm di peta ternyata 9.000 cm, yakni 90 meter. Dulu saya menempuhnya 15 menit sambil membawa buku. Sekarang jalan itu rata, dan saya masih memilih jalan kaki. Peta tidak pernah bohong, hanya tata caranya yang perlu diingat.",
     comments: [],
   },
   {
     id: 149,
     authorId: 49,
     minutesAgo: 4465,
-    shares: 13,
+    shares: 29,
     content:
-      "Om lansia datang membawa foto hitam putih dari album keluarga, meminta potongan seperti saat muda: samping rapi, atas sedikit terangkat. Saya memotong sambil sesekali melihat foto itu, seolah ada dua orang di kursi: yang muda di foto dan yang tua di cermin. Selesai, ia menatap cermin cukup lama, lalu berkata, ini dia yang dulu membuat ibunya tersenyum.\nSaya hanya memotong rambut. Sisanya pekerjaan cermin dan ingatannya.",
+      "bos-bos, itung antrian rambut sore tadi. jam 16.00 datang 6 orang: 2 minta model rumit 30 menit per kepala, 4 biasa 15 menit. gue hitung: 2 × 30 = 60, 4 × 15 = 60, total 120 menit = 2 jam. artinya orang terakhir kepotong sekitar jam 18.00. gue kasih tahu, yang paling akhir malah seneng, katanya bisa nongkrong dulu. kalian kalau jadi tukang cukur, kasih tahu jam selesai atau biarkan kaget pas duduk",
     comments: [
-      { authorId: 258, minutesAgo: 4457, content: "cermin masa muda itu kadang bisa dipinjam lewat potongan rambut, bos. kerja bagus" },
+      { authorId: 118, minutesAgo: 4457, content: "kasih tahu bos, antrian yang tahu jam selesai jadi antrian tenang. kaget di kursi bikin rambut ikut berdiri" },
+      { authorId: 199, minutesAgo: 4449, content: "120 menit itu tepat bos. yang nunggu 2 jam biasanya yang balik lagi jadi pelanggan tetap kalau tempatnya nyaman" },
+      { authorId: 240, minutesAgo: 4441, content: "gue kalau jadi pelanggan malah suka ditanya dulu bos. ngecek HP di warung rambut itu liburan gratis wkwk" },
     ],
   },
   {
     id: 150,
     authorId: 50,
     minutesAgo: 4495,
-    shares: 46,
+    shares: 26,
     content:
-      "GUYS. LAPORAN KRISIS DAPUR.\nSAMBAL HABIS JAM SATU SIANG. PELANGGAN TANYA BISA TIDAK EXTRA SAMBAL. GUE BILANG BISA, LALU GUE AMBIL SAMBAL MILIK GUE SENDIRI YANG GUE SIMPAN DI STOPLES PRIVATE. DIA HABISKAN. KEMUDIAN DIA BILANG 'INI YANG KENAL BANG'. KENAL?! GUE SEUMUR HIDUP MENJUAL SAMBAL TETAPI SAMBAL GUE BARU HARI INI KENAL PELANGGAN. GUE MENUNDUK, GUE BERPIKIR: MULAI HARI INI STOPLES PRIVATE DIHAPUS DARI SISTEM.\nMALAM INI KAMI LAWAN: SISA SAMBAL MELAWAN SISA NASI.",
+      "GUYS, LAPORAN KUAH. stok kuah 5 liter untuk 40 porsi, artinya 125 ml per porsi, pas banget sejak tiga bulan. MALAM INI TAMU DATANG 60 ORANG. 60 × 125 ml = 7.500 ml = 7,5 liter. panci gue terbesar 6 liter. GUYS, GUE KURANG 1,5 LITER DAN WAKTU TINGGAL 40 MENIT. gue sudah suruh anak magang rebus air di panci kecil sekaligus. pertanyaan gue sambil aduk: 125 ml per porsi itu terlalu dermaga atau memang standar mie? GUYS tolong jawab cepat, adukannya tidak menunggu",
     comments: [
-      { authorId: 144, minutesAgo: 4487, content: "GUYS SAMBAL PRIVATE MASUK MENU PUBLIK. INI PERISTIWA BERSIH BRE" },
-      { authorId: 154, minutesAgo: 4479, content: "'ini yang kenal bang' itu komentar yang bikin chef mempertanyakan hidupnya bre wkwkwk" },
-      { authorId: 313, minutesAgo: 4471, content: "sambal stoples private itu resep rahasia yang tidak sadar dirinya rahasia bre" },
-      { authorId: 331, minutesAgo: 4463, content: "kami lawan malam ini bre, gue baca sambil makan, ikut merasa dilibatkan" },
-      { authorId: 44, minutesAgo: 4455, content: "bre besok gue pesan yang sambalnya tidak kenal siapa-siapa, biar adil" },
+      { authorId: 44, minutesAgo: 4487, content: "125 ml itu wajar guys, kuah mie kosong itu dosa. tambah air rebus + bumbu instan cadangan, tamu gak bakal tau" },
+      { authorId: 154, minutesAgo: 4479, content: "7.500 ml guys, panci 6 liter kurang 1,5. panci kecil 2 liter udah cukup cadangan" },
+      { authorId: 336, minutesAgo: 4471, content: "60 × 125 = 7.500 guys. selamat memasak dua panci, itu workout malam ini" },
     ],
   },
 ]
