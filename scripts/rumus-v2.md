@@ -108,7 +108,36 @@ Tanya 4 hal ke tiap post:
    tetangga, keluarga grup, tidur, makan, kepanikan kecil, jalan rusak,
    video orang jatuh, harga mie naik.
 
-## BAGIAN 2 — FORMULA HITAM (16 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
+## BAGIAN 1F — SEBAB MUSABAB KELIMA (skrip mikro-drama, 6 Nov 2026)
+
+User menangkap post loker (threads-1 id 8):
+
+> "abis shift. loker gue macet. ... gue sama loker. 15 menit.\nakhirnya
+> buka juga pas gua udah pasrah ... kayaknya loker pengen nonton sirkus
+> dulu.\nsekarang di angkot, kunci gua pegang di tangan. gak percaya
+> loker lagi"
+
+dan menghakimi (kutip asli):
+
+> "Daftar formula rumusan yang kamu buat nampak bot kasus kembali
+> terulang!! ... Ini udah ketiga kakinya kita kecolingan!! Cari kalimat
+> sejenis atau mirip-mirip dengan itu jangan kau pakai mulu! ... Periksa
+> seluruhnya jangan hanya satu dari kiriman saya!! Cek semua!! ... Semua
+> aspek yang memakai formula begitu kini di blacklist! ... sangat
+> terlihat tidak berjiwa dan tidak realistis!"
+
+DIAGNOSIS: post itu SKRIP FILM PENDEK 3 BABAK. Babak 1 = kejadian +
+jeda dramatis ("gue sama loker. 15 menit."). Babak 2 = lawakan
+personifikasi ("loker pengen nonton sirkus"). Babak 3 = coda ritual
+("kunci gua pegang di tangan. gak percaya loker lagi") — hikmah yang
+menyamar jadi tindakan. Kembarannya: "Mesin berhenti 20 menit ... botol
+saya paling bersih di seluruh lini" (threads-2 id 43) — punchline sunyi
+gaya kutipan novel. SEMUA KERABATNYA diburu, dibunuh, dan dilaporkan
+oleh scripts/audit-formula15.ts (pola A1-A8). Menulis ulang post tidak
+cukup kalau saudaranya dibiarkan hidup — itu yang menyebabkan kasus
+kembali terulang tiga kali.
+
+## BAGIAN 2 — FORMULA HITAM (17 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
 
 1. **Log uang presisi.** 2+ nominal besar + hitung selisih/kurang
    ("masuk 1.200.000, kurang 40.000"). Angka besar rapi = alarm.
@@ -160,11 +189,35 @@ Tanya 4 hal ke tiap post:
     Komentar manusia itu ada ISI: info, sindiran, cerita 1 kalimat,
     pertanyaan balik, ato beda pendapat. Satu akun gak boleh punya satu
     genre komentar doang.
+17. **SKRIP MIKRO-DRAMA / FILM PENDEK 3 BABAK (dilarang abadi, sejak
+    6 Nov 2026 — BAGIAN 1F).** Terlarang di dalam post DAN komentar:
+    - Post terbagi 3 babak: kejadian → reaksi/lawakan kecil → coda
+      filosofis/ritual. Kalau bisa dipotong jadi naskah film pendek 60
+      detik → BUANG.
+    - JEDA DRAMATIS: kalimat teater minus "gue sama X. N menit." atau
+      "X. N menit." — benda di-solo lalu diberi durasi, koreografi
+      panggung, bukan omongan orang.
+    - PERSONIFIKASI BENDA: benda mati diberi niat/emosi/mood ("loker
+      pengen nonton sirkus", "loker punya mood sendiri", "mesin lega",
+      "kipas lega"). HUMOR HARUS DARI ORANG/SITUASI, bukan benda
+      berjiwa. TANPA PENGECUALIAN.
+    - CODA RITUAL: penutup berupa tindakan pengkhianatan/pegangan baru
+      ("sekarang kunci gua pegang di tangan", "gak percaya X lagi") —
+      hikmah menyamar jadi tindakan.
+    - PUNCHLINE SUNYI: penutup prestasi diam gaya kutipan novel
+      ("botol saya paling bersih di seluruh lini", "Mesin belum
+      berjalan; kerja sama sudah.", "ia datang sendiri.").
+    - KATA BENDERA BABAK TIGA: "pasrah", "akhirnya ... juga" sebagai
+      lengkung resolusi.
 
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
 BUANG, tulis ulang. Kalau ada frasa yang cuma masuk akal dari mulut
-bukan-manusia → BUANG, tulis ulang.
+bukan-manusia → BUANG, tulis ulang. Kalau postnya punya babak + jeda
+dramatis + coda → BUANG, tulis ulang. SEBELUM commit, jalankan
+`bun scripts/audit-formula15.ts` — hasilnya harus "0 temuan" di Pola A
+dan Pola B, termasuk sisa semoga/doakan, kalimat-garam "X yang Y itu
+Z", dan personifikasi benda. Satu temuan = satu blokir.
 
 ## BAGIAN 3 — PELAJARAN DARI 3 SITUS REFERENSI (dipelajari, bukan ditiru)
 
@@ -188,7 +241,9 @@ bukan-manusia → BUANG, tulis ulang.
 2. **Panjang WAJIB menyebar.** Tiap 25 post: ±5 di bawah 130 char, ±8 di
    150-350, ±8 di 350-550, sisanya 550-800.
 3. **PUNCHLINE DILARANG.** Ending sah: pertanyaan, nyangkut tanpa
-   resolusi, berhenti mendadak, doa, terima kasih, rencana ragu.
+   resolusi, berhenti mendadak, terima kasih singkat, rencana ragu,
+   keluhan kering. Ending "doa" dihapus dari daftar sah sejak 6 Nov
+   2026 (lihat FORMULA HITAM 15, 17 dan BAGIAN 1D poin korps doa).
 4. **Matematika harus benar.** Miskonsepsi siswa boleh (1/2+1/3=2/5,
    2³=6, 2^10=2048) TAPI wajib ada komentar yang mengoreksi dengan
    hitungan benar. Itung manual sebelum simpan.
@@ -253,7 +308,17 @@ lebih kecil dari post-nya (diposting SETELAH post).
 
 Setelah 8 file selesai → lanjut ekspansi batch 5 (threads-9) sesuai
 protokol dev.sh, dengan RUMUS V3 sebagai isi. Cron payload WAJIB menyebut
-rumus-v2.md BAGIAN 2 (FORMULA HITAM).
+rumus-v2.md BAGIAN 2 (FORMULA HITAM, kini 17 pola), BAGIAN 1F, dan
+menyuruh menjalankan `bun scripts/audit-formula15.ts` sebelum commit.
+
+**PENGGANDAAN PENULIS (sejak 6 Nov 2026, pidato user):** jangan lagi
+mengunci batch ke authorId 1-50. Tiap batch ekspansi WAJIB pakai 25
+authorId BARU yang belum pernah nulis (BATCH 5 = 51-75, BATCH 6 = 76-100,
+dst. sampai pool users.ts habis, lalu tambah user baru). 50 penulis yang
+diputar terus = 50 buku yang sampulnya diganti = persona mati. Sapaan
+"Bu" dkk: maksimal 1 per teks, hanya kalau ada lawan bicara nyata; varian
+harus menyebar (Pak/Bang/Mas/Teh/Kak/Dik/Non/Mbak/Om/Bunda/Cikgu),
+dilarang satu sebutan mendominasi feed.
 
 Protokol tiap sesi rombak:
 1. Baca rumus ini (khususnya BAGIAN 2) + sidik-jari.md.
@@ -329,13 +394,24 @@ maksa ulang — itu bukan orang, itu buku.
 
 ## BUKU BESAR TOPIK V3 (dipakai sejak rombak V3; jangan ulang bentuk sama)
 
+**INTEGRASI 6 Nov 2026 — sebab musabab KELIMA (BAGIAN 1F):** user menangkap
+post loker (id 8) dan saudaranya (id 43, 6, dst), memerintahkan "Cek semua,
+jangan hanya satu". Hasil: scripts/audit-formula15.ts dibuat (pola A1-A8
+mikro-drama + pola B sisa lama), 83 temuan dibersihkan lintas threads-1..8
+(3 post mikro-drama ditulis ulang total, ±60 post karya-kecil-sastra dipotong
+ekornya, ±55 komentar kalimat-garam/doa ditulis ulang), audit kini 0 temuan.
+Bentuk-bentuk berikut TAMBAH masuk stok dilarang: jeda dramatis "X. N menit.",
+personifikasi benda (loker/mesin/kipas punya mood), coda ritual "gak percaya
+X lagi", punchline sunyi "paling bersih di seluruh lini", ekor "semoga/doakan",
+komentar taksi "kalimat terakhir itu dalam".
+
 Format: `id → penulis: topik (aspek matematika)`.
 
 **threads-1 (1-25) — V4 rombak 6 Nov 2026 (anti-sastra, persona lepas):**
-1 → 1: anak nanya 10−0,5, ibu ikut bingung, minta jelasin pakai benda · 2 → 2: integral +C itu jawaban atau pelangi (panik PR) · 3 → 3: murid kelas 5 ngeyel (−2)×(−3)=6, guru remuk bersama murid · 4 → 4: tetangga renover bor dari jam 8 pagi, WFH hancur · 5 → 5: 1 gelas beras berapa gram, google jawab beda-beda · 6 → 6: 0,1+0,2 = 0,30000000000000004 (floating point) · 7 → 7: sheet Excel 96 baris hilang, belum tersimpan · 8 → 8: loker macet habis shift, 15 menit sirkus sendirian · 9 → 9: navigasi bilang 4 menit = ternyata jalan bawah + hujan · 10 → 10: kuis dadak matriks, kira determinan = nambahin semua angka · 11 → 11: naik 20% turun 20% = 96 bukan 100 (jebakan persen) · 12 → 12: alarm infus bunyi-mati sendiri, perang dingin jam 3 pagi · 13 → 13: kubus volume 125, jawab 25 salah, rusuk 5 · 14 → 14: paman bagi video air garam, gue kasih link, dianggap kurang ajar · 15 → 15: hujan terus, pisang mulai burik, potong harga bareng tetangga lapak · 16 → 16: izin sehari, kenyataan nonton video orang jatuh di kasur · 17 → 17: rambu kemiringan 15% itu tan bukan derajat · 18 → 18: foto ponsel isinya mangga semua, album katalog · 19 → 19: pulsa salah kirim 25 ribu, penerima 'lagi rapat' · 20 → 20: senam ibu-ibu terpecah dua kelompok, musik berperang · 21 → 21: nasi 1 liter beras buat 3 orang kebanyakan, tim ruas jari vs rasio · 22 → 22: anak bilang 'dua' tunjuk dua kucing, semua kucing jadi dua · 23 → 23: update 2,1 GB tersentuh sisa kuota 0,3 GB · 24 → 24: nenek diajari cucu voice-to-text, tersalah grup komunitas · 25 → 25: presentasi pertama, gemetar, atasan cuma nod, es krim penutup
+1 → 1: anak nanya 10−0,5, ibu ikut bingung, minta jelasin pakai benda · 2 → 2: integral +C itu jawaban atau pelangi (panik PR) · 3 → 3: murid kelas 5 ngeyel (−2)×(−3)=6, guru remuk bersama murid · 4 → 4: tetangga renover bor dari jam 8 pagi, WFH hancur · 5 → 5: 1 gelas beras berapa gram, google jawab beda-beda · 6 → 6: 0,1+0,2 = 0,30000000000000004 (floating point) · 7 → 7: sheet Excel 96 baris hilang, belum tersimpan · 8 → 8: loker macet pas mau pulang, nunggu satpam, charger ketinggalan di ruang jaga · 9 → 9: navigasi bilang 4 menit = ternyata jalan bawah + hujan · 10 → 10: kuis dadak matriks, kira determinan = nambahin semua angka · 11 → 11: naik 20% turun 20% = 96 bukan 100 (jebakan persen) · 12 → 12: alarm infus bunyi-mati sendiri, perang dingin jam 3 pagi · 13 → 13: kubus volume 125, jawab 25 salah, rusuk 5 · 14 → 14: paman bagi video air garam, gue kasih link, dianggap kurang ajar · 15 → 15: hujan terus, pisang mulai burik, potong harga bareng tetangga lapak · 16 → 16: izin sehari, kenyataan nonton video orang jatuh di kasur · 17 → 17: rambu kemiringan 15% itu tan bukan derajat · 18 → 18: foto ponsel isinya mangga semua, album katalog · 19 → 19: pulsa salah kirim 25 ribu, penerima 'lagi rapat' · 20 → 20: senam ibu-ibu terpecah dua kelompok, musik berperang · 21 → 21: nasi 1 liter beras buat 3 orang kebanyakan, tim ruas jari vs rasio · 22 → 22: anak bilang 'dua' tunjuk dua kucing, semua kucing jadi dua · 23 → 23: update 2,1 GB tersentuh sisa kuota 0,3 GB · 24 → 24: nenek diajari cucu voice-to-text, tersalah grup komunitas · 25 → 25: presentasi pertama, gemetar, atasan cuma nod, es krim penutup
 
 **threads-2 (26-50):**
-26 → 26: penumpang lansia minta pelan, dengerin cerita · 27 → 27: 3 dari 60 dus rusak, vendor gak balas (rasio kecil) · 28 → 28: jelasin ke temen malah makin bingung (meta mengajar) · 29 → 29: baca nonius jangka sorong 0,02 mm (ukur) · 30 → 30: si anak: "kenapa ngerjain cara panjang kalau ada kalkulator" · 31 → 31: pembeli balikin kembalian kelebihan (jujur) · 32 → 32: ikat kangkung mengecil harga tetap (ukur) · 33 → 33: resep 4 porsi naik ke 5 (×1,25, garam ikut gak) · 34 → 34: kucing pos ikut ronde jam 2 (jam) · 35 → 35: semua orang lompat bareng, bumi geser gak (fisika) · 36 → 36: hafalan 22 tulang tengkorak kebalik-balik · 37 → 37: lampu sorot tetangga mati sendiri jam 10 (jam) · 38 → 38: sudut lancip/tumpul di rumah (jam dinding, atap) · 39 → 39: trik perkalian 11 (23×11=253) · 40 → 40: benih 12 tumbuh 9 (bercacah) · 41 → 41: alamat "rumah biru deket pohon nangka", ada TIGA (hitung rumah) · 42 → 42: anak kos mau ganti lampu sendiri (izin) · 43 → 43: mesin berhenti 20 menit, gue cuci botol (waktu) · 44 → 44: telur dadar gosong, api sedang vs besar (panas) · 45 → 45: jalan pagi 30 menit, kucing tikungan, ikan · 46 → 46: salah cetak nama sekolah 6 lembar (lembar) · 47 → 47: nasabah lansia, formulir ditulisin tangan · 48 → 48: buku telat 3 hari, "maaf" bocah · 49 → 49: bocah minta gaya poster (potong rambut) · 50 → 50: pelanggan level pedas 7, habis, gue menangis
+26 → 26: penumpang lansia minta pelan, dengerin cerita · 27 → 27: 3 dari 60 dus rusak, vendor gak balas (rasio kecil) · 28 → 28: jelasin ke temen malah makin bingung (meta mengajar) · 29 → 29: baca nonius jangka sorong 0,02 mm (ukur) · 30 → 30: si anak: "kenapa ngerjain cara panjang kalau ada kalkulator" · 31 → 31: pembeli balikin kembalian kelebihan (jujur) · 32 → 32: ikat kangkung mengecil harga tetap (ukur) · 33 → 33: resep 4 porsi naik ke 5 (×1,25, garam ikut gak) · 34 → 34: kucing pos ikut ronde jam 2 (jam) · 35 → 35: semua orang lompat bareng, bumi geser gak (fisika) · 36 → 36: hafalan 22 tulang tengkorak kebalik-balik · 37 → 37: lampu sorot tetangga mati sendiri jam 10 (jam) · 38 → 38: sudut lancip/tumpul di rumah (jam dinding, atap) · 39 → 39: trik perkalian 11 (23×11=253) · 40 → 40: benih 12 tumbuh 9 (bercacah) · 41 → 41: alamat "rumah biru deket pohon nangka", ada TIGA (hitung rumah) · 42 → 42: anak kos mau ganti lampu sendiri (izin) · 43 → 43: jam istirahat molor gara2 sabuk mesin, botol ketinggalan di loker 3 hari (waktu) · 44 → 44: telur dadar gosong, api sedang vs besar (panas) · 45 → 45: jalan pagi 30 menit, kucing tikungan, ikan · 46 → 46: salah cetak nama sekolah 6 lembar (lembar) · 47 → 47: nasabah lansia, formulir ditulisin tangan · 48 → 48: buku telat 3 hari, "maaf" bocah · 49 → 49: bocah minta gaya poster (potong rambut) · 50 → 50: pelanggan level pedas 7, habis, gue menangis
 
 **threads-3 (51-75):**
 51 → 9: penumpang bawa tanaman gede, aman sampe tujuan · 52 → 33: beda nasi harum & biasa, anak nanya (harga beda) · 53 → 2: mean vs median: 9 orang 70 + satu 10 → mean 64, median 70 · 54 → 15: cabai keriting tapi gak busak, aman gak besok · 55 → 24: cucu bawa nilai 8, nenek gak paham skala · 56 → 5: luas segitiga alas 12 t 7 = 42, les dadakan di warung · 57 → 44: nasi goreng keasinan, garam dua kali · 58 → 12: jam dinding mati baterai, pasien ngira udah sore · 59 → 30: si anak: kenapa π = 3,14, dari mana · 60 → 21: jadwal kosong 4 jam, pulang atau perpus · 61 → 17: skala 1:50, pintu 80 cm jadi 1,6 cm di A3 · 62 → 39: konstanta Kaprekar 495: 954−459=495 · 63 → 1: anak nanya kenapa hari ada 24 jam · 64 → 28: adik kelas ngeyel peluang 2 gambar = 1/3 (benar 1/4) · 65 → 46: 34 guru, 3 izin, catat manual (34−3=31) · 66 → 6: debat sama kalkulator soal 2³, yakin 6 soalnya nambah (benar 8), gak bisa tidur · 67 → 38: 12×9 = 12×10 kurang 12 = 108 · 68 → 11: 480 baris Excel, minta cara pivot table · 69 → 20: penumpang tua kangen telepon kios · 70 → 50: air rebus kebuang 4 kali, GUYS itu air panas · 71 → 7: sidang besok, slide 24 disuruh sederhanakan · 72 → 16: komputer restart update, input bulanan ulang · 73 → 36: atlas halaman 412, kopi dingin, tips hafal saraf · 74 → 23: jam 03.12 log nulis dirinya sendiri · 75 → 45: anter cucu les, teras jadi arisan dadakan

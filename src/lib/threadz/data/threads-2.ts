@@ -50,10 +50,10 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 865,
     shares: 11,
     content:
-      "om, tanya soal jangka sorong dong. gue baca ukuran ulir baut buat tugas, skala utama nunjuk 21 mm, tapi garis nonius yang pas itu yang ke-13. temen gue bilang tinggal tulis 21,13, gue bilang harusnya 21,26 soalnya 13 dikali 0,02. om-om yang biasa pegang jangka sorong tolong mastiin, soalnya besok dinilai dan gue gak mau kalah cuma gara-gara baca skala",
+      "om, tanya soal jangka sorong dong. gue baca ukuran ulir baut buat tugas, skala utama nunjuk 21 mm, tapi garis noniusnya yang paling pas nomor 13. temen gue bilang tinggal tulis 21,13, gue bilang harusnya 21,26 soalnya 13 dikali 0,02. om-om yang biasa pegang jangka sorong tolong mastiin, soalnya besok dinilai dan gue gak mau kalah cuma gara-gara baca skala",
     comments: [
       { authorId: 186, minutesAgo: 856, content: "21,26 benar. nonius itu pengganti koma, bukan tambalan angka. yang ditulis temenmu itu ukuran gaya nomor rumah" },
-      { authorId: 30, minutesAgo: 849, content: "cara hafalnya: nomor garis yang berpapasan dikali ketelitiannya. 13 × 0,02 = 0,26. murid yang latihan rutin biasanya hafal papasannya" },
+      { authorId: 30, minutesAgo: 849, content: "cara hafalnya: nomor garis yang berpapasan dikali ketelitiannya. 13 × 0,02 = 0,26. jangan lupa tulis satuannya mm biar gak dikurangi nilai" },
       { authorId: 322, minutesAgo: 842, content: "pas dinilai nanti tunjukin garis papasannya ke gurumu, bukan cuma angkanya. nilai sering turun dari situ" },
     ],
   },
@@ -90,7 +90,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "yang aneh teh, kangkung hari ini ikatnya mungil tapi harga tetap seribu. yang beli gak ada yang protes, malah ada yang bilang 'uda teh, sayur mengecil itu musiman'. teh ikut senyum, tapi di dalam hati pengen ikat kangkung gede lagi.",
     comments: [
-      { authorId: 102, minutesAgo: 948, content: "pembeli yang ngerti teh itu berkah, sabar ya, musim gede pasti dateng lagi 🙏" },
+      { authorId: 102, minutesAgo: 948, content: "tetangga sebelah jualan kangkung teh, pas ikatnya kecil dia biasanya kasih bonus cabai biar pembeli gak ngomel. mungkin bisa dicoba wkwk" },
     ],
   },
   {
@@ -148,9 +148,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1105,
     shares: 8,
     content:
-      "Tetangga sebelah memasang lampu sorot warna kuning menghadap halaman mereka. Setiap malam menyala sekitar jam tujuh, lalu padam sendiri tepat jam sepuluh. Tidak ada yang mengaturnya, saya pernah memperhatikan sambil menutup jendela. Mungkin ada pematuh waktu, mungkin hanya kebiasaan mereka yang teratur. Menyenangkan menonton kehidupan orang lain yang punya ritme.",
+      "Tetangga sebelah memasang lampu sorot warna kuning menghadap halaman mereka. Setiap malam menyala sekitar jam tujuh, lalu padam sendiri tepat jam sepuluh. Tidak ada yang mengaturnya, saya pernah memperhatikan sambil menutup jendela. Mungkin ada pematuh waktu, mungkin hanya kebiasaan mereka yang teratur. Yang jelas tagihan listrik rumah itu pasti menarik.",
     comments: [
-      { authorId: 258, minutesAgo: 1098, content: "rumah yang punya ritme itu bikin tetangganya ikut tenang, pak. semoga lampunya panjang umur" },
+      { authorId: 258, minutesAgo: 1098, content: "lampu padam sendiri tanpa orang biasanya ada timer murah di toko bangunan pak, bisa sekalian dipasang buat lampu depan rumah" },
     ],
   },
   {
@@ -175,7 +175,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     comments: [
       { authorId: 118, minutesAgo: 1157, content: "tambahan bre: 87×11 → 8, (8+7)=15, 7 → tulis 7, bawa 1 ke kiri, jadi 957. bagian bawa sisa itu yang paling seru" },
       { authorId: 217, minutesAgo: 1149, content: "trik ini sebenarnya distributif bre: 23×11 = 23×10 + 23×1 = 230+23 = 253. makanya tengahnya hasil jumlah dua digit 🙃" },
-      { authorId: 268, minutesAgo: 1141, content: "anak yang bertanya kenapa itu calon penyuka aljabar. jawab dengan perkalian bersusun, bukan dengan 'memang begitu'" },
+      { authorId: 268, minutesAgo: 1141, content: "jawab pakai perkalian bersusun aja bre, terus suruh dia bandingin sendiri sama triknya, biar dia yang nemu kenapa tengahnya jadi jumlah dua digit" },
       { authorId: 313, minutesAgo: 1134, content: "gue baru tau trik ini umur 20-an, anak tetangga lu sekarang ngalahin gue wkwk" },
     ],
   },
@@ -199,7 +199,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       "alamat hari ini: rumah warna biru, deket pohon nangka, pagar kayu. gue sampai di gang, ternyata ada TIGA rumah biru, dua di antaranya pagar kayu, dan dua-duanya deket pohon nangka. pohon nangka di gang itu kayak rumah kedua bagi semua orang. gue telepon penerima, gak diangkat. sekarang gue duduk di depan rumah biru tengah yang pagar paling rapi, nunggu keajaiban atau telpon balik.",
     comments: [
       { authorId: 144, minutesAgo: 1217, content: "alamat begini itu ujian mental bre. gue pernah dapet 'rumah belakang masjid', masjidnya dua wkwkwk" },
-      { authorId: 187, minutesAgo: 1209, content: "tunggu di depan yang pagar paling rapi itu keputusan tepat mas, biasanya pemiliknya memang yang teliti" },
+      { authorId: 187, minutesAgo: 1209, content: "sebelum gak bisa dihubungi, biasanya kurir boleh foto paket di depan rumah terus lanjut rute mas, jangan nunggu kepanjangan di satu titik" },
     ],
   },
   {
@@ -208,11 +208,11 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1255,
     shares: 15,
     content:
-      "Anak kamar C tadi sore bilang lampu kamarnya mati dan dia mau beli lampu sendiri lalu pasang sendiri, biar tidak merepotkan, katanya. Saya senang membaca niatnya, tetapi kursi plastik tempat dia biasa berdiri itu goyang, dan tangganya belum tentu sampai langit-langit kamar kos. Akhirnya saya setuju dengan satu syarat: pakai kursi yang stabil, dan saya yang memegang kursinya.\nKadang yang saya jaga bukan lampunya, tetapi cara anak-anak ini merasa bisa mengurus hidupnya sendiri.",
+      "Anak kamar C tadi sore bilang lampu kamarnya mati dan dia mau beli lampu sendiri lalu pasang sendiri, biar tidak merepotkan, katanya. Saya setuju dengan satu syarat: pakai kursi yang stabil, dan saya yang memegang kursinya.\nTernyata tangga kos itu pendek, jadi saya yang naik sambil dia sorotin lampu HP. Lampunya sekarang nyala, kursinya miring sedikit, biar saja. Sistem tangga kos begini udah jalan bertahun-tahun, jangan diganti dulu.",
     comments: [
-      { authorId: 71, minutesAgo: 1247, content: "ibu kos seperti ini langka bu. mengizinkan sambil menjaga itu bentuk sayang yang halus 🙏" },
-      { authorId: 258, minutesAgo: 1239, content: "kalimat terakhir itu ringkasan yang dalam bu. anak-anak hanya butuh ruang, bukan larangan" },
-      { authorId: 205, minutesAgo: 1231, content: "saya dulu anak kos juga bu. yang disetujui dengan syarat biasanya jadi kenangan lebih lama daripada yang dilarang" },
+      { authorId: 71, minutesAgo: 1247, content: "anak kos yang mau pasang lampu sendiri jarang ya bu, biasanya dateng ke kamar saya bawa muka melas sekalian nanya wifi 😄" },
+      { authorId: 258, minutesAgo: 1239, content: "tangga kos emang sependek itu ya. kamar saya dulu langit-langitnya tinggi, aturan dilarang naik kursi itu wajar" },
+      { authorId: 205, minutesAgo: 1231, content: "saya dulu anak kos juga, pas ganti lampu kamar yang naik malah tetangga, soalnya saya takut tinggi. anak ini udah berani banget" },
     ],
   },
   {
@@ -221,9 +221,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1285,
     shares: 4,
     content:
-      "Mesin berhenti 20 menit, sabuk penggerak lepas. Semua menunggu teknisi. Saya mencuci botol minum yang tiga hari tersimpan di loker.\nSaat mesin menyala lagi, botol saya paling bersih di seluruh lini.",
+      "jam istirahat lini dua tadi pagi molor 20 menit, sabuk penggerak mesin lepas, semua orang jadi penonton gratis. teknisi datang, pasang, nyala lagi. yang ganggu saya malah botol minum saya yang ketinggalan di loker udah tiga hari, soalnya minum di lini dilarang, tiap istirahat harus jalan ke loker. kemarin sampai lupa minum sama sekali, kepala pusing sorenya. ada trik gak biar gak lupa, selain nulis di tangan",
     comments: [
-      { authorId: 240, minutesAgo: 1277, content: "botol bersih itu bonus lembur versi orang dewasa mas" },
+      { authorId: 240, minutesAgo: 1277, content: "setel alarm HP mas, tiap jam istirahat bunyi, saya dulu begitu pas kerja di gudang, seminggu udah kebiasa" },
     ],
   },
   {
@@ -244,9 +244,9 @@ export const THREADS_PART2: ThreadzThread[] = [
     minutesAgo: 1345,
     shares: 7,
     content:
-      "Jalan pagi hari ini tiga puluh menit, seperti biasa. Di tikungan ketiga ada kucing yang sama, duduk di batu yang sama, seolah menunggu. Saya membawa sisa ikan dari kemarin, ia menerimanya tanpa banyak gerak. Orang-orang berlalu, kami berdua sejenak. Itu saja, tidak ada yang luar biasa, dan justru itu enaknya.",
+      "Jalan pagi hari ini tiga puluh menit, seperti biasa. Di tikungan ketiga ada kucing yang sama, duduk di batu yang sama, seolah menunggu. Saya membawa sisa ikan dari kemarin, ia menerimanya tanpa banyak gerak. Orang-orang berlalu, kami berdua sejenak. Tadi ada bapak-bapak lari pagi lewat, nanya kucing orang mana itu. Saya jawab gak tahu. Dia bilang ya udah jangan dikasih ikan terus. Ya kan enak kalau yang kasih saya.",
     comments: [
-      { authorId: 272, minutesAgo: 1337, content: "rutinitas yang damai itu kemewahan yang jarang disebut, pak. kucingnya sudah hafal jamnya" },
+      { authorId: 272, minutesAgo: 1337, content: "kucing di tikungan itu suka pindah-pindah tempat duduknya gak pak? langganan jalan pagi saya pindah-pindah, kadang sukar dicari" },
     ],
   },
   {
@@ -282,7 +282,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "Buku yang dikembalikan hari ini terlambat tiga hari. Peminjamnya anak SMP, datang dengan wajah bersalah, berbisik maaf kak. Saya hanya menurunkan denda yang sebenarnya sudah tidak ada isinya. Ia membawa buku itu dengan dua tangan, seperti membawa barang titipan yang dihargai.",
     comments: [
-      { authorId: 213, minutesAgo: 1427, content: "buku yang ditanggung dua tangan itu tanda anaknya masih punya rasa, pak" },
+      { authorId: 213, minutesAgo: 1427, content: "denda tiga hari itu berapa pak? kalau gak sampai seribu ya udah gak usah dipungut, anak SMP dapet uang jajan dikit" },
     ],
   },
   {
@@ -294,7 +294,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       "Bocah SMP datang membawa gambar dari poster, minta rambutnya dibuat seperti di gambar. Gaya itu butuh rambut setebal dua arah potongan, dan rambut bocah ini tipis di bagian depan. Saya jujur bilang nanti miripnya setengah. Dia bilang tidak apa-apa, yang penting potongannya sama. Setelah selesai dia menatap cermin lama, lalu bilang udah mirip kok bang, yang penting rasanya.\nWaktu muda saya juga pernah minta potongan orang di poster. Memang rasanya yang penting.",
     comments: [
       { authorId: 149, minutesAgo: 1457, content: "'yang penting rasanya' itu kalimat paling jujur di dunia pangkas bre. gue ikut ingat potongan masa SMP gue wkwk" },
-      { authorId: 186, minutesAgo: 1449, content: "pelanggan yang tahu dirinya itu pelanggan yang gampang dilayani bos" },
+      { authorId: 186, minutesAgo: 1449, content: "rambut tipis di depan tuh susah bre, potongan poster biasanya butuh produk biar tegak. sekalian kasih tau dia habis ini" },
       { authorId: 322, minutesAgo: 1441, content: "cermin pangkas itu kejujuran paling jujur bre, gak ada filter wkwk" },
     ],
   },
@@ -309,7 +309,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 144, minutesAgo: 1486, content: "GUYS GUE BACA SAMPAI MUKA GUE MERAH. LEVEL 8 WAJIB ADA BRE, JANGAN MENGHIANATI LEGENDA DAPUR" },
       { authorId: 154, minutesAgo: 1478, content: "bre dia gak minum itu tanda penghormatan tertinggi, lu udah masuk mitos wkwkwk" },
       { authorId: 313, minutesAgo: 1470, content: "pelanggan begini harus dibuatkan kartu anggota bre, level 8 bukan menu, itu ujian hidup" },
-      { authorId: 240, minutesAgo: 1462, content: "semangat chef, sambal yang menemukan lawan sepadan itu jarang sekali" },
+      { authorId: 240, minutesAgo: 1462, content: "besok pas dia minta level 8, catat di buku nama dia chef. biar kalau besoknya dia menangis tinggal dilihat lagi wkwk" },
       { authorId: 44, minutesAgo: 1454, content: "bre besok gue yang anter sambal level 8, gue juga pengen ikut mengalami" },
     ],
   },

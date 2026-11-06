@@ -25,7 +25,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       "anak tadi malam nanya, Bu, bedanya nasi harum sama nasi biasa apa? kok harganya beda dua ribu. aku jawab wanginya beda. dia nanya wanginya dari mana. aku jawab dari berasnya. dia nanya berasnya dari mana. aku jawab dari sawah. dia nanya sawahnya kenapa bisa wangi. AKU STOP. ternyata dia serius menelusuri wangi beras sampai akarnya.\nbesok aku tanya ke penjual beras, tapi siapa tau di sini ada yang bisa jelasin duluan",
     comments: [
       { authorId: 219, minutesAgo: 1547, content: "wangi nasi harum itu dari senyawa khas varietasnya kak, ditanam memang buat itu, bukan dikasih pewangi 🙃" },
-      { authorId: 90, minutesAgo: 1540, content: "anak yang menelusuri sampai akarnya itu tanda mikir serius kak. jawab 'ibu juga mau cari tahu' itu sah kok 🙏" },
+      { authorId: 90, minutesAgo: 1540, content: "wangi beras harum itu dari senyawanya kak, bukan dicelup. tapi jawab anak 'ibu juga gak tau, kita cari bareng' itu sah kok, malah seru" },
       { authorId: 66, minutesAgo: 1533, content: "gue baca tiga kali kak, anak lu itu detektif beras" },
     ],
   },
@@ -49,9 +49,9 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1615,
     shares: 11,
     content:
-      "cabai di karung mulai keriting tapi belum busak teh. warnanya masih berkilau. aku pindahin ke karung kering, dikelupasin satu-satu. besok aku janjiin ke langganan yang gak keberatan bentuk, harga lebih ringan dikit. doain laku teh, cabai itu gak bisa disuruh sabar",
+      "cabai di karung mulai keriting tapi belum busak teh. warnanya masih berkilau. aku pindahin ke karung kering, dikelupasin satu-satu. besok aku janjiin ke langganan yang gak keberatan bentuk, harga lebih ringan dikit. kalau besok masih gak laku ya sudah, jadi sambal rumah sendiri seminggu",
     comments: [
-      { authorId: 102, minutesAgo: 1607, content: "semangat teh, cabai keriting biasanya malah lebih pedas 🙏" },
+      { authorId: 102, minutesAgo: 1607, content: "cabai keriting teh biasanya malah lebih pedas lho, jujurin aja ke pembeli: keriting tapi ganas" },
     ],
   },
   {
@@ -74,9 +74,9 @@ export const THREADS_PART3: ThreadzThread[] = [
     content:
       "hari ini warung jadi tempat les dadakan. anak SD sebelah bawa PR: cari luas segitiga, alas 12 cm, tinggi 7 cm. dia mangkel karena gak hafal rumus. aku ikuin aja dia itung pakai cara motong: kotak 12 × 7 dibagi dua karena segitiga itu setengah kotak. hasilnya 42 cm persegi. dia bilang 'kakak pinter'. aku gak nyangka momen itu dibalikin ke aku, padahal dulu aku juga mangkel di rumus yang sama",
     comments: [
-      { authorId: 143, minutesAgo: 1667, content: "cara motong itu cara paling bener kak, rumus setengah kali alas kali tinggi cuma versi tulisannya" },
-      { authorId: 272, minutesAgo: 1659, content: "warung yang jadi tempat belajar itu warung yang berkah, dik" },
-      { authorId: 60, minutesAgo: 1651, content: "anak-anak lebih gampang nyambung kalau diajak lihat bentuknya dulu kak 🙏" },
+      { authorId: 143, minutesAgo: 1667, content: "motong kotak terus dibagi dua itu metode yang sama dulu gue diajarin kak, anak gampang nangkep karena keliatan bentuknya" },
+      { authorId: 272, minutesAgo: 1659, content: "cara motong itu bikin anak inget lama dik, rumus doang besok lupa. terusin aja" },
+      { authorId: 60, minutesAgo: 1651, content: "besok kalau dia nanya luas trapesium gimana ya, jangan suruh motong lagi wkwk" },
     ],
   },
   {
@@ -160,7 +160,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     comments: [
       { authorId: 268, minutesAgo: 1877, content: "versi sederhananya bu: hari itu satu putaran bumi berputar, dan 24 itu cara manusia membagi putaran jadi potongan yang mudah dihitung" },
       { authorId: 59, minutesAgo: 1870, content: "jawab karena 24 gampang dibagi ke 2, 3, 4, 6, 8, 12 bu. anak suka kalau angkanya bisa diajak main" },
-      { authorId: 71, minutesAgo: 1862, content: "rapat keluarga tentang jam itu lucu banget bu 😄 semoga stok jawabannya cepat terisi" },
+      { authorId: 71, minutesAgo: 1862, content: "rapat keluarga soal jam itu lucu banget bu 😄 anak saya kalau udah nanya kenapa-kenapan gini, ujung-ujungnya saya suruh tanya papanya juga" },
     ],
   },
   {

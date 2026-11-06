@@ -37,7 +37,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       "Pertanyaan murid kelas 2 hari ini: Bu, kenapa 10 lebih besar dari 9, padahal 9 cuma kurang satu? Ia bertanya sambil menghitung jari, sungguh-sungguh. Saya jawab karena 10 datang setelah 9. Ia bertanya lagi: kalau hanya soal datang setelahnya, bukankah 11 juga datang setelahnya, kok tidak sebesar itu rasanya?\nSaya diam sebentar. Anak itu sedang menyentuh perbedaan urutan dan besaran, sesuatu yang biasa saya ajarkan di kelas 4 dengan cara melelahkan, dan ia menyentuhnya sendiri di kelas 2. Ada saran cara merangkul pertanyaan seperti ini tanpa membunuh kegembiraannya?",
     comments: [
       { authorId: 39, minutesAgo: 3077, content: "rangkul dengan membuktikan bu: minta 9 kelereng dan 10 kelereng, pasangkan satu-satu, sisanya satu. itulah yang membuat 10 lebih besar, bukan karena giliran datang" },
-      { authorId: 258, minutesAgo: 3069, content: "pertanyaan yang menyentuh urutan dan besaran itu awal penalaran, bu. jangan dibungkam, ikuti arahnya" },
+      { authorId: 258, minutesAgo: 3069, content: "ibu dulu juga pernah dibingungkan murid kayak gini, akhirnya jawab jujur 'pertanyaan bagus, besok kita cari bareng'. besoknya dia datang bawa kelereng sendiri" },
       { authorId: 90, minutesAgo: 3061, content: "murid begini kalau dibiarkan penasaran biasanya tumbuh jadi anak yang suka membuktikan sendiri bu 😄" },
     ],
   },
@@ -170,7 +170,7 @@ export const THREADS_PART5: ThreadzThread[] = [
     content:
       "om-om yang tiap sore lewat pos, hari ini titip payung. katanya besok pagi dia ambil, sementara payungnya nginep di pos bareng gue dan korbannya. pos kecil itu tiba-tiba punya tamu. besok kalau dia lupa ambil, gue taruh di kursi paling terang, biar kelihatan dari jalan.",
     comments: [
-      { authorId: 272, minutesAgo: 3407, content: "pos yang jadi tempat payung tidur itu pos yang dipercaya, mas" },
+      { authorId: 272, minutesAgo: 3407, content: "mas, payung nginep di pos ini jangan lupa dicatet juga, biar besok ada bukti gak hilang wkwk" },
     ],
   },
   {
@@ -182,9 +182,9 @@ export const THREADS_PART5: ThreadzThread[] = [
       "pembeli baru bertanya, teh, beda ayam kampung sama broiler apa ya? aku jelaskan pakai tangan: yang kampung jaganya panjang, badannya mungil, kulitnya lebih kuning; yang broiler jaganya pendek, badannya lebar. dia mendengar serius, mengangguk, lalu di akhir bilang: ambil yang murah aja teh. aku ketawa sampai penjual sebelah ikut ketawa. dua-duanya ayam teh, yang beda cuma ceritanya",
     comments: [
       { authorId: 84, minutesAgo: 3437, content: "beda ayam kampung sama broiler itu kayak beda nasi hangat sama nasi dingin, jelas rasanya tapi susah dijelasin pakai kata" },
-      { authorId: 102, minutesAgo: 3429, content: "yang murah itu broiler teh, tapi masak lama banget mah pakai kampung. dua-duanya punya jatah 🙏" },
+      { authorId: 102, minutesAgo: 3429, content: "yang murah itu broiler teh, tapi masak lama banget mah pakai kampung. dua-duanya punya jatah" },
       { authorId: 71, minutesAgo: 3421, content: "penjelasan pakai tangan itu lebih nempel dari diagram teh 😄" },
-      { authorId: 262, minutesAgo: 3414, content: "kalimat terakhir itu dalam teh. yang beda memang ceritanya" },
+      { authorId: 262, minutesAgo: 3414, content: "ayam kampung jaganya panjang teh? baru tau saya, biasanya cuma nebak dari kulitnya, kadang ketuker" },
     ],
   },
   {
@@ -209,7 +209,7 @@ export const THREADS_PART5: ThreadzThread[] = [
     comments: [
       { authorId: 213, minutesAgo: 3497, content: "pernah bro, modul 400 halaman yang punggungnya melar sampai seperti dibekap buku sebelah. karton 0,35 itu standar cover teks biasa 🙃" },
       { authorId: 223, minutesAgo: 3489, content: "mikrometer presisinya 0,01 mm bro, angka lu itu kepercayaan tinggi. jangan lupa cek zero error dulu 🙃" },
-      { authorId: 318, minutesAgo: 3481, content: "buku yang punggungnya melar itu buku yang dibaca bro, yang mungil itu yang numpang di rak wkwk" },
+      { authorId: 318, minutesAgo: 3481, content: "bro, mikrometer bisa buat karton juga ya, saya kenalnya cuma buat ukur kawat pas praktikum" },
     ],
   },
   {
@@ -218,12 +218,12 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3535,
     shares: 9,
     content:
-      "paket hari ini enteng, isinya satu sepatu. gue kira salah kirim, gue tanya penerima, dia bilang benar, pasangannya dikirim kemarin lewat jalur lain, katanya biar tidak sekaligus hilang. gue mikir, orang yang berpikir begitu itu pernah kehilangan sesuatu yang tidak kembali. sore ini sepatunya nyampe, pasangannya nyampe, sepasang utuh di satu rak",
+      "paket hari ini enteng, isinya satu sepatu. gue kira salah kirim, gue tanya penerima, dia bilang benar, pasangannya dikirim kemarin lewat jalur lain, katanya biar tidak sekaligus hilang. logis juga sih, tapi bikin kerjaan gue dobel catat. sore ini pasangannya nyampe, gue taruh sebelahnya sambil foto, seumur kerja baru sekali lihat sepatu nyatu lagi",
     comments: [
       { authorId: 144, minutesAgo: 3527, content: "bre strategi pisah jalur itu cerdas, kalau satu hilang setengah cerita masih ada" },
-      { authorId: 187, minutesAgo: 3519, content: "orang yang mengirim terpisah itu orang yang pernah belajar dari kehilangan, mas" },
+      { authorId: 187, minutesAgo: 3519, content: "pisah jalur itu biasa mas, apalagi sepatu mahal, katanya asuransinya juga ikut jalur beda" },
       { authorId: 313, minutesAgo: 3511, content: "sepatu tunggal di satu rak itu foto harus dikeluarkan bre, momen langka" },
-      { authorId: 272, minutesAgo: 3503, content: "utuh kembali setelah terpisah itu cerita yang selalu bagus, mas" },
+      { authorId: 272, minutesAgo: 3503, content: "mas, sepatu kiriman terpisah biasanya pasangannya nyampe duluan ya? punya saya kemarin kebalik, yang satu nginep 4 hari" },
       { authorId: 133, minutesAgo: 3496, content: "bre besok jangan diantar bareng lagi, biar ceritanya selesai di sini wkwk" },
     ],
   },
@@ -244,10 +244,10 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3595,
     shares: 11,
     content:
-      "Pemesanan tadi sore batal di menit terakhir, penumpang mengirim pesan minta maaf, ternyata dijemput keluarganya. Saya tidak apa-apa, itu bukan yang pertama. Saya melihatnya berjalan kaki bersama keluarganya sampai tikungan, dari belakang.\nAda hari yang kehilangan pesanan tetapi mendapat pemandangan yang lebih tenang.",
+      "Pemesanan tadi sore batal di menit terakhir, penumpang mengirim pesan minta maaf, ternyata dijemput keluarganya. Saya tidak apa-apa, itu bukan yang pertama. Saya melihatnya berjalan kaki bersama keluarganya sampai tikungan, dari belakang. Abis itu saya mampir es teh dulu di warung deket situ, nunggu orderan berikutnya sambil liatin jalan lengang",
     comments: [
-      { authorId: 258, minutesAgo: 3587, content: "mengantar dengan pandangan itu bentuk antar yang diam-diam, pak" },
-      { authorId: 272, minutesAgo: 3579, content: "tikungan yang menyaksikan keluarga berkumpul itu tikungan yang baik, pak" },
+      { authorId: 258, minutesAgo: 3587, content: "batal karena dijemput keluarga itu yang paling sopan pak, beda sama yang cancel cuma sekali chat terus diem" },
+      { authorId: 272, minutesAgo: 3579, content: "tikungan situ sempit gak pak? tempat turun rombongan biasanya rame, gak enak buat berhenti lama" },
     ],
   },
   {
@@ -292,11 +292,11 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3715,
     shares: 15,
     content:
-      "CUCU AKU MENGAJARI AKU PERMAINAN TEBAK ANGKA. ANGKA RAHASIA ANTARA 1 SAMPAI 50. AKU MENEBAK 25, DIA BILANG TERLALU KECIL. AKU MENEBAK 37, DIA BILANG TERLALU BESAR. AKU MENEBAK 30, BENAR. AKU MENANG DALAM TIGA TEBAKAN. DIA KECEWA, KATANYA NENEK CURANG KARENA TERLALU PINTAR MEMBAGI DUA.\nAKU TIDAK PAHAM ISTILAH MATEMATIKA MUDA, TETAPI AKU SUKA KALAU DIA BERKATA NENEK PINTAR. DOAKAN KAMI BERMAIN LAGI BESOK.",
+      "CUCU AKU MENGAJARI AKU PERMAINAN TEBAK ANGKA. ANGKA RAHASIA ANTARA 1 SAMPAI 50. AKU MENEBAK 25, DIA BILANG TERLALU KECIL. AKU MENEBAK 37, DIA BILANG TERLALU BESAR. AKU MENEBAK 30, BENAR. AKU MENANG DALAM TIGA TEBAKAN. DIA KECEWA, KATANYA NENEK CURANG KARENA TERLALU PINTAR MEMBAGI DUA.\nAKU TIDAK PAHAM ISTILAH MATEMATIKA MUDA, TETAPI AKU SUKA KALAU DIA BERKATA NENEK PINTAR. BESOK DIA JANJI MAU BALAS MENANG. AKU SURUH DIA JANGAN KASIH TAU TRIKNYA KE NENEK LAIN.",
     comments: [
-      { authorId: 39, minutesAgo: 3707, content: "itu namanya strategi membagi dua mbak, menebak tengah selalu paling cepat. cucu yang kecewa itu cucu yang sudah merasakan strategi" },
-      { authorId: 187, minutesAgo: 3699, content: "dituduh curang karena pintar membagi dua itu penghargaan tertinggi dari cucu mbak" },
-      { authorId: 90, minutesAgo: 3691, content: "doa bermain lagi besok itu doa yang pasti terkabul mbak 😄" },
+      { authorId: 39, minutesAgo: 3707, content: "itu trik bagi dua mbak, tebak tengah terus, paling cepet. keponakan saya sebel duluan sebelum nemu polanya wkwk" },
+      { authorId: 187, minutesAgo: 3699, content: "wajar dia sebel mbak, main sama nenek yang menebak 3 kali langsung kena, curang curang ini mah 😄" },
+      { authorId: 90, minutesAgo: 3691, content: "saya pernah menang 3 tebakan melawan keponakan, sejak itu dia gak mau main lagi wkwk. selamat atas kemenangannya mbak" },
     ],
   },
   {

@@ -90,7 +90,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 175,
     shares: 3,
     content:
-      "gue gak percaya kalkulator lagi. itung 0,1 + 0,2 di ponsel, jawabannya 0,30000000000000004. gue itung ulang pakai kertas, tetap 0,3. gue nyalain kalkulator punya temen kos, hasilnya sama persis. berarti gue salah di dua tempat, atau mesinnya salah di dua tempat. tolong orang yang paham teknologi masuk sini. gue harus tahu dulu sebelum tidur, soalnya kalau mesin aja bisa bohong terus dunia ini gimana",
+      "tadi sore gue itung 0,1 + 0,2 di ponsel, jawabannya 0,30000000000000004. gue itung ulang pakai kertas, tetap 0,3. gue nyalain kalkulator punya temen kos, hasilnya sama persis. berarti gue salah di dua tempat, atau mesinnya salah di dua tempat. tolong orang yang paham teknologi masuk sini. gue harus tahu dulu sebelum tidur, soalnya kalau mesin aja bisa bohong terus dunia ini gimana",
     comments: [
       { authorId: 219, minutesAgo: 170, content: "itu bukan mesin bohong bre, itu cara komputer nyimpen desimal yang namanya floating point. 0,1 dan 0,2 gak bisa ditulis persis dalam biner, jadi ada sisa super kecil" },
       { authorId: 138, minutesAgo: 164, content: "wkwkwk klasik. coba 0,5 + 0,25, hasilnya bakal bersih soalnya setengah dan seperempat gampang ditulis biner" },
@@ -106,7 +106,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     content:
       "guys, tolong yang paham file Excel. draft bab 4 gue ada di satu sheet, 96 baris data kuesioner yang udah gue rapikan semaleman. tadi sore laptop ngeheng, aku paksa matiin dari panik, dan pas dibuka lagi sheet-nya... kosong. sheet sebelah aman, cuma sheet draft yang hilang. dan aku belum pernah mengklik simpan dari awal 🙃\n\nada cara ngembaliin file yang belum pernah tersimpan? atau memang sudah tidak bisa? ya udah kalau sudah, gue terima nasib dan mulai ngetik ulang sambil nangis, datanya masih nempel di kepala kok, cuma tangan yang mau mogok 🙃",
     comments: [
-      { authorId: 217, minutesAgo: 197, content: "kalau belum pernah disimpan kak kemungkinannya tipis, tapi coba cek folder temp atau file sisa .tmp di folder kerja. semoga ada jejaknya 🙃" },
+      { authorId: 217, minutesAgo: 197, content: "kalau belum pernah disimpan kak kemungkinannya tipis, tapi coba cek folder temp atau file sisa .tmp di folder kerja. gue kemarin nemu file .tmp di situ" },
       { authorId: 60, minutesAgo: 188, content: "yang hilang cuma kecepatan tangannya. proses mikirnya udah selesai kan, ngetik ulang itu jauh lebih cepet dari mikir ulang" },
     ],
   },
@@ -116,9 +116,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 235,
     shares: 23,
     content:
-      "abis shift. loker gue macet. kuncinya muter, gak mau buka. semua orang udah pulang. gue sama loker. 15 menit.\nakhirnya buka juga pas gua udah pasrah sambil bawa tas satu tangan botol minum tangan satunya. kayaknya loker pengen nonton sirkus dulu.\nsekarang di angkot, kunci gua pegang di tangan. gak percaya loker lagi",
+      "loker gue macet hampir 15 menit tadi pas mau pulang, kuncinya muter gak mau buka, semua orang udah pada pulang. pas udah niat mau telepon satpam, dia buka sendiri. udah gitu aja ceritanya. yang bikin kesel malah pas di angkot gue inget charger gue nyambung di colokan ruang jaga. ya udah, anggep aja hadiah buat shift malam nanti",
     comments: [
-      { authorId: 258, minutesAgo: 229, content: "loker begini punya mood sendiri, dikejar gak buka, pas udah gak peduli dia yang bukain" },
+      { authorId: 258, minutesAgo: 229, content: "gue pernah begini bre, 10 menit berantem sama kunci, ternyata salah loker. untung gak ada yang rekam wkwk" },
     ],
   },
   {
@@ -230,7 +230,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     comments: [
       { authorId: 213, minutesAgo: 496, content: "betul bro, rambu pakai tan. 100% saja itu 45 derajat. bayangin kalau jalan 15 derajat, udah kayak tangga" },
       { authorId: 336, minutesAgo: 488, content: "kerasa bro apalagi motor bawa penumpang. gak nyampe tangga sih, tapi gigi satu pasti keluar" },
-      { authorId: 30, minutesAgo: 478, content: "patokan sederhananya bro: trotoar yang terasa landai itu sekitar 5%. 15% sudah masuk kategori bukit di banyak buku teks" },
+      { authorId: 30, minutesAgo: 478, content: "patokan sederhananya bro: yang dirasa landai itu biasanya baru 5%. 15% sudah masuk kategori bukit di banyak buku teks" },
     ],
   },
   {

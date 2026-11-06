@@ -9,10 +9,10 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5275,
     shares: 16,
     content:
-      "pagi tadi naik satu tukang sayur membawa empat ikat sayur di pangkuannya. gue bilang nak, taruh saja di kursi kosong, dia bilang tidak usah, biar gue pegang, nanti kusut. semua penumpang menggeser sedikit agar sayurnya dapat tempat. satu ibu malah memegangi ikat paling atas.\nangkot pagi itu berbau daun dan tidak ada yang protes. hari yang lumayan",
+      "pagi tadi naik satu tukang sayur membawa empat ikat sayur di pangkuannya. gue bilang nak, taruh saja di kursi kosong, dia bilang tidak usah, biar gue pegang, nanti kusut. semua penumpang menggeser sedikit agar sayurnya dapat tempat. satu ibu malah memegangi ikat paling atas. tukang sayurnya turun di pasar, sayurnya tetap rapi gak kusut",
     comments: [
-      { authorId: 102, minutesAgo: 5267, content: "angkot yang berbau daun itu angkot yang sehat 😄" },
-      { authorId: 199, minutesAgo: 5259, content: "sayur yang dipangku itu bukti pedagang peduli dagangannya, yang menggeser itu bukti manusia masih baik" },
+      { authorId: 102, minutesAgo: 5267, content: "naik angkot bareng tukang sayur itu untung, saya pernah dapat satu ikat kangkung gratis gara-gara bantu angkat" },
+      { authorId: 199, minutesAgo: 5259, content: "tukang sayur naik angkot pagi itu biasanya dari kebun jam 5, sayurnya masih ada embun, wanginya beda sama yang di pasar" },
     ],
   },
   {
@@ -57,11 +57,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5395,
     shares: 15,
     content:
-      "Pertanyaan si anak les sore ini: kenapa harus belajar kecepatan kalau nanti tidak jadi sopir? Saya jawab karena kecepatan itu cara berpikir tentang jarak dan waktu, bukan urusan kendaraan. Dia balik bertanya: kalau begitu kenapa di bukunya contohnya selalu mobil? Saya terdiam, karena benar juga; semua contoh di buku itu kendaraan.\nMalam ini saya menyiapkan contoh baru: kecepatan mengetik, kecepatan menghafal, kecepatan menuruni tangga. Besok saya bawa. Mengajar itu ternyata pekerjaan mengganti contoh terus-menerus, supaya anak tidak tertidur di contoh yang sama.",
+      "Pertanyaan si anak les sore ini: kenapa harus belajar kecepatan kalau nanti tidak jadi sopir? Saya jawab karena kecepatan itu cara berpikir tentang jarak dan waktu, bukan urusan kendaraan. Dia balik bertanya: kalau begitu kenapa di bukunya contohnya selalu mobil? Saya terdiam, karena benar juga; semua contoh di buku itu kendaraan.\nMalam ini saya menyiapkan contoh baru: kecepatan mengetik, kecepatan menghafal, kecepatan menuruni tangga. Besok saya bawa. Kalau besok dia masih nanya kenapa, berarti pekerjaan rumah saya yang belum selesai.",
     comments: [
       { authorId: 262, minutesAgo: 5387, content: "contoh kecepatan menghafal itu bagus, karena yang dihitung anak sehari-hari memang begitu" },
       { authorId: 39, minutesAgo: 5379, content: "pertanyaan si anak itu pertanyaan kurikulum, bukan pertanyaan matematika. gurunya yang harus menang" },
-      { authorId: 90, minutesAgo: 5371, content: "anak yang bosan pada contoh itu anak yang sudah membaca contohnya sampai habis bu 😄" },
+      { authorId: 90, minutesAgo: 5371, content: "contoh menuruni tangga itu asyik, sekalian hitung anak tangganya, anak-anak suka yang bisa mereka cek sendiri" },
     ],
   },
   {
@@ -72,8 +72,8 @@ export const THREADS_PART8: ThreadzThread[] = [
     content:
       "pelanggan tetangga membeli dua bungkus, katanya uangnya belum cair: catat aja kak, besok sore bayar. gue tulis di buku, tanpa tanda tangan, tanpa nomor rumah, hanya nama dan hari. gue tidak tahu ini namanya ceroboh atau namanya tetangga.\nyang gue tahu, tiga tahun membuka kios, catatan seperti ini belum satu pun hangus. besok sore dia datang, gue mau pura-pura lupa, biar dia yang senang lebih dulu",
     comments: [
-      { authorId: 102, minutesAgo: 5417, content: "kios yang punya buku nama tanpa tanda tangan itu kios yang sudah jadi bagian kampung kak" },
-      { authorId: 258, minutesAgo: 5409, content: "toleransi yang dicatat dengan nama saja itu kepercayaan versi lama kak. jarang, tetapi masih hidup" },
+      { authorId: 102, minutesAgo: 5417, content: "catatan tanpa tanda tangan gitu jangan ditiru sama pembeli baru kak, om saya dulu ada yang numpang berulang terus gak bayar sampai pindah kampung" },
+      { authorId: 258, minutesAgo: 5409, content: "pura-pura lupa itu jurus bagus kak, tapi jangan sering, sekali-sekali aja biar gak jadi kebiasaan dia juga" },
     ],
   },
   {
@@ -105,11 +105,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5515,
     shares: 10,
     content:
-      "Lampu jalan depan pos berkedip tiga malam. Saya mencatat ke admin: lokasi, waktu kedip, sisi jalan. Dua hari kemudian diperbaiki, dan malam ini lampunya menyala tenang tanpa kedip. Tidak ada yang mengucapkan terima kasih kepada siapa pun, hanya ada lorong yang terlihat lebih dalam karena terang.\nCatatan kecil yang dikirim ternyata punya jalan pulang yang panjang, dan berakhir di sebuah lampu.",
+      "Lampu jalan depan pos berkedip tiga malam. Saya mencatat ke admin: lokasi, waktu kedip, sisi jalan. Dua hari kemudian diperbaiki, dan malam ini lampunya menyala tenang tanpa kedip. Saya kirim balasan ke admin: terima kasih, lampunya sudah baik. Admin balas satu kata: sip. urusan selesai dalam dua baris.",
     comments: [
-      { authorId: 199, minutesAgo: 5507, content: "catatan yang jalan pulangnya panjang itu catatan yang berarti, pak" },
-      { authorId: 272, minutesAgo: 5499, content: "lorong yang terlihat lebih dalam karena terang. kalimat itu bagus untuk malam, pak" },
-      { authorId: 336, minutesAgo: 5491, content: "admin yang membaca catatan lampu kedip itu layak ditemani kopi pak wkwk" },
+      { authorId: 199, minutesAgo: 5507, content: "pak, lampu jalan itu ada nomor tiangnya, lain kali sekalian foto tiangnya, perbaikan bisa lebih cepat" },
+      { authorId: 272, minutesAgo: 5499, content: "admin balas sip doang ya pak wkwk, admin kantor saya juga gitu, itu tandanya pekerjaannya udah kelar semua" },
+      { authorId: 336, minutesAgo: 5491, content: "wkwk admin-nya rajin juga pak, catatan kedip doang kok dua hari udah beres" },
     ],
   },
   {
@@ -143,11 +143,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5605,
     shares: 9,
     content:
-      "Bocah tetangga belajar naik sepeda empat sore berturut-turut. Hari pertama jatuh dua kali, hari kedua jatuh sekali lalu berhenti lebih awal, hari ketiga tidak jatuh tetapi belum berani dilepaskan. Hari keempat sore ini: ia melaju sendiri sepanjang jalan depan, sambil berteriak sambil melihat ke belakang, tidak memandang jalan.\nKami yang menonton dari teras sama-sama tersenyum. Sore keempat itu tidak pernah diumumkan di mana pun; ia datang sendiri.",
+      "Bocah tetangga belajar naik sepeda empat sore berturut-turut. Hari pertama jatuh dua kali, hari kedua jatuh sekali lalu berhenti lebih awal, hari ketiga tidak jatuh tetapi belum berani dilepaskan. Hari keempat sore ini: ia melaju sendiri sepanjang jalan depan, sambil berteriak sambil melihat ke belakang, tidak memandang jalan.\nibunya udah nyiapin kunci pas dari tadi sore, katanya habis dia bisa, roda bantunya dibuka hari itu juga. bocahnya gak tau",
     comments: [
-      { authorId: 262, minutesAgo: 5597, content: "anak yang berteriak sambil melihat ke belakang sedang mencari saksi keberhasilan, pak. semua orang butuh saksi" },
+      { authorId: 262, minutesAgo: 5597, content: "sepeda anak sekarang rodanya gampang dilepas ya pak, jaman saya dulu roda bantunya dibuka pakai gergaji wkwk" },
       { authorId: 199, minutesAgo: 5589, content: "sore keempat itu yang membuat tiga sore sebelumnya tidak terasa sia-sia" },
-      { authorId: 272, minutesAgo: 5581, content: "keberhasilan yang datang sendiri itu yang paling tulus, pak" },
+      { authorId: 272, minutesAgo: 5581, content: "hati-hati pak, anak yang melihat ke belakang sambil berteriak itu biasanya nabrak, kasih teriakan pelan-pelan aja" },
     ],
   },
   {
@@ -159,7 +159,7 @@ export const THREADS_PART8: ThreadzThread[] = [
       "bunda membeli roti enam, aku makan dua, sisanya empat. aku menulis di kertas: 6 − 2 = 4. lalu aku berpikir, kalau rotinya dimakan semua, 6 − 6 = 0, artinya ada nol roti di atas meja. nol itu bukan sesuatu yang ada, tetapi kok aku bisa bilang ada nol roti? bunda bilang pertanyaanku membuatnya ikut berpikir.\nsekarang kami berdua duduk berpikir tentang nol sambil makan roti. nol itu tidak bisa dimakan, bunda",
     comments: [
       { authorId: 39, minutesAgo: 5627, content: "pertanyaanmu luar biasa nak. nol memang angka yang mewakili ketiadaan; kita bisa berbicara tentang sesuatu yang tidak ada, itu keajaiban bahasa sekaligus angka" },
-      { authorId: 90, minutesAgo: 5619, content: "anak yang membuat ibunya ikut berpikir itu anak yang belajarnya nyata bunda 😄" },
+      { authorId: 90, minutesAgo: 5619, content: "coba eksperimen kecil: satu kotak kosong, satu kotak isi 1 kelereng, suruh dia hitung dua-duanya, nanti dia sendiri nemu beda ada dan tidak ada" },
     ],
   },
   {
@@ -182,7 +182,7 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5695,
     shares: 13,
     content:
-      "Panen pertama kebun tomat: enam buah, tidak besar, kemerahannya belum merata. Tiga saya bawa ke tetangga, tiga lagi disimpan untuk sambal. Tetangga yang menerima berkata panen berikutnya harus lebih banyak, dan saya menjawab amin.\nKebun ini mengajarkan menghitung dengan cara yang berbeda: enam itu bukan angka kecil jika setiap buahnya menunggu lebih dari dua bulan.",
+      "Panen pertama kebun tomat: enam buah, tidak besar, kemerahannya belum merata. Tiga saya bawa ke tetangga, tiga lagi disimpan untuk sambal. Tetangga yang menerima berkata panen berikutnya harus lebih banyak, saya cuma senyum, benihnya masih ada setengah bungkus.\nSambalnya besok saya bikin. Kalau tiga tomat gak cukup, ya campur cabai rawit, namanya juga panen darurat.",
     comments: [
       { authorId: 84, minutesAgo: 5687, content: "enam buah itu sudah layak disebut panen. tahun depan kalau kelebihan baru rasanya jadi petani sungguhan" },
     ],
@@ -193,11 +193,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5725,
     shares: 15,
     content:
-      "Paket hari ini berat, tertulis alat pertanian. Penerimanya bapak lanjut usia di ujung kampung, kebunnya jauh dari jalan. Gue mengantarkan sampai ke kebun. Bapaknya minta maaf karena jalannya becek, gue bilang tidak apa-apa, gue memang dibayar untuk berjalan. Lalu ia menyodorkan teh hangat, gue minum dua gelas di tepi kebun sambil mendengar alat itu untuk menanam cabai lagi, karena tahun lalu gagal panen.\nKadang pekerjaan ini menyeberangkan orang ke tempat yang tidak ada di peta.",
+      "Paket hari ini berat, tertulis alat pertanian. Penerimanya bapak lanjut usia di ujung kampung, kebunnya jauh dari jalan. Gue mengantarkan sampai ke kebun. Bapaknya minta maaf karena jalannya becek, gue bilang tidak apa-apa, gue memang dibayar untuk berjalan. Lalu ia menyodorkan teh hangat, gue minum dua gelas di tepi kebun sambil mendengar alat itu untuk menanam cabai lagi, karena tahun lalu gagal panen.\npas pulang aplikasi nge-rute gue muter jauh, padahal jalan kebun itu deket. akhirnya gue selesaikan dulu satu paket lagi di gang sebelah baru balik",
     comments: [
-      { authorId: 258, minutesAgo: 5717, content: "dua gelas teh di tepi kebun itu upah yang tidak masuk kuitansi, mas" },
-      { authorId: 199, minutesAgo: 5709, content: "kurir yang minum teh bersama penerima itu bukan lagi kurir, itu tamu, mas" },
-      { authorId: 272, minutesAgo: 5701, content: "menyeberangkan orang ke tempat yang tidak ada di peta. itu kalimat yang layak dipakai sebagai motto mas" },
+      { authorId: 258, minutesAgo: 5717, content: "teh di tepi kebun itu gak bisa ditolak mas, sekali ditawarin dua gelas, cerita panen tahun lalu ikut kebawa semua" },
+      { authorId: 199, minutesAgo: 5709, content: "jalan kebun emang gitu mas, sepatu saya dua kali sebulan harus dicuci, lumpurnya lengket" },
+      { authorId: 272, minutesAgo: 5701, content: "mas, alat pertanian berat itu biasanya dibantu angkut sampai gudang kan? jangan cuma ditaruh depan pagar, besok dia repot sendiri" },
     ],
   },
   {
@@ -206,10 +206,10 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5755,
     shares: 16,
     content:
-      "Jam dinding baru saya pasang di dapur, besar dan mudah terbaca dari lorong. Efeknya tak terduga: anak-anak kos yang biasanya mandi jam sembilan malam kini berlomba-lomba mandi jam delapan, katanya takut ketahuan jadwal mandinya tertinggal. Ada yang menulis jam mandi di kertas kecil dan menempelnya di pintu kamar.\nJam yang jelas ternyata lebih berpengaruh daripada pengumuman yang panjang.",
+      "Jam dinding baru saya pasang di dapur, besar dan mudah terbaca dari lorong. Efeknya tak terduga: anak-anak kos yang biasanya mandi jam sembilan malam kini berlomba-lomba mandi jam delapan, katanya takut ketahuan jadwal mandinya tertinggal. Ada yang menulis jam mandi di kertas kecil dan menempelnya di pintu kamar.\nBesok saya beli satu jam lagi buat ruang tengah, buat yang lalu-lalu ngebut dari dapur padahal waktunya masih jam 7.",
     comments: [
-      { authorId: 71, minutesAgo: 5747, content: "jam dinding besar itu pengumuman yang tidak pernah bicara bu 😄" },
-      { authorId: 205, minutesAgo: 5739, content: "anak yang menulis jam mandinya sendiri itu anak yang mulai mengatur hidupnya bu. selamat" },
+      { authorId: 71, minutesAgo: 5747, content: "yang ngebut dari dapur itu biasanya yang baru dilarang goreng di kamar ya wkwk" },
+      { authorId: 205, minutesAgo: 5739, content: "kertas kecil tempel pintu itu gampang rontok, suruh aja pakai lakban bening, punya saya dulu tiap pagi gak keliatan karena keburu gelap" },
     ],
   },
   {
@@ -218,11 +218,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5785,
     shares: 6,
     content:
-      "Mesin baru tiba hari ini, pelatihan operator berlangsung dua hari. Menariknya: yang paling banyak bertanya justru operator lama, karena mereka hafal di bagian mana mesin lama sering bermasalah, jadi mereka mencocokkan satu per satu. Yang paling percaya diri operator muda, sampai mencoba satu prosedur, diam beberapa detik, lalu bertanya juga.\nSore ini kedua kelompok duduk bersama menyalin catatan yang sama. Mesin belum berjalan; kerja sama sudah.",
+      "Mesin baru tiba hari ini, pelatihan operator berlangsung dua hari. Menariknya: yang paling banyak bertanya justru operator lama, karena mereka hafal di bagian mana mesin lama sering bermasalah, jadi mereka mencocokkan satu per satu. Yang paling percaya diri operator muda, sampai mencoba satu prosedur, diam beberapa detik, lalu bertanya juga.\nSore ini kedua kelompok duduk bersama menyalin catatan yang sama. Ada yang janji bawa kopi buat sesi besok pagi. Mesinnya sendiri baru mau dicoba start Kamis.",
     comments: [
-      { authorId: 240, minutesAgo: 5777, content: "operator lama yang bertanya banyak itu tanda pengalaman mas, bukan tanda lemah" },
-      { authorId: 199, minutesAgo: 5769, content: "mesin belum jalan, kerja sama sudah. kalimat itu layak ditempel di papan target mas" },
-      { authorId: 272, minutesAgo: 5761, content: "yang bertanya banyak itu yang paling serius menjaga hasil kerja, mas" },
+      { authorId: 240, minutesAgo: 5777, content: "mas, operator lama nanya banyak itu wajar, mereka takut ada prosedur baru yang beda sama kebiasaan mereka" },
+      { authorId: 199, minutesAgo: 5769, content: "pelatihan dua hari cukup ya mas? mesin baru di tempat saya dulu tiga hari, hari ketiganya cuma buat tanya-tanya bebas" },
+      { authorId: 272, minutesAgo: 5761, content: "kopinya jangan lupa ditagih mas wkwk, janji begini biasanya yang paling sering ilang" },
       { authorId: 192, minutesAgo: 5753, content: "pelatihan dua hari dengan dua kelompok duduk bersama biasanya berakhir menjadi aturan tak tertulis yang paling kuat" },
     ],
   },
@@ -278,11 +278,11 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5935,
     shares: 11,
     content:
-      "Pengunjung muda hari ini berdiri membaca satu bab selama hampir dua jam, dekat rak filsafat. Saya membawakan kursi tanpa bertanya. Ia menerima, mengucapkan terima kasih dua kali, lalu kembali membaca sambil berdiri. Mungkin kursi bukan yang ia butuhkan; yang ia butuhkan adalah waktu yang tidak dipercepat oleh siapa pun.\nPerpustakaan menyimpan buku, tetapi yang lebih jarang disimpan adalah kebiasaan membaca tanpa tergesa. Hari ini satu kebiasaan itu terlindungi.",
+      "Pengunjung muda hari ini berdiri membaca satu bab selama hampir dua jam, dekat rak filsafat. Saya membawakan kursi tanpa bertanya. Ia menerima, mengucapkan terima kasih dua kali, lalu kembali membaca sambil berdiri. Besok saya taruh bangku tinggi dekat rak itu, sekalian tanya dia kuliah apa, soalnya selama dua jam itu bukunya gak ia pindah-pindah.",
     comments: [
-      { authorId: 258, minutesAgo: 5927, content: "waktu yang tidak dipercepat siapa pun itu kemewahan yang sesungguhnya, pak" },
-      { authorId: 262, minutesAgo: 5919, content: "membaca sambil berdiri dua jam itu bentuk cinta yang tidak membutuhkan kursi, pak" },
-      { authorId: 272, minutesAgo: 5911, content: "kursi yang ditawarkan tanpa bertanya itu pelayanan yang halus, pak" },
+      { authorId: 258, minutesAgo: 5927, content: "rak filsafat itu memang bikin lupa waktu pak, saya pernah nyari satu buku di situ, keluar jam tutup, bukunya belum ketemu juga" },
+      { authorId: 262, minutesAgo: 5919, content: "berdiri dua jam itu kaki saya udah pindah-pindah tiga kali pak, anak ini kuat juga" },
+      { authorId: 272, minutesAgo: 5911, content: "kasih tau jam istirahat perpustakaannya juga pak, kadang pengunjung berdiri gara-gara gak tau bisa pindah ke ruang baca" },
       { authorId: 313, minutesAgo: 5903, content: "gue membaca sambil berdiri juga pak, kakinya yang menjadi saksi diam-diam wkwk" },
       { authorId: 322, minutesAgo: 5895, content: "rak filsafat memang membuat orang lupa duduk wkwk" },
     ],
@@ -293,10 +293,10 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5965,
     shares: 14,
     content:
-      "hari ini bos cuti dan gue menjaga toko sendirian pertama kali. kembalian lima ribu sering tidak tepat, satu pembeli yang sabar ikut membantu menghitung, lalu berkata santai bang, yang penting jujur. satu om lansia meminta potongan rapi, gue gagal dua kali, dia berkata potongan itu seni yang butuh sepuluh tahun.\nsore ini gue menutup toko. gue hafal letak semua alatnya, tetapi gue baru hafal satu hal: yang membuat toko hidup adalah pelanggannya",
+      "hari ini bos cuti dan gue menjaga toko sendirian pertama kali. kembalian lima ribu sering tidak tepat, satu pembeli yang sabar ikut membantu menghitung, lalu berkata santai bang, yang penting jujur. satu om lansia meminta potongan rapi, gue gagal dua kali, dia berkata potongan itu seni yang butuh sepuluh tahun.\nsore ini gue menutup toko, ngitung kembalian tiga kali soalnya masih deg-degan. besok bos balik, laporan gue satu kalimat: toko aman, potongan rapi belum jadi bagian dari diri gue",
     comments: [
-      { authorId: 186, minutesAgo: 5957, content: "pelanggan yang sabar itu pelatih gratis bos. bos cuti bukan berarti toko kehilangan pengajaran" },
-      { authorId: 199, minutesAgo: 5949, content: "'yang penting jujur' itu kalimat yang menutup semua kalkulator bos" },
+      { authorId: 186, minutesAgo: 5957, content: "pertama kali jaga sendirian itu gini bang, gue dulu salah kasih kembalian 50 ribu, besoknya nyeret laci dihitung mundur tiga kali" },
+      { authorId: 199, minutesAgo: 5949, content: "yang ngomongin sepuluh tahun itu omnya bercanda bang wkwk, atau dia emang nyekrip 30 tahun" },
       { authorId: 144, minutesAgo: 5941, content: "potongan rapi butuh sepuluh tahun itu bilangan yang tidak berlebihan bang, gue setuju wkwk" },
     ],
   },

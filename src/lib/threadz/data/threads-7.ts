@@ -9,12 +9,12 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4525,
     shares: 22,
     content:
-      "Anak pertama minta diajarin perkalian sembilan malam ini, katanya temannya bisa dan dia tidak mau kalah. Kami belajar pakai jari: sembilan kali empat, tekuk jari keempat, jari di kirinya tiga, di kanannya enam, jadinya tiga puluh enam. Ia mencoba lima kali dengan angka berbeda dan semua cocok, lalu berkata ini sihir. Aku bilang ini bukan sihir, ini pola. Dia bilang pola itu sihir juga, Bu.\nSekarang dia menunjukkan trik itu ke adiknya sambil pura-pura jadi penyihir. Aku duduk menonton dua anak belajar pakai tubuh mereka sendiri. Ada cara lain yang sekeren itu? Siapa pun yang menemukan trik jari itu, semoga sehat selalu.",
+      "Anak pertama minta diajarin perkalian sembilan malam ini, katanya temannya bisa dan dia tidak mau kalah. Kami belajar pakai jari: sembilan kali empat, tekuk jari keempat, jari di kirinya tiga, di kanannya enam, jadinya tiga puluh enam. Ia mencoba lima kali dengan angka berbeda dan semua cocok, lalu berkata ini sihir. Aku bilang ini bukan sihir, ini pola. Dia bilang pola itu sihir juga, Bu.\nSekarang dia menunjukkan trik itu ke adiknya sambil pura-pura jadi penyihir. Aku duduk menonton dua anak belajar pakai tubuh mereka sendiri. Ada cara lain yang sekeren itu? Soalnya kalau adiknya udah ikut bisa, yang jadi penonton cuma saya.",
     comments: [
       { authorId: 74, minutesAgo: 4517, content: "trik jari sembilan itu klasik bu, anak suka karena jawabannya keluar dari badannya sendiri 😄" },
       { authorId: 262, minutesAgo: 4509, content: "polanya bu: digit puluhan selalu satu kurang dari angka yang dikali, digit satuan melengkapinya jadi sembilan. 9×4: 3 dan 6, jumlahnya 9" },
-      { authorId: 59, minutesAgo: 4501, content: "dua anak saling mengajar itu tanda rumah yang sehat bu 🙏" },
-      { authorId: 39, minutesAgo: 4494, content: "trik itu warisan lisan berabad-abad bu. semoga si penyihir kecil lanjut ke tabel tujuh" },
+      { authorId: 59, minutesAgo: 4501, content: "trik jari sembilan itu saya sampai sekarang masih pakai pas lupa tabel, gak malu kok, yang penting cepat" },
+      { authorId: 39, minutesAgo: 4494, content: "buat tabel tujuh gak ada trik jari bu, tapi bisa hitung mundur: 70, 63, 56... anak-anak suka karena rasanya kayak turun tangga" },
     ],
   },
   {
@@ -57,9 +57,9 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4645,
     shares: 30,
     content:
-      "pelanggan SMA tadi sore lupa dompet, pesan roti dua sudah dibungkus. dia bilang besok bayar kak, wajahnya merah. aku kasih saja, tulis di buku: roti 2, anak seragam putih, titipan hari. besok pagi dia datang sebelum warung buka, bayar penuh, lalu beli satu lagi untuk temennya.\nbuku titipan itu tidak pernah saya anggap utang. itu catatan bahwa orang masih bisa saling percaya",
+      "pelanggan SMA tadi sore lupa dompet, pesan roti dua sudah dibungkus. dia bilang besok bayar kak, wajahnya merah. aku kasih saja, tulis di buku: roti 2, anak seragam putih, titipan hari. besok pagi dia datang sebelum warung buka, bayar penuh, lalu beli satu lagi untuk temennya.\ngue catat lagi di buku: bayar sendiri, bawa teman. yang titip roti rasa cokelat itu ternyata satu angkatan sama adik gue, besok gue omelin",
     comments: [
-      { authorId: 272, minutesAgo: 4637, content: "warung yang punya buku titipan itu warung yang jadi bagian dari lingkungan, dik" },
+      { authorId: 272, minutesAgo: 4637, content: "dik, anak seragam putih titip roti itu biasanya anak yang uang jajannya keburu abis, kasian dikit gak apa-apa, asal dicatet" },
       { authorId: 84, minutesAgo: 4629, content: "pelanggan begini biasanya besok datang bawa uang persis ditambah cerita panjang. tunggu aja" },
     ],
   },
@@ -96,9 +96,9 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4735,
     shares: 9,
     content:
-      "ganti shift malam ke pagi mulai minggu ini. badan gue bingung: ngantuk jam 8 malam, melek jam 3 pagi, lapar jam 11 siang. semuanya bergeser tetapi tidak serentak, seperti rombongan yang tidak kompak. semalam coba tidur jam 9, bangun jam 2, tidur lagi jam 4, gagal.\nbesok dicoba lagi tanpa tidur siang. doakan. badan ini pelan-pelan belajar jam yang baru",
+      "ganti shift malam ke pagi mulai minggu ini. badan gue bingung: ngantuk jam 8 malam, melek jam 3 pagi, lapar jam 11 siang. semuanya bergeser tetapi tidak serentak, seperti rombongan yang tidak kompak. semalam coba tidur jam 9, bangun jam 2, tidur lagi jam 4, gagal.\nbesok dicoba lagi tanpa tidur siang. kalau gagal lagi ya sudah, berarti badan gue masih setia sama jam shift lama",
     comments: [
-      { authorId: 240, minutesAgo: 4727, content: "badan itu pegawai setia bang, hanya butuh surat pindah tugas yang ditandatangani berkali-kali" },
+      { authorId: 240, minutesAgo: 4727, content: "ganti shift gue dulu butuh 10 hari buat normal lagi bang, jangan diburu-buru, tidur siang 20 menit aja boleh" },
     ],
   },
   {
@@ -107,12 +107,12 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4765,
     shares: 26,
     content:
-      "penumpang tadi hujan-hujan bertanya, bang kalau hujan begini tarif naik tidak? gue jawab tidak, sesuai aplikasi. dia diam sebentar, lalu bilang 'yaudah jalan aja bang, jangan mikirin gue mikir'. gue ketawa dalam. di jalan dia bertanya lagi, biasanya jam segini sepi ya, gue jawab iya. dia bilang bagus, berarti lu gak capek.\norang begini gue doakan panjang umur",
+      "penumpang tadi hujan-hujan bertanya, bang kalau hujan begini tarif naik tidak? gue jawab tidak, sesuai aplikasi. dia diam sebentar, lalu bilang 'yaudah jalan aja bang, jangan mikirin gue mikir'. gue ketawa dalam. di jalan dia bertanya lagi, biasanya jam segini sepi ya, gue jawab iya. dia bilang bagus, berarti lu gak capek.\norang begini bikin gue sampai lupa mau protes soal jalan macet wkwk. besok kalau ketemu penumpang nyebelin, gue tinggal inget percakapan ini",
     comments: [
       { authorId: 137, minutesAgo: 4757, content: "bre penumpang begini itu charger sosial, naik 20 menit bawa tenaga tambahan" },
       { authorId: 187, minutesAgo: 4749, content: "'jangan mikirin gue mikir' itu kalimat paling dewasa yang pernah gue dengar dari bangku belakang" },
       { authorId: 199, minutesAgo: 4741, content: "tarif tetap, empati tetap. dua-duanya tidak naik, itu rute yang baik" },
-      { authorId: 272, minutesAgo: 4733, content: "doa panjang umur dari penumpang itu bonus yang tidak masuk aplikasi, bang" },
+      { authorId: 272, minutesAgo: 4733, content: "bang, penumpang jam segini biasanya udah diam semua, yang masih ngobrol begini biasanya baru dapet kabar baik dari rumah, tinggal dengerin aja" },
       { authorId: 84, minutesAgo: 4726, content: "jawaban 'ya udah jalan aja bang' itu dua-duanya niatnya bagus, tapi dua-duanya juga sama-sama rugi tipis wkwk" },
     ],
   },
@@ -183,9 +183,9 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4945,
     shares: 14,
     content:
-      "tetangga lapangan yang jualan piring dan gelas pindah ke pasar sebelah, kontrak warungnya habis. hari ini lapangan terasa sepi setengah. yang biasa bertukar kabar pagi sekarang hanya gue dan penjual buah. pasar itu ternyata bukan soal dagangan saja, tetapi soal siapa yang menunggu kita buka.\nsemoga di pasar sebelah dia laku terus. dan semoga gue tidak terlalu banyak berpikir ketika ada yang menyebut namanya",
+      "tetangga lapangan yang jualan piring dan gelas pindah ke pasar sebelah, kontrak warungnya habis. hari ini lapangan terasa sepi setengah. yang biasa bertukar kabar pagi sekarang hanya gue dan penjual buah. dia pindahnya gak jauh kok. besok gue nyusul ke sana sekalian beli piring, yang di warung udah retak dua",
     comments: [
-      { authorId: 102, minutesAgo: 4937, content: "teman lapangan itu keluarga yang tidak sekampung teh 🙏" },
+      { authorId: 102, minutesAgo: 4937, content: "teh, piring retak dua itu ganti aja sekalian, sekalian ngecek harga gelas di pasar sebelah buat stok warung" },
     ],
   },
   {
@@ -194,11 +194,11 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 4975,
     shares: 13,
     content:
-      "Sistem tanda tangan digital di kantor gagal tiga kali hari ini: sekali karena sidik jari tidak terbaca, sekali karena sandi wajib diganti, sekali karena sistemnya sendiri sedang diperbarui. Tiga kegagalan, tiga penyebab berbeda, satu perasaan yang sama: ingin menandatangani kertas dengan pulpen lalu menempelkannya di pintu ruang server.\nBesok dicoba lagi. Sistem ini seperti orang yang sedang belajar sopan: sering salah, dimaafkan karena katanya demi kebaikan bersama.",
+      "Sistem tanda tangan digital di kantor gagal tiga kali hari ini: sekali karena sidik jari tidak terbaca, sekali karena sandi wajib diganti, sekali karena sistemnya sendiri sedang diperbarui. Tiga kegagalan, tiga penyebab berbeda, satu perasaan yang sama: ingin menandatangani kertas dengan pulpen lalu menempelkannya di pintu ruang server.\nBesok dicoba lagi. Kalau masih gagal, saya bawa pulpen sendiri dan tanya langsung bagian mana yang boleh ditandatangani pakai tinta, biar jelas.",
     comments: [
       { authorId: 243, minutesAgo: 4967, content: "sistem digital itu seperti anak magang non, rajin tetapi butuh pengawasan" },
-      { authorId: 262, minutesAgo: 4959, content: "tiga penyebab berbeda itu tandanya masalahnya bukan satu orang. semoga besok lancar" },
-      { authorId: 283, minutesAgo: 4951, content: "dimaafkan demi kebaikan bersama. kalimat itu berlaku juga untuk banyak hal di kantor, non" },
+      { authorId: 262, minutesAgo: 4959, content: "sistem error tiga kali sehari biasanya lagi masa pembaruan non, cek pengumuman internal dulu, biasanya ada suratnya" },
+      { authorId: 283, minutesAgo: 4951, content: "tanda tangan digital di kantor saya juga pernah error seminggu non, akhirnya balik ke tinta sampai sistemnya tenang" },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       "bro, hari ini di lab gue menemukan baut yang dikencangkan ke kiri, bukan ke kanan. gue mengira itu baut rusak, ternyata disengaja, namanya ulir kiri. dipakai di sisi yang berputar berlawanan, agar getaran tidak membuat baut terlepas sendiri. bro, desain kecil seperti itu yang membuat gue hormat pada orang yang memikirkannya puluhan tahun lalu. tanpa dia, ada baut yang lepas tiap minggu dan tidak ada yang tahu penyebabnya",
     comments: [
       { authorId: 213, minutesAgo: 4997, content: "dipakai juga di pedal sepeda sisi kiri bro. getaran itu jujur, selalu berputar sesuai arahnya; desainernya hanya mengikuti 🙃" },
-      { authorId: 336, minutesAgo: 4989, content: "orang yang memikirkan itu kemungkinan besar pernah kesal berulang karena baut lepas, bro. desain cerdas memang lahir dari kesal berulang" },
+      { authorId: 336, minutesAgo: 4989, content: "ulir kiri itu juga dipakai di tutup tabung gas bro, arah bukanya berlawanan biar gak ketuker sama selang air. kejadian di rumah saya" },
       { authorId: 227, minutesAgo: 4981, content: "cara hafalnya bro: ulir kanan di sisi yang berputar searah jarum jam, ulir kiri di sisi kebalikannya. dua dunia yang saling meniadakan 🙃" },
     ],
   },
@@ -220,9 +220,9 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5035,
     shares: 15,
     content:
-      "pembeli mangga bertanya, om, yang mana yang paling manis? aku menjawab jujur: yang ini, tetapi aku tidak menjanjikan seratus persen. mangga itu hasil kebun, bukan hasil cetakan. dia ketawa, mengambil dua kilo, bilang jarang ada penjual yang tidak berjanji.\naku berpikir, jualan itu tidak bisa menjamin semuanya. yang bisa dijamin hanya jujur soal mana yang belum tentu",
+      "pembeli mangga bertanya, om, yang mana yang paling manis? aku menjawab jujur: yang ini, tetapi aku tidak menjanjikan seratus persen. mangga itu hasil kebun, bukan hasil cetakan. dia ketawa, mengambil dua kilo, bilang jarang ada penjual yang tidak berjanji.\nanehnya, yang saya bilang belum tentu manis itu malah habis duluan",
     comments: [
-      { authorId: 178, minutesAgo: 5027, content: "penjual yang tidak berjanji itu penjual yang bisa dipercaya om. janji palsu harganya lebih mahal" },
+      { authorId: 178, minutesAgo: 5027, content: "om, mangga kebun yang kurang manis biasanya masih bisa dijadiin rujak, yang penting teksturnya, jadi gak rugi dua-duanya" },
       { authorId: 322, minutesAgo: 5019, content: "mangga juga punya suasana hati om, pembeli yang paham pasti kembali lagi wkwk" },
     ],
   },
@@ -232,11 +232,11 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5065,
     shares: 20,
     content:
-      "pelanggan jam 9 malam bertanya, bang bukanya sampai jam berapa? gue menjawab: sampai lu tidur. dia ketawa, membeli dua kali, lalu berkata besok mau bertanya soal kuota. kios kecil jam segini biasanya sepi, tetapi ada pelanggan yang membuat jamnya menjadi jam kerja.\nbesok gue buka seperti biasa. kalau dia datang jam 10 malam, gue tetap menjawab sama",
+      "pelanggan jam 9 malam bertanya, bang bukanya sampai jam berapa? gue menjawab: sampai lu tidur. dia ketawa, membeli dua kali, lalu berkata besok mau bertanya soal kuota. kios kecil jam segini biasanya sepi, tetapi ada pelanggan yang bikin jam segini kerasa kayak jam sibuk.\nbesok gue buka seperti biasa. kalau dia datang jam 10 malam, gue tetap menjawab sama",
     comments: [
       { authorId: 240, minutesAgo: 5057, content: "jawaban 'sampai lu tidur' itu jam buka paling fleksibel bos" },
-      { authorId: 199, minutesAgo: 5049, content: "pelanggan yang berjanji datang lagi itu bukti kiosnya nyaman duduk bos" },
-      { authorId: 272, minutesAgo: 5041, content: "jam buka yang ditentukan pelanggan ternyata jam buka yang paling setia, bos" },
+      { authorId: 199, minutesAgo: 5049, content: "soal kuota besok bang, kasih tau aja paket yang biasa dia beli, daripada dia pilih sendiri terus nyesel" },
+      { authorId: 272, minutesAgo: 5041, content: "bos, jam 9 malem masih ada yang beli pulsa biasanya buat besok pagi, tugas atau bayar online, gak heran" },
       { authorId: 144, minutesAgo: 5033, content: "bre besok gue titip bertanya soal kuota juga, gratis kan wkwkwk" },
     ],
   },
@@ -246,9 +246,9 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5095,
     shares: 12,
     content:
-      "Penumpang memesan tadi sore. Sebelum saya tiba, keluarganya datang menjemput dengan mobil. Ia menghubungi saya dua kali untuk membatalkan, meminta maaf panjang. Saya bilang tidak apa-apa, jalanan memang sedang lengang. Setelahnya saya menerima pesan berisi doa perjalanan.\nTidak semua pembatalan berakhir canggung. Ada yang berakhir dengan doa.",
+      "Penumpang memesan tadi sore. Sebelum saya tiba, keluarganya datang menjemput dengan mobil. Ia menghubungi saya dua kali untuk membatalkan, meminta maaf panjang. Saya bilang tidak apa-apa, jalanan memang sedang lengang. Setelahnya saya menerima pesan berisi doa perjalanan. Saya balas terima kasih, lalu lanjut cari orderan lagi sampai magrib.",
     comments: [
-      { authorId: 258, minutesAgo: 5087, content: "pembatalan yang ditutup doa itu tidak mengurangi pahala perjalanan, pak" },
+      { authorId: 258, minutesAgo: 5087, content: "batal dua kali telepon itu sopan banget pak, biasanya yang sering cancel cuma sekali chat terus diem" },
     ],
   },
   {
@@ -257,10 +257,10 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5125,
     shares: 26,
     content:
-      "jam setengah 12 malam, aku memasak mie bersama anak kos sebelah. dia membawa telur dua, aku membawa mie tiga, dan dapur kecil menjadi dapur komunal. kami berbicara tentang jadwal besok, dua-duanya tidak yakin bisa bangun subuh. mie tengah malam itu bukan soal kenyang, itu soal ada teman yang ikut lapar pada jam yang sama.\nkalian makan malam apa tadi? atau seperti aku, makan pada jam yang salah tetapi rasanya pas",
+      "jam setengah 12 malam, aku memasak mie bersama anak kos sebelah. dia membawa telur dua, aku membawa mie tiga, dan dapur kecil menjadi dapur komunal. kami berbicara tentang jadwal besok, dua-duanya tidak yakin bisa bangun subuh. mie-nya abis, piringnya kumasak bareng terus dibiarkan di rak, besok pagi dilihat pasti ketawa lagi. kalian makan malam apa tadi?",
     comments: [
       { authorId: 152, minutesAgo: 5117, content: "mie jam 12 malam itu kelas wajib kos kak, materinya curhat dan garam 🙃" },
-      { authorId: 318, minutesAgo: 5109, content: "ada teman yang ikut lapar pada jam yang sama itu berkah kak. lapar sendirian itu latihan mental" },
+      { authorId: 318, minutesAgo: 5109, content: "mie jam setengah 12 itu standar kak, tapi telur dua itu mewah, biasanya cuma satu dan dibagi dua wkwk" },
     ],
   },
   {
@@ -269,7 +269,7 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5155,
     shares: 15,
     content:
-      "Hari ini gigi pertama anakku muncul, gigi bawah depan, kecil sekali dan bening. Ia tidak menangis, hanya menggigit sendoknya lebih keras dari biasanya. Ibu-ibu di rumah menyarankan memberi sesuatu yang aman untuk digigit, sedikit dingin agar gusi nyaman.\nGigi pertama itu seperti kunci kecil yang mulai membuka babak baru. Doakan anakku tumbuh dengan gigi yang kuat dan hati yang lembut 🙏",
+      "Hari ini gigi pertama anakku muncul, gigi bawah depan, kecil sekali dan bening. Ia tidak menangis, hanya menggigit sendoknya lebih keras dari biasanya. Ibu-ibu di rumah menyarankan memberi sesuatu yang aman untuk digigit, sedikit dingin agar gusi nyaman.\nMalam ini mau cari teether yang aman buat digigit. Ada yang punya rekomendasi merek yang bagus buat gusi bayi?",
     comments: [
       { authorId: 84, minutesAgo: 5147, content: "gigi bawah depan itu biasanya yang muncul pertama. abis itu fase gigit semuanya, siapkan jari aja" },
     ],
@@ -280,12 +280,12 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5185,
     shares: 5,
     content:
-      "jam 04.51. pembaruan sistem selesai, enam jam setelah gue tanpa sengaja menekan tombol. log bersih, penyimpanan lega, suara kipas turun satu nada. entah kenapa mendengar mesin lega itu menenangkan, seperti mendengar tetangga akhirnya berhenti memindahkan meja. besok kuota tinggal 0,3 GB, tetapi malam ini gue menang satu hal: gue tidak membeli kuota darurat",
+      "jam 04.51. pembaruan sistem selesai, enam jam setelah gue tanpa sengaja menekan tombol. log bersih, penyimpanan lega, suara kipas turun satu nada. besok kuota tinggal 0,3 GB, tapi gue tidak membeli kuota darurat. tiga hari lagi gajian, anggota rumah disuruh hemat bareng, TV-nya gue cabut dulu",
     comments: [
-      { authorId: 318, minutesAgo: 5177, content: "kipas yang turun satu nada itu suara kemenangan paling halus bre" },
-      { authorId: 322, minutesAgo: 5169, content: "menang melawan tombol unduh itu menang tanpa trofi, tetapi terasa sekali" },
+      { authorId: 318, minutesAgo: 5177, content: "bre cabut TV segala tuh langkah ekstrem, anak rumah gak rewel?" },
+      { authorId: 322, minutesAgo: 5169, content: "gue pernah salah teken juga bre, malem minggu pula, besoknya HP gak bisa dipakai seharian" },
       { authorId: 209, minutesAgo: 5161, content: "0,3 GB itu cukup untuk tiga hari jika ponselnya dipakai sebagai ponsel, bukan bioskop 🙃" },
-      { authorId: 313, minutesAgo: 5153, content: "tetangga yang berhenti memindah meja itu perumpamaan paling tepat bre, ikut lega" },
+      { authorId: 313, minutesAgo: 5153, content: "bre, pembaruan enam jam itu biasanya besar, cek sisa penyimpanan, biasanya lega 1-2 GB kalau cache lama kebersih" },
     ],
   },
   {
@@ -294,10 +294,10 @@ export const THREADS_PART7: ThreadzThread[] = [
     minutesAgo: 5215,
     shares: 16,
     content:
-      "CUCU AKU SUDAH HAFAL JADWAL SHOLAT. DIA TAHU MAGRIB JAM BERAPA, ISYA JAM BERAPA, BAHKAN KAPAN WAKTUNYA HARUS BERHENTI MAKAN. DIA MENGAJARI AKU DENGAN KERTAS KECIL TULISAN TANGANNYA SENDIRI. AKU MENGULANG DENGAN SUARA KERAS KARENA TELINGAKU SUDAH TUA. DIA SABAR MENGULANG DUA KALI.\nAKU PURA2 SULIT HAFAL PADAHAL SUDAH HAFAL SEJAK MUDA. AKU SUKA DIA MERASA SEDANG MENGAJARI NENEKNYA. DOAKAN DIA TETAP RAJIN SAMPAI BESAR.",
+      "CUCU AKU SUDAH HAFAL JADWAL SHOLAT. DIA TAHU MAGRIB JAM BERAPA, ISYA JAM BERAPA, BAHKAN KAPAN WAKTUNYA HARUS BERHENTI MAKAN. DIA MENGAJARI AKU DENGAN KERTAS KECIL TULISAN TANGANNYA SENDIRI. AKU MENGULANG DENGAN SUARA KERAS KARENA TELINGAKU SUDAH TUA. DIA SABAR MENGULANG DUA KALI.\nAKU PURA2 SULIT HAFAL PADAHAL SUDAH HAFAL SEJAK MUDA. AKU SUKA DIA MERASA SEDANG MENGAJARI NENEKNYA. BESOK KERTAS KECILNYA DIA BAWA LAGI, KATANYA ADA PELAJARAN BARU. NENEKNYA NUNGGU.",
     comments: [
-      { authorId: 77, minutesAgo: 5207, content: "nenek yang pura-pusa sulit itu guru terbaik mbak, cucunya belajar dua hal sekaligus: jadwalnya dan kesabarannya 😄" },
-      { authorId: 59, minutesAgo: 5199, content: "kertas kecil tulisan tangan cucu itu lebih berharga dari jadwal tercetak mbak 🙏" },
+      { authorId: 77, minutesAgo: 5207, content: "pura-pura sulit itu jurus ampuh mbak, saya juga gitu sama keponakan biar dia rajin ngajarin, hasilnya dia makin teliti" },
+      { authorId: 59, minutesAgo: 5199, content: "kertas kecil itu jangan dibuang mbak, ditempel di kulkas aja, nanti kalau dia gede jadi cerita" },
     ],
   },
   {

@@ -12,7 +12,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       "bocah SMP naik sendirian pagi tadi, bareng satu temennya. gue dengar dia ngitung sendiri sambil buka dompet: dua kali tiga, enam ribu, pas buat dua orang. dia gak nanya ke gue, dia ngitung sendiri kayak lagi ujian rahasia. turun di depan sekolah, dia pamit sopan.\ngue mikir, itungan kecil begitu nanti gak ada yang inget, tapi buat bocah itu kelihatannya pengalaman gede",
     comments: [
       { authorId: 143, minutesAgo: 3767, content: "bre itungan pertama sendirian itu momen jadi dewasa yang gak direkam siapa-siapa" },
-      { authorId: 199, minutesAgo: 3759, content: "bocah yang ngitung sendiri duluan itu bocah yang gak bikin ribut. jarang, tapi ada" },
+      { authorId: 199, minutesAgo: 3759, content: "naik sendirian pertama itu momen bre, keponakan saya dulu nyebut-nyebut tarif di rumah semaleman, takut salah" },
     ],
   },
   {
@@ -25,7 +25,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     comments: [
       { authorId: 240, minutesAgo: 3797, content: "lorong sempit itu pengalaman yang tidak perlu diulang mas. ukur ulang itu keputusan tepat" },
       { authorId: 192, minutesAgo: 3789, content: "2,5 meter itu bukan keinginan, itu ukuran mesin ditambah harga salahnya" },
-      { authorId: 272, minutesAgo: 3781, content: "gudang yang diukur ulang bersama itu gudang yang jarang salah lagi, mas" },
+      { authorId: 272, minutesAgo: 3781, content: "mas, sekalian catat lebar forklift paling lebar ditambah sisi buat jalan kaki orang, biar gak cuma pas-pasan buat mesin" },
     ],
   },
   {
@@ -46,7 +46,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3865,
     shares: 10,
     content:
-      "om, hari ini gue diajarin urutan kabel jaringan berwarna, katanya tidak boleh salah satu. gue tanya kenapa, om cuma jawab signal-nya bisa kacau. gue masih penasaran: bukannya sinyal tidak peduli warna plastik? tapi temen gue yang sudah kerja bilang urutan itu bahasa bersama, kalau satu orang beda, semua orang susah mencari kesalahan. itu kedengeran benar juga, tapi gue masih ingin dengar penjelasan teknisnya dari om-om di sini",
+      "om, hari ini gue diajarin urutan kabel jaringan berwarna, katanya tidak boleh salah satu. gue tanya kenapa, om cuma jawab signal-nya bisa kacau. gue masih penasaran: bukannya sinyal tidak peduli warna plastik? tapi temen gue yang sudah kerja bilang urutannya emang dibikin standar biar semua orang gampang nyari kesalahan. itu kedengeran benar juga, tapi gue masih ingin dengar penjelasan teknisnya dari om-om di sini",
     comments: [
       { authorId: 213, minutesAgo: 3857, content: "urutan warna itu standar om. sinyal memang tidak peduli warna, tetapi alat ukur dan teknisi lain peduli. satu orang beda urutan = satu jam mencari kesalahan yang tidak ada" },
     ],
@@ -70,10 +70,10 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 3925,
     shares: 18,
     content:
-      "kembalian receh habis jam 10 pagi. pelanggan beli dua bungkus, gue tidak bisa memberi kembalian pas. dia bilang sambil ketawa: pokoknya pas pasan kak, sisanya besok saja. sekarang di buku catatan gue ada satu baris keterangan yang ditulis tangan pelanggan sendiri: iuran dari pembeli, semoga bermanfaat. besok dia kembali, gue beri kembalian lebih sedikit, dia pasti lupa. bagian itu yang membuat senang",
+      "kembalian receh habis jam 10 pagi. pelanggan beli dua bungkus, gue tidak bisa memberi kembalian pas. dia bilang sambil ketawa: pokoknya pas pasan kak, sisanya besok saja. sekarang di buku catatan gue ada satu baris keterangan yang ditulis tangan pelanggan sendiri: iuran dari pembeli, dipakai seikhlasnya. besok dia kembali, gue beri kembalian lebih sedikit, dia pasti lupa. bagian itu yang membuat senang",
     comments: [
-      { authorId: 102, minutesAgo: 3917, content: "pelanggan yang menulis keterangan sendiri itu langganan langgeng kak 😄" },
-      { authorId: 258, minutesAgo: 3909, content: "utang kecil yang disepakati dua orang itu bentuk kepercayaan paling tua, kak" },
+      { authorId: 102, minutesAgo: 3917, content: "kembalian receh habis itu penyakit tiap awal bulan kak, gue sampai sedia permen buat ganti kembalian kecil" },
+      { authorId: 258, minutesAgo: 3909, content: "kertas tulisan tangan pembeli itu jangan dibuang kak, kumpulin di map, kalo besok dia lupa tinggal dilihat bareng, biasanya dia ketawa duluan" },
     ],
   },
   {
@@ -107,11 +107,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4015,
     shares: 11,
     content:
-      "Malam ini pos kena serbuan: tiga kucing. Satu tidur di kursi tamu, dua di atas meja logbook. Tamu yang lewat bertanya, itu kucing satpam ya? Saya menjawab sebaliknya: mereka yang menyuruh saya berjaga, saya yang diberi izin tinggal. Tamu tertawa. Kucing di kursi tamu membuka mata sebentar, lalu kembali tidur seperti pihak yang berkuasa.\nLogbook malam ini: tiga pengaman tambahan. Tanpa gaji. Tidak minta diganti.",
+      "Malam ini pos kena serbuan: tiga kucing. Satu tidur di kursi tamu, dua di atas meja logbook. Tamu yang lewat bertanya, itu kucing satpam ya? Saya menjawab sebaliknya: mereka yang menyuruh saya berjaga, saya yang diberi izin tinggal. Tamu tertawa. Kucing di kursi tamu membuka mata sebentar, lalu kembali tidur seperti pihak yang berkuasa.\nLogbook malam ini: tiga pengaman tambahan. Satu masalah: besok pagi halaman logbook-nya penuh bulu.",
     comments: [
-      { authorId: 240, minutesAgo: 4007, content: "kucing yang tidur di atas logbook itu atasan alami mas. gaji tidak perlu, makanan wajib" },
+      { authorId: 240, minutesAgo: 4007, content: "mas, kucing di atas logbook jangan digeser, besok pagi tulisannya kanan kiri, pengalaman" },
       { authorId: 199, minutesAgo: 3999, content: "pos dengan tiga kucing itu pos paling aman di kompleks, para pendatang tahu sendiri" },
-      { authorId: 272, minutesAgo: 3991, content: "yang berkuasa biasanya paling santai, pak. itu berlaku juga pada kucing" },
+      { authorId: 272, minutesAgo: 3991, content: "pos saya juga sering dikunjungi kucing pak, tapi dia cuma numpang minum terus langsung pergi, gak mau jaga" },
     ],
   },
   {
@@ -135,7 +135,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     comments: [
       { authorId: 227, minutesAgo: 4067, content: "geser target kak. mengejar dengan kondisi begadang itu hafalannya menyewa, bukan membeli. satu bab per hari yang benar-benar masuk lebih baik 🙃" },
       { authorId: 209, minutesAgo: 4059, content: "hitung energinya kak, bukan hitung babnya: kalau besok jaga lagi, jangan 1,5 bab. bab yang tidak masuk akan diulang dua kali 🙃" },
-      { authorId: 71, minutesAgo: 4051, content: "semangat kak, jangan lupa makan. calon dokter yang kelaparan itu rugi dua arah 🙏" },
+      { authorId: 71, minutesAgo: 4051, content: "jaga makan walaupun jaga malam kak, gue dulu begadang terus laper, ujungnya beli gorengan jam 2 pagi tiga hari berturut" },
       { authorId: 313, minutesAgo: 4044, content: "utang bab itu istilah gue banget kak, gue punya tiga utang bab tiap semester wkwk" },
     ],
   },
@@ -145,10 +145,10 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4105,
     shares: 9,
     content:
-      "Kucing tetangga pindah ke atap rumah saya dua minggu lalu. Ia tidur di sisi timur, turun untuk makan di rumahnya, lalu naik lagi. Pemiliknya tidak mencarinya, mungkin sudah menganggap kucing ini memiliki hak di atas atap. Saya mulai memperhatikan jam turun-naiknya: sore sekitar lima, pagi sebelum tujuh.\nMeminjamkan atap ternyata tidak ada urusannya apa-apa. Cukup duduk di teras dan menyaksikan perjanjian yang tidak ditulis.",
+      "Kucing tetangga pindah ke atap rumah saya dua minggu lalu. Ia tidur di sisi timur, turun untuk makan di rumahnya, lalu naik lagi. Pemiliknya tidak mencarinya, mungkin sudah menganggap kucing ini memiliki hak di atas atap. Saya mulai memperhatikan jam turun-naiknya: sore sekitar lima, pagi sebelum tujuh.\nMinggu ini dia mulai tidur di kursi teras, bukan di atap. Tanya pemiliknya, dia bilang biarin, yang penting makan tetap di rumah. Berarti sekarang dia punya dua alamat. Enak banget hidupnya.",
     comments: [
-      { authorId: 262, minutesAgo: 4097, content: "hewan yang punya jadwal sendiri itu tetangga yang paling teratur, pak" },
-      { authorId: 187, minutesAgo: 4089, content: "perjanjian yang tidak ditulis itu yang paling langgeng pak, kucing memang tahu" },
+      { authorId: 262, minutesAgo: 4097, content: "hati-hati pak, kucing tukang atap pernah tinggal di atap saya sampai punya anak dua di sana, teras jadi rumah keduanya" },
+      { authorId: 187, minutesAgo: 4089, content: "makan tetap di rumah artinya pemiliknya masih yang kasih makan ya pak, jadi wajar dia bolak-balik" },
     ],
   },
   {
@@ -160,7 +160,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       "bunda, aku bertanya ke cikgu matematika: kenapa nol tidak boleh menjadi pembagi? cikgu bilang nanti dijelasin pas SMP. AKU TIDAK MAU MENUNGGU SMP BUNDA. aku berpikir sendiri: kalau 10 dibagi 2 hasilnya 5, artinya 5 kali 2 = 10. kalau 10 dibagi 0, harusnya ada angka yang dikali 0 hasilnya 10. tetapi apa pun dikali 0 hasilnya 0. jadi tidak ada angkanya. benar tidak sih mikiranku? bunda hanya bilang hebat terus, aku butuh yang memastikan",
     comments: [
       { authorId: 39, minutesAgo: 4127, content: "mikiranmu benar sekali nak. pembagian itu mencari angka yang jika dikali pembagi menghasilkan bilangan awal, dan tidak ada angka yang dikali nol menghasilkan 10. kamu menemukan alasannya sendiri" },
-      { authorId: 90, minutesAgo: 4119, content: "anak yang menemukan alasan sendiri itu tidak perlu menunggu SMP, bunda 😄" },
+      { authorId: 90, minutesAgo: 4119, content: "gak perlu nunggu SMP, mikiran dia udah bener. lanjut ke pembagian lain bunda, suruh dia buktiin sendiri dulu 😄" },
     ],
   },
   {
@@ -182,7 +182,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4195,
     shares: 12,
     content:
-      "Cabai di kebun memulai bunga pertama, dua tangkai, putih kecil menghadap ke bawah. Saya berdiri cukup lama sampai tetangga lewat bertanya sedang apa. Sedang menyaksikan awal, saya jawab. Tetangga itu ikut berdiri. Kami berdua menghadap bunga cabai seperti menonton sesuatu yang belum selesai. Semoga menjadi buah, semoga hujan tahu waktunya.",
+      "Cabai di kebun memulai bunga pertama, dua tangkai, putih kecil menghadap ke bawah. Saya berdiri cukup lama sampai tetangga lewat bertanya sedang apa. Sedang menyaksikan awal, saya jawab. Dia ikut berdiri, lalu cerita punya dia minggu lalu cuma satu tangkai, sekarang udah enam. Pas kabar bagus datangnya dari kebun orang.",
     comments: [
       { authorId: 84, minutesAgo: 4187, content: "dua tangkai di awal itu sinyal bagus, cabai memang suka drama di awal musim" },
     ],
@@ -210,8 +210,8 @@ export const THREADS_PART6: ThreadzThread[] = [
       "Kulkas kecil di teras akhirnya berfungsi. Awalnya saya ragu, takut menjadi tempat sisa makanan yang terlupakan. Kenyataannya: anak-anak kos menyimpan es batu, air putih, dan satu kotak kue dengan nama masing-masing tertulis di kertas kecil. Ada yang menulis nama panjang, ada yang hanya inisial.\nKulkas itu sekarang papan pengumuman paling jujur di kos: siapa yang ada, siapa yang lapar, dan siapa yang menyimpan kue untuk besok.",
     comments: [
       { authorId: 71, minutesAgo: 4247, content: "kertas nama di kulkas itu kelakuan anak kos paling manis bu 😄" },
-      { authorId: 205, minutesAgo: 4239, content: "kulkas dengan nama itu sistem kepemilikan paling adil di dunia bu, lebih adil dari banyak kantor" },
-      { authorId: 102, minutesAgo: 4231, content: "semoga kuenya tetap ada sampai besok bu, doa dari ibu-ibu grup ini 🙏" },
+      { authorId: 205, minutesAgo: 4239, content: "kos saya dulu juga pake kulkas bersama bu, tapi gak ada kertas nama, kotak ayam saya pernah ilang dua kali 😄" },
+      { authorId: 102, minutesAgo: 4231, content: "kue di kulkas bersama itu umurnya pendek bu, biasanya malemnya juga udah diambil" },
     ],
   },
   {
@@ -231,10 +231,10 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4315,
     shares: 25,
     content:
-      "hari ini gue hampir bikin kebakaran kecil: masak air, buka ponsel, lupa kompor. untungnya anak kos lain masuk dapur pas airnya sudah meletup-letup dan mematikan kompornya. gue digrak sepuluh menit soal keselamatan dapur, dan gue tidak bisa membantah satu kalimat pun karena memang gue yang salah.\nsekarang rekomendasi temen kos: pindah ke kompor yang mati sendiri kalau tidak ada panci. gue bilang itu bukan kompor aman, itu kompor yang gak percaya gue",
+      "hari ini gue hampir bikin kebakaran kecil: masak air, buka ponsel, lupa kompor. untungnya anak kos lain masuk dapur pas airnya sudah meletup-letup dan mematikan kompornya. gue digrak sepuluh menit soal keselamatan dapur, dan gue tidak bisa membantah satu kalimat pun karena memang gue yang salah.\nsekarang rekomendasi temen kos: pindah ke kompor yang mati sendiri kalau tidak ada panci. gue bilang mah, yang salah bukan kompornya, yang lupa ini",
     comments: [
-      { authorId: 127, minutesAgo: 4307, content: "kompor yang mati sendiri itu perlindungan diri dari manusia yang percaya lima menit itu cepat bre wkwkwk" },
-      { authorId: 318, minutesAgo: 4299, content: "grakan sepuluh menit itu pelatihan wajib bre, nikmati saja. dapur kos itu sekolah gratis" },
+      { authorId: 127, minutesAgo: 4307, content: "bre, kompor mati sendiri itu namanya auto off, jangan diandelin buat masak beneran, cuma buat ngeheatin doang" },
+      { authorId: 318, minutesAgo: 4299, content: "grakan sepuluh menit itu masih adem bre, gue pernah digrak 30 menit plus wajib nulis komitmen di kertas" },
     ],
   },
   {
@@ -243,9 +243,9 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4345,
     shares: 8,
     content:
-      "Senam pagi kelurahan hari ini, gerakan keempat saya tidak mengikuti; tangan terlambat, kaki belum tahu arah. Saya tetap bergerak sesuai versi saya. Dua orang di sebelah menyusul melakukan gerakan yang salah sama persis, lalu kami bertukar pandang dan tertawa tanpa suara.\nSenam itu ternyata bukan soal benar, tetapi soal datang.",
+      "Senam pagi kelurahan hari ini, gerakan keempat saya tidak mengikuti; tangan terlambat, kaki belum tahu arah. Saya tetap bergerak sesuai versi saya. Dua orang di sebelah menyusul melakukan gerakan yang salah sama persis, lalu kami bertukar pandang dan tertawa tanpa suara.\nBesok minggu gue berniat dateng lagi, tetap versi salah gue, yang penting gak sendirian.",
     comments: [
-      { authorId: 272, minutesAgo: 4337, content: "gerakan yang salah sama persis itu bentuk persahabatan paling jujur, pak" },
+      { authorId: 272, minutesAgo: 4337, content: "pak, senam kelurahan itu gerakannya ganti tiap bulan kan? salah bareng minggu depan pasti keulang lagi" },
     ],
   },
   {
@@ -254,10 +254,10 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4375,
     shares: 21,
     content:
-      "Papan jadwal ujian ditempel terbalik. Dua kelas masuk ruangan yang salah, ujian dimulai 10 menit terlambat, dua guru berlari membawa lembar soal, dan satu anak bertanya apakah ini bagian dari soal menghadapi kenyataan 😅 Sore ini papan sudah ditempel benar, dengan empat paku, satu perekat, dan tanda tangan penanggung jawab tempelan.\nJadwal yang benar tidak menjamin tidak terjadi salah. Papan yang tidak terbalik baru menjamin kita salah di tempat yang tepat.",
+      "Papan jadwal ujian ditempel terbalik. Dua kelas masuk ruangan yang salah, ujian dimulai 10 menit terlambat, dua guru berlari membawa lembar soal, dan satu anak bertanya apakah ini bagian dari soal menghadapi kenyataan 😅 Sore ini papan sudah ditempel benar, dengan empat paku, satu perekat, dan tanda tangan penanggung jawab tempelan.\nBesok saya dateng lebih pagi cuma buat mastiin papan ngadep yang bener, sekalian foto, biar jadi bukti kalau ada yang nyasar lagi.",
     comments: [
-      { authorId: 192, minutesAgo: 4367, content: "'salah di tempat yang tepat' itu kalimat yang layak masuk buku catatan rapat bu" },
-      { authorId: 283, minutesAgo: 4359, content: "anak yang bertanya itu anak yang tenang. papan terbalik menghasilkan satu filsuf muda bu 😄" },
+      { authorId: 192, minutesAgo: 4367, content: "papan jadwal ditempel terbalik itu klasik bu, sekalian minta anak yang paling pagi jadi penjaga papan, kasih gelar resmi biar semangat" },
+      { authorId: 283, minutesAgo: 4359, content: "jawaban gurunya gak keliatan di post bu, anak itu ditanya lagi gak? penasaran saya 😄" },
       { authorId: 71, minutesAgo: 4351, content: "10 menit terlambat itu masih sopan bu, di tempat kami pernah kelas salah masuk sampai soal dibagikan 😅" },
     ],
   },
@@ -301,7 +301,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4495,
     shares: 46,
     content:
-      "GUYS. LAPORAN KRISIS DAPUR.\nSAMBAL HABIS JAM SATU SIANG. PELANGGAN TANYA BISA TIDAK EXTRA SAMBAL. GUE BILANG BISA, LALU GUE AMBIL SAMBAL MILIK GUE SENDIRI YANG GUE SIMPAN DI STOPLES PRIVATE. DIA HABISKAN. KEMUDIAN DIA BILANG 'INI YANG KENAL BANG'. KENAL?! GUE SEUMUR HIDUP MENJUAL SAMBAL TETAPI SAMBAL GUE BARU HARI INI KENAL PELANGGAN. GUE MENUNDUK, GUE BERPIKIR: SAMBALKU YANG DI STOPLES PRIVATE ITU PENDCKAR YANG TERSEMBUNYI.\nMALAM INI KAMI LAWAN: SISA SAMBAL MELAWAN SISA NASI.",
+      "GUYS. LAPORAN KRISIS DAPUR.\nSAMBAL HABIS JAM SATU SIANG. PELANGGAN TANYA BISA TIDAK EXTRA SAMBAL. GUE BILANG BISA, LALU GUE AMBIL SAMBAL MILIK GUE SENDIRI YANG GUE SIMPAN DI STOPLES PRIVATE. DIA HABISKAN. KEMUDIAN DIA BILANG 'INI YANG KENAL BANG'. KENAL?! GUE SEUMUR HIDUP MENJUAL SAMBAL TETAPI SAMBAL GUE BARU HARI INI KENAL PELANGGAN. GUE MENUNDUK, GUE BERPIKIR: MULAI HARI INI STOPLES PRIVATE DIHAPUS DARI SISTEM.\nMALAM INI KAMI LAWAN: SISA SAMBAL MELAWAN SISA NASI.",
     comments: [
       { authorId: 144, minutesAgo: 4487, content: "GUYS SAMBAL PRIVATE MASUK MENU PUBLIK. INI PERISTIWA BERSIH BRE" },
       { authorId: 154, minutesAgo: 4479, content: "'ini yang kenal bang' itu komentar yang bikin chef mempertanyakan hidupnya bre wkwkwk" },

@@ -1,0 +1,391 @@
+     1→
+     2→##### threads-1 post 6 authorId=6
+     3→POST: gue gak percaya kalkulator lagi. itung 0,1 + 0,2 di ponsel, jawabannya 0,30000000000000004. gue itung ulang pakai kertas, tetap 0,3. gue nyalain kalkulator punya temen kos, hasilnya sama persis. berarti gue salah di dua tempat, atau mesinnya salah di dua tempat. tolong orang yang paham teknologi masuk sini. gue harus tahu dulu sebelum tidur, soalnya kalau mesin aja bisa bohong terus dunia ini gimana
+     4→  KOMEN 219: itu bukan mesin bohong bre, itu cara komputer nyimpen desimal yang namanya floating point. 0,1 dan 0,2 gak bisa ditulis persis dalam biner, jadi ada sisa super kecil
+     5→  KOMEN 138: wkwkwk klasik. coba 0,5 + 0,25, hasilnya bakal bersih soalnya setengah dan seperempat gampang ditulis biner
+     6→  KOMEN 322: tenang bre, sisa 0,00000000000000004 gak akan ngaruh ke dompet lu
+     7→  KOMEN 149: makhluk paling jujur di dunia itung-itungan itu masih kertas bre
+     8→
+     9→##### threads-1 post 8 authorId=8
+    10→POST: abis shift. loker gue macet. kuncinya muter, gak mau buka. semua orang udah pulang. gue sama loker. 15 menit.
+    11→akhirnya buka juga pas gua udah pasrah sambil bawa tas satu tangan botol minum tangan satunya. kayaknya loker pengen nonton sirkus dulu.
+    12→sekarang di angkot, kunci gua pegang di tangan. gak percaya loker lagi
+    13→  KOMEN 258: loker begini punya mood sendiri, dikejar gak buka, pas udah gak peduli dia yang bukain
+    14→
+    15→##### threads-2 post 29 authorId=29
+    16→POST: om, tanya soal jangka sorong dong. gue baca ukuran ulir baut buat tugas, skala utama nunjuk 21 mm, tapi garis nonius yang pas itu yang ke-13. temen gue bilang tinggal tulis 21,13, gue bilang harusnya 21,26 soalnya 13 dikali 0,02. om-om yang biasa pegang jangka sorong tolong mastiin, soalnya besok dinilai dan gue gak mau kalah cuma gara-gara baca skala
+    17→  KOMEN 186: 21,26 benar. nonius itu pengganti koma, bukan tambalan angka. yang ditulis temenmu itu ukuran gaya nomor rumah
+    18→  KOMEN 30: cara hafalnya: nomor garis yang berpapasan dikali ketelitiannya. 13 × 0,02 = 0,26. murid yang latihan rutin biasanya hafal papasannya
+    19→  KOMEN 322: pas dinilai nanti tunjukin garis papasannya ke gurumu, bukan cuma angkanya. nilai sering turun dari situ
+    20→
+    21→##### threads-2 post 32 authorId=32
+    22→POST: yang aneh teh, kangkung hari ini ikatnya mungil tapi harga tetap seribu. yang beli gak ada yang protes, malah ada yang bilang 'uda teh, sayur mengecil itu musiman'. teh ikut senyum, tapi di dalam hati pengen ikat kangkung gede lagi.
+    23→  KOMEN 102: pembeli yang ngerti teh itu berkah, sabar ya, musim gede pasti dateng lagi 🙏
+    24→
+    25→##### threads-2 post 37 authorId=37
+    26→POST: Tetangga sebelah memasang lampu sorot warna kuning menghadap halaman mereka. Setiap malam menyala sekitar jam tujuh, lalu padam sendiri tepat jam sepuluh. Tidak ada yang mengaturnya, saya pernah memperhatikan sambil menutup jendela. Mungkin ada pematuh waktu, mungkin hanya kebiasaan mereka yang teratur. Menyenangkan menonton kehidupan orang lain yang punya ritme.
+    27→  KOMEN 258: rumah yang punya ritme itu bikin tetangganya ikut tenang, pak. semoga lampunya panjang umur
+    28→
+    29→##### threads-2 post 39 authorId=39
+    30→POST: Hari ini ada anak tetangga bertanya cara cepat perkalian sebelas. Metode klasiknya: pisahkan angka, jumlahkan di tengah. Contoh: 23 × 11. Tulis 2 dan 3 sebagai pinggir, sisipkan 2+3 = 5 di tengah, hasilnya 253. Bila jumlahnya melebihi 9, sisanya dibawa seperti sisa pembagian: 45 × 11 → 4, (4+5) = 9, 5 → 495. Anak itu mencoba tujuh bilangan sendiri dan semuanya cocok, lalu bertanya kenapa bisa begitu. Pertanyaan yang bagus; jawabannya ada di perkalian bersusun biasa, tempat digit puluhan bertumpuk. Kurang lebih begitu cerita sore ini.
+    31→  KOMEN 118: tambahan bre: 87×11 → 8, (8+7)=15, 7 → tulis 7, bawa 1 ke kiri, jadi 957. bagian bawa sisa itu yang paling seru
+    32→  KOMEN 217: trik ini sebenarnya distributif bre: 23×11 = 23×10 + 23×1 = 230+23 = 253. makanya tengahnya hasil jumlah dua digit 🙃
+    33→  KOMEN 268: anak yang bertanya kenapa itu calon penyuka aljabar. jawab dengan perkalian bersusun, bukan dengan 'memang begitu'
+    34→  KOMEN 313: gue baru tau trik ini umur 20-an, anak tetangga lu sekarang ngalahin gue wkwk
+    35→
+    36→##### threads-2 post 41 authorId=41
+    37→POST: alamat hari ini: rumah warna biru, deket pohon nangka, pagar kayu. gue sampai di gang, ternyata ada TIGA rumah biru, dua di antaranya pagar kayu, dan dua-duanya deket pohon nangka. pohon nangka di gang itu kayak rumah kedua bagi semua orang. gue telepon penerima, gak diangkat. sekarang gue duduk di depan rumah biru tengah yang pagar paling rapi, nunggu keajaiban atau telpon balik.
+    38→  KOMEN 144: alamat begini itu ujian mental bre. gue pernah dapet 'rumah belakang masjid', masjidnya dua wkwkwk
+    39→  KOMEN 187: tunggu di depan yang pagar paling rapi itu keputusan tepat mas, biasanya pemiliknya memang yang teliti
+    40→
+    41→##### threads-2 post 42 authorId=42
+    42→POST: Anak kamar C tadi sore bilang lampu kamarnya mati dan dia mau beli lampu sendiri lalu pasang sendiri, biar tidak merepotkan, katanya. Saya senang membaca niatnya, tetapi kursi plastik tempat dia biasa berdiri itu goyang, dan tangganya belum tentu sampai langit-langit kamar kos. Akhirnya saya setuju dengan satu syarat: pakai kursi yang stabil, dan saya yang memegang kursinya.
+    43→Kadang yang saya jaga bukan lampunya, tetapi cara anak-anak ini merasa bisa mengurus hidupnya sendiri.
+    44→  KOMEN 71: ibu kos seperti ini langka bu. mengizinkan sambil menjaga itu bentuk sayang yang halus 🙏
+    45→  KOMEN 258: kalimat terakhir itu ringkasan yang dalam bu. anak-anak hanya butuh ruang, bukan larangan
+    46→  KOMEN 205: saya dulu anak kos juga bu. yang disetujui dengan syarat biasanya jadi kenangan lebih lama daripada yang dilarang
+    47→
+    48→##### threads-2 post 43 authorId=43
+    49→POST: Mesin berhenti 20 menit, sabuk penggerak lepas. Semua menunggu teknisi. Saya mencuci botol minum yang tiga hari tersimpan di loker.
+    50→Saat mesin menyala lagi, botol saya paling bersih di seluruh lini.
+    51→  KOMEN 240: botol bersih itu bonus lembur versi orang dewasa mas
+    52→
+    53→##### threads-2 post 45 authorId=45
+    54→POST: Jalan pagi hari ini tiga puluh menit, seperti biasa. Di tikungan ketiga ada kucing yang sama, duduk di batu yang sama, seolah menunggu. Saya membawa sisa ikan dari kemarin, ia menerimanya tanpa banyak gerak. Orang-orang berlalu, kami berdua sejenak. Itu saja, tidak ada yang luar biasa, dan justru itu enaknya.
+    55→  KOMEN 272: rutinitas yang damai itu kemewahan yang jarang disebut, pak. kucingnya sudah hafal jamnya
+    56→
+    57→##### threads-2 post 48 authorId=48
+    58→POST: Buku yang dikembalikan hari ini terlambat tiga hari. Peminjamnya anak SMP, datang dengan wajah bersalah, berbisik maaf kak. Saya hanya menurunkan denda yang sebenarnya sudah tidak ada isinya. Ia membawa buku itu dengan dua tangan, seperti membawa barang titipan yang dihargai.
+    59→  KOMEN 213: buku yang ditanggung dua tangan itu tanda anaknya masih punya rasa, pak
+    60→
+    61→##### threads-2 post 49 authorId=49
+    62→POST: Bocah SMP datang membawa gambar dari poster, minta rambutnya dibuat seperti di gambar. Gaya itu butuh rambut setebal dua arah potongan, dan rambut bocah ini tipis di bagian depan. Saya jujur bilang nanti miripnya setengah. Dia bilang tidak apa-apa, yang penting potongannya sama. Setelah selesai dia menatap cermin lama, lalu bilang udah mirip kok bang, yang penting rasanya.
+    63→Waktu muda saya juga pernah minta potongan orang di poster. Memang rasanya yang penting.
+    64→  KOMEN 149: 'yang penting rasanya' itu kalimat paling jujur di dunia pangkas bre. gue ikut ingat potongan masa SMP gue wkwk
+    65→  KOMEN 186: pelanggan yang tahu dirinya itu pelanggan yang gampang dilayani bos
+    66→  KOMEN 322: cermin pangkas itu kejujuran paling jujur bre, gak ada filter wkwk
+    67→
+    68→##### threads-2 post 50 authorId=50
+    69→POST: GUYS. LAPORAN DARI DAPUR LANTAI DUA.
+    70→HARI INI ADA PELANGGAN MINTA MIE PEDAS LEVEL 7. GUE BIKIN PAKAI STANDAR LEVEL 7 GUE SENDIRI, SOALNYA GUE JUGA YANG KEBAGIAN NYECOPIKNYA. DIA MAKAN SAMPAI HABIS. TANPA MINUM. KEMUDIAN DIA BILANG 'ENAK BANG, BESOK LEVEL 8'. GUYS. LEVEL 8 NYA APA. GUE BELUM MENEMUKAN JAWABANNYA. GUE HANYA BISA MENATAP BOTOL SAMBAL. KAMI DUA-DUANYA MENGALAMI SESUATU MALAM INI.
+    71→  KOMEN 144: GUYS GUE BACA SAMPAI MUKA GUE MERAH. LEVEL 8 WAJIB ADA BRE, JANGAN MENGHIANATI LEGENDA DAPUR
+    72→  KOMEN 154: bre dia gak minum itu tanda penghormatan tertinggi, lu udah masuk mitos wkwkwk
+    73→  KOMEN 313: pelanggan begini harus dibuatkan kartu anggota bre, level 8 bukan menu, itu ujian hidup
+    74→  KOMEN 240: semangat chef, sambal yang menemukan lawan sepadan itu jarang sekali
+    75→  KOMEN 44: bre besok gue yang anter sambal level 8, gue juga pengen ikut mengalami
+    76→
+    77→##### threads-3 post 52 authorId=33
+    78→POST: anak tadi malam nanya, Bu, bedanya nasi harum sama nasi biasa apa? kok harganya beda dua ribu. aku jawab wanginya beda. dia nanya wanginya dari mana. aku jawab dari berasnya. dia nanya berasnya dari mana. aku jawab dari sawah. dia nanya sawahnya kenapa bisa wangi. AKU STOP. ternyata dia serius menelusuri wangi beras sampai akarnya.
+    79→besok aku tanya ke penjual beras, tapi siapa tau di sini ada yang bisa jelasin duluan
+    80→  KOMEN 219: wangi nasi harum itu dari senyawa khas varietasnya kak, ditanam memang buat itu, bukan dikasih pewangi 🙃
+    81→  KOMEN 90: anak yang menelusuri sampai akarnya itu tanda mikir serius kak. jawab 'ibu juga mau cari tahu' itu sah kok 🙏
+    82→  KOMEN 66: gue baca tiga kali kak, anak lu itu detektif beras
+    83→
+    84→##### threads-3 post 54 authorId=15
+    85→POST: cabai di karung mulai keriting tapi belum busak teh. warnanya masih berkilau. aku pindahin ke karung kering, dikelupasin satu-satu. besok aku janjiin ke langganan yang gak keberatan bentuk, harga lebih ringan dikit. doain laku teh, cabai itu gak bisa disuruh sabar
+    86→  KOMEN 102: semangat teh, cabai keriting biasanya malah lebih pedas 🙏
+    87→
+    88→##### threads-3 post 56 authorId=5
+    89→POST: hari ini warung jadi tempat les dadakan. anak SD sebelah bawa PR: cari luas segitiga, alas 12 cm, tinggi 7 cm. dia mangkel karena gak hafal rumus. aku ikuin aja dia itung pakai cara motong: kotak 12 × 7 dibagi dua karena segitiga itu setengah kotak. hasilnya 42 cm persegi. dia bilang 'kakak pinter'. aku gak nyangka momen itu dibalikin ke aku, padahal dulu aku juga mangkel di rumus yang sama
+    90→  KOMEN 143: cara motong itu cara paling bener kak, rumus setengah kali alas kali tinggi cuma versi tulisannya
+    91→  KOMEN 272: warung yang jadi tempat belajar itu warung yang berkah, dik
+    92→  KOMEN 60: anak-anak lebih gampang nyambung kalau diajak lihat bentuknya dulu kak 🙏
+    93→
+    94→##### threads-3 post 63 authorId=1
+    95→POST: Pulang sekolah anak kedua bertanya di meja makan: Bu, kenapa hari itu 24 jam, bukan 20 atau 30? Aku jawab karena begitunya waktu. Dia bilang itu bukan jawaban. Benar juga. Papanya bilang dulu ada orang yang membagi hari jadi 24 dan mereka setuju. Anaknya bertanya siapa yang setuju. Papanya bilang orang zaman dulu. Anaknya bertanya kenapa mereka setuju.
+    96→Sekarang satu meja makan menjadi rapat keluarga tentang sejarah jam. Ada yang bisa bantu jawab versi anak SD? Alhamdulillah dia penasaran, hanya saja stok jawaban saya tinggal sedikit 😭
+    97→  KOMEN 268: versi sederhananya bu: hari itu satu putaran bumi berputar, dan 24 itu cara manusia membagi putaran jadi potongan yang mudah dihitung
+    98→  KOMEN 59: jawab karena 24 gampang dibagi ke 2, 3, 4, 6, 8, 12 bu. anak suka kalau angkanya bisa diajak main
+    99→  KOMEN 71: rapat keluarga tentang jam itu lucu banget bu 😄 semoga stok jawabannya cepat terisi
+   100→
+   101→##### threads-4 post 79 authorId=34
+   102→POST: Malam ini ada tamu nyasar, mau ke rumah duka di gang sebelah, sudah dua kali salah belok. Saya antar sampai depan, tiga gang jalan kaki. Ia minta maaf dua kali, saya bilang wajar, lampu gang memang sebagian mati. Setelah ia masuk, saya jalan balik, di tengah jalan tiba-tiba sadar: saya tidak bertanya keluarga siapa yang meninggal, dan hal itu terasa tidak sopan untuk malam seperti ini.
+   103→Catatan pos malam ini: tamu nyasar 1, diantar sampai depan. Sisanya tidak perlu catatan.
+   104→  KOMEN 258: tidak bertanya justru bentuk penghormatan yang benar, pak. beberapa hal cukup sampai depan
+   105→  KOMEN 199: lampu gang mati itu penyebab nyasar paling jujur. semoga keluarganya tabah
+   106→  KOMEN 272: antaran seperti itu tidak masuk nilai kerja, tetapi masuk nilai hidup, pak
+   107→  KOMEN 336: catatan posnya rapi: tamu nyasar 1, sisanya gak perlu catatan. ikut tenang baca
+   108→
+   109→##### threads-4 post 88 authorId=10
+   110→POST: ULANGAN EKSPONEN TADI DAN SOAL TERAKHIR 2 PANGKAT 10. GUE JAWAB 2048 SOALNYA 2 PANGKAT 9 KATANYA 1024 DAN NAIK SATU PANGKAT BERARTI DOBEL. TEMEN GUE BILANG SALAH, KATANYA 2 PANGKAT 10 ITU 1024 DAN YANG 2048 ITU 2 PANGKAT 11. GUE BUKA BUKU. DIA YANG BENER. GILS. SATU SOAL TERAKHIR SEUMPAMA ITU KEGESER SATU ANAK TANGGA WKWKWK.
+   111→ADA YANG MAU NYEBUTIN PANGKAT 2 DARI 1 SAMPAI 12 BIAR GUE HAFAL KE ATAS, minggu depan remedial dan gue gak mau dobel-dobelan lagi wkwkwk
+   112→  KOMEN 212: hitung dobel terus dari 1 bre: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. angka ke-11 itu 2^10, jangan kegeser lagi 🙃
+   113→  KOMEN 131: hafal dua titik aja bre: 2^10 = 1024, 2^20 = 1.048.576. sisanya bisa diturunin
+   114→  KOMEN 143: salahnya klasik bre, dobelnya bener cuma titik mulainya kegeser. remedial lancar kok
+   115→  KOMEN 313: dobel-dobelan itu justru cara yang bener bre, yang salah cuma startnya wkwk
+   116→
+   117→##### threads-4 post 98 authorId=40
+   118→POST: Hujan dua hari. Kebun becek, kasut saya lumpur sampai nyaris terbawa tanahnya. Tomat bergantung pada tongkat, daunnya menunduk. Saya tidak tahu itu sedih atau sedang menunduk karena berat. Cuaca tidak bisa disuruh, tanaman hanya bisa ditemani. Sore ini hujan berhenti, saya keluar membersihkan selokan kecil supaya air tidak menggenang lagi.
+   119→Bunga pacar di tepi kebun tetap mekar. Tanaman kecil itu tidak pernah menunggu keadaan sempurna.
+   120→  KOMEN 84: kasut lumpur itu seragam resmi kebun. sepatu gue juga udah gak tau warna aslinya
+   121→  KOMEN 71: kebun pas hujan itu ujian mbak, semoga tomatnya kuat 🙏
+   122→  KOMEN 272: menunduk karena berat itu bahasa yang tepat mbak. kadang begitu, bukan sedih
+   123→  KOMEN 313: membersihkan selokan itu kerja paling tidak terlihat tapi paling menyelamatkan mbak
+   124→
+   125→##### threads-4 post 99 authorId=32
+   126→POST: Pelanggan sore bertanya, teh, sayur yang enak buat sup apa? Saya bilang wortel dan sawi, beri sedikit jahe. Dia tanya lagi, dimasaknya gimana teh? Saya jelaskan, dia mengangguk, lalu bertanya bagian mana yang dipotong duluan. Hari ini saya tidak hanya menjual sayur, saya menjadi guru masak dadakan yang juga tidak yakin bagian mana yang dipotong duluan.
+   127→  KOMEN 102: penjual sayur yang bisa menjelaskan cara masak itu langganan pasti teh 😄
+   128→
+   129→##### threads-5 post 103 authorId=3
+   130→POST: Pertanyaan murid kelas 2 hari ini: Bu, kenapa 10 lebih besar dari 9, padahal 9 cuma kurang satu? Ia bertanya sambil menghitung jari, sungguh-sungguh. Saya jawab karena 10 datang setelah 9. Ia bertanya lagi: kalau hanya soal datang setelahnya, bukankah 11 juga datang setelahnya, kok tidak sebesar itu rasanya?
+   131→Saya diam sebentar. Anak itu sedang menyentuh perbedaan urutan dan besaran, sesuatu yang biasa saya ajarkan di kelas 4 dengan cara melelahkan, dan ia menyentuhnya sendiri di kelas 2. Ada saran cara merangkul pertanyaan seperti ini tanpa membunuh kegembiraannya?
+   132→  KOMEN 39: rangkul dengan membuktikan bu: minta 9 kelereng dan 10 kelereng, pasangkan satu-satu, sisanya satu. itulah yang membuat 10 lebih besar, bukan karena giliran datang
+   133→  KOMEN 258: pertanyaan yang menyentuh urutan dan besaran itu awal penalaran, bu. jangan dibungkam, ikuti arahnya
+   134→  KOMEN 90: murid begini kalau dibiarkan penasaran biasanya tumbuh jadi anak yang suka membuktikan sendiri bu 😄
+   135→
+   136→##### threads-5 post 114 authorId=14
+   137→POST: om-om yang tiap sore lewat pos, hari ini titip payung. katanya besok pagi dia ambil, sementara payungnya nginep di pos bareng gue dan korbannya. pos kecil itu tiba-tiba punya tamu. besok kalau dia lupa ambil, gue taruh di kursi paling terang, biar kelihatan dari jalan.
+   138→  KOMEN 272: pos yang jadi tempat payung tidur itu pos yang dipercaya, mas
+   139→
+   140→##### threads-5 post 115 authorId=15
+   141→POST: pembeli baru bertanya, teh, beda ayam kampung sama broiler apa ya? aku jelaskan pakai tangan: yang kampung jaganya panjang, badannya mungil, kulitnya lebih kuning; yang broiler jaganya pendek, badannya lebar. dia mendengar serius, mengangguk, lalu di akhir bilang: ambil yang murah aja teh. aku ketawa sampai penjual sebelah ikut ketawa. dua-duanya ayam teh, yang beda cuma ceritanya
+   142→  KOMEN 84: beda ayam kampung sama broiler itu kayak beda nasi hangat sama nasi dingin, jelas rasanya tapi susah dijelasin pakai kata
+   143→  KOMEN 102: yang murah itu broiler teh, tapi masak lama banget mah pakai kampung. dua-duanya punya jatah 🙏
+   144→  KOMEN 71: penjelasan pakai tangan itu lebih nempel dari diagram teh 😄
+   145→  KOMEN 262: kalimat terakhir itu dalam teh. yang beda memang ceritanya
+   146→
+   147→##### threads-5 post 117 authorId=17
+   148→POST: bro, tugas lab hari ini: ukur tebal karton cover buku pakai mikrometer. hasil gue 0,35 mm. karton milik temen gue 0,32 mm, karton yang dari perpustakaan 0,38 mm. gue mikir, kenapa karton yang sama-sama disebut cover beda-beda tebalnya? dosen bilang itu normal, tebal karton menyesuaikan berat isi buku, biar tidak melar pas dijilid. jadi buku tebal itu tidak cuma isinya yang berat, punggungnya juga diitung.
+   149→bro, ada yang pernah jadi korban buku yang punggungnya melar?
+   150→  KOMEN 213: pernah bro, modul 400 halaman yang punggungnya melar sampai seperti dibekap buku sebelah. karton 0,35 itu standar cover teks biasa 🙃
+   151→  KOMEN 223: mikrometer presisinya 0,01 mm bro, angka lu itu kepercayaan tinggi. jangan lupa cek zero error dulu 🙃
+   152→  KOMEN 318: buku yang punggungnya melar itu buku yang dibaca bro, yang mungil itu yang numpang di rak wkwk
+   153→
+   154→##### threads-5 post 118 authorId=18
+   155→POST: paket hari ini enteng, isinya satu sepatu. gue kira salah kirim, gue tanya penerima, dia bilang benar, pasangannya dikirim kemarin lewat jalur lain, katanya biar tidak sekaligus hilang. gue mikir, orang yang berpikir begitu itu pernah kehilangan sesuatu yang tidak kembali. sore ini sepatunya nyampe, pasangannya nyampe, sepasang utuh di satu rak
+   156→  KOMEN 144: bre strategi pisah jalur itu cerdas, kalau satu hilang setengah cerita masih ada
+   157→  KOMEN 187: orang yang mengirim terpisah itu orang yang pernah belajar dari kehilangan, mas
+   158→  KOMEN 313: sepatu tunggal di satu rak itu foto harus dikeluarkan bre, momen langka
+   159→  KOMEN 272: utuh kembali setelah terpisah itu cerita yang selalu bagus, mas
+   160→  KOMEN 133: bre besok jangan diantar bareng lagi, biar ceritanya selesai di sini wkwk
+   161→
+   162→##### threads-5 post 120 authorId=20
+   163→POST: Pemesanan tadi sore batal di menit terakhir, penumpang mengirim pesan minta maaf, ternyata dijemput keluarganya. Saya tidak apa-apa, itu bukan yang pertama. Saya melihatnya berjalan kaki bersama keluarganya sampai tikungan, dari belakang.
+   164→Ada hari yang kehilangan pesanan tetapi mendapat pemandangan yang lebih tenang.
+   165→  KOMEN 258: mengantar dengan pandangan itu bentuk antar yang diam-diam, pak
+   166→  KOMEN 272: tikungan yang menyaksikan keluarga berkumpul itu tikungan yang baik, pak
+   167→
+   168→##### threads-5 post 124 authorId=24
+   169→POST: CUCU AKU MENGAJARI AKU PERMAINAN TEBAK ANGKA. ANGKA RAHASIA ANTARA 1 SAMPAI 50. AKU MENEBAK 25, DIA BILANG TERLALU KECIL. AKU MENEBAK 37, DIA BILANG TERLALU BESAR. AKU MENEBAK 30, BENAR. AKU MENANG DALAM TIGA TEBAKAN. DIA KECEWA, KATANYA NENEK CURANG KARENA TERLALU PINTAR MEMBAGI DUA.
+   170→AKU TIDAK PAHAM ISTILAH MATEMATIKA MUDA, TETAPI AKU SUKA KALAU DIA BERKATA NENEK PINTAR. DOAKAN KAMI BERMAIN LAGI BESOK.
+   171→  KOMEN 39: itu namanya strategi membagi dua mbak, menebak tengah selalu paling cepat. cucu yang kecewa itu cucu yang sudah merasakan strategi
+   172→  KOMEN 187: dituduh curang karena pintar membagi dua itu penghargaan tertinggi dari cucu mbak
+   173→  KOMEN 90: doa bermain lagi besok itu doa yang pasti terkabul mbak 😄
+   174→
+   175→##### threads-6 post 126 authorId=26
+   176→POST: bocah SMP naik sendirian pagi tadi, bareng satu temennya. gue dengar dia ngitung sendiri sambil buka dompet: dua kali tiga, enam ribu, pas buat dua orang. dia gak nanya ke gue, dia ngitung sendiri kayak lagi ujian rahasia. turun di depan sekolah, dia pamit sopan.
+   177→gue mikir, itungan kecil begitu nanti gak ada yang inget, tapi buat bocah itu kelihatannya pengalaman gede
+   178→  KOMEN 143: bre itungan pertama sendirian itu momen jadi dewasa yang gak direkam siapa-siapa
+   179→  KOMEN 199: bocah yang ngitung sendiri duluan itu bocah yang gak bikin ribut. jarang, tapi ada
+   180→
+   181→##### threads-6 post 127 authorId=27
+   182→POST: Rak baru tiba sore tadi. Perencanaan: jarak antarrak 2,5 meter agar forklift lolos dengan beban. Admin gudang bertanya kenapa tidak 2 meter saja supaya rak bertambah satu. Saya belum bisa menjawab selain: lebar forklift dengan beban tidak bisa dinegosiasikan, dan saya pernah sekali melihat forklift tersangkut di lorong sempit. Besok kami mengukur ulang lorong bersama.
+   183→  KOMEN 240: lorong sempit itu pengalaman yang tidak perlu diulang mas. ukur ulang itu keputusan tepat
+   184→  KOMEN 192: 2,5 meter itu bukan keinginan, itu ukuran mesin ditambah harga salahnya
+   185→  KOMEN 272: gudang yang diukur ulang bersama itu gudang yang jarang salah lagi, mas
+   186→
+   187→##### threads-6 post 129 authorId=29
+   188→POST: om, hari ini gue diajarin urutan kabel jaringan berwarna, katanya tidak boleh salah satu. gue tanya kenapa, om cuma jawab signal-nya bisa kacau. gue masih penasaran: bukannya sinyal tidak peduli warna plastik? tapi temen gue yang sudah kerja bilang urutan itu bahasa bersama, kalau satu orang beda, semua orang susah mencari kesalahan. itu kedengeran benar juga, tapi gue masih ingin dengar penjelasan teknisnya dari om-om di sini
+   189→  KOMEN 213: urutan warna itu standar om. sinyal memang tidak peduli warna, tetapi alat ukur dan teknisi lain peduli. satu orang beda urutan = satu jam mencari kesalahan yang tidak ada
+   190→
+   191→##### threads-6 post 131 authorId=31
+   192→POST: kembalian receh habis jam 10 pagi. pelanggan beli dua bungkus, gue tidak bisa memberi kembalian pas. dia bilang sambil ketawa: pokoknya pas pasan kak, sisanya besok saja. sekarang di buku catatan gue ada satu baris keterangan yang ditulis tangan pelanggan sendiri: iuran dari pembeli, semoga bermanfaat. besok dia kembali, gue beri kembalian lebih sedikit, dia pasti lupa. bagian itu yang membuat senang
+   193→  KOMEN 102: pelanggan yang menulis keterangan sendiri itu langganan langgeng kak 😄
+   194→  KOMEN 258: utang kecil yang disepakati dua orang itu bentuk kepercayaan paling tua, kak
+   195→
+   196→##### threads-6 post 134 authorId=34
+   197→POST: Malam ini pos kena serbuan: tiga kucing. Satu tidur di kursi tamu, dua di atas meja logbook. Tamu yang lewat bertanya, itu kucing satpam ya? Saya menjawab sebaliknya: mereka yang menyuruh saya berjaga, saya yang diberi izin tinggal. Tamu tertawa. Kucing di kursi tamu membuka mata sebentar, lalu kembali tidur seperti pihak yang berkuasa.
+   198→Logbook malam ini: tiga pengaman tambahan. Tanpa gaji. Tidak minta diganti.
+   199→  KOMEN 240: kucing yang tidur di atas logbook itu atasan alami mas. gaji tidak perlu, makanan wajib
+   200→  KOMEN 199: pos dengan tiga kucing itu pos paling aman di kompleks, para pendatang tahu sendiri
+   201→  KOMEN 272: yang berkuasa biasanya paling santai, pak. itu berlaku juga pada kucing
+   202→
+   203→##### threads-6 post 136 authorId=36
+   204→POST: km, butuh bantuan atur ulang jadwal. rencananya empat bab per hari selama lima hari, hari ketiga gugur karena jaga malam yang panjang, jadi tiga bab nyangkut untuk dua hari. gue hitung: harusnya sekarang 1,5 bab per hari, tetapi kecepatan baca gue turun kalau begadang, jadi kemungkinan malah selesai satu bab dan sisanya jadi utang.
+   205→ada yang pernah di situasi begini? milih ngejar jadwal atau geser target? banget butuh pendapat orang yang sudah keluar dari lubang ini
+   206→  KOMEN 227: geser target kak. mengejar dengan kondisi begadang itu hafalannya menyewa, bukan membeli. satu bab per hari yang benar-benar masuk lebih baik 🙃
+   207→  KOMEN 209: hitung energinya kak, bukan hitung babnya: kalau besok jaga lagi, jangan 1,5 bab. bab yang tidak masuk akan diulang dua kali 🙃
+   208→  KOMEN 71: semangat kak, jangan lupa makan. calon dokter yang kelaparan itu rugi dua arah 🙏
+   209→  KOMEN 313: utang bab itu istilah gue banget kak, gue punya tiga utang bab tiap semester wkwk
+   210→
+   211→##### threads-6 post 137 authorId=37
+   212→POST: Kucing tetangga pindah ke atap rumah saya dua minggu lalu. Ia tidur di sisi timur, turun untuk makan di rumahnya, lalu naik lagi. Pemiliknya tidak mencarinya, mungkin sudah menganggap kucing ini memiliki hak di atas atap. Saya mulai memperhatikan jam turun-naiknya: sore sekitar lima, pagi sebelum tujuh.
+   213→Meminjamkan atap ternyata tidak ada urusannya apa-apa. Cukup duduk di teras dan menyaksikan perjanjian yang tidak ditulis.
+   214→  KOMEN 262: hewan yang punya jadwal sendiri itu tetangga yang paling teratur, pak
+   215→  KOMEN 187: perjanjian yang tidak ditulis itu yang paling langgeng pak, kucing memang tahu
+   216→
+   217→##### threads-6 post 138 authorId=38
+   218→POST: bunda, aku bertanya ke cikgu matematika: kenapa nol tidak boleh menjadi pembagi? cikgu bilang nanti dijelasin pas SMP. AKU TIDAK MAU MENUNGGU SMP BUNDA. aku berpikir sendiri: kalau 10 dibagi 2 hasilnya 5, artinya 5 kali 2 = 10. kalau 10 dibagi 0, harusnya ada angka yang dikali 0 hasilnya 10. tetapi apa pun dikali 0 hasilnya 0. jadi tidak ada angkanya. benar tidak sih mikiranku? bunda hanya bilang hebat terus, aku butuh yang memastikan
+   219→  KOMEN 39: mikiranmu benar sekali nak. pembagian itu mencari angka yang jika dikali pembagi menghasilkan bilangan awal, dan tidak ada angka yang dikali nol menghasilkan 10. kamu menemukan alasannya sendiri
+   220→  KOMEN 90: anak yang menemukan alasan sendiri itu tidak perlu menunggu SMP, bunda 😄
+   221→
+   222→##### threads-7 post 151 authorId=1
+   223→POST: Anak pertama minta diajarin perkalian sembilan malam ini, katanya temannya bisa dan dia tidak mau kalah. Kami belajar pakai jari: sembilan kali empat, tekuk jari keempat, jari di kirinya tiga, di kanannya enam, jadinya tiga puluh enam. Ia mencoba lima kali dengan angka berbeda dan semua cocok, lalu berkata ini sihir. Aku bilang ini bukan sihir, ini pola. Dia bilang pola itu sihir juga, Bu.
+   224→Sekarang dia menunjukkan trik itu ke adiknya sambil pura-pura jadi penyihir. Aku duduk menonton dua anak belajar pakai tubuh mereka sendiri. Ada cara lain yang sekeren itu? Siapa pun yang menemukan trik jari itu, semoga sehat selalu.
+   225→  KOMEN 74: trik jari sembilan itu klasik bu, anak suka karena jawabannya keluar dari badannya sendiri 😄
+   226→  KOMEN 262: polanya bu: digit puluhan selalu satu kurang dari angka yang dikali, digit satuan melengkapinya jadi sembilan. 9×4: 3 dan 6, jumlahnya 9
+   227→  KOMEN 59: dua anak saling mengajar itu tanda rumah yang sehat bu 🙏
+   228→  KOMEN 39: trik itu warisan lisan berabad-abad bu. semoga si penyihir kecil lanjut ke tabel tujuh
+   229→
+   230→##### threads-7 post 155 authorId=5
+   231→POST: pelanggan SMA tadi sore lupa dompet, pesan roti dua sudah dibungkus. dia bilang besok bayar kak, wajahnya merah. aku kasih saja, tulis di buku: roti 2, anak seragam putih, titipan hari. besok pagi dia datang sebelum warung buka, bayar penuh, lalu beli satu lagi untuk temennya.
+   232→buku titipan itu tidak pernah saya anggap utang. itu catatan bahwa orang masih bisa saling percaya
+   233→  KOMEN 272: warung yang punya buku titipan itu warung yang jadi bagian dari lingkungan, dik
+   234→  KOMEN 84: pelanggan begini biasanya besok datang bawa uang persis ditambah cerita panjang. tunggu aja
+   235→
+   236→##### threads-7 post 158 authorId=8
+   237→POST: ganti shift malam ke pagi mulai minggu ini. badan gue bingung: ngantuk jam 8 malam, melek jam 3 pagi, lapar jam 11 siang. semuanya bergeser tetapi tidak serentak, seperti rombongan yang tidak kompak. semalam coba tidur jam 9, bangun jam 2, tidur lagi jam 4, gagal.
+   238→besok dicoba lagi tanpa tidur siang. doakan. badan ini pelan-pelan belajar jam yang baru
+   239→  KOMEN 240: badan itu pegawai setia bang, hanya butuh surat pindah tugas yang ditandatangani berkali-kali
+   240→
+   241→##### threads-7 post 159 authorId=9
+   242→POST: penumpang tadi hujan-hujan bertanya, bang kalau hujan begini tarif naik tidak? gue jawab tidak, sesuai aplikasi. dia diam sebentar, lalu bilang 'yaudah jalan aja bang, jangan mikirin gue mikir'. gue ketawa dalam. di jalan dia bertanya lagi, biasanya jam segini sepi ya, gue jawab iya. dia bilang bagus, berarti lu gak capek.
+   243→orang begini gue doakan panjang umur
+   244→  KOMEN 137: bre penumpang begini itu charger sosial, naik 20 menit bawa tenaga tambahan
+   245→  KOMEN 187: 'jangan mikirin gue mikir' itu kalimat paling dewasa yang pernah gue dengar dari bangku belakang
+   246→  KOMEN 199: tarif tetap, empati tetap. dua-duanya tidak naik, itu rute yang baik
+   247→  KOMEN 272: doa panjang umur dari penumpang itu bonus yang tidak masuk aplikasi, bang
+   248→  KOMEN 84: jawaban 'ya udah jalan aja bang' itu dua-duanya niatnya bagus, tapi dua-duanya juga sama-sama rugi tipis wkwk
+   249→
+   250→##### threads-7 post 165 authorId=15
+   251→POST: tetangga lapangan yang jualan piring dan gelas pindah ke pasar sebelah, kontrak warungnya habis. hari ini lapangan terasa sepi setengah. yang biasa bertukar kabar pagi sekarang hanya gue dan penjual buah. pasar itu ternyata bukan soal dagangan saja, tetapi soal siapa yang menunggu kita buka.
+   252→semoga di pasar sebelah dia laku terus. dan semoga gue tidak terlalu banyak berpikir ketika ada yang menyebut namanya
+   253→  KOMEN 102: teman lapangan itu keluarga yang tidak sekampung teh 🙏
+   254→
+   255→##### threads-7 post 166 authorId=16
+   256→POST: Sistem tanda tangan digital di kantor gagal tiga kali hari ini: sekali karena sidik jari tidak terbaca, sekali karena sandi wajib diganti, sekali karena sistemnya sendiri sedang diperbarui. Tiga kegagalan, tiga penyebab berbeda, satu perasaan yang sama: ingin menandatangani kertas dengan pulpen lalu menempelkannya di pintu ruang server.
+   257→Besok dicoba lagi. Sistem ini seperti orang yang sedang belajar sopan: sering salah, dimaafkan karena katanya demi kebaikan bersama.
+   258→  KOMEN 243: sistem digital itu seperti anak magang non, rajin tetapi butuh pengawasan
+   259→  KOMEN 262: tiga penyebab berbeda itu tandanya masalahnya bukan satu orang. semoga besok lancar
+   260→  KOMEN 283: dimaafkan demi kebaikan bersama. kalimat itu berlaku juga untuk banyak hal di kantor, non
+   261→
+   262→##### threads-7 post 167 authorId=17
+   263→POST: bro, hari ini di lab gue menemukan baut yang dikencangkan ke kiri, bukan ke kanan. gue mengira itu baut rusak, ternyata disengaja, namanya ulir kiri. dipakai di sisi yang berputar berlawanan, agar getaran tidak membuat baut terlepas sendiri. bro, desain kecil seperti itu yang membuat gue hormat pada orang yang memikirkannya puluhan tahun lalu. tanpa dia, ada baut yang lepas tiap minggu dan tidak ada yang tahu penyebabnya
+   264→  KOMEN 213: dipakai juga di pedal sepeda sisi kiri bro. getaran itu jujur, selalu berputar sesuai arahnya; desainernya hanya mengikuti 🙃
+   265→  KOMEN 336: orang yang memikirkan itu kemungkinan besar pernah kesal berulang karena baut lepas, bro. desain cerdas memang lahir dari kesal berulang
+   266→  KOMEN 227: cara hafalnya bro: ulir kanan di sisi yang berputar searah jarum jam, ulir kiri di sisi kebalikannya. dua dunia yang saling meniadakan 🙃
+   267→
+   268→##### threads-7 post 168 authorId=18
+   269→POST: pembeli mangga bertanya, om, yang mana yang paling manis? aku menjawab jujur: yang ini, tetapi aku tidak menjanjikan seratus persen. mangga itu hasil kebun, bukan hasil cetakan. dia ketawa, mengambil dua kilo, bilang jarang ada penjual yang tidak berjanji.
+   270→aku berpikir, jualan itu tidak bisa menjamin semuanya. yang bisa dijamin hanya jujur soal mana yang belum tentu
+   271→  KOMEN 178: penjual yang tidak berjanji itu penjual yang bisa dipercaya om. janji palsu harganya lebih mahal
+   272→  KOMEN 322: mangga juga punya suasana hati om, pembeli yang paham pasti kembali lagi wkwk
+   273→
+   274→##### threads-7 post 169 authorId=19
+   275→POST: pelanggan jam 9 malam bertanya, bang bukanya sampai jam berapa? gue menjawab: sampai lu tidur. dia ketawa, membeli dua kali, lalu berkata besok mau bertanya soal kuota. kios kecil jam segini biasanya sepi, tetapi ada pelanggan yang membuat jamnya menjadi jam kerja.
+   276→besok gue buka seperti biasa. kalau dia datang jam 10 malam, gue tetap menjawab sama
+   277→  KOMEN 240: jawaban 'sampai lu tidur' itu jam buka paling fleksibel bos
+   278→  KOMEN 199: pelanggan yang berjanji datang lagi itu bukti kiosnya nyaman duduk bos
+   279→  KOMEN 272: jam buka yang ditentukan pelanggan ternyata jam buka yang paling setia, bos
+   280→  KOMEN 144: bre besok gue titip bertanya soal kuota juga, gratis kan wkwkwk
+   281→
+   282→##### threads-7 post 170 authorId=20
+   283→POST: Penumpang memesan tadi sore. Sebelum saya tiba, keluarganya datang menjemput dengan mobil. Ia menghubungi saya dua kali untuk membatalkan, meminta maaf panjang. Saya bilang tidak apa-apa, jalanan memang sedang lengang. Setelahnya saya menerima pesan berisi doa perjalanan.
+   284→Tidak semua pembatalan berakhir canggung. Ada yang berakhir dengan doa.
+   285→  KOMEN 258: pembatalan yang ditutup doa itu tidak mengurangi pahala perjalanan, pak
+   286→
+   287→##### threads-7 post 171 authorId=21
+   288→POST: jam setengah 12 malam, aku memasak mie bersama anak kos sebelah. dia membawa telur dua, aku membawa mie tiga, dan dapur kecil menjadi dapur komunal. kami berbicara tentang jadwal besok, dua-duanya tidak yakin bisa bangun subuh. mie tengah malam itu bukan soal kenyang, itu soal ada teman yang ikut lapar pada jam yang sama.
+   289→kalian makan malam apa tadi? atau seperti aku, makan pada jam yang salah tetapi rasanya pas
+   290→  KOMEN 152: mie jam 12 malam itu kelas wajib kos kak, materinya curhat dan garam 🙃
+   291→  KOMEN 318: ada teman yang ikut lapar pada jam yang sama itu berkah kak. lapar sendirian itu latihan mental
+   292→
+   293→##### threads-7 post 172 authorId=22
+   294→POST: Hari ini gigi pertama anakku muncul, gigi bawah depan, kecil sekali dan bening. Ia tidak menangis, hanya menggigit sendoknya lebih keras dari biasanya. Ibu-ibu di rumah menyarankan memberi sesuatu yang aman untuk digigit, sedikit dingin agar gusi nyaman.
+   295→Gigi pertama itu seperti kunci kecil yang mulai membuka babak baru. Doakan anakku tumbuh dengan gigi yang kuat dan hati yang lembut 🙏
+   296→  KOMEN 84: gigi bawah depan itu biasanya yang muncul pertama. abis itu fase gigit semuanya, siapkan jari aja
+   297→
+   298→##### threads-7 post 173 authorId=23
+   299→POST: jam 04.51. pembaruan sistem selesai, enam jam setelah gue tanpa sengaja menekan tombol. log bersih, penyimpanan lega, suara kipas turun satu nada. entah kenapa mendengar mesin lega itu menenangkan, seperti mendengar tetangga akhirnya berhenti memindahkan meja. besok kuota tinggal 0,3 GB, tetapi malam ini gue menang satu hal: gue tidak membeli kuota darurat
+   300→  KOMEN 318: kipas yang turun satu nada itu suara kemenangan paling halus bre
+   301→  KOMEN 322: menang melawan tombol unduh itu menang tanpa trofi, tetapi terasa sekali
+   302→  KOMEN 209: 0,3 GB itu cukup untuk tiga hari jika ponselnya dipakai sebagai ponsel, bukan bioskop 🙃
+   303→  KOMEN 313: tetangga yang berhenti memindah meja itu perumpamaan paling tepat bre, ikut lega
+   304→
+   305→##### threads-7 post 174 authorId=24
+   306→POST: CUCU AKU SUDAH HAFAL JADWAL SHOLAT. DIA TAHU MAGRIB JAM BERAPA, ISYA JAM BERAPA, BAHKAN KAPAN WAKTUNYA HARUS BERHENTI MAKAN. DIA MENGAJARI AKU DENGAN KERTAS KECIL TULISAN TANGANNYA SENDIRI. AKU MENGULANG DENGAN SUARA KERAS KARENA TELINGAKU SUDAH TUA. DIA SABAR MENGULANG DUA KALI.
+   307→AKU PURA2 SULIT HAFAL PADAHAL SUDAH HAFAL SEJAK MUDA. AKU SUKA DIA MERASA SEDANG MENGAJARI NENEKNYA. DOAKAN DIA TETAP RAJIN SAMPAI BESAR.
+   308→  KOMEN 77: nenek yang pura-pusa sulit itu guru terbaik mbak, cucunya belajar dua hal sekaligus: jadwalnya dan kesabarannya 😄
+   309→  KOMEN 59: kertas kecil tulisan tangan cucu itu lebih berharga dari jadwal tercetak mbak 🙏
+   310→
+   311→##### threads-8 post 176 authorId=26
+   312→POST: pagi tadi naik satu tukang sayur membawa empat ikat sayur di pangkuannya. gue bilang nak, taruh saja di kursi kosong, dia bilang tidak usah, biar gue pegang, nanti kusut. semua penumpang menggeser sedikit agar sayurnya dapat tempat. satu ibu malah memegangi ikat paling atas.
+   313→angkot pagi itu berbau daun dan tidak ada yang protes. hari yang lumayan
+   314→  KOMEN 102: angkot yang berbau daun itu angkot yang sehat 😄
+   315→  KOMEN 199: sayur yang dipangku itu bukti pedagang peduli dagangannya, yang menggeser itu bukti manusia masih baik
+   316→
+   317→##### threads-8 post 180 authorId=30
+   318→POST: Pertanyaan si anak les sore ini: kenapa harus belajar kecepatan kalau nanti tidak jadi sopir? Saya jawab karena kecepatan itu cara berpikir tentang jarak dan waktu, bukan urusan kendaraan. Dia balik bertanya: kalau begitu kenapa di bukunya contohnya selalu mobil? Saya terdiam, karena benar juga; semua contoh di buku itu kendaraan.
+   319→Malam ini saya menyiapkan contoh baru: kecepatan mengetik, kecepatan menghafal, kecepatan menuruni tangga. Besok saya bawa. Mengajar itu ternyata pekerjaan mengganti contoh terus-menerus, supaya anak tidak tertidur di contoh yang sama.
+   320→  KOMEN 262: contoh kecepatan menghafal itu bagus, karena yang dihitung anak sehari-hari memang begitu
+   321→  KOMEN 39: pertanyaan si anak itu pertanyaan kurikulum, bukan pertanyaan matematika. gurunya yang harus menang
+   322→  KOMEN 90: anak yang bosan pada contoh itu anak yang sudah membaca contohnya sampai habis bu 😄
+   323→
+   324→##### threads-8 post 181 authorId=31
+   325→POST: pelanggan tetangga membeli dua bungkus, katanya uangnya belum cair: catat aja kak, besok sore bayar. gue tulis di buku, tanpa tanda tangan, tanpa nomor rumah, hanya nama dan hari. gue tidak tahu ini namanya ceroboh atau namanya tetangga.
+   326→yang gue tahu, tiga tahun membuka kios, catatan seperti ini belum satu pun hangus. besok sore dia datang, gue mau pura-pura lupa, biar dia yang senang lebih dulu
+   327→  KOMEN 102: kios yang punya buku nama tanpa tanda tangan itu kios yang sudah jadi bagian kampung kak
+   328→  KOMEN 258: toleransi yang dicatat dengan nama saja itu kepercayaan versi lama kak. jarang, tetapi masih hidup
+   329→
+   330→##### threads-8 post 184 authorId=34
+   331→POST: Lampu jalan depan pos berkedip tiga malam. Saya mencatat ke admin: lokasi, waktu kedip, sisi jalan. Dua hari kemudian diperbaiki, dan malam ini lampunya menyala tenang tanpa kedip. Tidak ada yang mengucapkan terima kasih kepada siapa pun, hanya ada lorong yang terlihat lebih dalam karena terang.
+   332→Catatan kecil yang dikirim ternyata punya jalan pulang yang panjang, dan berakhir di sebuah lampu.
+   333→  KOMEN 199: catatan yang jalan pulangnya panjang itu catatan yang berarti, pak
+   334→  KOMEN 272: lorong yang terlihat lebih dalam karena terang. kalimat itu bagus untuk malam, pak
+   335→  KOMEN 336: admin yang membaca catatan lampu kedip itu layak ditemani kopi pak wkwk
+   336→
+   337→##### threads-8 post 187 authorId=37
+   338→POST: Bocah tetangga belajar naik sepeda empat sore berturut-turut. Hari pertama jatuh dua kali, hari kedua jatuh sekali lalu berhenti lebih awal, hari ketiga tidak jatuh tetapi belum berani dilepaskan. Hari keempat sore ini: ia melaju sendiri sepanjang jalan depan, sambil berteriak sambil melihat ke belakang, tidak memandang jalan.
+   339→Kami yang menonton dari teras sama-sama tersenyum. Sore keempat itu tidak pernah diumumkan di mana pun; ia datang sendiri.
+   340→  KOMEN 262: anak yang berteriak sambil melihat ke belakang sedang mencari saksi keberhasilan, pak. semua orang butuh saksi
+   341→  KOMEN 199: sore keempat itu yang membuat tiga sore sebelumnya tidak terasa sia-sia
+   342→  KOMEN 272: keberhasilan yang datang sendiri itu yang paling tulus, pak
+   343→
+   344→##### threads-8 post 188 authorId=38
+   345→POST: bunda membeli roti enam, aku makan dua, sisanya empat. aku menulis di kertas: 6 − 2 = 4. lalu aku berpikir, kalau rotinya dimakan semua, 6 − 6 = 0, artinya ada nol roti di atas meja. nol itu bukan sesuatu yang ada, tetapi kok aku bisa bilang ada nol roti? bunda bilang pertanyaanku membuatnya ikut berpikir.
+   346→sekarang kami berdua duduk berpikir tentang nol sambil makan roti. nol itu tidak bisa dimakan, bunda
+   347→  KOMEN 39: pertanyaanmu luar biasa nak. nol memang angka yang mewakili ketiadaan; kita bisa berbicara tentang sesuatu yang tidak ada, itu keajaiban bahasa sekaligus angka
+   348→  KOMEN 90: anak yang membuat ibunya ikut berpikir itu anak yang belajarnya nyata bunda 😄
+   349→
+   350→##### threads-8 post 190 authorId=40
+   351→POST: Panen pertama kebun tomat: enam buah, tidak besar, kemerahannya belum merata. Tiga saya bawa ke tetangga, tiga lagi disimpan untuk sambal. Tetangga yang menerima berkata panen berikutnya harus lebih banyak, dan saya menjawab amin.
+   352→Kebun ini mengajarkan menghitung dengan cara yang berbeda: enam itu bukan angka kecil jika setiap buahnya menunggu lebih dari dua bulan.
+   353→  KOMEN 84: enam buah itu sudah layak disebut panen. tahun depan kalau kelebihan baru rasanya jadi petani sungguhan
+   354→
+   355→##### threads-8 post 191 authorId=41
+   356→POST: Paket hari ini berat, tertulis alat pertanian. Penerimanya bapak lanjut usia di ujung kampung, kebunnya jauh dari jalan. Gue mengantarkan sampai ke kebun. Bapaknya minta maaf karena jalannya becek, gue bilang tidak apa-apa, gue memang dibayar untuk berjalan. Lalu ia menyodorkan teh hangat, gue minum dua gelas di tepi kebun sambil mendengar alat itu untuk menanam cabai lagi, karena tahun lalu gagal panen.
+   357→Kadang pekerjaan ini menyeberangkan orang ke tempat yang tidak ada di peta.
+   358→  KOMEN 258: dua gelas teh di tepi kebun itu upah yang tidak masuk kuitansi, mas
+   359→  KOMEN 199: kurir yang minum teh bersama penerima itu bukan lagi kurir, itu tamu, mas
+   360→  KOMEN 272: menyeberangkan orang ke tempat yang tidak ada di peta. itu kalimat yang layak dipakai sebagai motto mas
+   361→
+   362→##### threads-8 post 192 authorId=42
+   363→POST: Jam dinding baru saya pasang di dapur, besar dan mudah terbaca dari lorong. Efeknya tak terduga: anak-anak kos yang biasanya mandi jam sembilan malam kini berlomba-lomba mandi jam delapan, katanya takut ketahuan jadwal mandinya tertinggal. Ada yang menulis jam mandi di kertas kecil dan menempelnya di pintu kamar.
+   364→Jam yang jelas ternyata lebih berpengaruh daripada pengumuman yang panjang.
+   365→  KOMEN 71: jam dinding besar itu pengumuman yang tidak pernah bicara bu 😄
+   366→  KOMEN 205: anak yang menulis jam mandinya sendiri itu anak yang mulai mengatur hidupnya bu. selamat
+   367→
+   368→##### threads-8 post 193 authorId=43
+   369→POST: Mesin baru tiba hari ini, pelatihan operator berlangsung dua hari. Menariknya: yang paling banyak bertanya justru operator lama, karena mereka hafal di bagian mana mesin lama sering bermasalah, jadi mereka mencocokkan satu per satu. Yang paling percaya diri operator muda, sampai mencoba satu prosedur, diam beberapa detik, lalu bertanya juga.
+   370→Sore ini kedua kelompok duduk bersama menyalin catatan yang sama. Mesin belum berjalan; kerja sama sudah.
+   371→  KOMEN 240: operator lama yang bertanya banyak itu tanda pengalaman mas, bukan tanda lemah
+   372→  KOMEN 199: mesin belum jalan, kerja sama sudah. kalimat itu layak ditempel di papan target mas
+   373→  KOMEN 272: yang bertanya banyak itu yang paling serius menjaga hasil kerja, mas
+   374→  KOMEN 192: pelatihan dua hari dengan dua kelompok duduk bersama biasanya berakhir menjadi aturan tak tertulis yang paling kuat
+   375→
+   376→##### threads-8 post 198 authorId=48
+   377→POST: Pengunjung muda hari ini berdiri membaca satu bab selama hampir dua jam, dekat rak filsafat. Saya membawakan kursi tanpa bertanya. Ia menerima, mengucapkan terima kasih dua kali, lalu kembali membaca sambil berdiri. Mungkin kursi bukan yang ia butuhkan; yang ia butuhkan adalah waktu yang tidak dipercepat oleh siapa pun.
+   378→Perpustakaan menyimpan buku, tetapi yang lebih jarang disimpan adalah kebiasaan membaca tanpa tergesa. Hari ini satu kebiasaan itu terlindungi.
+   379→  KOMEN 258: waktu yang tidak dipercepat siapa pun itu kemewahan yang sesungguhnya, pak
+   380→  KOMEN 262: membaca sambil berdiri dua jam itu bentuk cinta yang tidak membutuhkan kursi, pak
+   381→  KOMEN 272: kursi yang ditawarkan tanpa bertanya itu pelayanan yang halus, pak
+   382→  KOMEN 313: gue membaca sambil berdiri juga pak, kakinya yang menjadi saksi diam-diam wkwk
+   383→  KOMEN 322: rak filsafat memang membuat orang lupa duduk wkwk
+   384→
+   385→##### threads-8 post 199 authorId=49
+   386→POST: hari ini bos cuti dan gue menjaga toko sendirian pertama kali. kembalian lima ribu sering tidak tepat, satu pembeli yang sabar ikut membantu menghitung, lalu berkata santai bang, yang penting jujur. satu om lansia meminta potongan rapi, gue gagal dua kali, dia berkata potongan itu seni yang butuh sepuluh tahun.
+   387→sore ini gue menutup toko. gue hafal letak semua alatnya, tetapi gue baru hafal satu hal: yang membuat toko hidup adalah pelanggannya
+   388→  KOMEN 186: pelanggan yang sabar itu pelatih gratis bos. bos cuti bukan berarti toko kehilangan pengajaran
+   389→  KOMEN 199: 'yang penting jujur' itu kalimat yang menutup semua kalkulator bos
+   390→  KOMEN 144: potongan rapi butuh sepuluh tahun itu bilangan yang tidak berlebihan bang, gue setuju wkwk
+   391→

@@ -48,10 +48,10 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "Malam ini ada tamu nyasar, mau ke rumah duka di gang sebelah, sudah dua kali salah belok. Saya antar sampai depan, tiga gang jalan kaki. Ia minta maaf dua kali, saya bilang wajar, lampu gang memang sebagian mati. Setelah ia masuk, saya jalan balik, di tengah jalan tiba-tiba sadar: saya tidak bertanya keluarga siapa yang meninggal, dan hal itu terasa tidak sopan untuk malam seperti ini.\nCatatan pos malam ini: tamu nyasar 1, diantar sampai depan. Sisanya tidak perlu catatan.",
     comments: [
-      { authorId: 258, minutesAgo: 2357, content: "tidak bertanya justru bentuk penghormatan yang benar, pak. beberapa hal cukup sampai depan" },
-      { authorId: 199, minutesAgo: 2349, content: "lampu gang mati itu penyebab nyasar paling jujur. semoga keluarganya tabah" },
-      { authorId: 272, minutesAgo: 2341, content: "antaran seperti itu tidak masuk nilai kerja, tetapi masuk nilai hidup, pak" },
-      { authorId: 336, minutesAgo: 2334, content: "catatan posnya rapi: tamu nyasar 1, sisanya gak perlu catatan. ikut tenang baca" },
+      { authorId: 258, minutesAgo: 2357, content: "iya pak, urusan rumah duka jangan banyak nanya, antar aja sampai depan, kalau ditawarin duduk baru duduk sebentar" },
+      { authorId: 199, minutesAgo: 2349, content: "lampu gang depan rumah saya juga mati dua titik pak, udah lapor, dua bulan belum ada kabar" },
+      { authorId: 272, minutesAgo: 2341, content: "tamu nyasar biasanya juga laper pak, kalo ada bungkus makanan tinggal kasih, gak usah banyak omongan" },
+      { authorId: 336, minutesAgo: 2334, content: "wkwk laporan pos emang gitu, yang dicatet angkanya doang. pas kerja gudang dulu log saya juga seribuan baris gak ada ceritanya" },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2635,
     shares: 29,
     content:
-      "ULANGAN EKSPONEN TADI DAN SOAL TERAKHIR 2 PANGKAT 10. GUE JAWAB 2048 SOALNYA 2 PANGKAT 9 KATANYA 1024 DAN NAIK SATU PANGKAT BERARTI DOBEL. TEMEN GUE BILANG SALAH, KATANYA 2 PANGKAT 10 ITU 1024 DAN YANG 2048 ITU 2 PANGKAT 11. GUE BUKA BUKU. DIA YANG BENER. GILS. SATU SOAL TERAKHIR SEUMPAMA ITU KEGESER SATU ANAK TANGGA WKWKWK.\nADA YANG MAU NYEBUTIN PANGKAT 2 DARI 1 SAMPAI 12 BIAR GUE HAFAL KE ATAS, minggu depan remedial dan gue gak mau dobel-dobelan lagi wkwkwk",
+      "ULANGAN EKSPONEN TADI DAN SOAL TERAKHIR 2 PANGKAT 10. GUE JAWAB 2048 SOALNYA 2 PANGKAT 9 KATANYA 1024 DAN NAIK SATU PANGKAT BERARTI DOBEL. TEMEN GUE BILANG SALAH, KATANYA 2 PANGKAT 10 ITU 1024, YANG 2048 TUH 2 PANGKAT 11. GUE BUKA BUKU. DIA YANG BENER. GILS. SATU SOAL TERAKHIR SEUMPAMA ITU KEGESER SATU ANAK TANGGA WKWKWK.\nADA YANG MAU NYEBUTIN PANGKAT 2 DARI 1 SAMPAI 12 BIAR GUE HAFAL KE ATAS, minggu depan remedial dan gue gak mau dobel-dobelan lagi wkwkwk",
     comments: [
       { authorId: 212, minutesAgo: 2627, content: "hitung dobel terus dari 1 bre: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. angka ke-11 itu 2^10, jangan kegeser lagi 🙃" },
       { authorId: 131, minutesAgo: 2619, content: "hafal dua titik aja bre: 2^10 = 1024, 2^20 = 1.048.576. sisanya bisa diturunin" },
@@ -279,12 +279,12 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2935,
     shares: 11,
     content:
-      "Hujan dua hari. Kebun becek, kasut saya lumpur sampai nyaris terbawa tanahnya. Tomat bergantung pada tongkat, daunnya menunduk. Saya tidak tahu itu sedih atau sedang menunduk karena berat. Cuaca tidak bisa disuruh, tanaman hanya bisa ditemani. Sore ini hujan berhenti, saya keluar membersihkan selokan kecil supaya air tidak menggenang lagi.\nBunga pacar di tepi kebun tetap mekar. Tanaman kecil itu tidak pernah menunggu keadaan sempurna.",
+      "Hujan dua hari. Kebun becek, kasut saya lumpur sampai nyaris terbawa tanahnya. Tomat bergantung pada tongkat, daunnya menunduk. Saya tidak tahu itu sedih atau sedang menunduk karena berat. Sore ini hujan berhenti, saya keluar membersihkan selokan kecil supaya air tidak menggenang lagi.\nBunga pacar di tepi kebun malah mekar sendiri, padahal benihnya aja bukan saya yang tanam. Pusing ngurus tomat, malah pacar yang duluan tampil.",
     comments: [
       { authorId: 84, minutesAgo: 2927, content: "kasut lumpur itu seragam resmi kebun. sepatu gue juga udah gak tau warna aslinya" },
-      { authorId: 71, minutesAgo: 2919, content: "kebun pas hujan itu ujian mbak, semoga tomatnya kuat 🙏" },
-      { authorId: 272, minutesAgo: 2911, content: "menunduk karena berat itu bahasa yang tepat mbak. kadang begitu, bukan sedih" },
-      { authorId: 313, minutesAgo: 2904, content: "membersihkan selokan itu kerja paling tidak terlihat tapi paling menyelamatkan mbak" },
+      { authorId: 71, minutesAgo: 2919, content: "mbak, tomat daunnya menunduk coba cek airnya jangan sampai tergenang, kadang akarnya kebuch bukan sedih" },
+      { authorId: 272, minutesAgo: 2911, content: "pacar itu kuat mbak, tanah becek tetap hidup. tomat sama cabai yang suka rewel" },
+      { authorId: 313, minutesAgo: 2904, content: "selokan kecil itu nyebelin mbak, sekali mampet genangan semua, kebun saya juga gitu" },
     ],
   },
   {
@@ -293,9 +293,9 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2965,
     shares: 13,
     content:
-      "Pelanggan sore bertanya, teh, sayur yang enak buat sup apa? Saya bilang wortel dan sawi, beri sedikit jahe. Dia tanya lagi, dimasaknya gimana teh? Saya jelaskan, dia mengangguk, lalu bertanya bagian mana yang dipotong duluan. Hari ini saya tidak hanya menjual sayur, saya menjadi guru masak dadakan yang juga tidak yakin bagian mana yang dipotong duluan.",
+      "Pelanggan sore bertanya, teh, sayur yang enak buat sup apa? Saya bilang wortel dan sawi, beri sedikit jahe. Dia tanya lagi, dimasaknya gimana teh? Saya jelaskan, dia mengangguk, lalu bertanya bagian mana yang dipotong duluan. Hari ini selain jualan sayur saya jadi bagian tanya-jawab masak. Besok saya bawa catatan kecil, sekalian nanya ke pembeli lain biasanya wortel dimasak apa lagi.",
     comments: [
-      { authorId: 102, minutesAgo: 2957, content: "penjual sayur yang bisa menjelaskan cara masak itu langganan pasti teh 😄" },
+      { authorId: 102, minutesAgo: 2957, content: "teh, lain kali tulis kertas kecil: wortel potong tipis, sawi potong kasar. ditempel di depan, hemat ngomong wkwk" },
     ],
   },
   {
