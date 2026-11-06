@@ -116,7 +116,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 235,
     shares: 23,
     content:
-      "loker gue macet hampir 15 menit tadi pas mau pulang, kuncinya muter gak mau buka, semua orang udah pada pulang. pas udah niat mau telepon satpam, dia buka sendiri. udah gitu aja ceritanya. yang bikin kesel malah pas di angkot gue inget charger gue nyambung di colokan ruang jaga. ya udah, anggep aja hadiah buat shift malam nanti",
+      "loker gue macet lagi tadi mau pulang. kuncinya muter tapi gak mau buka, padahal kemarin-kemarin normal normal aja. telepon satpam dari ruang jaga, nunggu sambil duduk deket pintu. dibenerinnya cepet, katanya cuma kunci yang kendor. yang kesel itu udah kedua kali bulan ini. terus pas di angkot gue baru inget charger masih nyambung di colokan ruang jaga. baliknya nanti sore, kalo udah diambil orang ya udah, charger gue emang sering jadi milik bersama",
     comments: [
       { authorId: 258, minutesAgo: 229, content: "gue pernah begini bre, 10 menit berantem sama kunci, ternyata salah loker. untung gak ada yang rekam wkwk" },
     ],
@@ -127,7 +127,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 265,
     shares: 15,
     content:
-      "hujan. order masuk, tulisan 4 menit. gue senyum.\nternyata 4 menit itu masuk gang sempit yang motor gue gagal masuk dua kali, balik mundur, mobil di belakang ngeklakson, turun tanya warga, warga bilang 'aksesnya lewat jalan bawah'.\nJALAN BAWAH. tambah 6 menit.\npenumpang udah nunggu depan pos, gerimis, gak bawa payung. ya udah, jas hujan gue sekalian.\nsekarang yang gue mikirin: 4 menit itu aplikasi hitung pakai peta atau pakai harapan",
+      "order tadi siang tulisannya 4 menit. pas nyampe depan gang, motor gak bisa masuk, ada gundukan tanah dari renover, mundur dua kali. turun tanya warga, disuruh lewat jalan bawah, nambah lumayan. penumpang nunggu depan pos gerimisan gak bawa payung, gue kasih jas hujan gue. nyampe tujuan dia malah bilang makasih, gak marah sama sekali. yang gue mau tanya ke sini aja: angka 4 menit di aplikasi itu dihitung dari apa, peta taun berapa sih, info renover gak ada sama sekali",
     comments: [
       { authorId: 137, minutesAgo: 258, content: "peta tau jalan pintas, gak tau pintasnya buat motor atau buat kupu-kupu bre" },
       { authorId: 186, minutesAgo: 251, content: "4 menit itu jarak antar titik kalau lu bisa terbang. hujan mah bonus level" },

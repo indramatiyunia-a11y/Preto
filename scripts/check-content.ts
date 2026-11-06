@@ -15,7 +15,7 @@ console.log("threads with exactly 10:", counts.filter((c) => c === 10).length)
 console.log("threads with 0:", counts.filter((c) => c === 0).length)
 console.log("distribution:", JSON.stringify(counts))
 
-const invalid = all.filter((t) => t.comments.some((c) => c.authorId < 1 || c.authorId > 50))
+const invalid = all.filter((t) => t.comments.some((c) => c.authorId < 1 || c.authorId > 1050))
 console.log("komentar dengan authorId invalid:", invalid.length)
 
 const emptyContent = all.filter((t) => !t.content || t.content.length < 15)

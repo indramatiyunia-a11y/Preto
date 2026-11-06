@@ -220,10 +220,10 @@ export const THREADS_PART4: ThreadzThread[] = [
     minutesAgo: 2785,
     shares: 18,
     content:
-      "Anakku tadi malam bertanya sambil menunjuk langit: kenapa bulan ikut jalan? Kami di dalam mobil, bulan tampak bergerak mengikuti. Ia bertanya tiga kali, bulan ikut jalan Bu, kenapa? Saya tidak bisa menjawab, karena saya sendiri baru menyadari betapa anehnya itu jika dilihat mata anak.\nSebentar lagi ia tumbuh dan mungkin lupa pertanyaan ini. Saya yang tidak ingin lupa.",
+      "Anakku 3 tahun nanya kenapa bulan ikut jalan pas kami di dalam mobil. Nanya tiga kali, makin lama makin yakin bulannya yang ngikutin mobil dia. Aku jawab enteng aja, bulan mau anterin kita. Dia senyum terus tidur. Sekarang aku yang gak bisa tidur, ngerasa jawaban aku kayaknya salah terus gak tau versi benernya gimana. Ada yang bisa jelasin kenapa bulan keliatan ikut gerak, pakai kata yang bisa dicerna orang yang lagi ngantuk?",
     comments: [
       { authorId: 59, minutesAgo: 2777, content: "jawab sederhananya bu: bulan itu sangat jauh, makanya tidak keberatan menemani sampai mana pun kita berjalan 🙏" },
-      { authorId: 262, minutesAgo: 2769, content: "pertanyaan seperti itu biasanya tinggal sampai dewasa bu, hanya ganti bentuk menjadi puisi" },
+      { authorId: 262, minutesAgo: 2769, content: "pertanyaan gitu biasanya gak pernah kejawab sampai dewasa, jadi kenangan aja. anakku juga gitu dulu, sekarang malah nanya soal cicilan" },
     ],
   },
   {

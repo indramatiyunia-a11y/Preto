@@ -207,11 +207,11 @@ export const THREADS_PART6: ThreadzThread[] = [
     minutesAgo: 4255,
     shares: 17,
     content:
-      "Kulkas kecil di teras akhirnya berfungsi. Awalnya saya ragu, takut menjadi tempat sisa makanan yang terlupakan. Kenyataannya: anak-anak kos menyimpan es batu, air putih, dan satu kotak kue dengan nama masing-masing tertulis di kertas kecil. Ada yang menulis nama panjang, ada yang hanya inisial.\nKulkas itu sekarang papan pengumuman paling jujur di kos: siapa yang ada, siapa yang lapar, dan siapa yang menyimpan kue untuk besok.",
+      "Kulkas kecil di teras akhirnya kepake. Awalnya saya ragu, takut jadi tempat sisa makanan terlupakan. Ternyata anak kos nyimpen es batu, air putih, sama satu kotak kue dengan nama masing-masing di kertas kecil. Ada yang nulis nama panjang, ada yang inisial aja. Sekarang yang jadi soal justru aturannya: minuman boleh diambil siapa aja atau gak boleh, kertas nama itu berlaku sampe kapan, terus yang buang bekas es batunya siapa. Ada contoh aturan kulkas kos yang gak bikin berantem gak?",
     comments: [
       { authorId: 71, minutesAgo: 4247, content: "kertas nama di kulkas itu kelakuan anak kos paling manis bu 😄" },
-      { authorId: 205, minutesAgo: 4239, content: "kos saya dulu juga pake kulkas bersama bu, tapi gak ada kertas nama, kotak ayam saya pernah ilang dua kali 😄" },
-      { authorId: 102, minutesAgo: 4231, content: "kue di kulkas bersama itu umurnya pendek bu, biasanya malemnya juga udah diambil" },
+      { authorId: 205, minutesAgo: 4239, content: "kos saya dulu juga pake kulkas bersama, tapi gak ada kertas nama, kotak ayam saya pernah ilang dua kali 😄" },
+      { authorId: 102, minutesAgo: 4231, content: "kue di kulkas bersama itu umurnya pendek, biasanya malemnya juga udah diambil" },
     ],
   },
   {

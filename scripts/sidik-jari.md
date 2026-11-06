@@ -77,7 +77,7 @@ Kondisi sekarang:
    Catatan: pola "tidur, tidur, tidur" di cuitan 58 aman karena itu retorika
    manusia (rencana libur), bukan mantra narasi — bedakan konteksnya.
 
-## KAMPUNG KOMENTAR (peta akun 51–350)
+## KAMPUNG KOMENTAR (peta akun 51–350; ekspansi 351–1050 ikut kampung "campur")
 
 | Range    | Kampung        | Gaya komentar khas                        |
 | -------- | -------------- | ----------------------------------------- |
@@ -88,8 +88,14 @@ Kondisi sekarang:
 | 231–255  | pekerja        | empati kerja, pendek                      |
 | 256–300  | orang tenang   | kalimat utuh, sopan, reflektif            |
 | 301–350  | campur         | bebas tapi tetap nyambung                 |
+| 351–1050 | campur (ekspansi) | bebas tapi tetap nyambung; penulis batch ekspansi diambil dari sini |
 
 Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
+
+**PENGGANDAAN PENULIS (6 Nov 2026):** pool penulis batch ekspansi = akun 51+.
+BATCH 5 (id 201–225) WAJIB authorId 51–75; BATCH 6 (226–250) authorId 76–100;
+dst. DILARANG kembali memutar pool 1–50. users.ts kini 1050 akun (seed tetap,
+nama id 51–350 tidak berubah).
 
 ## SIDIK JARI PENULIS (1–50) — ringkasan suara
 

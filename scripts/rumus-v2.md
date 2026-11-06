@@ -405,6 +405,21 @@ personifikasi benda (loker/mesin/kipas punya mood), coda ritual "gak percaya
 X lagi", punchline sunyi "paling bersih di seluruh lini", ekor "semoga/doakan",
 komentar taksi "kalimat terakhir itu dalam".
 
+**INTEGRASI KEDUA 6 Nov 2026 — rombak V4 sisa keluarga formula:** user
+mengingatkan lagi ("harusnya aktif, beresin, cek all!"). Hasil sweep tangan
+di atas pola yang lolos audit otomatis: (a) threads-1 id 8 (loker) ditulis
+ulang total — versi sebelumnya masih naskah dua babak + ekor ironis; (b)
+threads-1 id 9 (ojol "4 menit") ditulis ulang — punchline "peta atau pakai
+harapan" dihapus, diganti pertanyaan sungguhan soal data rute; (c) LIMA post
+"anak nanya pakai sapaan Bu" (id 52, 63, 93, 101 + ekor id 142/191) dirombak:
+sapaan Bu di dalam kutipan anak dihapus (tinggal id 103 — konteks guru asli,
+satu-satunya yang sah), rantai tanya-jawab kembar dipecah bentuknya, ekor
+puitis ("Saya yang tidak ingin lupa", "papan pengumuman paling jujur", "gue
+memang dibayar untuk berjalan") dibuang; (d) komentar taksi/pengulang "bu"
+digodok. **PENGGANDAAN PENULIS dieksekusi:** users.ts 350 → 1050 akun (benih
+tetap, id 51-350 nama lama), dev.sh batch ekspansi WAJIB authorId baru (batch
+5 = 51-75), rantai check kini 4 langkah termasuk audit-formula15.
+
 Format: `id → penulis: topik (aspek matematika)`.
 
 **threads-1 (1-25) — V4 rombak 6 Nov 2026 (anti-sastra, persona lepas):**

@@ -3,13 +3,14 @@ import type { ThreadzUser, Persona } from "../types"
 // Warga Akiomida. Nama ditentukan sistem: akiomida + 8 angka.
 // Foto profil cuma boleh warna solid, gak ada foto lain di dunia ini.
 //
-// 50 warga utama = yang rajin nulis cuitan. Persona di sini BUKAN label
-// gaya nulis — gaya ditulis tangan di tiap cuitan (lihat data/threads-*.ts).
+// 50 warga utama + 1000 warga ekspansi = penulis cuitan. Persona di sini BUKAN
+// label gaya nulis — gaya ditulis tangan di tiap cuitan (lihat data/threads-*.ts).
 // Persona cuma nentuin tab "otak-belok": yang di sana itu memang penulis
 // rame — laki kos KAPITAL, anak SMP jamet, chef mie, dan geng gagal masak.
-// 300 warga lalu-lalang = rame di kolom komentar aja, juga dikomen sesuai
-// kampung akunnya: ibu-ibu ngepost dikomen ibu-ibu, anak sekolah dikomen
-// anak sekolah. Total 350.
+// 1000 warga lalu-lalang = ikut nulis batch ekspansi (BATCH 5 pakai 51-75,
+// BATCH 6 pakai 76-100, dst. — lihat rumus-v2.md PENGGANDAAN PENULIS) dan
+// ramai di kolom komentar. Total 1050 — user: "punya 1000 penulis pun lebih
+// bagus, jadi karakternya ada kesan ruhnya hidup".
 export const USERS: ThreadzUser[] = [
   { id: 1, name: "akiomida48291037", color: "#f43f5e", persona: "awam" },
   { id: 2, name: "akiomida73615284", color: "#fb923c", persona: "begok" },
@@ -64,8 +65,11 @@ export const USERS: ThreadzUser[] = [
 ]
 
 // ---------------------------------------------------------------------------
-// Warga lalu-lalang (id 51-350). Dibikin dari benih tetap, jadi hasilnya
-// selalu sama di server dan di browser — gak ada flash, gak ada mismatch.
+// Warga lalu-lalang & penulis batch ekspansi (id 51-1050). Dibikin dari benih
+// tetap, jadi hasilnya selalu sama di server dan di browser — gak ada flash,
+// gak ada mismatch. Jumlah di-naik-in dari 300 jadi 1000 (6 Nov 2026, perintah
+// penggandaan penulis): id 51-350 TETAP sama nama & warnanya (benih sama,
+// urutan sama), id 351-1050 tambahan baru di belakang.
 // ---------------------------------------------------------------------------
 function buatBenih(seed: number) {
   let s = seed | 0
@@ -90,7 +94,7 @@ function bangunWarga(): ThreadzUser[] {
   const acak = buatBenih(11090101)
   const terpakai = new Set(USERS.map((u) => u.name))
   const daftar: ThreadzUser[] = []
-  for (let i = 0; i < 300; i++) {
+  for (let i = 0; i < 1000; i++) {
     let angka = ""
     do {
       angka = String(Math.floor(acak() * 1e8)).padStart(8, "0")

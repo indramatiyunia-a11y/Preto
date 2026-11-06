@@ -9,11 +9,11 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3025,
     shares: 20,
     content:
-      "Anak pertama ikut lomba matematika antar sekolah hari ini. Pulangnya dia bawa bingkisan peserta, terus masuk kamar, lampu dimatikan. Pas aku suruh makan, dia keluar dengan mata merah dan bilang gak lolos, Bu, soal ceritanya kebalik semua. Aku peluk, dia bilang jangan dipegang-pegang, abes itu dia nangis di bahu aku.\nSekarang dia tidur. Aku duduk di luar kamar mikir: besok pagi aku harus bilang apa? Aku gak mau kasih nasihat yang kedengeran kayak poster, dan aku gak mau dia ngerasa gagalnya dobel. Ada saran dari orang tua yang pernah begini?",
+      "Anak pertama pulang dari lomba matematika antar sekolah bawa bingkisan peserta, terus masuk kamar, lampu dimatikan. Pas aku suruh makan dia keluar mata merah, bilang gak lolos, soal ceritanya kebalik semua. Aku peluk dia malah gemes, bilang jangan dipegang-pegang, abes itu nangis di bahu aku. Sekarang dia tidur, aku di luar masih mikir besok pagi harus bilang apa. Aku takut salah patah-patahin semangatnya, gak mau dia ngerasa gagalnya dobel. Ada saran dari orang tua yang pernah begini?",
     comments: [
       { authorId: 71, minutesAgo: 3017, content: "besok bilang 'makan dulu ya, urusan lomba itu urusan hari lombanya' bu. jangan bahas dulu, biarkan dia pegang hari biasanya dulu 🙏" },
-      { authorId: 90, minutesAgo: 3009, content: "anak yang sedih begitu butuh diajak bicara pas dia siap, bukan pas kita siap. sabar bu 🙏" },
-      { authorId: 262, minutesAgo: 3001, content: "kata 'gagalnya dobel' itu tepat sekali bu. yang paling berat memang merasa gagal dua kali. cukup jadi tempat pulangnya dulu" },
+      { authorId: 90, minutesAgo: 3009, content: "anak yang sedih begitu butuh diajak bicara pas dia siap, bukan pas kita siap. sabar ya, yang begini emang gak ada rumusnya" },
+      { authorId: 262, minutesAgo: 3001, content: "kata 'gagalnya dobel' itu tepat sekali. yang paling berat memang merasa gagal dua kali. cukup jadi tempat pulangnya dulu" },
     ],
   },
   {

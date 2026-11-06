@@ -193,7 +193,7 @@ export const THREADS_PART8: ThreadzThread[] = [
     minutesAgo: 5725,
     shares: 15,
     content:
-      "Paket hari ini berat, tertulis alat pertanian. Penerimanya bapak lanjut usia di ujung kampung, kebunnya jauh dari jalan. Gue mengantarkan sampai ke kebun. Bapaknya minta maaf karena jalannya becek, gue bilang tidak apa-apa, gue memang dibayar untuk berjalan. Lalu ia menyodorkan teh hangat, gue minum dua gelas di tepi kebun sambil mendengar alat itu untuk menanam cabai lagi, karena tahun lalu gagal panen.\npas pulang aplikasi nge-rute gue muter jauh, padahal jalan kebun itu deket. akhirnya gue selesaikan dulu satu paket lagi di gang sebelah baru balik",
+      "Paket tadi pagi berat, alamatnya kebun di ujung kampung, dari jalan masih jalan kaki dua ratus meter, becek. Penerimanya bapak lanjut usia, gue bantu angkut sampe pinggir kebun. Di situ disodorin teh hangat, gak enak nolak, minum dua gelas sambil denger cerita alat itu buat nanam cabai lagi, tahun lalu gagal panen. Yang bikin gue pengen nanya justru pas pulang: aplikasi ngarahin gue muter jauh, padahal jalan kebun itu lebih deket, gue lewat situ gak ada masalah kok. kenapa rute apps sering gak masuk akal gini sih, ada yang ngalamin juga gak",
     comments: [
       { authorId: 258, minutesAgo: 5717, content: "teh di tepi kebun itu gak bisa ditolak mas, sekali ditawarin dua gelas, cerita panen tahun lalu ikut kebawa semua" },
       { authorId: 199, minutesAgo: 5709, content: "jalan kebun emang gitu mas, sepatu saya dua kali sebulan harus dicuci, lumpurnya lengket" },

@@ -24,8 +24,10 @@
 #   4. Tulis tangan 25 cuitan baru ke:
 #        src/lib/threadz/data/threads-<PART>.ts   (export THREADS_PART<PART>)
 #      - ids   : 100+(batch-1)*25+1 .. 100+batch*25
-#      - author: batch GANJIL -> authorId 1..25; batch GENAP -> authorId 26..50
-#                (urut sesuai id cuitan: cuitan pertama batch = author pertama)
+#      - author: batch 1-4 (historis) 1-25/26-50. Batch ekspansi (>=5) WAJIB
+#                pakai 25 authorId BARU: batch 5 = 51-75, batch 6 = 76-100,
+#                dst (rumus-v2.md PENGGANDAAN PENULIS — dilarang balik ke
+#                pool 1-50; kalau pool users.ts habis, tambah user baru).
 #      - menit : minutesAgo(id) = 25 + 30*(id-1)  (makin besar = makin lama)
 #      - komentar: kampung akun harus nyambung (peta di sidik-jari.md),
 #        register online, turun minutesAgo-nya, gak ada dobel/self-reply
@@ -33,7 +35,8 @@
 #   6. ./dev.sh check sampai BERSIH (audit + validasi + lint)
 #   7. Update BUKU BESAR TOPIK di scripts/rumus-v2.md + sidik-jari.md (tabel per penulis)
 #   8. Cek dev.log + halaman render -> jadwalkan cron one_time batch berikutnya
-#      (payload menyebut dev.sh + protokol ini), lalu laporkan ke user.
+#      (payload menyebut dev.sh + protokol ini + rumus-v2.md BAGIAN 1F/2),
+#      lalu laporkan ke user.
 #
 # PERINTAH:
 #   ./dev.sh status    posisi campaign + detail batch berikutnya
@@ -57,10 +60,16 @@ spesifikasi_batch() {
   local first=$(( BASE + (n - 1) * BSIZE + 1 ))
   local last=$(( BASE + n * BSIZE ))
   local part=$(( n + 4 ))
-  if (( n % 2 == 1 )); then
-    local authors="1-25"
+  if (( n >= 5 )); then
+    # penggandaan penulis: tiap batch pakai 25 authorId yang belum pernah nulis.
+    # pool 1-50 udah kepake batch 1-4, jadi batch 5 = 51-75, batch 6 = 76-100, dst.
+    local a_first=$(( 51 + (n - 5) * BSIZE ))
+    local a_last=$(( a_first + BSIZE - 1 ))
+    local authors="${a_first}-${a_last} (BARU, belum pernah nulis — dilarang pakai pool 1-50)"
+  elif (( n % 2 == 1 )); then
+    local authors="1-25 (historis)"
   else
-    local authors="26-50"
+    local authors="26-50 (historis)"
   fi
   local menit_awal=$(( 25 + 30 * (first - 1) ))
   echo "  batch        : $n"
@@ -100,13 +109,16 @@ cmd_next() {
 }
 
 cmd_check() {
-  echo "== [1/3] audit isi (audit-full.ts) =="
+  echo "== [1/4] audit isi (audit-full.ts) =="
   bun scripts/audit-full.ts
   echo
-  echo "== [2/3] validasi dataset (validate-threadz.ts) =="
+  echo "== [2/4] audit formula15 (mikro-drama/personifikasi/sisa lama) =="
+  bun scripts/audit-formula15.ts | tail -8
+  echo
+  echo "== [3/4] validasi dataset (validate-threadz.ts) =="
   bun scripts/validate-threadz.ts | tail -5
   echo
-  echo "== [3/3] lint =="
+  echo "== [4/4] lint =="
   bun run lint >/dev/null 2>&1 && echo " lint: bersih" || { echo " lint: ADA MASALAH"; bun run lint; exit 1; }
   echo
   echo "CHECK BERSIH ✔ — jangan lupa: update buku besar topik di"

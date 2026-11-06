@@ -22,7 +22,7 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1555,
     shares: 19,
     content:
-      "anak tadi malam nanya, Bu, bedanya nasi harum sama nasi biasa apa? kok harganya beda dua ribu. aku jawab wanginya beda. dia nanya wanginya dari mana. aku jawab dari berasnya. dia nanya berasnya dari mana. aku jawab dari sawah. dia nanya sawahnya kenapa bisa wangi. AKU STOP. ternyata dia serius menelusuri wangi beras sampai akarnya.\nbesok aku tanya ke penjual beras, tapi siapa tau di sini ada yang bisa jelasin duluan",
+      "anak tadi malam nanya bedanya nasi harum sama nasi biasa, kok harganya beda dua ribu. aku jawab wanginya beda. dia nanya wanginya dari mana, aku jawab dari berasnya. lanjut terus sampai sawahnya kenapa bisa wangi, aku nyerah di situ. sore ini dia pamit mau nanya langsung ke penjual beras. aku gak keberatan, cuma takut penjualnya keburu tutup lapak sebelum kelar ditanya. ada yang bisa jelasin dari nol si wangi beras itu datang dari mana, biar besok aku gak ketahuan gak tau lagi",
     comments: [
       { authorId: 219, minutesAgo: 1547, content: "wangi nasi harum itu dari senyawa khas varietasnya kak, ditanam memang buat itu, bukan dikasih pewangi 🙃" },
       { authorId: 90, minutesAgo: 1540, content: "wangi beras harum itu dari senyawanya kak, bukan dicelup. tapi jawab anak 'ibu juga gak tau, kita cari bareng' itu sah kok, malah seru" },
@@ -156,11 +156,11 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1885,
     shares: 15,
     content:
-      "Pulang sekolah anak kedua bertanya di meja makan: Bu, kenapa hari itu 24 jam, bukan 20 atau 30? Aku jawab karena begitunya waktu. Dia bilang itu bukan jawaban. Benar juga. Papanya bilang dulu ada orang yang membagi hari jadi 24 dan mereka setuju. Anaknya bertanya siapa yang setuju. Papanya bilang orang zaman dulu. Anaknya bertanya kenapa mereka setuju.\nSekarang satu meja makan menjadi rapat keluarga tentang sejarah jam. Ada yang bisa bantu jawab versi anak SD? Alhamdulillah dia penasaran, hanya saja stok jawaban saya tinggal sedikit 😭",
+      "anak kedua gak berhenti soal kenapa hari itu 24 jam. kemarin aku lempar ke papanya, jawabannya karena begitunya dulu. besoknya dia pulang sekolah bilang temennya jawab 24 biar gampang dibagi, soalnya 12 am sama 12 pm gitu katanya. aku sendiri gak pernah mikir am-pm itu artinya apa, dan sekarang malah aku yang buka-buka. tadi malem dia nambah pertanyaan baru: kalau bumi muternya lebih cepet, jamnya tetep 24 gak. tolong ada yang jawab versi gampangnya, sebelum dia duluan yang nanya ke gurunya dan aku ketinggalan cerita",
     comments: [
       { authorId: 268, minutesAgo: 1877, content: "versi sederhananya bu: hari itu satu putaran bumi berputar, dan 24 itu cara manusia membagi putaran jadi potongan yang mudah dihitung" },
       { authorId: 59, minutesAgo: 1870, content: "jawab karena 24 gampang dibagi ke 2, 3, 4, 6, 8, 12 bu. anak suka kalau angkanya bisa diajak main" },
-      { authorId: 71, minutesAgo: 1862, content: "rapat keluarga soal jam itu lucu banget bu 😄 anak saya kalau udah nanya kenapa-kenapan gini, ujung-ujungnya saya suruh tanya papanya juga" },
+      { authorId: 71, minutesAgo: 1862, content: "anak yang udah nanya kenapa-kenapan gini gak ada matinya 😄 anak saya ujung-ujungnya saya suruh tanya papanya juga" },
     ],
   },
   {
