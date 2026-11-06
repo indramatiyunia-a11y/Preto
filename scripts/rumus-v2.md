@@ -48,7 +48,23 @@ Pelajaran: **ganti gaya kalimat tanpa ganti DUNIA post = formula pindah
 rumah, bukan mati.** V3 mengganti dunianya: post lahir dari kebingungan,
 pertanyaan, dan momen manusia — bukan dari buku kas.
 
-## BAGIAN 2 — FORMULA HITAM (9 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
+## BAGIAN 1C — SEBAB MUSABAB KETIGA (paparan meta, 6 Nov 2026)
+
+User menangkap cuitan matriks yang bertanya: "...jelasin pakai bahasa
+manusia gak?" — dan komentar lain menjawab dengan gurauan "bahasa kotak".
+Hukuman user: **"Bahasa manusia?? Maksudnya apa apaan mereka bukan
+manusia?? Kan yang buat cuitan manusia!"**
+
+Pelajaran: frasa yang MENGGATASI batas antara penulis dan pembaca sebagai
+"manusia vs bukan manusia" adalah paparan diri sendiri. Orang asli gak
+pernah merasa perlu menyebut "bahasa manusia" — buat mereka bahasanya
+MEMANG bahasa manusia, gak ada yang perlu disebut. Ditambah lagi frasa ini
+muncul DUA KALI di feed (threads-1 id 10 + threads-3 id 66) — pengulangan
+frasa unik juga sidik jari bot.
+
+Frasa macam ini masuk FORMULA HITAM nomor 10 di bawah.
+
+## BAGIAN 2 — FORMULA HITAM (11 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
 
 1. **Log uang presisi.** 2+ nominal besar + hitung selisih/kurang
    ("masuk 1.200.000, kurang 40.000"). Angka besar rapi = alarm.
@@ -69,10 +85,24 @@ pertanyaan, dan momen manusia — bukan dari buku kas.
 8. **Post = esai mini bermoral 3 babak** (kejadian → hitungan → hikmah).
 9. **Angka sebagai dekorasi realisme.** Presisi palsu biar kerasa nyata
    ("26 keping", "71 ribu") tanpa fungsi hidup di post.
+10. **PAPARAN META (dilarang abadi, sejak 6 Nov 2026).** Frasa yang
+    menyiratkan penulis/pembaca bukan manusia, atau menggolongkan bahasa
+    sebagai "bahasa manusia":
+    - "pakai bahasa manusia" / "bahasa manusiawi" / "serius tapi manusiawi"
+    - gurauan turunannya ("bahasa kotak", "bahasa mesin" sebagai lawannya)
+    - segala self-referensi non-manusia ("sebagai AI", "kayak bot", "program saya")
+    Cara orang asli minta penjelasan sederhana: "jelasin dari nol",
+    "yang gampangnya", "gak pake istilah", "pelan-pelan", "pake contoh dong".
+    TES: kalau frasa itu hanya masuk akal KALAU pembicanya bukan manusia
+    (atau bicara DENGAN bukan-manusia) → HAPUS.
+11. **Frasa unik diulang di post lain.** Frasa khas yang menarik perhatian
+    ("bahasa manusia", "GUYS", metafora aneh) maksimal SEKALI di seluruh
+    feed. Sebelum simpan, grep dulu frasa itu di semua file.
 
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
-BUANG, tulis ulang.
+BUANG, tulis ulang. Kalau ada frasa yang cuma masuk akal dari mulut
+bukan-manusia → BUANG, tulis ulang.
 
 ## BAGIAN 3 — PELAJARAN DARI 3 SITUS REFERENSI (dipelajari, bukan ditiru)
 
@@ -103,6 +133,12 @@ BUANG, tulis ulang.
 5. **Komentar wajib ada isinya.** ±40% benar-benar menjawab/mengoreksi/
    hint. Sisanya reaksi SPESIFIK ke isi post, nanya balik, atau cerita
    pendek sendiri. Dilarang tepuk tangan kosong.
+   BATAS TAMBAHAN: komentar bergaya MENGAJARI (rumus/langkah/mitos-
+   pembongkaran) MAKSIMAL 2 per post. Lebih dari itu = kelas online,
+   bukan komentar. Yang paling sering menolong orang asli justru:
+   miskonsepsi mereka sendiri, lelucon soal keadaan, pertanyaan balik.
+   PENYAJIAN JAWABAN DILARANG: tabel perbandingan, langkah bernomor,
+   dua versi A/B rapi — itu format guru, bukan format anak Twitter.
 6. **Jumlah komentar menyebar 0-6.** Mode gak boleh >30% post. Post
    pendek boleh 0-1 komen — itu hidup.
 7. **Bahasa sesuai sidik akun.** Typo natural (gk, bgt, smpe), register
@@ -228,13 +264,13 @@ post tetap bervariasi (panjang, layout, penutup).
 Format: `id → penulis: topik (aspek matematika)`.
 
 **threads-1 (1-25):**
-1 → 1: anak nanya 10 − 0,5 kok 9,5 (desimal = setengah) · 2 → 2: ∫2x dx = x²+C, ragu kok ada +C · 3 → 3: kenapa (−2)×(−3) hasilnya +6 (analogi suhu & waktu) · 4 → 4: rapat 90 menit, 40 menit basa-basi (observasi) · 5 → 5: 1 gelas beras itu berapa gram (takaran warung) · 6 → 6: kalkulator bilang 0,1+0,2 = 0,30000000000000004 (floating point) · 7 → 7: Excel kehapus 96 baris, cara recovery (data hilang) · 8 → 8: pasien nanya jam subuh, "rumah deket masjid tapi tetangga lebih ngepas" (jam) · 9 → 9: penumpang bocah naik sendirian 4 km (jarak) · 10 → 10: kuis dadak matriks, determinan ad−bc (contoh 3,5,2,4 → 2) · 11 → 11: naik 20% lalu turun 20% ≠ balik (100→120→96) · 12 → 12: shift malam, pasien dekak-dekak, kopi ketiga (0 matematika, kuota hidup) · 13 → 13: volume kubus 125, jawab 25 salah, sisi 5 (5³=125) · 14 → 14: om langganan parkir 3 hari gak muncul (jam biasa) · 15 → 15: hujan dari subuh, lapangan kosong (jam) · 16 → 16: rapat 2 jam keputusannya 1 kalimat (waktu) · 17 → 17: kemiringan jalan 15% artinya apa (15 m per 100 m) · 18 → 18: semangka potong percobaan, pembeli nengok (bijah) · 19 → 19: sinyal lelet jam 8-9 malam (jam) · 20 → 20: HP lupa di jok, balikin (hidup) · 21 → 21: nasi 1 liter beras buat 3 orang kebanyakan (rasio air-beras) · 22 → 22: anak ngitung "satu, dua, lima" (berhitung balita) · 23 → 23: update HP makan 2 GB dari sisa 0,3 (kuota) · 24 → 24: nenek kalah 8×7=56 dari cucu (perkalian 8) · 25 → 25: presentasi pertama, slide 12, atasan cuma nod (perasaan)
+1 → 1: anak nanya 10 − 0,5 kok 9,5 (desimal = setengah) · 2 → 2: ∫2x dx = x²+C, ragu kok ada +C · 3 → 3: kenapa (−2)×(−3) hasilnya +6 (analogi suhu & waktu) · 4 → 4: rapat 90 menit, 40 menit basa-basi (observasi) · 5 → 5: 1 gelas beras itu berapa gram (takaran warung) · 6 → 6: kalkulator bilang 0,1+0,2 = 0,30000000000000004 (floating point) · 7 → 7: Excel kehapus 96 baris, cara recovery (data hilang) · 8 → 8: pasien nanya jam subuh, "rumah deket masjid tapi tetangga lebih ngepas" (jam) · 9 → 9: penumpang bocah naik sendirian 4 km (jarak) · 10 → 10: kuis dadak matriks, gue kira determinan = nambahin semua angka di kurung, satu kelas beda, yang ketawa yang diomelin (tanpa itungan di post) · 11 → 11: naik 20% lalu turun 20% ≠ balik (100→120→96) · 12 → 12: shift malam, pasien dekak-dekak, kopi ketiga (0 matematika, kuota hidup) · 13 → 13: volume kubus 125, jawab 25 salah, sisi 5 (5³=125) · 14 → 14: om langganan parkir 3 hari gak muncul (jam biasa) · 15 → 15: hujan dari subuh, lapangan kosong (jam) · 16 → 16: rapat 2 jam keputusannya 1 kalimat (waktu) · 17 → 17: kemiringan jalan 15% artinya apa (15 m per 100 m) · 18 → 18: semangka potong percobaan, pembeli nengok (bijah) · 19 → 19: sinyal lelet jam 8-9 malam (jam) · 20 → 20: HP lupa di jok, balikin (hidup) · 21 → 21: nasi 1 liter beras buat 3 orang kebanyakan (rasio air-beras) · 22 → 22: anak ngitung "satu, dua, lima" (berhitung balita) · 23 → 23: update HP makan 2 GB dari sisa 0,3 (kuota) · 24 → 24: nenek kalah 8×7=56 dari cucu (perkalian 8) · 25 → 25: presentasi pertama, slide 12, atasan cuma nod (perasaan)
 
 **threads-2 (26-50):**
 26 → 26: penumpang lansia minta pelan, dengerin cerita · 27 → 27: 3 dari 60 dus rusak, vendor gak balas (rasio kecil) · 28 → 28: jelasin ke temen malah makin bingung (meta mengajar) · 29 → 29: baca nonius jangka sorong 0,02 mm (ukur) · 30 → 30: si anak: "kenapa ngerjain cara panjang kalau ada kalkulator" · 31 → 31: pembeli balikin kembalian kelebihan (jujur) · 32 → 32: ikat kangkung mengecil harga tetap (ukur) · 33 → 33: resep 4 porsi naik ke 5 (×1,25, garam ikut gak) · 34 → 34: kucing pos ikut ronde jam 2 (jam) · 35 → 35: semua orang lompat bareng, bumi geser gak (fisika) · 36 → 36: hafalan 22 tulang tengkorak kebalik-balik · 37 → 37: lampu sorot tetangga mati sendiri jam 10 (jam) · 38 → 38: sudut lancip/tumpul di rumah (jam dinding, atap) · 39 → 39: trik perkalian 11 (23×11=253) · 40 → 40: benih 12 tumbuh 9 (bercacah) · 41 → 41: alamat "rumah biru deket pohon nangka", ada TIGA (hitung rumah) · 42 → 42: anak kos mau ganti lampu sendiri (izin) · 43 → 43: mesin berhenti 20 menit, gue cuci botol (waktu) · 44 → 44: telur dadar gosong, api sedang vs besar (panas) · 45 → 45: jalan pagi 30 menit, kucing tikungan, ikan · 46 → 46: salah cetak nama sekolah 6 lembar (lembar) · 47 → 47: nasabah lansia, formulir ditulisin tangan · 48 → 48: buku telat 3 hari, "maaf" bocah · 49 → 49: bocah minta gaya poster (potong rambut) · 50 → 50: pelanggan level pedas 7, habis, gue menangis
 
 **threads-3 (51-75):**
-51 → 9: penumpang bawa tanaman gede, aman sampe tujuan · 52 → 33: beda nasi harum & biasa, anak nanya (harga beda) · 53 → 2: mean vs median: 9 orang 70 + satu 10 → mean 64, median 70 · 54 → 15: cabai keriting tapi gak busak, aman gak besok · 55 → 24: cucu bawa nilai 8, nenek gak paham skala · 56 → 5: luas segitiga alas 12 t 7 = 42, les dadakan di warung · 57 → 44: nasi goreng keasinan, garam dua kali · 58 → 12: jam dinding mati baterai, pasien ngira udah sore · 59 → 30: si anak: kenapa π = 3,14, dari mana · 60 → 21: jadwal kosong 4 jam, pulang atau perpus · 61 → 17: skala 1:50, pintu 80 cm jadi 1,6 cm di A3 · 62 → 39: konstanta Kaprekar 495: 954−459=495 · 63 → 1: anak nanya kenapa hari ada 24 jam · 64 → 28: adik kelas ngeyel peluang 2 gambar = 1/3 (benar 1/4) · 65 → 46: 34 guru, 3 izin, catat manual (34−3=31) · 66 → 6: yakin 2³=6 "soalnya nambah satu" (benar 8) · 67 → 38: 12×9 = 12×10 kurang 12 = 108 · 68 → 11: 480 baris Excel, minta cara pivot table · 69 → 20: penumpang tua kangen telepon kios · 70 → 50: air rebus kebuang 4 kali, GUYS itu air panas · 71 → 7: sidang besok, slide 24 disuruh sederhanakan · 72 → 16: komputer restart update, input bulanan ulang · 73 → 36: atlas halaman 412, kopi dingin, tips hafal saraf · 74 → 23: jam 03.12 log nulis dirinya sendiri · 75 → 45: anter cucu les, teras jadi arisan dadakan
+51 → 9: penumpang bawa tanaman gede, aman sampe tujuan · 52 → 33: beda nasi harum & biasa, anak nanya (harga beda) · 53 → 2: mean vs median: 9 orang 70 + satu 10 → mean 64, median 70 · 54 → 15: cabai keriting tapi gak busak, aman gak besok · 55 → 24: cucu bawa nilai 8, nenek gak paham skala · 56 → 5: luas segitiga alas 12 t 7 = 42, les dadakan di warung · 57 → 44: nasi goreng keasinan, garam dua kali · 58 → 12: jam dinding mati baterai, pasien ngira udah sore · 59 → 30: si anak: kenapa π = 3,14, dari mana · 60 → 21: jadwal kosong 4 jam, pulang atau perpus · 61 → 17: skala 1:50, pintu 80 cm jadi 1,6 cm di A3 · 62 → 39: konstanta Kaprekar 495: 954−459=495 · 63 → 1: anak nanya kenapa hari ada 24 jam · 64 → 28: adik kelas ngeyel peluang 2 gambar = 1/3 (benar 1/4) · 65 → 46: 34 guru, 3 izin, catat manual (34−3=31) · 66 → 6: debat sama kalkulator soal 2³, yakin 6 soalnya nambah (benar 8), gak bisa tidur · 67 → 38: 12×9 = 12×10 kurang 12 = 108 · 68 → 11: 480 baris Excel, minta cara pivot table · 69 → 20: penumpang tua kangen telepon kios · 70 → 50: air rebus kebuang 4 kali, GUYS itu air panas · 71 → 7: sidang besok, slide 24 disuruh sederhanakan · 72 → 16: komputer restart update, input bulanan ulang · 73 → 36: atlas halaman 412, kopi dingin, tips hafal saraf · 74 → 23: jam 03.12 log nulis dirinya sendiri · 75 → 45: anter cucu les, teras jadi arisan dadakan
 
 **threads-4 (76-100):**
 76 → 13: substitusi 2x+y=8, x=3 → y=2, minta cek · 77 → 49: bocah cerita nilai temen-temennya sambil dicukur · 78 → 26: gerimis, angkot jadi angkutan payung · 79 → 34: anterin tamu nyasar 3 gang ke rumah duka · 80 → 3: remedial 45→70, murid gak senyum, cara ngerayain · 81 → 41: paket bunyi (jam weker), gak bisa dibongkar · 82 → 19: nomor cantik satu, dua orang rebutan, giliran · 83 → 8: jam 03.40 itung lampu lorong: 11 nyala 3 mati · 84 → 31: kertas struk habis, tukang kertas telat · 85 → 47: nasabah bawa koin dua plastik, dihitung 40 menit · 86 → 25: copy 300 baris manual karena akses gak dibuka · 87 → 37: bocah latihan dribbling 30 menit tiap sore · 88 → 10: 2^10 jawab 2048 "soalnya dobel" (benar 1024) · 89 → 42: dua anak kos masak jam 12 malem, kamera dapur · 90 → 27: kipas gudang mati, kipas-kipas kertas · 91 → 14: sepatu baru kehujanan, om-om ngeledek · 92 → 29: sudut siku jadi 91°, om bilang kikis dikit · 93 → 22: anak 3 th tanya "kenapa bulan ikut jalan" · 94 → 48: rak disusun ulang, pengunjung nyari posisi lama · 95 → 35: bisa gak lewat hujan tanpa kena satu titik pun · 96 → 43: shift malam→pagi bulan depan, semua ngeluh · 97 → 18: mangga musim, tiga pedagang di sudut sama · 98 → 40: hujan dua hari, kebun becek, kasut lumpur · 99 → 32: pelanggan minta sayur buat sup tapi gak tau masaknya · 100 → 4: lift mati, tangga 6 lantai, jam 8.47

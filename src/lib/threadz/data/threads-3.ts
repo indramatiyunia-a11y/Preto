@@ -195,12 +195,12 @@ export const THREADS_PART3: ThreadzThread[] = [
     minutesAgo: 1975,
     shares: 5,
     content:
-      "gue harus tahu malam ini: 2 pangkat 3 itu 6 kan? soalnya nambah satu aja, 2, 3, 4, 5, 6. tapi kalkulator bilang 8. gue gak mau percaya kalkulator, soalnya kasus 0,1 + 0,2 kemarin gue masih ngambek. ada yang bisa jelasin pakai bahasa manusia kenapa hasilnya 8? kalau ada yang jawab 'itu aturannya' gue bakal ngambek lagi",
+      "gue dan kalkulator masih berdebat sampai sekarang. gue bilang 2 pangkat 3 itu 6 soalnya tinggal nambah. dia ngotot 8. gue tanya dari mana 8nya. dia diem, nampilin 8 lagi. gak ada penjelasan, cuma 8. sekarang gue gak bisa tidur dan kalkulator gue menang tanpa bicara.\n\ntolong ada yang bisa mastiin gak, dan jangan jawab 'itu aturan', itu bukan penjelasan itu nyerah",
     comments: [
-      { authorId: 138, minutesAgo: 1967, content: "bukan nambah bre, itu dikali sendiri tiga kali: 2×2 = 4, lalu 4×2 = 8. pangkat itu perkalian berulang, bukan urutan naik" },
-      { authorId: 212, minutesAgo: 1959, content: "gambar kotak bre: 2×2 itu 4 kotak, dikali 2 lagi jadi 8 kotak. pangkat ngekali baris kotaknya 🙃" },
-      { authorId: 154, minutesAgo: 1951, content: "kenapa harus bahasa manusia bre, bahasa kotak juga bahasa yang layak hidup wkwkwk" },
-      { authorId: 262, minutesAgo: 1944, content: "kalkulator yang kemarin bicara jujur soal 0,1+0,2. sebaiknya kita mulai percaya dia di urusan 2 pangkat 3" },
+      { authorId: 138, minutesAgo: 1967, content: "2×2×2 bre = 8. pangkat itu dikali sendiri berulang, nambah mah namanya lain. ketik manual kalau gak percaya, hasilnya tetep 8" },
+      { authorId: 212, minutesAgo: 1959, content: "kalah debat sama kalkulator itu luka yang gak keliatan bre. gue pernah kalah sama tombol mode, jam HP gue salah bulan dua minggu" },
+      { authorId: 154, minutesAgo: 1951, content: "guru gue dulu cuma bilang 'dikali sendiri tiga kali' dan gue duduk mikir gimana caranya angka mau ngaliin dirinya sendiri, kayaknya capek" },
+      { authorId: 262, minutesAgo: 1944, content: "sisi terangnya 2+2+2 emang 6 bre, jadi lo gak salah total, lo cuma salah pintu" },
     ],
   },
   {

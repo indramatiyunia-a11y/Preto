@@ -87,7 +87,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       "guys, tolong bantu. bab metode penelitian gue disuruh jelasin beda populasi dan sampel pakai bahasa yang gak bikin dosen ngantuk. gue nyoba: populasi itu semua ayam di pasar, sampel itu yang lo beli. dosen bilang contohnya menarik tapi 'kurang serius'. LHA TERUS GIMANA SERIUSNYA. ada versi yang serius tapi tetap gampang? contoh kehidupan nyata boleh, yang penting gak kayak jawaban buku yang semua orang hafal tapi tidak ada yang paham 🙃",
     comments: [
       { authorId: 209, minutesAgo: 3197, content: "populasi = seluruh siswa di sekolah lu, sampel = beberapa kelas yang lu pilih buat kuesioner. semua anak vs beberapa anak yang mewakili 🙃" },
-      { authorId: 227, minutesAgo: 3189, content: "kalimat amannya kak: populasi itu kelompok lengkap yang mau diteliti, sampel itu bagian yang benar-benar diteliti karena tidak mungkin semua. serius tapi manusiawi" },
+      { authorId: 227, minutesAgo: 3189, content: "kalimat amannya kak: populasi itu kelompok lengkap yang mau diteliti, sampel itu bagian yang benar-benar diteliti karena tidak mungkin semua. aman buat tugas, gak kedengeran kayak curhat ayam wkwk" },
       { authorId: 154, minutesAgo: 3181, content: "contoh ayam lu bener kak, cuma ganti pasar jadi peternakan, langsung kena nilai ilmiahnya wkwk" },
     ],
   },

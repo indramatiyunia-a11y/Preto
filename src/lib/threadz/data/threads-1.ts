@@ -16,7 +16,9 @@ import type { ThreadzThread } from "../types"
 //  5. Jumlah komentar menyebar 0-6, mode gak boleh >30% post.
 //  6. DILARANG (FORMULA HITAM): log uang presisi, pamer itungan, dua
 //     entitas simetris, kutipan mutiara, birokrat pencatat, resolusi
-//     sempurna, genre kerja-duit, esai mini bermoral.
+//     sempurna, genre kerja-duit, esai mini bermoral, PAPARAN META
+//     ("pakai bahasa manusia" dkk — sejak 6 Nov 2026, lihat rumus-v2.md
+//     BAGIAN 1C + nomor 10), frasa unik yang diulang di post lain.
 //  7. Post boleh menggantung. Dunia gak bersih itu manusia.
 export const THREADS_PART1: ThreadzThread[] = [
   {
@@ -137,13 +139,13 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 295,
     shares: 26,
     content:
-      "KUIS DADAK MATRIKS TADI DAN GUE BARU TAU KALAU DETERMINAN ITU BUKAN 'ANGKA DI KURUNG DITAMBAH SEMUA'. Matriksnya 3 5 / 2 4, gue jawab 14 karena 3+5+2+4 = 14. TEMEN GUE KETAWA SAMPE DIAMARIN BU. Katanya rumusnya ad minus bc, jadi 3×4 minus 5×2 = 2. GUE MIKIR, LHA KOK KALI-KALIAN, KAN MATRIKSNYA DITAMBAH. BU JELASIN PAKAI JAJARGENJANG 5 MENIT DAN GUE MASIH SEDANG MAKAN.\nADA YANG MAU JELASIN DARI NOL PAKAI BAHASA MANUSIA GAK, minggu depan ulangan dan gue gak mau diamarin dua kali wkwkwk",
+      "KUIS DADAK MATRIKS TADI DAN GUE BARU TAU KALAU DETERMINAN ITU BUKAN NAMBAHIN SEMUA ANGKA DI DALAM KURUNG. jawaban gue beda sendiri dari satu kelas dan WAKTU ITU GUE YAKIN BANGET ITU BENER. TEMEN SEBELAH GUE KETAWA SAMPE DIOMELIN BU. YANG SALAH GAK KENA APA-APA, YANG KETAWA YANG KENA.\nminggu depan ulangan lagi dan gue gak mau bego dua kali berturut-turut. ada yang bisa jelasin kenapa cara hitungnya beda gak, dari nol, pelan-pelan",
     comments: [
-      { authorId: 131, minutesAgo: 288, content: "determinan itu ukuran 'seberapa gede tempat yang dilipat' matriksnya bre, makanya pakai kali. 3×4 = 12, 5×2 = 10, selisihnya 2" },
-      { authorId: 118, minutesAgo: 283, content: "cek cepetnya: matriks 1 0 / 0 1 determinannya 1×1 − 0×0 = 1. kalau ditambah semua jadi 2, padahal jawaban benarnya 1" },
-      { authorId: 223, minutesAgo: 277, content: "gambar vektor (3,5) dan (2,4) di kertas kotak kak, luas jajargenjangnya bakal kelihatan sendiri kenapa harus dikali" },
-      { authorId: 154, minutesAgo: 271, content: "wkwkwk diamarin bu itu artinya kelas lu rame banget, istilahnya atmosfer kelas hidup bre" },
-      { authorId: 313, minutesAgo: 264, content: "14 itu kebetulan rapi bre, jawaban determinan aslinya biasanya janggal wkwk" },
+      { authorId: 131, minutesAgo: 288, content: "ad kali d dikurang b kali c bre, silang. kenapa harus begitu? jangan tanya, guru gue dulu cuma bilang 'memang begitu' terus nulis di papan" },
+      { authorId: 118, minutesAgo: 283, content: "gue lebih heran sama namanya. determinan. kedengerannya kayak jabatan di kantor kelurahan, ternyata cuma satu angka" },
+      { authorId: 223, minutesAgo: 277, content: "gue dulu yakin 1/2 + 1/3 itu 2/5, seminat itu, sampe guru nulis panjang di papan dan gue diem aja malu sendiri" },
+      { authorId: 154, minutesAgo: 271, content: "lucu ya yang salah gak kena apa-apa, yang ketawa yang kena. hukum rimba kelas bre" },
+      { authorId: 313, minutesAgo: 264, content: "masa satu kelas cuma lo doang yang nambahin semua, gue gak percaya. pasti ada yang lain cuma malu ngaku wkwk" },
     ],
   },
   {
