@@ -33,32 +33,31 @@ export function ThreadCard({ thread, visitor, onOpen, onShare }: ThreadCardProps
         {thread.content}
       </p>
 
-      {/* Di dunia ini cuma ada dua aksi: komen & share. Gak ada like, gak ada angka. */}
+      {/* Di dunia ini cuma ada dua aksi: komen & share. Gak ada like, gak ada angka.
+          Tombol ikon-saja: simbol sudah mewakili, tanpa teks (permintaan user 7 Nov). */}
       <div className="-mx-5 mt-3 flex border-t border-stone-100">
         <button
           type="button"
-          className="flex flex-1 items-center justify-center gap-2 rounded-bl-2xl py-2.5 text-[13.5px] font-medium text-stone-500 transition-colors hover:bg-stone-50 hover:text-stone-900 active:bg-stone-100/70"
+          className="flex flex-1 items-center justify-center rounded-bl-2xl py-2.5 text-stone-500 transition-colors hover:bg-stone-50 hover:text-stone-900 active:bg-stone-100/70"
           onClick={(e) => {
             e.stopPropagation()
             onOpen()
           }}
           aria-label="Lihat komentar"
         >
-          <MessageCircle className="h-[17px] w-[17px]" strokeWidth={1.8} />
-          Komentar
+          <MessageCircle className="h-[19px] w-[19px]" strokeWidth={1.8} />
         </button>
         <span className="my-2 w-px bg-stone-100" aria-hidden="true" />
         <button
           type="button"
-          className="flex flex-1 items-center justify-center gap-2 rounded-br-2xl py-2.5 text-[13.5px] font-medium text-stone-500 transition-colors hover:bg-stone-50 hover:text-stone-900 active:bg-stone-100/70"
+          className="flex flex-1 items-center justify-center rounded-br-2xl py-2.5 text-stone-500 transition-colors hover:bg-stone-50 hover:text-stone-900 active:bg-stone-100/70"
           onClick={(e) => {
             e.stopPropagation()
             onShare()
           }}
           aria-label="Bagikan cuitan"
         >
-          <Share2 className="h-4 w-4" strokeWidth={1.8} />
-          Bagikan
+          <Share2 className="h-[18px] w-[18px]" strokeWidth={1.8} />
         </button>
       </div>
     </article>
