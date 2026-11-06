@@ -27,12 +27,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 25,
     shares: 12,
     content:
-      "Alhamdulillah hari ini papanya yang nganterin sekolah, jadi aku kebagian denger obrolan pulangnya. Anak pertama nanya di mobil: 'Bu, 10 dikurang setengah kok hasilnya 9,5? Bukannya harus 9?' Aku jawab setengah itu 0,5, dia makin bingung. Setengahnya dari apa, Bu? Katanya. Sekarang tiap malam dia nanya hal kecil kayak gini terus, aku mulai kehabisan stok jawaban 😭\n\nAda yang punya cara jelasin desimal ke anak kelas 3 SD biar gak tambah bingung?",
+      "anak gue nanya 10 dikurang setengah itu berapa. gue jawab 9,5. dia nanya setengahnya dapet dari mana, bukannya kurang setengah ya tinggal 9 doang. GUE DIAM. gue nyokapnya tapi gue juga gak yakin kok bisa 9,5.\nsekarang dia tidur nyenyak dan gue yang buka ponsel nyari cara jelasin desimal. besok pagi dia pasti nanya lagi, dia tipe yang gak lupa. tolong yang paham jelasin pake benda aja, gue mau siapin alat perangnya",
     comments: [
-      { authorId: 74, minutesAgo: 21, content: "itu tahap bagus bu, anak mulai penasaran angka kecil. ajakin pakai koin: setengah dari 1.000 itu 500, tunjuk fisiknya dulu" },
+      { authorId: 74, minutesAgo: 21, content: "tunjukin pake fisik, sepuluh ribu dikurang lima ribu itu lima ribu, jadi sepuluh dikurang setengah ribu ya sembilan koma lima ribu. uang itu paling gampang dimengerti" },
       { authorId: 59, minutesAgo: 18, content: "anakku juga gitu, akhirnya paham pas diajak ukur air setengah gelas di dapur 🙏" },
-      { authorId: 268, minutesAgo: 14, content: "gambar garis dari 0 sampai 1 bu, tunjuk titik tengahnya. 0,5 itu alamatnya, bukan sisa" },
-      { authorId: 88, minutesAgo: 10, content: "gak usah takut gak bisa jawab bu. bilang aja 'besok kita cari tahu bareng', anak jadi ikut mencari" },
+      { authorId: 268, minutesAgo: 14, content: "gambar garis dari 0 sampai 1, tunjuk titik tengahnya. 0,5 itu alamatnya, bukan sisa" },
     ],
   },
   {
@@ -54,11 +53,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 85,
     shares: 21,
     content:
-      "Saya butuh bantuan cara menjelaskan perkalian bilangan negatif. Murid kelas 5 saya bertanya: kalau dikurangi itu artinya turun, kenapa hasil dari (−2) × (−3) justru naik menjadi 6? Logika anak itu kuat, dan saya tidak mau menjawab 'memang begitu aturannya'. Saya sudah mencoba dengan garis bilangan, ia bertahan dengan pertanyaannya.\n\nAnanda itu cerdas. Ada yang bisa memberi saya analogi yang jujur untuk anak SD? Terima kasih banyak sebelumnya.",
+      "Murid kelas 5 saya ngeyel soal (−2) × (−3). Katanya kalau minus itu artinya turun, kok hasil malah naik jadi 6. Logikanya kuat, saya sampai ikut mikir iya juga. Garis bilangan sudah dicoba, dia tetap ngeyel. Dua hari ini kami remuk bersama di kelas.\n\nAda analogi lain yang bisa dipercaya anak kelas 5? Saya gak mau jawab memang begitu aturannya — itu sama aja menyerah di depan anak SD.",
     comments: [
-      { authorId: 277, minutesAgo: 79, content: "pakai arah waktu bu. suhu turun 2 derajat setiap jam. tiga jam yang lalu, udara lebih hangat 6 derajat dari sekarang. mundur ke belakang dari yang turun = jadinya naik" },
-      { authorId: 90, minutesAgo: 73, content: "analogi utang juga sering kepakai bu: dihapus tiga utang masing-masing 2, artinya hartanya nambah 6" },
-      { authorId: 66, minutesAgo: 68, content: "gue dulu gak percaya juga bu, sampai dihitung mundur pakai garis bilangan, lompatannya cocok semua" },
+      { authorId: 277, minutesAgo: 79, content: "pakai arah waktu. suhu turun 2 derajat tiap jam. tiga jam lalu udara lebih hangat 6 derajat dari sekarang. mundur dari yang turun = naik" },
+      { authorId: 90, minutesAgo: 73, content: "analogi utang juga sering kepakai: dihapus tiga utang masing-masing 2, artinya hartanya nambah 6" },
+      { authorId: 66, minutesAgo: 68, content: "gue dulu gak percaya juga, sampai dihitung mundur pakai garis bilangan dan lompatannya cocok semua. anak yang begitu biasanya pahamnya lewat mundur dulu" },
     ],
   },
   {
@@ -67,9 +66,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 115,
     shares: 3,
     content:
-      "Rapat evaluasi 90 menit. Empat poin agenda. Poin pertama selesai dalam 7 menit. Sisanya tempat arisan. AC bagus. Catatan saya dua baris.",
+      "Dari jam 8 pagi tetangga gue renover rumah. Bor. Jeda sarapan. Bor lagi. WFH hari ini rencananya rampungin laporan, kenyataannya gue hafal semua jenis bor di rumah itu: ada yang berdengung, ada yang nyolot, ada yang bunyinya kayak mau lepas terus gak jadi.\nJam 12 dia istirahat. Gue sempet senyum dua menit. Jam 1 bor lagi.\nGue gak bisa protes, dia yang bantuin angkat barang waktu gue pindahan kemarin. JADI YA SUDAH. Headset, volume kenceng, deadline jam 5. Tolong yang pernah selamat ngerjain kerjaan di tengah konstruksi, cara apa yang dipakai",
     comments: [
-      { authorId: 192, minutesAgo: 104, content: "90 menit itu udah singkat om. kemarin di tempat kami tiga jam, hasilnya satu keputusan: rapat lanjutan" },
+      { authorId: 192, minutesAgo: 104, content: "kebetulan tetangga gue juga lagi renover. akhirnya gue ke kafe, beli kopi 22 rebu buat sewa meja, laporan kelar 3 jam. anggep aja biaya lari dari bor" },
+      { authorId: 37, minutesAgo: 96, content: "kalau tetangganya masih tau jam istirahat mah masih tergolong sopan. yang gak ada ampun itu yang mulai jam 6 pagi tanpa aba-aba" },
     ],
   },
   {
@@ -78,10 +78,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 145,
     shares: 45,
     content:
-      "ada pelanggan nanya: 1 gelas beras itu berapa gram sih? dia mau nyoba resep dari internet yang ukurannya pakai gram, tapi di warung jualnya pakai gelas. aku jawab 'kira-kira kak' soalnya aku sendiri gak pernah itung. terus dia minta timbang di timbangan buah sebelah, katanya gelas kami itu 180 gram.\n\nsekarang aku penasaran: beda gelas beda gram ya? kalau resepnya minta 250 gram, harus ambil berapa gelas? balik sekolah mau aku timbang satu-satu semua gelas di warung, biar besok ada jawabannya",
+      "1 gelas beras itu berapa gram? GUE GAK TAU. padahal beras itu dagangan gue. bener, gak tau.\ntadi ada yang mau nyoba resep dari internet, ukurannya gram, gue cuma punya gelas. gue bilang tunggu ya, gue tanya google. justru google yang bikin pusing: satu web bilang 180, satu 200, satu 240. GELAS YANG MANA SIH.\nakhirnya dia ke timbangan buah sebelah. 180.\nsekarang yang mikir justru gue: kalau resep minta 250 gram, itu ambil gelas berapa? dan kenapa warung sebelah punya timbangan terus gue gak. dijual di mana sih timbangan itu",
     comments: [
-      { authorId: 143, minutesAgo: 139, content: "beda kak, gelas di rumah gue 240 ml tapi beras lebih berat dari air. 250 gram itu sekitar 1,4 gelas ukuran warung lu" },
-      { authorId: 84, minutesAgo: 134, content: "semangat kak, setelah timbang sendiri sekali biasanya langsung hafal 🙏" },
+      { authorId: 143, minutesAgo: 139, content: "gelas emang beda-beda ukurannya. 250 gram beras kira-kira satu setengah gelas ukuran warungmu, tapi mending beli timbangan aja, sekali beli bisa dipakai bertahun-tahun" },
+      { authorId: 84, minutesAgo: 134, content: "lucu ya, jualan beras bertahun-tahun tapi gram itu kayak bahasa asing. di warung kami sama, tanya kilo gampang, tanya gram semuanya tanya balik" },
     ],
   },
   {
@@ -107,7 +107,7 @@ export const THREADS_PART1: ThreadzThread[] = [
       "guys, tolong yang paham file Excel. draft bab 4 gue ada di satu sheet, 96 baris data kuesioner yang udah gue rapikan semaleman. tadi sore laptop ngeheng, aku paksa matiin dari panik, dan pas dibuka lagi sheet-nya... kosong. sheet sebelah aman, cuma sheet draft yang hilang. dan aku belum pernah mengklik simpan dari awal 🙃\n\nada cara ngembaliin file yang belum pernah tersimpan? atau memang sudah tidak bisa? ya udah kalau sudah, gue terima nasib dan mulai ngetik ulang sambil nangis, datanya masih nempel di kepala kok, cuma tangan yang mau mogok 🙃",
     comments: [
       { authorId: 217, minutesAgo: 197, content: "kalau belum pernah disimpan kak kemungkinannya tipis, tapi coba cek folder temp atau file sisa .tmp di folder kerja. semoga ada jejaknya 🙃" },
-      { authorId: 60, minutesAgo: 188, content: "semangat kak. kata temen kerja di kantor: ngetik ulang itu cepat, mikir ulang yang lama. dan mikirnya udah selesai kan" },
+      { authorId: 60, minutesAgo: 188, content: "yang hilang cuma kecepatan tangannya. proses mikirnya udah selesai kan, ngetik ulang itu jauh lebih cepet dari mikir ulang" },
     ],
   },
   {
@@ -116,9 +116,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 235,
     shares: 23,
     content:
-      "pasien lansia minta jendela dibuka jam 04.10, katanya pengen dengar adzan sambil lihat langit masih gelap. gue buka.\ndia bilang rumahnya deket masjid, tapi yang suaranya ngepas di telinga tetangga sebelah rumah.",
+      "abis shift. loker gue macet. kuncinya muter, gak mau buka. semua orang udah pulang. gue sama loker. 15 menit.\nakhirnya buka juga pas gua udah pasrah sambil bawa tas satu tangan botol minum tangan satunya. kayaknya loker pengen nonton sirkus dulu.\nsekarang di angkot, kunci gua pegang di tangan. gak percaya loker lagi",
     comments: [
-      { authorId: 258, minutesAgo: 229, content: "ada orang yang iramanya lebih menghentakan daripada tempatnya, mbak" },
+      { authorId: 258, minutesAgo: 229, content: "loker begini punya mood sendiri, dikejar gak buka, pas udah gak peduli dia yang bukain" },
     ],
   },
   {
@@ -127,10 +127,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 265,
     shares: 15,
     content:
-      "ada bocah SMP naik sendirian, order dari rumah temennya, jarak 4 km. gue nanya udah sering gak, dia jawab 'aman bang' penuh percaya diri. pas turun dia bayar pakai uang kembalian yang digulung karet banget, bentuknya lucu. gue bilang hati-hati, dia lari masuk gang sambil ngelempar makasih bang.\nsekarang gue mikir, umur segitu dulu gue belum pernah naik ke mana-mana sendirian",
+      "hujan. order masuk, tulisan 4 menit. gue senyum.\nternyata 4 menit itu masuk gang sempit yang motor gue gagal masuk dua kali, balik mundur, mobil di belakang ngeklakson, turun tanya warga, warga bilang 'aksesnya lewat jalan bawah'.\nJALAN BAWAH. tambah 6 menit.\npenumpang udah nunggu depan pos, gerimis, gak bawa payung. ya udah, jas hujan gue sekalian.\nsekarang yang gue mikirin: 4 menit itu aplikasi hitung pakai peta atau pakai harapan",
     comments: [
-      { authorId: 137, minutesAgo: 258, content: "bre anak sekarang beda, adik gue kelas 4 udah punya jadwal anter sendiri, cuma gak pakai aplikasi" },
-      { authorId: 186, minutesAgo: 251, content: "asal bocahnya tenang kayak gitu aman bang. yang bikin cemas biasanya yang riuh di dalam mobil" },
+      { authorId: 137, minutesAgo: 258, content: "peta tau jalan pintas, gak tau pintasnya buat motor atau buat kupu-kupu bre" },
+      { authorId: 186, minutesAgo: 251, content: "4 menit itu jarak antar titik kalau lu bisa terbang. hujan mah bonus level" },
     ],
   },
   {
@@ -154,11 +154,11 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 325,
     shares: 41,
     content:
-      "Selasa lalu saya mengikuti kelas belajar daring untuk latihan angka. Soal latihannya: sebuah nilai naik 20 persen, lalu turun 20 persen. Saya yakin jawabannya kembali ke angka semula. Ternyata tidak: 100 naik 20 persen menjadi 120, kemudian turun 20 persen menjadi 96. Persen itu ternyata ditempelkan ke angka terbaru, bukan angka awal. Umur 34 tahun baru menyadarinya, agak malu tetapi lega.\n\nAda materi semacam ini yang sering keliru juga? Saya mau kumpulkan untuk latihan anak saya di rumah.",
+      "100 naik 20% jadi 120. lalu turun 20%. saya jawab otomatis: 100. SALAH. ternyata 96.\npersen itu menempel di angka terakhir, bukan angka awal. pekerjaan saya tiap hari dekat angka, ini baru main-main langsung nyasar. agak malu, tapi lebih tepat disebut kaget.\nanak saya ulangan besok. ada jebakan angka model lain yang perlu diwaspadai? mau saya daftarkan buat dia",
     comments: [
-      { authorId: 262, minutesAgo: 317, content: "klasik. kebalikannya juga sama: turun dulu 20% lalu naik 20% tetap 96. persen selalu hitung dari angka sekarang" },
-      { authorId: 205, minutesAgo: 310, content: "saya pernah terjebak yang begini saat melihat diskon toko. naik-turun dengan persen sama tidak pernah kembali ke asal" },
-      { authorId: 71, minutesAgo: 303, content: "contoh serupa yang sering keliru bu: harga naik 50% harus turun berapa persen biar balik? jawabannya sepertiga, bukan setengah" },
+      { authorId: 262, minutesAgo: 317, content: "kebalikannya juga sama: turun dulu 20% lalu naik 20% tetap 96. persen selalu hitung dari angka sekarang" },
+      { authorId: 205, minutesAgo: 310, content: "dunia diskon toko juga begini, naik-turun persen gak pernah balik ke asal. lihat label 'diskon besar' mending hitung dulu" },
+      { authorId: 71, minutesAgo: 303, content: "contoh serupa yang sering keliru: harga naik 50% harus turun berapa persen biar balik? jawabannya sepertiga, bukan setengah" },
     ],
   },
   {
@@ -167,7 +167,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 355,
     shares: 5,
     content:
-      "shift malam hari kedua.\npasien kamar 5 dekak-dekak menyebut nama cucunya.\nkopi ketiga. koridor sepi.\nbesok libur. semoga.",
+      "jam 3.47 alarm infus bunyi. gua jalan ke kamar 5. nyampe, mati sendiri.\ngua diem 5 detik, balik ke kursi, duduk. bunyi lagi.\njalan lagi, mati lagi. sekarang gua berdiri deket pintu, tangan saku, nunggu babak berikutnya. perang dingin, dan gua gak akan tidur duluan",
     comments: [],
   },
   {
@@ -190,10 +190,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 415,
     shares: 7,
     content:
-      "om yang tiap hari parkir jam setengah tujuh, tiga hari ini gak muncul. motornya gak ada. pos jadi sepi, gue sampe sempet rapikan tumpukan koran yang selama ini jadi sandaran dia.\nsemoga baik-baik aja. kadang orang hilang gitu aja, tanpa pamit, terus muncul lagi kayak gak ada apa-apa.",
+      "paman gue bagi video di grup keluarga: 'air garam bisa sembuhin sakit kepala'. gue balas itu gak ada dasar ilmiahnya, kasih dua link.\njawaban gue dianggap kurang ajar. sekarang grup sepi, dan gue dapet chat pribadi berderet nanyain kenapa gue marahin paman.\nGUE GAK MARAH. GUE CUMA KASIH LINK.\nudah. besok gue diam aja. video apa pun saya setuju. yang penting grup rukun dan gue gak jadi topik arisan",
     comments: [
-      { authorId: 199, minutesAgo: 406, content: "om tipe begitu biasanya muncul lagi mas, orang yang punya kebiasaan susah pindah" },
-      { authorId: 272, minutesAgo: 399, content: "rapikan koran itu tanda pos sudah jadi miliknya juga mas. semoga om-om itu sehat" },
+      { authorId: 199, minutesAgo: 406, content: "link dua itu yang bikin tersinggung biasanya. bukan isinya, tapi rasa disangkal di depan keluarga" },
+      { authorId: 272, minutesAgo: 399, content: "jurus diam itu akhir dari semua grup keluarga. setuju tanpa membahas, damai tanpa benar" },
     ],
   },
   {
@@ -202,9 +202,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 445,
     shares: 17,
     content:
-      "hujan dari subuh teh, lapangan kosong, payung nangkring di bawah meja, ceret kosong. cabai di karung masih bagus karena gak keburu lembap. satu pembeli dateng cuma buat bertanya kabar 😂\ndoain besok cerah ya teh-teh sekalian, dagangan gak tahan menunggu dua hari",
+      "pisang kemarin masih anget, hari ini mulai burik. hujan terus, pembeli yang mampir cuma satu, katanya lihat-lihat doang, ternyata beli tiga ikat kecil juga 😂\ngue pesan es teh ke tetangga lapak, gue anggep itu biaya mewek resmi.\nkalau besok masih hujan, gue sama tetangga lapak potong harga bareng-bareng. biar miskinnya rame, biar gak sendirian",
     comments: [
-      { authorId: 102, minutesAgo: 437, content: "semangat teh, musim begini memang ujian sabar buat kita yang jualan di lapangan 🙏" },
+      { authorId: 102, minutesAgo: 437, content: "pisang burik itu kandidat goreng. di tempat kami potong kecil-kecil jual gorengan, malah lebih cepet habis dari yang bagus" },
+      { authorId: 32, minutesAgo: 430, content: "yang cuma lihat-lihat itu setengah pembeli, sisanya cuma butuh waktu sebelum memutuskan. langganan gue yang paling setia dulu juga suka bilang 'cuma nengok'" },
     ],
   },
   {
@@ -213,10 +214,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 475,
     shares: 26,
     content:
-      "Rapat koordinasi tadi dari jam 10 sampai jam 12. Ada 23 slide presentasi, dua diagram yang tidak ada yang membaca, satu diskusi panas soal jadwal absensi. Keputusan akhirnya satu kalimat: 'diteruskan seperti sebelumnya.'\nAku pulang kerja lelah, tetapi kelelahannya bukan karena memikirkan angka, hanya karena menahan diri untuk tidak menghela napas terlalu keras di ruangan ber-AC.",
+      "ambil izin satu hari. rencananya: bersih-bersih, urus pengajuan reimbursement, jemput baju laundry.\nkenyataan jam 1 siang: masih di kasur nonton video orang jatuh dari sepeda. belum mandi. baju masih di laundry. reimbursement itu apa, mana inget.\naneh ya, pas kerja pengennya di rumah, pas di rumah malah gak bisa ngapa-ngapain.\nsisa satu jam lagi sebelum sore. ada yang punya saran cara memaksa diri, selain teriak",
     comments: [
-      { authorId: 243, minutesAgo: 466, content: "rapat begini itu gym mental non. yang paling pegal bukan tangan, tapi otot wajah yang jaga ekspresi" },
-      { authorId: 290, minutesAgo: 458, content: "satu kalimat setelah dua jam itu bukan kegagalan non. kadang itu tanda semua orang sudah sepaham" },
+      { authorId: 243, minutesAgo: 466, content: "reimbursement itu memang jenis urusan yang secara hukum tidak tertulis hanya bisa dikerjakan di hari kerja. aturan gak tertulis kantor" },
+      { authorId: 290, minutesAgo: 458, content: "video orang jatuh itu hiburan yang gak bisa dibantah. satu jam itu cukup buat mandi, sisanya dianggap besok" },
     ],
   },
   {
@@ -238,9 +239,9 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 535,
     shares: 14,
     content:
-      "semangka kemarin laku dikit. hari ini aku potongin dua buah buat contoh di depan lapak, merah banget untungnya. yang mampir cuma nengok-nengok doang, satu orang bahkan bilang 'besok ya om' padahal aku gak nawarin apa-apa.\nbesok coba lagi. kali ini taruh di posisi paling depan, siapa tau yang kemarin cuma pengen lihat jadi pengen beli.",
+      "baru sadar foto di ponsel gue isinya mangga semua. mangga ngantuk, mangga paling besar minggu ini, mangga yang dikira busuk ternyata enggak, mangga tetangga sebelah.\nipar gue nanya kenapa kayak album katalog. gue juga gak tau. lihat mangga bagus, tangan otomatis ambil ponsel.\nini normal gak sih, atau gue doang yang kayak petugas dokumentasi mangga",
     comments: [
-      { authorId: 178, minutesAgo: 527, content: "potongin contoh itu cara lama tapi masih ampuh om. orang percaya sama yang bisa dilihat, bukan yang diceritakan" },
+      { authorId: 178, minutesAgo: 527, content: "normal, tukang cukur juga suka foto rambut bagus entah buat apa. anggep aja arsip kebanggaan" },
     ],
   },
   {
@@ -249,9 +250,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 565,
     shares: 21,
     content:
-      "jam 8 malam ke atas, sinyal di depan kios sering susah dipakai. pelanggan tanya kenapa, gue jawab jujur: tidak tahu. bisa karena awan, bisa karena banyak orang membuka ponselnya bersamaan.\npelanggan mengangguk seperti mengerti, padahal kami dua-duanya sama-sama tidak paham.",
+      "ada yang isi pulsa salah satu digit. uangnya masuk ke nomor orang lain. dia panik, gue telpon nomor itu, bener diterima.\ngue bilang tadi ada salah kirim pulsa, bisa diantar balik? dia jawab 'nanti dulu ya, lagi rapat'.\nRAPAT. 25 ribu bikin dia punya rapat.\nsampe sekarang gue hafal suaranya, gak hafal mukanya. pulsa itu masih di sana, nganggur",
     comments: [
-      { authorId: 240, minutesAgo: 557, content: "jawaban jujur itu tipe jawaban yang paling sering bikin pelanggan balik lagi bos" },
+      { authorId: 240, minutesAgo: 557, content: "yang model gitu biasanya nyadar malemnya terus mampir malu-malu. tunggu aja, salah kirim di tempat gue dulu juga balik sendiri kok" },
+      { authorId: 139, minutesAgo: 549, content: "mungkin di dalam rapat itu dia justru mikirin 25 ribunya. kecil, tapi nyangkut" },
     ],
   },
   {
@@ -260,10 +262,10 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 595,
     shares: 14,
     content:
-      "Penumpang tadi pagi lupa ponselnya di jok belakang. Saya baru sadar sepuluh menit kemudian, langsung balik ke alamat pemesanan. Ia belum menyadari kehilangan, masih sibuk membuka pagar. Saat diserahkan, ia diam sebentar, lalu berkata terima kasih dua kali.\nTidak ada yang berlebihan. Hanya ponsel yang kembali dan orang yang bisa melanjutkan hari.",
+      "tempat nunggu order sore-sore itu deket lapangan. biasanya satu kelompok senam ibu-ibu, pake satu pengeras suara.\nminggu ini jadi dua kelompok. katanya gara-gara soal jadwal. sekarang satu di timur, satu di barat, dua-duanya nyala barengan, yang diputar beda.\npaling seru pas kebetulan tarinya sama tapi temponya beda. gue duduk di motor, nonton, sampe order masuk.\nbeberapa kali gue lupa lihat ponsel. sori ya yang order, pertunjukannya gratis",
     comments: [
-      { authorId: 283, minutesAgo: 586, content: "sepuluh menit balik arah itu murah dibanding satu hari panik, pak. kerja bagus" },
-      { authorId: 97, minutesAgo: 578, content: "ponsel saya pernah hilang di taksi dan tidak kembali pak 😭 senang membaca yang begini" },
+      { authorId: 283, minutesAgo: 586, content: "order gue yang tadinya nyebelin jadi kalem dengar cerita ini. lanjut nonton bang" },
+      { authorId: 97, minutesAgo: 578, content: "ponsel gue pernah hilang di angkot dan gak balik 😭 jadi nonton senam dua kelompok itu udah hiburan kelas satu" },
     ],
   },
   {
@@ -285,12 +287,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 655,
     shares: 19,
     content:
-      "Anakku hari ini menunjuk dua ekor kucing di halaman lalu berkata 'dua'. Bukan satu, bukan sembarangan, tetapi dua. Ibu minta mengulang, ia mengulang sambil menunjuk kucingnya satu-satu: satu, dua. Umurnya dua tahun tiga bulan, Alhamdulillah.\nSebentar lagi mungkin menghitung sampai sepuluh. Doakan saja ibu yang tidak sabar ini tidak mengajari anak berhitung sampai lupa menidurkannya siang 🙏",
+      "Anakku hari ini nunjuk dua kucing terus bilang dua. bukan satu, bukan sembarangan, bener dua. aku minta ulang, dia tunjuk satu-satu: satu, dua. umur dua tahun tiga bulan.\nmasalah baru sekarang: semua kucing jadi dua. tadi lewat satu kucing, dia tetap bilang dua. aku belum nemu cara ngecek bener atau nggak, soalnya kucing jarang nunggu di tempat",
     comments: [
-      { authorId: 77, minutesAgo: 647, content: "barakallah bu, fase begini cepat lewat, nikmatin sambil dicatat-catat kecil 🙏" },
-      { authorId: 59, minutesAgo: 640, content: "anakku dulu juga mulai dari kucing bu, dua kucing itu guru berhitung terbaik 😄" },
-      { authorId: 103, minutesAgo: 633, content: "jangan buru-buru ke sepuluh bu, dua itu sudah kejayaan. lanjutkan dengan barang berpasangan di rumah" },
-      { authorId: 309, minutesAgo: 625, content: "doa terbaik bu, anak sedang menghitung dunia sedikit demi sedikit" },
+      { authorId: 77, minutesAgo: 647, content: "fase ini cepet banget lewat, catat di ponsel aja, nanti dibaca ulang pasti lucu" },
+      { authorId: 59, minutesAgo: 640, content: "anakku dulu juga mulai dari kucing, lanjut ngitung beruang di TV 😄" },
+      { authorId: 103, minutesAgo: 633, content: "kalau jawabannya selalu dua, bilang aja dua itu nama panggilannya kucing. aman berbulan-bulan" },
+      { authorId: 309, minutesAgo: 625, content: "tergantung si kucingnya mau dihitung berapa. mereka juga punya pendapat" },
       { authorId: 24, minutesAgo: 616, content: "CUCU IBU PINTAR. KUCING DUA ITU GURU YANG SABAR." },
     ],
   },
@@ -300,7 +302,7 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 685,
     shares: 2,
     content:
-      "kuota sisa 0,3 GB. tanggal 14. ponsel bilang pembaruan sistem tersedia, ukuran 2,1 GB. gue tunda tiga hari. malam ini tanpa sengaja menyentuh tombol unduh saat pegangan gelap. sekarang dengar kipas ponsel bernafas seperti kereta malam.\nbesok jalan kaki ke kantor. gratis, sehat, selaras.",
+      "kuota sisa 0,3 GB. tanggal 14. ponsel bilang pembaruan sistem tersedia, 2,1 GB. gue tunda tiga hari. malam ini tanpa sengaja nyentuh tombol unduh pas pegangan gelap.\nsekarang gue dengar kipas ponsel bunyi kayak kereta malam.\nbesok ke kantor naik apa ya. jalan kaki 5 km gak kuat, angkot 2 ribu. keputusan besok pagi aja, sekarang yang penting gak megang tombol apapun lagi",
     comments: [
       { authorId: 318, minutesAgo: 677, content: "jalan kaki itu bukan hukuman bre, itu fitur bonus dari kecerobohan" },
     ],
@@ -311,12 +313,12 @@ export const THREADS_PART1: ThreadzThread[] = [
     minutesAgo: 715,
     shares: 12,
     content:
-      "CUCU AKU ULANGAN PERKALIAN BESOK. DIA MENGAJARI AKU 8×7. AKU JAWAB 54, DIA BILANG SALAH, HARUSNYA 56. AKU TANYA ASALNYA DARI MANA, DIA BILANG TINGGAL AMBIL 8×6 LALU TAMBAH 8 LAGI. PIKIRANNYA CEPAT SEKALI PADAHAL TADI MASIH NGANTUK MAKAN LONTONG.\nAKU PURA2 TIDAK TAHU APA-APA PADAHAL AKU HANYA INGIN DIA MERASA SEDANG MENGAJAR. DOAKAN NILAINYA BAGUS. KALAU BAGUS AKU BUATKAN MAKANAN KESUKAANNYA.",
+      "CUCU AKU MENGAJARI AKU PAKAI PONSEL. DIA BILANG BICARA SAJA, TULISANNYA JALAN SENDIRI. AKU BICARA SELAMAT PAGI SEMUA, TERNYATA MASUKNYA KE GRUP KOMUNITAS SEBELAH. MEREKA JAWAB 'PAGI MAK MBAK'. MAK BAK. SAYA NENEK.\nDIA JUGA BILANG JANGAN ASAL TERUSKAN PESAN. KENAPA? PESANNYA BAGUS-BAGUS. DIA BILANG ITU MASALAHNYA.\nSEKARANG AKU WAJIB TANYA DULU SEBELUM MENYEBAR APA PUN. BAIKLAH. BESOK AKU TANYA: PESAN MANA YANG BOLEH DITERUSKAN, PESAN MANA YANG DIHARAMKAN.",
     comments: [
-      { authorId: 81, minutesAgo: 707, content: "8×6 lalu tambah 8 itu cara yang benar mbak, anaknya paham strukturnya, doa kami ikut 🙏" },
-      { authorId: 63, minutesAgo: 700, content: "cucu bisa mengajar berarti dia paham sungguhan mbak, bukan sekadar hafal" },
-      { authorId: 187, minutesAgo: 693, content: "lontong terbukti lintas zaman sebagai hadiah belajar mbak" },
-      { authorId: 327, minutesAgo: 685, content: "metode pura2 tidak tahu itu ampuh mbak, cucu jadi merasa penting dan belajarnya makin semangat" },
+      { authorId: 81, minutesAgo: 707, content: "tersalah grup itu tradisi pembuka semua pemula mbak. yang penting disambut 'pagi mak', artinya orangnya ramah" },
+      { authorId: 63, minutesAgo: 700, content: "cucu sabar ngajar berarti dia ngerjainnya penuh perhatian, itu langka" },
+      { authorId: 187, minutesAgo: 693, content: "aturan 'tanya dulu' itu nanti sendirian longgar, tunggu aja sampai ada pesan yang benar-benar bagus mbak" },
+      { authorId: 327, minutesAgo: 685, content: "grup komunitas sebelah itu pintu masuk termudah, dari situ biasanya jadi langganan salam" },
     ],
   },
   {

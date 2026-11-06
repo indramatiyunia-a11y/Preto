@@ -111,7 +111,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "Kertas struk habis jam enam sore. Tukang kertas telat datang, sore ini sepi. Pelanggan satu per satu bilang tidak usah struk aja kak, hemat. Gue tetap tulis tangan di buku, satu per satu, karena ada pelanggan yang mengumpulkan struk untuk catatan belanja di rumah. Struk itu kecil, tetapi bagi sebagian orang itu ingatan belanja yang bisa diselamatkan.",
     comments: [
-      { authorId: 84, minutesAgo: 2507, content: "bener kak, struk itu arsip dapur. semoga tukang kertasnya cepat datang 🙏" },
+      { authorId: 84, minutesAgo: 2507, content: "kertas struk habis itu bencana kecil yang besarnya baru kerasa pas butuh. sekali beli sekalian banyak, gak mahal" },
     ],
   },
   {
@@ -281,7 +281,7 @@ export const THREADS_PART4: ThreadzThread[] = [
     content:
       "Hujan dua hari. Kebun becek, kasut saya lumpur sampai nyaris terbawa tanahnya. Tomat bergantung pada tongkat, daunnya menunduk. Saya tidak tahu itu sedih atau sedang menunduk karena berat. Cuaca tidak bisa disuruh, tanaman hanya bisa ditemani. Sore ini hujan berhenti, saya keluar membersihkan selokan kecil supaya air tidak menggenang lagi.\nBunga pacar di tepi kebun tetap mekar. Tanaman kecil itu tidak pernah menunggu keadaan sempurna.",
     comments: [
-      { authorId: 84, minutesAgo: 2927, content: "tanaman kecil yang tetap mekar itu nasihat gratis mbak. semangat ya, doa kami ikut 🙏" },
+      { authorId: 84, minutesAgo: 2927, content: "kasut lumpur itu seragam resmi kebun. sepatu gue juga udah gak tau warna aslinya" },
       { authorId: 71, minutesAgo: 2919, content: "kebun pas hujan itu ujian mbak, semoga tomatnya kuat 🙏" },
       { authorId: 272, minutesAgo: 2911, content: "menunduk karena berat itu bahasa yang tepat mbak. kadang begitu, bukan sedih" },
       { authorId: 313, minutesAgo: 2904, content: "membersihkan selokan itu kerja paling tidak terlihat tapi paling menyelamatkan mbak" },

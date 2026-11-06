@@ -61,7 +61,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       "guru matematika langganan warung nitip fotokopi soal 40 lembar, buat ulangan kelas 6 besok. dia bayar di muka, terus duduk nunggu sambil ngobrol sama pelanggan lain soal cara nyelametin anak yang takut matematika. gue fotokopi sambil dengar. dikit-dikit gue mikir: orang yang jago matematika aja masih mikirin cara bikin anak gak takut. berarti takut itu wajar banget ya",
     comments: [
       { authorId: 272, minutesAgo: 3137, content: "guru yang masih mikirin rasa takut muridnya itu guru yang hatinya utuh, dik" },
-      { authorId: 84, minutesAgo: 3129, content: "40 lembar itu ulangan yang disiapkan hati kak, semoga murid-muridnya lancar 🙏" },
+      { authorId: 84, minutesAgo: 3129, content: "40 lembar itu fotokopiannya gampang, yang susah nungguin mesinnya gak macet di lembar ke-37" },
     ],
   },
   {
@@ -97,9 +97,9 @@ export const THREADS_PART5: ThreadzThread[] = [
     minutesAgo: 3235,
     shares: 7,
     content:
-      "jam 05.50 handover.\nlaporan dua baris: pasien tidur nyenyak, teko kosong.\nshift berikutnya dateng lebih awal.\nbikin gue tenang.",
+      "catatan serah terima: kamar 7 urusan kecil, jangan panik.\nmasuk ternyata urusan kecil itu remot TV. pasien nunggu dari sore, gak ada yang ngecek, pasien udah hafal semua acara dari ingatan.\ngua ganti baterai. tetap mati. ternyata tombolnya yang rusak. dua jam gua buang buat remot yang sebenarnya udah pensiun.\ncatatan buat shift lain: kata kecil di laporan itu bohong, jangan dipercaya",
     comments: [
-      { authorId: 258, minutesAgo: 3227, content: "datang lebih awal untuk mengambil tangan yang lelah itu bahasa yang jarang ditulis di laporan, mbak" },
+      { authorId: 258, minutesAgo: 3227, content: "kata 'urusan kecil' itu kode semua shift, isinya gak pernah kecil. kemarin 'kecil' di tempat kami ternyata pintu freezer yang udah mati dua hari" },
     ],
   },
   {
@@ -113,7 +113,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 199, minutesAgo: 3257, content: "pekerjaan begini bang, yang diantar bukan cuma makanan, tapi jeda tidur orang lain" },
       { authorId: 272, minutesAgo: 3249, content: "5 menit mematikan mesin itu penghormatan paling murah dan paling mahal nilainya, bang" },
       { authorId: 137, minutesAgo: 3241, content: "bre catatan begini yang bikin gue gak bisa marah ke aplikasi" },
-      { authorId: 84, minutesAgo: 3234, content: "semoga anaknya tumbuh sehat bang, dan semoga jalan raya selalu baik ke kamu 🙏" },
+      { authorId: 84, minutesAgo: 3234, content: "catatan 'anak lagi tidur' itu yang bikin nyetir paling pelan seumur hidup. gua pernah, rasanya kayak jadi anggota keluarganya" },
     ],
   },
   {
@@ -181,7 +181,7 @@ export const THREADS_PART5: ThreadzThread[] = [
     content:
       "pembeli baru bertanya, teh, beda ayam kampung sama broiler apa ya? aku jelaskan pakai tangan: yang kampung jaganya panjang, badannya mungil, kulitnya lebih kuning; yang broiler jaganya pendek, badannya lebar. dia mendengar serius, mengangguk, lalu di akhir bilang: ambil yang murah aja teh. aku ketawa sampai penjual sebelah ikut ketawa. dua-duanya ayam teh, yang beda cuma ceritanya",
     comments: [
-      { authorId: 84, minutesAgo: 3437, content: "cerita teh selalu bikin senyum 😄 semangat ya di pasar" },
+      { authorId: 84, minutesAgo: 3437, content: "beda ayam kampung sama broiler itu kayak beda nasi hangat sama nasi dingin, jelas rasanya tapi susah dijelasin pakai kata" },
       { authorId: 102, minutesAgo: 3429, content: "yang murah itu broiler teh, tapi masak lama banget mah pakai kampung. dua-duanya punya jatah 🙏" },
       { authorId: 71, minutesAgo: 3421, content: "penjelasan pakai tangan itu lebih nempel dari diagram teh 😄" },
       { authorId: 262, minutesAgo: 3414, content: "kalimat terakhir itu dalam teh. yang beda memang ceritanya" },
@@ -235,7 +235,7 @@ export const THREADS_PART5: ThreadzThread[] = [
     content:
       "pelanggan ibu-ibu datang membawa ponselnya, minta dibacakan pesan dari sekolah anaknya. tulisannya kecil, kacamatanya tertinggal di rumah. gue bacakan pelan: jadwal umum besok, bawa alas kaki putih, pulang jam setengah satu. ibunya minta diulang dua kali, gue mengulang dua kali, lalu dia menyimpannya di kepala sambil mengucap alhamdulillah.\nkios pulsa itu kadang menjadi kantor informasi yang tidak masuk daftar layanan",
     comments: [
-      { authorId: 84, minutesAgo: 3557, content: "kios yang bisa dibacakan pesan sekolah itu kios yang dipercaya ibu-ibu bos 🙏" },
+      { authorId: 84, minutesAgo: 3557, content: "ibuk-ibuk begini kalau udah percaya satu kios, merek lain gak akan disentuh lagi. iklan apapun gak bisa ngalahin itu" },
     ],
   },
   {
@@ -261,7 +261,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 212, minutesAgo: 3617, content: "bagi sesuai pemakaian kak: kertas dan tinta per lembar. catat jumlah print per orang, dihitung mingguan. adil karena data, bukan karena rasa 🙃" },
       { authorId: 152, minutesAgo: 3609, content: "cara paling damai kak: patungan awal untuk printer, terus konsumsi dibayar siapa pakai. tidak ada utang psikologis" },
       { authorId: 318, minutesAgo: 3601, content: "yang print 120 lembar itu calon juara dunia ngeprint kak, ingatkan ada yang namanya rangkuman tangan" },
-      { authorId: 84, minutesAgo: 3593, content: "aturan yang jelas sejak awal itu bentuk sayang antar anak kos kak 🙏" },
+      { authorId: 84, minutesAgo: 3593, content: "bagi tinta itu urusan seumur hidup anak kos. usul: catat siapa nyetak berapa lembar, rekap bulanan, gak jalan baru ganti aturan" },
     ],
   },
   {

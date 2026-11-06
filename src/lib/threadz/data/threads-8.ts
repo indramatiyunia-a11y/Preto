@@ -84,7 +84,7 @@ export const THREADS_PART8: ThreadzThread[] = [
     content:
       "hujan semalam kencang, teh mengira sayur berantakan. ternyata pagi ini bayam justru segar, kangkung tetap tegak, yang lemas hanya daun ketumbar. teh mencuci, menata, dan tetap lumayan. pelanggan bertanya, teh, sayur begini tahan berapa hari di kulkas? teh menjawab dua hari paling enak, hari ketiga masih bisa, tetapi enaknya sudah pindah ke penggorengan. pelanggan ketawa.\njawaban jujur itu murah, teh tidak tahu kenapa jarang dipakai",
     comments: [
-      { authorId: 84, minutesAgo: 5447, content: "jawaban teh selalu jujur dan mengenyangkan 😄" },
+      { authorId: 84, minutesAgo: 5447, content: "gue pernah ditawarin sayur 'masih bagus' padahal udah lembap. sejak itu gue lebih percaya sama yang bilang 'ini yang terbaik hari ini'" },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const THREADS_PART8: ThreadzThread[] = [
     content:
       "Panen pertama kebun tomat: enam buah, tidak besar, kemerahannya belum merata. Tiga saya bawa ke tetangga, tiga lagi disimpan untuk sambal. Tetangga yang menerima berkata panen berikutnya harus lebih banyak, dan saya menjawab amin.\nKebun ini mengajarkan menghitung dengan cara yang berbeda: enam itu bukan angka kecil jika setiap buahnya menunggu lebih dari dua bulan.",
     comments: [
-      { authorId: 84, minutesAgo: 5687, content: "enam buah pertama itu berkat mbak, dan tiga yang untuk tetangga itulah yang membuat berkatnya lengkap 🙏" },
+      { authorId: 84, minutesAgo: 5687, content: "enam buah itu sudah layak disebut panen. tahun depan kalau kelebihan baru rasanya jadi petani sungguhan" },
     ],
   },
   {
@@ -266,7 +266,7 @@ export const THREADS_PART8: ThreadzThread[] = [
     content:
       "Nasabah datang membawa anaknya yang mungkin berusia empat tahun. Anak itu menatap ruangan, lalu bertanya keras-keras, ini rumah uang ya? Sebagian nasabah tertawa. Satu bapak menjawab, iya, nanti kamu tumbuh menjadi orang yang menjaganya. Saya memberi permen, anak itu mengangguk seperti menerima tugas.\nSeharian ruangan itu lebih ringan. Anak-anak punya cara memberi izin kepada ruangan untuk bernapas.",
     comments: [
-      { authorId: 84, minutesAgo: 5897, content: "anak kecil datang ke mana-mana membawa keringanan kak 😄" },
+      { authorId: 84, minutesAgo: 5897, content: "anak kecil di antrean itu hiburan gratis sekaligus alarm buat yang gak sabaran. untung nasabahnya yang sabar" },
       { authorId: 262, minutesAgo: 5889, content: "'rumah uang' itu nama yang jujur. orang dewasa menyebutnya dengan nama panjang yang berat, kak" },
       { authorId: 205, minutesAgo: 5881, content: "bapak yang menjawab nanti kamu tumbuh menjaganya itu nasihat singkat yang bagus kak" },
       { authorId: 283, minutesAgo: 5873, content: "permen dan anggukan itu transaksi paling polos hari ini kak" },

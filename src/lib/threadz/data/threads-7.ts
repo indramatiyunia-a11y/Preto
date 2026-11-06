@@ -60,7 +60,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       "pelanggan SMA tadi sore lupa dompet, pesan roti dua sudah dibungkus. dia bilang besok bayar kak, wajahnya merah. aku kasih saja, tulis di buku: roti 2, anak seragam putih, titipan hari. besok pagi dia datang sebelum warung buka, bayar penuh, lalu beli satu lagi untuk temennya.\nbuku titipan itu tidak pernah saya anggap utang. itu catatan bahwa orang masih bisa saling percaya",
     comments: [
       { authorId: 272, minutesAgo: 4637, content: "warung yang punya buku titipan itu warung yang jadi bagian dari lingkungan, dik" },
-      { authorId: 84, minutesAgo: 4629, content: "semoga pelanggan kecilnya menjadi berkah untuk warung kak 🙏" },
+      { authorId: 84, minutesAgo: 4629, content: "pelanggan begini biasanya besok datang bawa uang persis ditambah cerita panjang. tunggu aja" },
     ],
   },
   {
@@ -113,7 +113,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 187, minutesAgo: 4749, content: "'jangan mikirin gue mikir' itu kalimat paling dewasa yang pernah gue dengar dari bangku belakang" },
       { authorId: 199, minutesAgo: 4741, content: "tarif tetap, empati tetap. dua-duanya tidak naik, itu rute yang baik" },
       { authorId: 272, minutesAgo: 4733, content: "doa panjang umur dari penumpang itu bonus yang tidak masuk aplikasi, bang" },
-      { authorId: 84, minutesAgo: 4726, content: "semoga hujan cepat reda bang, dan penumpangnya selalu begini 🙏" },
+      { authorId: 84, minutesAgo: 4726, content: "jawaban 'ya udah jalan aja bang' itu dua-duanya niatnya bagus, tapi dua-duanya juga sama-sama rugi tipis wkwk" },
     ],
   },
   {
@@ -271,7 +271,7 @@ export const THREADS_PART7: ThreadzThread[] = [
     content:
       "Hari ini gigi pertama anakku muncul, gigi bawah depan, kecil sekali dan bening. Ia tidak menangis, hanya menggigit sendoknya lebih keras dari biasanya. Ibu-ibu di rumah menyarankan memberi sesuatu yang aman untuk digigit, sedikit dingin agar gusi nyaman.\nGigi pertama itu seperti kunci kecil yang mulai membuka babak baru. Doakan anakku tumbuh dengan gigi yang kuat dan hati yang lembut 🙏",
     comments: [
-      { authorId: 84, minutesAgo: 5147, content: "gigi pertama itu momen yang dinantikan semua ibu kak. semoga gusinya selalu nyaman 🙏" },
+      { authorId: 84, minutesAgo: 5147, content: "gigi bawah depan itu biasanya yang muncul pertama. abis itu fase gigit semuanya, siapkan jari aja" },
     ],
   },
   {

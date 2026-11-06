@@ -78,7 +78,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       "tadi siang ada pembeli jajan dua bungkus, gue salah kasih kembalian kelebihan 5.000. dia udah jalan 20 meter, balik lagi, naruh uangnya di meja sambil bilang 'kak, ini kelebihan tadi'. gue cuma bisa ngangguk karena geli dan malu campur.\nsekarang dia nambah satu orang yang gue hafal makanannya, karena orang begini gak mungkin gak balik lagi.",
     comments: [
       { authorId: 178, minutesAgo: 917, content: "orang jujur receh pun biasanya jadi langganan lama. layanan gue dobel buat dia mulai besok" },
-      { authorId: 84, minutesAgo: 910, content: "semoga rezekinya mudah kak, hati yang jujur receh biasanya dijaga 🙏" },
+      { authorId: 84, minutesAgo: 910, content: "pembeli begini kok jarang ya. gue malah pernah kelebihan kembalian, baru nyadar jam 3 sore, uangnya udah jadi bahannya nasi padang wkwk" },
       { authorId: 240, minutesAgo: 902, content: "gue dulu kerja di toko, pembeli begini yang bikin shift kerasa ringan" },
     ],
   },
@@ -103,7 +103,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     comments: [
       { authorId: 59, minutesAgo: 977, content: "betul kata bunda kak, garam itu ikut rasa. tamu lebih enak dikasih hambar sedikit daripada keasinan 😄" },
       { authorId: 219, minutesAgo: 970, content: "aturan praktisnya kak: bumbu kering naik penuh 1,25, garam naik dikit aja lalu dicicip. santan 500 ml sudah tepat" },
-      { authorId: 84, minutesAgo: 962, content: "semoga tamunya sehat kak, sup yang disiapkan hati biasanya pas rasanya 🙏" },
+      { authorId: 84, minutesAgo: 962, content: "gue masak sup cuma dua rasa: keasinan atau hambar, gak pernah pas. tamu lu mungkin beruntung" },
     ],
   },
   {
@@ -187,7 +187,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "benih tomat yang kutanam dua belas, tumbuh sembilan. tiga tidak muncul, entah karena hujan minggu lalu atau karena tanah di ujung kebun terlalu padat. yang tumbuh daunnya rimbun, membuang waktu sembilan hari menunggu tiga yang tidak datang. tetapi kebun itu memang tempat menunggu dengan sopan.",
     comments: [
-      { authorId: 84, minutesAgo: 1188, content: "sembilan dari dua belas itu bagus mbak, yang gak tumbuh kadang cuma butuh tempat lain. doa kami ikut 🙏" },
+      { authorId: 84, minutesAgo: 1188, content: "sembilan dari dua belas itu bagus kok, gue nanam cabe 20 yang tumbuh 4, sisanya gak tau ke mana, hilang tanpa jejak" },
     ],
   },
   {
@@ -269,7 +269,7 @@ export const THREADS_PART2: ThreadzThread[] = [
     content:
       "Nasabah lanjut usia hari ini kesulitan mengisi formulir buka rekening. Tangannya gemetar, matanya mencari kolom yang kecil-kecil. Saya tuliskan datanya dengan tulisan tangan sambil membacakan satu per satu, ia mengangguk di setiap baris. Setelah selesai, ia berkata terima kasih sudah sabar, anaknya tinggal di kota.\nSebentar saja sebenarnya, tetapi rasanya seperti membantu seseorang menyeberang.",
     comments: [
-      { authorId: 84, minutesAgo: 1397, content: "terima kasih atas kebaikannya kak, semoga rezekinya lancar 🙏" },
+      { authorId: 84, minutesAgo: 1397, content: "nasabah begini biasanya balik lagi terus minta sama orang yang sama. jadi beban emosional yang menyenangkan" },
       { authorId: 262, minutesAgo: 1389, content: "membacakan satu per satu itu hal kecil yang terasa besar bagi yang menerimanya" },
       { authorId: 283, minutesAgo: 1381, content: "anak di kota kalau tahu pasti senang. pelayanan begini yang bikin orang tenang ke bank" },
     ],

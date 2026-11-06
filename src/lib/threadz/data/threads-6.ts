@@ -84,7 +84,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     content:
       "bayam hari ini segar-segar. teh memasang tulisan di kardus: ambil dua ikat hemat. pembeli membaca, tersenyum, mengambil satu ikat, lalu bilang terima kasih teh. teh tidak marah, teh hanya berpikir, tulisan itu kalah senjata dengan dompet orang. besok teh coba tulis: ambil satu, dua juga boleh. siapa tahu bahasa terbalik lebih laku",
     comments: [
-      { authorId: 84, minutesAgo: 3947, content: "tulisan terbalik itu ide bagus teh, yang penting bayamnya habis 😄" },
+      { authorId: 84, minutesAgo: 3947, content: "tulisan terbalik malah jadi magnet, orang otomatis berhenti baca dua kali. promosi gratis" },
     ],
   },
   {
@@ -97,7 +97,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     comments: [
       { authorId: 59, minutesAgo: 3977, content: "sambal itu satu-satunya resep yang ikut suasana hati kak 😄 hitunganmu sudah bagus, sisanya diputuskan saat mencicipi" },
       { authorId: 219, minutesAgo: 3969, content: "rasionya tepat kak: 10 × (6/4) = 15. yang sering lupa: gula dan asam biasanya juga harus ikut naik 🙃" },
-      { authorId: 84, minutesAgo: 3961, content: "semoga tamunya sehat kak, sambal yang dihitung penuh kasih sayang biasanya habis duluan 🙏" },
+      { authorId: 84, minutesAgo: 3961, content: "sambal itu satu-satunya masakan yang bahannya bisa dihitung tapi rasanya tetap kejutan" },
       { authorId: 90, minutesAgo: 3954, content: "tambahan dari sesama ibu dapur kak: rawit dimasak duluan baru merah besar, urutan itu lebih menentukan daripada jumlahnya" },
     ],
   },
@@ -184,7 +184,7 @@ export const THREADS_PART6: ThreadzThread[] = [
     content:
       "Cabai di kebun memulai bunga pertama, dua tangkai, putih kecil menghadap ke bawah. Saya berdiri cukup lama sampai tetangga lewat bertanya sedang apa. Sedang menyaksikan awal, saya jawab. Tetangga itu ikut berdiri. Kami berdua menghadap bunga cabai seperti menonton sesuatu yang belum selesai. Semoga menjadi buah, semoga hujan tahu waktunya.",
     comments: [
-      { authorId: 84, minutesAgo: 4187, content: "doa untuk dua tangkai pertama mbak, semoga menjadi banyak buah 🙏" },
+      { authorId: 84, minutesAgo: 4187, content: "dua tangkai di awal itu sinyal bagus, cabai memang suka drama di awal musim" },
     ],
   },
   {
@@ -270,7 +270,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       "Nasabah hari ini ingin melakukan transfer pertama melalui mesin layanan sendiri. Ia menulis nomor rekening tujuan di kertas kecil, lalu bertanya, apakah salah sedikit saja uangnya bisa hilang? Saya membacakan digit satu per satu, ia mengulang, kami mencocokkan dua kali. Ia berkata terima kasih sudah menemani, seperti menemani orang membaca surat.\nMesin memproses dalam delapan detik. Yang lama bukan mesinnya. Yang lama adalah memastikan tidak ada yang salah.",
     comments: [
       { authorId: 262, minutesAgo: 4397, content: "delapan detik dibayar dengan dua kali pemeriksaan. itu matematika yang benar, kak" },
-      { authorId: 84, minutesAgo: 4389, content: "nasabah seperti itu beruntung bertemu petugas yang sabar kak 🙏" },
+      { authorId: 84, minutesAgo: 4389, content: "dibacakan digit satu-satu itu paling aman. gue pernah transfer salah satu digit, uangnya nyasar, panik satu hari" },
       { authorId: 283, minutesAgo: 4381, content: "menemani membaca surat itu perumpamaan yang tepat. transfer pertama itu surat yang tidak bisa diambil kembali" },
       { authorId: 205, minutesAgo: 4373, content: "pelayanan yang memeriksa dua kali itulah yang membuat orang mau kembali kak" },
     ],
