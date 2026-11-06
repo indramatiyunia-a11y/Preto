@@ -137,7 +137,39 @@ oleh scripts/audit-formula15.ts (pola A1-A8). Menulis ulang post tidak
 cukup kalau saudaranya dibiarkan hidup — itu yang menyebabkan kasus
 kembali terulang tiga kali.
 
-## BAGIAN 2 — FORMULA HITAM (17 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
+## BAGIAN 1G — SEBAB MUSABAB KEENAM (forum matematika + feed satu-suara + bahasa campur, 6 Nov 2026)
+
+Dua keluhan user berturut-turut (kutip asli):
+
+> "kalimat cerita kurang gue sukai, gue maunya topik pertanyaan-pertanyaan
+> matematika yang bener-bener beragam kayak disana ... semuanya seolah orang
+> yang sama bisa terdeteksi — ada orang nulis bahasa gaul, ada yang alim,
+> ada yang campur Inggris, ada yang pakai Arab, Francis, Spanyol, China"
+
+> "kalau pakai Arab ya FULL Arab, dipisahkan filenya biar mudah, bahasa
+> lainnya juga JANGAN di-mix ... ada yang nanya pakai Arab dan jawabannya
+> juga Arab, atau Inggris, begitu juga bahasa lainnya ... kita harus fokus
+> semua ke forum matematika, jangan cerita di luar forum"
+
+TIGA HUKUM BARU yang lahir dari sini:
+
+1. **FORUM MATEMATIKA.** SEMUA post wajib nyambung matematika: pertanyaan
+   soal, minta cek jawaban, konsep bingung, PR, koreksi miskonsepsi, panik
+   ulangan. Diary harian (renover tetangga, pisang buruk, senam ibu-ibu,
+   foto mangga) DIHAPUS dari feed — itu bukan isi forum ini.
+2. **BAHASA ASING = FULL BAHASA, FILE TERPISAH.** Post berbahasa Arab itu
+   100% Arab, Inggris 100% Inggris, dst — DILARANG post Indonesia yang
+   diembat bahasa asing, DILARANG juga post asing di file batch Indonesia.
+   Semua post bahasa asing tinggal di data/threads-intl.ts (id 9001+),
+   bahasa TIDAK boleh diruntut per bahasa dalam satu file, dan komentar
+   WAJIB dijawab dalam bahasa yang sama dengan post-nya. Post Arab tampil
+   RTL (arahTeks() di format.ts).
+3. **REGISTER MENYEBAR.** Dalam satu batch, suara tiap post HARUS beda:
+   baku, gaul, jamet, KAPITAL, daerah (teh/om/bang), pendek, panjang.
+   25 post yang terbaca seperti satu orang = satu penulis hantu = gagal
+   (lihat FORMULA HITAM 18).
+
+## BAGIAN 2 — FORMULA HITAM (19 pola, DILARANG KERAS, otomatis gagal audit manusiawi)
 
 1. **Log uang presisi.** 2+ nominal besar + hitung selisih/kurang
    ("masuk 1.200.000, kurang 40.000"). Angka besar rapi = alarm.
@@ -209,6 +241,20 @@ kembali terulang tiga kali.
       berjalan; kerja sama sudah.", "ia datang sendiri.").
     - KATA BENDERA BABAK TIGA: "pasrah", "akhirnya ... juga" sebagai
       lengkung resolusi.
+18. **SATU SUARA / REGISTER SERAGAM (sejak 6 Nov 2026 — BAGIAN 1G).**
+    Feed yang terbaca seperti ditulis satu orang hantu: sapaan sama,
+    ritme sama, level formal sama, mood sama. Tiap post WAJIB punya
+    register sendiri (baku/gaul/jamet/KAPITAL/daerah/pendek/panjang),
+    dan DILARANG satu sapaan mendominasi feed — bukan cuma "Bu", SEMUA
+    sapaan. Tes: baca 5 post berurutan acak. Kalau kedengaran satu
+    orang → gagal, tulis ulang.
+19. **POST NON-MATEMATIKA (sejak 6 Nov 2026 — BAGIAN 1G).** Diary harian
+    yang tidak nyambung matematika: renover tetangga, dagangan busuk,
+    senam berperang musik, video orang jatuh, presentasi kantor,
+    ponsel salah grup. Forum ini FORUM MATEMATIKA. Post harus lahir
+    dari soal, PR, konsep, jawaban, kepanikan ujian, atau pengalaman
+    yang PUSATNYA hitungan/bentuk/angka. Bahasa asing = threads-intl.ts
+    (full bahasa, komentar satu bahasa), BUKAN post Indonesia campuran.
 
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
@@ -235,9 +281,11 @@ Z", dan personifikasi benda. Satu temuan = satu blokir.
 
 ## BAGIAN 4 — 12 HUKUM V3
 
-1. **≥60% post = pertanyaan sungguhan, PR, atau momen manusia mentah.**
-   Pusat gravitasi feed: dunia sekolah/pelajar + matematika yang beneran
-   dipertanyakan. Bukan buku kas.
+1. **100% post nyambung matematika; ≥60% pertanyaan sungguhan, PR, atau
+   konsep yang bingung.** Pusat gravitasi feed: forum matematika seperti
+   situs referensi BAGIAN 3. Post non-matematika = FORMULA HITAM 19.
+   Bahasa asing = threads-intl.ts: full bahasa, komentar satu bahasa,
+   dilarang dicampur ke post Indonesia.
 2. **Panjang WAJIB menyebar.** Tiap 25 post: ±5 di bawah 130 char, ±8 di
    150-350, ±8 di 350-550, sisanya 550-800.
 3. **PUNCHLINE DILARANG.** Ending sah: pertanyaan, nyangkut tanpa
@@ -279,14 +327,15 @@ file, slot teknis tetap. Tabel status:
 
 | File        | Cuitan | Penulis | Status |
 | ----------- | ------ | ------- | ------ |
-| threads-1   | 1-25   | 1-25    | ✅ V3  |
-| threads-2   | 26-50  | 26-50   | ✅ V3  |
-| threads-3   | 51-75  | campur  | ✅ V3  |
-| threads-4   | 76-100 | campur  | ✅ V3  |
-| threads-5   | 101-125| 1-25    | ✅ V3  |
-| threads-6   | 126-150| 26-50   | ✅ V3  |
-| threads-7   | 151-175| 1-25    | ✅ V3  |
-| threads-8   | 176-200| 26-50   | ✅ V3  |
+| threads-1   | 1-25   | 1-25    | ✅ V5 (fokus matematika) |
+| threads-2   | 26-50  | 26-50   | ✅ V3 (V5 menyusul) |
+| threads-3   | 51-75  | campur  | ✅ V3 (V5 menyusul) |
+| threads-4   | 76-100 | campur  | ✅ V3 (V5 menyusul) |
+| threads-5   | 101-125| 1-25    | ✅ V3 (V5 menyusul) |
+| threads-6   | 126-150| 26-50   | ✅ V3 (V5 menyusul) |
+| threads-7   | 151-175| 1-25    | ✅ V3 (V5 menyusul) |
+| threads-8   | 176-200| 26-50   | ✅ V3 (V5 menyusul) |
+| threads-intl| 9001+  | 1051-1100 | ✅ INTL (full EN/AR/FR/ES/ZH) |
 
 Hasil rombak V3 (5 Nov 2026): 200 cuitan baru, 471 komentar, audit bersih,
 rotasi rapi (tiap penulis tepat 4 post), komentar menyebar 0-5, ada post
@@ -308,8 +357,9 @@ lebih kecil dari post-nya (diposting SETELAH post).
 
 Setelah 8 file selesai → lanjut ekspansi batch 5 (threads-9) sesuai
 protokol dev.sh, dengan RUMUS V3 sebagai isi. Cron payload WAJIB menyebut
-rumus-v2.md BAGIAN 2 (FORMULA HITAM, kini 17 pola), BAGIAN 1F, dan
-menyuruh menjalankan `bun scripts/audit-formula15.ts` sebelum commit.
+rumus-v2.md BAGIAN 2 (FORMULA HITAM, kini 19 pola), BAGIAN 1F, BAGIAN 1G,
+dan menyuruh menjalankan `bun scripts/audit-formula15.ts` sebelum commit.
+Post bahasa asing masuk threads-intl.ts (id 9001+), BUKAN file batch.
 
 **PENGGANDAAN PENULIS (sejak 6 Nov 2026, pidato user):** jangan lagi
 mengunci batch ke authorId 1-50. Tiap batch ekspansi WAJIB pakai 25
@@ -422,8 +472,11 @@ tetap, id 51-350 nama lama), dev.sh batch ekspansi WAJIB authorId baru (batch
 
 Format: `id → penulis: topik (aspek matematika)`.
 
-**threads-1 (1-25) — V4 rombak 6 Nov 2026 (anti-sastra, persona lepas):**
-1 → 1: anak nanya 10−0,5, ibu ikut bingung, minta jelasin pakai benda · 2 → 2: integral +C itu jawaban atau pelangi (panik PR) · 3 → 3: murid kelas 5 ngeyel (−2)×(−3)=6, guru remuk bersama murid · 4 → 4: tetangga renover bor dari jam 8 pagi, WFH hancur · 5 → 5: 1 gelas beras berapa gram, google jawab beda-beda · 6 → 6: 0,1+0,2 = 0,30000000000000004 (floating point) · 7 → 7: sheet Excel 96 baris hilang, belum tersimpan · 8 → 8: loker macet pas mau pulang, nunggu satpam, charger ketinggalan di ruang jaga · 9 → 9: navigasi bilang 4 menit = ternyata jalan bawah + hujan · 10 → 10: kuis dadak matriks, kira determinan = nambahin semua angka · 11 → 11: naik 20% turun 20% = 96 bukan 100 (jebakan persen) · 12 → 12: alarm infus bunyi-mati sendiri, perang dingin jam 3 pagi · 13 → 13: kubus volume 125, jawab 25 salah, rusuk 5 · 14 → 14: paman bagi video air garam, gue kasih link, dianggap kurang ajar · 15 → 15: hujan terus, pisang mulai burik, potong harga bareng tetangga lapak · 16 → 16: izin sehari, kenyataan nonton video orang jatuh di kasur · 17 → 17: rambu kemiringan 15% itu tan bukan derajat · 18 → 18: foto ponsel isinya mangga semua, album katalog · 19 → 19: pulsa salah kirim 25 ribu, penerima 'lagi rapat' · 20 → 20: senam ibu-ibu terpecah dua kelompok, musik berperang · 21 → 21: nasi 1 liter beras buat 3 orang kebanyakan, tim ruas jari vs rasio · 22 → 22: anak bilang 'dua' tunjuk dua kucing, semua kucing jadi dua · 23 → 23: update 2,1 GB tersentuh sisa kuota 0,3 GB · 24 → 24: nenek diajari cucu voice-to-text, tersalah grup komunitas · 25 → 25: presentasi pertama, gemetar, atasan cuma nod, es krim penutup
+**threads-1 (1-25) — V5 rombak 6 Nov 2026 (fokus forum matematika + register menyebar):**
+1 → 1: anak ngeyel 10−0,5 = 9,05, ibu minta jelasin nilai tempat pakai benda · 2 → 2: limit (x²−4)/(x−2) di x=2 = 0/0, bolehkah coret (x−2) · 3 → 3: murid nanya kenapa penjumlahan komutatif pengurangan bukan · 4 → 4: dua cara itung 15% × 240.000 hasil sama, mana yang dianggap bener · 5 → 5: kembalian 50rb − 27.500 = 22.500 dianggap gak genap, minta trik hitung mundur (0 komen) · 6 → 6: yakin −5 > −2 (salah, dikoreksi garis bilangan/utang) · 7 → 7: kuesioner Likert ada responden 5 semua, mean vs median vs modus · 8 → 8: dosis 120 mg/5 ml, order 300 mg = 12,5 ml, minta mastiin · 9 → 9: tarif ojol 2 km 5rb + 1.500/km, 12 km = 20rb + layanan = 21.500 · 10 → 10: barisan 3,7,11,15, rumus Un=4n−1, U10=39 · 11 → 11: Excel total 1.243.500 vs manual 1.243.000, urusan pembulatan tampilan · 12 → 12: infus 1.000 ml ÷ 8 jam = 125 ml/jam (pendek, 0 komen) · 13 → 13: 3x+7=22, gue dapat 5, temen dapat 4 (gue bener) · 14 → 14: parkir 5 jam = 2rb + 4×1rb = 6rb, om ngeyel (pendek) · 15 → 15: ikat 2.500 × 4 = 10rb vs kilo 12rb, kenapa beda 2rb · 16 → 16: absen 08.15–17.30 minus istirahat = 8j15m, pembulatan HRD 8 jam · 17 → 17: 2,5 kN = 2.500 ÷ 9,81 ≈ 255 kgf, vs cara kasar 250 · 18 → 18: 3 rusak dari 24 = 12,5% (bukan 3%), tiap 8 buah 1 rusak · 19 → 19: kuota 3.500 MB + 750 MB = 4,25 GB (basis 1000) vs 4,15 (basis 1024) · 20 → 20: motor 20 km/l, bandara 85 km, tangki 5 L cukup (4,25 L) · 21 → 21: 3 gelas × 250 ml, air 2× = 1,5 L pas di rice cooker 1,5 L · 22 → 22: anak 2+3 bisa 3+2 bingung (komutatif belum otomatis) · 23 → 23: 750 MB di 10 Mbps teori 10 menit kenyataan 14 (71% efisiensi) · 24 → 24: separuh dari 11 = 5,5, soal kue boleh desimal gak · 25 → 25: 18 slide / 10 menit = 33 detik per slide, masuk akal gak
+
+**threads-intl (9001+) — dibentuk 6 Nov 2026 (BAGIAN 1G, full bahasa asing, file terpisah):**
+9001 → 1051 (AR): 2س+5=17 → س=6 minta langkah · 9005 → 1063 (EN): 3x−7=11, x=6 vs klaim 5 · 9010 → 1071 (FR): 5x+3=2x+15 → x=4 · 9013 → 1080 (ES): x²−9=0 → ±3 · 9016 → 1089 (ZH): 2x−4=10 → x=7 · 9002 → 1054 (AR): 4000 diskon 25% = 3000 (25% = ÷4) · 9006 → 1066 (EN): kenapa x⁰=1 (pola ÷2 = alasan) · 9011 → 1074 (FR): 0,999… = 1 (10x−x) · 9014 → 1083 (ES): 3 ayam 3 hari 3 telur → 9 ayam 9 hari = 27 · 9017 → 1092 (ZH): kenapa 0次方=1 · 9003 → 1057 (AR): س²−5س+6=0 → س=2,3 · 9007 → 1069 (EN): P(merah) 4/10 = 2/5 sah · 9012 → 1077 (FR): PPCM(12,18)=36 bukan 72 · 9015 → 1086 (ES): 15% × 240 = 36 · 9018 → 1095 (ZH): 鸡兔同笼 鸡23 兔12 · 9004 → 1060 (AR): 1/2+1/3=5/6 bukan 2/5 · 9008 → 1064 (EN): aturan hasil kali turunan x·sin x · 9009 → 1065 (EN): harga asli jaket diskon 20% = 100 bukan 96. ATURAN: bahasa post = bahasa jawaban; dilarang campur; id 9001-9100 cadangan intl; penulis & komentator pakai INTERNASIONAL (1051-1100).
 
 **threads-2 (26-50):**
 26 → 26: penumpang lansia minta pelan, dengerin cerita · 27 → 27: 3 dari 60 dus rusak, vendor gak balas (rasio kecil) · 28 → 28: jelasin ke temen malah makin bingung (meta mengajar) · 29 → 29: baca nonius jangka sorong 0,02 mm (ukur) · 30 → 30: si anak: "kenapa ngerjain cara panjang kalau ada kalkulator" · 31 → 31: pembeli balikin kembalian kelebihan (jujur) · 32 → 32: ikat kangkung mengecil harga tetap (ukur) · 33 → 33: resep 4 porsi naik ke 5 (×1,25, garam ikut gak) · 34 → 34: kucing pos ikut ronde jam 2 (jam) · 35 → 35: semua orang lompat bareng, bumi geser gak (fisika) · 36 → 36: hafalan 22 tulang tengkorak kebalik-balik · 37 → 37: lampu sorot tetangga mati sendiri jam 10 (jam) · 38 → 38: sudut lancip/tumpul di rumah (jam dinding, atap) · 39 → 39: trik perkalian 11 (23×11=253) · 40 → 40: benih 12 tumbuh 9 (bercacah) · 41 → 41: alamat "rumah biru deket pohon nangka", ada TIGA (hitung rumah) · 42 → 42: anak kos mau ganti lampu sendiri (izin) · 43 → 43: jam istirahat molor gara2 sabuk mesin, botol ketinggalan di loker 3 hari (waktu) · 44 → 44: telur dadar gosong, api sedang vs besar (panas) · 45 → 45: jalan pagi 30 menit, kucing tikungan, ikan · 46 → 46: salah cetak nama sekolah 6 lembar (lembar) · 47 → 47: nasabah lansia, formulir ditulisin tangan · 48 → 48: buku telat 3 hari, "maaf" bocah · 49 → 49: bocah minta gaya poster (potong rambut) · 50 → 50: pelanggan level pedas 7, habis, gue menangis

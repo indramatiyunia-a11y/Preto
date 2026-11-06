@@ -31,6 +31,12 @@
 #      - menit : minutesAgo(id) = 25 + 30*(id-1)  (makin besar = makin lama)
 #      - komentar: kampung akun harus nyambung (peta di sidik-jari.md),
 #        register online, turun minutesAgo-nya, gak ada dobel/self-reply
+#      - SEMUA post WAJIB nyambung matematika (forum matematika, bukan diary);
+#        register tiap post HARUS beda suara (FORMULA HITAM 18)
+#      - post bahasa asing (full Arab/EN/FR/ES/ZH) TIDAK masuk file batch:
+#        taruh di threads-intl.ts, komentar dijawab dalam bahasa yang sama,
+#        id 9001+ (rumus-v2.md BAGIAN 1G — dilarang bahasa campur di post
+#        Indonesia, dilarang post asing di file batch)
 #   5. Daftarkan part baru di src/lib/threadz/threads.ts (import + spread)
 #   6. ./dev.sh check sampai BERSIH (audit + validasi + lint)
 #   7. Update BUKU BESAR TOPIK di scripts/rumus-v2.md + sidik-jari.md (tabel per penulis)
@@ -52,7 +58,9 @@ TARGET=1000
 BSIZE=25
 
 hitung_post() {
-  grep -hE '^[[:space:]]+id:[[:space:]]*[0-9]+' src/lib/threadz/data/threads-*.ts | wc -l | tr -d ' '
+  # hitung post batch Indonesia saja (threads-<angka>.ts) — threads-intl.ts
+  # (post bahasa asing, id 9001+) dihitung terpisah, bukan bagian batch.
+  grep -hE '^[[:space:]]+id:[[:space:]]*[0-9]+' src/lib/threadz/data/threads-[0-9]*.ts | wc -l | tr -d ' '
 }
 
 spesifikasi_batch() {

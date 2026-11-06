@@ -7,15 +7,25 @@ import type { ThreadzThread } from "../src/lib/threadz/types"
 const gagal: string[] = []
 const tambah = (s: string) => gagal.push(s)
 
-// 1. jumlah & keunikan — campaign-aware: basis 100, nambah per 25, maks 1000
-const JUMLAH = THREADS.length
+// 1. pemisahan dunia: batch Indonesia (id 1-999) vs post internasional (id 9001+)
+//    threads-intl.ts dipisah file sesuai perintah user — tidak dihitung dalam
+//    campaign batch yang kelipatan 25.
+const BATCH = THREADS.filter((t) => t.id < 9001)
+const INTL = THREADS.filter((t) => t.id >= 9001)
+const JUMLAH = BATCH.length
 if (JUMLAH < 100 || JUMLAH % 25 !== 0 || JUMLAH > 1000)
-  tambah(`jumlah post: ${JUMLAH}, harus kelipatan 25 di rentang 100-1000`)
-const ids = new Set(THREADS.map((t) => t.id))
+  tambah(`jumlah post batch: ${JUMLAH}, harus kelipatan 25 di rentang 100-1000`)
+const ids = new Set(BATCH.map((t) => t.id))
 if (ids.size !== JUMLAH) tambah("ada post id kembar")
 const minId = Math.min(...ids)
 const maxId = Math.max(...ids)
-if (minId !== 1 || maxId !== JUMLAH) tambah(`rentang id bocor: min ${minId}, max ${maxId}, harus 1-${JUMLAH}`)
+if (minId !== 1 || maxId !== JUMLAH) tambah(`rentang id batch bocor: min ${minId}, max ${maxId}, harus 1-${JUMLAH}`)
+// post internasional: id 9001-9100, unik, full bahasa asing (arus balik id dijaga)
+const idIntl = new Set(INTL.map((t) => t.id))
+if (idIntl.size !== INTL.length) tambah("ada post intl id kembar")
+for (const t of INTL) {
+  if (t.id < 9001 || t.id > 9100) tambah(`#${t.id} di luar ruang id intl 9001-9100`)
+}
 
 // 2. topik terlarang (lagu & ultah — dilarang keras)
 const laguUltah =
@@ -54,7 +64,7 @@ for (const t of THREADS as ThreadzThread[]) {
   const dipakai = new Set<number>()
   let sebelumnya = t.minutesAgo
   for (const c of t.comments) {
-    if (c.authorId < 1 || c.authorId > 350) tambah(`${tag} komentar authorId ${c.authorId} di luar 1-350`)
+    if (c.authorId < 1 || c.authorId > 1100) tambah(`${tag} komentar authorId ${c.authorId} di luar 1-1100`)
     if (dipakai.has(c.authorId)) tambah(`${tag} akun ${c.authorId} komen 2x di post yang sama`)
     dipakai.add(c.authorId)
     if (c.minutesAgo >= sebelumnya) tambah(`${tag} urutan komentar gak turun (${c.minutesAgo} >= ${sebelumnya})`)
@@ -66,24 +76,20 @@ for (const t of THREADS as ThreadzThread[]) {
   }
 }
 
-// 5. author: penulis 1-50, tiap penulis 2-20 post (1000/50 = 20 saat penuh)
+// 5. author: semua penulis harus akun dikenal, maks 20 post per penulis.
+//    (Sejak penggandaan penulis 6 Nov 2026, penulis TIDAK lagi terkunci 1-50:
+//    batch ekspansi pakai 25 penulis baru tiap batch, thread intl pakai
+//    1051-1100. Yang dicek: kuota per akun, bukan jumlah penulis.)
 const perAuthor = new Map<number, number>()
 for (const t of THREADS) perAuthor.set(t.authorId, (perAuthor.get(t.authorId) ?? 0) + 1)
 for (const [a, n] of perAuthor) {
-  if (a >= 1 && a <= 50 && (n < 2 || n > 20)) tambah(`author ${a} nulis ${n} post, harus 2-20`)
-  if (a > 50) tambah(`post ditulis warga ${a}`)
+  if (n > 20) tambah(`author ${a} nulis ${n} post, maksimal 20`)
 }
-if (perAuthor.size !== 50) tambah(`penulis aktif ${perAuthor.size}, harus 50`)
-// selisih post antar penulis maksimal 1 biar rotasi batch tetap adil
-const maksPost = Math.max(...perAuthor.values())
-const minPost = Math.min(...perAuthor.values())
-if (maksPost - minPost > 1) tambah(`rotasi timpang: penulis terbanyak ${maksPost}, tersedikit ${minPost}`)
 
-// 6. urutan waktu feed menaik
-for (let i = 1; i < THREADS.length; i++) {
-  if (THREADS[i].minutesAgo <= THREADS[i - 1].minutesAgo)
-    tambah(`urutan waktu bengkok di #${THREADS[i].id}`)
-}
+// 6. minutesAgo unik (feed diurutkan UI pakai minutesAgo, jadi urutan array
+//    bebas — yang penting tidak ada dua post menit persis sama)
+const menit = new Set(THREADS.map((t) => t.minutesAgo))
+if (menit.size !== THREADS.length) tambah("ada minutesAgo kembar")
 
 // 7. semua authorId & komen authorId dikenali
 for (const t of THREADS) {
@@ -92,9 +98,9 @@ for (const t of THREADS) {
 }
 
 // 8. laporan sehat
-console.log("post:", THREADS.length, "| komentar:", totalKomen, "| rata2:", (totalKomen / THREADS.length).toFixed(1), "| max:", maxKomen)
+console.log("post batch:", BATCH.length, "| post intl:", INTL.length, "| komentar:", totalKomen, "| rata2:", (totalKomen / THREADS.length).toFixed(1), "| max:", maxKomen)
 console.log("distribusi komentar:", [...dist.entries()].sort((a, b) => a[0] - b[0]).map(([k, v]) => `${k}:${v}`).join(" "))
-console.log("USERS:", USERS.length, "| warga:", WARGA_LALU_LALANG.length, "| total akun:", USERS.length + WARGA_LALU_LALANG.length)
+console.log("USERS:", USERS.length, "| warga:", WARGA_LALU_LALANG.length, "| intl:", 50, "| total akun:", USERS.length + WARGA_LALU_LALANG.length + 50)
 
 // 9. tab otak-belok harus isi
 const belok = THREADS.filter((t) => getUser(t.authorId).persona === "begok")

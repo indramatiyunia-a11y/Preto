@@ -115,7 +115,67 @@ function bangunWarga(): ThreadzUser[] {
 
 export const WARGA_LALU_LALANG: ThreadzUser[] = bangunWarga()
 
-const SEMUA_WARGA: ThreadzUser[] = [...USERS, ...WARGA_LALU_LALANG]
+// ---------------------------------------------------------------------------
+// Warga internasional (id 1051-1100). Penulis & komentator post bahasa asing
+// di threads-intl.ts (full Arab / Inggris / Prancis / Spanyol / Mandarin —
+// perintah user 6 Nov 2026: bahasa asing itu FULL bahasanya, jangan di-campur,
+// komentar dijawab dalam bahasa yang sama). Nama tetap sistem situs:
+// akiomida + 8 angka. Postingan Arab = RTL, dibaca arahTeks() di format.ts.
+// ---------------------------------------------------------------------------
+export const INTERNASIONAL: ThreadzUser[] = [
+  { id: 1051, name: "akiomida20735641", color: "#22d3ee", persona: "awam" },
+  { id: 1052, name: "akiomida51386092", color: "#34d399", persona: "ahli" },
+  { id: 1053, name: "akiomida68420937", color: "#a78bfa", persona: "awam" },
+  { id: 1054, name: "akiomida31920758", color: "#fb923c", persona: "awam" },
+  { id: 1055, name: "akiomida86104273", color: "#4ade80", persona: "ahli" },
+  { id: 1056, name: "akiomida40276598", color: "#f43f5e", persona: "awam" },
+  { id: 1057, name: "akiomida73918204", color: "#38bdf8", persona: "awam" },
+  { id: 1058, name: "akiomida15608347", color: "#84cc16", persona: "ahli" },
+  { id: 1059, name: "akiomida92457031", color: "#e879f9", persona: "awam" },
+  { id: 1060, name: "akiomida27830946", color: "#f59e0b", persona: "awam" },
+  { id: 1061, name: "akiomida60591782", color: "#2dd4bf", persona: "ahli" },
+  { id: 1062, name: "akiomida48362510", color: "#a3e635", persona: "awam" },
+  { id: 1063, name: "akiomida75129386", color: "#818cf8", persona: "awam" },
+  { id: 1064, name: "akiomida30967425", color: "#fbbf24", persona: "awam" },
+  { id: 1065, name: "akiomida82740359", color: "#7dd3fc", persona: "begok" },
+  { id: 1066, name: "akiomida19485760", color: "#10b981", persona: "ahli" },
+  { id: 1067, name: "akiomida63820951", color: "#c084fc", persona: "ahli" },
+  { id: 1068, name: "akiomida54207183", color: "#fdba74", persona: "awam" },
+  { id: 1069, name: "akiomida97134086", color: "#d6a06a", persona: "awam" },
+  { id: 1070, name: "akiomida26187430", color: "#6ee7b7", persona: "ahli" },
+  { id: 1071, name: "akiomida70845269", color: "#f0abfc", persona: "awam" },
+  { id: 1072, name: "akiomida13956028", color: "#86efac", persona: "ahli" },
+  { id: 1073, name: "akiomida84569317", color: "#a5b4fc", persona: "awam" },
+  { id: 1074, name: "akiomida36208479", color: "#f9a8d4", persona: "awam" },
+  { id: 1075, name: "akiomida59034618", color: "#fcd34d", persona: "ahli" },
+  { id: 1076, name: "akiomida41725803", color: "#94a3b8", persona: "awam" },
+  { id: 1077, name: "akiomida68371092", color: "#5eead4", persona: "awam" },
+  { id: 1078, name: "akiomida92506841", color: "#bef264", persona: "ahli" },
+  { id: 1079, name: "akiomida15083974", color: "#f87171", persona: "awam" },
+  { id: 1080, name: "akiomida87465320", color: "#fb7185", persona: "awam" },
+  { id: 1081, name: "akiomida23590746", color: "#d8b4fe", persona: "ahli" },
+  { id: 1082, name: "akiomida61948257", color: "#d946ef", persona: "awam" },
+  { id: 1083, name: "akiomida45683290", color: "#9f6b53", persona: "awam" },
+  { id: 1084, name: "akiomida78051623", color: "#b08968", persona: "ahli" },
+  { id: 1085, name: "akiomida39471068", color: "#14b8a6", persona: "awam" },
+  { id: 1086, name: "akiomida82360491", color: "#f97316", persona: "awam" },
+  { id: 1087, name: "akiomida57024136", color: "#eab308", persona: "ahli" },
+  { id: 1088, name: "akiomida90638547", color: "#a855f7", persona: "awam" },
+  { id: 1089, name: "akiomida14652083", color: "#ec4899", persona: "awam" },
+  { id: 1090, name: "akiomida67102945", color: "#38bdf8", persona: "ahli" },
+  { id: 1091, name: "akiomida30487619", color: "#84cc16", persona: "awam" },
+  { id: 1092, name: "akiomida85729304", color: "#f43f5e", persona: "awam" },
+  { id: 1093, name: "akiomida49018562", color: "#22d3ee", persona: "ahli" },
+  { id: 1094, name: "akiomida72854016", color: "#a78bfa", persona: "awam" },
+  { id: 1095, name: "akiomida26379408", color: "#fb923c", persona: "awam" },
+  { id: 1096, name: "akiomida63850197", color: "#34d399", persona: "ahli" },
+  { id: 1097, name: "akiomida91406285", color: "#f59e0b", persona: "awam" },
+  { id: 1098, name: "akiomida47583092", color: "#e879f9", persona: "awam" },
+  { id: 1099, name: "akiomida08692531", color: "#4ade80", persona: "begok" },
+  { id: 1100, name: "akiomida73946085", color: "#22d3ee", persona: "awam" },
+]
+
+const SEMUA_WARGA: ThreadzUser[] = [...USERS, ...WARGA_LALU_LALANG, ...INTERNASIONAL]
 
 const USER_MAP = new Map(SEMUA_WARGA.map((u) => [u.id, u]))
 

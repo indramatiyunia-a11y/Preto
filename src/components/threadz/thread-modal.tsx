@@ -5,6 +5,7 @@ import { Dialog, DialogClose, DialogContent, DialogTitle } from "@/components/ui
 import { SendHorizontal, X } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
+import { arahTeks } from "@/lib/threadz/format"
 import { Avatar } from "./avatar"
 
 export interface LiveComment {
@@ -45,7 +46,7 @@ function CommentRow({
         <span className="block truncate text-[12.5px] font-semibold leading-tight text-stone-800">
           {name}
         </span>
-        <p className="mt-0.5 whitespace-pre-wrap break-words text-[14.5px] leading-relaxed text-stone-700">
+        <p dir={arahTeks(content)} className="mt-0.5 whitespace-pre-wrap break-words text-[14.5px] leading-relaxed text-stone-700">
           {content}
         </p>
       </div>
@@ -113,7 +114,7 @@ export function ThreadModal({
             <Avatar name={author.name} color={author.color} size={42} />
             <div className="min-w-0 flex-1">
               <span className="text-[14px] font-semibold text-stone-900">{author.name}</span>
-              <p className="mt-1.5 whitespace-pre-wrap text-[15.5px] leading-relaxed text-stone-800">
+              <p dir={arahTeks(thread.content)} className="mt-1.5 whitespace-pre-wrap text-[15.5px] leading-relaxed text-stone-800">
                 {thread.content}
               </p>
             </div>

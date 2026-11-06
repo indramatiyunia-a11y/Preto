@@ -10,6 +10,15 @@ export function formatMinutesAgo(minutes: number): string {
   return `${weeks} mgg`
 }
 
+/**
+ * Arah tulis teks: Arab (aksara U+0600-U+06FF) tampil RTL biar kebaca bener,
+ * sisanya LTR. Dipakai post & komentar — feed internasional, bahasa asing
+ * FULL bahasanya (threads-intl.ts).
+ */
+export function arahTeks(text: string): "rtl" | "ltr" {
+  return /[\u0600-\u06FF]/.test(text) ? "rtl" : "ltr"
+}
+
 /** 12345 -> "12,3 rb" */
 export function formatCount(n: number): string {
   if (n >= 1000) {

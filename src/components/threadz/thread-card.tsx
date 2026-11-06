@@ -3,6 +3,7 @@
 import { MessageCircle, Share2 } from "lucide-react"
 import type { ThreadzThread } from "@/lib/threadz/types"
 import { getUser } from "@/lib/threadz/data/users"
+import { arahTeks } from "@/lib/threadz/format"
 import { Avatar } from "./avatar"
 
 interface ThreadCardProps {
@@ -28,7 +29,7 @@ export function ThreadCard({ thread, visitor, onOpen, onShare }: ThreadCardProps
         <span className="truncate font-semibold text-stone-900">{author.name}</span>
       </div>
 
-      <p className="mt-2.5 whitespace-pre-wrap text-[15.5px] leading-[1.65] text-stone-800">
+      <p dir={arahTeks(thread.content)} className="mt-2.5 whitespace-pre-wrap text-[15.5px] leading-[1.65] text-stone-800">
         {thread.content}
       </p>
 

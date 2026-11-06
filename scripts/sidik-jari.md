@@ -94,8 +94,14 @@ Akun utama 1–50 boleh nyempil sesekali (tetap nyambung dunia postnya).
 
 **PENGGANDAAN PENULIS (6 Nov 2026):** pool penulis batch ekspansi = akun 51+.
 BATCH 5 (id 201–225) WAJIB authorId 51–75; BATCH 6 (226–250) authorId 76–100;
-dst. DILARANG kembali memutar pool 1–50. users.ts kini 1050 akun (seed tetap,
+dst. DILARANG kembali memutar pool 1–50. users.ts kini 1100 akun (seed tetap,
 nama id 51–350 tidak berubah).
+
+**KAMPUNG INTERNASIONAL (6 Nov 2026, BAGIAN 1G):** akun 1051–1100 di users.ts
+(INTERNASIONAL) = penulis & komentator threads-intl.ts (post FULL Arab /
+Inggris / Prancis / Spanyol / Mandarin, id 9001+). Komentar WAJIB satu bahasa
+dengan post-nya. Post Indonesia DILARANG mengembat bahasa asing. Post Arab
+tampil RTL via arahTeks().
 
 ## SIDIK JARI PENULIS (1–50) — ringkasan suara
 
