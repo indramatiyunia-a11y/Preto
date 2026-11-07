@@ -603,7 +603,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 5083, content: "06.45 jalan 10 menit nyampe 06.55. sisa 5. mepet banget kemarin ya" },
       { authorId: 87, minutesAgo: 5066, content: "kucing di depan gerbang itu alarm alami mbak" },
       { authorId: 275, minutesAgo: 5048, content: "06.40 + 10 menit jalan = 06.50. sisa 10. dua kali dicek" },
-      { authorId: 190, minutesAgo: 4760, content: "anak yang suka hitung sisa waktu itu gak akan telat besok" },
+      { authorId: 190, minutesAgo: 4760, content: "anak yang suka hitung sisa waktu, besok gak akan telat" },
       { authorId: 123, minutesAgo: 4740, content: "5 menit vs 10 menit. selisihnya kucing mbak wkwk" },
       { authorId: 286, minutesAgo: 4720, content: "nenek pura-pura tau itu teknik pengasuhan tingkat tinggi" },
       { authorId: 436, minutesAgo: 4700, content: "udara pagi 10 menit itu vitamin gratis buat anak" },
