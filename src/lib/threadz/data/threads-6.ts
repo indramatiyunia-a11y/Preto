@@ -274,7 +274,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       { authorId: 232, minutesAgo: 4027, content: "yang minta dikurangin 6 slide, empat lainnya tambah 1,5 rata-rata. keadilan itu gak gratis kak" },
       { authorId: 175, minutesAgo: 4017, content: "undian itu solusi termurah kak. undi siapa dapat 26" },
       { authorId: 270, minutesAgo: 4006, content: "satu slide digambar jadi dua setengah baris juga gak jelas kak. undian aja" },
-      { authorId: 36, minutesAgo: 3994, content: "gimana kalau yang jaga lab ambil 18 slide gambar doang, teksnya ke empat lain. realistis" },
+      { authorId: 123, minutesAgo: 3994, content: "gimana kalau yang jaga lab ambil 18 slide gambar doang, teksnya ke empat lain. realistis" },
       { authorId: 148, minutesAgo: 3981, content: "102 ÷ 4 = 25,5. dua kali dicek, memang non bulat" },
       { authorId: 325, minutesAgo: 3967, content: "pengalaman kelompok: selalu pilih undian. kecewa di nasib lebih ringan dari kecewa di manusia" },
       { authorId: 96, minutesAgo: 3450, content: "24 × 3/4 = 18. 120 − 18 = 102. 102 ÷ 4 = 25,5. semua pas kak" },
