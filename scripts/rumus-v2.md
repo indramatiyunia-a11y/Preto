@@ -556,8 +556,12 @@ header (tabs.ts + left-nav.tsx dihapus). (3) Feed anti-lag: render maksimal
 10 post; tombol "Lihat lainnya" MENGGANTI isi layar dengan 10 berikutnya,
 BUKAN menambah (state halaman, bukan penambah). (4) KOMENTAR WAJIB 11-20
 per post untuk SELURUH feed — validator validate-threadz.ts +
-scripts/cek-komen-aturan.ts menegakkan. Ekspansi threads-1 selesai 7 Nov;
-threads-2..9 menyusul; batch baru langsung 11-20 komentar per post.
+scripts/cek-komen-aturan.ts menegakkan. Ekspansi SELESAI 7 Nov untuk SELURUH feed: threads-1..9 (225 post) +
+threads-intl (18 post asing AR/EN/FR/ES/ZH) kini 11-20 komentar per post
+mengikuti pola [12,17,11,19,14,20,13,16,11,18,15,12,20,11,17,13,19,14,16,
+11,18,12,15,20,13] per file; komentar baru ditempel di akhir array dengan
+minutesAgo menurun ketat, tanpa mengubah satu byte teks post/komentar lama.
+Batch baru (threads-10 dst) langsung lahir dengan 11-20 komentar per post.
 
 ## STOK SUBTOPIK YANG DILARANG DIPAKAI LAGI DENGAN BENTUK SAMA
 

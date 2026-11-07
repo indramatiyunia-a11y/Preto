@@ -345,6 +345,19 @@ warung harga per 100 gram, lembar undangan dibagi rata per kelas, persen
 baterai vs jam pakai. CATATAN BATCH 5: penulis 1-25 (banyak pelajar) —
 prioritaskan kandidat sekolah: kas kelas, remidi, seragam, stambuk.
 
+## STATUS EKSPANSI KOMENTAR (hukum 7 Nov 2026 — 11-20 komentar per post)
+
+SELESAI 7 Nov 2026: threads-1..9 (225 post) + threads-intl (18 post asing)
+kini memenuhi 11-20 komentar per post, mengikuti pola per file
+[12,17,11,19,14,20,13,16,11,18,15,12,20,11,17,13,19,14,16,11,18,12,15,20,13].
+Total komentar feed: 3.653 untuk 243 post (rata-rata 15,0). Semua komentar
+baru: hitungan dicek dua kali, register menyebar, tanpa doa/personifikasi/
+kutip-ganda/kata terlarang, authorId 1-500 (intl: 1051-1100) tanpa dobel
+per post, minutesAgo menurun ketat di bawah komentar lama. Validasi:
+audit-full + audit-formula15 + validate-threadz + cek-komen-aturan +
+cek-matematika-v5 + dev.sh check — SEMUA BERSIH. Post intl digeser ke
+menit 7000-7680 agar slot komentar cukup (teks post tak berubah).
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
