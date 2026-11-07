@@ -600,7 +600,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4378, content: "nongkrong di warung rambut itu bagian layanan bos. kasih kursi yang enak" },
       { authorId: 288, minutesAgo: 4364, content: "120 menit = 2 jam. 16.00 + 2 = 18.00. dua kali dicek" },
       { authorId: 466, minutesAgo: 4349, content: "model rumit 30 menit itu taruhan bos. kalau mepet, semua antrian mundur" },
-      { authorId: 76, minutesAgo: 4333, content: "pelanggan terakhir yang seneng nunggu itu langka. simpan dia" },
+      { authorId: 76, minutesAgo: 4333, content: "pelanggan terakhir seneng nunggu, itu langka. simpan dia" },
       { authorId: 473, minutesAgo: 4316, content: "kasih tahu di awal bos. kaget di kursi itu bahan cerita buruk" },
       { authorId: 245, minutesAgo: 4298, content: "2 jam nunggu itu lama bos. wifi kecil bisa nyelametin reputasi wkwk" },
       { authorId: 87, minutesAgo: 4279, content: "antrian begini buat mesin; buat manusia, kasih jam pasti" },
