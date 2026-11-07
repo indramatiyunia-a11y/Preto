@@ -358,6 +358,19 @@ audit-full + audit-formula15 + validate-threadz + cek-komen-aturan +
 cek-matematika-v5 + dev.sh check — SEMUA BERSIH. Post intl digeser ke
 menit 7000-7680 agar slot komentar cukup (teks post tak berubah).
 
+## STATUS BATCH: 6 SELESAI (7 Nov 2026) — 250/1000 cuitan
+
+threads-10.ts (id 226-250, penulis BARU 76-100, menit 6775-7475) lahir
+langsung dengan 11-20 komentar per post sesuai pola hukum 7 Nov. Topik:
+listrik kWh, lampu lalu lintas, meteran kain, tandon tabung, skala futsal,
+anggaran seragam, kas kelas, remidi, NIS leading-zero, lift vs tangga
+(ekspektasi), kuota GB, tinggi pohon via bayangan, tarif parkir vs paket,
+harga per 100 g, cetak undangan rim vs lepas, power bank efisiensi, tabungan
+aritmetika naik 5rb, pecahan campuran 2½+1¾, diskon berlapis 32,5%, siklus
+shift mod 3, resep ×2,5, konversi 90 km/j = 25 m/s, nilai tertimbang, kolam
+7,2 m³ & hujan 192 menit, kursi barisan 255. Semua hitungan terverifikasi di
+cek-matematika-v5.ts; audit penuh + lint BERSIH. Batch 7 dijadwalkan otomatis.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
