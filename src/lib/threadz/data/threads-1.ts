@@ -295,7 +295,7 @@ export const THREADS_PART1: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 344, content: "bener. satu jam 125, dua jam 250, empat jam 500, delapan jam 1.000" },
       { authorId: 363, minutesAgo: 338, content: "mata 0,1 tapi itungan bener. 1.000 ÷ 8 emang 125" },
       { authorId: 154, minutesAgo: 332, content: "kalau ragu, itung mundur: jam ke-8 harus tepat 1.000. 125 × 8 pas" },
-      { authorId: 297, minutesAgo: 326, content: "125 per jam buat 1 liter 8 jam itu baku, udah kayak lagu wajib" },
+      { authorId: 297, minutesAgo: 326, content: "125 per jam buat 1 liter 8 jam itu baku, dihitung dua kali cocok" },
       { authorId: 432, minutesAgo: 320, content: "setel 125, cek tiap 2 jam: harus 250. kalau bukan, ada yang ketahan" },
       { authorId: 201, minutesAgo: 314, content: "mata 0,1 tapi kerjanya teliti. itungan aman" },
       { authorId: 375, minutesAgo: 308, content: "100×8 = 800, 25×8 = 200, jumlah 1.000. cara pecah gini gak pernah meleset" },

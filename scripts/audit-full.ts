@@ -60,7 +60,8 @@ for (const t of THREADS as ThreadzThread[]) {
   totalKomen += t.comments.length
   maxKomen = Math.max(maxKomen, t.comments.length)
   dist.set(t.comments.length, (dist.get(t.comments.length) ?? 0) + 1)
-  if (t.comments.length > 10) tambah(`${tag} komentar ${t.comments.length} > 10`)
+  // hukum baru 7 Nov 2026: tiap post WAJIB 11-20 komentar (menggantikan batas lama maks 10)
+  if (t.comments.length < 11 || t.comments.length > 20) tambah(`${tag} komentar ${t.comments.length} di luar 11-20 (hukum 7 Nov)`)
   const dipakai = new Set<number>()
   let sebelumnya = t.minutesAgo
   for (const c of t.comments) {
