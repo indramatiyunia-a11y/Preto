@@ -49,7 +49,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 4454, content: "B lebih lama tidur 30 menit tapi nanggung risiko 30 menit. simetris doang keliatan" },
       { authorId: 466, minutesAgo: 4439, content: "kalau kos 15 menit jalan pelan, jalan cepet bisa 12. masih ada margin bre" },
       { authorId: 76, minutesAgo: 4423, content: "kereta lokal sesekali telat, jarak jauh hampir selalu tepat bre. lihat rute lu" },
-      { authorId: 473, minutesAgo: 4300, content: "06.05 itu cuma 5 menit awal dari 06.10. murah banget buat jaminan" },
+      { authorId: 473, minutesAgo: 4300, content: "06.05 itu cuma 5 menit awal dari 06.10. murah banget buat ketenangan" },
       { authorId: 245, minutesAgo: 4280, content: "tergantung platform bre. stasiun kecil ramai, besar makin lama jalan" },
       { authorId: 87, minutesAgo: 4260, content: "gue pilih A bre. tidur 30 menit bisa dibayar sama secangkir kopi" },
       { authorId: 275, minutesAgo: 4240, content: "toleransi 10 menit itu bukan males bangun, itu hukum stasiun" },
