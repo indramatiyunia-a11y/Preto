@@ -26,6 +26,14 @@ berisi hitungan salah "3x+3y=12 baru bisa dikejar satu jawaban" → diganti
 solusi bulat (0,4)/(3,2)/(6,0). Sapaan & relasi di feed: hanya biner normal
 (suami-istri, bapak-ibu, kakak-adik, om-tante).
 
+**HUKUM UI + KOMENTAR 7 Nov 2026 (malam):** (1) Logo dihapus, cukup teks
+"Akiomida". (2) Tab Terbaru/Terame/Otak belok dihapus. (3) Feed anti-lag:
+maksimal 10 post dirender; "Lihat lainnya" MENGGANTI 10 lama dengan 10 baru,
+bukan menumpuk. (4) SETIAP post wajib 11-20 komentar (validator +
+cek-komen-aturan menegakkan; jumlah antar-post bervariasi, maks satu angka
+30%). Ekspansi komentar: threads-1 ✅ 7 Nov, threads-2..9 menyusul, batch
+baru (threads-10 dst.) langsung lahir dengan 11-20 komentar per post.
+
 Kondisi sekarang (setelah rombak V5 + BATCH 5, 6 Nov 2026):
 - 225 cuitan Indonesia (threads-1..9) + threads-intl (id 9001+). 622 komentar.
 - SELURUH feed 100% FORUM MATEMATIKA — diary harian sudah dihapus total

@@ -30,11 +30,17 @@ for (const t of THREADS) {
     console.log(`POST ${t.id}: konten kosong!`)
     masalah++
   }
+  // hukum baru 7 Nov 2026: tiap post WAJIB 11-20 komentar, jumlah bervariasi
+  if (t.comments.length < 11 || t.comments.length > 20) {
+    console.log(`POST ${t.id}: ${t.comments.length} komentar (wajib 11-20)`)
+    masalah++
+  }
   const nKutip = pasanganKutipan(t.content)
   if (nKutip >= 2) {
     console.log(`POST ${t.id}: ${nKutip} pasangan kutipan (skenario?) -> ${t.content.slice(0, 80)}...`)
     masalah++
   }
+  let prevMenit = Number.POSITIVE_INFINITY
   for (const c of t.comments) {
     semuaKomentar.push(c.content)
     if (c.authorId === t.authorId) {
@@ -50,6 +56,17 @@ for (const t of THREADS) {
       console.log(`POST ${t.id}: komentar kosong dari ${c.authorId}`)
       masalah++
     }
+    // waktu komentar: minimal 1, lebih kecil dari post (datang setelah post)
+    if (c.minutesAgo < 1 || c.minutesAgo >= t.minutesAgo) {
+      console.log(`POST ${t.id} komen ${c.authorId}: waktu ${c.minutesAgo} di luar rentang`)
+      masalah++
+    }
+    // urutan array = urutan kedatangan: minutesAgo menurun ketat
+    if (c.minutesAgo >= prevMenit) {
+      console.log(`POST ${t.id} komen ${c.authorId}: urutan gak menurun (${c.minutesAgo})`)
+      masalah++
+    }
+    prevMenit = c.minutesAgo
   }
 }
 

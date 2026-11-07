@@ -335,8 +335,13 @@ Z", dan personifikasi benda. Satu temuan = satu blokir.
    miskonsepsi mereka sendiri, lelucon soal keadaan, pertanyaan balik.
    PENYAJIAN JAWABAN DILARANG: tabel perbandingan, langkah bernomor,
    dua versi A/B rapi — itu format guru, bukan format anak Twitter.
-6. **Jumlah komentar menyebar 0-6.** Mode gak boleh >30% post. Post
-   pendek boleh 0-1 komen — itu hidup.
+6. **Jumlah komentar 11-20 per post (hukum baru 7 Nov 2026).** Setiap post
+   WAJIB berisi minimal 11 dan maksimal 20 komentar. Jumlah ANTAR-post
+   HARUS bervariasi (satu angka maksimal 30% post — FORMULA HITAM 6).
+   Komentar pendek sah, tapi tetap ada isi. Urutan array = urutan kedatangan
+   (minutesAgo menurun ketat), semua ≥1 dan lebih kecil dari post-nya.
+   ±40% benar-benar menjawab/mengoreksi/hint. Sisanya reaksi SPESIFIK ke isi
+   post, nanya balik, atau cerita pendek sendiri. Dilarang tepuk tangan kosong.
 7. **Bahasa sesuai sidik akun.** Typo natural (gk, bgt, smpe), register
    sesuai umur. Gak ada sapaan korps wajib.
 8. **Satu post satu napas.** Tanpa struktur 3 babak, tanpa dialog 2
@@ -544,6 +549,15 @@ bunga "3x+3y=12 baru bisa dikejar satu jawaban" adalah SALAH (satu persamaan
 dua variabel tetap tak terhingga) — diganti daftar solusi bulat (0,4)/(3,2)/
 (6,0) dengan cek 2×6+3×0 = 12. Keduanya sudah masuk cek cek-matematika-v5
 dan blokir Pola B9 audit-formula15.
+
+**HUKUM UI + KOMENTAR 7 Nov 2026 (pidato user malam):** (1) Logo Σ dihapus —
+label teks "Akiomida" saja. (2) Tab Terbaru/Terame/Otak belok DIHAPUS dari
+header (tabs.ts + left-nav.tsx dihapus). (3) Feed anti-lag: render maksimal
+10 post; tombol "Lihat lainnya" MENGGANTI isi layar dengan 10 berikutnya,
+BUKAN menambah (state halaman, bukan penambah). (4) KOMENTAR WAJIB 11-20
+per post untuk SELURUH feed — validator validate-threadz.ts +
+scripts/cek-komen-aturan.ts menegakkan. Ekspansi threads-1 selesai 7 Nov;
+threads-2..9 menyusul; batch baru langsung 11-20 komentar per post.
 
 ## STOK SUBTOPIK YANG DILARANG DIPAKAI LAGI DENGAN BENTUK SAMA
 
