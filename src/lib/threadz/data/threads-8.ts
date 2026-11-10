@@ -280,6 +280,7 @@ export const THREADS_PART8: ThreadzThread[] = [
       { authorId: 481, minutesAgo: 5443, content: "23 hari ini bre. besok 22 plus ulang. itu jadwal pemenang" },
       { authorId: 85, minutesAgo: 5000, content: "setengah istilah itu artinya hafal sampai tengah kata bre wkwk. jangan" },
       { authorId: 286, minutesAgo: 100, content: "telat bre. hafalannya udah selesai? 23-22 itu pilihannya" },
+      { authorId: 390, minutesAgo: 58, content: "gue pernah di situ bre wkwk. yang akhirnya jalan: 45 gue potong 5 sesi, isi 9 istilah per sesi. 9 itu gak kerasa, 22,5 itu horor. cek lagi 9×5 tetep 45 kok" },
     ],
   },
   {
