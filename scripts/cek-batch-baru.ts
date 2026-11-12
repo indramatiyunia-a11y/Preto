@@ -3,6 +3,7 @@
 // panjang post (hukum BAGIAN 4 poin 2), dan kata/ frasa terlarang.
 // Jalankan: bun scripts/cek-batch-baru.ts
 import { THREADS_PART11 } from "../src/lib/threadz/data/threads-11"
+import { THREADS_PART12 } from "../src/lib/threadz/data/threads-12"
 
 const POLA = [12, 17, 11, 19, 14, 20, 13, 16, 11, 18, 15, 12, 20, 11, 17, 13, 19, 14, 16, 11, 18, 12, 15, 20, 13]
 
@@ -50,6 +51,7 @@ function cekFile(nama: string, posts: { id: number; authorId: number; minutesAgo
 }
 
 cekFile("threads-11", THREADS_PART11 as any)
+cekFile("threads-12", THREADS_PART12 as any)
 
 // kata/frasa terlarang (FORMULA HITAM + pola audit)
 const TERLARANG: [string, RegExp][] = [
@@ -71,13 +73,13 @@ const TERLARANG: [string, RegExp][] = [
   ["kalimat-garam X yang Y itu Z", /\w+\s+yang\s+[\w\s-]{3,30}\s+itu\s+\w+/i],
   ["personifikasi benda niat", /\b(loker|mesin|motor|angkot|kunci|laptop|kipas|printer|lift|kompor|kulkas|lampu|hape|hp|jam)\s+(pengen|mau|ngambek|mood|lega|kapok)\b/i],
 ]
-for (const p of THREADS_PART11 as any) {
+for (const p of [...THREADS_PART11, ...THREADS_PART12] as any) {
   const teks: [string, string][] = [["post", p.content], ...p.comments.map((c: any) => [`komen ${c.authorId}`, c.content])]
   for (const [lok, t] of teks) {
     for (const [nama, re] of TERLARANG) {
       if (nama === "daftar bernomor" && lok !== "post") continue
       const m = t.match(re)
-      if (m) fail(`threads-11 id ${p.id} ${lok}: ${nama} → "${m[0]}"`)
+      if (m) fail(`${p.id} ${lok}: ${nama} → "${m[0]}"`)
     }
   }
 }

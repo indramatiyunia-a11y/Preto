@@ -387,6 +387,29 @@ cicilan flat → detik dalam setahun). Distribusi panjang post batch: 5 pendek
 audit-formula15 + validate-threadz + cek-komen-aturan + cek-matematika-v5 +
 cek-batch-baru + lint — SEMUA BERSIH.
 
+## STATUS BATCH: 8 SELESAI (12 Nov 2026) — 300/1000 cuitan
+
+threads-12.ts (id 276-300, penulis BARU 126-150, menit 8275-8995) lahir langsung
+dengan 11-20 komentar per post sesuai pola hukum 7 Nov (total 377 komentar,
+satu komentar telat 600-1000 menit per post). Topik: PIN permutasi 3024/4536,
+komite & ketua (kombinasi vs permutasi), akar kembar c = 9, venn 40-25-22-9
+plus soal gak konsisten 49 > 45, desimal berulang → pecahan (4/11, 5/6),
+belah ketupat 96/40, tenda prisma 360 L & kain 408 dm², tiga koin 1/8 & 3/8,
+urutan operasi 17, kerja bareng 2 jam/1 jam + jebakan harmonik, dua segmen
+kecepatan 3j36m & rata efektif 200/3, lingkaran dalam persegi sisa 42,
+komposisi fungsi 9/10 + selisih konstanta, diagonal poligon 54 & segi-8,
+markup 20% vs margin 16,67% + naik-turun gak simetris, laba-laba kubus 2√5 vs
+diagonal ruang, resep skala 1,5 & rasio 9:600:375, pangkat pecahan 9/8/125/½,
+peluang kartu 2/13-1/52-4/13 + hati-keriting 1/2, kalender 30 mod 7 = Jumat,
+pertidaksamaan n ≤ 6 + jebakan pembulatan, Heron 13-14-15 = 84, Σkuadrat 385/
+650 & kubik 225, cahaya 500 s/1,28 s/notasi ilmiah/pluto, transformasi
+(3,−2)/(3,2)/(6,4). Distribusi panjang post batch: 5/8/8/4. Dua topik dari
+rencana lama diganti karena masuk larangan BAGIAN 4 poin 11 (bunga majemuk →
+tiga koin; cicilan flat → transformasi) dan satu subtopik bentuk sama diganti
+(pulsa habis → desimal berulang). Validasi: audit-full + audit-formula15 +
+validate-threadz + cek-komen-aturan + cek-matematika-v5 + cek-batch-baru +
+lint — SEMUA BERSIH.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
