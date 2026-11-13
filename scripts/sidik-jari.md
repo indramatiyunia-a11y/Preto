@@ -410,6 +410,29 @@ tiga koin; cicilan flat → transformasi) dan satu subtopik bentuk sama diganti
 validate-threadz + cek-komen-aturan + cek-matematika-v5 + cek-batch-baru +
 lint — SEMUA BERSIH.
 
+## STATUS BATCH: 9 SELESAI (13 Nov 2026) — 325/1000 cuitan
+
+threads-13.ts (id 301-325, penulis BARU 151-175, menit 9025-9745) lahir langsung
+dengan 11-20 komentar per post sesuai pola hukum 7 Nov (total 377 komentar,
+satu komentar telat 600-1000 menit per post). Topik: SPLDV bare (4,3), bentuk
+akar 5√2/6√2/3√3 + jebakan 2√12 = 4√3, Fibonacci 55 & rasio emas, rute grid
+C(5,2)/C(7,3)/C(10,4), kesebangunan skala 2,5, puncak kuadrat (3,−4) + akar +
+minimum, konversi suhu dua arah + 40 °C = 40 °F, sudut keliling 40/90/50 +
+segiempat tali busur, derajat-menit-detik, sifat pangkat aljabar + jebakan
+3⁴ = 81, nilai mutlak dua akar + |x| = 0 satu akar, segmen tengah segitiga,
+kuartil/IQR + jebakan ambil satu nilai, trik 99×n & 25×4, teorema sudut luar
++ total 360, klasifikasi bilangan + 22/7 bukan π, kerucut 7-24-25 (550/704/
+1232) + banding 392 gak pas, layang-layang luas pasti tapi keliling gak unik,
+jarum jam 03.30 = 75° & 1.05 = 2,5°, anagram 7! & KAKAK = 10, transversal
+F-Z-C, identitas (2x+3)² + cek numerik, bola r21 (38.808/5.544) + cm² vs cm³,
+jarak dua titik 6-8-10 + √5, modulo 7 + aplikasi hari/jam. Distribusi panjang
+post batch: 5/8/8/4. Topik pembilang-penyebut akar dari rancangan lama diganti
+(bentuk akar sederhana tetap, karena tidak ada bentuk sama di Buku Besar).
+Validasi: audit-full + audit-formula15 + validate-threadz + cek-komen-aturan +
+cek-matematika-v5 + cek-batch-baru + lint — SEMUA BERSIH. Catatan: cron
+one_time untuk BATCH 10 tetap gak bisa dipasang (tool cron gak tersedia di
+environment), lanjutan manual via protokol dev.sh.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
