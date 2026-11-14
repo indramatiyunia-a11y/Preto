@@ -456,6 +456,33 @@ v5 27 cek baru + cek-batch-baru empat batch + lint) — SEMUA BERSIH. Catatan:
 cron one_time untuk BATCH 11 tetap gak bisa dipasang (tool cron gak tersedia),
 lanjutan manual via protokol dev.sh.
 
+## STATUS BATCH: 11 SELESAI (14 Nov 2026) — 375/1000 cuitan
+
+threads-15.ts (id 351-375, penulis BARU 201-225, menit 10525-11245) lahir
+langsung dengan 11-20 komentar per post sesuai pola hukum 7 Nov (total 377
+komentar, satu komentar telat 600-1000 menit per post). Topik bentuk baru:
+pagar-poles hitung rentang (21 bukan 20), fungsi invers + f(f⁻¹) = identitas,
+simetri lipat (jajargenjang 0), titik tengah koordinat + diagonal ketemu satu
+titik, estimasi perkalian kasar (netral bukan pasti), 0,1+0,2 floating point
+biner (0,5 = 0,1 biner aman), sisi terpanjang menghadap sudut terbesar,
+relasi KPK×FPB = a×b (khusus dua bilangan), 0÷5 vs 5÷0 tak terdefinisi,
+median data hilang (posisi bukan rata) + median tahan pencilan, faktorisasi
+algebra (selisih kuadrat & kuadrat sempurna, cek numerik), keliling lingkaran
+dari luas (balik via r), perbandingan gabungan a:b:c (samakan b via KPK →
+8:12:15), keliling sama luas beda (persegi max), pembagian desimal geser
+koma (kali 10 berdua), perkalian kebalikan = 1 (nyambung bagi nol), simpangan
+rata-rata (mutlak wajib, tanpa mutlak selalu 0), √16 = 4 bukan ±4 & √((−5)²) = 5,
+tinggi-bagi-berat tiga-in-satu di sama kaki + pusat massa, 360° ramai pembagi,
+translasi vektor (x dulu y belakang), taksonomi segiempat bersarang, hari ke-n
+setahun 2026 bukan kabisat, prinsip pigeonhole (pasti ada yang berdua, gak
+jamin sebar rata), tiga bilangan berurutan selalu habis dibagi 6. Distribusi
+panjang post: 4/9/8/4 (lolos toleransi checker). Validasi: dev.sh check penuh
++ cek-matematika-v5 (20 cek baru) + cek-batch-baru lima batch — SEMUA BERSIH.
+Perbaikan selama batch: kata "ulang tahun" diganti (terlarang), kutip dalam
+komentar 374, pola garam 371, tiga ekspresi checker (float 3,6/0,06 & 0,72/0,9,
+r² 616 = 196). Catatan: cron one_time lanjutan tetap gak bisa dipasang (tool
+cron gak tersedia), lanjutan manual via protokol dev.sh.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
