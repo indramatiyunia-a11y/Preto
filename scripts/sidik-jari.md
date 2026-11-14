@@ -433,6 +433,29 @@ cek-matematika-v5 + cek-batch-baru + lint — SEMUA BERSIH. Catatan: cron
 one_time untuk BATCH 10 tetap gak bisa dipasang (tool cron gak tersedia di
 environment), lanjutan manual via protokol dev.sh.
 
+## STATUS BATCH: 10 SELESAI (14 Nov 2026) — 350/1000 cuitan
+
+threads-14.ts (id 326-350, penulis BARU 176-200, menit 9775-10495) lahir langsung
+dengan 11-20 komentar per post sesuai pola hukum 7 Nov (total 377 komentar,
+satu komentar telat 600-1000 menit per post). Topik: pembulatan + jebakan
+"ke bawah", sudut dasar sama kaki, konversi satuan luas ×10.000 (bukan ×100),
+kali silang & mengurutkan pecahan, juring (154/22/50), kekongruenan SAS-SSS
++ kongruen = sebangun 1:1, rumus Heron (84/30/24), jam desimal ×60 + jebakan
+0,30 jam = 18 menit, jumlah sudut poligon (n−2)×180, paritas 2k+1 (55 ganjil),
+diagram lingkaran ×3,6, kaidah pencacahan jumlah-vs-kali (5/6/20), satuan
+berat ton/kuintal/kg/ons (ons Indonesia 100 g, troy ounce 31,1 g), keterbagian
+digit (÷3/÷9/÷6/÷4), permutasi melingkar (n−1)! & gelang ÷2, fakta digit
+kuadrat (2/3/7/8 mustahil), geser data (+5 jangkauan tetap) & skala ×2,
+minus×minus + (−3)² vs −3², kompelmen/supelmen + 45 unik, sudut ketiga
+segitiga, distributif aljabar + cek numerik dua nilai, teka luas = keliling
+((p−2)(l−2) = 4 → 6×3, 4×4; segitiga 6-8-10 juga), bilangan bersahabat
+220↔284 & 1184↔1210 + perfect 6/28, ketaksamaan segitiga + degenerate,
+komplemen-9 pengurangan 10.000. Distribusi panjang post batch: 5/8/8/4.
+Validasi: dev.sh check penuh (audit + validate + komen-aturan + matematika
+v5 27 cek baru + cek-batch-baru empat batch + lint) — SEMUA BERSIH. Catatan:
+cron one_time untuk BATCH 11 tetap gak bisa dipasang (tool cron gak tersedia),
+lanjutan manual via protokol dev.sh.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
