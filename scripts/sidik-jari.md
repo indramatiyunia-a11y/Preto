@@ -534,6 +534,27 @@ kode menangkap kesalahan 96→97. Cron lanjutan tetap tidak tersedia; lanjut
 manual via "lanjut" (BATCH 16: threads-20, id 476-500, authorId 326-350,
 menit 14275 +30).
 
+
+## STATUS BATCH: 16-23 SELESAI (15 Nov 2026, sesi +200) — 675/1000 cuitan
+
+Permintaan "+200 langsung" dieksekusi 8 batch (16-23): threads-20..27,
+id 476-675, penulis 326-525 (warga ekspansi ≤1050 sah), komentator tetap
+1-500 sesuai hukum. Generator scripts/gen/common.py + b20-b27.py + balance.py
+(auto-balance jumlah komentar). Commit: 9d79a75 (B16), 7c28eeb (B17),
+ea5d78b (B18), aa7dac7 (B19), 09957be (B20), dd99068 (B21), a0737f4 (B22),
+3f28d73 (B23). TOTAL 675/1000, +2.008 komentar baru (8 × 377).
+Topik 200 baru: sudut & geometri lanjutan (palindrom prima, lingkaran dalam,
+prisma segitiga, segi-12), uang & persen (PPN setelah diskon, cashback,
+12,5% = 1/8, tip, ongkir), waktu (garansi, umur kendaraan, 168 jam pekan,
+ml = cm³), bilangan (2025 = 45², 2026 = 2 × 1013, 2310 habis 2-11, kuadrat
+puluhan, keterbagian 4/6/8/25), peluang (kelereng dua-tiga tarik, dadu dobel,
+minimal satu via komplemen, kartu 25/102), serta sejarah basis (60/24/12/10).
+Pelajaran proses: auto-balancer (balance.py) wajib untuk mega-sesi — salah
+hitung komentar manual terjadi ±60×; verifikasi hitungan v5 menangkap 3
+kesalahan isi (96→97 faktor 2, kubus nempel 112, sudut 12.45 = 112,5°).
+Catatan terbuka: dev.sh audit-full masih melaporkan #587(a161) "domain
+pinjaman" padahal kata sudah dibersihkan di source threads-24.ts — kemungkinan
+cache audit; jalankan ulang build di sesi berikut dan cek ulang.
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
