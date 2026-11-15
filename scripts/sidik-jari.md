@@ -483,6 +483,57 @@ komentar 374, pola garam 371, tiga ekspresi checker (float 3,6/0,06 & 0,72/0,9,
 r² 616 = 196). Catatan: cron one_time lanjutan tetap gak bisa dipasang (tool
 cron gak tersedia), lanjutan manual via protokol dev.sh.
 
+## STATUS BATCH: 12-15 SELESAI (14 Nov 2026, mega-sesi +100) — 475/1000 cuitan
+
+Permintaan user "+100 langsung" dieksekusi sebagai empat batch berurutan dalam
+satu sesi, masing-masing 25 post + 377 komentar sesuai pola hukum 7 Nov,
+dengan generator Python per batch (scripts/gen/common.py + b12-b19.py):
+roster komentator otomatis (seed deterministik, unik per post, bukan author),
+minutesAgo post = 25+30×(id−1), offset komentar mengikuti tabel pola, satu
+telat 600-1000 menit. Commit: f8c1b8e (B12), f178171 (B13), 2197860 (B14),
+d485ff2 (B15). Semua lewat dev.sh check penuh + cek-batch-baru (kini sembilan
+batch) + cek-matematika-v5 (+93 cek baru; total 475/475 cuitan terverifikasi).
+
+Topik BATCH 12 (376-400, penulis 226-250): kuadrat dalam rentang, elemen
+bangun ruang + Euler 2, setengah lingkaran busur+diameter, tiga variabel,
+jarum bertumpuk 65 5/11 mnt, cek siku Pythagoras terbalik, balik volume, luas
+via kisi, kali-vs-jumlah, cincin annulus, kali-lipat vs selisih, cek bagi
+balik, jaring tabung, km→m, FPB kurang-kurang (Euclid), refleks, es krim cone,
+zona waktu, kalimat→persamaan, setengah ganjil ,5, tambah data simetris rata
+tetap, nambah tanggal, pecah-dua perkalian, dengan/tanpa pengembalian, jam 24.
+
+Topik BATCH 13 (401-425, penulis 251-275): diagonal √2, persamaan pecahan,
+nama poligon, jumlah dua kuadrat, koreksi data salah, permukaan kubus+jaring,
+rata = titik tengah, campuran↔biasa, taksonomi sudut, median gaji vs rata,
+segitiga grid, keliling→luas persegi, sudut segiempat-pentagon via segitiga,
+lusin-gros, jajargenjang, pola nol, busur sudut pusat, tiga statistik satu
+data, pecahan aljabar, sama sisi 60°, sifat pangkat kali, sisa kelipatan
+terdekat, poin liga, pola n²+1, grid kursi.
+
+Topik BATCH 14 (426-450, penulis 276-300): sifat satu, sudut luar 360/n,
+digit terbalik 9×, keliling gabungan, potong lingkaran 7 bukan 8, (x+2)(x+3)
+kotak luas, kali 11 carry, simetri putar, Romawi, FPB-KPK tiga bilangan,
+dobel r luas 4×, istilah aljabar, kejadian bebas, mundur jam lintas
+(KATA "PINJAM" TERLARANG — domain pinjaman; diganti "geser"), komutatif gagal,
+tahun-bulan, a+b = ab (2,2)/(0,0), timbangan persamaan, sama kaki keliling,
+nol ekor desimal, kecepatan jarum, deret separuh, hasil kali maksimum,
+berurutan vs paralel, πd.
+
+Topik BATCH 15 (451-475, penulis 301-325): keliling segitiga, tinggi ke sisi
+miring, pecahan antara ½ dan 1, sisa sama → KPK, tanda kurung balik tanda,
+tangga triliun, bertolak belakang, campuran kurang, lipat sudut, LCD ½+⅓,
+kabisat 100/400, minggu-hari, faktor 2 di 100! (KOREKSI: 97 bukan 96 — Legendre
+50+25+12+6+3+1; nol 24 dari faktor 5), balik operasi, jumlah-selisih, pola
+3×37, perpotongan garis, papan catur 204, lingkaran bersinggungan, 36 dua
+wajah, waktu bocor, n − n/2, kali desimal, sisa vs desimal, Goldbach mini.
+
+Pelajaran mega-sesi: (1) jumlah komentar per post WAJIB di-audit otomatis
+sebelum build (audit AST) — salah hitung manual terjadi ±30×; (2) regex edit
+anchor harus sadar elemen-terakhir-tanpa-koma; (3) verifikasi hitungan dengan
+kode menangkap kesalahan 96→97. Cron lanjutan tetap tidak tersedia; lanjut
+manual via "lanjut" (BATCH 16: threads-20, id 476-500, authorId 326-350,
+menit 14275 +30).
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
