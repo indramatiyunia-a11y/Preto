@@ -16,6 +16,7 @@ import { THREADS_PART21 } from "../src/lib/threadz/data/threads-21"
 import { THREADS_PART22 } from "../src/lib/threadz/data/threads-22"
 import { THREADS_PART23 } from "../src/lib/threadz/data/threads-23"
 import { THREADS_PART24 } from "../src/lib/threadz/data/threads-24"
+import { THREADS_PART25 } from "../src/lib/threadz/data/threads-25"
 
 const POLA = [12, 17, 11, 19, 14, 20, 13, 16, 11, 18, 15, 12, 20, 11, 17, 13, 19, 14, 16, 11, 18, 12, 15, 20, 13]
 
@@ -76,6 +77,7 @@ cekFile("threads-21", THREADS_PART21 as any)
 cekFile("threads-22", THREADS_PART22 as any)
 cekFile("threads-23", THREADS_PART23 as any)
 cekFile("threads-24", THREADS_PART24 as any)
+cekFile("threads-25", THREADS_PART25 as any)
 
 // kata/frasa terlarang (FORMULA HITAM + pola audit)
 const TERLARANG: [string, RegExp][] = [
@@ -97,7 +99,7 @@ const TERLARANG: [string, RegExp][] = [
   ["kalimat-garam X yang Y itu Z", /\w+\s+yang\s+[\w\s-]{3,30}\s+itu\s+\w+/i],
   ["personifikasi benda niat", /\b(loker|mesin|motor|angkot|kunci|laptop|kipas|printer|lift|kompor|kulkas|lampu|hape|hp|jam)\s+(pengen|mau|ngambek|mood|lega|kapok)\b/i],
 ]
-for (const p of [...THREADS_PART11, ...THREADS_PART12, ...THREADS_PART13, ...THREADS_PART14, ...THREADS_PART15, ...THREADS_PART16, ...THREADS_PART17, ...THREADS_PART18, ...THREADS_PART19, ...THREADS_PART20, ...THREADS_PART21, ...THREADS_PART22, ...THREADS_PART23, ...THREADS_PART24] as any) {
+for (const p of [...THREADS_PART11, ...THREADS_PART12, ...THREADS_PART13, ...THREADS_PART14, ...THREADS_PART15, ...THREADS_PART16, ...THREADS_PART17, ...THREADS_PART18, ...THREADS_PART19, ...THREADS_PART20, ...THREADS_PART21, ...THREADS_PART22, ...THREADS_PART23, ...THREADS_PART24, ...THREADS_PART25] as any) {
   const teks: [string, string][] = [["post", p.content], ...p.comments.map((c: any) => [`komen ${c.authorId}`, c.content])]
   for (const [lok, t] of teks) {
     for (const [nama, re] of TERLARANG) {
