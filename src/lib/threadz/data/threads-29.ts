@@ -46,7 +46,7 @@ export const THREADS_PART29: ThreadzThread[] = [
       { authorId: 225, minutesAgo: 20953, content: "iya, wajib" },
       { authorId: 133, minutesAgo: 20937, content: "jawaban post semua kuku" },
       { authorId: 237, minutesAgo: 20921, content: "catet: batas voucher" },
-      { authorId: 162, minutesAgo: 20903, content: "iya, itu pelajarannya" },
+      { authorId: 162, minutesAgo: 20903, content: "iya, itu intinya" },
       { authorId: 326, minutesAgo: 20885, content: "jawaban post lengkap" },
       { authorId: 179, minutesAgo: 20867, content: "susulan: ongkir naik jika jauh" },
       { authorId: 454, minutesAgo: 20849, content: "susulan: pola ini sering keluar" },

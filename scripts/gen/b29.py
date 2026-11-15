@@ -12,7 +12,7 @@ t(701, "8 × 125 = 1.000. Kenapa cantik? 125 itu 1.000/8, kebalikannya pas. Teme
  "telat dari arsip. 8 × 125. tuntas", ("8 × 125 = 1.000", "8*125", "1000"))
 
 t(702, "Belanja 87rb + ongkir 13rb = 100rb tepat — pakai voucher gratis kirim min 100rb? pas batasnya. Temen bingung hitungan 87+13 = 100: ya pas. Susulan: belanja 86rb? total 99rb — kurang 1rb, gak dapat voucher ya? Cek dong",
- ["100rb pas batas", "87 + 13 = 100, tepat", "susulan 99rb kurang, gak dapat", "PR gue: tambah 1rb barang? dapat", "iya, strategi", "susulan: cek syarat min belanja", "iya, wajib", "jawaban post semua kuku", "catet: batas voucher", "iya, itu pelajarannya", "jawaban post lengkap", "susulan: ongkir naik jika jauh"],
+ ["100rb pas batas", "87 + 13 = 100, tepat", "susulan 99rb kurang, gak dapat", "PR gue: tambah 1rb barang? dapat", "iya, strategi", "susulan: cek syarat min belanja", "iya, wajib", "jawaban post semua kuku", "catet: batas voucher", "iya, itu intinya", "jawaban post lengkap", "susulan: ongkir naik jika jauh"],
  "telat dari arsip. batas voucher. tuntas", ("87 + 13 = 100rb", "87000+13000", "100000"))
 
 t(703, "½ dari 18 = 9. Separuh. Temen jawab 8 — salah separuh. Cek: 9 + 9 = 18. Susulan: ½ dari 34? 17 ya? Cek dong",
