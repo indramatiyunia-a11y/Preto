@@ -32,6 +32,9 @@ import { THREADS_PART30 } from "./data/threads-30"
 import { THREADS_PART31 } from "./data/threads-31"
 import { THREADS_PART32 } from "./data/threads-32"
 import { THREADS_PART33 } from "./data/threads-33"
+import { THREADS_PART34 } from "./data/threads-34"
+import { THREADS_PART35 } from "./data/threads-35"
+import { THREADS_PART36 } from "./data/threads-36"
 import { THREADS_PART_INTL } from "./data/threads-intl"
 
 // ===========================================================================
@@ -96,6 +99,9 @@ export const THREADS: ThreadzThread[] = [
   ...THREADS_PART31,
   ...THREADS_PART32,
   ...THREADS_PART33,
+  ...THREADS_PART34,
+  ...THREADS_PART35,
+  ...THREADS_PART36,
   // post internasional (full Arab/EN/FR/ES/ZH) — file terpisah sesuai
   // perintah user, biar gak kecampur sama batch Indonesia.
   ...THREADS_PART_INTL,
