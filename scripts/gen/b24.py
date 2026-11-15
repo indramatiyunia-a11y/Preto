@@ -211,7 +211,7 @@ T.append((587,
   "iya pas",
   "jawaban post semua kuku",
   "catet: cek sampai akar doang","jawaban post lengkap",
-  "susulan: ganjil bukan jaminan prima"],
+  "susulan: ganjil bukan tiket prima"],
  "telat dari arsip. 21 bukan prima. tuntas"))
 
 T.append((588,

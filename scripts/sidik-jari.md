@@ -555,6 +555,33 @@ kesalahan isi (96→97 faktor 2, kubus nempel 112, sudut 12.45 = 112,5°).
 Catatan terbuka: dev.sh audit-full masih melaporkan #587(a161) "domain
 pinjaman" padahal kata sudah dibersihkan di source threads-24.ts — kemungkinan
 cache audit; jalankan ulang build di sesi berikut dan cek ulang.
+
+## STATUS: 1000/1000 CUITAN TERCIAPAI (15 Nov 2026, sesi +325) — TARGET SELESAI
+
+Permintaan "+325 langsung" dieksekusi 13 batch (24-36): threads-28..40,
+id 676-1000, penulis 526-850, komentator 1-500. Commit: 51e99d6 (B24-26),
+bf9d523 (fix 702), b82f5fc (B27-29), 40e063c (B30-32), 9c19561 (B33-35),
+ad1f792 (B36 = cuitan ke-1000), + commit fix audit.
+Generator baru scripts/gen/common2.py: auto-force jumlah komentar EXACT sesuai
+POLA, penyesuaian panjang otomatis (shorts 3-7, longs >=2), dan penuangan cek
+hitungan per batch ke chk{batch}.txt — menghilangkan siklus perbaikan manual.
+Temuan audit yang diperbaiki di ujung sesi:
+1) authorId POST threads-28..40 salah (150-174) karena konvensi argumen
+   common.build — diperbaiki langsung di TS (author = 526+25*(n-28)+i);
+   pelajaran: selalu grep "first author" tiap file baru sebelum commit.
+2) batas audit-full maks 20 kontribusi per akun tertembus blok komentar;
+   komentar threads-28..40 di-reassign greedy least-used (cap 20).
+3) kata "jaminan" kena regex audit yang lebih luas dari cek-batch-baru
+   (pinjaman family termasuk jaminan/cicil/kpr) — diganti "tiket".
+Verifikasi akhir: cek-batch-baru 40 file BERSIH, cek-matematika-v5 SEMUA
+LOLOS (termasuk +325 cek baru), dev.sh check BERSIH.
+Topik 325 baru: 300-an variasi operasi/geometri/peluang/konversi + topik
+2025 = 45², 2026 = 2 × 1013, Armstrong 153, keterbagian 11/12, per-16,
+diagonal segi-n, sudut vertikal, keliling setengah lingkaran, dan post
+penutup id 1000 (1.000 = 2³ × 5³ = 10³).
+CATATAN TEKNIS: common.build menulis authorId post dari konvensi internal —
+jika regenerasi ulang threads-28..40 perlu dijalankan, post authorId WAJIB
+diperbaiki lagi (author = 526+25*(n-28)+i) sebelum audit.
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.

@@ -7,9 +7,10 @@ import type { ThreadzThread } from "../types"
 // ISI: 100% forum matematika; topik bentuk baru tanpa mengulang batch 1-34.
 // Topik: separuh 94, 6 hari 10 jam, 7×29, sama kaki 10-10-12, 4×47, sisa 300rb, 9×23, 27 dari 36, 8×31, rata sembilan, 6×37, 9x−4 = 6x+11, 12×19, kelereng 9-3, 5×43, prima 250-280, 10×61, 6,4 jam, 7×35, 35², 14×9, 8 hari 5 jam, 15×9, 7/16, faktorisasi 975.
 export const THREADS_PART39: ThreadzThread[] = [
+
   {
     id: 951,
-    authorId: 150,
+    authorId: 801,
     minutesAgo: 28525,
     shares: 11,
     content:
@@ -29,9 +30,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 494, minutesAgo: 27750, content: "telat dari arsip. separuh 94. tuntas" },
     ],
   },
+
   {
     id: 952,
-    authorId: 151,
+    authorId: 802,
     minutesAgo: 28555,
     shares: 12,
     content:
@@ -56,9 +58,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 120, minutesAgo: 27850, content: "telat dari arsip. 6 hari 10 jam. tuntas" },
     ],
   },
+
   {
     id: 953,
-    authorId: 152,
+    authorId: 803,
     minutesAgo: 28585,
     shares: 13,
     content:
@@ -77,9 +80,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 279, minutesAgo: 27730, content: "telat dari arsip. 7 × 29. tuntas" },
     ],
   },
+
   {
     id: 954,
-    authorId: 153,
+    authorId: 804,
     minutesAgo: 28615,
     shares: 14,
     content:
@@ -106,9 +110,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 435, minutesAgo: 27590, content: "telat dari arsip. sama kaki 10-10-12. tuntas" },
     ],
   },
+
   {
     id: 955,
-    authorId: 154,
+    authorId: 805,
     minutesAgo: 28645,
     shares: 15,
     content:
@@ -130,9 +135,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 277, minutesAgo: 27790, content: "telat dari arsip. 4 × 47. tuntas" },
     ],
   },
+
   {
     id: 956,
-    authorId: 155,
+    authorId: 806,
     minutesAgo: 28675,
     shares: 16,
     content:
@@ -160,9 +166,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 106, minutesAgo: 27680, content: "telat dari arsip. sisa 300rb. tuntas" },
     ],
   },
+
   {
     id: 957,
-    authorId: 156,
+    authorId: 807,
     minutesAgo: 28705,
     shares: 17,
     content:
@@ -183,9 +190,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 150, minutesAgo: 27860, content: "telat dari arsip. 9 × 23. tuntas" },
     ],
   },
+
   {
     id: 958,
-    authorId: 157,
+    authorId: 808,
     minutesAgo: 28735,
     shares: 18,
     content:
@@ -209,9 +217,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 271, minutesAgo: 28000, content: "telat dari arsip. 27 dari 36. tuntas" },
     ],
   },
+
   {
     id: 959,
-    authorId: 158,
+    authorId: 809,
     minutesAgo: 28765,
     shares: 19,
     content:
@@ -230,9 +239,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 202, minutesAgo: 27910, content: "telat dari arsip. 8 × 31. tuntas" },
     ],
   },
+
   {
     id: 960,
-    authorId: 159,
+    authorId: 810,
     minutesAgo: 28795,
     shares: 5,
     content:
@@ -258,9 +268,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 149, minutesAgo: 28080, content: "telat dari arsip. rata sembilan. tuntas" },
     ],
   },
+
   {
     id: 961,
-    authorId: 160,
+    authorId: 811,
     minutesAgo: 28825,
     shares: 6,
     content:
@@ -283,9 +294,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 378, minutesAgo: 27990, content: "telat dari arsip. 6 × 37. tuntas" },
     ],
   },
+
   {
     id: 962,
-    authorId: 161,
+    authorId: 812,
     minutesAgo: 28855,
     shares: 7,
     content:
@@ -305,9 +317,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 19, minutesAgo: 28080, content: "telat dari arsip. 9x − 4 = 6x + 11. tuntas" },
     ],
   },
+
   {
     id: 963,
-    authorId: 162,
+    authorId: 813,
     minutesAgo: 28885,
     shares: 8,
     content:
@@ -335,9 +348,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 262, minutesAgo: 27890, content: "telat dari arsip. 12 × 19. tuntas" },
     ],
   },
+
   {
     id: 964,
-    authorId: 163,
+    authorId: 814,
     minutesAgo: 28915,
     shares: 9,
     content:
@@ -356,9 +370,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 250, minutesAgo: 28060, content: "telat dari arsip. kelereng 9-3. tuntas" },
     ],
   },
+
   {
     id: 965,
-    authorId: 164,
+    authorId: 815,
     minutesAgo: 28945,
     shares: 10,
     content:
@@ -383,9 +398,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 25, minutesAgo: 28240, content: "telat dari arsip. 5 × 43. tuntas" },
     ],
   },
+
   {
     id: 966,
-    authorId: 165,
+    authorId: 816,
     minutesAgo: 28975,
     shares: 11,
     content:
@@ -406,9 +422,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 415, minutesAgo: 28130, content: "telat dari arsip. prima 250-280. tuntas" },
     ],
   },
+
   {
     id: 967,
-    authorId: 166,
+    authorId: 817,
     minutesAgo: 29005,
     shares: 12,
     content:
@@ -435,9 +452,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 458, minutesAgo: 27980, content: "telat dari arsip. 10 × 61. tuntas" },
     ],
   },
+
   {
     id: 968,
-    authorId: 167,
+    authorId: 818,
     minutesAgo: 29035,
     shares: 13,
     content:
@@ -459,9 +477,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 46, minutesAgo: 28180, content: "telat dari arsip. 6,4 jam. tuntas" },
     ],
   },
+
   {
     id: 969,
-    authorId: 168,
+    authorId: 819,
     minutesAgo: 29065,
     shares: 14,
     content:
@@ -485,9 +504,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 305, minutesAgo: 28330, content: "telat dari arsip. 7 × 35. tuntas" },
     ],
   },
+
   {
     id: 970,
-    authorId: 169,
+    authorId: 820,
     minutesAgo: 29095,
     shares: 15,
     content:
@@ -506,9 +526,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 261, minutesAgo: 28240, content: "telat dari arsip. 35² = 1.225. tuntas" },
     ],
   },
+
   {
     id: 971,
-    authorId: 170,
+    authorId: 821,
     minutesAgo: 29125,
     shares: 16,
     content:
@@ -534,9 +555,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 176, minutesAgo: 28410, content: "telat dari arsip. 14 × 9. tuntas" },
     ],
   },
+
   {
     id: 972,
-    authorId: 171,
+    authorId: 822,
     minutesAgo: 29155,
     shares: 17,
     content:
@@ -556,9 +578,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 138, minutesAgo: 28380, content: "telat dari arsip. 8 hari 5 jam. tuntas" },
     ],
   },
+
   {
     id: 973,
-    authorId: 172,
+    authorId: 823,
     minutesAgo: 29185,
     shares: 18,
     content:
@@ -581,9 +604,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 66, minutesAgo: 28350, content: "telat dari arsip. 15 × 9. tuntas" },
     ],
   },
+
   {
     id: 974,
-    authorId: 173,
+    authorId: 824,
     minutesAgo: 29215,
     shares: 19,
     content:
@@ -611,9 +635,10 @@ export const THREADS_PART39: ThreadzThread[] = [
       { authorId: 86, minutesAgo: 28220, content: "telat dari arsip. 7/16. tuntas" },
     ],
   },
+
   {
     id: 975,
-    authorId: 174,
+    authorId: 825,
     minutesAgo: 29245,
     shares: 5,
     content:

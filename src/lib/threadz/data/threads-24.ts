@@ -301,7 +301,7 @@ export const THREADS_PART24: ThreadzThread[] = [
       { authorId: 363, minutesAgo: 17440, content: "jawaban post semua kuku" },
       { authorId: 81, minutesAgo: 17411, content: "catet: cek sampai akar doang" },
       { authorId: 268, minutesAgo: 17378, content: "jawaban post lengkap" },
-      { authorId: 111, minutesAgo: 17346, content: "susulan: ganjil bukan jaminan prima" },
+      { authorId: 111, minutesAgo: 17346, content: "susulan: ganjil bukan tiket prima" },
       { authorId: 166, minutesAgo: 16830, content: "telat dari arsip. 21 bukan prima. tuntas" },
     ],
   },
