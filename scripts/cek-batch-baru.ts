@@ -44,6 +44,8 @@ import { THREADS_PART49 } from "../src/lib/threadz/data/threads-49"
 import { THREADS_PART50 } from "../src/lib/threadz/data/threads-50"
 import { THREADS_PART51 } from "../src/lib/threadz/data/threads-51"
 import { THREADS_PART52 } from "../src/lib/threadz/data/threads-52"
+import { THREADS_PART53 } from "../src/lib/threadz/data/threads-53"
+import { THREADS_PART54 } from "../src/lib/threadz/data/threads-54"
 
 const POLA = [12, 17, 11, 19, 14, 20, 13, 16, 11, 18, 15, 12, 20, 11, 17, 13, 19, 14, 16, 11, 18, 12, 15, 20, 13]
 
@@ -132,6 +134,8 @@ cekFile("threads-49", THREADS_PART49 as any)
 cekFile("threads-50", THREADS_PART50 as any)
 cekFile("threads-51", THREADS_PART51 as any)
 cekFile("threads-52", THREADS_PART52 as any)
+cekFile("threads-53", THREADS_PART53 as any)
+cekFile("threads-54", THREADS_PART54 as any)
 
 // kata/frasa terlarang (FORMULA HITAM + pola audit)
 const TERLARANG: [string, RegExp][] = [
@@ -153,7 +157,7 @@ const TERLARANG: [string, RegExp][] = [
   ["kalimat-garam X yang Y itu Z", /\w+\s+yang\s+[\w\s-]{3,30}\s+itu\s+\w+/i],
   ["personifikasi benda niat", /\b(loker|mesin|motor|angkot|kunci|laptop|kipas|printer|lift|kompor|kulkas|lampu|hape|hp|jam)\s+(pengen|mau|ngambek|mood|lega|kapok)\b/i],
 ]
-for (const p of [...THREADS_PART11, ...THREADS_PART12, ...THREADS_PART13, ...THREADS_PART14, ...THREADS_PART15, ...THREADS_PART16, ...THREADS_PART17, ...THREADS_PART18, ...THREADS_PART19, ...THREADS_PART20, ...THREADS_PART21, ...THREADS_PART22, ...THREADS_PART23, ...THREADS_PART24, ...THREADS_PART25, ...THREADS_PART26, ...THREADS_PART27, ...THREADS_PART28, ...THREADS_PART29, ...THREADS_PART30, ...THREADS_PART31, ...THREADS_PART32, ...THREADS_PART33, ...THREADS_PART34, ...THREADS_PART35, ...THREADS_PART36, ...THREADS_PART37, ...THREADS_PART38, ...THREADS_PART39, ...THREADS_PART40, ...THREADS_PART41, ...THREADS_PART42, ...THREADS_PART43, ...THREADS_PART44, ...THREADS_PART45, ...THREADS_PART46, ...THREADS_PART47, ...THREADS_PART48, ...THREADS_PART49, ...THREADS_PART50, ...THREADS_PART51, ...THREADS_PART52] as any) {
+for (const p of [...THREADS_PART11, ...THREADS_PART12, ...THREADS_PART13, ...THREADS_PART14, ...THREADS_PART15, ...THREADS_PART16, ...THREADS_PART17, ...THREADS_PART18, ...THREADS_PART19, ...THREADS_PART20, ...THREADS_PART21, ...THREADS_PART22, ...THREADS_PART23, ...THREADS_PART24, ...THREADS_PART25, ...THREADS_PART26, ...THREADS_PART27, ...THREADS_PART28, ...THREADS_PART29, ...THREADS_PART30, ...THREADS_PART31, ...THREADS_PART32, ...THREADS_PART33, ...THREADS_PART34, ...THREADS_PART35, ...THREADS_PART36, ...THREADS_PART37, ...THREADS_PART38, ...THREADS_PART39, ...THREADS_PART40, ...THREADS_PART41, ...THREADS_PART42, ...THREADS_PART43, ...THREADS_PART44, ...THREADS_PART45, ...THREADS_PART46, ...THREADS_PART47, ...THREADS_PART48, ...THREADS_PART49, ...THREADS_PART50, ...THREADS_PART51, ...THREADS_PART52, ...THREADS_PART53, ...THREADS_PART54] as any) {
   const teks: [string, string][] = [["post", p.content], ...p.comments.map((c: any) => [`komen ${c.authorId}`, c.content])]
   for (const [lok, t] of teks) {
     for (const [nama, re] of TERLARANG) {
