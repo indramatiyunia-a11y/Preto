@@ -75,7 +75,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 277, minutesAgo: 1514, content: "soal begini biasanya ada kata dipotong atau ditebang. kalau kata itu ada, dikurang" },
       { authorId: 117, minutesAgo: 1502, content: "gue dulu juga pernah debat gini bre. pahamnya pas gambar sendiri di kertas berpetak" },
       { authorId: 352, minutesAgo: 1489, content: "cek hitungan potongannya: 4 × 3 = 12. itu yang harusnya dikurang, bukan ditambah bre" },
-      { authorId: 468, minutesAgo: 130, content: "Kuis udah kelar ya? 68 itu udah fix dari awal" },
+      { authorId: 468, minutesAgo: 130, content: "68 itu udah fix dari awal" },
     ],
   },
   {

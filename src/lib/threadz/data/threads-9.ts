@@ -29,7 +29,7 @@ export const THREADS_PART9: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 5938, content: "78 itu setengah dari 156. cek balik: 78 × 2 = 156. aman" },
       { authorId: 466, minutesAgo: 5700, content: "Adik yang ngeyel, sebenarnya mikir. dia cuma butuh gambar" },
       { authorId: 76, minutesAgo: 5680, content: "rumusnya (a + b) × t ÷ 2. tulis langkahnya rapi, adik lu bakal ngikut" },
-      { authorId: 473, minutesAgo: 100, content: "PR-nya udah dikumpul? 78 itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "sip, tinggal terima, 26 udah kejawab di atas" },
     ],
   },
   {

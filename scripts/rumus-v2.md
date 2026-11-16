@@ -325,9 +325,21 @@ TIGA HUKUM BARU yang lahir dari sini:
     WAJIB: komentar langsung ke isi soal (angka, langkah, miskonsepsi).
     Pengecualian: "telat" sebagai ISI cerita (alarm telat, ojol telat)
     tetap sah. Cek: `python3 scripts/scan_kedatangan.py` — pembuka meta
-    harus 0; sisa kelas "checkin" hanya pernyataan sah ("semua udah
-    kejawab di atas, aman") dan pertanyaan topikal ("udah dikumpul?
-    20 × 10 cm itu fix").
+    DAN pertanyaan cek-in harus 0; pernyataan penutup pun dilarang jadi
+    catchphrase lintas-author (lihat 24).
+
+24. **KLON LINTAS-AUTHOR (sejak 17 Nov 2026 — gelombang 2).** Satu
+    kalimat (>= 4 kata) dilarang dipakai >= 4 author berbeda di seluruh
+    feed; catchphrase pendek (<= 3 kata) >= 12 author juga blokir.
+    Pengganti WAJIB berjangkar ke post induk — angka post > istilah
+    matematika di post — bukan ganti kata/sufiks doang. Komentar
+    bergaya "susulan:"/"catet:" cukup diberi jangkar ("susulan: X,
+    kasus 45") tanpa ganti gaya. Penyebab gelombang ini: pool fallback
+    4 kalimat dipakai ratusan author ("enak buat latihan cepet begini"
+    x201, "tinggal teliti, sisanya jalanin" x100) + pool catchphrase
+    lama ("jawaban di atas udah nutup semua" x24, "udah pas semua" x23).
+    Cek: `python3 scripts/fix_klaster.py` — "klaster >= 4 author
+    (>= 4 kata)" harus 0; klaster 3 author dianggap variasi alami.
 
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →

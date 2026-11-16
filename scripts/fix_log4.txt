@@ -1,0 +1,48 @@
+threads-18.ts T449 ENG: soal menit begini di atas udah kejawab semua -> btw, menit di atas udah dijawab lengkap deh
+threads-27.ts T666 ENG: soal menit begini di atas udah kejawab semua -> sip, aman, soal 45-nya udah tuntas di atas ba
+threads-31.ts T761 ENG: aman, soal prima-nya udah kejawab di atas ban -> aman, aman, soal prima-nya udah kejawab di at
+threads-36.ts T876 ENG: aman, soal prima-nya udah kejawab di atas ban -> btw, aman, soal prima-nya udah kejawab di ata
+threads-37.ts T901 ENG: sip, soal prima begini di atas udah kejawab s -> sip, 78 di atas udah kuku, tinggal dipraktek 
+threads-37.ts T913 ENG: sip, soal prima begini di atas udah kejawab s -> sip, 181 udah dijawab rapi di atas
+threads-38.ts T935 ENG: aman, soal prima-nya udah kejawab di atas ban -> aman, aman, soal prima-nya udah kejawab di at
+threads-38.ts T937 ENG: aman, soal menit-nya udah kejawab di atas ban -> sip, aman, soal menit-nya udah kejawab di ata
+threads-39.ts T960 ENG: btw, soal menit begini di atas udah kejawab s -> btw, yang 592 ama 92 udah dijawab semua di at
+threads-39.ts T975 ENG: aman, soal prima-nya udah kejawab di atas ban -> sip, aman, soal prima-nya udah kejawab di ata
+threads-40.ts T983 ENG: sip, soal prima begini di atas udah kejawab s -> sip, soal 320 ama 281 di atas udah lengkap
+threads-40.ts T999 ENG: aman, soal prima-nya udah kejawab di atas ban -> oke, aman, soal prima-nya udah kejawab di ata
+threads-41.ts T1003 ENG: soal kpk begini di atas udah kejawab semua -> yang 12 ama 18 udah dijawab semua di atas sem
+threads-42.ts T1046 ENG: aman, soal menit begini di atas udah kejawab  -> aman, soal 7 di atas udah kejawab semua
+threads-42.ts T1050 ENG: aman, soal prima-nya udah kejawab di atas ban -> sip, aman, soal prima-nya udah kejawab di ata
+threads-44.ts T1077 ENG: soal menit begini di atas udah kejawab semua -> 5 di atas udah kuku, tinggal dipraktek semua
+threads-44.ts T1078 ENG: soal kpk begini di atas udah kejawab semua -> oke, soal 12-nya udah nutup, di atas lengkap 
+threads-44.ts T1090 ENG: btw, soal digit begini di atas udah kejawab s -> btw, yang 1 ama 7 udah dijawab semua di atas 
+threads-44.ts T1090 ENG: btw, soal digit begini di atas udah kejawab s -> btw, 1 di atas udah kuku, tinggal dipraktek s
+threads-44.ts T1092 ENG: aman, soal menit begini di atas udah kejawab  -> aman, 1 udah kejawab semua, tinggal dicatet
+threads-44.ts T1092 ENG: aman, soal menit-nya udah kejawab di atas ban -> sip, aman, soal menit-nya udah kejawab di ata
+threads-45.ts T1103 ENG: soal kpk begini di atas udah kejawab semua -> oke, 15 udah kejawab, 30 juga udah di atas ba
+threads-45.ts T1121 ENG: aman, soal 5-nya udah tuntas di atas kok -> btw, aman, soal 5-nya udah tuntas di atas kok
+threads-46.ts T1133 ENG: btw, soal digit begini di atas udah kejawab s -> btw, soal 80 di atas udah kejawab semua
+threads-47.ts T1155 ENG: aman, soal prima-nya udah kejawab di atas ban -> btw, aman, soal prima-nya udah kejawab di ata
+threads-48.ts T1185 ENG: aman, soal 5-nya udah tuntas di atas kok -> sip, aman, soal 5-nya udah tuntas di atas kok
+threads-49.ts T1218 ENG: oke, soal menit begini di atas udah kejawab s -> sip, 3 itu udah dijawab, tinggal dibaca ulang
+threads-50.ts T1240 ENG: btw, soal digit begini di atas udah kejawab s -> btw, soal 9 ama 7 di atas udah lengkap
+threads-50.ts T1242 ENG: aman, soal menit begini di atas udah kejawab  -> aman, 8 di atas udah kuku, tinggal dipraktek 
+threads-50.ts T1248 ENG: btw, soal menit begini di atas udah kejawab s -> btw, soal 12 di atas udah kejawab semua
+threads-51.ts T1274 ENG: oke, soal menit begini di atas udah kejawab s -> sip, yang bingung soal 180, di atas udah keja
+threads-51.ts T1274 ENG: oke, soal menit begini di atas udah kejawab s -> oke, soal menit begini di atas udah kejawab s
+threads-52.ts T1296 ENG: aman, soal 5-nya udah tuntas di atas kok -> btw, aman, soal 5-nya udah tuntas di atas kok
+threads-52.ts T1300 ENG: btw, soal menit begini di atas udah kejawab s -> btw, soal 5 ama 0 di atas udah lengkap
+threads-54.ts T1338 ENG: aman, soal 5-nya udah tuntas di atas kok -> aman, aman, soal 5-nya udah tuntas di atas si
+threads-54.ts T1342 ENG: oke, soal menit begini di atas udah kejawab s -> sip, aman, soal 1-nya udah tuntas di atas ban
+threads-54.ts T1342 ENG: aman, soal menit-nya udah kejawab di atas ban -> btw, aman, soal menit-nya udah kejawab di ata
+threads-54.ts T1348 ENG: aman, soal menit begini di atas udah kejawab  -> 4.200 itu udah dijawab, tinggal dibaca ulang 
+threads-55.ts T1367 ENG: sip, soal menit begini di atas udah kejawab s -> sip, 60 di atas udah kuku, tinggal dipraktek 
+threads-56.ts T1398 ENG: sip, soal menit begini di atas udah kejawab s -> jawaban 35-nya di atas udah nutup deh
+threads-56.ts T1398 ENG: sip, soal menit begini di atas udah kejawab s -> sip, soal 35 di atas udah kejawab semua
+threads-56.ts T1399 ENG: btw, soal menit begini di atas udah kejawab s -> oke, 93 sama 12 dua-duanya udah kejawab di at
+threads-58.ts T1428 ENG: soal kpk begini di atas udah kejawab semua -> 330 di atas udah kuku, tinggal dipraktek semu
+threads-58.ts T1430 ENG: aman, soal menit-nya udah kejawab di atas ban -> oke, aman, soal menit-nya udah kejawab di ata
+threads-58.ts T1442 ENG: soal menit begini di atas udah kejawab semua -> 18 di atas udah kuku, tinggal dipraktek semua
+threads-58.ts T1448 ENG: sip, soal menit begini di atas udah kejawab s -> aman, 8.100 udah kejawab, 45 juga udah di ata
+threads-59.ts T1469 ENG: aman, soal 5-nya udah tuntas di atas kok -> aman, aman, soal 5-nya udah tuntas di atas si
+threads-60.ts T1476 ENG: sip, soal prima begini di atas udah kejawab s -> aman, 198 sama 99 dua-duanya udah kejawab di 

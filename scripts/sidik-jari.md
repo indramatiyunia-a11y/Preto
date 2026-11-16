@@ -685,6 +685,40 @@ CATATAN TEKNIS tetap: regenerasi threads-41..60 wajib fix authorId post
 - Hukum baru: FORMULA HITAM 23 (kommentar meta-kedatangan). Checker:
   python3 scripts/scan_kedatangan.py (pembuka meta harus 0).
 
+## REVISI RITME BOT — GELOMBANG 2: KLON LINTAS-AUTHOR (17 Nov 2026)
+
+- Pemicu: lanjutan "Benahi" — sisa formula setelah gelombang 1 ternyata
+  KEPARAH: 355 string (>= 3 kata) dipakai >= 6 author berbeda, total
+  4.022 instance. Empat terbesar buatan sendiri: pool fallback gelombang 1
+  cuma 4 kalimat ("enak buat latihan cepet begini" x201 author, "tinggal
+  teliti, sisanya jalanin" x100, "catet angkanya, balik modal pas ujian"
+  x58, "soal begini suka nongol pas ulangan" x25) + pool catchphrase lama
+  ("jawaban di atas udah nutup semua" x24, "udah pas semua" x23,
+  "isinya tuntas semua" x23, "di atas udah kuku semua" x22, dst).
+- Mesin: pengganti BERJANGKAR POST INDUK (angka post > istilah matematika
+  di post > pool), 26 pola berangka x 4 slot angka x 30 rasa, enumerasi
+  mendalam; kontrol tabrakan global (target <= 2 author per kalimat
+  >= 4 kata) + skeleton sama maks 1x per author; komentar "susulan:"/
+  "catet:" dipertahankan gayanya + jangkar ("..., kasus 45").
+- Kendala yang diatasi: (1) kap per-bank per-author memblokir author
+  prolifik -> diganti larangan skeleton sama per-author + soft cap 6;
+  (2) bersih-bersih mekanis rasa dobel ("...semua semua") malah
+  MENYATUKAN varian jadi klaster 4-7 author -> dipulihkan lewat mesin
+  penuh, bukan mekanis; (3) 8 pertanyaan cek-in tersisa ("Pasti udah
+  beres semua kan? 440 plus 35 = 475...") -> strip pertanyaan,
+  konten dipertahankan / engine kalau tipis.
+- Total disentuh gelombang 2: 4.023 + 1.449 + 848 + 664 + 12 + 258 + 48
+  = 7.302 komentar (termasuk perbaikan rasa dobel 258).
+- Hasil akhir: klaster >= 4 author (>= 4 kata) = 0; maksimum 3 author
+  (155 string, variasi alami); pertanyaan cek-in = 0; struktur 1.518
+  post / 22.881 komentar utuh, kerusakan 0; audit-full "SEMUA AMAN",
+  cek-matematika-v5 LOLOS, cek-komen-aturan LOLOS.
+- Hukum baru: FORMULA HITAM 24 (klon lintas-author). Checker:
+  python3 scripts/fix_klaster.py — "klaster >= 4 author" harus 0.
+- Pelajaran: pool string untuk pengganti massal = bom waktu; pengganti
+  WAJIB berjangkar konteks (angka post) dengan ruang kandidat besar
+  dan kontrol tabrakan lintas-author, bukan rotasi pool kecil.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.

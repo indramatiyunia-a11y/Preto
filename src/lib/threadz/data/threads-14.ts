@@ -79,7 +79,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 411, minutesAgo: 9688, content: "iya, ×100 tiga kali" },
       { authorId: 289, minutesAgo: 9669, content: "jawaban 10.000 dan 25.000. dua-duanya kuku" },
       { authorId: 94, minutesAgo: 9649, content: "1 km² = 1.000 × 1.000 = 1.000.000 m² juga" },
-      { authorId: 452, minutesAgo: 8980, content: "angka 1 di soal ini emang buat ngetes teliti" },
+      { authorId: 452, minutesAgo: 8980, content: "di atas udah lengkap buat soal 1" },
     ],
   },
   {
@@ -356,7 +356,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 95, minutesAgo: 10062, content: "iya, ÷ 5 tinggal lihat digit akhir 0 atau 5" },
       { authorId: 280, minutesAgo: 10040, content: "÷ 4 lihat dua digit terakhir: 24 habis dibagi 4, jadi 5.724 ÷ 4 juga bener" },
       { authorId: 163, minutesAgo: 10018, content: "iya, 5724/4 = 1431 pas" },
-      { authorId: 412, minutesAgo: 9999, content: "jawaban post dua-duanya bener" },
+      { authorId: 412, minutesAgo: 9999, content: "btw, tinggal terima, 7 udah kejawab di atas semua" },
       { authorId: 73, minutesAgo: 9979, content: "aturan digit ini hemat waktu banget di ulangan" },
       { authorId: 289, minutesAgo: 9310, content: "471 ÷ 3 ya ÷ 9 gak, 5.724 ÷ 9 ya dan ÷ 4 juga ya. kuku" },
     ],
@@ -437,7 +437,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 201, minutesAgo: 10001, content: "temenmu tinggal lihat contoh 4,6,8 → 9,11,13" },
       { authorId: 391, minutesAgo: 9983, content: "sifat geser ini kepake juga di statistika lanjutan" },
       { authorId: 483, minutesAgo: 9965, content: "catet: geser = tambah semua, skala = kali semua. beda perilaku jangkauan" },
-      { authorId: 365, minutesAgo: 9230, content: "catet angkanya, balik modal pas ujian" },
+      { authorId: 365, minutesAgo: 9230, content: "5 di atas udah kuku, tinggal dipraktek" },
     ],
   },
   {
@@ -461,7 +461,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 10085, content: "iya, empat kali minus balik-balik jadi plus" },
       { authorId: 45, minutesAgo: 10067, content: "cara hafal: pangkat genap positif, ganjil ikut tanda" },
       { authorId: 131, minutesAgo: 10048, content: "jawaban post 12, 9, −9 semua bener" },
-      { authorId: 314, minutesAgo: 9430, content: "enak buat latihan cepet begini" },
+      { authorId: 314, minutesAgo: 9430, content: "jawaban 3-nya di atas udah nutup" },
     ],
   },
   {
@@ -508,7 +508,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 57, minutesAgo: 10198, content: "iya, pasangan sudut tripelnya" },
       { authorId: 350, minutesAgo: 10179, content: "jawaban 60 dan 45. dua-duanya kuku" },
       { authorId: 181, minutesAgo: 10159, content: "jumlah sudut segitiga 180 itu pondasi semua soal sudut" },
-      { authorId: 447, minutesAgo: 9490, content: "enak buat latihan cepet begini" },
+      { authorId: 447, minutesAgo: 9490, content: "aman, soal 55-nya udah tuntas di atas" },
     ],
   },
   {
@@ -536,7 +536,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 86, minutesAgo: 10124, content: "susulan: 6(x − 1) − 2(x − 3) = 4x ya?" },
       { authorId: 439, minutesAgo: 10107, content: "iya, 6x − 6 − 2x + 6 = 4x. konstantanya habis" },
       { authorId: 121, minutesAgo: 10090, content: "mantap, −2 × −3 = +6 di bagian terakhir" },
-      { authorId: 257, minutesAgo: 9660, content: "tinggal teliti, sisanya jalanin" },
+      { authorId: 257, minutesAgo: 9660, content: "jawaban 3-nya di atas udah nutup" },
     ],
   },
   {

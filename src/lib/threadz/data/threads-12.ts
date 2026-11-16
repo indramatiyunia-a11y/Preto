@@ -384,7 +384,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 321, minutesAgo: 8471, content: "jawaban: 20% dasar beli, 16,67% dasar jual. tulis dasarnya biar gak disalahin" },
       { authorId: 186, minutesAgo: 8452, content: "guru gue nambah: kena pajak 10% dari harga jual, sisa untung berapa?" },
       { authorId: 94, minutesAgo: 8433, content: "216 × 0,9 = 194.400, untung sisa 14.400" },
-      { authorId: 481, minutesAgo: 7990, content: "enak buat latihan cepet begini" },
+      { authorId: 481, minutesAgo: 7990, content: "soal 180 di atas udah kejawab semua" },
     ],
   },
   {
@@ -582,7 +582,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 8758, content: "385, 55, 650, 225. empat angka satu keluarga" },
       { authorId: 289, minutesAgo: 8743, content: "presentasi kelompok dengan cek dua jalur, guru pasti suka" },
       { authorId: 394, minutesAgo: 8728, content: "tulis 10×11×21/6 di slide biar keliatan jalannya" },
-      { authorId: 196, minutesAgo: 8100, content: "catet angkanya, balik modal pas ujian" },
+      { authorId: 196, minutesAgo: 8100, content: "di atas udah lengkap buat soal 1" },
     ],
   },
   {

@@ -28,7 +28,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 244, minutesAgo: 655, content: "di kantor gue nyari liter juga pakai logikanya. 3/4 gelas antiseptik kepake setengah, sisa 3/8 gelas. nyata kok bre" },
       { authorId: 101, minutesAgo: 620, content: "anaknya keren tuh, gak asal jawab, masih gambar dulu. kebanyakan langsung nebak" },
       { authorId: 363, minutesAgo: 560, content: "sisa 3/8 bre. PR anak SD aja bikin debat satu rumah wkwk 🙃" },
-      { authorId: 215, minutesAgo: 15, content: "kasus 3 begini enak buat latihan cepet" },
+      { authorId: 215, minutesAgo: 15, content: "aman, pecahan di atas udah kejawab semua, aman deh" },
     ],
   },
   {
@@ -55,7 +55,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 58, minutesAgo: 555, content: "Di rumah juga gitu, bagi jajan 84 ribu ke 5 anak gak pernah rata. akhirnya satu dikit lebih" },
       { authorId: 331, minutesAgo: 510, content: "17×4 + 16 = 84 juga bisa sih, tapi tetep gak rata. bener deh mustahil sama semua" },
       { authorId: 184, minutesAgo: 460, content: "Gimana kalau raknya 8? 84 ÷ 8 = 10 sisa 4 juga kan. nanya buat magangnya" },
-      { authorId: 468, minutesAgo: 140, content: "Udah kejawab kan dari siang?" },
+      { authorId: 468, minutesAgo: 140, content: "aman, soal 84-nya udah tuntas di atas" },
     ],
   },
   {
@@ -206,7 +206,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 369, minutesAgo: 862, content: "Pecahan boleh dikali bilangan apa aja itu aturan umum, termasuk koma. anaknya malah lebih protek dari rumusnya wkwk" },
       { authorId: 107, minutesAgo: 845, content: "Aku juga sering kepikiran gini. ternyata yang penting hasil akhirnya sama: 3/4" },
       { authorId: 296, minutesAgo: 825, content: "buat cek terakhir: 3/4 × 4 = 3. jadi empat kali masak butuh 3 sendok penuh. nempel logikanya" },
-      { authorId: 152, minutesAgo: 800, content: "Sebelum jam masak siang udah kejawab semua kan? aman" },
+      { authorId: 152, minutesAgo: 800, content: "oke, kasus 1 begini udah kejawab semua di atas sih" },
       { authorId: 444, minutesAgo: 770, content: "Kalau kebanyakan garam bisa diselametin pake kentang rebus, lagi-lagi urusan takaran wkwk" },
       { authorId: 219, minutesAgo: 130, content: "Jawabannya tetep: 1,5 × 1/2 = 3/4, sah" },
     ],
@@ -382,7 +382,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 24, minutesAgo: 1026, content: "Tanaman gue dulu layu karena pupuk asal. takaran begini emang ngaruh " },
       { authorId: 289, minutesAgo: 1010, content: "1 kilo = 8 sendok penuh, patokan rumahan yang bagus. udah kebukti sendiri" },
       { authorId: 163, minutesAgo: 993, content: "cucunya kalau gede bisa jadi operator gudang wkwk 🙃" },
-      { authorId: 459, minutesAgo: 110, content: "catet angkanya, balik modal pas ujian" },
+      { authorId: 459, minutesAgo: 110, content: "yang soal 1 udah dijawab lengkap di atas" },
     ],
   },
   {

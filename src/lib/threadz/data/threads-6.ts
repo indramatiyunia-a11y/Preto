@@ -432,7 +432,7 @@ export const THREADS_PART6: ThreadzThread[] = [
       { authorId: 175, minutesAgo: 3740, content: "Kalau C gak mandi sama sekali juga gak bisa nol. ada biaya dasar" },
       { authorId: 270, minutesAgo: 3720, content: "usul: bagi kepala mulai bulan depan, bulan ini bagi rata sebagai penutup era" },
       { authorId: 481, minutesAgo: 3700, content: "Bon nyangkut di bu kos, keputusan nyangkut di rapat penghuni. ikut rapat aja " },
-      { authorId: 325, minutesAgo: 100, content: "Urusannya udah beres? 12.240 per kepala itu angkanya" },
+      { authorId: 325, minutesAgo: 100, content: "12.240 per kepala itu angkanya" },
     ],
   },
   {

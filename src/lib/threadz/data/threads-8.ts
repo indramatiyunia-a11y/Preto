@@ -332,7 +332,7 @@ export const THREADS_PART8: ThreadzThread[] = [
       { authorId: 270, minutesAgo: 4980, content: "Beda antar angka juga kali 3: 4, 12, 36. itu bonus informasi" },
       { authorId: 481, minutesAgo: 4960, content: "2, 6, 18, 54, 162, 486. deret geometri rasio 3. hafalan baru" },
       { authorId: 325, minutesAgo: 4940, content: "Punyamu bisa dilanjut. punya temen mentok di 54" },
-      { authorId: 96, minutesAgo: 100, content: "PR-nya udah dikumpul? 162 itu fix" },
+      { authorId: 96, minutesAgo: 100, content: "sip, soal 6 di atas udah kejawab semua" },
     ],
   },
   {

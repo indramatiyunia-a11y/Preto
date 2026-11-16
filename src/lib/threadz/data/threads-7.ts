@@ -180,7 +180,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4610, content: "Halaman 21-22 jelek itu tanda lelah, bukan tanda nambah salah" },
       { authorId: 288, minutesAgo: 4350, content: "2 halaman per hari × 30 = 60. butuh 30 hari. dosen kasih 24. hitunganmu pas" },
       { authorId: 466, minutesAgo: 4330, content: "Tulis ritme baru di kalender. 2,5 × 24 = 60. pas deadline" },
-      { authorId: 473, minutesAgo: 100, content: "Skripsinya udah beres? 2,5 per hari itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "2,5 per hari itu fix" },
     ],
   },
   {
@@ -353,7 +353,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4836, content: "8 jam shift standar. pembagian 3-5 itu yang menentukan mood" },
       { authorId: 288, minutesAgo: 4822, content: "Payung satu itu satu untuk semua. lambang kebersamaan wkwk" },
       { authorId: 466, minutesAgo: 4400, content: "3 jam pos A tenang, 5 jam pos B ramai. kombinasi bagus" },
-      { authorId: 473, minutesAgo: 100, content: "Shift udah kelar? 3-5 itu pembagian lu" },
+      { authorId: 473, minutesAgo: 100, content: "btw, kasus 16.00 begini udah kejawab semua di atas semua" },
     ],
   },
   {

@@ -26,7 +26,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 2938, content: "70, 75, 80 naik 5 tiap ulangan. kalau polanya lanjut, 85. 87 sedikit di atas pola" },
       { authorId: 209, minutesAgo: 2800, content: "tiga ulangan rata 75. keempat harus 87 biar rata total naik ke 78. berat tapi masuk akal" },
       { authorId: 468, minutesAgo: 2780, content: "87 itu fix. dua kali dicek di atas" },
-      { authorId: 404, minutesAgo: 100, content: "Ulangannya udah kelar? 87 targetnya, semangat anaknya" },
+      { authorId: 404, minutesAgo: 100, content: "sip, rata-rata di atas udah dijawab lengkap deh" },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 3158, content: "koin gak punya nama bre, tapi posisinya punya. pertama dan kedua itu beda kursi" },
       { authorId: 123, minutesAgo: 3136, content: "GG 1/4, GA 1/4, AG 1/4, AA 1/4. total 4/4 = 1. cocok semua" },
       { authorId: 286, minutesAgo: 3113, content: "lempar 4 kali aja bre, catet. kadang langsung kena semua kemungkinan" },
-      { authorId: 436, minutesAgo: 100, content: "PR-nya udah dikumpul? 1/4 itu jawaban yang benar" },
+      { authorId: 436, minutesAgo: 100, content: "1/4 itu jawaban yang benar" },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 275, minutesAgo: 3299, content: "kalau dosen minta satu, rata-rata dulu. range jadi pelengkap" },
       { authorId: 190, minutesAgo: 3278, content: "44 menit rata, 42-47 rentang. itu kalimat laporan paling ringkas" },
       { authorId: 123, minutesAgo: 3256, content: "dua-duanya bre. mean buat ekspektasi, range buat kepercayaan" },
-      { authorId: 286, minutesAgo: 100, content: "Laporannya udah dikumpul? rata 44, range 5. dua-duanya bener" },
+      { authorId: 286, minutesAgo: 100, content: "Rata 44, range 5. dua-duanya bener" },
     ],
   },
   {

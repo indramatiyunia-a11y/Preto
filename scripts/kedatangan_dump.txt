@@ -22,10 +22,6 @@ threads-2.ts	T27	[checkin]	[kosong]	POST: 84 kardus mau dibagi rata ke rak. rak 
 	KOMEN: Udah kejawab kan dari siang?
 	SISA: Udah kejawab kan dari siang?
 
-threads-2.ts	T32	[opener/nyampe+checkin]	[kosong]	POST: ada pembeli nanya teh, setengah kilo itu berapa. gue tunjuk jarum timbangan, bilang pas di tengah antara 0 sama 1. dia ngotot sete
-	KOMEN: baru nyampe di thread ini. udah beres kan urusan timbangnya? koma itu emang butuh sabar
-	SISA: di thread ini. udah beres kan urusan timbangnya? koma itu emang butuh sabar
-
 threads-2.ts	T33	[checkin]	[kosong]	POST: Resep minta garam 3/4 sendok teh. Di rumah cuma ada sendok takar 1/2. Ternyata cukup diambil sekali penuh lalu setengahnya lagi. A
 	KOMEN: Sebelum jam masak siang udah kejawab semua kan? aman
 	SISA: Sebelum jam masak siang udah kejawab semua kan? aman

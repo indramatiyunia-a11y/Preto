@@ -255,7 +255,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 2378, content: "kasih dia kertas kecil: lembar × nilai. biar dia hitung sendiri pakai tangan dia" },
       { authorId: 87, minutesAgo: 2200, content: "1.500.000 dari 2.000.000 itu 75 persen. tinggal 25 persen lagi, yaitu 500 ribu" },
       { authorId: 275, minutesAgo: 2180, content: "5 lembar 100 ribu itu tumpukan tipis. bandingkan dengan tumpukan 30 lembar tadi" },
-      { authorId: 190, minutesAgo: 1160, content: "Nasabahnya udah beres? 5 lembar 100 ribu itu fix" },
+      { authorId: 190, minutesAgo: 1160, content: "5 lembar 100 ribu itu fix" },
       { authorId: 123, minutesAgo: 100, content: "1.500.000 + 500.000 = 2.000.000. selesai" },
     ],
   },

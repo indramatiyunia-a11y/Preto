@@ -161,7 +161,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 184, minutesAgo: 6649, content: "Bikin daftar belanja dan dicentang. yang sudah dibeli jangan kebeli lagi" },
       { authorId: 95, minutesAgo: 6625, content: "Sisa 25rb itu buat jajan anak di hari pertama sekolah. biar happy" },
       { authorId: 458, minutesAgo: 6600, content: "Masuk akal. cuma inget, sekolah kadang punya patokan khusus" },
-      { authorId: 132, minutesAgo: 5650, content: "Pasti udah beres semua kan? 440 plus 35 = 475 itu angka finalnya" },
+      { authorId: 132, minutesAgo: 5650, content: "440 plus 35 = 475 itu angka finalnya" },
     ],
   },
   {
