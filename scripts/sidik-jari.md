@@ -610,6 +610,25 @@ LOLOS (+500 cek baru; 4 cek desimal dibulatkan Math.round), dev.sh check
 BERSIH.
 CATATAN TEKNIS tetap: regenerasi threads-41..60 wajib fix authorId post
 (author = 501+25*(n-41)+i) sebelum audit.
+
+## BACKUP GITHUB (16 Nov 2026) — ANTI-HILANG DATA
+
+- Repo tujuan : https://github.com/indramatiyunia-a11y/Preto (publik, milik
+  indramatiyunia-a11y, dibuat user siap pakai — nama sama dengan token).
+- Remote      : origin, URL berisi token "Preto" (fine-grained PAT) yang
+  TERSIMPAN HANYA di .git/config lokal — tidak pernah ikut ter-commit dan
+  tidak ada di file terlacak apa pun (sudah discan).
+- ATURAN WAJIB: setiap commit baru di repo ini harus langsung di-push:
+      git push origin main
+  Tidak ada pekerjaan yang dianggap selesai sebelum push berhasil.
+- Backup pertama : commit 84f7cb3 — 309 file, SELURUH riwayat (batch 1-56,
+  1500/1500 cuitan, audit bersih) kini ada di GitHub.
+- README awal repo (# Preto, commit e76fcd5) digabung via merge
+  --allow-unrelated-histories; konflik diutamakan versi lokal (-X ours).
+- Catatan izin: token "Preto" 403 saat bikin repo baru (butuh izin
+  Administration write pada fine-grained PAT) → dipakai repo Preto yang ada.
+- Regenerasi dari nol bila sandbox hilang:
+      git clone https://github.com/indramatiyunia-a11y/Preto.git
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
