@@ -582,6 +582,34 @@ penutup id 1000 (1.000 = 2³ × 5³ = 10³).
 CATATAN TEKNIS: common.build menulis authorId post dari konvensi internal —
 jika regenerasi ulang threads-28..40 perlu dijalankan, post authorId WAJIB
 diperbaiki lagi (author = 526+25*(n-28)+i) sebelum audit.
+
+## STATUS: 1500/1500 CUITAN TERCIAPAI (16 Nov 2026, sesi +500 tersulit) — TARGET BARU SELESAI
+
+Permintaan "+500 (tersulit)" dieksekusi 20 batch (37-56): threads-41..60,
+id 1001-1500. Penulis POST pakai blok 501-1000 (25 per batch, digunakan
+ulang dari batch lama + baru; semua akun dikenali, kuota 20/akun aman).
+Hambatan struktur yang DIBUKA dulu sebelum menulis:
+1) audit-full.ts mengunci JUMLAH batch maks 1000 → dinaikkan ke 1500
+   (rentang 100-1500, tetap kelipatan 25).
+2) users.ts hanya kenal akun s.d. 1050 (+ intl 1051-1100) → penulis baru
+   TIDAK dibikin; pakai ulang blok 501-1050 yang pasti dikenali.
+3) common.build tetap menulis authorId post salah (konvensi delta) →
+   tiap build langsung diperbaiki: author = 501 + 25*(n-41) + i.
+4) TARGET dev.sh 1000 → 1500.
+Topik 500 baru: kerja bersama (laju gabungan), tangki isi-bocor, KPK/GKP
+baru, bilangan segitiga T10-T96, Fibonacci s.d. 196.418, biner 2^12-2^20,
+heksadesimal (2A, FF, 100, 400, A0, 700), mod 7/9 angka besar, skala peta,
+komisi, budget 50-30-20, dana darurat, konversi suhu bolak-balik (termasuk
+−40 titik sama), siklus digit akhir pangkat, selisih kuadrat (a±1) besar,
+pembulatan desimal, orang-hari, kapasitas dibulatkan ke atas, dan post
+penutup id 1500 (1.500 = 2² × 3 × 5³).
+Commit: 8b9f2e3, 75578d3, 22106ea, 26d9e57, 512dbb7, 639be8d, 52c7f66,
+09cd320, 854ccb0, 1f4d663, 8a028a9, 206a77a (+ fix kecil).
+Verifikasi akhir: cek-batch-baru 60 file BERSIH, cek-matematika-v5 SEMUA
+LOLOS (+500 cek baru; 4 cek desimal dibulatkan Math.round), dev.sh check
+BERSIH.
+CATATAN TEKNIS tetap: regenerasi threads-41..60 wajib fix authorId post
+(author = 501+25*(n-41)+i) sebelum audit.
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
