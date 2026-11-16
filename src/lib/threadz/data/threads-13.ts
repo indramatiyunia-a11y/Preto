@@ -206,7 +206,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 178, minutesAgo: 9080, content: "iya, titik C dipindah-pindah di busur sama tetap 40°" },
       { authorId: 332, minutesAgo: 9063, content: "sifat lain: segiempat tali busur, sudut berhadapan jumlahnya 180" },
       { authorId: 61, minutesAgo: 9046, content: "contoh: 40 dan 140 berhadapan, 40+140 = 180" },
-      { authorId: 217, minutesAgo: 9029, content: "kak, sudut keliling yang menghadap diameter ikut teorema segiempat juga ya?" },
+      { authorId: 217, minutesAgo: 9029, content: "Sudut keliling yang menghadap diameter ikut teorema segiempat juga ya?" },
       { authorId: 85, minutesAgo: 9012, content: "iya, 90 dan 90 berhadapan, 90+90 = 180. konsisten" },
       { authorId: 456, minutesAgo: 8995, content: "tiga pertanyaan, tiga jawaban: 40, 90, 50. rapi" },
       { authorId: 139, minutesAgo: 8978, content: "40, 90, 50. semua sudah dua jalur" },

@@ -287,6 +287,33 @@ TIGA HUKUM BARU yang lahir dari sini:
     terlarang: gay/lesbi/homoseks/transgender/waria/bencong/banci/queer —
     juga pun menyamar ("dadu gay"). Audit Pola B9 memblokirnya.
 
+21. **SAPAAN ANONIM / KLAIM IDENTITAS KE LAWAN BICARA (sejak 16 Nov 2026
+    — REVISI DETEKSI BOT).** DILARANG KERAS menyapa lawan bicara dengan
+    kata kekerabatan/umur/gender yang dikarang: kak, bang, abang, mbak,
+    mba, om, pak, bu, dik, dek, mas. Alasan user: "di sini kan anonim
+    semuanya — kok kita bisa tahu dia abang, dia om, dia kakek, dia
+    nenek?" → terdeteksi bot. Yang SAH:
+    a. slang netral (bro, bos, gan, cuy, guys, bre);
+    b. sapaan GROUNDED — lawan bicara menyebut dirinya dulu di postnya
+       (nenek, teh, bunda);
+    c. tokoh cerita orang ketiga (abang toko, bu kos, bu guru, om
+       tukang bengkel, kakak/adik/ibu/bapak keluarga sendiri);
+    d. homograf sah: "sendok teh" (takaran), "dek kartu" (deck),
+       KAKAK/MAMA (soal permutasi kata), teh minuman.
+    Cek otomatis: `python3 scripts/scan_sapaan.py` — sisa sapaan harus
+    110 (36 nenek + 28 adik + 20 om + 13 kakak + 5 abang + 4 bu + 4 dek,
+    semua grounded); lebih dari itu = blokir.
+
+22. **TEMPLATE KLONING / KOMENTAR BAYANGAN (sejak 16 Nov 2026).** Satu
+    author dilarang menulis kalimat sama persis lebih dari 1x, skeleton
+    sama (ganti angka doang) lebih dari 2x, atau catchphrase pendek
+    ("iya pas", "jawaban post semua kuku") lebih dari 2x di seluruh
+    feed. Penutup formulaik ("dua kali dicek bener", "tuntas", "pas")
+    wajib divariasikan. Skeleton "telat dari arsip. X. tuntas" maks 1x
+    per author. Cek: `python3 scripts/fix_sapaan_1d.py` (bagian deteksi
+    kembar) — pasangan ratio >= 0.85 (>= 4 kata) harus menyisakan hanya
+    skeleton wajar dengan angka beda.
+
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
 BUANG, tulis ulang. Kalau ada frasa yang cuma masuk akal dari mulut

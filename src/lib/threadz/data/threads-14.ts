@@ -79,7 +79,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 411, minutesAgo: 9688, content: "iya, ×100 tiga kali" },
       { authorId: 289, minutesAgo: 9669, content: "jawaban 10.000 dan 25.000. dua-duanya kuku" },
       { authorId: 94, minutesAgo: 9649, content: "1 km² = 1.000 × 1.000 = 1.000.000 m² juga" },
-      { authorId: 452, minutesAgo: 8980, content: "telat dari arsip. luas ×10.000, 2,5 m² = 25.000 cm². tuntas" },
+      { authorId: 452, minutesAgo: 8980, content: "lewat dari arsip, luas ×10.000, 2,5 m² = 25.000 cm². kuku" },
     ],
   },
   {
@@ -260,7 +260,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 9794, content: "sifat paritas kepake di bukti olim level dasar" },
       { authorId: 330, minutesAgo: 9777, content: "jawaban post: tiga sifat + tiga ganjil ganjil + 55 ganjil. lengkap" },
       { authorId: 193, minutesAgo: 9760, content: "temenmu tinggal dikasih tabel kecil ganjil-genap" },
-      { authorId: 115, minutesAgo: 9330, content: "telat dari arsip. semua sifat lolos, ganjil−ganjil = genap, 55 ganjil. tuntas" },
+      { authorId: 115, minutesAgo: 9330, content: "nyusul dari arsip, semua sifat lolos, ganjil−ganjil = genap, 55 ganjil. beres semua" },
     ],
   },
   {
@@ -437,7 +437,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 201, minutesAgo: 10001, content: "temenmu tinggal lihat contoh 4,6,8 → 9,11,13" },
       { authorId: 391, minutesAgo: 9983, content: "sifat geser ini kepake juga di statistika lanjutan" },
       { authorId: 483, minutesAgo: 9965, content: "catet: geser = tambah semua, skala = kali semua. beda perilaku jangkauan" },
-      { authorId: 365, minutesAgo: 9230, content: "telat dari arsip. +5 → rata/median naik 5, jangkauan tetap; ×2 → semua ×2. tuntas" },
+      { authorId: 365, minutesAgo: 9230, content: "telat nyamber, +5 → rata/median naik 5, jangkauan tetap; ×2 → semua ×2. beres semua" },
     ],
   },
   {
@@ -461,7 +461,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 10085, content: "iya, empat kali minus balik-balik jadi plus" },
       { authorId: 45, minutesAgo: 10067, content: "cara hafal: pangkat genap positif, ganjil ikut tanda" },
       { authorId: 131, minutesAgo: 10048, content: "jawaban post 12, 9, −9 semua bener" },
-      { authorId: 314, minutesAgo: 9430, content: "telat dari arsip. (−3)(−4) = 12, (−3)² = 9 vs −3² = −9, (−5)³ = −125. tuntas" },
+      { authorId: 314, minutesAgo: 9430, content: "kelewat, dari arsip: (−3)(−4) = 12, (−3)² = 9 vs −3² = −9, (−5)³ = −125. tuntas" },
     ],
   },
   {
@@ -536,7 +536,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 86, minutesAgo: 10124, content: "susulan: 6(x − 1) − 2(x − 3) = 4x ya?" },
       { authorId: 439, minutesAgo: 10107, content: "iya, 6x − 6 − 2x + 6 = 4x. konstantanya habis" },
       { authorId: 121, minutesAgo: 10090, content: "mantap, −2 × −3 = +6 di bagian terakhir" },
-      { authorId: 257, minutesAgo: 9660, content: "telat dari arsip. 5x + 2, 5x − 2, 10x + 18, 3 − 2x, 4x. tuntas" },
+      { authorId: 257, minutesAgo: 9660, content: "kelewat, dari arsip: 5x + 2, 5x − 2, 10x + 18, 3 − 2x, 4x. tuntas kok" },
     ],
   },
   {

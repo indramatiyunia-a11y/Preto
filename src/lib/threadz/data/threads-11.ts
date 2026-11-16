@@ -150,7 +150,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 7579, content: "10% dari 110 = 11, bukan 10. angka ini yang sering dikira sama" },
       { authorId: 32, minutesAgo: 7562, content: "biar balik ke 100 harus turun 9,09% dari 110: 10/110 = 9,09%" },
       { authorId: 372, minutesAgo: 7546, content: "9,09% tuh. enak buat jebakan ulangan" },
-      { authorId: 126, minutesAgo: 7530, content: "pasar sayur emang gitu bang, naik-turun gak pernah balik pas" },
+      { authorId: 126, minutesAgo: 7530, content: "Pasar sayur emang gitu, naik-turun gak pernah balik pas" },
       { authorId: 259, minutesAgo: 7513, content: "99 ya, dua jalur: itungan langsung sama persen dari 110" },
       { authorId: 68, minutesAgo: 7497, content: "kalau naik a/b, buat balik harus turun a/(a+b). naik 1/10 → turun 1/11" },
       { authorId: 407, minutesAgo: 7481, content: "1/11 dari 110 = 10, balik ke 100 pas. bener komen di atas" },

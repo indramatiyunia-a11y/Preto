@@ -1,0 +1,1188 @@
+threads-1.ts REPL x1: om-om, bantu itung. -> bantu itung dong.
+threads-1.ts REPL x1: bini om yang bener -> bini lu yang bener
+threads-1.ts REPL x1: itungan om pas -> itunganmu pas
+threads-1.ts REPL x1: ke om: jam pertama -> jam pertama
+threads-1.ts REPL x1: balik aja ke om: kalau semua jam 1 ribu -> balik aja: kalau semua jam 1 ribu
+threads-1.ts BULK[kak]: pakai uang langsung kak. 10.000 dikurang 500 itu 9.500, buka -> Pakai uang langsung. 10.000 dikurang 500 itu 9.500, bukan 9.
+threads-1.ts BULK[bu]: gelas juga bisa bu. 9,5 gelas itu hampir 10, 9,05 gelas baru -> Gelas juga bisa. 9,5 gelas itu hampir 10, 9,05 gelas baru ke
+threads-1.ts BULK[bu]: pakai peran bu. tiga anak masing-masing dapat lima permen, l -> Pakai peran. tiga anak masing-masing dapat lima permen, lima
+threads-1.ts BULK[bu]: sifat bolak-balik itu namanya komutatif bu, dan cuma penjuml -> Sifat bolak-balik itu namanya komutatif, dan cuma penjumlaha
+threads-1.ts BULK[bu]: garis bilangan juga bisa bu. lompat ke kanan bisa ditukar ur -> Garis bilangan juga bisa. lompat ke kanan bisa ditukar uruta
+threads-1.ts BULK[bu]: permen itu ampuh bu. kelipatan kecil langsung kebayang di ta -> Permen itu ampuh. kelipatan kecil langsung kebayang di tanga
+threads-1.ts BULK[bu]: papan tulis dua kolom bu: 3+5 dan 5+3 sama. 10−4 dan 4−10, s -> Papan tulis dua kolom: 3+5 dan 5+3 sama. 10−4 dan 4−10, satu
+threads-1.ts BULK[bu]: kue 10 dipotong 4 sisa 6 bu. kue 4 dipotong 10... nah ini ya -> Kue 10 dipotong 4 sisa 6. kue 4 dipotong 10... nah ini yang 
+threads-1.ts BULK[bu]: anak yang nanya kayak gitu biasanya bakal doyan matematika b -> Anak yang nanya kayak gitu biasanya bakal doyan matematika, 
+threads-1.ts BULK[bu]: kasih penggaris bu: 10 cm dikurang 4 kebaca. 4 dikurang 10,  -> Kasih penggaris: 10 cm dikurang 4 kebaca. 4 dikurang 10, pen
+threads-1.ts BULK[bu]: di kelas kami pakai stiker bu. milih siapa dapet banyak, itu -> Di kelas kami pakai stiker. milih siapa dapet banyak, itu pi
+threads-1.ts BULK[bu]: istilah komutatif boleh dikenalin bu, anak suka punya nama b -> Istilah komutatif boleh dikenalin, anak suka punya nama buat
+threads-1.ts BULK[bu]: pengurangan itu cari SISA bu, sisa arahnya satu. jumlah beba -> Pengurangan itu cari SISA, sisa arahnya satu. jumlah bebas a
+threads-1.ts BULK[bu]: pertanyaan Ananda itu bagus banget bu. gak semua guru dapet  -> Pertanyaan Ananda itu bagus banget. gak semua guru dapet mur
+threads-1.ts BULK[bu]: catat pertanyaan itu di jurnal kelas bu. tahun depan pasti k -> Catat pertanyaan itu di jurnal kelas. tahun depan pasti kepa
+threads-1.ts BULK[pak]: dua-duanya benar pak. yang penting di laporan tulis satu car -> Dua-duanya benar. yang penting di laporan tulis satu cara ko
+threads-1.ts BULK[pak]: kalkulator juga pak: 240.000 × 0,15 = 36.000. tiga jalur sat -> Kalkulator juga: 240.000 × 0,15 = 36.000. tiga jalur satu tu
+threads-1.ts BULK[pak]: cara rekan itu jalan pak: 10% dari 240.000 itu 24.000, seten -> Cara rekan itu jalan: 10% dari 240.000 itu 24.000, setengahn
+threads-1.ts BULK[pak]: hasilnya sama karena perkalian boleh diatur urutannya pak. t -> Hasilnya sama karena perkalian boleh diatur urutannya. tulis
+threads-1.ts BULK[bang]: hitungan lu bener bang, 50.000 − 27.500 = 22.500. pelanggan  -> Hitungan lu bener, 50.000 − 27.500 = 22.500. pelanggan yang 
+threads-1.ts BULK[bang]: trik mundur bang: dari 27.500 ke 30.000 itu 2.500, dari 30.0 -> Trik mundur: dari 27.500 ke 30.000 itu 2.500, dari 30.000 ke
+threads-1.ts BULK[bang]: gue kasir juga bang, hitung mundur paling selamat pas antria -> Gue kasir juga, hitung mundur paling selamat pas antrian. ka
+threads-1.ts BULK[bang]: latihan bang: bulatkan totalan ke 28.000, sisa ke 50.000 itu -> Latihan: bulatkan totalan ke 28.000, sisa ke 50.000 itu 22.0
+threads-1.ts BULK[bang]: feeling cuma jalan di angka bulat bang. mundur dari totalan  -> Feeling cuma jalan di angka bulat. mundur dari totalan itu j
+threads-1.ts BULK[bang]: pelanggan ngecek dua kali bukan berarti nyari salah bang, cu -> Pelanggan ngecek dua kali bukan berarti nyari salah, cuma ma
+threads-1.ts BULK[kak]: median kak. jawaban 5 semua itu pencilan, mean-nya gak mewak -> Median. jawaban 5 semua itu pencilan, mean-nya gak mewakili 
+threads-1.ts BULK[kak]: modus juga penting kak, buat skala 1-5 perlu tahu jawaban ma -> Modus juga penting, buat skala 1-5 perlu tahu jawaban mana y
+threads-1.ts BULK[kak]: bisa dua-duanya kak, mean buat laporan, median buat pembelaa -> Bisa dua-duanya, mean buat laporan, median buat pembelaan pa
+threads-1.ts BULK[kak]: tambahin standar deviasi kak, pembimbing biasanya nanya kena -> Tambahin standar deviasi, pembimbing biasanya nanya kenapa s
+threads-1.ts BULK[kak]: sama kak, responden skripsiku ada yang iseng semua. aku tamb -> Sama, responden skripsiku ada yang iseng semua. aku tambahin
+threads-1.ts BULK[kak]: median + catatan kaki soal dua responden itu kak. jujur di m -> Median + catatan kaki soal dua responden itu. jujur di metod
+threads-1.ts BULK[kak]: mean gak cukup kalau datanya miring kak. kasus lu itu contoh -> Mean gak cukup kalau datanya miring. kasus lu itu contoh buk
+threads-1.ts BULK[kak]: ada istilahnya kak, response bias. dua responden itu bukan p -> Ada istilahnya, response bias. dua responden itu bukan penip
+threads-1.ts BULK[kak]: nulis median di bab empat itu kejujuran kak, bukan pembelaan -> Nulis median di bab empat itu kejujuran, bukan pembelaan. si
+threads-1.ts BULK[kak]: gelaspak kecil itu sekitar 30 ml kak, jadi 12,5 kurang dari  -> Gelaspak kecil itu sekitar 30 ml, jadi 12,5 kurang dari sete
+threads-1.ts BULK[kak]: pakai syringe 10 ml kak, sampai 10 lalu 2,5 lagi. lebih akur -> Pakai syringe 10 ml, sampai 10 lalu 2,5 lagi. lebih akurat d
+threads-1.ts BULK[kak]: wajar ragu kak, urusan obat gak boleh asal yakin. dua kali h -> Wajar ragu, urusan obat gak boleh asal yakin. dua kali hitun
+threads-1.ts BULK[kak]: 24 mg per ml itu angka sakti kak. semua order 120 mg/5 ml ke -> 24 mg per ml itu angka sakti. semua order 120 mg/5 ml kelar 
+threads-1.ts BULK[kak]: 12,5 itu dua belas setengah kak. jangan sampai ada yang nuli -> 12,5 itu dua belas setengah. jangan sampai ada yang nulis 12
+threads-1.ts BULK[kak]: hitungan aman kak. sisanya jaga tangan biar gak gemetar pas  -> Hitungan aman. sisanya jaga tangan biar gak gemetar pas gant
+threads-1.ts BULK[bang]: bener bang. 20 rebu itu ongkos murni, plus 1.500 layanan = 2 -> Bener. 20 rebu itu ongkos murni, plus 1.500 layanan = 21.500
+threads-1.ts BULK[bang]: lu doang yang belom update bang wkwk, biaya layanan udah lam -> Lu doang yang belom update wkwk, biaya layanan udah lama. ya
+threads-1.ts BULK[bang]: saran bang, tiap tagihan gak cocok sama hitungan, screenshot -> Saran, tiap tagihan gak cocok sama hitungan, screenshot. kad
+threads-1.ts BULK[bang]: 21.500 bener bang. gue juga kaget pertama kali, ternyata lay -> 21.500 bener. gue juga kaget pertama kali, ternyata layanan 
+threads-1.ts BULK[bang]: apps kadang ngasih potongan atau biaya cuaca bang, angka akh -> Apps kadang ngasih potongan atau biaya cuaca, angka akhir bi
+threads-1.ts BULK[bang]: 10 km × 1.500 = 15.000 + 5.000 dasar = 20.000. plus layanan  -> 10 km × 1.500 = 15.000 + 5.000 dasar = 20.000. plus layanan 
+threads-1.ts BULK[bang]: tarif 2 km pertama itu penting bang, jangan sampe lupa. orde -> Tarif 2 km pertama itu penting, jangan sampe lupa. order pen
+threads-1.ts BULK[bang]: penumpang sering nanya gini bang. jawabannya terus-terusan:  -> Penumpang sering nanya gini. jawabannya terus-terusan: hitun
+threads-1.ts BULK[bang]: 21.500 − 1.500 layanan = 20.000, itu pas sama hitungan km lu -> 21.500 − 1.500 layanan = 20.000, itu pas sama hitungan km lu
+threads-1.ts BULK[bang]: U10 lu bener bang. 4×10−1 = 39, gak ada yang bisa dibantah -> U10 lu bener. 4×10−1 = 39, gak ada yang bisa dibantah
+threads-1.ts BULK[bang]: yang nambah tapi bukan aritmetika banyak bang: 2, 4, 8, 16 i -> Yang nambah tapi bukan aritmetika banyak: 2, 4, 8, 16 itu di
+threads-1.ts BULK[bang]: turunan 4n−1 itu 4 bang, konstan. sekalian dijawab besok kal -> Turunan 4n−1 itu 4, konstan. sekalian dijawab besok kalau di
+threads-1.ts BULK[bang]: aritmetika itu tangga rata bang. tangga miring itu tetep nai -> Aritmetika itu tangga rata. tangga miring itu tetep naik, ta
+threads-1.ts BULK[bang]: turunan n² itu 2n bang. dua rumus doang, hafal pola udah sep -> Turunan n² itu 2n. dua rumus doang, hafal pola udah separuh 
+threads-1.ts BULK[bang]: jangan ketuker Un sama Sn bang. Un itu suku ke-n, Sn itu jum -> Jangan ketuker Un sama Sn. Un itu suku ke-n, Sn itu jumlah s
+threads-1.ts BULK[bang]: 39 bener bang. dua ulangan besok itu urusan nyawa, bukan ota -> 39 bener. dua ulangan besok itu urusan nyawa, bukan otak doa
+threads-1.ts BULK[om]: jam pertama beda tarif om. 2 + 4×1 = 6 rb. bilang aja 5 jam  -> Jam pertama beda tarif. 2 + 4×1 = 6 rb. bilang aja 5 jam itu
+threads-1.ts BULK[om]: 5 × 1.000 = 5.000 itu kena kalau SEMUA jam 1 ribu om. padaha -> 5 × 1.000 = 5.000 itu kena kalau SEMUA jam 1 ribu. padahal j
+threads-1.ts BULK[om]: sama kayak mal-mal om, jam pertama selalu beda. itu standar -> Sama kayak mal-mal, jam pertama selalu beda. itu standar
+threads-1.ts BULK[kak]: hitungan 8 jam 15 menit itu benar kak. pembulatan biasanya k -> Hitungan 8 jam 15 menit itu benar. pembulatan biasanya ke 15
+threads-1.ts BULK[om]: bener om, 3 dari 24 = 1 dari 8 = 12,5 persen. 3 persen itu b -> Bener, 3 dari 24 = 1 dari 8 = 12,5 persen. 3 persen itu beda
+threads-1.ts BULK[om]: gampangnya om: 24 ÷ 3 = 8, berarti satu rusak di tiap delapa -> Gampangnya: 24 ÷ 3 = 8, berarti satu rusak di tiap delapan. 
+threads-1.ts BULK[om]: bener om, 3 dari 24 = 12,5 persen. tiap 8 buah satu rusak, i -> Bener, 3 dari 24 = 12,5 persen. tiap 8 buah satu rusak, itun
+threads-1.ts BULK[om]: 3 persen itu kalau dari 100 om. dari 24 beda cerita. bini lu -> 3 persen itu kalau dari 100. dari 24 beda cerita. bini lu ya
+threads-1.ts BULK[om]: 24 dibagi 3 = 8 om. satu rusak per delapan, itu jawaban leng -> 24 dibagi 3 = 8. satu rusak per delapan, itu jawaban lengkap
+threads-1.ts BULK[om]: 12,5 persen itu seperdelapan om, makanya cocok sama 1 dari 8 -> 12,5 persen itu seperdelapan, makanya cocok sama 1 dari 8
+threads-1.ts BULK[om]: peti berikutnya itung gini juga om: rusak dibagi total, kali -> Peti berikutnya itung gini juga: rusak dibagi total, kali 10
+threads-1.ts BULK[om]: kalau 4 rusak dari 24 om, itu sekitar 16,7 persen, satu dari -> Kalau 4 rusak dari 24, itu sekitar 16,7 persen, satu dari en
+threads-1.ts BULK[om]: om pinter nanya gituan. kebanyakan pedagang gak peduli perse -> Pinter nanya gituan. kebanyakan pedagang gak peduli persenny
+threads-1.ts BULK[om]: 24 itu tiga kali 8 om, rusaknya tiga, berarti per delapan sa -> 24 itu tiga kali 8, rusaknya tiga, berarti per delapan satu.
+threads-1.ts BULK[om]: persen itu selalu dibagi total dulu om, jangan kebalik -> Persen itu selalu dibagi total dulu, jangan kebalik
+threads-1.ts BULK[om]: 3 dari 24 gak mungkin 3 persen om, 3 dari 100 aja baru 3 per -> 3 dari 24 gak mungkin 3 persen, 3 dari 100 aja baru 3 persen
+threads-1.ts BULK[om]: mangga sekarang rentan om, 3 rusak dari 24 masih sopan -> Mangga sekarang rentan, 3 rusak dari 24 masih sopan
+threads-1.ts BULK[om]: bini dan tetangga om sama-sama nolong lho. hasilnya satu: 12 -> Bini dan tetangga sama-sama nolong lho. hasilnya satu: 12,5 
+threads-1.ts BULK[pak]: 85 ÷ 20 = 4,25 liter. bener pak, sisa 0,75 -> 85 ÷ 20 = 4,25 liter. bener, sisa 0,75
+threads-1.ts BULK[pak]: 0,75 liter itu sekitar satu setengah botol air kemasan pak.  -> 0,75 liter itu sekitar satu setengah botol air kemasan. cada
+threads-1.ts BULK[pak]: hitungan bener, tapi macet + tanjakan bikin konsumsi naik. i -> Hitungan bener, tapi macet + tanjakan bikin konsumsi naik. i
+threads-1.ts BULK[pak]: motor saya juga 20 per liter pak. 4,25 dari 5 itu pas-pasan  -> Motor saya juga 20 per liter. 4,25 dari 5 itu pas-pasan buat
+threads-1.ts BULK[pak]: 85 km itu jauh pak. aspal panas sama angin depan bisa bikin  -> 85 km itu jauh. aspal panas sama angin depan bisa bikin turu
+threads-1.ts BULK[pak]: 0,75 liter cukup buat nyari pom terdekat pak. pelan aja gasn -> 0,75 liter cukup buat nyari pom terdekat. pelan aja gasnya
+threads-1.ts BULK[pak]: saya selalu isi penuh sebelum ke bandara pak. tenang itu gak -> Saya selalu isi penuh sebelum ke bandara. tenang itu gak ada
+threads-1.ts BULK[pak]: 20 km per liter itu angka buku pak. jalanan bener bisa beda -> 20 km per liter itu angka buku. jalanan bener bisa beda
+threads-1.ts BULK[pak]: 4,25 dari 5 = 85% tangki kepakai pak. sisanya 15%, ada tapi  -> 4,25 dari 5 = 85% tangki kepakai. sisanya 15%, ada tapi tipi
+threads-1.ts BULK[pak]: aman pak, tapi gak usah ngebut. kehabisan 85 km dari tangki  -> Aman, tapi gak usah ngebut. kehabisan 85 km dari tangki 5 li
+threads-1.ts BULK[kak]: kurangi dikit berasnya kak atau masak 2 gelas aja, biar gak  -> Kurangi dikit berasnya atau masak 2 gelas aja, biar gak pani
+threads-1.ts BULK[kak]: 1.500 ml pas di rice cooker 1,5 L itu mepet kak. turunin air -> 1.500 ml pas di rice cooker 1,5 L itu mepet. turunin airnya 
+threads-1.ts BULK[kak]: 1 : 2 itu standar kak. meluap itu tergantung berasnya, bukan -> 1: 2 itu standar. meluap itu tergantung berasnya, bukan taka
+threads-1.ts BULK[kak]: beras baru banyak air kak, beras lama lebih haus. takaran sa -> Beras baru banyak air, beras lama lebih haus. takaran sama, 
+threads-1.ts BULK[kak]: buka tutupnya sekali di tengah masak kak. uap keluar, gak nu -> Buka tutupnya sekali di tengah masak. uap keluar, gak numpah
+threads-1.ts BULK[kak]: di kos kami kak: airnya sampe siku satu ruas di atas beras.  -> Di kos kami: airnya sampe siku satu ruas di atas beras. gak 
+threads-1.ts BULK[kak]: 750 × 2 = 1.500 itu matematika kak. masak itu bukan matemati -> 750 × 2 = 1.500 itu matematika. masak itu bukan matematika d
+threads-1.ts BULK[kak]: cuci beras sampai airnya jernih kak, itu bisa dikurangin air -> Cuci beras sampai airnya jernih, itu bisa dikurangin airnya 
+threads-1.ts BULK[kak]: angka 1,5 L itu batas dinding kak. makanan aman di skala 1,2 -> Angka 1,5 L itu batas dinding. makanan aman di skala 1,2
+threads-1.ts BULK[kak]: rice cooker zaman sekarang ada lubang uap kak, asal gak ditu -> Rice cooker zaman sekarang ada lubang uap, asal gak ditutup 
+threads-1.ts BULK[kak]: takaran 1:2 itu untuk model magic com 1,5 L kak, pas punya l -> Takaran 1:2 itu untuk model magic com 1,5 L, pas punya lu
+threads-1.ts BULK[kak]: aku selalu sisain 100 ml kak. beras ngembang butuh tempat, u -> Aku selalu sisain 100 ml. beras ngembang butuh tempat, uap j
+threads-1.ts BULK[kak]: takar pake gelas yang sama dari awal kak. gelas tuker-tukar  -> Takar pake gelas yang sama dari awal. gelas tuker-tukar itu 
+threads-1.ts BULK[kak]: 3 gelas buat 4-5 orang kak. anak kos makan banyak, pas itu w -> 3 gelas buat 4-5 orang. anak kos makan banyak, pas itu wkwk
+threads-1.ts BULK[kak]: nasi hasilnya sekitar 2 sampai 2,4 liter kak dari 750 ml ber -> Nasi hasilnya sekitar 2 sampai 2,4 liter dari 750 ml beras. 
+threads-1.ts BULK[kak]: meluap dikit itu bukan dosa kak wkwk, bersihin tutupnya aja -> Meluap dikit itu bukan dosa wkwk, bersihin tutupnya aja
+threads-1.ts BULK[bu]: normal bu, fase itu panjang. yang penting dia berani hitung, -> Normal, fase itu panjang. yang penting dia berani hitung, ar
+threads-1.ts BULK[bu]: pakai benda yang dia suka bu. dua kucing tiga ekor, tiga kuc -> Pakai benda yang dia suka. dua kucing tiga ekor, tiga kucing
+threads-1.ts BULK[bu]: bolak-balik itu tidak otomatis diketahui anak bu, dia harus  -> Bolak-balik itu tidak otomatis diketahui anak, dia harus men
+threads-1.ts BULK[bu]: normal banget bu. otak anak satu arah dulu, 2+3 udah ke-trac -> Normal banget. otak anak satu arah dulu, 2+3 udah ke-trackin
+threads-1.ts BULK[bu]: anak saya juga gitu bu. dua bulan kemudian dia sendiri ngeh, -> Anak saya juga gitu. dua bulan kemudian dia sendiri ngeh, ga
+threads-1.ts BULK[bu]: buat dia bu itu masih ajaib. biarkan dia menemukannya sendir -> Buat dia itu masih ajaib. biarkan dia menemukannya sendiri
+threads-1.ts BULK[bu]: main tukar posisi bu: 2 kaki + 3 kaki, terus 3 kaki + 2 kaki -> Main tukar posisi: 2 kaki + 3 kaki, terus 3 kaki + 2 kaki. j
+threads-1.ts BULK[bu]: jawaban kucing juga sah bu wkwk, yang penting hitungnya jala -> Jawaban kucing juga sah wkwk, yang penting hitungnya jalan
+threads-1.ts BULK[bu]: istilahnya komutatif bu, tapi anak segini gak perlu istilah, -> Istilahnya komutatif, tapi anak segini gak perlu istilah, cu
+threads-1.ts BULK[bu]: umur segini fase emas bu, semuanya diserap. gak usah buru-bu -> Umur segini fase emas, semuanya diserap. gak usah buru-buru
+threads-1.ts BULK[bu]: jari dipakai itu tanda bagus bu. jangan dipelintir pakai rum -> Jari dipakai itu tanda bagus. jangan dipelintir pakai rumus 
+threads-1.ts BULK[mbak]: 5,5 benar mbak. soal kue biasanya boleh dijawab 5 kue utuh d -> 5,5 benar. soal kue biasanya boleh dijawab 5 kue utuh dan se
+threads-1.ts BULK[mbak]: tergantung soalnya mbak. kalau cuma separuh dari angka 11, j -> Tergantung soalnya. kalau cuma separuh dari angka 11, jawaba
+threads-1.ts BULK[mba]: cucu pintar mba, pertanyaan putus gimana itu tanda anak miki -> Cucu pintar, pertanyaan putus gimana itu tanda anak mikir be
+threads-1.ts BULK[mbak]: 5,5 benar mbak. kue kepotong setengah itu wajar di soal, buk -> 5,5 benar. kue kepotong setengah itu wajar di soal, bukan ai
+threads-1.ts BULK[mbak]: pertanyaan cucu bagus mbak. kue nyata emang gak selalu utuh, -> Pertanyaan cucu bagus. kue nyata emang gak selalu utuh, maka
+threads-1.ts BULK[mbak]: gurunya minta CARA mbak, bukan jawaban beda. caranya 11 ÷ 2  -> Gurunya minta CARA, bukan jawaban beda. caranya 11 ÷ 2 = 5,5
+threads-1.ts BULK[mbak]: kalau mau kue utuh semua, soalnya harus diganti 10 atau 12 m -> Kalau mau kue utuh semua, soalnya harus diganti 10 atau 12. 
+threads-1.ts BULK[mbak]: 5,5 benar mbak. jawaban 5 utuh + setengah biasanya diterima  -> 5,5 benar. jawaban 5 utuh + setengah biasanya diterima gurun
+threads-1.ts BULK[mbak]: ini soal klasik mbak, pembagian yang hasilnya gak bulat. kel -> Ini soal klasik, pembagian yang hasilnya gak bulat. kelas 4 
+threads-1.ts BULK[mbak]: cucu mikirnya realistis mbak, itu pintar. kue sungguhan eman -> Cucu mikirnya realistis, itu pintar. kue sungguhan emang gak
+threads-1.ts BULK[mbak]: pakai uang aja mbak: 11 ribu dibagi dua orang = 5.500 per or -> Pakai uang aja: 11 ribu dibagi dua orang = 5.500 per orang. 
+threads-1.ts BULK[mbak]: cucu pura-pura tau, nenek pura-pura tau. itu namanya belajar -> Cucu pura-pura tau, nenek pura-pura tau. itu namanya belajar
+threads-1.ts BULK[mbak]: di PR tulis 11 ÷ 2 = 5,5 mbak, tambahin gambar 5 kotak + 1 k -> Di PR tulis 11 ÷ 2 = 5,5, tambahin gambar 5 kotak + 1 kotak 
+threads-1.ts BULK[mbak]: besok kuenya dibagi rata mbak wkwk. PR-nya udah bener kok -> Besok kuenya dibagi rata wkwk. PR-nya udah bener kok
+threads-1.ts BULK[mbak]: 5,5 sah mbak, gak ada aturan kue harus bulat -> 5,5 sah, gak ada aturan kue harus bulat
+threads-1.ts BULK[mbak]: semangat mbak. nenek-cucu belajar bareng itu lebih mahal dar -> Semangat. nenek-cucu belajar bareng itu lebih mahal dari 5,5
+threads-1.ts BULK[kak]: bagi rata itu patokan doang kak. biasain tandain 5 slide ter -> Bagi rata itu patokan doang. biasain tandain 5 slide terpent
+threads-1.ts BULK[kak]: bagi rata itu patokan, bukan hukum kak. tahu slide mana yang -> Bagi rata itu patokan, bukan hukum. tahu slide mana yang but
+threads-1.ts BULK[kak]: 18 slide 10 menit itu mepet kak. gue biasanya kurangin slide -> 18 slide 10 menit itu mepet. gue biasanya kurangin slide-nya
+threads-1.ts BULK[kak]: praktek pake timer kak, dua kali. itungan di kepala gak pern -> Praktek pake timer, dua kali. itungan di kepala gak pernah s
+threads-1.ts BULK[kak]: slide data sama grafik itu paling lama kak. tandain tiga yan -> Slide data sama grafik itu paling lama. tandain tiga yang be
+threads-1.ts BULK[kak]: audiens gak ngitung slide kak, mereka ngitung napas lu. tena -> Audiens gak ngitung slide, mereka ngitung napas lu. tenang l
+threads-1.ts BULK[kak]: 33 detik per slide udah manusiawi kak. yang bikin ngebut itu -> 33 detik per slide udah manusiawi. yang bikin ngebut itu tan
+threads-1.ts BULK[kak]: gugup itu makan waktu kak. bawa air minum, tarik napas sebel -> Gugup itu makan waktu. bawa air minum, tarik napas sebelum m
+threads-1.ts BULK[kak]: 18 slide buat presentasi pertama itu berani banget kak wkwk. -> 18 slide buat presentasi pertama itu berani banget wkwk. alu
+threads-1.ts BULK[kak]: besok lu bakal lupa setengah isi slide kak, itu normal. cuku -> Besok lu bakal lupa setengah isi slide, itu normal. cukup ha
+threads-10.ts BULK[pak]: Boleh pak. 450 × 1.445 = 650.250, selisih 135 dari hitungan  -> Boleh. 450 × 1.445 = 650.250, selisih 135 dari hitungan pers
+threads-10.ts BULK[pak]: Pecah dulu pak: 450 × 1.400 = 630.000, sisanya 450 × 44,70 = -> Pecah dulu: 450 × 1.400 = 630.000, sisanya 450 × 44,70 = 20.
+threads-10.ts BULK[pak]: Saya itung mundur pak: 650.115 ÷ 450 = 1.444,70 pas. cocok -> Saya itung mundur: 650.115 ÷ 450 = 1.444,70 pas. cocok
+threads-10.ts BULK[pak]: kalkulator di HP juga boleh pak, yang penting angkanya dicoc -> Kalkulator di HP juga boleh, yang penting angkanya dicocokin
+threads-10.ts BULK[dik]: Dik, jawab gini: lewat di detik t = 2n, n = 0 sampai 14, tot -> Jawab gini: lewat di detik t = 2n, n = 0 sampai 14, total 15
+threads-10.ts BULK[dik]: t = 2n dan t < 30 → n maksimal 14. mulai dari 0 jadi 15 moto -> T = 2n dan t < 30 → n maksimal 14. mulai dari 0 jadi 15 moto
+threads-10.ts BULK[dik]: Bawa stopwatch ke lapangan dik, biar temenmu liat sendiri. 1 -> Bawa stopwatch ke lapangan, biar temenmu liat sendiri. 15 it
+threads-10.ts BULK[bu]: Mungkin dia mikir pola 1,15 per baju. 2 × 1,15 = 2,3. tanya  -> Mungkin dia mikir pola 1,15 per baju. 2 × 1,15 = 2,3. tanya 
+threads-10.ts BULK[bu]: 0,35 meter = 35 cm, cukup buat dua kantong dalam. aman bu -> 0,35 meter = 35 cm, cukup buat dua kantong dalam. aman 
+threads-10.ts BULK[bu]: Cek balik: 2,4 + 0,35 = 2,75 pas. itungan bu bener -> Cek balik: 2,4 + 0,35 = 2,75 pas. itungan bener
+threads-10.ts BULK[bu]: Pola anak biasanya 1,2 itu udah termasuk jahitan bu. jangan  -> Pola anak biasanya 1,2 itu udah termasuk jahitan. jangan dit
+threads-10.ts BULK[bu]: Bu, beli 3 meter sekalian lebih tenang. sisa 0,6 buat apa aj -> Beli 3 meter sekalian lebih tenang. sisa 0,6 buat apa aja
+threads-10.ts BULK[pak]: Cek bobot juga pak: 1.330 liter air = 1.330 kg. lantai harus -> Cek bobot juga: 1.330 liter air = 1.330 kg. lantai harus kua
+threads-10.ts BULK[pak]: Hitunganmu bener dua-duanya pak. tandon muat 1.330, aman -> Hitunganmu bener dua-duanya. tandon muat 1.330, aman
+threads-10.ts BULK[pak]: 130 × 2 = 260, plus 180 = 440. dua kali dicek, bener pak -> 130 × 2 = 260, plus 180 = 440. dua kali dicek, bener 
+threads-10.ts BULK[pak]: Ikat pinggang masuk anggaran itu wajar pak. sisa 25rb masih  -> Ikat pinggang masuk anggaran itu wajar. sisa 25rb masih aman
+threads-10.ts BULK[pak]: Kaos olahraga biasanya beda lagi pak. siapkan cadangan serat -> Kaos olahraga biasanya beda lagi. siapkan cadangan seratus r
+threads-10.ts BULK[pak]: Hitungan pak udah rapi. yang terlewat cuma kaos kaki dan nam -> Hitungan udah rapi. yang terlewat cuma kaos kaki dan name ta
+threads-10.ts BULK[pak]: Masuk akal pak. cuma inget, sekolah kadang punya patokan khu -> Masuk akal. cuma inget, sekolah kadang punya patokan khusus
+threads-10.ts BULK[kak]: Ditulis dua-duanya kak: rencana 480rb, realisasi 465rb, seli -> Ditulis dua-duanya: rencana 480rb, realisasi 465rb, selisih 
+threads-10.ts BULK[bu]: 14 dari 35 itu tepat 40 persen. hitungan bener bu -> 14 dari 35 itu tepat 40 persen. hitungan bener 
+threads-10.ts BULK[bu]: 8 orang masih wajar bu, yang penting durasi per siswa ditamb -> 8 orang masih wajar, yang penting durasi per siswa ditambah
+threads-10.ts BULK[bu]: Materi dua sesi harus sama. jumlah orang gak se-fatal itu bu -> Materi dua sesi harus sama. jumlah orang gak se-fatal itu 
+threads-10.ts BULK[bu]: 6 + 8 = 14. pas. bu gak salah hitung, cuma ragu soal metode -> 6 + 8 = 14. pas. gak salah hitung, cuma ragu soal metode
+threads-10.ts BULK[bu]: Sesi 8 orang tetep oke bu, asal ada latihan sendiri sambil g -> Sesi 8 orang tetep oke, asal ada latihan sendiri sambil gili
+threads-10.ts BULK[bu]: Guru BK minta pindah satu, ya geser aja bu. yang penting tot -> Guru BK minta pindah satu, ya geser aja. yang penting total 
+threads-10.ts BULK[pak]: 8 meter bener pak. segitiga serupa, rasionya sama karena mat -> 8 meter bener. segitiga serupa, rasionya sama karena matahar
+threads-10.ts BULK[pak]: Praktisnya pak, tukang potong biasanya bawa tangga 8-10 mete -> Praktisnya, tukang potong biasanya bawa tangga 8-10 meter st
+threads-10.ts BULK[kak]: Kasirnya gak salah itung, cuma gak nawarin. tanya aja: ada p -> Kasirnya gak salah itung, cuma gak nawarin. tanya aja: ada p
+threads-10.ts BULK[kak]: Bilang sopan: kak, hitung dua-duanya ya. kasir pasti mau -> Bilang sopan:, hitung dua-duanya ya. kasir pasti mau
+threads-10.ts BULK[kak]: 4¼ bener kak. ½ = 2/4, ¾ tetap 3/4, jumlah 5/4 = 1¼. total 4 -> 4¼ bener. ½ = 2/4, ¾ tetap 3/4, jumlah 5/4 = 1¼. total 4¼
+threads-10.ts BULK[kak]: Jangan dimarahi kak, dia sudah mencoba menyamakan penyebut.  -> Jangan dimarahi, dia sudah mencoba menyamakan penyebut. ting
+threads-10.ts BULK[bu]: Bahan lain ikut dikali 2,5 juga ya bu. gula, cokelat, telur  -> Bahan lain ikut dikali 2,5 juga ya. gula, cokelat, telur sem
+threads-10.ts BULK[pak]: Semua angka di atas bener: 7,2 m³, 5.760 L, 86.400, 192 meni -> Semua angka di atas bener: 7,2 m³, 5.760 L, 86.400, 192 meni
+threads-11.ts BULK[bang]: pasar sayur emang gitu bang, naik-turun gak pernah balik pas -> Pasar sayur emang gitu, naik-turun gak pernah balik pas
+threads-12.ts BULK[kak]: kalau 0 ikut dan posisi pertama gak boleh 0, jadi berapa kak -> Kalau 0 ikut dan posisi pertama gak boleh 0, jadi berapa?
+threads-12.ts BULK[bang]: C(9,2) = 9×8/2 = 36 bang. dua langkah -> C(9,2) = 9×8/2 = 36. dua langkah
+threads-12.ts BULK[kak]: kak, berarti union = 25+22−9 = 38 ya -> Berarti union = 25+22−9 = 38 ya
+threads-12.ts BULK[bang]: jawaban post bener bang. tulis union dulu baru kurangin tota -> Jawaban post bener. tulis union dulu baru kurangin total
+threads-12.ts BULK[kak]: kak, kalo kecepatannya ketuker (96 di 60, 144 di 80) jadi be -> Kalo kecepatannya ketuker (96 di 60, 144 di 80) jadi berapa?
+threads-12.ts BULK[bang]: 196 − 154 = 42 bang. empat pojoknya gede juga -> 196 − 154 = 42. empat pojoknya gede juga
+threads-12.ts BULK[bang]: 1/5 = 20% bang -> 1/5 = 20% 
+threads-12.ts BULK[bang]: 2√5 ≈ 4,472 bang. √5 ≈ 2,236 kali 2 -> 2√5 ≈ 4,472. √5 ≈ 2,236 kali 2
+threads-12.ts BULK[bang]: perbandingan senilai bang, semua naik bareng -> Perbandingan senilai, semua naik bareng
+threads-12.ts BULK[bang]: 30 mod 7 = 2 bang. sisa hari yang nggeser -> 30 mod 7 = 2. sisa hari yang nggeser
+threads-13.ts BULK[kak]: kak, sudut keliling yang menghadap diameter ikut teorema seg -> Sudut keliling yang menghadap diameter ikut teorema segiempa
+threads-2.ts REPL x1: bunda rajin banget ngitung buat masak -> rajin banget ngitung buat masak
+threads-2.ts BULK[kak]: 3/8 kak. anaknya udah bener tinggal geser ke bentuk pecahan  -> 3/8. anaknya udah bener tinggal geser ke bentuk pecahan bias
+threads-2.ts BULK[kak]: syaratnya jumlah kardus harus habis dibagi jumlah rak kak. 8 -> Syaratnya jumlah kardus harus habis dibagi jumlah rak. 84 ga
+threads-2.ts BULK[kak]: sisa 4 kardus tuh kan bisa dipajang di pojok kak, jadi displ -> Sisa 4 kardus tuh kan bisa dipajang di pojok, jadi display. 
+threads-2.ts BULK[kak]: 84 itu habis dibagi 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42 sam -> 84 itu habis dibagi 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42 sam
+threads-2.ts BULK[kak]: 16×5 = 80, sisa 4. logika toko terus kepake sampe dunia kerj -> 16×5 = 80, sisa 4. logika toko terus kepake sampe dunia kerj
+threads-2.ts BULK[kak]: di rumah juga gitu kak, bagi jajan 84 ribu ke 5 anak gak per -> Di rumah juga gitu, bagi jajan 84 ribu ke 5 anak gak pernah 
+threads-2.ts BULK[kak]: gimana kalau raknya 8 kak? 84 ÷ 8 = 10 sisa 4 juga kan. nany -> Gimana kalau raknya 8? 84 ÷ 8 = 10 sisa 4 juga kan. nanya bu
+threads-2.ts BULK[kak]: jangan nangis kak, gue malah ikut seneng liat orang rebutan  -> Jangan nangis, gue malah ikut seneng liat orang rebutan bent
+threads-2.ts BULK[om]: itungan lu sah om. ukur buat cek fisik, hitung buat laporan. -> Itungan lu sah. ukur buat cek fisik, hitung buat laporan. 15
+threads-2.ts BULK[bu]: dua-duanya sah bu. hitungan buat laporan, ukuran buat cek fi -> Dua-duanya sah. hitungan buat laporan, ukuran buat cek fisik
+threads-2.ts BULK[om]: misti aja bisa meleset 1-2 mm om, apalagi pelat panas. hitun -> Misti aja bisa meleset 1-2 mm, apalagi pelat panas. hitungan
+threads-2.ts BULK[kak]: 15 × 15 = 225 kak. udah bener dua-duanya, jangan dibikin rib -> 15 × 15 = 225. udah bener dua-duanya, jangan dibikin ribet
+threads-2.ts BULK[om]: kalo boleh nanya om, pelatnya buat apa? kalau buat tutup mes -> Kalo boleh nanya, pelatnya buat apa? kalau buat tutup mesin,
+threads-2.ts BULK[om]: yang ukur aja juga bisa salah kalau penggarisnya gak nempel. -> Yang ukur aja juga bisa salah kalau penggarisnya gak nempel.
+threads-2.ts BULK[om]: gak ada yang ngesahin hitungan om. paling pengecekan fisikny -> Gak ada yang ngesahin hitungan. paling pengecekan fisiknya d
+threads-2.ts BULK[om]: telat om, tapi udah kejawab kan? 15 cm dari hitungan, ukur c -> Telat, tapi udah kejawab kan? 15 cm dari hitungan, ukur cuma
+threads-2.ts BULK[bu]: buat anak cukup gini bu: kalkulator pakai bahasa biner, 0,1  -> Buat anak cukup gini: kalkulator pakai bahasa biner, 0,1 sam
+threads-2.ts BULK[bu]: tes gampang bu: suruh dia coba 0,5 + 0,25. hasilnya bersih.  -> Tes gampang: suruh dia coba 0,5 + 0,25. hasilnya bersih. ang
+threads-2.ts BULK[bu]: kasih analogi uang bu: sepertiga rupiah gak ada koinnya. kal -> Kasih analogi uang: sepertiga rupiah gak ada koinnya. kalau 
+threads-2.ts BULK[bu]: buat ujian aman bu: selisihnya sekitar sepuluh pangkat minus -> Buat ujian aman: selisihnya sekitar sepuluh pangkat minus tu
+threads-2.ts BULK[bu]: nanya balik ke anaknya bu: kira-kira berapa angka di belakan -> Nanya balik ke anaknya: kira-kira berapa angka di belakang k
+threads-2.ts BULK[bu]: gak usah takut bu, kalkulator kasir aja dibikin pake aturan  -> Gak usah takut, kalkulator kasir aja dibikin pake aturan pem
+threads-2.ts BULK[bu]: kita juga gitu sih bu: 1/3 ditulis 0,333... gak berhingga. k -> Kita juga gitu sih: 1/3 ditulis 0,333... gak berhingga. komp
+threads-2.ts BULK[bu]: telat bu, tapi penjelasan di atas udah lengkap. intinya mesi -> Telat, tapi penjelasan di atas udah lengkap. intinya mesin p
+threads-2.ts BULK[bu]: aturan resmi pembulatan wajib buat kasir kecil itu gak ada b -> Aturan resmi pembulatan wajib buat kasir kecil itu gak ada. 
+threads-2.ts BULK[bu]: 1,5 kali 1/2 memang 3/4 bu. pecahan boleh dikali bilangan ap -> 1,5 kali 1/2 memang 3/4. pecahan boleh dikali bilangan apa s
+threads-2.ts BULK[bu]: biar gampang di dapur bu: setengah dulu, sisanya separuh dar -> Biar gampang di dapur: setengah dulu, sisanya separuh dari s
+threads-2.ts BULK[bu]: kakaknya salah prinsip bu, malah garamnya yang jadi korban w -> Kakaknya salah prinsip, malah garamnya yang jadi korban wkwk
+threads-2.ts BULK[bu]: boleh banget bu. 1,5 kali 1/2 = 3/4. perkalian gak pandang b -> Boleh banget. 1,5 kali 1/2 = 3/4. perkalian gak pandang bulu
+threads-2.ts BULK[bu]: buktiinnya gampang bu: 1/2 sendok ditambah setengahnya lagi  -> Buktiinnya gampang: 1/2 sendok ditambah setengahnya lagi (1/
+threads-2.ts BULK[bu]: coba lewat uang bu: 1,5 kali 2.000 = 3.000. logikanya sama k -> Coba lewat uang: 1,5 kali 2.000 = 3.000. logikanya sama kaya
+threads-2.ts BULK[bu]: kuah keasinan kemarin itu bukan salah hitung bu, cuma kelebi -> Kuah keasinan kemarin itu bukan salah hitung, cuma kelebihan
+threads-2.ts BULK[bu]: pecahan boleh dikali bilangan apa aja itu aturan umum bu, te -> Pecahan boleh dikali bilangan apa aja itu aturan umum, terma
+threads-2.ts BULK[bu]: aku juga sering kepikiran gini bu. ternyata yang penting has -> Aku juga sering kepikiran gini. ternyata yang penting hasil 
+threads-2.ts BULK[bu]: sebelum jam masak siang udah kejawab semua kan bu? aman -> Sebelum jam masak siang udah kejawab semua kan? aman
+threads-2.ts BULK[bu]: kalau kebanyakan garam bisa diselametin pake kentang rebus b -> Kalau kebanyakan garam bisa diselametin pake kentang rebus, 
+threads-2.ts BULK[bu]: telat bu, pasti masakannya udah mateng. jawabannya tetep: 1, -> Telat, pasti masakannya udah mateng. jawabannya tetep: 1,5 ×
+threads-2.ts BULK[kak]: logbook lu bener kak. selisih jam: 6 − 2 = 4. gak ada drama -> Logbook lu bener. selisih jam: 6 − 2 = 4. gak ada drama
+threads-2.ts BULK[kak]: jam kerja tuh kayak isi tangki kak, jangan dibulat sembarang -> Jam kerja tuh kayak isi tangki, jangan dibulat sembarangan. 
+threads-2.ts BULK[kak]: utang dihapus itu lega kak. minus yang dibuang jadi plus. lo -> Utang dihapus itu lega. minus yang dibuang jadi plus. logika
+threads-2.ts BULK[kak]: tabel tanda juga works kak: plus-plus plus, plus-minus minus -> Tabel tanda juga works: plus-plus plus, plus-minus minus, mi
+threads-2.ts BULK[kak]: anak saya juga pernah nanya gini kak. nyambungnya pas dibiki -> Anak saya juga pernah nanya gini. nyambungnya pas dibikinin 
+threads-2.ts BULK[kak]: aturan tanda itu konsistensi kak, biar semua rumus tetep jal -> Aturan tanda itu konsistensi, biar semua rumus tetep jalan. 
+threads-2.ts BULK[kak]: kalau minus ÷ minus gimana ya kak? kayak (−6) ÷ (−2) = 3. ko -> Kalau minus ÷ minus gimana ya? kayak (−6) ÷ (−2) = 3. kok bi
+threads-2.ts BULK[kak]: jawaban lama 3/7 paling kecil karena 3 paling kecil itu keli -> Jawaban lama 3/7 paling kecil karena 3 paling kecil itu keli
+threads-2.ts BULK[kak]: coba gambar loyang kak: 2/5 itu dua irisan dari lima, 1/2 se -> Coba gambar loyang: 2/5 itu dua irisan dari lima, 1/2 seteng
+threads-2.ts BULK[kak]: jangan panik kak, lu malah udah lebih teliti dari temen yang -> Jangan panik, lu malah udah lebih teliti dari temen yang bil
+threads-2.ts BULK[pak]: wajar itu tertukar pak. 7 × 7 = 49 dan 7 × 9 = 63 mengapitny -> Wajar itu tertukar. 7 × 7 = 49 dan 7 × 9 = 63 mengapitnya de
+threads-2.ts BULK[pak]: anak itu sudah menemukan strategi sendiri (49 + 7), itu pert -> Anak itu sudah menemukan strategi sendiri (49 + 7), itu pert
+threads-2.ts BULK[pak]: di rumah juga sering tertukar pak. 7×8 sama 8×7 dua-duanya 5 -> Di rumah juga sering tertukar. 7×8 sama 8×7 dua-duanya 56, t
+threads-2.ts BULK[pak]: anak itu pinter pak, 49 + 7 = 56 strategi sendiri. jangan te -> Anak itu pinter, 49 + 7 = 56 strategi sendiri. jangan terlal
+threads-2.ts BULK[pak]: coba lewat 8 pak: 8×7 = 8×6 + 8 = 48 + 8 = 56. dua jalan, ha -> Coba lewat 8: 8×7 = 8×6 + 8 = 48 + 8 = 56. dua jalan, hasil 
+threads-2.ts BULK[pak]: pakai jari juga bisa pak: 7×8 = 7×10 − 7×2 = 70 − 14 = 56. j -> Pakai jari juga bisa: 7×8 = 7×10 − 7×2 = 70 − 14 = 56. jalan
+threads-2.ts BULK[pak]: anak yang ngeh ada pola biasanya doyan matematika pak. kasih -> Anak yang ngeh ada pola biasanya doyan matematika. kasih kot
+threads-2.ts BULK[pak]: telat pak. udah beres kan jam belajarnya? 7×8 = 56, jangan l -> Telat. udah beres kan jam belajarnya? 7×8 = 56, jangan lupa
+threads-2.ts BULK[dik]: tabel itu cuma contoh awal dik. 17 memang prima, dan 51 buka -> Tabel itu cuma contoh awal. 17 memang prima, dan 51 bukan pr
+threads-2.ts BULK[dik]: tabel itu cuma contoh awal dik. 17 itu prima juga, cuma gak  -> Tabel itu cuma contoh awal. 17 itu prima juga, cuma gak keba
+threads-2.ts BULK[pak]: kuncinya 8 sama 9 pak. yang satu sampai tujuh udah dijamin s -> Kuncinya 8 sama 9. yang satu sampai tujuh udah dijamin sama 
+threads-2.ts BULK[pak]: cucunya lucu pak, curiga dulu baru terima. itu cara belajar  -> Cucunya lucu, curiga dulu baru terima. itu cara belajar yang
+threads-2.ts BULK[pak]: telat pak. udah dibales cucunya? 2520 fix, udah dihitung bol -> Telat. udah dibales cucunya? 2520 fix, udah dihitung bolak-b
+threads-2.ts BULK[bu]: benar bu, 1/4 dibagi 2 itu 1/8. karena pakainya jadi lebih l -> Benar, 1/4 dibagi 2 itu 1/8. karena pakainya jadi lebih lamb
+threads-2.ts BULK[bu]: hitungan sendoknya juga bener bu. memang paling gampang dice -> Hitungan sendoknya juga bener. memang paling gampang dicek p
+threads-2.ts BULK[bu]: cucu pintar bu. itungan anak sekarang kenceng banget lho -> Cucu pintar. itungan anak sekarang kenceng banget lho
+threads-2.ts BULK[bu]: hitungan cucu udah bener bu. 1/8 seminggu, 8 minggu. dua kal -> Hitungan cucu udah bener. 1/8 seminggu, 8 minggu. dua kali l
+threads-2.ts BULK[bu]: cek balik: 1/8 × 8 = 1. pas satu kilo bu. aman -> Cek balik: 1/8 × 8 = 1. pas satu kilo. aman
+threads-2.ts BULK[bu]: sendok tuh alat ukur paling konsisten di dapur bu. mata gamp -> Sendok tuh alat ukur paling konsisten di dapur. mata gampang
+threads-2.ts BULK[bu]: 4 minggu × 1/4 = 1. 8 minggu × 1/8 = 1. dua-duanya pas bu -> 4 minggu × 1/4 = 1. 8 minggu × 1/8 = 1. dua-duanya pas 
+threads-2.ts BULK[bu]: tanaman gue dulu layu karena pupuk asal. takaran begini eman -> Tanaman gue dulu layu karena pupuk asal. takaran begini eman
+threads-2.ts BULK[bu]: 1 kilo = 8 sendok penuh, patokan rumahan yang bagus bu. udah -> 1 kilo = 8 sendok penuh, patokan rumahan yang bagus. udah ke
+threads-2.ts BULK[bu]: telat bu. udah minggu ke berapa sekarang? tinggal dikit lagi -> Telat. udah minggu ke berapa sekarang? tinggal dikit lagi ha
+threads-2.ts BULK[kak]: gang pendek enak kak, tetangga kenal semua. nomor rumah aja  -> Gang pendek enak, tetangga kenal semua. nomor rumah aja masi
+threads-2.ts BULK[bu]: hitungan bener bu, A yang duluan. B sisanya dikit tapi jatah -> Hitungan bener, A yang duluan. B sisanya dikit tapi jatahnya
+threads-2.ts BULK[bu]: contohnya gampang bu: uang jajan 12 ribu habis 1,5 ribu seha -> Contohnya gampang: uang jajan 12 ribu habis 1,5 ribu sehari,
+threads-2.ts BULK[bu]: tambahin aja bu di grup kos: yang habis duluan kasih tau 2 h -> Tambahin aja di grup kos: yang habis duluan kasih tau 2 hari
+threads-2.ts BULK[bu]: bikin kalender aja bu. tandain hari ke-8 A kosong, hari ke-9 -> Bikin kalender aja. tandain hari ke-8 A kosong, hari ke-9 B.
+threads-2.ts BULK[bu]: urusan listrik tuh sensitif. sekali gelap, rapat dadakan. ja -> Urusan listrik tuh sensitif. sekali gelap, rapat dadakan. ja
+threads-2.ts BULK[pak]: benar pak, 3.000 ÷ 12.000 = 25%. persen kenaikan selalu diba -> Benar, 3.000 ÷ 12.000 = 25%. persen kenaikan selalu dibandin
+threads-2.ts BULK[pak]: kopi 15 ribu. hitungan pak yang benar, temannya kebawa angka -> Kopi 15 ribu. hitungan yang benar, temannya kebawa angka bul
+threads-2.ts BULK[pak]: naik 3.000 dari 12.000 = 25% pak. temen ngebanding ke 10.000 -> Naik 3.000 dari 12.000 = 25%. temen ngebanding ke 10.000 yan
+threads-2.ts BULK[pak]: kenaikan 25% itu 12.000 × 1,25 = 15.000. cocok pak, dua-duan -> Kenaikan 25% itu 12.000 × 1,25 = 15.000. cocok, dua-duanya d
+threads-2.ts BULK[pak]: 25% itu sama dengan seperempat pak. 12.000 dibagi 4 = 3.000. -> 25% itu sama dengan seperempat. 12.000 dibagi 4 = 3.000. pas
+threads-2.ts BULK[pak]: telat pak. struknya udah nunjukin kan? 25%, fix -> Telat. struknya udah nunjukin kan? 25%, fix
+threads-2.ts BULK[kak]: aturan umum tepat 0,5 ke atas kak, jadi 94. lampiran tetap t -> Aturan umum tepat 0,5 ke atas, jadi 94. lampiran tetap tulis
+threads-2.ts BULK[kak]: tulis metodenya di catatan kaki kak: dibulatkan ke bulat ter -> Tulis metodenya di catatan kaki: dibulatkan ke bulat terdeka
+threads-2.ts BULK[kak]: anak magangnya lucu kak, lima-nya kecil wkwk. aturan gak ken -> Anak magangnya lucu, lima-nya kecil wkwk. aturan gak kenal b
+threads-2.ts BULK[kak]: rapat nanti tunjukin dua-duanya kak: ringkasan 94, lampiran  -> Rapat nanti tunjukin dua-duanya: ringkasan 94, lampiran 93,5
+threads-2.ts BULK[kak]: 93 murid, yang absen cuma 6. itu pencapaian kak, jangan samp -> 93 murid, yang absen cuma 6. itu pencapaian, jangan sampai u
+threads-2.ts BULK[kak]: kayak nilai rapor kak, 74,5 jadi 75. aturannya udah umum. an -> Kayak nilai rapor, 74,5 jadi 75. aturannya udah umum. anak m
+threads-2.ts BULK[kak]: rapat besok tenang aja kak. datanya bener, tinggal pilih ben -> Rapat besok tenang aja. datanya bener, tinggal pilih bentuk 
+threads-2.ts BULK[kak]: anak magangnya masih muda kak. dikoreksi pelan-pelan, jangan -> Anak magangnya masih muda. dikoreksi pelan-pelan, jangan di 
+threads-2.ts BULK[kak]: telat kak. rapetnya udah lewat? kalau ditanya, jawab: dasar  -> Telat. rapetnya udah lewat? kalau ditanya, jawab: dasar 93,5
+threads-2.ts BULK[pak]: ide sembilan lembar itu elegan pak. 90 ÷ 5 = 18 ribu per cuc -> Ide sembilan lembar itu elegan. 90 ÷ 5 = 18 ribu per cucu, t
+threads-2.ts BULK[pak]: solusi 9 lembar 10.000 itu elegan pak. satu cucu satu lembar -> Solusi 9 lembar 10.000 itu elegan. satu cucu satu lembar, si
+threads-2.ts BULK[pak]: penjelasan paling cepet: tunjukin uangnya sekalian pak. bend -> Penjelasan paling cepet: tunjukin uangnya sekalian. benda je
+threads-2.ts BULK[pak]: kasus begini sering juga di warung pak, nyari kombinasi peca -> Kasus begini sering juga di warung, nyari kombinasi pecahan 
+threads-2.ts BULK[pak]: nasabah setuju setelah dijelasin, berarti caranya bener pak. -> Nasabah setuju setelah dijelasin, berarti caranya bener. tel
+threads-2.ts BULK[pak]: telat pak. nasabahnya udah pulang seneng kali ya. 90 ribu =  -> Telat. nasabahnya udah pulang seneng kali ya. 90 ribu = 9 × 
+threads-2.ts BULK[pak]: genap dua-duanya pak. pilihan jatuh ke selera, bukan hitunga -> Genap dua-duanya. pilihan jatuh ke selera, bukan hitungan
+threads-2.ts BULK[pak]: 40 × 3 = 120, 60 × 2 = 120. dua-duanya muat pak. tinggal pil -> 40 × 3 = 120, 60 × 2 = 120. dua-duanya muat. tinggal pilih
+threads-2.ts BULK[pak]: buku tebal biasanya lebih awet pak. yang tipis-tipis gampang -> Buku tebal biasanya lebih awet. yang tipis-tipis gampang mel
+threads-2.ts BULK[pak]: buku tipis banyak itu rapi diliat pak, kayak majalah. tapi n -> Buku tipis banyak itu rapi diliat, kayak majalah. tapi ngamb
+threads-2.ts BULK[pak]: kepala begini biasanya udah mikir akses, bukan cuma kapasita -> Kepala begini biasanya udah mikir akses, bukan cuma kapasita
+threads-2.ts BULK[pak]: 40 buku tebal itu lebih berat. raknya kuat kan pak? itu juga -> 40 buku tebal itu lebih berat. raknya kuat kan? itu juga hit
+threads-2.ts BULK[pak]: telat pak. udah diputusin kan? dua-duanya muat, yang milih t -> Telat. udah diputusin kan? dua-duanya muat, yang milih tetep
+threads-2.ts BULK[kak]: persentasenya yang beda kak: malem pertama 33% (8 dari 24),  -> Persentasenya yang beda: malem pertama 33% (8 dari 24), male
+threads-2.ts BULK[kak]: sisa 8 bungkus itu tetep banyak kak. besok beli lagi aja bia -> Sisa 8 bungkus itu tetep banyak. besok beli lagi aja biar am
+threads-2.ts BULK[kak]: di kos saya juga gitu kak. mie barang paling cepet ilang. ca -> Di kos saya juga gitu. mie barang paling cepet ilang. catata
+threads-21.ts REPL x1: Bunda beda periode. Cek dong -> Beda periode. Cek dong
+threads-3.ts BULK[bang]: wajar bang. apps itung jalur jalan, tapi odonya ikut belokan -> Wajar. apps itung jalur jalan, tapi odonya ikut belokan plus
+threads-3.ts BULK[bang]: yang dipakai tarif bang tetap yang di apps. odonya buat gant -> Yang dipakai tarif tetap yang di apps. odonya buat ganti ban
+threads-3.ts BULK[bang]: beda 800 meter dari 8,4 km itu sekitar 9,5 persen. masih waj -> Beda 800 meter dari 8,4 km itu sekitar 9,5 persen. masih waj
+threads-3.ts BULK[bang]: apps biasanya garis jalan bang, odometer lu makin jujur kare -> Apps biasanya garis jalan, odometer lu makin jujur karena ik
+threads-3.ts BULK[bang]: kalau ditarik garis lurus dari titik jemput ke tujuan malah  -> Kalau ditarik garis lurus dari titik jemput ke tujuan malah 
+threads-3.ts BULK[bang]: gue pernah beda 1,3 km bang gara-gara one way. odonya nambah -> Gue pernah beda 1,3 km gara-gara one way. odonya nambah, app
+threads-3.ts BULK[bang]: 800 meter tuh sepuluh menit jalan kaki bang. kelihatan banya -> 800 meter tuh sepuluh menit jalan kaki. kelihatan banyak, di
+threads-3.ts BULK[bang]: coba catet beberapa order bang, bandingin. rata-rata bedanya -> Coba catet beberapa order, bandingin. rata-rata bedanya kons
+threads-3.ts BULK[bang]: odometer motor tuh gak presisi juga bang, ban aus bisa bikin -> Odometer motor tuh gak presisi juga, ban aus bisa bikin seli
+threads-3.ts BULK[bang]: 9,2 − 8,4 = 0,8 km. persenan bedanya kecil bang, aman -> 9,2 − 8,4 = 0,8 km. persenan bedanya kecil, aman
+threads-3.ts BULK[bang]: telat bang. udah kejawab kan? beda dikit itu wajar, apps pak -> Telat. udah kejawab kan? beda dikit itu wajar, apps pake jal
+threads-3.ts BULK[bu]: 1,5625 yang benar bu. bahan kering ikut dikali penuh. garam  -> 1,5625 yang benar. bahan kering ikut dikali penuh. garam dan
+threads-3.ts BULK[bu]: abang toko itu ngambil patokan enak dijual bu wkwk. 625 ÷ 40 -> Abang toko itu ngambil patokan enak dijual wkwk. 625 ÷ 400 =
+threads-3.ts BULK[bu]: wkwk justru bu yang teliti. 625 ÷ 400 = 1,5625, kalkulator m -> Wkwk justru yang teliti. 625 ÷ 400 = 1,5625, kalkulator mema
+threads-3.ts BULK[bu]: hitungan ibu benar bu. 625 ÷ 400 = 1,5625. abang toko cuma m -> Hitungan ibu benar. 625 ÷ 400 = 1,5625. abang toko cuma memb
+threads-3.ts BULK[bu]: garam ikut dikali juga bu, cuma dibulatkan jadi sejumput. ra -> Garam ikut dikali juga, cuma dibulatkan jadi sejumput. rasa 
+threads-3.ts BULK[bu]: di resep profesional faktornya memang 1,5625 bu. abang toko  -> Di resep profesional faktornya memang 1,5625. abang toko sim
+threads-3.ts BULK[bu]: kalau pakai 1,5, adonan kurang 4 persen bu. masih bisa disel -> Kalau pakai 1,5, adonan kurang 4 persen. masih bisa diselama
+threads-3.ts BULK[bu]: nanya balik bu: browniesnya buat jualan ato acara? kalau jua -> Nanya balik: browniesnya buat jualan ato acara? kalau jualan
+threads-3.ts BULK[bu]: cukup hitung teliti bu, cicip garam doang urusan tangan. dua -> Cukup hitung teliti, cicip garam doang urusan tangan. dua-du
+threads-3.ts BULK[bu]: telat bu. udah dimasak kan? 1,5625 tetap benar buat catatan  -> Telat. udah dimasak kan? 1,5625 tetap benar buat catatan ber
+threads-3.ts BULK[mbak]: 42 benar mbak. 21 itu cuma setengah jalan, belum balik ke ti -> 42 benar. 21 itu cuma setengah jalan, belum balik ke titik a
+threads-3.ts BULK[mbak]: cucu menyusun 12 + 9 doang mbak. minta dia jalanin pagar pak -> Cucu menyusun 12 + 9 doang. minta dia jalanin pagar pakai pe
+threads-3.ts BULK[mbak]: 42 benar mbak. keliling itu muter penuh: dua sisi panjang, d -> 42 benar. keliling itu muter penuh: dua sisi panjang, dua si
+threads-3.ts BULK[mbak]: 21 itu cuma dua sisi doang mbak. pagar ada empat sisi, dua p -> 21 itu cuma dua sisi doang. pagar ada empat sisi, dua panjan
+threads-3.ts BULK[mbak]: anaknya lucu mbak, bilang nenek ribet wkwk. coba minta dia m -> Anaknya lucu, bilang nenek ribet wkwk. coba minta dia muter 
+threads-3.ts BULK[mbak]: 12 + 9 + 12 + 9 = 42. sama juga dengan (12 + 9) × 2 = 42. du -> 12 + 9 + 12 + 9 = 42. sama juga dengan (12 + 9) × 2 = 42. du
+threads-3.ts BULK[mbak]: di rumah saya juga pernah begini mbak. pahamnya pas anaknya  -> Di rumah saya juga pernah begini. pahamnya pas anaknya muter
+threads-3.ts BULK[mbak]: kayak muter blok mbak: dua kali jalan lurus, dua kali belok. -> Kayak muter blok: dua kali jalan lurus, dua kali belok. kala
+threads-3.ts BULK[mbak]: cucu bakal paham pas belajar segiempat lagi mbak. keliling s -> Cucu bakal paham pas belajar segiempat lagi. keliling selalu
+threads-3.ts BULK[mbak]: keliling persegi panjang = 2 × (p + l). 2 × 21 = 42. pas mba -> Keliling persegi panjang = 2 × (p + l). 2 × 21 = 42. pas 
+threads-3.ts BULK[mbak]: neneknya sabar mbak, bagus. cucu gak salah banget sih, dia b -> Neneknya sabar, bagus. cucu gak salah banget sih, dia baru s
+threads-3.ts BULK[mbak]: 21 vs 42 itu beda dua kali mbak. bayangin kalau dipake beli  -> 21 vs 42 itu beda dua kali. bayangin kalau dipake beli pagar
+threads-3.ts BULK[mbak]: telat mbak. udah kejawab di sekolah? 42 tetep benar, dari ne -> Telat. udah kejawab di sekolah? 42 tetep benar, dari nenek p
+threads-3.ts BULK[bang]: dua-duanya perkiraan bang. pi aslinya 3,14159... jadi 42 dan -> Dua-duanya perkiraan. pi aslinya 3,14159... jadi 42 dan 42,0
+threads-3.ts BULK[bang]: 22/7 itu 3,1428... bang, lebih gede dikit dari 3,14. makanya -> 22/7 itu 3,1428..., lebih gede dikit dari 3,14. makanya diam
+threads-3.ts BULK[bang]: keliling roda asli gak persis 3,14 × diameter bang. pi itu g -> Keliling roda asli gak persis 3,14 × diameter. pi itu gak be
+threads-3.ts BULK[bang]: buat ngukur etalase, beda 0,04 cm = 0,4 mm. gak mungkin keli -> Buat ngukur etalase, beda 0,04 cm = 0,4 mm. gak mungkin keli
+threads-3.ts BULK[bang]: coba tes di rumah bang: keliling gelas pake tali, ukur diame -> Coba tes di rumah: keliling gelas pake tali, ukur diameterny
+threads-3.ts BULK[bang]: 132 ÷ 3,14 = 42,04. 132 × 7 ÷ 22 = 42. dua-duanya sah bang,  -> 132 ÷ 3,14 = 42,04. 132 × 7 ÷ 22 = 42. dua-duanya sah, tingg
+threads-3.ts BULK[bang]: 22/7 dipakai karena gampang bagi bang. hasilnya gak jauh bed -> 22/7 dipakai karena gampang bagi. hasilnya gak jauh beda, am
+threads-3.ts BULK[bang]: roda bekas itu gak bulat sempurna bang, ban aus di pinggir.  -> Roda bekas itu gak bulat sempurna, ban aus di pinggir. selis
+threads-3.ts BULK[bang]: 132 cm keliling, diameter 42. keliling dibagi pi bang, dua-d -> 132 cm keliling, diameter 42. keliling dibagi pi, dua-duanya
+threads-3.ts BULK[bang]: di sekolah dipakai 22/7 buat soal, di kalkulator 3,14. prakt -> Di sekolah dipakai 22/7 buat soal, di kalkulator 3,14. prakt
+threads-3.ts BULK[bang]: bang, pi itu irasional, gak bisa ditulis persis pakai pecaha -> Pi itu irasional, gak bisa ditulis persis pakai pecahan. 22/
+threads-3.ts BULK[bang]: selisih 0,04 cm itu empat perseratus sentimeter. gak sepadan -> Selisih 0,04 cm itu empat perseratus sentimeter. gak sepadan
+threads-3.ts BULK[bang]: gue dulu jualan pake roda ukur juga bang. 42 atau 42,04 dua- -> Gue dulu jualan pake roda ukur juga. 42 atau 42,04 dua-duany
+threads-3.ts BULK[bang]: semakin besar roda, semakin kecil pengaruh beda pi bang. rod -> Semakin besar roda, semakin kecil pengaruh beda pi. roda kec
+threads-3.ts BULK[bang]: telat bang. rodanya masih dipakai? 42 udah pas buat ngukur e -> Telat. rodanya masih dipakai? 42 udah pas buat ngukur etalas
+threads-3.ts BULK[kak]: kertasnya dirobek dua kak. segitiga besar dikasih kembaranny -> Kertasnya dirobek dua. segitiga besar dikasih kembarannya, j
+threads-3.ts BULK[kak]: anak tipe gitu sebenarnya calon matematikawan kak. dia gak n -> Anak tipe gitu sebenarnya calon matematikawan. dia gak nerim
+threads-3.ts BULK[kak]: saranku: pakai kertas berpetak kak. segitiganya dihitung kot -> Saranku: pakai kertas berpetak. segitiganya dihitung kotak p
+threads-3.ts BULK[kak]: anakku dulu juga gitu kak, benci dibagi dua tanpa alasan. se -> Anakku dulu juga gitu, benci dibagi dua tanpa alasan. setela
+threads-3.ts BULK[kak]: kongruen kak: segitiga siku-siku 8 × 5 dobel jadi persegi pa -> Kongruen: segitiga siku-siku 8 × 5 dobel jadi persegi panjan
+threads-3.ts BULK[kak]: telat kak. anaknya udah nyerah belom wkwk? jawabannya tetep  -> Telat. anaknya udah nyerah belom wkwk? jawabannya tetep 20
+threads-3.ts BULK[kak]: hitungannya pas kak, 2,5 × 19.000 memang 47.500. premiumnya  -> Hitungannya pas, 2,5 × 19.000 memang 47.500. premiumnya wort
+threads-3.ts BULK[kak]: selisih 1 ribu per meter itu biasanya beda serat kak. coba t -> Selisih 1 ribu per meter itu biasanya beda serat. coba tarik
+threads-3.ts BULK[kak]: hitungannya pas kak, 2,5 × 19.000 = 47.500. kasir gak salah, -> Hitungannya pas, 2,5 × 19.000 = 47.500. kasir gak salah, ram
+threads-3.ts BULK[kak]: selisih per meter 1.000, kali 2,5 meter jadi 2.500. itu pers -> Selisih per meter 1.000, kali 2,5 meter jadi 2.500. itu pers
+threads-3.ts BULK[kak]: premium biasanya beda serat kak, ditarik langsung kerasa. co -> Premium biasanya beda serat, ditarik langsung kerasa. coba b
+threads-3.ts BULK[kak]: kalau buat baju harian, 18 ribu cukup kak. premium sayang ka -> Kalau buat baju harian, 18 ribu cukup. premium sayang kalau 
+threads-3.ts BULK[kak]: kejadian gini yang bikin orang latihan ngitung kak. untung s -> Kejadian gini yang bikin orang latihan ngitung. untung struk
+threads-3.ts BULK[kak]: kasirnya jujur kak, nunjuk rambu. di tempat lain bisa aja di -> Kasirnya jujur, nunjuk rambu. di tempat lain bisa aja dibung
+threads-3.ts BULK[kak]: 2.500 itu buat kemewahan kak wkwk. kain premium emang gitu,  -> 2.500 itu buat kemewahan wkwk. kain premium emang gitu, seka
+threads-3.ts BULK[kak]: cek seratnya kak: premium biasanya rapat, murah agak renggan -> Cek seratnya: premium biasanya rapat, murah agak renggang. m
+threads-3.ts BULK[kak]: kalau buat seragam, ambil yang 18 ribu aja kak. kalau buat p -> Kalau buat seragam, ambil yang 18 ribu aja. kalau buat pesta
+threads-3.ts BULK[kak]: matematikanya udah beres kak, sisanya urusan dompet wkwk -> Matematikanya udah beres, sisanya urusan dompet wkwk
+threads-3.ts BULK[kak]: struk pas itu tanda kasir teliti. kasih nilai plus buat toko -> Struk pas itu tanda kasir teliti. kasih nilai plus buat toko
+threads-3.ts BULK[kak]: kain 2,5 meter biasanya buat baju dewasa satu set ya kak. pr -> Kain 2,5 meter biasanya buat baju dewasa satu set ya. premiu
+threads-3.ts BULK[kak]: gak ada kerugian di sini kak, cuma pilihan. dua-duanya jalan -> Gak ada kerugian di sini, cuma pilihan. dua-duanya jalan kel
+threads-3.ts BULK[kak]: telat kak. kainnya udah dibawa pulang? 47.500 itu pas, hitun -> Telat. kainnya udah dibawa pulang? 47.500 itu pas, hitungann
+threads-3.ts BULK[kak]: kalau nyesel, tuker ke 18 ribu itu juga sah kak. tapi premiu -> Kalau nyesel, tuker ke 18 ribu itu juga sah. tapi premium bi
+threads-3.ts BULK[pak]: segitiga sama sisi juga aman pak, tingginya lebih besar dari -> Segitiga sama sisi juga aman, tingginya lebih besar dari sis
+threads-3.ts BULK[pak]: bentuk seperti itu namanya constant width pak. lingkaran con -> Bentuk seperti itu namanya constant width. lingkaran contoh 
+threads-3.ts BULK[pak]: Reuleaux itu sebutannya pak. kurang lebih dibahas di buku ge -> Reuleaux itu sebutannya. kurang lebih dibahas di buku geomet
+threads-3.ts BULK[pak]: tambah satu alasan praktis pak: tutup bundar tidak perlu dip -> Tambah satu alasan praktis: tutup bundar tidak perlu diputar
+threads-3.ts BULK[pak]: segitiga sama sisi juga lolos pak, tingginya lebih gede dari -> Segitiga sama sisi juga lolos, tingginya lebih gede dari sis
+threads-3.ts BULK[pak]: di rumah sakit ada tutup persegi pak, tapi itu tidak bisa di -> Di rumah sakit ada tutup persegi, tapi itu tidak bisa dibali
+threads-3.ts BULK[pak]: bentuk lebar-estetis kayak Reuleaux dipakai di beberapa kota -> Bentuk lebar-estetis kayak Reuleaux dipakai di beberapa kota
+threads-3.ts BULK[pak]: kuncinya pak: lebar di semua arah harus sama dengan lubang.  -> Kuncinya: lebar di semua arah harus sama dengan lubang. bula
+threads-3.ts BULK[pak]: tutup persegi bisa jatuh kalau ditegakkan pak, diagonalnya l -> Tutup persegi bisa jatuh kalau ditegakkan, diagonalnya lebih
+threads-3.ts BULK[pak]: anak-anak suka pertanyaan begini pak, bisa dijadiin eksperim -> Anak-anak suka pertanyaan begini, bisa dijadiin eksperimen: 
+threads-3.ts BULK[pak]: dan bulat gak punya sudut pak, jadi gak ada titik lemah. bua -> Dan bulat gak punya sudut, jadi gak ada titik lemah. buat tu
+threads-3.ts BULK[pak]: telat pak. udah ketemu contohnya? Reuleaux itu namanya, di a -> Telat. udah ketemu contohnya? Reuleaux itu namanya, di atas 
+threads-3.ts BULK[kak]: karena luas dan bentuk itu dua hal kak. luas cukup itu soal  -> Karena luas dan bentuk itu dua hal. luas cukup itu soal bany
+threads-3.ts BULK[kak]: gue tim ibu kak wkwk. kain 1 × 1 luasnya 1 m², meja butuh 0, -> Gue tim ibu wkwk. kain 1 × 1 luasnya 1 m², meja butuh 0,72 m
+threads-3.ts BULK[kak]: kelihatan di sudut kak. meja 1,2 m lebih panjang dari kain 1 -> Kelihatan di sudut. meja 1,2 m lebih panjang dari kain 1 m, 
+threads-3.ts BULK[kak]: satu meter itu sejauh lengan kak. meja makan keluarga biasan -> Satu meter itu sejauh lengan. meja makan keluarga biasanya l
+threads-3.ts BULK[kak]: anak pahamnya paling cepet pas lihat langsung kak: bungkus m -> Anak pahamnya paling cepet pas lihat langsung: bungkus meja 
+threads-3.ts BULK[kak]: 1,2 × 0,6 = 0,72. kain 1 × 1 = 1. luas cukup, bentuk gak pas -> 1,2 × 0,6 = 0,72. kain 1 × 1 = 1. luas cukup, bentuk gak pas
+threads-3.ts BULK[kak]: taplak melebihi meja juga harus nonggong di semua sisi kak,  -> Taplak melebihi meja juga harus nonggong di semua sisi, bias
+threads-3.ts BULK[kak]: meja 1,2 m itu 120 cm kak. kain 100 cm. kekurangan 20 cm di  -> Meja 1,2 m itu 120 cm. kain 100 cm. kekurangan 20 cm di sisi
+threads-3.ts BULK[kak]: beli taplak 1,4 × 0,8 kak, biar nonggong merata. standar tap -> Beli taplak 1,4 × 0,8, biar nonggong merata. standar taplak 
+threads-3.ts BULK[kak]: anaknya kena dua konsep sekaligus kak: luas dan dimensi. kas -> Anaknya kena dua konsep sekaligus: luas dan dimensi. kasus b
+threads-3.ts BULK[kak]: 0,72 m² meja, 1 m² kain. sisanya 0,28 m² tapi gak bisa dipin -> 0,72 m² meja, 1 m² kain. sisanya 0,28 m² tapi gak bisa dipin
+threads-3.ts BULK[kak]: gambar kak: kain kotak 10 × 10 petak, meja 12 × 6 petak. kel -> Gambar: kain kotak 10 × 10 petak, meja 12 × 6 petak. keliata
+threads-3.ts BULK[kak]: papanya gak sepenuhnya salah kak, luasnya emang cukup. cuma  -> Papanya gak sepenuhnya salah, luasnya emang cukup. cuma tapl
+threads-3.ts BULK[kak]: di rumah saya taplak dikasih alas karet kak, jadi bisa pas d -> Di rumah saya taplak dikasih alas karet, jadi bisa pas diges
+threads-3.ts BULK[kak]: matematika meja makan. 1,2 × 0,6 = 0,72 m². angka gak bohong -> Matematika meja makan. 1,2 × 0,6 = 0,72 m². angka gak bohong
+threads-3.ts BULK[kak]: anak gak bakal paham dari bilang kak, dia paham dari liat. t -> Anak gak bakal paham dari bilang, dia paham dari liat. tunju
+threads-3.ts BULK[kak]: telat kak. taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih ama -> Telat. taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih aman
+threads-3.ts BULK[kak]: 126 dus sudah benar kak. 630 ÷ 5 = 126, angka vendor yang be -> 126 dus sudah benar. 630 ÷ 5 = 126, angka vendor yang bener.
+threads-3.ts BULK[kak]: bos suka angka rapi kak wkwk. bilang aja 125 dus = 625 kepin -> Bos suka angka rapi wkwk. bilang aja 125 dus = 625 keping, k
+threads-3.ts BULK[kak]: 96 ÷ 0,16 = 600 kak, itu yang bikin rapat panjang biasanya.  -> 96 ÷ 0,16 = 600, itu yang bikin rapat panjang biasanya. seka
+threads-3.ts BULK[kak]: 630 ÷ 5 = 126 kak. matematikanya gak bisa dinego, tinggal ca -> 630 ÷ 5 = 126. matematikanya gak bisa dinego, tinggal cara n
+threads-3.ts BULK[kak]: bos suka rapi kak, kasih dia dua kolom: 125 dus = 625 keping -> Bos suka rapi, kasih dia dua kolom: 125 dus = 625 keping, ku
+threads-3.ts BULK[kak]: 5 persen dari 600 itu 30 keping kak. 600 + 30 = 630. dibagi  -> 5 persen dari 600 itu 30 keping. 600 + 30 = 630. dibagi 5 = 
+threads-3.ts BULK[kak]: cadangan itu buat keramik pecah waktu pasang kak. kalau kura -> Cadangan itu buat keramik pecah waktu pasang. kalau kurang, 
+threads-3.ts BULK[kak]: 126 dus itu gak rapi angkanya, tapi rapi logikanya kak. bos  -> 126 dus itu gak rapi angkanya, tapi rapi logikanya. bos bias
+threads-3.ts BULK[kak]: rapat besok tunjukin hitungannya kak, 600 × 1,05 = 630. satu -> Rapat besok tunjukin hitungannya, 600 × 1,05 = 630. satu bar
+threads-3.ts BULK[kak]: kalau bos maksa 125 dus, catat risikonya kak: 5 keping kuran -> Kalau bos maksa 125 dus, catat risikonya: 5 keping kurang da
+threads-3.ts BULK[kak]: 96 m² itu gede juga kak. 600 keping 40 × 40 masuk akal, 0,16 -> 96 m² itu gede juga. 600 keping 40 × 40 masuk akal, 0,16 per
+threads-3.ts BULK[kak]: keramik selalu dibeli lebih kak, itu aturan main. gak ada pr -> Keramik selalu dibeli lebih, itu aturan main. gak ada proyek
+threads-3.ts BULK[kak]: 5 persen cadangan itu standar vendor kak, bukan angka asal.  -> 5 persen cadangan itu standar vendor, bukan angka asal. vend
+threads-3.ts BULK[kak]: 600 ÷ 5 = 120 dus dasar kak. plus 6 dus cadangan = 126. bisa -> 600 ÷ 5 = 120 dus dasar. plus 6 dus cadangan = 126. bisa dij
+threads-3.ts BULK[kak]: 126 versus 125 itu beda 1 dus kak wkwk. rapat bisa selesai s -> 126 versus 125 itu beda 1 dus wkwk. rapat bisa selesai sebel
+threads-3.ts BULK[kak]: mungkin bos mikir 5 persen = 5 dus kak. padahal 5 persen dar -> Mungkin bos mikir 5 persen = 5 dus. padahal 5 persen dari 12
+threads-3.ts BULK[kak]: telat kak. rapetnya udah? 126 dus udah bener dari awal -> Telat. rapetnya udah? 126 dus udah bener dari awal
+threads-3.ts BULK[kak]: bayangin lantai kak: sisi 1 m = 100 cm. sepanjang sisi muat  -> Bayangin lantai: sisi 1 m = 100 cm. sepanjang sisi muat 100 
+threads-3.ts BULK[kak]: kelirunya di satu kata kak: ganti satuan panjang dikali seka -> Kelirunya di satu kata: ganti satuan panjang dikali sekali, 
+threads-3.ts BULK[kak]: coba pake kertas kak: 1 m² = 10.000 kotak kecil 1 cm². kotak -> Coba pake kertas: 1 m² = 10.000 kotak kecil 1 cm². kotak 1 c
+threads-3.ts BULK[kak]: jangan down kak, banyak orang dewasa kepleset di sini. satua -> Jangan down, banyak orang dewasa kepleset di sini. satuan ku
+threads-3.ts BULK[kak]: di sekolah dipakai tangga satuan luas kak: satu tangga turun -> Di sekolah dipakai tangga satuan luas: satu tangga turun = k
+threads-3.ts BULK[kak]: dan 1 m³ = 1.000.000 cm³ kak. tiga dimensi, tiga kali 100. m -> Dan 1 m³ = 1.000.000 cm³. tiga dimensi, tiga kali 100. makin
+threads-3.ts BULK[kak]: kalau mau bukti fisik kak: kertas 1 m², tempel keping-keping -> Kalau mau bukti fisik: kertas 1 m², tempel keping-keping 1 c
+threads-3.ts BULK[kak]: telat kak. udah nyerah ngeyel? 10.000 itu fix, di atas udah  -> Telat. udah nyerah ngeyel? 10.000 itu fix, di atas udah dibu
+threads-3.ts BULK[kak]: telat juga kak. 1 m² = 10.000 cm², cukup diingat 100 × 100.  -> Telat juga. 1 m² = 10.000 cm², cukup diingat 100 × 100. sele
+threads-3.ts BULK[dik]: 75 derajat dik. jarum kecil ikut bergerak: dalam 30 menit di -> 75 derajat. jarum kecil ikut bergerak: dalam 30 menit dia ja
+threads-3.ts BULK[dik]: PR itu menarik dik, banyak orang dewasa juga menjawab 90 kar -> PR itu menarik, banyak orang dewasa juga menjawab 90 karena 
+threads-3.ts BULK[dik]: 75 derajat dik. jarum kecil 30 menit jalan setengah kotak: 1 -> 75 derajat. jarum kecil 30 menit jalan setengah kotak: 15 de
+threads-3.ts BULK[dik]: jarum jam tuh kayak pelari dik, dua-duanya jalan. yang pelan -> Jarum jam tuh kayak pelari, dua-duanya jalan. yang pelan tet
+threads-3.ts BULK[dik]: rumusnya dik: selisih = |30×jam − 5,5×menit|. jam 3.30 → |90 -> Rumusnya: selisih = |30×jam − 5,5×menit|. jam 3.30 → |90 − 1
+threads-3.ts BULK[dik]: anak sebangku lu lupa jarum kecil jalan. dia ngegap 3.30 = 3 -> Anak sebangku lu lupa jarum kecil jalan. dia ngegap 3.30 = 3
+threads-3.ts BULK[dik]: kebanggaan buat bunda dik, anak nanya alasannya, bukan cuma  -> Kebanggaan buat bunda, anak nanya alasannya, bukan cuma hafa
+threads-3.ts BULK[dik]: tes cepet dik: jam 3.15 jarum kecil di 97,5 derajat, jarum b -> Tes cepet: jam 3.15 jarum kecil di 97,5 derajat, jarum besar
+threads-3.ts BULK[dik]: 90 itu jam 3.00 pas dik. 30 menit bikin selisih turun ke 75 -> 90 itu jam 3.00 pas. 30 menit bikin selisih turun ke 75
+threads-3.ts BULK[dik]: jangan coret itungan sendiri dik. lu udah bener, tinggal jel -> Jangan coret itungan sendiri. lu udah bener, tinggal jelasin
+threads-3.ts BULK[dik]: jam 3.30 itu bentuknya kayak huruf V kebalik dik, jarum keci -> Jam 3.30 itu bentuknya kayak huruf V kebalik, jarum kecil di
+threads-3.ts BULK[dik]: di rumah jam dinding paling gampang dicek dik. tunjukin ke t -> Di rumah jam dinding paling gampang dicek. tunjukin ke temen
+threads-3.ts BULK[dik]: guru suka anak yang nanya alasannya dik. libur bel harusnya  -> Guru suka anak yang nanya alasannya. libur bel harusnya gak 
+threads-3.ts BULK[dik]: 0,5 derajat per menit itu konstan dik. jadi 30 menit = 15 de -> 0,5 derajat per menit itu konstan. jadi 30 menit = 15 deraja
+threads-3.ts BULK[dik]: kombinasi paling sering ketuker dik: 3.00 → 90 derajat, 3.30 -> Kombinasi paling sering ketuker: 3.00 → 90 derajat, 3.30 → 7
+threads-3.ts BULK[dik]: jarum besar 6 derajat per menit dik. 30 × 6 = 180. pas di an -> Jarum besar 6 derajat per menit. 30 × 6 = 180. pas di angka 
+threads-3.ts BULK[dik]: telat dik. udah libur bel? 75 derajat, jangan sampai diganti -> Telat. udah libur bel? 75 derajat, jangan sampai diganti
+threads-3.ts BULK[kak]: hitungan kak bener. skala luas dikali dua kali: 200 × 200 =  -> Hitungan bener. skala luas dikali dua kali: 200 × 200 = 40.0
+threads-3.ts BULK[kak]: 5.400 m² itu kayak lapangan bola kak. ruang arsip gak mungki -> 5.400 m² itu kayak lapangan bola. ruang arsip gak mungkin se
+threads-3.ts BULK[kak]: rekan kak luput satu langkah: lupa persegi. cm² ke m² itu ÷  -> Rekan luput satu langkah: lupa persegi. cm² ke m² itu ÷ 10.0
+threads-3.ts BULK[kak]: 27 × 200 = 5.400 itu cm² denah kak, bukan m² nyata. dulu dis -> 27 × 200 = 5.400 itu cm² denah, bukan m² nyata. dulu disalah
+threads-3.ts BULK[kak]: yang jelas kak, luas ruang 108 m². konsultan bakal seneng de -> Yang jelas, luas ruang 108 m². konsultan bakal seneng denahn
+threads-3.ts BULK[kak]: 108 m² buat arsip besar banget kak, mungkin campur dengan ru -> 108 m² buat arsip besar banget, mungkin campur dengan ruang 
+threads-3.ts BULK[kak]: telat kak. grup-nya udah tenang? 108 m² udah fix -> Telat. grup-nya udah tenang? 108 m² udah fix
+threads-3.ts BULK[kak]: telat juga kak. skala luas itu jebakan klasik, 200 dikali du -> Telat juga. skala luas itu jebakan klasik, 200 dikali dua ka
+threads-3.ts BULK[om]: penumpang itu menukar posisi angka: 12 menit dibaca 12 km pe -> Penumpang itu menukar posisi angka: 12 menit dibaca 12 km pe
+threads-3.ts BULK[om]: 26 km per jam om. 5,2 ÷ 12 × 60 = 26. angkanya wajar buat ja -> 26 km per jam. 5,2 ÷ 12 × 60 = 26. angkanya wajar buat jalan
+threads-3.ts BULK[om]: cara gampang om: dalam 12 menit 5,2 km. sepuluh kali lipat w -> Cara gampang: dalam 12 menit 5,2 km. sepuluh kali lipat wakt
+threads-3.ts BULK[om]: penumpang menukar tempat om: yang 12 itu menit, yang 5,2 itu -> Penumpang menukar tempat: yang 12 itu menit, yang 5,2 itu km
+threads-3.ts BULK[om]: om sudah ke arah benar: per menit 0,43 km. tinggal dikali 60 -> Sudah ke arah benar: per menit 0,43 km. tinggal dikali 60. j
+threads-3.ts BULK[om]: kayak ojek om, 12 menit 5 km lebih. jalan kota memang segitu -> Kayak ojek, 12 menit 5 km lebih. jalan kota memang segitu
+threads-3.ts BULK[om]: biar nangkep om: 1 menit ≈ 0,43 km = 430 meter. satu jam 60  -> Biar nangkep: 1 menit ≈ 0,43 km = 430 meter. satu jam 60 × 4
+threads-3.ts BULK[om]: satuan om: km per jam, bukan km per menit. kalau ditulis km  -> Satuan: km per jam, bukan km per menit. kalau ditulis km per
+threads-3.ts BULK[om]: 12 km per jam itu jalan kaki cepet om. mobil di jalan raya p -> 12 km per jam itu jalan kaki cepet. mobil di jalan raya past
+threads-3.ts BULK[om]: 26 km per jam itu sekitar 7,2 meter per detik om. pelan tapi -> 26 km per jam itu sekitar 7,2 meter per detik. pelan tapi ko
+threads-3.ts BULK[om]: penumpang yang nanya tuh niat belajar om. bagus, gak semua p -> Penumpang yang nanya tuh niat belajar. bagus, gak semua penu
+threads-3.ts BULK[om]: 5,2 ÷ 12 = 0,4333... om. dibulat 0,43. dikali 60 = 26. dua d -> 5,2 ÷ 12 = 0,4333.... dibulat 0,43. dikali 60 = 26. dua desi
+threads-3.ts BULK[om]: telat om. penumpangnya udah sampe? 26 km per jam udah fix -> Telat. penumpangnya udah sampe? 26 km per jam udah fix
+threads-3.ts BULK[om]: telat juga om. kecepatan itu jarak dibagi waktu, gak bisa di -> Telat juga. kecepatan itu jarak dibagi waktu, gak bisa dituk
+threads-3.ts BULK[kak]: 5.000 cm itu benar kak, jadi 360 m. kalau skalanya 1 cm = 5. -> 5.000 cm itu benar, jadi 360 m. kalau skalanya 1 cm = 5.000 
+threads-3.ts BULK[kak]: trik cek kak: 5.000 cm = 50 m. jadi tiap 1 cm di peta = 50 m -> Trik cek: 5.000 cm = 50 m. jadi tiap 1 cm di peta = 50 m. 7,
+threads-3.ts BULK[kak]: pembimbing cuma ngecek gak asal nemplok kak, jawaban lu udah -> Pembimbing cuma ngecek gak asal nemplok, jawaban lu udah rap
+threads-3.ts BULK[kak]: 1:5.000 itu 1 cm peta = 5.000 cm beneran kak = 50 meter. jad -> 1:5.000 itu 1 cm peta = 5.000 cm beneran = 50 meter. jadi 7,
+threads-3.ts BULK[kak]: kalau 1 cm = 5.000 m kak, skalanya 1:500.000. itu peta provi -> Kalau 1 cm = 5.000 m, skalanya 1:500.000. itu peta provinsi,
+threads-3.ts BULK[kak]: kelurahan itu wilayahnya ratusan meter sampai kilometer kak. -> Kelurahan itu wilayahnya ratusan meter sampai kilometer. 360
+threads-3.ts BULK[kak]: trik gampang kak: 5.000 cm dibagi 100 = 50 m. setiap cm peta -> Trik gampang: 5.000 cm dibagi 100 = 50 m. setiap cm peta = 5
+threads-3.ts BULK[kak]: 36 km untuk satu kelurahan kak itu kayak lintas kota. gak ma -> 36 km untuk satu kelurahan itu kayak lintas kota. gak masuk 
+threads-3.ts BULK[kak]: pembimbing nanya gak asal nemplok kak, itu bagus. jawaban lu -> Pembimbing nanya gak asal nemplok, itu bagus. jawaban lu jel
+threads-3.ts BULK[kak]: 36.000 cm ÷ 100 = 360 m kak. cm ke m selalu bagi 100, satu l -> 36.000 cm ÷ 100 = 360 m. cm ke m selalu bagi 100, satu langk
+threads-3.ts BULK[kak]: skala 1:5.000 itu peta kampung kak. 1:50.000 buat kecamatan, -> Skala 1:5.000 itu peta kampung. 1:50.000 buat kecamatan, 1:2
+threads-3.ts BULK[kak]: pembimbing mungkin cuma ngetes kak, apakah lu tau dari mana  -> Pembimbing mungkin cuma ngetes, apakah lu tau dari mana 360-
+threads-3.ts BULK[kak]: 7,2 × 50 = 360 kak. hitung ganda sama hasilnya, aman buat la -> 7,2 × 50 = 360. hitung ganda sama hasilnya, aman buat lapora
+threads-3.ts BULK[kak]: peta skala kecil memang membingungkan kak. yang penting 1 di -> Peta skala kecil memang membingungkan. yang penting 1 di kir
+threads-3.ts BULK[kak]: telat kak. udah dibales pembimbing? 360 m itu benar dari awa -> Telat. udah dibales pembimbing? 360 m itu benar dari awal
+threads-3.ts BULK[kak]: kelurahan gak mungkin 36 km kak, itu udah seberang kota. 360 -> Kelurahan gak mungkin 36 km, itu udah seberang kota. 360 m m
+threads-3.ts BULK[kak]: box miring 45 derajat? tetap tidak muat kak, panjang diagona -> Box miring 45 derajat? tetap tidak muat, panjang diagonalnya
+threads-3.ts BULK[kak]: 10 box per rak udah optimal kak. sisa 20 cm itu bukan kegaga -> 10 box per rak udah optimal. sisa 20 cm itu bukan kegagalan,
+threads-3.ts BULK[kak]: gambar aja di kertas kak: 80 cm diberi garis per 30. dua gar -> Gambar aja di kertas: 80 cm diberi garis per 30. dua garis m
+threads-3.ts BULK[kak]: kalau mau penuh 100 persen, boxnya harus diganti ukuran 20 c -> Kalau mau penuh 100 persen, boxnya harus diganti ukuran 20 c
+threads-3.ts BULK[kak]: telat kak. atasannya udah paham? 10 box itu fix, 80 cm terpa -> Telat. atasannya udah paham? 10 box itu fix, 80 cm terpakai,
+threads-3.ts BULK[kak]: benang + penggaris itu toleransinya gede kak, 0,5 cm masih d -> Benang + penggaris itu toleransinya gede, 0,5 cm masih dalam
+threads-3.ts BULK[kak]: yang digarisbawahi itu tren naik berulang kak, bukan sekali  -> Yang digarisbawahi itu tren naik berulang, bukan sekali seli
+threads-3.ts BULK[kak]: benang nyimpang 2 mm di telinga udah bikin hasil beda kak. p -> Benang nyimpang 2 mm di telinga udah bikin hasil beda. plus 
+threads-3.ts BULK[kak]: spv-nya bijak kak, tenang tapi tetap pantau. itu kombinasi y -> Spv-nya bijak, tenang tapi tetap pantau. itu kombinasi yang 
+threads-3.ts BULK[kak]: posyandu pakai pita ukur khusus kak, lebih stabil dari benan -> Posyandu pakai pita ukur khusus, lebih stabil dari benang. m
+threads-3.ts BULK[kak]: 0,5 cm = 5 mm kak. di lingkar kepala bayi itu kecil, tapi te -> 0,5 cm = 5 mm. di lingkar kepala bayi itu kecil, tapi tetap 
+threads-3.ts BULK[kak]: ibu pasien panik kalau dijelasin asal kak. kasih angka tren, -> Ibu pasien panik kalau dijelasin asal. kasih angka tren, buk
+threads-3.ts BULK[kak]: gejala berat tuh loncatannya jauh kak, bukan 0,5. jangan dul -> Gejala berat tuh loncatannya jauh, bukan 0,5. jangan dulu ov
+threads-3.ts BULK[kak]: toleransi alat manual umumnya 0,3 sampai 0,5 cm kak, sesuai  -> Toleransi alat manual umumnya 0,3 sampai 0,5 cm, sesuai yang
+threads-3.ts BULK[kak]: catat alat yang dipakai juga kak: benang vs pita. biar tren  -> Catat alat yang dipakai juga: benang vs pita. biar tren kons
+threads-3.ts BULK[kak]: kak udah rajin banget ngukur dua kali. itu protokol yang ben -> Udah rajin banget ngukur dua kali. itu protokol yang bener
+threads-3.ts BULK[kak]: telat kak. bayinya udah dicek lagi? 0,5 cm manual itu wajar -> Telat. bayinya udah dicek lagi? 0,5 cm manual itu wajar
+threads-3.ts BULK[pak]: biasanya yang dipakai luas sama besar pak, bentuknya mengiku -> Biasanya yang dipakai luas sama besar, bentuknya mengikuti p
+threads-3.ts BULK[pak]: pita 25 × 4 itu menyulitkan bangun pak. kalau bisa, tegak lu -> Pita 25 × 4 itu menyulitkan bangun. kalau bisa, tegak lurus 
+threads-3.ts BULK[pak]: notaris pakai luas pak. bentuk mengikuti keputusan keluarga, -> Notaris pakai luas. bentuk mengikuti keputusan keluarga, tap
+threads-3.ts BULK[pak]: 10 × 10 paling enak dipakai pak, empat bidang persegi. 25 ×  -> 10 × 10 paling enak dipakai, empat bidang persegi. 25 × 4 it
+threads-3.ts BULK[pak]: 400 ÷ 4 = 100. angkanya bersih pak, tinggal urusan garis bat -> 400 ÷ 4 = 100. angkanya bersih, tinggal urusan garis batasny
+threads-3.ts BULK[pak]: pembagian bentuk sama itu namanya pembagian proporsional pak -> Pembagian bentuk sama itu namanya pembagian proporsional. bi
+threads-3.ts BULK[pak]: warisan tuh urusan luas pak, tapi kerukunan urusan bentuk. b -> Warisan tuh urusan luas, tapi kerukunan urusan bentuk. bahas
+threads-3.ts BULK[pak]: sumbu lurus dari sepupu itu masuk akal pak, asal semua anak  -> Sumbu lurus dari sepupu itu masuk akal, asal semua anak setu
+threads-3.ts BULK[pak]: 25 × 4 itu 100 juga sih pak, cocok buat kios atau usaha sepa -> 25 × 4 itu 100 juga sih, cocok buat kios atau usaha sepanjan
+threads-3.ts BULK[pak]: notaris nyatet luas dan batas koordinat pak. bentuk pasti ke -> Notaris nyatet luas dan batas koordinat. bentuk pasti keliha
+threads-3.ts BULK[pak]: telat pak. keluarganya udah sepakat? 100 m² per anak udah pa -> Telat. keluarganya udah sepakat? 100 m² per anak udah pas da
+threads-4.ts REPL x1: om-om, jelasin ke gue cara ngitungnya. -> jelasin ke gue cara ngitungnya dong.
+threads-4.ts REPL x1: bunda bisa jelasin ke anak-anak -> bisa jelasin ke anak-anak
+threads-4.ts REPL x1: pakai kalimat tanya: mas, di slip 22 hari -> pakai kalimat tanya: di slip 22 hari
+threads-4.ts BULK[mbak]: bisa dihitung mbak. jawabannya bos 30, anak 10. sepuluh tahu -> Bisa dihitung. jawabannya bos 30, anak 10. sepuluh tahun lag
+threads-4.ts BULK[mbak]: lukisan umur itu seru: selisih umur gak pernah berubah mbak. -> Lukisan umur itu seru: selisih umur gak pernah berubah. 20 s
+threads-4.ts BULK[mbak]: soal umur itu klasik mbak, selisihnya tetap, rasionya turun. -> Soal umur itu klasik, selisihnya tetap, rasionya turun. itul
+threads-4.ts BULK[mbak]: tukang cukur yang biasa nge-tebak gaya rambut, eh malah nget -> Tukang cukur yang biasa nge-tebak gaya rambut, eh malah nget
+threads-4.ts BULK[mbak]: kalau bosnya sekarang 30, anaknya lahir pas bos 20 mbak. mas -> Kalau bosnya sekarang 30, anaknya lahir pas bos 20. masuk ak
+threads-4.ts BULK[mbak]: kayaknya bos itu udah lama nunggu giliran mbak, sampai sempa -> Kayaknya bos itu udah lama nunggu giliran, sampai sempat bik
+threads-4.ts BULK[mbak]: jawaban asal mbak ternyata kena juga ya. untung soalnya kebe -> Jawaban asal ternyata kena juga ya. untung soalnya kebetulan
+threads-4.ts BULK[mbak]: sepuluh tahun itu angka kuncinya mbak. tanpa itu, rasio bisa -> Sepuluh tahun itu angka kuncinya. tanpa itu, rasio bisa apa 
+threads-4.ts BULK[mbak]: di kelas saya soal begini sering muncul mbak. rasio umur sel -> Di kelas saya soal begini sering muncul. rasio umur selalu p
+threads-4.ts BULK[mbak]: bos 30 mbak. umur anak 10. hitungannya udah kejawab semua di -> Bos 30. umur anak 10. hitungannya udah kejawab semua di atas
+threads-4.ts BULK[mbak]: minta bosnya jadi guru part time aja mbak wkwk, soalnya udah -> Minta bosnya jadi guru part time aja wkwk, soalnya udah berk
+threads-4.ts BULK[mbak]: telat mbak. bosnya udah kepotong rambutnya? 30 dan 10 udah f -> Telat. bosnya udah kepotong rambutnya? 30 dan 10 udah fix
+threads-4.ts BULK[pak]: ke-6 pak. dua orang ngepos ronde 4 minggu lalu itu karena ad -> Ke-6. dua orang ngepos ronde 4 minggu lalu itu karena ada ya
+threads-4.ts BULK[pak]: ke-6 pak. 200 menit = 5 jeda ronde. ronde pertama plus 5 jed -> Ke-6. 200 menit = 5 jeda ronde. ronde pertama plus 5 jeda = 
+threads-4.ts BULK[pak]: kayak berangkat bus pak: 21.00 bus pertama, tiap 40 menit bu -> Kayak berangkat bus: 21.00 bus pertama, tiap 40 menit bus be
+threads-4.ts BULK[pak]: rekan yang bilang ke-5 cuma ngitung jeda doang, lupa ronde a -> Rekan yang bilang ke-5 cuma ngitung jeda doang, lupa ronde a
+threads-4.ts BULK[pak]: 21.00 → 21.40 → 22.20 → 23.00 → 23.40 → 00.20. hitung manual -> 21.00 → 21.40 → 22.20 → 23.00 → 23.40 → 00.20. hitung manual
+threads-4.ts BULK[pak]: logbook tulis ke-6 pak, plus jamnya. biar gak debat lagi -> Logbook tulis ke-6, plus jamnya. biar gak debat lagi
+threads-4.ts BULK[pak]: kasus ronde dobel minggu lalu itu karena titik mulai beda pa -> Kasus ronde dobel minggu lalu itu karena titik mulai beda. s
+threads-4.ts BULK[pak]: 5 itu jumlah jeda pak, bukan nomor ronde. sering ketuker beg -> 5 itu jumlah jeda, bukan nomor ronde. sering ketuker begini
+threads-4.ts BULK[pak]: kalau minggu depan mulai jam lain, nomor ronde ikut geser pa -> Kalau minggu depan mulai jam lain, nomor ronde ikut geser. y
+threads-4.ts BULK[pak]: ronde ke-6 pak. dua-duanya rekan dan lu harus pakai definisi -> Ronde ke-6. dua-duanya rekan dan lu harus pakai definisi sam
+threads-4.ts BULK[pak]: tabel kecil di logbook pak: jam ronde 1 sampai 6. semua ting -> Tabel kecil di logbook: jam ronde 1 sampai 6. semua tinggal 
+threads-4.ts BULK[pak]: 200 ÷ 40 = 5. itu jeda. ronde = jeda + 1. jadi 6 pak -> 200 ÷ 40 = 5. itu jeda. ronde = jeda + 1. jadi 6 
+threads-4.ts BULK[pak]: ronde ke-6, udah dikukuhkan semua di atas pak -> Ronde ke-6, udah dikukuhkan semua di atas 
+threads-4.ts BULK[pak]: telat pak. logbook-nya udah ditulis? ke-6, aman -> Telat. logbook-nya udah ditulis? ke-6, aman
+threads-4.ts BULK[bu]: kotak misteri bisa diisi utang juga, bu. 5 kotak masing-masi -> Kotak misteri bisa diisi utang juga,. 5 kotak masing-masing 
+threads-4.ts BULK[bu]: suhu juga bisa bu: 5 kantong es masing-masing menurunkan suh -> Suhu juga bisa: 5 kantong es masing-masing menurunkan suhu 1
+threads-4.ts BULK[bu]: ananda itu bertanya tepat sekali bu. tahap ini penting, jang -> Ananda itu bertanya tepat sekali. tahap ini penting, jangan 
+threads-4.ts BULK[bu]: 5 kotak utang 1 masing-masing = utang 5. x = −1 bu. kotak mi -> 5 kotak utang 1 masing-masing = utang 5. x = −1. kotak miste
+threads-4.ts BULK[bu]: anak suka tangga bu: 5x = 5 → 1. 5x = 0 → 0. 5x = −5 → −1. p -> Anak suka tangga: 5x = 5 → 1. 5x = 0 → 0. 5x = −5 → −1. pola
+threads-4.ts BULK[bu]: termometer juga jalan bu: 5 × (−1) = −5. lima kali turun sat -> Termometer juga jalan: 5 × (−1) = −5. lima kali turun satu d
+threads-4.ts BULK[bu]: x = −1 artinya satu langkah ke belakang bu. lima langkah ke  -> X = −1 artinya satu langkah ke belakang. lima langkah ke bel
+threads-4.ts BULK[bu]: utang 5 dibagi lima orang = utang 1 per orang bu. minus itu  -> Utang 5 dibagi lima orang = utang 1 per orang. minus itu buk
+threads-4.ts BULK[bu]: anak yang nanya gini lagi siap menerima minus bu. jawab saja -> Anak yang nanya gini lagi siap menerima minus. jawab saja ju
+threads-4.ts BULK[bu]: cekin bu: 5 × (−1) = −5. dua-duanya minus, tanda cocok -> Cekin: 5 × (−1) = −5. dua-duanya minus, tanda cocok
+threads-4.ts BULK[bu]: jangan diperpanjang bu, anak sudah di pintu. satu contoh uta -> Jangan diperpanjang, anak sudah di pintu. satu contoh utang,
+threads-4.ts BULK[bu]: telat bu. anandanya udah paham? x = −1, sah di aljabar -> Telat. anandanya udah paham? x = −1, sah di aljabar
+threads-4.ts BULK[pak]: tumpukan tinggi itu feeling, bukan angka pak. nasabah tua pe -> Tumpukan tinggi itu feeling, bukan angka. nasabah tua percay
+threads-4.ts BULK[pak]: tawarkan 2 lembar 250 ribu kalau ada pak, kadang urusan lemb -> Tawarkan 2 lembar 250 ribu kalau ada, kadang urusan lembar b
+threads-4.ts BULK[pak]: selisihnya persis 500 ribu pak. rapi, gak ada sisa pecahan a -> Selisihnya persis 500 ribu. rapi, gak ada sisa pecahan aneh
+threads-4.ts BULK[pak]: hajatan tuh butuh uang pas pak. lebih baik jelas sekarang da -> Hajatan tuh butuh uang pas. lebih baik jelas sekarang daripa
+threads-4.ts BULK[pak]: 5 lembar 100 ribu itu tumpukan tipis pak. bandingkan dengan  -> 5 lembar 100 ribu itu tumpukan tipis. bandingkan dengan tump
+threads-4.ts BULK[pak]: telat pak. nasabahnya udah beres? 5 lembar 100 ribu itu fix -> Telat. nasabahnya udah beres? 5 lembar 100 ribu itu fix
+threads-4.ts BULK[pak]: jualan itu guru terbaik untuk hitung cepat pak. kesalahan 50 -> Jualan itu guru terbaik untuk hitung cepat. kesalahan 500 ta
+threads-4.ts BULK[pak]: anak yang mengulang hitungan sendiri sebelum dikoreksi itu t -> Anak yang mengulang hitungan sendiri sebelum dikoreksi itu t
+threads-4.ts BULK[pak]: jualan kecil itu kelas matematika gratis. kelas 4 cocok bang -> Jualan kecil itu kelas matematika gratis. kelas 4 cocok bang
+threads-4.ts BULK[pak]: pengalaman jualan tuh nempel lama pak. anak suka hitung yang -> Pengalaman jualan tuh nempel lama. anak suka hitung yang ada
+threads-4.ts BULK[pak]: kelas 4 udah bisa bagi 1.500 ÷ 3 pak. latihan jualan memang  -> Kelas 4 udah bisa bagi 1.500 ÷ 3. latihan jualan memang jala
+threads-4.ts BULK[pak]: telat pak. permenya masih laku? 500 per biji itu kuncinya -> Telat. permenya masih laku? 500 per biji itu kuncinya
+threads-4.ts BULK[bu]: bon warung menang bu wkwk. mie 4.000 telur 4.500. anak kos i -> Bon warung menang wkwk. mie 4.000 telur 4.500. anak kos itun
+threads-4.ts BULK[bu]: selisih dua baris itu jurus ampuh bu. yang beda antara bon 1 -> Selisih dua baris itu jurus ampuh. yang beda antara bon 1 da
+threads-4.ts BULK[bu]: bon menang bu. 3.000 beda = 2 mie, jadi mie 4.000. telur 4.5 -> Bon menang. 3.000 beda = 2 mie, jadi mie 4.000. telur 4.500.
+threads-4.ts BULK[bu]: A bilang telur 6.500 itu dari 13.000 ÷ 2, lupa mie ikut keba -> A bilang telur 6.500 itu dari 13.000 ÷ 2, lupa mie ikut keba
+threads-4.ts BULK[bu]: kas bon ditulis rinci mulai sekarang bu, gak ada drama lagi -> Kas bon ditulis rinci mulai sekarang, gak ada drama lagi
+threads-4.ts BULK[bu]: telat bu. anak kosnya udah tau kalah? 4.000 dan 4.500 fix -> Telat. anak kosnya udah tau kalah? 4.000 dan 4.500 fix
+threads-4.ts BULK[pak]: total dulu baru bagi pak. satu sumber angka, gak ada kesempa -> Total dulu baru bagi. satu sumber angka, gak ada kesempatan 
+threads-4.ts BULK[pak]: total dulu pak: 240 − 8 = 232, ÷ 4 = 58. satu jalur, gak ada -> Total dulu: 240 − 8 = 232, ÷ 4 = 58. satu jalur, gak ada cab
+threads-4.ts BULK[pak]: cara rekan juga sah: tiap palet 60 − 2 = 58. dua-duanya nyam -> Cara rekan juga sah: tiap palet 60 − 2 = 58. dua-duanya nyam
+threads-4.ts BULK[pak]: keunggulan total dulu: kalau rusaknya gak merata, jalurnya t -> Keunggulan total dulu: kalau rusaknya gak merata, jalurnya t
+threads-4.ts BULK[pak]: 4 × 58 = 232. cek balik cocok. laporan aman pak -> 4 × 58 = 232. cek balik cocok. laporan aman 
+threads-4.ts BULK[pak]: invoice per palet 58 dus itu konsisten pak. kepala gudang ba -> Invoice per palet 58 dus itu konsisten. kepala gudang bakal 
+threads-4.ts BULK[pak]: 58 per palet itu rapi pak. bagus gak ada sisa dus nyasar -> 58 per palet itu rapi. bagus gak ada sisa dus nyasar
+threads-4.ts BULK[pak]: dua metode itu sama saja pak kalau rusaknya merata. pilih ya -> Dua metode itu sama saja kalau rusaknya merata. pilih yang g
+threads-4.ts BULK[pak]: 240 − 8 = 232. dibagi 4 = 58. dua kali dicek pak -> 240 − 8 = 232. dibagi 4 = 58. dua kali dicek 
+threads-4.ts BULK[pak]: 8 dus rusak itu bukan tanggungan palet tertentu pak. makanya -> 8 dus rusak itu bukan tanggungan palet tertentu. makanya dib
+threads-4.ts BULK[pak]: telat pak. laporannya udah dikirim? 58 per palet fix -> Telat. laporannya udah dikirim? 58 per palet fix
+threads-4.ts BULK[om]: lima jam om. 3 ribu jam pertama + 8 ribu untuk 4 jam berikut -> Lima jam. 3 ribu jam pertama + 8 ribu untuk 4 jam berikutnya
+threads-4.ts BULK[om]: bener, tujuh jam = 3 + 6 × 2 = 15. om salah inget tarif atau -> Bener, tujuh jam = 3 + 6 × 2 = 15. salah inget tarif atau sa
+threads-4.ts BULK[om]: lima jam om. 3 + 4×2 = 11. tujuh jam butuh 3 + 6×2 = 15 ribu -> Lima jam. 3 + 4×2 = 11. tujuh jam butuh 3 + 6×2 = 15 ribu
+threads-4.ts BULK[om]: kalau om bayar 15 ribu baru tujuh jam. 11 ribu itu lima -> Kalau bayar 15 ribu baru tujuh jam. 11 ribu itu lima
+threads-4.ts BULK[om]: om mungkin salah inget dateng jam berapa. cek kamera pos kal -> Mungkin salah inget dateng jam berapa. cek kamera pos kalau 
+threads-4.ts BULK[om]: pos begini biasanya tarifnya stabil. 11 = 5 jam. om yang sal -> Pos begini biasanya tarifnya stabil. 11 = 5 jam. yang salah 
+threads-4.ts BULK[om]: 140 bener om muda. 84 + 56 = 140, atau 28 × 5. dua-duanya sa -> 140 bener muda. 84 + 56 = 140, atau 28 × 5. dua-duanya sama
+threads-4.ts BULK[om]: om nanya hal begini pas lu pegang mesin itu tes kesabaran wk -> Nanya hal begini pas lu pegang mesin itu tes kesabaran wkwk
+threads-4.ts BULK[om]: jawab singkat aja ke om: 140. sambil kerja, singkat lebih am -> Jawab singkat aja ke: 140. sambil kerja, singkat lebih aman
+threads-4.ts BULK[om]: kalau om pesen lagi 2 kotak, total 5 kotak. 5 × 28 = 140. be -> Kalau pesen lagi 2 kotak, total 5 kotak. 5 × 28 = 140. beres
+threads-4.ts BULK[om]: 140. dan om doang yang mikir hal gini jam segini wkwk -> 140. dan doang yang mikir hal gini jam segini wkwk
+threads-4.ts BULK[om]: jawaban om doang yang penting disini: 140. kerja terus bre -> Jawaban doang yang penting disini: 140. kerja terus bre
+threads-4.ts BULK[bu]: kakak benar bu, naiknya 5 langkah. anak kecil sering menghit -> Kakak benar, naiknya 5 langkah. anak kecil sering menghitung
+threads-4.ts BULK[bu]: biar damai bu, tunjukin jari: dari 3 ke 8 cukup hitung 4, 5, -> Biar damai, tunjukin jari: dari 3 ke 8 cukup hitung 4, 5, 6,
+threads-4.ts BULK[bu]: tangga masjid itu guru matematika gratis bu wkwk. dua-duanya -> Tangga masjid itu guru matematika gratis wkwk. dua-duanya ga
+threads-4.ts BULK[bu]: tangga itu contoh klasik garis bilangan bu. 8 − 3 = 5. jari  -> Tangga itu contoh klasik garis bilangan. 8 − 3 = 5. jari dit
+threads-4.ts BULK[bu]: gak ada yang menangis kalau dua-duanya diakui benar dalam ka -> Gak ada yang menangis kalau dua-duanya diakui benar dalam ka
+threads-4.ts BULK[bu]: telat bu. tangganya masih ada? 5 langkah, 6 pijakan. dua-dua -> Telat. tangganya masih ada? 5 langkah, 6 pijakan. dua-duanya
+threads-4.ts BULK[pak]: murid magang itu menemukan barisan aritmetika pak. tangga ya -> Murid magang itu menemukan barisan aritmetika. tangga yang l
+threads-4.ts BULK[pak]: baris pertama 20, langkah 3. baris ke-10 = 20 + 27 = 47. rak -> Baris pertama 20, langkah 3. baris ke-10 = 20 + 27 = 47. rak
+threads-4.ts BULK[pak]: barisan aritmetika pak. beda 3, suku pertama 20. Un = 20 + 3 -> Barisan aritmetika. beda 3, suku pertama 20. Un = 20 + 3(n −
+threads-4.ts BULK[pak]: murid magang itu kena deh virus matematika pak. ngetok-ngeto -> Murid magang itu kena deh virus matematika. ngetok-ngetok ra
+threads-4.ts BULK[pak]: tangga langkah rapi itu analogi terbaik barisan pak. muridny -> Tangga langkah rapi itu analogi terbaik barisan. muridnya be
+threads-4.ts BULK[pak]: kalau aturannya 3, sepuluh baris nambah 27 dari baris pertam -> Kalau aturannya 3, sepuluh baris nambah 27 dari baris pertam
+threads-4.ts BULK[pak]: murid yang diam lama biasanya lagi nyambungin pola. bagus it -> Murid yang diam lama biasanya lagi nyambungin pola. bagus it
+threads-4.ts BULK[pak]: 3 × 9 = 27. ditambah 20 = 47. dua kali dicek pak -> 3 × 9 = 27. ditambah 20 = 47. dua kali dicek 
+threads-4.ts BULK[pak]: kalau baris ke-20: 20 + 3 × 19 = 77. masih muat gak raknya p -> Kalau baris ke-20: 20 + 3 × 19 = 77. masih muat gak raknya?
+threads-4.ts BULK[pak]: telat pak. muridnya udah balik? barisan aritmetika, beda 3,  -> Telat. muridnya udah balik? barisan aritmetika, beda 3, fix
+threads-4.ts BULK[om]: kasih om: 8 + 8 = 16, tambah 8 = 24, tambah lagi = 32, terak -> Kasih: 8 + 8 = 16, tambah 8 = 24, tambah lagi = 32, terakhir
+threads-4.ts BULK[om]: kali itu tanda tangan dari nambah berulang om. sama isi, bed -> Kali itu tanda tangan dari nambah berulang. sama isi, beda j
+threads-4.ts BULK[om]: anak magang tuh udah mikir bener, cuma belum lihat jalan pin -> Anak magang tuh udah mikir bener, cuma belum lihat jalan pin
+threads-4.ts BULK[om]: kalimat singkatnya om: kali itu cara cepet nambah berulang.  -> Kalimat singkatnya: kali itu cara cepet nambah berulang. 5 ×
+threads-4.ts BULK[om]: guru gak nulis tambah lima kali biar ringkes om. hasilnya sa -> Guru gak nulis tambah lima kali biar ringkes. hasilnya sama 
+threads-4.ts BULK[om]: kali itu jalan tol om, tambah itu jalan kampung. sampe tujua -> Kali itu jalan tol, tambah itu jalan kampung. sampe tujuan s
+threads-4.ts BULK[om]: anak magang nanya bagus om. dia belum lihat manfaat jalan to -> Anak magang nanya bagus. dia belum lihat manfaat jalan tol d
+threads-4.ts BULK[om]: peti mangga 5 lapis × 8 = 40 om. hitungan peti bener -> Peti mangga 5 lapis × 8 = 40. hitungan peti bener
+threads-4.ts BULK[om]: telat om. mangganya udah dibongkar? 40 itu fix -> Telat. mangganya udah dibongkar? 40 itu fix
+threads-4.ts BULK[bu]: namanya masalah pagar bu. 8 itu banyaknya jarak, bukan banya -> Namanya masalah pagar. 8 itu banyaknya jarak, bukan banyakny
+threads-4.ts BULK[bu]: cucu tidak salah bu, dia menghitung jarak. nenek juga tidak  -> Cucu tidak salah, dia menghitung jarak. nenek juga tidak sal
+threads-4.ts BULK[bu]: biar gampang ke bayangin bu: 8 jarak itu seperti 8 tangga, t -> Biar gampang ke bayangin: 8 jarak itu seperti 8 tangga, tapi
+threads-4.ts BULK[bu]: namanya masalah pagar bu. n jarak = n + 1 lubang kalau dua u -> Namanya masalah pagar. n jarak = n + 1 lubang kalau dua ujun
+threads-4.ts BULK[bu]: kayak tiang lampu di jalan bu: 10 meter, tiap 2 meter satu t -> Kayak tiang lampu di jalan: 10 meter, tiap 2 meter satu tian
+threads-4.ts BULK[bu]: 4 baris × 9 = 36. itungan nenek bener bu -> 4 baris × 9 = 36. itungan nenek bener 
+threads-4.ts BULK[bu]: benangnya paling jujur bu. bukti fisik gak bisa dibantah -> Benangnya paling jujur. bukti fisik gak bisa dibantah
+threads-4.ts BULK[bu]: kalau ujungnya gak ditanam, baru 8 lubang bu. tergantung atu -> Kalau ujungnya gak ditanam, baru 8 lubang. tergantung aturan
+threads-4.ts BULK[bu]: cabe butuh ruang bu, 36 lubang lebih aman daripada 32. jarak -> Cabe butuh ruang, 36 lubang lebih aman daripada 32. jarak te
+threads-4.ts BULK[bu]: istilah sekolahnya deret dan barisan bu. tapi masalah pagar  -> Istilah sekolahnya deret dan barisan. tapi masalah pagar leb
+threads-4.ts BULK[bu]: cucu nanti belajar ini di SMP bu. neneknya udah duluan nemu  -> Cucu nanti belajar ini di SMP. neneknya udah duluan nemu wkw
+threads-4.ts BULK[bu]: 9 per baris, 36 semua. dua kali dicek bu, pas -> 9 per baris, 36 semua. dua kali dicek, pas
+threads-4.ts BULK[bu]: telat bu. cabe-nya udah ditanam? 36 lubang itu fix -> Telat. cabe-nya udah ditanam? 36 lubang itu fix
+threads-4.ts BULK[pak]: 3 siklus × (90 + 30) = 360 detik = 6 menit. jam 08.52 masih  -> 3 siklus × (90 + 30) = 360 detik = 6 menit. jam 08.52 masih 
+threads-4.ts BULK[pak]: tangga di lantai 6 itu keputusan yang menyelamatkan pagi pak -> Tangga di lantai 6 itu keputusan yang menyelamatkan pagi 
+threads-4.ts BULK[pak]: 3 siklus × 120 detik = 360 detik = 6 menit. kalori kehitung  -> 3 siklus × 120 detik = 360 detik = 6 menit. kalori kehitung 
+threads-4.ts BULK[pak]: lift penuh tiga kali berturut itu nasib pak. tangga memang p -> Lift penuh tiga kali berturut itu nasib. tangga memang penye
+threads-4.ts BULK[pak]: lantai 6 itu sekitar seratus anak tangga pak. masih manusiaw -> Lantai 6 itu sekitar seratus anak tangga. masih manusiawi
+threads-4.ts BULK[pak]: empat siklus dalam 5 menit itu gak mungkin pak, 4 × 120 = 48 -> Empat siklus dalam 5 menit itu gak mungkin, 4 × 120 = 480 de
+threads-4.ts BULK[pak]: laporan pak tepat: jam, siklus, keputusan. segitu doang, gak -> Laporan tepat: jam, siklus, keputusan. segitu doang, gak per
+threads-4.ts BULK[pak]: lift gedung jam 8 itu selalu penuh pak. jam 8.15 lebih lega -> Lift gedung jam 8 itu selalu penuh. jam 8.15 lebih lega
+threads-4.ts BULK[pak]: kalau lift datang tiap 120 detik, dalam 5 menit cukup 2-3 ka -> Kalau lift datang tiap 120 detik, dalam 5 menit cukup 2-3 ka
+threads-4.ts BULK[pak]: telat pak. tangganya udah sampai lantai 6? hitungan lift uda -> Telat. tangganya udah sampai lantai 6? hitungan lift udah pa
+threads-5.ts BULK[kak]: benar kak, 312 − 225 = 87. anak itu menargetkan dirinya send -> Benar, 312 − 225 = 87. anak itu menargetkan dirinya sendiri,
+threads-5.ts BULK[kak]: kak, anak bertanya begitu sebelum ujian itu langka. jangan d -> Anak bertanya begitu sebelum ujian itu langka. jangan digang
+threads-5.ts BULK[bu]: murid ke-14 dan ke-15 adalah dua penjaga pintu median bu. ke -> Murid ke-14 dan ke-15 adalah dua penjaga pintu median. kedua
+threads-5.ts BULK[bu]: anjurkan kelompok berpasangan bu: murid ke-1 dengan ke-28, k -> Anjurkan kelompok berpasangan: murid ke-1 dengan ke-28, ke-2
+threads-5.ts BULK[bu]: kelas 29 orang tidak menjamin adil bu, hanya menggeser perso -> Kelas 29 orang tidak menjamin adil, hanya menggeser persoala
+threads-5.ts BULK[bu]: murid ke-14 dan ke-15 itu bukan diabaikan, mereka jadi media -> Murid ke-14 dan ke-15 itu bukan diabaikan, mereka jadi media
+threads-5.ts BULK[bu]: cara gampang bu: berdiri berjajar, tunjuk tengahnya pakai ta -> Cara gampang: berdiri berjajar, tunjuk tengahnya pakai tanga
+threads-5.ts BULK[bu]: kelas 28 atau 29 sama saja bu, yang penting definisinya jela -> Kelas 28 atau 29 sama saja, yang penting definisinya jelas d
+threads-5.ts BULK[bu]: telat bu. muridnya udah puas? median dua orang itu sah -> Telat. muridnya udah puas? median dua orang itu sah
+threads-5.ts BULK[kak]: kak, coba catat 100 putaran. kalau hasilnya mendekati 25, ro -> Coba catat 100 putaran. kalau hasilnya mendekati 25, roda ka
+threads-5.ts BULK[kak]: peluang itu ramalan jangka panjang kak, bukan janji tiap put -> Peluang itu ramalan jangka panjang, bukan janji tiap putaran
+threads-5.ts BULK[kak]: bener kak, 30% × 360° = 108°. angka gak harus bulat cantik,  -> Bener, 30% × 360° = 108°. angka gak harus bulat cantik, yang
+threads-5.ts BULK[kak]: cek cepet kak: 10% = 36°, jadi 30% = 3 × 36 = 108°. cocok -> Cek cepet: 10% = 36°, jadi 30% = 3 × 36 = 108°. cocok
+threads-5.ts BULK[kak]: 252° sisanya juga tepat kak (70% × 360). diagramnya aman, la -> 252° sisanya juga tepat (70% × 360). diagramnya aman, lanjut
+threads-5.ts BULK[kak]: 108 itu derajat segi lima beraturan juga kak, kebetulan cant -> 108 itu derajat segi lima beraturan juga, kebetulan cantik k
+threads-5.ts BULK[kak]: kak udah cek dua kali, itu budaya peneliti yang bener. lanju -> Udah cek dua kali, itu budaya peneliti yang bener. lanjut
+threads-5.ts BULK[bang]: hari hujan 30% batal itu biasa bang. hari cerah biasanya jau -> Hari hujan 30% batal itu biasa. hari cerah biasanya jauh dib
+threads-5.ts BULK[bang]: pelanggan yang batal tidak merugikan rating lu bang, cuma bi -> Pelanggan yang batal tidak merugikan rating lu, cuma bikin e
+threads-5.ts BULK[bang]: catat bang tiap hari hujan. kalau rutin 30%, lu bisa atur ja -> Catat tiap hari hujan. kalau rutin 30%, lu bisa atur jam nge
+threads-5.ts BULK[bang]: hari hujan 30% itu standar bang. cerah biasanya 5-10% -> Hari hujan 30% itu standar. cerah biasanya 5-10%
+threads-5.ts BULK[bang]: batal pelanggan gak ngefek rating bang. yang ngefek lu yang  -> Batal pelanggan gak ngefek rating. yang ngefek lu yang batal
+threads-5.ts BULK[bang]: app itung cancel rate, tapi hujan biasanya dikecualikan di i -> App itung cancel rate, tapi hujan biasanya dikecualikan di i
+threads-5.ts BULK[bang]: 30% batal tapi 7 order jalan. itu masih untung bang -> 30% batal tapi 7 order jalan. itu masih untung 
+threads-5.ts BULK[bang]: telat bang. hujannya udah reda? 30% itu wajar -> Telat. hujannya udah reda? 30% itu wajar
+threads-5.ts BULK[kak]: 134,17 benar kak. rata-rata menyesuaikan diri ke angka baru: -> 134,17 benar. rata-rata menyesuaikan diri ke angka baru: sem
+threads-5.ts BULK[kak]: naik 19 itu salah kak, itu cuma selisih 150 dengan 131. rata -> Naik 19 itu salah, itu cuma selisih 150 dengan 131. rata-rat
+threads-5.ts BULK[kak]: kalimatnya begini kak: rata-rata baru = (655 + 150) ÷ 6 = 13 -> Kalimatnya begini: rata-rata baru = (655 + 150) ÷ 6 = 134,17
+threads-5.ts BULK[kak]: rekan itu melupakan pembaginya kak. 150 memang di atas rata- -> Rekan itu melupakan pembaginya. 150 memang di atas rata-rata
+threads-5.ts BULK[om]: 22 motor dalam sejam itu padat om. pos baru enak deket gedun -> 22 motor dalam sejam itu padat. pos baru enak deket gedung k
+threads-5.ts BULK[om]: om yang nanya pasti mikir jam 07-08 paling rame. datanya ban -> Yang nanya pasti mikir jam 07-08 paling rame. datanya bantah
+threads-5.ts BULK[om]: data segini cukup buat jawab om. sisanya nanti keliatan send -> Data segini cukup buat jawab. sisanya nanti keliatan sendiri
+threads-5.ts BULK[om]: pos begini buat papernya sederhana: tabel jam dan jumlah. om -> Pos begini buat papernya sederhana: tabel jam dan jumlah. la
+threads-5.ts BULK[kak]: 62,5 itu tepat kak, tidak perlu dibulatkan. bos biasanya set -> 62,5 itu tepat, tidak perlu dibulatkan. bos biasanya setuju 
+threads-5.ts BULK[kak]: kalau dipaksa rapi kak, tetap cantumkan angka asli di lampir -> Kalau dipaksa rapi, tetap cantumkan angka asli di lampiran. 
+threads-5.ts BULK[kak]: 40 responden memang suka menghasilkan desimal kak. 62,5 = 5/ -> 40 responden memang suka menghasilkan desimal. 62,5 = 5/8. a
+threads-5.ts BULK[om]: kalau laku dua per tiga, besok turunkan dikit om, 40 kilo cu -> Kalau laku dua per tiga, besok turunkan dikit, 40 kilo cukup
+threads-5.ts BULK[om]: coba om catat per jam. dua per tiga itu angka hari, jam ters -> Coba catat per jam. dua per tiga itu angka hari, jam tersibu
+threads-5.ts BULK[om]: 30 dari 45 = 2/3. laku 66,7%. besok 40 kilo masuk akal om -> 30 dari 45 = 2/3. laku 66,7%. besok 40 kilo masuk akal 
+threads-5.ts BULK[om]: musim rame, jangan turun ke 30 om. masih ada yang nyari gak  -> Musim rame, jangan turun ke 30. masih ada yang nyari gak dap
+threads-5.ts BULK[om]: catet jam laku paling rame om. pasokan ngikutin jam, bukan n -> Catet jam laku paling rame. pasokan ngikutin jam, bukan ngik
+threads-5.ts BULK[om]: mangga cepat mateng om. sisa kemarin 15 kilo harus didahuluk -> Mangga cepat mateng. sisa kemarin 15 kilo harus didahulukan 
+threads-5.ts BULK[om]: modal nganggur itu mangga om. lebih baik kurang dari lebih -> Modal nganggur itu mangga. lebih baik kurang dari lebih
+threads-5.ts BULK[om]: telat om. mangganya udah ke pasar? 40 kilo itu patokan awal -> Telat. mangganya udah ke pasar? 40 kilo itu patokan awal
+threads-5.ts BULK[pak]: 33,6 dan 27 km per jam. perbedaan 6,6 km per jam itu terasa  -> 33,6 dan 27 km per jam. perbedaan 6,6 km per jam itu terasa 
+threads-5.ts BULK[pak]: penumpang itu sebenarnya menghitung kemudahan, bukan kecepat -> Penumpang itu sebenarnya menghitung kemudahan, bukan kecepat
+threads-5.ts BULK[pak]: 14 ÷ 25 × 60 = 33,6. 9 ÷ 20 × 60 = 27. perjalanan pertama le -> 14 ÷ 25 × 60 = 33,6. 9 ÷ 20 × 60 = 27. perjalanan pertama le
+threads-5.ts BULK[pak]: orang ngegap angka kecil = deket = cepat. padahal waktunya 2 -> Orang ngegap angka kecil = deket = cepat. padahal waktunya 2
+threads-5.ts BULK[pak]: 0,56 lawan 0,45 km per menit. pak sudah ke arah benar -> 0,56 lawan 0,45 km per menit. sudah ke arah benar
+threads-5.ts BULK[pak]: telat pak. penumpangnya udah paham? 33,6 lawan 27, pertama y -> Telat. penumpangnya udah paham? 33,6 lawan 27, pertama yang 
+threads-5.ts BULK[kak]: bagi rata deh kak kalau makan rame terus, lain kali gantian  -> Bagi rata deh kalau makan rame terus, lain kali gantian yang
+threads-5.ts BULK[kak]: 24 ribu × 4 = 96 ribu kak, bagi rata itu matematisnya benar. -> 24 ribu × 4 = 96 ribu, bagi rata itu matematisnya benar. adi
+threads-5.ts BULK[kak]: aturan kos kak: yang pesan terbanyak yang itung. dia yang pa -> Aturan kos: yang pesan terbanyak yang itung. dia yang paling
+threads-5.ts BULK[kak]: 96 ÷ 4 = 24 kak. itung ulang cuma worth it kalau selisihnya  -> 96 ÷ 4 = 24. itung ulang cuma worth it kalau selisihnya lebi
+threads-5.ts BULK[kak]: makan rame selalu nyangkut ke bagi rata kak. yang jaga silat -> Makan rame selalu nyangkut ke bagi rata. yang jaga silaturah
+threads-5.ts BULK[kak]: gue tim itung ulang kalau selisihnya gede kak. kali ini 24 d -> Gue tim itung ulang kalau selisihnya gede. kali ini 24 doang
+threads-5.ts BULK[kak]: telat kak. udah bayar? bagi rata, tidur, selesai -> Telat. udah bayar? bagi rata, tidur, selesai
+threads-5.ts BULK[bu]: biarkan ia mengulang pelan-pelan bu. 10 kali ambil, catat. b -> Biarkan ia mengulang pelan-pelan. 10 kali ambil, catat. biru
+threads-5.ts BULK[bu]: kantong itu gurunya bu. yang ditunggu bukan hasil satu kali, -> Kantong itu gurunya. yang ditunggu bukan hasil satu kali, ta
+threads-5.ts BULK[bu]: anak yang sudah melihat biru keluar tidak akan pernah lupa p -> Anak yang sudah melihat biru keluar tidak akan pernah lupa p
+threads-5.ts BULK[bu]: kelereng gak hafal siapa yang banyak bu. dia cuma nurut kant -> Kelereng gak hafal siapa yang banyak. dia cuma nurut kantong
+threads-5.ts BULK[bu]: keluar biru malah bagus bu. peluang jadi nyata di matanya -> Keluar biru malah bagus. peluang jadi nyata di matanya
+threads-5.ts BULK[bu]: telat bu. anaknya masih main? biarin dia ambil terus, polany -> Telat. anaknya masih main? biarin dia ambil terus, polanya j
+threads-5.ts BULK[bu]: di banyak sekolah bu, 60 itu KKMin, tepat lulus tapi mepet.  -> Di banyak sekolah, 60 itu KKMin, tepat lulus tapi mepet. jaw
+threads-5.ts BULK[bu]: cucu itu sudah paham skala bu, jawabannya jujur. 60 = 6 dari -> Cucu itu sudah paham skala, jawabannya jujur. 60 = 6 dari 10
+threads-5.ts BULK[bu]: 60 dari 100 itu tepat lulus di kebanyakan sekolah bu. mepet  -> 60 dari 100 itu tepat lulus di kebanyakan sekolah. mepet tap
+threads-5.ts BULK[bu]: KKM sering 65 atau 70 sekarang bu. tanya bu gurunya paling a -> KKM sering 65 atau 70 sekarang. tanya bu gurunya paling aman
+threads-5.ts BULK[bu]: kalau remedial itu buat belajar ulang, bukan hukuman bu. jaw -> Kalau remedial itu buat belajar ulang, bukan hukuman. jawaba
+threads-5.ts BULK[bu]: kue 10 potong diambil 6 itu 60% juga bu. contoh nenek pas -> Kue 10 potong diambil 6 itu 60% juga. contoh nenek pas
+threads-5.ts BULK[bu]: 60 = lulus mepet. remedial = belajar lagi. dua kalimat itu a -> 60 = lulus mepet. remedial = belajar lagi. dua kalimat itu a
+threads-5.ts BULK[bu]: jawab kue itu memang bagus bu. benda nyata selalu menang -> Jawab kue itu memang bagus. benda nyata selalu menang
+threads-5.ts BULK[bu]: telat bu. cucunya udah tenang? 60 lulus mepet, tetap semanga -> Telat. cucunya udah tenang? 60 lulus mepet, tetap semangat
+threads-5.ts BULK[pak]: kantor gaku satu desimal pak: 91,7. bulat 92 biasanya buat s -> Kantor gaku satu desimal: 91,7. bulat 92 biasanya buat slide
+threads-6.ts REPL x1: om-om, campuran oli mesin dua tak rasio 1:25. -> campuran oli mesin dua tak rasio 1:25.
+threads-6.ts REPL x1: pegang buku mesin om. -> pegang buku mesinnya.
+threads-6.ts REPL x1: om-om lama kadang hafalan lama -> mekanik lama kadang hafalan lama
+threads-6.ts REPL x1: om-om bengkel biasanya bener -> mekanik bengkel biasanya bener
+threads-6.ts REPL x1: om-om boleh punya pendapat, mesin gak -> orang boleh punya pendapat, mesin gak
+threads-6.ts BULK[pak]: bener pak. 5 − 3 = 2 bagian selisihnya, 24 ÷ 2 = 12 per bagi -> Bener. 5 − 3 = 2 bagian selisihnya, 24 ÷ 2 = 12 per bagian. 
+threads-6.ts BULK[pak]: anak magang itu hampir nyampe pak, cuma mentok di langkah se -> Anak magang itu hampir nyampe, cuma mentok di langkah selisi
+threads-6.ts BULK[pak]: anak magang yang ngejar alasan kayak gini kandidat kepala gu -> Anak magang yang ngejar alasan kayak gini kandidat kepala gu
+threads-6.ts BULK[pak]: telat pak. laporannya udah sampai? 36 dan 60 itu fix -> Telat. laporannya udah sampai? 36 dan 60 itu fix
+threads-6.ts BULK[om]: 1:25 = 100 ml om muda, itungan lu bener. 150 itu rasio 1:16, -> 1:25 = 100 ml muda, itungan lu bener. 150 itu rasio 1:16, ke
+threads-6.ts BULK[om]: tanya om-omnya pakai rasio 1:16 ato 1:25. kadang om yang tua -> Tanya om-omnya pakai rasio 1:16 ato 1:25. kadang yang tuang 
+threads-6.ts BULK[om]: om bengkel biasanya pakai campuran lama buat mesin tua. mesi -> Bengkel biasanya pakai campuran lama buat mesin tua. mesin l
+threads-6.ts BULK[om]: tanya om: mesinnya tahun berapa? mesin lama memang beda rasi -> Tanya: mesinnya tahun berapa? mesin lama memang beda rasio
+threads-6.ts BULK[bu]: pakai tangga satuan bu: cm → m → km, tiap anak tangga memoto -> Pakai tangga satuan: cm → m → km, tiap anak tangga memotong 
+threads-6.ts BULK[bu]: biar kelihatan bu, tulis 1.200.000 cm di kertas besar, terus -> Biar kelihatan, tulis 1.200.000 cm di kertas besar, terus su
+threads-6.ts BULK[bu]: kunci bu: satuan ikut dibawa. 1.200.000 cm itu memang besar, -> Kunci: satuan ikut dibawa. 1.200.000 cm itu memang besar, ta
+threads-6.ts BULK[bu]: anak protes bagus bu. konversi satuan memang gak kelihatan m -> Anak protes bagus. konversi satuan memang gak kelihatan mata
+threads-6.ts BULK[bu]: analogi: 4,8 cm di peta itu titik kecil bu, jarak aslinya 12 -> Analogi: 4,8 cm di peta itu titik kecil, jarak aslinya 12 km
+threads-6.ts BULK[bu]: skala 1:250.000 artinya peta mengecilkan dunia 250 ribu kali -> Skala 1:250.000 artinya peta mengecilkan dunia 250 ribu kali
+threads-6.ts BULK[bu]: anak yang protes karena gak paham, lebih bagus dari yang sal -> Anak yang protes karena gak paham, lebih bagus dari yang sal
+threads-6.ts BULK[bu]: 12 km antar dua kota kecil masuk akal bu. 1.200 km antar pul -> 12 km antar dua kota kecil masuk akal. 1.200 km antar pulau
+threads-6.ts BULK[bu]: peta itu pemencet dunia bu. dunia dipencet, angka ikut gepen -> Peta itu pemencet dunia. dunia dipencet, angka ikut gepeng t
+threads-6.ts BULK[bu]: telat bu. anaknya udah paham? 12 km itu fix -> Telat. anaknya udah paham? 12 km itu fix
+threads-6.ts BULK[bu]: pelanggan itu jujur sama dirinya bu, butuh 3 ya ambil 3. kas -> Pelanggan itu jujur sama dirinya, butuh 3 ya ambil 3. kasir 
+threads-6.ts BULK[bu]: 3/8 benar bu: 1/4 × 1,5. ambil 1/4 sendok teh penuh lalu sep -> 3/8 benar: 1/4 × 1,5. ambil 1/4 sendok teh penuh lalu separu
+threads-6.ts BULK[bu]: 1/8 itu separuh dari 1/4 bu. jadi 1/4 penuh + 1/4 separuh =  -> 1/8 itu separuh dari 1/4. jadi 1/4 penuh + 1/4 separuh = 3/8
+threads-6.ts BULK[bu]: 3/8 sendok teh itu 0,375. benar bu: 1/4 × 1,5 -> 3/8 sendok teh itu 0,375. benar: 1/4 × 1,5
+threads-6.ts BULK[bu]: 3 cup beras, air 4,5 cup. itu udah pas bu. garam 3/8 nyusul  -> 3 cup beras, air 4,5 cup. itu udah pas. garam 3/8 nyusul ras
+threads-6.ts BULK[bu]: kayak kata di atas bu, tangan lebih jujur dari alat yang gak -> Kayak kata di atas, tangan lebih jujur dari alat yang gak ad
+threads-6.ts BULK[bu]: nasi 3 cup itu buat 5-6 porsi ya bu. rasionya makin kebayang -> Nasi 3 cup itu buat 5-6 porsi ya. rasionya makin kebayang
+threads-6.ts BULK[bu]: garam bisa ditambah bu, tapi gak bisa ditarik. mulai dari 1/ -> Garam bisa ditambah, tapi gak bisa ditarik. mulai dari 1/4 d
+threads-6.ts BULK[bu]: 1,5 × 1/4 = 3/8. dua kali dicek, benar bu -> 1,5 × 1/4 = 3/8. dua kali dicek, benar 
+threads-6.ts BULK[bu]: telat bu. nasinya udah mateng? 3/8 itu fix, cicip adalah kun -> Telat. nasinya udah mateng? 3/8 itu fix, cicip adalah kuncin
+threads-6.ts BULK[kak]: cara adilnya undian kak, yang dapat 26 dan 25 ditentukan und -> Cara adilnya undian, yang dapat 26 dan 25 ditentukan undi. k
+threads-6.ts BULK[kak]: 24 × 3/4 = 18 kak, dan 102 ÷ 4 = 25,5. hitungannya sudah ben -> 24 × 3/4 = 18, dan 102 ÷ 4 = 25,5. hitungannya sudah bener, 
+threads-6.ts BULK[kak]: 25,5 slide itu 25 atau 26 kak. dua orang 26, dua orang 25. t -> 25,5 slide itu 25 atau 26. dua orang 26, dua orang 25. total
+threads-6.ts BULK[kak]: yang minta dikurangin 6 slide, empat lainnya tambah 1,5 rata -> Yang minta dikurangin 6 slide, empat lainnya tambah 1,5 rata
+threads-6.ts BULK[kak]: undian itu solusi termurah kak. undi siapa dapat 26 -> Undian itu solusi termurah. undi siapa dapat 26
+threads-6.ts BULK[kak]: satu slide digambar jadi dua setengah baris juga gak jelas k -> Satu slide digambar jadi dua setengah baris juga gak jelas. 
+threads-6.ts BULK[kak]: 24 × 3/4 = 18. 120 − 18 = 102. 102 ÷ 4 = 25,5. semua pas kak -> 24 × 3/4 = 18. 120 − 18 = 102. 102 ÷ 4 = 25,5. semua pas 
+threads-6.ts BULK[kak]: bicara langsung kak: 18 dan 25,5. semua dengar, semua seraga -> Bicara langsung: 18 dan 25,5. semua dengar, semua seragam
+threads-6.ts BULK[kak]: telat kak. pembagiannya udah? undi aja, selesai -> Telat. pembagiannya udah? undi aja, selesai
+threads-6.ts BULK[pak]: 90 gelas × 4 ribu = 360 ribu benar pak. harga naik 33 persen -> 90 gelas × 4 ribu = 360 ribu benar. harga naik 33 persen, pe
+threads-6.ts BULK[pak]: es teh itu kebutuhan pak, bukan kemewahan. kalau naiknya sam -> Es teh itu kebutuhan, bukan kemewahan. kalau naiknya sampai 
+threads-6.ts BULK[pak]: toples kerupuk itu pemasaran yang gak keluar biaya pak. pela -> Toples kerupuk itu pemasaran yang gak keluar biaya. pelangga
+threads-6.ts BULK[pak]: naik 33%, pembeli turun 10%. pendapatan tetap naik. hitungan -> Naik 33%, pembeli turun 10%. pendapatan tetap naik. hitungan
+threads-6.ts BULK[pak]: es teh 4 ribu itu masih wajar pak. pembeli alergi ganti rasa -> Es teh 4 ribu itu masih wajar. pembeli alergi ganti rasa, bu
+threads-6.ts BULK[pak]: toples kerupuk itu investasi terbaik tetangga pak. biaya kec -> Toples kerupuk itu investasi terbaik tetangga. biaya kecil, 
+threads-6.ts BULK[pak]: setelah magrib itu jam emas es teh pak. panas hilang, dompet -> Setelah magrib itu jam emas es teh. panas hilang, dompet ter
+threads-6.ts BULK[pak]: telat pak. gelasnya masih penuh? 33% naik itu aman -> Telat. gelasnya masih penuh? 33% naik itu aman
+threads-6.ts BULK[dik]: 300 meter dik, hitunganmu benar. temenmu lupa cm ke m harus  -> 300 meter, hitunganmu benar. temenmu lupa cm ke m harus diba
+threads-6.ts BULK[dik]: trik dik: 1:10.000 artinya 1 cm peta = 100 m nyata. jadi 3 c -> Trik: 1:10.000 artinya 1 cm peta = 100 m nyata. jadi 3 cm = 
+threads-6.ts BULK[dik]: angka besar itu bukan bukti jarak besar dik. yang menentukan -> Angka besar itu bukan bukti jarak besar. yang menentukan sat
+threads-6.ts BULK[dik]: 300 meter dik. 3 × 10.000 = 30.000 cm, ÷ 100 = 300 m. hitung -> 300 meter. 3 × 10.000 = 30.000 cm, ÷ 100 = 300 m. hitunganmu
+threads-6.ts BULK[dik]: temenmu lupa dibagi 100 dik. cm ke m selalu bagi 100 -> Temenmu lupa dibagi 100. cm ke m selalu bagi 100
+threads-6.ts BULK[dik]: 3 km itu udah keluar gang dik. sekolah seberang gang ya 300  -> 3 km itu udah keluar gang. sekolah seberang gang ya 300 m
+threads-6.ts BULK[dik]: cekmundur dik: 300 m ÷ 10.000 = 0,03 m... eh 0,03 km. pokokn -> Cekmundur: 300 m ÷ 10.000 = 0,03 m... eh 0,03 km. pokoknya 3
+threads-6.ts BULK[dik]: angka besar bukan bukti jauh dik. satuannya yang bicara -> Angka besar bukan bukti jauh. satuannya yang bicara
+threads-6.ts BULK[dik]: posting aja hasil lu dik. kalau kena coret baru tahu, tapi l -> Posting aja hasil lu. kalau kena coret baru tahu, tapi lu be
+threads-6.ts BULK[dik]: 3.000 m = 3 km. jalan 40 menit dik. gak mungkin buat seberan -> 3.000 m = 3 km. jalan 40 menit. gak mungkin buat seberang ga
+threads-6.ts BULK[dik]: tangga satuan dik: km → m → cm. turun tangga nambah nol. nai -> Tangga satuan: km → m → cm. turun tangga nambah nol. naik ta
+threads-6.ts BULK[dik]: peta 1:10.000 itu peta lingkungan dik. 1 cm = 100 m. hafal i -> Peta 1:10.000 itu peta lingkungan. 1 cm = 100 m. hafal itu
+threads-6.ts BULK[dik]: 300 meter dik. dua kali dicek di atas -> 300 meter. dua kali dicek di atas
+threads-6.ts BULK[dik]: telat dik. PR-nya udah kekirim? 300 m itu fix -> Telat. PR-nya udah kekirim? 300 m itu fix
+threads-6.ts BULK[pak]: 25% = 1/4 pak, bagi dua dua kali. 75% = 3/4, bagi 4 kali 3.  -> 25% = 1/4, bagi dua dua kali. 75% = 3/4, bagi 4 kali 3. 20% 
+threads-6.ts BULK[pak]: 6,25% = 1/16 pak, satu langkah lagi dari 12,5. sering muncul -> 6,25% = 1/16, satu langkah lagi dari 12,5. sering muncul di 
+threads-6.ts BULK[pak]: 37,5% = 3/8 pak. setengah 75. trik yang sama, jalan mundur -> 37,5% = 3/8. setengah 75. trik yang sama, jalan mundur
+threads-6.ts BULK[pak]: keluarga warung itu contoh terbaik pak. matematika yang dipa -> Keluarga warung itu contoh terbaik. matematika yang dipakai 
+threads-6.ts BULK[pak]: 5% = 1/20 pak. bagi dua dari 10%. kelipatan potong dua semua -> 5% = 1/20. bagi dua dari 10%. kelipatan potong dua semua ama
+threads-6.ts BULK[pak]: keluarga warung pakai begini gak pusing pak. 12,5% dari 80 r -> Keluarga warung pakai begini gak pusing. 12,5% dari 80 ribu 
+threads-6.ts BULK[pak]: 75% = 3/4 pak, potong dua dua kali terus kali 3. cara cepat  -> 75% = 3/4, potong dua dua kali terus kali 3. cara cepat disk
+threads-6.ts BULK[pak]: persen dan pecahan itu dua baju satu orang pak. pilih yang g -> Persen dan pecahan itu dua baju satu orang. pilih yang gampa
+threads-6.ts BULK[pak]: telat pak. triknya udah nyebar? 1/8 = 12,5% itu fix -> Telat. triknya udah nyebar? 1/8 = 12,5% itu fix
+threads-6.ts BULK[bu]: 5 sendok benar bu. 10 ÷ 2 = 5. cucunya mungkin mengira setia -> 5 sendok benar. 10 ÷ 2 = 5. cucunya mungkin mengira setiap l
+threads-6.ts BULK[bu]: gelas 50 vs 10 itu 5 kali bu. rasio tumbuh sama sendoknya. h -> Gelas 50 vs 10 itu 5 kali. rasio tumbuh sama sendoknya. hitu
+threads-6.ts BULK[bu]: cucu itu mikir 10 liter = 10 bagian bu, padahal bagian yang  -> Cucu itu mikir 10 liter = 10 bagian, padahal bagian yang ben
+threads-6.ts BULK[bu]: 5 sendok benar bu. 10 liter itu 5 kali 2 liter, berarti 5 ka -> 5 sendok benar. 10 liter itu 5 kali 2 liter, berarti 5 kali 
+threads-6.ts BULK[bu]: cucu itu logikanya satu sendok per satu liter bu. masuk akal -> Cucu itu logikanya satu sendok per satu liter. masuk akal, c
+threads-6.ts BULK[bu]: bikin garis di embernya bu: 2, 4, 6, 8, 10 liter. tiap garis -> Bikin garis di embernya: 2, 4, 6, 8, 10 liter. tiap garis sa
+threads-6.ts BULK[bu]: pupuk daun kebanyakan itu bahaya bu. 5 sendok yang aman -> Pupuk daun kebanyakan itu bahaya. 5 sendok yang aman
+threads-6.ts BULK[bu]: cucu itu pinter bu, cuma salah satuan. latih dia konversi ke -> Cucu itu pinter, cuma salah satuan. latih dia konversi kecil
+threads-6.ts BULK[bu]: kalau pupuknya mahal bu, salah takar itu rugi dua kali: buan -> Kalau pupuknya mahal, salah takar itu rugi dua kali: buang p
+threads-6.ts BULK[bu]: telat bu. tanamannya udah disemprot? 5 sendok itu fix -> Telat. tanamannya udah disemprot? 5 sendok itu fix
+threads-6.ts BULK[bu]: bagi kepala bu: 5 orang × 12.240. kamar A 24.480, B 24.480,  -> Bagi kepala: 5 orang × 12.240. kamar A 24.480, B 24.480, C 1
+threads-6.ts BULK[bu]: kalau alat ukur per kamar, keadilannya per kamar bu. yang ng -> Kalau alat ukur per kamar, keadilannya per kamar. yang ngepr
+threads-6.ts BULK[bu]: 61.200 ÷ 3 = 20.400 bu, hitungan rata kakaknya benar. tapi k -> 61.200 ÷ 3 = 20.400, hitungan rata kakaknya benar. tapi kead
+threads-6.ts BULK[bu]: solusi tengah bu: bulan depan pasang catatan pemakaian per k -> Solusi tengah: bulan depan pasang catatan pemakaian per kama
+threads-6.ts BULK[bu]: bagi kepala bu: 61.200 ÷ 5 = 12.240. A 24.480, B 24.480, C 1 -> Bagi kepala: 61.200 ÷ 5 = 12.240. A 24.480, B 24.480, C 12.2
+threads-6.ts BULK[bu]: C hampir gak mandi panjang masih bayar 20.400 itu berat bu.  -> C hampir gak mandi panjang masih bayar 20.400 itu berat. bag
+threads-6.ts BULK[bu]: dua orang di A kena 12.240 per orang, setara C. itu keseimba -> Dua orang di A kena 12.240 per orang, setara C. itu keseimba
+threads-6.ts BULK[bu]: C mungkin mikir 1 orang = 1 kamar. itu miskonsepsi umum bu.  -> C mungkin mikir 1 orang = 1 kamar. itu miskonsepsi umum. dij
+threads-6.ts BULK[bu]: 12.240 × 5 = 61.200. cek cocok bu, bagi kepala utuh -> 12.240 × 5 = 61.200. cek cocok, bagi kepala utuh
+threads-6.ts BULK[bu]: 20.400 ÷ 2 = 10.200 per orang di kamar A. malah lebih murah  -> 20.400 ÷ 2 = 10.200 per orang di kamar A. malah lebih murah 
+threads-6.ts BULK[bu]: tarik kesimpulan bu: bagi rata menguntungkan kamar isi dua.  -> Tarik kesimpulan: bagi rata menguntungkan kamar isi dua. bag
+threads-6.ts BULK[bu]: kalau C gak mandi sama sekali juga gak bisa nol bu. ada biay -> Kalau C gak mandi sama sekali juga gak bisa nol. ada biaya d
+threads-6.ts BULK[bu]: bon nyangkut di bu kos, keputusan nyangkut di rapat penghuni -> Bon nyangkut di bu kos, keputusan nyangkut di rapat penghuni
+threads-6.ts BULK[bu]: telat bu. urusannya udah beres? 12.240 per kepala itu angkan -> Telat. urusannya udah beres? 12.240 per kepala itu angkanya
+threads-6.ts BULK[pak]: 90 persen itu bagus pak di mesin tua, bahaya kalau mesin bar -> 90 persen itu bagus di mesin tua, bahaya kalau mesin baru. y
+threads-6.ts BULK[pak]: 180 unit itu 45 menit mesin penuh pak. catat durasi berhenti -> 180 unit itu 45 menit mesin penuh. catat durasi berhenti bes
+threads-6.ts BULK[pak]: 180 unit = 45 menit mesin penuh pak. catat berhentinya besok -> 180 unit = 45 menit mesin penuh. catat berhentinya besok
+threads-6.ts BULK[pak]: mesin butuh istirahat setup juga pak. 90% itu manusiawi -> Mesin butuh istirahat setup juga. 90% itu manusiawi
+threads-6.ts BULK[pak]: overtime gak usah dipikirin dulu pak. datanya dulu -> Overtime gak usah dipikirin dulu. datanya dulu
+threads-6.ts BULK[pak]: 180 unit itu setara 45 menit jalan penuh pak. 45 dari 450 me -> 180 unit itu setara 45 menit jalan penuh. 45 dari 450 menit 
+threads-6.ts BULK[pak]: telat pak. besok udah dicatat jam berhentinya? 90% itu fix -> Telat. besok udah dicatat jam berhentinya? 90% itu fix
+threads-6.ts BULK[pak]: dua persen itu tidak hilang pak. satu dihitung dari waktu (5 -> Dua persen itu tidak hilang. satu dihitung dari waktu (5/35 
+threads-6.ts BULK[pak]: 2,4 ÷ 0,5 jam = 4,8 km per jam. kecepatan sekarang pak, dan  -> 2,4 ÷ 0,5 jam = 4,8 km per jam. kecepatan sekarang, dan itu 
+threads-6.ts BULK[pak]: naiknya memang beda arah pak: waktu turun 14%, kecepatan nai -> Naiknya memang beda arah: waktu turun 14%, kecepatan naik le
+threads-6.ts BULK[pak]: waktu turun 14,3%, kecepatan naik 16,7%. bedanya wajar pak,  -> Waktu turun 14,3%, kecepatan naik 16,7%. bedanya wajar, pang
+threads-6.ts BULK[pak]: 4,11 → 4,8. selisih 0,69. 0,69 ÷ 4,11 ≈ 16,8%. pak udah bene -> 4,11 → 4,8. selisih 0,69. 0,69 ÷ 4,11 ≈ 16,8%. udah bener se
+threads-6.ts BULK[pak]: 14% itu dari sisi waktu pak. 16% dari sisi kecepatan. dua ka -> 14% itu dari sisi waktu. 16% dari sisi kecepatan. dua kaca d
+threads-6.ts BULK[pak]: kecepatan itu kebalikan waktu, makanya persennya gak bisa sa -> Kecepatan itu kebalikan waktu, makanya persennya gak bisa sa
+threads-6.ts BULK[pak]: naik 16% kecepatan itu gede buat latihan sebulan pak. salut -> Naik 16% kecepatan itu gede buat latihan sebulan. salut
+threads-6.ts BULK[pak]: 2 persen itu pergi ke matematika pak, bukan hilang. dua pang -> 2 persen itu pergi ke matematika, bukan hilang. dua pangkal 
+threads-6.ts BULK[pak]: telat pak. rutinitasnya jalan terus? 16% itu bagus -> Telat. rutinitasnya jalan terus? 16% itu bagus
+threads-6.ts BULK[kak]: benar kak, 12% × 2.500.000 = 300.000. 250 ribu itu 10 persen -> Benar, 12% × 2.500.000 = 300.000. 250 ribu itu 10 persen. bo
+threads-6.ts BULK[kak]: siapkan dua angka di slide kak: 10% = 250 ribu, 12% = 300 ri -> Siapkan dua angka di slide: 10% = 250 ribu, 12% = 300 ribu. 
+threads-6.ts BULK[kak]: 2.500.000 × 0,12 = 300.000 kak. kalkulator, angka, dan matah -> 2.500.000 × 0,12 = 300.000. kalkulator, angka, dan matahari 
+threads-6.ts BULK[kak]: bawa dua baris ke rapat kak: 10% = 250 ribu, 12% = 300 ribu. -> Bawa dua baris ke rapat: 10% = 250 ribu, 12% = 300 ribu. bia
+threads-6.ts BULK[kak]: selisihnya 50 ribu kak. persen yang disepakati yang menentuk -> Selisihnya 50 ribu. persen yang disepakati yang menentukan
+threads-6.ts BULK[kak]: gak ada yang disalahin kak, cuma dua angka yang belum dikawi -> Gak ada yang disalahin, cuma dua angka yang belum dikawinkan
+threads-6.ts BULK[kak]: bos mungkin masih nyimpen angka tahun lalu kak. 250 itu bisa -> Bos mungkin masih nyimpen angka tahun lalu. 250 itu bisa dar
+threads-6.ts BULK[kak]: rapat besok bakal cepet kak. dua angka siap, tinggal dikawin -> Rapat besok bakal cepet. dua angka siap, tinggal dikawinkan
+threads-6.ts BULK[kak]: 300.000 itu benar kak. kalkulator, kertas, dan aturan persen -> 300.000 itu benar. kalkulator, kertas, dan aturan persen sep
+threads-6.ts BULK[kak]: gak usah takut salah menyalahkan kak. tunjukin hitungan, buk -> Gak usah takut salah menyalahkan. tunjukin hitungan, bukan m
+threads-6.ts BULK[kak]: telat kak. rapetnya udah? 300 ribu itu fix, tinggal ganti pe -> Telat. rapetnya udah? 300 ribu itu fix, tinggal ganti persen
+threads-6.ts BULK[pak]: frasa yang sering membantu pak: ini biaya yang sama tiap bul -> Frasa yang sering membantu: ini biaya yang sama tiap bulan, 
+threads-6.ts BULK[pak]: 750 × 4 = 3.000.000 benar pak, dan 4 × 25.000 = 100.000. dua -> 750 × 4 = 3.000.000 benar, dan 4 × 25.000 = 100.000. dua hit
+threads-6.ts BULK[pak]: tunjukin empat baris biaya pak. pola tanggal bikin nasabah m -> Tunjukin empat baris biaya. pola tanggal bikin nasabah melih
+threads-6.ts BULK[pak]: 2.900.000 itu bener pak. dua-duanya dicek di atas -> 2.900.000 itu bener. dua-duanya dicek di atas
+threads-6.ts BULK[pak]: telat pak. nasabahnya udah tenang? 2.900.000 itu fix -> Telat. nasabahnya udah tenang? 2.900.000 itu fix
+threads-6.ts BULK[pak]: 15 menit buat 90 m itu santai banget pak. sambil baca buku m -> 15 menit buat 90 m itu santai banget. sambil baca buku meman
+threads-6.ts BULK[pak]: jalan yang sama pakai sepeda tinggal 5-6 menit pak. tapi kak -> Jalan yang sama pakai sepeda tinggal 5-6 menit. tapi kaki le
+threads-6.ts BULK[pak]: 90 m jalan kaki 1-2 menit kalau ngebut pak. 15 menit itu jal -> 90 m jalan kaki 1-2 menit kalau ngebut. 15 menit itu jalan b
+threads-6.ts BULK[pak]: peta gak bohong pak. yang gak ngeh itu orangnya, termasuk sa -> Peta gak bohong. yang gak ngeh itu orangnya, termasuk saya
+threads-6.ts BULK[pak]: 90 meter itu udah bisa dihitung langkah pak: sekitar 120 lan -> 90 meter itu udah bisa dihitung langkah: sekitar 120 langkah
+threads-6.ts BULK[pak]: peta dinding itu benda paling jujur di perpustakaan pak -> Peta dinding itu benda paling jujur di perpustakaan 
+threads-6.ts BULK[pak]: telat pak. jalannya masih dipakai? 90 m itu fix -> Telat. jalannya masih dipakai? 90 m itu fix
+threads-7.ts REPL x1: om-om, itungan bodi gue. -> itungan bodi gue.
+threads-7.ts REPL x1: om-om biasanya itung begini buat atur servis -> orang biasanya itung begini buat atur servis
+threads-7.ts BULK[kak]: 10 menit untuk lapangan plus cari sepatu itu mepet kak. kepu -> 10 menit untuk lapangan plus cari sepatu itu mepet. keputusa
+threads-7.ts BULK[kak]: anak bisa diajak menyusun dua kolom kak: jam sampai dan jam  -> Anak bisa diajak menyusun dua kolom: jam sampai dan jam bel.
+threads-7.ts BULK[kak]: 07.00 − 20 menit = 07.20. 07.30 − 07.20 = 10. dua langkah do -> 07.00 − 20 menit = 07.20. 07.30 − 07.20 = 10. dua langkah do
+threads-7.ts BULK[kak]: sepatu di kantong itu selalu 3 menit misterius kak. include  -> Sepatu di kantong itu selalu 3 menit misterius. include aja 
+threads-7.ts BULK[kak]: anak yang nanya sisa waktu, calon perencana bagus kak -> Anak yang nanya sisa waktu, calon perencana bagus 
+threads-7.ts BULK[kak]: telat kak. besok udah jalan awal? 10 menit itu bener -> Telat. besok udah jalan awal? 10 menit itu bener
+threads-7.ts BULK[bu]: benar bu, 800 ÷ 5 = 160 meter per menit, × 60 = 9.600 m = 9, -> Benar, 800 ÷ 5 = 160 meter per menit, × 60 = 9.600 m = 9,6 k
+threads-7.ts BULK[bu]: cara cepat bu: 400 m 2 putaran 5 menit = 160 m per menit. ju -> Cara cepat: 400 m 2 putaran 5 menit = 160 m per menit. jurna
+threads-7.ts BULK[bu]: koreksi sendiri di depan murid itu pelajaran terbaik bu. ang -> Koreksi sendiri di depan murid itu pelajaran terbaik. angka 
+threads-7.ts BULK[bu]: 9,6 km per jam bener bu. 800 ÷ 5 × 60. dua kali dicek -> 9,6 km per jam bener. 800 ÷ 5 × 60. dua kali dicek
+threads-7.ts BULK[bu]: koreksi di depan murid itu contoh nyata bu. angka 9,6 udah f -> Koreksi di depan murid itu contoh nyata. angka 9,6 udah fix
+threads-7.ts BULK[bu]: langkah 160 × 60 itu yang benar bu. hasil 9.600 m = 9,6 km -> Langkah 160 × 60 itu yang benar. hasil 9.600 m = 9,6 km
+threads-7.ts BULK[bu]: anak lari 5 menit 800 m itu sehat bu. jurnalnya jadi patokan -> Anak lari 5 menit 800 m itu sehat. jurnalnya jadi patokan ke
+threads-7.ts BULK[bu]: 9,6 km per jam itu jalan cepet doang bu. lari santai anak me -> 9,6 km per jam itu jalan cepet doang. lari santai anak meman
+threads-7.ts BULK[bu]: telat bu. jurnalnya udah masuk? 9,6 itu fix -> Telat. jurnalnya udah masuk? 9,6 itu fix
+threads-7.ts BULK[pak]: berhitung mundur dari titik akhir itu cara paling tahan gunc -> Berhitung mundur dari titik akhir itu cara paling tahan gunc
+threads-7.ts BULK[pak]: algoritma mundur itu dipakai semua tim produksi pak. hidup g -> Algoritma mundur itu dipakai semua tim produksi. hidup gak r
+threads-7.ts BULK[pak]: yang bikin hidup gak rapi itu jeda tersembunyi. daftar jeda  -> Yang bikin hidup gak rapi itu jeda tersembunyi. daftar jeda 
+threads-7.ts BULK[pak]: algoritma ini kepake di dapur juga pak. makan 07.00, masak m -> Algoritma ini kepake di dapur juga. makan 07.00, masak mundu
+threads-7.ts BULK[pak]: hidup gak rapi memang pak, tapi menit 06.44 rapi banget wkwk -> Hidup gak rapi memang, tapi menit 06.44 rapi banget wkwk
+threads-7.ts BULK[pak]: algoritma mundur itu juga namanya jadwal mundur pak. semua k -> Algoritma mundur itu juga namanya jadwal mundur. semua keret
+threads-7.ts BULK[pak]: angka mundur gak bohong pak. yang bohong cuma kaki yang male -> Angka mundur gak bohong. yang bohong cuma kaki yang males
+threads-7.ts BULK[pak]: telat pak. keretanya udah dikejar? 06.44 itu fix -> Telat. keretanya udah dikejar? 06.44 itu fix
+threads-7.ts BULK[kak]: kalau muat 2 sekaligus kak, dua ronde: 5 + 10 = 15 menit. se -> Kalau muat 2 sekaligus, dua ronde: 5 + 10 = 15 menit. selesa
+threads-7.ts BULK[kak]: 4 × 5 = 20 kalau satu-satu kak. dua sekaligus itu 10 + 5. pa -> 4 × 5 = 20 kalau satu-satu. dua sekaligus itu 10 + 5. pangga
+threads-7.ts BULK[kak]: besok kak, tuang mentega dulu semua roti, baru panggang. per -> Besok, tuang mentega dulu semua roti, baru panggang. persiap
+threads-7.ts BULK[kak]: jualan roti bakar itu memang atletik kak wkwk. semangat -> Jualan roti bakar itu memang atletik wkwk. semangat
+threads-7.ts BULK[kak]: telepon tukang ojek tuh kalibrasi doang kak. 06.32 juga masi -> Telepon tukang ojek tuh kalibrasi doang. 06.32 juga masih ke
+threads-7.ts BULK[kak]: beli panggangan gede kak. satu investasi, sembuh dari atleti -> Beli panggangan gede. satu investasi, sembuh dari atletik
+threads-7.ts BULK[kak]: roti bakar itu olahraga estafet kak. api, tangan, dan telepo -> Roti bakar itu olahraga estafet. api, tangan, dan telepon
+threads-7.ts BULK[kak]: telat kak. ojeknya nyampe pas? dua-dua itu fix buat besok -> Telat. ojeknya nyampe pas? dua-dua itu fix buat besok
+threads-7.ts BULK[kak]: 2,5 per hari itu benar kak. saran: pisahkan hari penulisan d -> 2,5 per hari itu benar. saran: pisahkan hari penulisan dan h
+threads-7.ts BULK[kak]: 60 ÷ 24 = 2,5 kak. setengah halaman itu satu paragraf doang, -> 60 ÷ 24 = 2,5. setengah halaman itu satu paragraf doang, gak
+threads-7.ts BULK[kak]: jangan memangkas bab kak, dosen lihat itu. tambah ritme diki -> Jangan memangkas bab, dosen lihat itu. tambah ritme dikit ti
+threads-7.ts BULK[kak]: 2 halaman → 2,5 halaman itu naik 25% kak. pagi 1,5 siang 1.  -> 2 halaman → 2,5 halaman itu naik 25%. pagi 1,5 siang 1. gak 
+threads-7.ts BULK[kak]: 0,5 halaman itu satu paragraf doang kak. gak semengerikan it -> 0,5 halaman itu satu paragraf doang. gak semengerikan itu
+threads-7.ts BULK[kak]: memangkas bab itu ditanya dosen kak. nambah ritme gak ditany -> Memangkas bab itu ditanya dosen. nambah ritme gak ditanya
+threads-7.ts BULK[kak]: halaman 21-22 jelek itu tanda lelah kak, bukan tanda nambah  -> Halaman 21-22 jelek itu tanda lelah, bukan tanda nambah sala
+threads-7.ts BULK[kak]: tulis ritme baru di kalender kak. 2,5 × 24 = 60. pas deadlin -> Tulis ritme baru di kalender. 2,5 × 24 = 60. pas deadline
+threads-7.ts BULK[kak]: telat kak. skripsinya udah beres? 2,5 per hari itu fix -> Telat. skripsinya udah beres? 2,5 per hari itu fix
+threads-7.ts BULK[bang]: waktu naik 18 ke 30 menit itu 66% lebih lama bang. tarif pla -> Waktu naik 18 ke 30 menit itu 66% lebih lama. tarif platform
+threads-7.ts BULK[bang]: 20 turun ke 12 itu turun 40% bang. kalau mau impas dari sisi -> 20 turun ke 12 itu turun 40%. kalau mau impas dari sisi wakt
+threads-7.ts BULK[bang]: realistisnya bang, ambil order deket doang pas hujan. jarak  -> Realistisnya, ambil order deket doang pas hujan. jarak pende
+threads-7.ts BULK[bang]: waktu naik 66% bang. kalau tarif ikut waktu, naik segitu. pl -> Waktu naik 66%. kalau tarif ikut waktu, naik segitu. platfor
+threads-7.ts BULK[bang]: bensin per km gak berubah bang. yang berubah waktu lu doang -> Bensin per km gak berubah. yang berubah waktu lu doang
+threads-7.ts BULK[bang]: 12 dari 20 itu turun 40% bang. hitungan lu bener -> 12 dari 20 itu turun 40%. hitungan lu bener
+threads-7.ts BULK[bang]: tarif platform jarak, bukan waktu bang. makanya hujan itu si -> Tarif platform jarak, bukan waktu. makanya hujan itu sifat d
+threads-7.ts BULK[bang]: rugi bensin doang itu gak ada bang. yang rugi waktu, bensin  -> Rugi bensin doang itu gak ada. yang rugi waktu, bensin tetep
+threads-7.ts BULK[bang]: ambil order pendek pas hujan bang. itu satu-satunya senjata -> Ambil order pendek pas hujan. itu satu-satunya senjata
+threads-7.ts BULK[bang]: telat bang. hujannya udah reda? 40% itu fix -> Telat. hujannya udah reda? 40% itu fix
+threads-7.ts BULK[kak]: catat menit itu nilai kak. angka bisa diperbaiki, poin doang -> Catat menit itu nilai. angka bisa diperbaiki, poin doang gak
+threads-7.ts BULK[kak]: menu kantin masuk catatan juga kak. itu data kebutuhan karya -> Menu kantin masuk catatan juga. itu data kebutuhan karyawan
+threads-7.ts BULK[kak]: rapat tanpa angka itu ceramah kak. lu udah bener -> Rapat tanpa angka itu ceramah. lu udah bener
+threads-7.ts BULK[kak]: telat kak. rapat berikutnya udah? 90 vs 100 itu fix -> Telat. rapat berikutnya udah? 90 vs 100 itu fix
+threads-7.ts BULK[om]: lima jam di pos B itu gila om, penuh motor lagi. payung satu -> Lima jam di pos B itu gila, penuh motor lagi. payung satu ma
+threads-7.ts BULK[om]: deket makanan itu selisih 2 jam pos A jadi terbayar om wkwk -> Deket makanan itu selisih 2 jam pos A jadi terbayar wkwk
+threads-7.ts BULK[om]: 3 + 5 = 8. shift lu utuh om. pos B emang berat -> 3 + 5 = 8. shift lu utuh. pos B emang berat
+threads-7.ts BULK[om]: 5 jam di pos B itu dua kali pos A om. deket makanan itu komp -> 5 jam di pos B itu dua kali pos A. deket makanan itu kompens
+threads-7.ts BULK[om]: payung satu buat 5 jam itu stage drama om wkwk -> Payung satu buat 5 jam itu stage drama wkwk
+threads-7.ts BULK[om]: pos B deket makanan itu juga deket toko om. untung dobel -> Pos B deket makanan itu juga deket toko. untung dobel
+threads-7.ts BULK[om]: 8 jam shift standar om. pembagian 3-5 itu yang menentukan mo -> 8 jam shift standar. pembagian 3-5 itu yang menentukan mood
+threads-7.ts BULK[om]: payung satu itu satu untuk semua om. lambang kebersamaan wkw -> Payung satu itu satu untuk semua. lambang kebersamaan wkwk
+threads-7.ts BULK[om]: telat om. shift udah kelar? 3-5 itu pembagian lu -> Telat. shift udah kelar? 3-5 itu pembagian lu
+threads-7.ts BULK[kak]: 1,25 hari kerja itu angka yang layak ditekankan kak. kalimat -> 1,25 hari kerja itu angka yang layak ditekankan. kalimatnya:
+threads-7.ts BULK[kak]: 10 jam lembur itu bukan angka kecil kak. tanyakan status for -> 10 jam lembur itu bukan angka kecil. tanyakan status formnya
+threads-7.ts BULK[kak]: 10 jam ÷ 8 = 1,25 hari kerja. angkanya bener kak -> 10 jam ÷ 8 = 1,25 hari kerja. angkanya bener 
+threads-7.ts BULK[kak]: 1,25 hari itu bukan angka kecil kak. tanya status form, buka -> 1,25 hari itu bukan angka kecil. tanya status form, bukan st
+threads-7.ts BULK[kak]: simpan bukti absen lembur kak. angka 10 jam itu aset -> Simpan bukti absen lembur. angka 10 jam itu aset
+threads-7.ts BULK[kak,kak]: telat kak. formnya udah jalan? 1,25 hari itu angka kak -> Telat. formnya udah jalan? 1,25 hari itu angka 
+threads-7.ts BULK[om]: itung begini wajib om. 252 km per minggu itu mesin yang kerj -> Itung begini wajib. 252 km per minggu itu mesin yang kerja k
+threads-7.ts BULK[om]: 42 km per hari × 6 = 252 bener om. catat per bulan juga, bia -> 42 km per hari × 6 = 252 bener. catat per bulan juga, biar t
+threads-7.ts BULK[om]: 7 × 2 × 3 = 42, × 6 = 252. dua jalur, satu hasil. bener om -> 7 × 2 × 3 = 42, × 6 = 252. dua jalur, satu hasil. bener 
+threads-7.ts BULK[om]: 252 km per minggu itu 1.000-an per bulan om. servis jangan d -> 252 km per minggu itu 1.000-an per bulan. servis jangan ditu
+threads-7.ts BULK[om]: oli tiap 2.000 km berarti ganti tiap 2 mingguan om. hitung b -> Oli tiap 2.000 km berarti ganti tiap 2 mingguan. hitung begi
+threads-7.ts BULK[om]: gue juga itung gini om. mesin dicatat selalu awet -> Gue juga itung gini. mesin dicatat selalu awet
+threads-7.ts BULK[om]: 42 km per hari itu lumayan om. bensinnya kehitung juga kan -> 42 km per hari itu lumayan. bensinnya kehitung juga kan
+threads-7.ts BULK[om]: 3 kali antar itu 3 pulang-pergi om. 3 × 14 = 42. pas -> 3 kali antar itu 3 pulang-pergi. 3 × 14 = 42. pas
+threads-7.ts BULK[om]: bodi begini itu buat catatan ban juga om. ban depan cepet au -> Bodi begini itu buat catatan ban juga. ban depan cepet aus d
+threads-7.ts BULK[om]: om ini rajin. bodi sehari-hari kayak gini itu aset -> Ini rajin. bodi sehari-hari kayak gini itu aset
+threads-7.ts BULK[om]: servis rutin lebih murah dari mesin rusak om. hitungan lu sa -> Servis rutin lebih murah dari mesin rusak. hitungan lu sayan
+threads-7.ts BULK[om]: telat om. motor masih sehat? 252 km itu fix -> Telat. motor masih sehat? 252 km itu fix
+threads-7.ts BULK[om]: jarak dulu om, karena jarak tidak berbohong. kecepatan baru  -> Jarak dulu, karena jarak tidak berbohong. kecepatan baru dia
+threads-7.ts BULK[om]: 32 ÷ 40 = 0,8 jam = 48 menit benar om. sekolah mengajarkan r -> 32 ÷ 40 = 0,8 jam = 48 menit benar. sekolah mengajarkan rumu
+threads-7.ts BULK[om]: 0,8 jam itu 48 menit om. banyak orang tersandung di sini, 0, -> 0,8 jam itu 48 menit. banyak orang tersandung di sini, 0,8 j
+threads-7.ts BULK[om]: 32 ÷ 40 = 0,8 jam = 48 menit. dua kali dicek bener om -> 32 ÷ 40 = 0,8 jam = 48 menit. dua kali dicek bener 
+threads-7.ts BULK[om]: 0,8 jam itu 48 menit om. 0,8 × 60. bukan 80 menit -> 0,8 jam itu 48 menit. 0,8 × 60. bukan 80 menit
+threads-7.ts BULK[om]: jarak dulu om. kecepatan ikut macet, jarak gak berbohong -> Jarak dulu. kecepatan ikut macet, jarak gak berbohong
+threads-7.ts BULK[om]: check-in makin panjang itu hukum bandara om. 58 menit itu pa -> Check-in makin panjang itu hukum bandara. 58 menit itu pas b
+threads-7.ts BULK[om]: telat om. penumpangnya keburu? 48 menit itu fix -> Telat. penumpangnya keburu? 48 menit itu fix
+threads-7.ts BULK[kak]: setengah air ≠ setengah waktu kak, ada panci dan nyala yang  -> Setengah air ≠ setengah waktu, ada panci dan nyala yang ikut
+threads-7.ts BULK[kak]: cobain tiga kali kak, catat. kalau rata-ratanya 5, temenmu b -> Cobain tiga kali, catat. kalau rata-ratanya 5, temenmu bisa 
+threads-7.ts BULK[bu]: kasih dua nilai bu: waktu dan langkah adalah dua lomba yang  -> Kasih dua nilai: waktu dan langkah adalah dua lomba yang ber
+threads-7.ts BULK[bu]: 80 detik benar bu. soal langkah: wajar bunda lebih cepat, ta -> 80 detik benar. soal langkah: wajar bunda lebih cepat, tapi 
+threads-7.ts BULK[bu]: anak meminta dihitung ulang tiga kali, itu tanda ia sedang c -> Anak meminta dihitung ulang tiga kali, itu tanda ia sedang c
+threads-7.ts BULK[bu]: 240 − 160 = 80 detik. dua kali dicek bener bu -> 240 − 160 = 80 detik. dua kali dicek bener 
+threads-7.ts BULK[bu]: waktu dan langkah itu dua lomba beda bu. satu jam, satu panj -> Waktu dan langkah itu dua lomba beda. satu jam, satu panjang
+threads-7.ts BULK[bu]: bunda menang waktu, anak menang semangat. dua piala bu -> Bunda menang waktu, anak menang semangat. dua piala 
+threads-7.ts BULK[bu]: langkah panjang bisa dilatih anak bu. itu bukan nasib -> Langkah panjang bisa dilatih anak. itu bukan nasib
+threads-7.ts BULK[bu]: anak yang minta dihitung ulang tiga kali, calon auditor bu w -> Anak yang minta dihitung ulang tiga kali, calon auditor wkwk
+threads-7.ts BULK[bu]: telat bu. anaknya masih nanya? 80 detik itu fix -> Telat. anaknya masih nanya? 80 detik itu fix
+threads-7.ts BULK[mbak]: 06.40 + 10 menit = 06.50, sisa 10 menit. benar semua mbak. k -> 06.40 + 10 menit = 06.50, sisa 10 menit. benar semua. kucing
+threads-7.ts BULK[mbak]: anak itu memakai perencanaan waktu mbak, jarang di umurnya.  -> Anak itu memakai perencanaan waktu, jarang di umurnya. janga
+threads-7.ts BULK[mbak]: 10 menit ekstra itu investasi suasana hati mbak. anak yang t -> 10 menit ekstra itu investasi suasana hati. anak yang tenang
+threads-7.ts BULK[mbak]: 10 menit buat kucing itu anggaran waktu yang adil mbak -> 10 menit buat kucing itu anggaran waktu yang adil 
+threads-7.ts BULK[mbak]: anak yang ngitung mundur dari bel, calon perencana mbak -> Anak yang ngitung mundur dari bel, calon perencana 
+threads-7.ts BULK[mbak]: jangan dipotong kucingnya mbak. itu sistem imbalan paling mu -> Jangan dipotong kucingnya. itu sistem imbalan paling murah
+threads-7.ts BULK[mbak]: kucing di depan gerbang itu alarm alami mbak -> Kucing di depan gerbang itu alarm alami 
+threads-7.ts BULK[mbak]: 5 menit vs 10 menit. selisihnya kucing mbak wkwk -> 5 menit vs 10 menit. selisihnya kucing wkwk
+threads-7.ts BULK[mbak]: telat mbak. udah berangkat? 10 menit kucing itu fix -> Telat. udah berangkat? 10 menit kucing itu fix
+threads-8.ts BULK[pak]: 15 benar pak. naiknya selalu sebesar lapisan baru yang ditam -> 15 benar. naiknya selalu sebesar lapisan baru yang ditambahk
+threads-8.ts BULK[pak]: trik cepat pak: jumlahkan ujungnya lalu kali banyak lapisan. -> Trik cepat: jumlahkan ujungnya lalu kali banyak lapisan. (5+
+threads-8.ts BULK[pak]: piramida 6 lapis jadi 21 pak. biar anak magang lihat polanya -> Piramida 6 lapis jadi 21. biar anak magang lihat polanya: 6,
+threads-8.ts BULK[pak]: 15 benar pak. 5+4+3+2+1 = 15. dua kali dicek -> 15 benar. 5+4+3+2+1 = 15. dua kali dicek
+threads-8.ts BULK[pak]: piramida 6 lapis = 21 pak. pola selisihnya 4, 5, 6 -> Piramida 6 lapis = 21. pola selisihnya 4, 5, 6
+threads-8.ts BULK[pak]: piramida empat lapis 10, lima lapis 15. naik 5 pas pak -> Piramida empat lapis 10, lima lapis 15. naik 5 pas 
+threads-8.ts BULK[pak]: anak magang yang ragu, itu bagus pak. dia gak asal angguk -> Anak magang yang ragu, itu bagus. dia gak asal angguk
+threads-8.ts BULK[pak]: kalau 7 lapis jadi 28 pak. selisihnya 7 lagi -> Kalau 7 lapis jadi 28. selisihnya 7 lagi
+threads-8.ts BULK[pak]: susun 15 karung itu aman pak. angkanya bener -> Susun 15 karung itu aman. angkanya bener
+threads-8.ts BULK[pak]: 15 karung latihan bagus pak. angkanya aman -> 15 karung latihan bagus. angkanya aman
+threads-8.ts BULK[pak]: telat pak. karungnya udah disusun? 15 itu fix -> Telat. karungnya udah disusun? 15 itu fix
+threads-8.ts BULK[om]: 44 bener om muda. 9 loncatan × 4 = 36, ditambah kotak pertam -> 44 bener muda. 9 loncatan × 4 = 36, ditambah kotak pertama 8
+threads-8.ts BULK[om]: ngangguk sambil pegang kunci itu bahasa om yang artinya gue  -> Ngangguk sambil pegang kunci itu bahasa yang artinya gue ben
+threads-8.ts BULK[om]: kotak ke-10 itu 9 loncatan dari kotak pertama bro. om yang s -> Kotak ke-10 itu 9 loncatan dari kotak pertama bro. yang sala
+threads-8.ts BULK[om]: om diam lalu ngangguk itu kode bengkel bro. artinya lu menan -> Diam lalu ngangguk itu kode bengkel bro. artinya lu menang
+threads-8.ts BULK[om]: 44 butir baut itu satu kotak penuh bro. om pasti hafal kelip -> 44 butir baut itu satu kotak penuh bro. pasti hafal kelipata
+threads-8.ts BULK[om]: 44. dua kali dicek di atas, aman depan om -> 44. dua kali dicek di atas, aman depan 
+threads-8.ts BULK[om]: kasih om daftar kotak 1-10. gak perlu debat lagi bro -> Kasih daftar kotak 1-10. gak perlu debat lagi bro
+threads-8.ts BULK[bu]: kalimat satu arah bu: semua kucing suka ikan tidak berarti s -> Kalimat satu arah: semua kucing suka ikan tidak berarti semu
+threads-8.ts BULK[bu]: soal yang berhasil di siswa saya bu: kalau hujan jalanan bas -> Soal yang berhasil di siswa saya: kalau hujan jalanan basah.
+threads-8.ts BULK[bu]: bebek penyuka ikan disebut kucing itu pintu masuk terbaik bu -> Bebek penyuka ikan disebut kucing itu pintu masuk terbaik. t
+threads-8.ts BULK[bu]: dua lingkaran tumpang tindih itu kunci bu. kucing di dalam d -> Dua lingkaran tumpang tindih itu kunci. kucing di dalam dua-
+threads-8.ts BULK[bu]: semua kucing suka ikan ≠ semua penyuka ikan kucing. arahnya  -> Semua kucing suka ikan ≠ semua penyuka ikan kucing. arahnya 
+threads-8.ts BULK[bu]: anak tertawa lama itu tanda logikanya nyala bu. pertahankan -> Anak tertawa lama itu tanda logikanya nyala. pertahankan
+threads-8.ts BULK[bu]: soal hujan-basah itu klasik bu. anak langsung nangkep -> Soal hujan-basah itu klasik. anak langsung nangkep
+threads-8.ts BULK[bu]: anak yang menantang kalimat di rumah, tanda berpikir bu. dik -> Anak yang menantang kalimat di rumah, tanda berpikir. dikawa
+threads-8.ts BULK[bu]: bebek jadi kucing, itu contoh terbaik logika terbalik bu -> Bebek jadi kucing, itu contoh terbaik logika terbalik 
+threads-8.ts BULK[bu]: logika itu olahraga otak bu. bebeknya jadi pelatih -> Logika itu olahraga otak. bebeknya jadi pelatih
+threads-8.ts BULK[bu]: telat bu. anaknya masih tertawa? dua lingkaran itu fix -> Telat. anaknya masih tertawa? dua lingkaran itu fix
+threads-8.ts BULK[bu]: 1 sendok makan = 3 sendok teh adalah takaran standar bu. 2 × -> 1 sendok makan = 3 sendok teh adalah takaran standar. 2 × 3 
+threads-8.ts BULK[bu]: selisih antar sendok rumah biasanya kecil bu, yang lebih ber -> Selisih antar sendok rumah biasanya kecil, yang lebih berpen
+threads-8.ts BULK[bu]: wkwk digunung itu namanya sendok tersenyum ya bu. oke, dirat -> Wkwk digunung itu namanya sendok tersenyum ya. oke, dirataka
+threads-8.ts BULK[bu]: 2 × 3 + 1 = 7 sendok teh. standar, benar bu -> 2 × 3 + 1 = 7 sendok teh. standar, benar 
+threads-8.ts BULK[bu]: sendok rumah beda-beda dikit bu, tapi 2:1-nya gak jauh. dira -> Sendok rumah beda-beda dikit, tapi 2:1-nya gak jauh. diratak
+threads-8.ts BULK[bu]: kue kemarin seperti roti tawar karena kurang gula bu. kali i -> Kue kemarin seperti roti tawar karena kurang gula. kali ini 
+threads-8.ts BULK[bu]: selisih antar sendok itu sepertiga sendok teh-an bu. gak sig -> Selisih antar sendok itu sepertiga sendok teh-an. gak signif
+threads-8.ts BULK[bu]: yang lebih penting dari bentuk sendok itu cara penuhnya bu.  -> Yang lebih penting dari bentuk sendok itu cara penuhnya. rat
+threads-8.ts BULK[bu]: sendok makan dapur biasanya 3 sendok teh pas bu. cek pakai a -> Sendok makan dapur biasanya 3 sendok teh pas. cek pakai air 
+threads-8.ts BULK[bu]: 7 sendok teh = 2 sendok makan + 1. hafalan dapur yang enak b -> 7 sendok teh = 2 sendok makan + 1. hafalan dapur yang enak 
+threads-8.ts BULK[bu]: standar takaran: 1 sdm = 15 ml, 1 sdt = 5 ml. cek buku masak -> Standar takaran: 1 sdm = 15 ml, 1 sdt = 5 ml. cek buku masak
+threads-8.ts BULK[bu]: diratakan semua sendoknya bu. gula digunung itu jebakan -> Diratakan semua sendoknya. gula digunung itu jebakan
+threads-8.ts BULK[bu]: 2:1 itu patokan enak bu. 2 sdm + 1 sdt = 7 sdt. benar -> 2:1 itu patokan enak. 2 sdm + 1 sdt = 7 sdt. benar
+threads-8.ts BULK[bu]: telat bu. kuenya udah mateng? 7 sendok teh itu fix -> Telat. kuenya udah mateng? 7 sendok teh itu fix
+threads-8.ts BULK[pak]: 45 menit konsisten pak, dari 22.00 sampai 01.45 enam ronde p -> 45 menit konsisten, dari 22.00 sampai 01.45 enam ronde pas. 
+threads-8.ts BULK[pak]: bener pak, 45 menit × 5 jeda = 225 menit = 3 jam 45 menit. 2 -> Bener, 45 menit × 5 jeda = 225 menit = 3 jam 45 menit. 22.00
+threads-8.ts BULK[pak]: ronde ke-5 ke-6 jaraknya 45 juga pak. 01.00 ke 01.45. konsis -> Ronde ke-5 ke-6 jaraknya 45 juga. 01.00 ke 01.45. konsisten
+threads-8.ts BULK[pak]: mepet di 01.00 itu perasaan pak. angkanya 45 menit semua -> Mepet di 01.00 itu perasaan. angkanya 45 menit semua
+threads-8.ts BULK[pak]: gantian 02.00 itu 15 menit setelah ronde terakhir pak. masih -> Gantian 02.00 itu 15 menit setelah ronde terakhir. masih waj
+threads-8.ts BULK[pak]: jam 1 pagi emang gak sopan pak. angkanya bener kok -> Jam 1 pagi emang gak sopan. angkanya bener kok
+threads-8.ts BULK[pak]: logbook pakai jam pak. perasaan cuma buat kopinya -> Logbook pakai jam. perasaan cuma buat kopinya
+threads-8.ts BULK[kak]: 22,5 itu rata-rata kak, bukan kewajiban. bagi 23-22 biar uju -> 22,5 itu rata-rata, bukan kewajiban. bagi 23-22 biar ujungny
+threads-8.ts BULK[pak]: pola itu bernama Fibonacci pak. anak menemukannya lewat bend -> Pola itu bernama Fibonacci. anak menemukannya lewat benda, i
+threads-8.ts BULK[pak]: semua anak menyimpan rasa pola pak. yang berbeda adalah kese -> Semua anak menyimpan rasa pola. yang berbeda adalah kesempat
+threads-8.ts BULK[pak]: tangga belum selesai berarti anak masih berpikir pak. biarka -> Tangga belum selesai berarti anak masih berpikir. biarkan, d
+threads-8.ts BULK[pak]: itu Fibonacci pak. 1, 1, 2, 3, 5, 8. anak menemukan sendiri, -> Itu Fibonacci. 1, 1, 2, 3, 5, 8. anak menemukan sendiri, lan
+threads-8.ts BULK[pak]: tangga belum selesai = dia mikir lanjutan pak. 13 berikutnya -> Tangga belum selesai = dia mikir lanjutan. 13 berikutnya
+threads-8.ts BULK[pak]: anak yang menata tanpa perintah, anak yang belajar pak. kasi -> Anak yang menata tanpa perintah, anak yang belajar. kasih ta
+threads-8.ts BULK[pak]: pola itu muncul di daun, cangkang, bunga pak. anak nemuin ve -> Pola itu muncul di daun, cangkang, bunga. anak nemuin versi 
+threads-8.ts BULK[pak]: semua anak punya rasa pola pak. yang beda cuma kesempatan me -> Semua anak punya rasa pola. yang beda cuma kesempatan menata
+threads-8.ts BULK[pak]: batu kecil itu kalkulator alam pak. murah dan jujur -> Batu kecil itu kalkulator alam. murah dan jujur
+threads-8.ts BULK[pak]: coba kasih dia kertas berpetak minggu depan pak. polanya mak -> Coba kasih dia kertas berpetak minggu depan. polanya makin r
+threads-8.ts BULK[pak]: Fibonacci dari bocah sebelah. forum ini punya banyak guru pa -> Fibonacci dari bocah sebelah. forum ini punya banyak guru 
+threads-8.ts BULK[pak]: telat pak. tangganya dilanjut? 13 itu angka berikutnya -> Telat. tangganya dilanjut? 13 itu angka berikutnya
+threads-8.ts BULK[dik]: benar dik, 162. polanya kali 3, dan alasanmu di PR itu justr -> Benar, 162. polanya kali 3, dan alasanmu di PR itu justru ya
+threads-8.ts BULK[dik]: temenmu menemukan bahwa beda antar angka itu 4, 12, 36, sela -> Temenmu menemukan bahwa beda antar angka itu 4, 12, 36, sela
+threads-8.ts BULK[dik]: 2, 6, 18, 54, 162. lima angka itu pola kali 3 dik: cek aja,  -> 2, 6, 18, 54, 162. lima angka itu pola kali 3: cek aja, jawa
+threads-8.ts BULK[dik]: 162 bener dik. 54 × 3 = 162. polanya kali 3 -> 162 bener. 54 × 3 = 162. polanya kali 3
+threads-8.ts BULK[dik]: nambahnya gak rata dik: +4, +12, +36, +108. itu juga kali 3  -> Nambahnya gak rata: +4, +12, +36, +108. itu juga kali 3 tapi
+threads-8.ts BULK[dik]: tulis alasan di PR dik. guru nilai jalan berpikir, bukan cum -> Tulis alasan di PR. guru nilai jalan berpikir, bukan cuma ha
+threads-8.ts BULK[dik]: cek: 162 ÷ 3 = 54. cocok mundur dik -> Cek: 162 ÷ 3 = 54. cocok mundur 
+threads-8.ts BULK[dik]: kali 3 itu pola geometri dik. nambah rata itu aritmetika. du -> Kali 3 itu pola geometri. nambah rata itu aritmetika. dua du
+threads-8.ts BULK[dik]: temenmu bingung karena nambahnya gak konsisten dik. punyamu  -> Temenmu bingung karena nambahnya gak konsisten. punyamu yang
+threads-8.ts BULK[dik]: pola kali itu naik cepet dik. 162 udah gede -> Pola kali itu naik cepet. 162 udah gede
+threads-8.ts BULK[dik]: kalau dilanjut: 486 berikutnya dik. latihan bagus -> Kalau dilanjut: 486 berikutnya. latihan bagus
+threads-8.ts BULK[dik]: alasan kali tiga tulis singkat aja dik: setiap angka dikali  -> Alasan kali tiga tulis singkat aja: setiap angka dikali 3. c
+threads-8.ts BULK[dik]: guru pasti seneng dik. PR yang ada alasannya, PR hidup -> Guru pasti seneng. PR yang ada alasannya, PR hidup
+threads-8.ts BULK[dik]: beda antar angka juga kali 3 dik: 4, 12, 36. itu bonus infor -> Beda antar angka juga kali 3: 4, 12, 36. itu bonus informasi
+threads-8.ts BULK[dik]: punyamu bisa dilanjut dik. punya temen mentok di 54 -> Punyamu bisa dilanjut. punya temen mentok di 54
+threads-8.ts BULK[dik]: telat dik. PR-nya udah dikumpul? 162 itu fix -> Telat. PR-nya udah dikumpul? 162 itu fix
+threads-8.ts BULK[pak]: 45² = 2.025 benar pak. trik itu sah untuk semua angka beruju -> 45² = 2.025 benar. trik itu sah untuk semua angka berujung 5
+threads-8.ts BULK[pak]: alasannya pak: (10a+5)² = 100a² + 100a + 25 = 100 × a(a+1) + -> Alasannya: (10a+5)² = 100a² + 100a + 25 = 100 × a(a+1) + 25.
+threads-8.ts BULK[pak]: trik pembuat orang tertawa adalah trik terbaik pak. 115 × 11 -> Trik pembuat orang tertawa adalah trik terbaik. 115 × 115 = 
+threads-8.ts BULK[pak]: cucu warung itu menemukan kegembiraan yang langka pak: matem -> Cucu warung itu menemukan kegembiraan yang langka: matematik
+threads-8.ts BULK[pak]: 115 × 115 = 13.225 pak. triknya jalan sampai ratusan -> 115 × 115 = 13.225. triknya jalan sampai ratusan
+threads-8.ts BULK[pak]: alasannya (10a+5)² = a(a+1) × 100 + 25 pak. itu kenapa 25 se -> Alasannya (10a+5)² = a(a+1) × 100 + 25. itu kenapa 25 selalu
+threads-8.ts BULK[pak]: 85 × 85 = 7.225 pak. coba sama cucu, pasti ketawa lagi -> 85 × 85 = 7.225. coba sama cucu, pasti ketawa lagi
+threads-8.ts BULK[pak]: trik ujung 5 itu warisan dagang pak. kasir jaman dulu hafal  -> Trik ujung 5 itu warisan dagang. kasir jaman dulu hafal semu
+threads-8.ts BULK[pak]: a(a+1) itu pasangan berurutan pak. 3×4, 7×8, 4×5. enak dikep -> A(a+1) itu pasangan berurutan. 3×4, 7×8, 4×5. enak dikepala
+threads-8.ts BULK[pak]: 105 × 105 = 11.025 pak. triknya gak gerah -> 105 × 105 = 11.025. triknya gak gerah
+threads-8.ts BULK[pak]: telat pak. cucunya udah hafal? 2.025 itu fix -> Telat. cucunya udah hafal? 2.025 itu fix
+threads-8.ts BULK[bu]: 11 benar bu. baris ke-n itu 2n − 1. baris ke-6 = 12 − 1 = 11 -> 11 benar. baris ke-n itu 2n − 1. baris ke-6 = 12 − 1 = 11
+threads-8.ts BULK[bu]: bilangan ganjil itu memang rapi bu, jumlahnya selalu berbent -> Bilangan ganjil itu memang rapi, jumlahnya selalu berbentuk 
+threads-8.ts BULK[bu]: cucu seneng sampe lupa makan itu harga mati bu wkwk. kebun b -> Cucu seneng sampe lupa makan itu harga mati wkwk. kebun baru
+threads-8.ts BULK[bu]: 11 bener bu. baris ke-6 = 2×6 − 1 = 11. dua kali dicek -> 11 bener. baris ke-6 = 2×6 − 1 = 11. dua kali dicek
+threads-8.ts BULK[bu]: ganjil itu rapi bu: 1, 3, 5, 7, 9, 11. nambah 2 terus -> Ganjil itu rapi: 1, 3, 5, 7, 9, 11. nambah 2 terus
+threads-8.ts BULK[bu]: jumlah ganjil berurutan selalu persegi bu: 1+3 = 4, 1+3+5 =  -> Jumlah ganjil berurutan selalu persegi: 1+3 = 4, 1+3+5 = 9
+threads-8.ts BULK[bu]: batang korek itu bukti paling jujur bu. cucu bakal inget seu -> Batang korek itu bukti paling jujur. cucu bakal inget seumur
+threads-8.ts BULK[bu]: baris ke-10 = 19 bu. polanya aman sampai kapan pun -> Baris ke-10 = 19. polanya aman sampai kapan pun
+threads-8.ts BULK[bu]: 2n − 1 itu rumusnya bu. baris ke-6 → 11. pas -> 2n − 1 itu rumusnya. baris ke-6 → 11. pas
+threads-8.ts BULK[bu]: cucu yang seneng sampai lupa makan, calon peneliti bu. jaga -> Cucu yang seneng sampai lupa makan, calon peneliti. jaga
+threads-8.ts BULK[bu]: ganjil rapi karena selalu ada satu di tengah bu. simetris -> Ganjil rapi karena selalu ada satu di tengah. simetris
+threads-8.ts BULK[bu]: baris ke-7 = 13 bu. lanjutannya udah kebayang -> Baris ke-7 = 13. lanjutannya udah kebayang
+threads-8.ts BULK[bu]: 1+2 = 3, 3+2 = 5, 5+2 = 7. nambah 2 semua bu -> 1+2 = 3, 3+2 = 5, 5+2 = 7. nambah 2 semua 
+threads-8.ts BULK[bu]: angka ganjil itu antrian rapi bu. gak ada yang nyelip -> Angka ganjil itu antrian rapi. gak ada yang nyelip
+threads-8.ts BULK[bu]: cucu nemu sendiri pola ganjil bu. itu jauh lebih berharga da -> Cucu nemu sendiri pola ganjil. itu jauh lebih berharga dari 
+threads-8.ts BULK[bu]: telat bu. lubangnya udah ditandain? 11 itu fix -> Telat. lubangnya udah ditandain? 11 itu fix
+threads-8.ts BULK[bu]: bulatkan ke atas bu, 28.600 × 7 = 200.200, lebihnya 200 disi -> Bulatkan ke atas, 28.600 × 7 = 200.200, lebihnya 200 disimpa
+threads-8.ts BULK[bu]: atau ambil 29.000 bu, lebihnya 3.000 jadi dana router yang m -> Atau ambil 29.000, lebihnya 3.000 jadi dana router yang mati
+threads-8.ts BULK[bu]: 200.000 ÷ 7 itu 28.571 bu. ke bawah 28.500 itu pilihan palin -> 200.000 ÷ 7 itu 28.571. ke bawah 28.500 itu pilihan paling s
+threads-8.ts BULK[bu]: catat di grup bu: 28.500 + 500 dari kas kos. transparan, gak -> Catat di grup: 28.500 + 500 dari kas kos. transparan, gak ad
+threads-8.ts BULK[bu]: 28.500 × 7 = 199.500. kurang 500. kas kos yang nutup lebih s -> 28.500 × 7 = 199.500. kurang 500. kas kos yang nutup lebih s
+threads-8.ts BULK[bu]: 28.571,43 aslinya bu. semua pembagian 7 emang ribet -> 28.571,43 aslinya. semua pembagian 7 emang ribet
+threads-8.ts BULK[bu]: ke bawah bikin pengurus rugi terus tiap bulan bu. ke atas le -> Ke bawah bikin pengurus rugi terus tiap bulan. ke atas lebih
+threads-8.ts BULK[bu]: 500 dari 200.000 itu 0,25% bu. kecil tapi nyata -> 500 dari 200.000 itu 0,25%. kecil tapi nyata
+threads-8.ts BULK[bu]: ganti paket jadi 210.000 ÷ 7 = 30.000. pas bulat. alternatif -> Ganti paket jadi 210.000 ÷ 7 = 30.000. pas bulat. alternatif
+threads-8.ts BULK[bu]: pengurus nutup 500 itu amal wifi bu. tapi jangan bertahun-ta -> Pengurus nutup 500 itu amal wifi. tapi jangan bertahun-tahun
+threads-8.ts BULK[bu]: wifi gak boleh bon gak pas bu. koneksi juga gak boleh lemot -> Wifi gak boleh bon gak pas. koneksi juga gak boleh lemot
+threads-8.ts BULK[bu]: router mati mendadak itu hukum alam kos bu. 3.000 cadangan i -> Router mati mendadak itu hukum alam kos. 3.000 cadangan itu 
+threads-8.ts BULK[bu]: telat bu. wifi masih lancar? 28.500 + kas itu fix -> Telat. wifi masih lancar? 28.500 + kas itu fix
+threads-8.ts BULK[pak]: 8,33 jam itu 8 jam 20 menit pak. 0,33 × 60 = 19,8, kira-kira -> 8,33 jam itu 8 jam 20 menit. 0,33 × 60 = 19,8, kira-kira 20
+threads-8.ts BULK[pak]: tulis di laporan jam:menit, jangan desimal pak. 8:20 itu man -> Tulis di laporan jam:menit, jangan desimal. 8:20 itu manusia
+threads-8.ts BULK[pak]: 90.000 ÷ 3.600 = 25 jam benar pak. dua mesin 12,5 jam. lembu -> 90.000 ÷ 3.600 = 25 jam benar. dua mesin 12,5 jam. lembur 5 
+threads-8.ts BULK[pak]: 8,33 jam = 8 jam 20 menit. 0,33 × 60 = 19,8 ≈ 20. pak -> 8,33 jam = 8 jam 20 menit. 0,33 × 60 = 19,8 ≈ 20. 
+threads-8.ts BULK[pak]: tulis 8:20 di laporan pak. lembur dihitung jam:menit, bukan  -> Tulis 8:20 di laporan. lembur dihitung jam:menit, bukan desi
+threads-8.ts BULK[pak]: 8,3 jam bukan 8 jam 30 menit pak. itu jebakan desimal -> 8,3 jam bukan 8 jam 30 menit. itu jebakan desimal
+threads-8.ts BULK[pak]: 25 jam satu mesin itu gak manusiawi pak. dua mesin 12,5 masi -> 25 jam satu mesin itu gak manusiawi. dua mesin 12,5 masih be
+threads-8.ts BULK[pak]: 8 jam 20 menit. dua kali dicek pak. hidup mati kantor aman -> 8 jam 20 menit. dua kali dicek. hidup mati kantor aman
+threads-8.ts BULK[pak]: tiga mesin 8:20, dua mesin 12:30. jelas bedanya pak -> Tiga mesin 8:20, dua mesin 12:30. jelas bedanya 
+threads-8.ts BULK[pak]: 12,5 jam = 12 jam 30 menit pak. itu juga desimal yang sering -> 12,5 jam = 12 jam 30 menit. itu juga desimal yang sering ket
+threads-8.ts BULK[pak]: lembur orang dihitung teliti pak. 8:20 itu jawabannya -> Lembur orang dihitung teliti. 8:20 itu jawabannya
+threads-8.ts BULK[pak]: 40 menit penuh itu warisan pagi pak. ayam menyeberang itu hi -> 40 menit penuh itu warisan pagi. ayam menyeberang itu hitung
+threads-8.ts BULK[pak]: laporan pagi yang tenang pak. besok rutenya sama lagi ya -> Laporan pagi yang tenang. besok rutenya sama lagi ya
+threads-8.ts BULK[pak]: 06.00 sampai 06.40 itu 40 menit pas pak. laporan lengkap -> 06.00 sampai 06.40 itu 40 menit pas. laporan lengkap
+threads-8.ts BULK[pak]: ayam menyeberang itu data yang sah pak. tak perlu dihitung -> Ayam menyeberang itu data yang sah. tak perlu dihitung
+threads-8.ts BULK[pak]: 40 menit jalan pagi itu standar sehat pak. terima kasihnya s -> 40 menit jalan pagi itu standar sehat. terima kasihnya sah
+threads-8.ts BULK[pak]: suara kedua adzan itu 06.02-an mungkin pak. jalan tetap 40 m -> Suara kedua adzan itu 06.02-an mungkin. jalan tetap 40 menit
+threads-8.ts BULK[pak]: pagi tanpa gangguan itu langka pak. 40 menit penuh itu kekay -> Pagi tanpa gangguan itu langka. 40 menit penuh itu kekayaan
+threads-8.ts BULK[pak]: laporan pagi begini bikin ikut tenang pak -> Laporan pagi begini bikin ikut tenang 
+threads-8.ts BULK[pak]: besok ayamnya menyeberang lagi pak. jangan dihitung, biarkan -> Besok ayamnya menyeberang lagi. jangan dihitung, biarkan
+threads-8.ts BULK[pak]: telat pak. besok jalan lagi? 40 menit itu warisan -> Telat. besok jalan lagi? 40 menit itu warisan
+threads-8.ts BULK[kak]: benar kak, 13 halaman. alternatifnya 15 kotak per halaman ja -> Benar, 13 halaman. alternatifnya 15 kotak per halaman jadi 1
+threads-8.ts BULK[kak]: 10 kotak kosong di akhir itu sah kak, biasanya justru dipaka -> 10 kotak kosong di akhir itu sah, biasanya justru dipakai mu
+threads-8.ts BULK[kak]: 250 ÷ 20 = 12,5 → 13 halaman kak. angka bulat itu mitos kant -> 250 ÷ 20 = 12,5 → 13 halaman. angka bulat itu mitos kantor w
+threads-8.ts BULK[kak]: 250 ÷ 20 = 12,5. dibulat ke atas 13 halaman. benar kak -> 250 ÷ 20 = 12,5. dibulat ke atas 13 halaman. benar 
+threads-8.ts BULK[kak]: 10 kotak kosong itu bukan sisa kak, itu cadangan mutasi -> 10 kotak kosong itu bukan sisa, itu cadangan mutasi
+threads-8.ts BULK[kak]: bos suka angka bulat kak. tunjukin 10 murid tanpa tempat, la -> Bos suka angka bulat. tunjukin 10 murid tanpa tempat, langsu
+threads-8.ts BULK[kak]: catatan kaki di halaman 13 itu sentuhan kak. rapat aman -> Catatan kaki di halaman 13 itu sentuhan. rapat aman
+threads-8.ts BULK[kak]: 15 kotak per halaman = 250 ÷ 15 ≈ 16,7 → 17 halaman. makin r -> 15 kotak per halaman = 250 ÷ 15 ≈ 16,7 → 17 halaman. makin r
+threads-8.ts BULK[kak]: murid baru semester ini pasti ada kak. kotak kosong itu paso -> Murid baru semester ini pasti ada. kotak kosong itu pasokan
+threads-8.ts BULK[kak]: 12,5 halaman fisiknya gak bisa dicetak kak. 13 jawabannya -> 12,5 halaman fisiknya gak bisa dicetak. 13 jawabannya
+threads-8.ts BULK[kak]: 250 murid, 20 per halaman. 13 halaman final kak -> 250 murid, 20 per halaman. 13 halaman final 
+threads-8.ts BULK[kak]: 10 kotak kosong itu justru rapi kak. ada rencananya -> 10 kotak kosong itu justru rapi. ada rencananya
+threads-8.ts BULK[kak]: telat kak. rapetnya udah? 13 halaman itu fix -> Telat. rapetnya udah? 13 halaman itu fix
+threads-8.ts BULK[pak]: 100 keping itu 7 detik per keping pak, sudah wajar dengan me -> 100 keping itu 7 detik per keping, sudah wajar dengan mesin 
+threads-8.ts BULK[pak]: kalau mesinnya memungkinkan, timbang dulu pak: 100 koin 1.00 -> Kalau mesinnya memungkinkan, timbang dulu: 100 koin 1.000 it
+threads-8.ts BULK[pak]: 12 menit pak, dan nasabah pulang dengan keyakinan penuh. itu -> 12 menit, dan nasabah pulang dengan keyakinan penuh. itu pul
+threads-8.ts BULK[pak]: 12 menit ÷ 100 keping = 7,2 detik per keping. wajar pak -> 12 menit ÷ 100 keping = 7,2 detik per keping. wajar 
+threads-8.ts BULK[pak]: koin gak boleh ditebak pak. itu kalimat layak ditempel di lo -> Koin gak boleh ditebak. itu kalimat layak ditempel di loket
+threads-8.ts BULK[pak]: mesin pelan itu lebih akurat pak. nasabah pulang tenang -> Mesin pelan itu lebih akurat. nasabah pulang tenang
+threads-8.ts BULK[pak]: 12 menit buat 100 keping itu layanan, bukan kesalahan pak -> 12 menit buat 100 keping itu layanan, bukan kesalahan 
+threads-8.ts BULK[pak]: nasabah nanya kesal itu tanda dia gak curiga hasilnya pak. b -> Nasabah nanya kesal itu tanda dia gak curiga hasilnya. bagus
+threads-8.ts BULK[pak]: teller jujur soal durasi, langka pak. pertahankan -> Teller jujur soal durasi, langka. pertahankan
+threads-8.ts BULK[pak]: telat pak. nasabahnya tenang? 12 menit itu sah -> Telat. nasabahnya tenang? 12 menit itu sah
+threads-8.ts BULK[pak]: 17 posisi kosong pak, dan kalimat penutupnya lebih rapi dari -> 17 posisi kosong, dan kalimat penutupnya lebih rapi dari kat
+threads-8.ts BULK[pak]: 17 kosong itu 21% dari rak pak. wajar buat buku datang -> 17 kosong itu 21% dari rak. wajar buat buku datang
+threads-8.ts BULK[pak]: kosong adalah ruang yang dijanjikan. kalimat buku tertulis p -> Kosong adalah ruang yang dijanjikan. kalimat buku tertulis 
+threads-8.ts BULK[pak]: A1 sampai A20 itu penamaan yang rapi pak. gampang dicari -> A1 sampai A20 itu penamaan yang rapi. gampang dicari
+threads-8.ts BULK[pak]: 63 buku di 80 posisi itu 78,75% terisi pak. pas untuk awal -> 63 buku di 80 posisi itu 78,75% terisi. pas untuk awal
+threads-8.ts BULK[pak]: rak penuh itu rak yang gak bisa tumbuh pak -> Rak penuh itu rak yang gak bisa tumbuh 
+threads-8.ts BULK[pak]: kalau buku baru 17, rak penuh pas. hitungannya nyambung pak -> Kalau buku baru 17, rak penuh pas. hitungannya nyambung 
+threads-8.ts BULK[pak]: kode A1-A20 emang standar perpustakaan pak. bersih -> Kode A1-A20 emang standar perpustakaan. bersih
+threads-8.ts BULK[pak]: katalog 63 awal itu awal yang bagus pak. bukan sepi -> Katalog 63 awal itu awal yang bagus. bukan sepi
+threads-8.ts BULK[pak]: rak empat tumpuk itu standar akses tangan pak. gak perlu tan -> Rak empat tumpuk itu standar akses tangan. gak perlu tangga
+threads-8.ts BULK[pak]: telat pak. bukunya udah datang? 17 posisi itu cadangan -> Telat. bukunya udah datang? 17 posisi itu cadangan
+threads-9.ts BULK[bang]: 78 benar bang. jelasin pakai dua trapesium yang disusun sali -> 78 benar. jelasin pakai dua trapesium yang disusun saling ke
+threads-9.ts BULK[bu]: rumus itu bukan dibang bu, trapesium aslinya memang setengah -> Rumus itu bukan dibang, trapesium aslinya memang setengah ko
+threads-9.ts BULK[bang]: kasih dia kertas bang, gambar trapesium, salin terbalik, tem -> Kasih dia kertas, gambar trapesium, salin terbalik, tempel. 
+threads-9.ts BULK[bang]: 78 benar bang. 26 × 6 ÷ 2 = 78. dua kali dicek -> 78 benar. 26 × 6 ÷ 2 = 78. dua kali dicek
+threads-9.ts BULK[bang]: trapesium emang setengah kotak bang. gambar trapesium kedua  -> Trapesium emang setengah kotak. gambar trapesium kedua terba
+threads-9.ts BULK[bang]: 156 itu dua trapesium bang. adik lu lupa dibagi dua doang -> 156 itu dua trapesium. adik lu lupa dibagi dua doang
+threads-9.ts BULK[bang]: bantal guling bisa dipotong kertas jadi dua segitiga bang. i -> Bantal guling bisa dipotong kertas jadi dua segitiga. itu tr
+threads-9.ts BULK[bang]: adik yang ngeyel, sebenarnya mikir bang. dia cuma butuh gamb -> Adik yang ngeyel, sebenarnya mikir. dia cuma butuh gambar
+threads-9.ts BULK[bang]: telat bang. PR-nya udah dikumpul? 78 itu fix -> Telat. PR-nya udah dikumpul? 78 itu fix
+threads-9.ts BULK[bu]: 3⁴ = 81. dua kali dicek. jawaban bu cukup -> 3⁴ = 81. dua kali dicek. jawaban cukup
+threads-9.ts BULK[bu]: telat bu. adiknya udah paham? 81 itu fix -> Telat. adiknya udah paham? 81 itu fix
+threads-9.ts BULK[kak]: 3/12 ÷ 3... eh, 1/4 = 3/12 itu benar kak, karena 1 × 3 = 3 d -> 3/12 ÷ 3... eh, 1/4 = 3/12 itu benar, karena 1 × 3 = 3 dan 4
+threads-9.ts BULK[kak]: anak yang menangis tadi sebenarnya menemukan konsep pecahan  -> Anak yang menangis tadi sebenarnya menemukan konsep pecahan 
+threads-9.ts BULK[kak]: 1/4 = 3/12 bener kak. kali 3 atas bawah. dua bentuk, satu ku -> 1/4 = 3/12 bener. kali 3 atas bawah. dua bentuk, satu kue
+threads-9.ts BULK[kak]: gambar dua lingkaran kak: satu dibagi 4, satu dibagi 12, ars -> Gambar dua lingkaran: satu dibagi 4, satu dibagi 12, arsir s
+threads-9.ts BULK[kak]: kakaknya ketawa karena bentuk, bukan nilai kak. 3/12 = 1/4 -> Kakaknya ketawa karena bentuk, bukan nilai. 3/12 = 1/4
+threads-9.ts BULK[kak]: pecahan senilai itu teman, bukan musuh kak. kasih gambar, bu -> Pecahan senilai itu teman, bukan musuh. kasih gambar, bukan 
+threads-9.ts BULK[kak]: 1/4 kue itu sama dengan 3 potong dari 12 kak. bawa pisau aja -> 1/4 kue itu sama dengan 3 potong dari 12. bawa pisau aja wkw
+threads-9.ts BULK[kak]: anak bungsu nemu konsep senilai sendiri kak. itu calon matem -> Anak bungsu nemu konsep senilai sendiri. itu calon matematik
+threads-9.ts BULK[kak]: satu kue, dua cara potong kak. 4 bagian lawan 12 bagian -> Satu kue, dua cara potong. 4 bagian lawan 12 bagian
+threads-9.ts BULK[kak]: pecahan senilai itu identik kak. 1/4 dan 3/12 sepasang -> Pecahan senilai itu identik. 1/4 dan 3/12 sepasang
+threads-9.ts BULK[kak]: kue asli lebih jujur dari teori kak. potong beneran -> Kue asli lebih jujur dari teori. potong beneran
+threads-9.ts BULK[kak]: yang nangis tadi paham duluan kak. 3/12 = 1/4 -> Yang nangis tadi paham duluan. 3/12 = 1/4
+threads-9.ts BULK[kak]: telat kak. kuenya udah dimakan? 1/4 = 3/12 itu fix -> Telat. kuenya udah dimakan? 1/4 = 3/12 itu fix
+threads-9.ts BULK[kak]: rata 13 itu denyut kak. kardus ngikutin denyut, bukan hari t -> Rata 13 itu denyut. kardus ngikutin denyut, bukan hari terba
+threads-9.ts BULK[kak]: 18 dan 9 saling nutup kak. minggu depan beda lagi, makanya r -> 18 dan 9 saling nutup. minggu depan beda lagi, makanya rata 
+threads-9.ts BULK[kak]: 91 kardus itu 13 lusin lebih dikit kak. stok sehat -> 91 kardus itu 13 lusin lebih dikit. stok sehat
+threads-9.ts BULK[kak]: mulai dari 85 kardus kak. sisa minggu lalu dihitung juga -> Mulai dari 85 kardus. sisa minggu lalu dihitung juga
+threads-9.ts BULK[kak]: telat kak. kardusnya udah dateng? 91 itu patokannya -> Telat. kardusnya udah dateng? 91 itu patokannya
+threads-9.ts BULK[kak]: tambah 32 bangku tapi susun di akhir baris yang bolong juga  -> Tambah 32 bangku tapi susun di akhir baris yang bolong juga.
+threads-9.ts BULK[kak]: 248 ÷ 18 = 13,8 baris kak, jadi 14 baris. 14 × 18 = 252. ket -> 248 ÷ 18 = 13,8 baris, jadi 14 baris. 14 × 18 = 252. ketua p
+threads-9.ts BULK[kak]: 32 pindahan itu tepat jumlahnya kak. dua baris boros 4 dan m -> 32 pindahan itu tepat jumlahnya. dua baris boros 4 dan mento
+threads-9.ts BULK[kak]: pilih 32 pindahan kak. murah dan gak tabrak panggung -> Pilih 32 pindahan. murah dan gak tabrak panggung
+threads-9.ts BULK[kak]: bolong di akhir baris itu normal kok kak. undangan tetap pah -> Bolong di akhir baris itu normal kok. undangan tetap paham
+threads-9.ts BULK[kak]: minta maaf sambil pakai jaket 39.000 yang beneran dibeli, en -> Minta maaf sambil pakai jaket 39.000 yang beneran dibeli, en
+threads-9.ts BULK[pak]: persis pak, 1.000 cm³ = 1 liter = 1 dm³. dan 1 liter air ber -> Persis, 1.000 cm³ = 1 liter = 1 dm³. dan 1 liter air bermass
+threads-9.ts BULK[pak]: 72 liter itu akuarium yang layak pak. meja paling aman yang  -> 72 liter itu akuarium yang layak. meja paling aman yang meno
+threads-9.ts BULK[pak]: 36 kg air plus pasir plus tanaman, totalnya bisa 50 kg ke at -> 36 kg air plus pasir plus tanaman, totalnya bisa 50 kg ke at
+threads-9.ts BULK[pak]: persis pak. 1.000 cm³ = 1 liter by definition. 72 liter bene -> Persis. 1.000 cm³ = 1 liter by definition. 72 liter bener
+threads-9.ts BULK[pak]: 36 kg air itu berat pak. meja emang harus dihitung ulang -> 36 kg air itu berat. meja emang harus dihitung ulang
+threads-9.ts BULK[pak]: 1 dm³ = 1 liter = 1 kg air. tiga identitas satu paket pak -> 1 dm³ = 1 liter = 1 kg air. tiga identitas satu paket 
+threads-9.ts BULK[pak]: setengah 72 = 36. itu yang bikin meja mikir pak -> Setengah 72 = 36. itu yang bikin meja mikir 
+threads-9.ts BULK[pak]: plus kerikil sama dekorasi bisa nambah 10 kg pak. total 45-a -> Plus kerikil sama dekorasi bisa nambah 10 kg. total 45-an
+threads-9.ts BULK[pak]: kaki meja empat sudut itu bener pak. tengah meja paling lema -> Kaki meja empat sudut itu bener. tengah meja paling lemah
+threads-9.ts BULK[pak]: akuarium 60 cm panjang itu masih aman buat rak standar pak -> Akuarium 60 cm panjang itu masih aman buat rak standar 
+threads-9.ts BULK[pak]: 72 liter itu lebih dari setengah ember besar pak. kebayang b -> 72 liter itu lebih dari setengah ember besar. kebayang berat
+threads-9.ts BULK[pak]: konversi itu definisi, bukan perkiraan pak. meja yang harus  -> Konversi itu definisi, bukan perkiraan. meja yang harus ngan
+threads-9.ts BULK[pak]: isi 36 liter itu 36 kg. air emang berat pak. jangan disepele -> Isi 36 liter itu 36 kg. air emang berat. jangan disepelein
+threads-9.ts BULK[pak]: meja lama biasanya kuat, tapi cek sendinya pak -> Meja lama biasanya kuat, tapi cek sendinya 
+threads-9.ts BULK[pak]: telat pak. akuariumnya udah diisi? 72 liter itu fix -> Telat. akuariumnya udah diisi? 72 liter itu fix
+threads-9.ts BULK[kak]: temanmu mendefinisikan tengah, soal menanyakan terbanyak. du -> Temanmu mendefinisikan tengah, soal menanyakan terbanyak. du
+threads-9.ts BULK[kak]: modus itu mode, yang paling sering muncul kak. 4-4-4 itu buk -> Modus itu mode, yang paling sering muncul. 4-4-4 itu bukti, 
+threads-9.ts BULK[bu]: 11.000 itu 8,8% dari harga 10 kilo. gede juga sih bu -> 11.000 itu 8,8% dari harga 10 kilo. gede juga sih 
+threads-9.ts BULK[bu]: anak yang kena panci jatuh, biayanya gak kehitung bu -> Anak yang kena panci jatuh, biayanya gak kehitung 
+threads-9.ts BULK[bu]: dua karung 5 kilo lebih gampang diangkat juga bu. punggung i -> Dua karung 5 kilo lebih gampang diangkat juga. punggung ikut
+threads-9.ts BULK[bu]: 12.500 per kilo itu bener bu. hitungan 10 kilo menang -> 12.500 per kilo itu bener. hitungan 10 kilo menang
+threads-9.ts BULK[bu]: telat bu. berasnya udah masuk? 12.500 per kilo itu bener -> Telat. berasnya udah masuk? 12.500 per kilo itu bener

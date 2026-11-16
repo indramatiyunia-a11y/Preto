@@ -629,6 +629,36 @@ CATATAN TEKNIS tetap: regenerasi threads-41..60 wajib fix authorId post
   Administration write pada fine-grained PAT) → dipakai repo Preto yang ada.
 - Regenerasi dari nol bila sandbox hilang:
       git clone https://github.com/indramatiyunia-a11y/Preto.git
+## REVISI DETEKSI BOT (16 Nov 2026) — SAPAAN ANONIM + KOMENTAR KLONING
+
+- Pemicu: user menunjuk komentar botlike ("telat bang. udah kejawab kan?",
+  "telat mbak. udah kejawab di sekolah?") + pesan: jangan bawa-bawa klaim
+  mbak/bang/nenek/om — semua anonim, tidak mungkin tahu lawan bicara.
+- Scan awal: 1.320 sapaan di 18 file. Dihapus 1.204 (kak 311, pak 301,
+  bu 267, om 110, bang 88, dik 52, mbak 49, mba 1, kakak 4, bunda/bapak/
+  mas 4). DISIMPAN dengan alasan (FORMULA HITAM 21): persona grounded
+  (nenek 36, teh pasar, bunda 17), tokoh cerita orang ketiga (om 20,
+  abang 5, bu kos/guru 4, adik 28, kakak 13, ibu/bapak, ayah), homograf
+  sah (dek kartu 4, sendok teh, teh minuman, KAKAK/MAMA soal permutasi).
+- Ciri bot #2 ikut dihancurkan (total ±5.900 komentar disentuh, ~26% dari
+  22.881): "iya pas" 1.756x / "jawaban post semua kuku" 1.083x / "jawaban
+  post lengkap" 968x sama persis lintas author -> pool varian + kap 12;
+  junk meta "iya, b41/b33/b40/b43 juga" 78x -> dibuang; 5 template
+  "susulan ..." 57-72x lintas author -> parafrasa per tema; skeleton
+  "telat dari arsip. X. tuntas" +-900x (ada author 10x) -> keep 1 per
+  author; 412 pasangan kembar per-author (ratio >= 0.85) -> parafrasa
+  (sisa 7 = skeleton wajar angka beda); 85 artefak "semua semua" bersih;
+  2 komentar tertelan penggantian (threads-46/57) direkonstruksi dari
+  git HEAD.
+- ANGKA TIDAK BERUBAH: 1518 post (1500 batch + 18 intl), 22881 komentar,
+  id/authorId/minutesAgo/urutan feed utuh.
+- Audit: audit-full "SEMUA AMAN"; cek-matematika-v5 LOLOS; cek-komen-aturan
+  LOLOS; validate-threadz 1 masalah intl campur = PRE-EXISTING (intl &
+  users.ts tak disentuh); error tsc semuanya di file lain (pre-existing).
+- Hukum baru: FORMULA HITAM 21 (sapaan anonim) + 22 (template kloning) di
+  rumus-v2.md. WAJIB sebelum batch baru: python3 scripts/scan_sapaan.py
+  (harus pas 110) + deteksi kembar di scripts/fix_sapaan_1d.py.
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.
