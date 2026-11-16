@@ -47,6 +47,8 @@ import { THREADS_PART45 } from "./data/threads-45"
 import { THREADS_PART46 } from "./data/threads-46"
 import { THREADS_PART47 } from "./data/threads-47"
 import { THREADS_PART48 } from "./data/threads-48"
+import { THREADS_PART49 } from "./data/threads-49"
+import { THREADS_PART50 } from "./data/threads-50"
 import { THREADS_PART_INTL } from "./data/threads-intl"
 
 // ===========================================================================
@@ -126,6 +128,8 @@ export const THREADS: ThreadzThread[] = [
   ...THREADS_PART46,
   ...THREADS_PART47,
   ...THREADS_PART48,
+  ...THREADS_PART49,
+  ...THREADS_PART50,
   // post internasional (full Arab/EN/FR/ES/ZH) — file terpisah sesuai
   // perintah user, biar gak kecampur sama batch Indonesia.
   ...THREADS_PART_INTL,
