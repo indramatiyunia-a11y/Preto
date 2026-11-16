@@ -97,7 +97,7 @@ def build2(T, first_id, fname, part, batch, author, *rest):
     if checks:
         lines = []
         for (label, expr, expected) in checks:
-            lines.append('ok("%s", %s, "%s")' % (label, expr, expected))
+            lines.append('ok("%s", String(%s), "%s")' % (label, expr, expected))
         with open("/home/z/my-project/scripts/gen/chk%d.txt" % batch, "w") as f:
             f.write("console.log(\"=== batch %d ===\")\n" % batch)
             f.write("\n".join(lines) + "\n")
