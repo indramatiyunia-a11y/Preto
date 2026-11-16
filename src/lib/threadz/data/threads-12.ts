@@ -30,7 +30,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 88, minutesAgo: 8081, content: "3024. 9^4 itu termasuk PIN 1111, jelas gak boleh" },
       { authorId: 352, minutesAgo: 8048, content: "jawaban 3024 dan 4536. dua-duanya di atas udah kuku" },
       { authorId: 209, minutesAgo: 8016, content: "PR gue mirip: kode 3 huruf beda dari 26. 26×25×24 = 15600 kan?" },
-      { authorId: 473, minutesAgo: 7500, content: "telat mampir. 3024, dan versi pakai 0 = 4536. dua-duanya dibahas di atas" },
+      { authorId: 473, minutesAgo: 7500, content: "3024, dan versi pakai 0 = 4536. dua-duanya dibahas di atas" },
     ],
   },
   {
@@ -78,7 +78,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 27, minutesAgo: 8188, content: "D = b² − 4ac. a-nya 1 di sini, jangan lupa" },
       { authorId: 480, minutesAgo: 8169, content: "PR mirip: x² + kx + 16 akar kembar → k = ±8 ya?" },
       { authorId: 306, minutesAgo: 8149, content: "iya dua-duanya, k = 8 sama k = −8. kembarnya beda tempat" },
-      { authorId: 63, minutesAgo: 7480, content: "telat dari arsip. c = 9, (x+3)², akar −3 kembar. udah kuku di atas" },
+      { authorId: 63, minutesAgo: 7480, content: "C = 9, (x+3)², akar −3 kembar. udah kuku di atas" },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 149, minutesAgo: 8195, content: "0,142857142857... itu 1/7, blok enam digit. pakai trik: 999999x = 142857" },
       { authorId: 284, minutesAgo: 8177, content: "142857 angka sirkular favorit. kali 2 jadi 285714 wkwk" },
       { authorId: 53, minutesAgo: 8158, content: "jawaban 4/11 dan 5/6. dua-duanya sudah dicek balik" },
-      { authorId: 478, minutesAgo: 7540, content: "telat. pengali mengikuti panjang blok, sisanya kurangin. 4/11 dan 5/6 pas" },
+      { authorId: 478, minutesAgo: 7540, content: "Pengali mengikuti panjang blok, sisanya kurangin. 4/11 dan 5/6 pas" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 44, minutesAgo: 8152, content: "layang-layang rumus luas sama ½d1d2 tapi cuma dua sisi yang sama panjang" },
       { authorId: 307, minutesAgo: 8138, content: "itu pembeda penting. belah ketupat empat sisi sama" },
       { authorId: 171, minutesAgo: 8125, content: "96, 40. udah tuntas di atas" },
-      { authorId: 489, minutesAgo: 7430, content: "telat. 96 cm², sisi 10, keliling 40. bukti Pythagoras di atas" },
+      { authorId: 489, minutesAgo: 7430, content: "96 cm², sisi 10, keliling 40. bukti Pythagoras di atas" },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 315, minutesAgo: 8286, content: "susulan: kalau alasnya segitiga sama sisi sisi 10, tinggi segitiga 5√3 ≈ 8,66" },
       { authorId: 140, minutesAgo: 8269, content: "8,66 tuh. √3/2 × 10" },
       { authorId: 385, minutesAgo: 8252, content: "soal prisma favorit guru. rumusnya luas alas kali tinggi prisma, jangan ketuker" },
-      { authorId: 499, minutesAgo: 7610, content: "telat dari arsip. 360 liter dan 408 dm² kain. semua kuku di atas" },
+      { authorId: 499, minutesAgo: 7610, content: "360 liter dan 408 dm² kain. semua kuku di atas" },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 130, minutesAgo: 8262, content: "jawaban 1/8 dan 3/8. dua jalur di atas" },
       { authorId: 402, minutesAgo: 8245, content: "gaya paling gampang: gambar pohon kemungkinan. adik langsung paham biasanya" },
       { authorId: 212, minutesAgo: 8228, content: "pohon kemungkinan klasik, 8 cabang ujungnya" },
-      { authorId: 460, minutesAgo: 7750, content: "telat lewat. 1/8 semua gambar, 3/8 tepat dua. adik udah dijawab pakai daftar 8 baris" },
+      { authorId: 460, minutesAgo: 7750, content: "1/8 semua gambar, 3/8 tepat dua. adik udah dijawab pakai daftar 8 baris" },
     ],
   },
   {
@@ -231,7 +231,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 273, minutesAgo: 8368, content: "susulan: 8 + 4 × 9 ÷ 4 kalau kurungnya dibuka, sama 17 juga" },
       { authorId: 50, minutesAgo: 8349, content: "iya, kurungnya emang hasilnya 4, sama aja" },
       { authorId: 468, minutesAgo: 8329, content: "soal 5 poin tapi debatnya gede wkwk. jawab 17" },
-      { authorId: 139, minutesAgo: 7660, content: "telat. 17, urutannya kurung-kali-bagi-tambah. di atas udah kuku" },
+      { authorId: 139, minutesAgo: 7660, content: "17, urutannya kurung-kali-bagi-tambah. di atas udah kuku" },
     ],
   },
   {
@@ -259,7 +259,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 319, minutesAgo: 8294, content: "soal pipa/bak suka mirip gini. debitnya yang dijumlah" },
       { authorId: 106, minutesAgo: 8277, content: "iya prinsipnya sama: laju dijumlah, waktu ngefek" },
       { authorId: 451, minutesAgo: 8260, content: "2 dan 1 jam. dua jalur di atas sudah cocok" },
-      { authorId: 90, minutesAgo: 7830, content: "telat. 2 jam berdua, 1 jam bertiga, rumus ab/(a+b). tuntas" },
+      { authorId: 90, minutesAgo: 7830, content: "2 jam berdua, 1 jam bertiga, rumus ab/(a+b). tuntas" },
     ],
   },
   {
@@ -284,7 +284,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 69, minutesAgo: 8398, content: "2/5 × 240 = 96, 3/5 × 240 = 144. dua angka ini pintu masuknya" },
       { authorId: 393, minutesAgo: 8383, content: "rata-rata efektifnya 200/3 ≈ 66,67 km/jam" },
       { authorId: 137, minutesAgo: 8368, content: "66,67 pas, 240 dibagi 3,6" },
-      { authorId: 445, minutesAgo: 7740, content: "telat. 3 jam 36 menit, rata-rata efektif 200/3. di atas udah kuku" },
+      { authorId: 445, minutesAgo: 7740, content: "3 jam 36 menit, rata-rata efektif 200/3. di atas udah kuku" },
     ],
   },
   {
@@ -306,7 +306,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 347, minutesAgo: 8477, content: "lingkaran dalam persegi selalu d = sisi. gampang diinget" },
       { authorId: 122, minutesAgo: 8463, content: "42 cm². jawaban final kalau soalnya 22/7" },
       { authorId: 301, minutesAgo: 8449, content: "wkwk pojok-pojoknya bisa buat naro stiker kecil" },
-      { authorId: 79, minutesAgo: 7710, content: "telat dari arsip. 42 (22/7) atau 42,14 (3,14). ikutin petunjuk soal" },
+      { authorId: 79, minutesAgo: 7710, content: "42 (22/7) atau 42,14 (3,14). ikutin petunjuk soal" },
     ],
   },
   {
@@ -336,7 +336,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 66, minutesAgo: 8362, content: "oh iya, bedanya koefisien x hilang. rapi" },
       { authorId: 471, minutesAgo: 8348, content: "soal komposisi suka dikasih di tengah ulangan, mepet waktu" },
       { authorId: 211, minutesAgo: 8335, content: "jawaban post 9 dan 10, dua-duanya bener" },
-      { authorId: 383, minutesAgo: 7640, content: "telat dari simpanan. kanan dulu baru kiri, 9 dan 10. tuntas" },
+      { authorId: 383, minutesAgo: 7640, content: "Kanan dulu baru kiri, 9 dan 10. tuntas" },
     ],
   },
   {
@@ -357,7 +357,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 8518, content: "hexagon 9 diagonal, bisa dicek gambar langsung" },
       { authorId: 228, minutesAgo: 8499, content: "9 bener, dua layang-layang silang" },
       { authorId: 417, minutesAgo: 8479, content: "rumus ini keluar di olim juga, bukan cuma sekolah" },
-      { authorId: 178, minutesAgo: 7810, content: "telat dari arsip. segi-12 = 54, 20 diagonal = segi-8. dua-duanya kuku" },
+      { authorId: 178, minutesAgo: 7810, content: "Segi-12 = 54, 20 diagonal = segi-8. dua-duanya kuku" },
     ],
   },
   {
@@ -384,7 +384,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 321, minutesAgo: 8471, content: "jawaban: 20% dasar beli, 16,67% dasar jual. tulis dasarnya biar gak disalahin" },
       { authorId: 186, minutesAgo: 8452, content: "guru gue nambah: kena pajak 10% dari harga jual, sisa untung berapa?" },
       { authorId: 94, minutesAgo: 8433, content: "216 × 0,9 = 194.400, untung sisa 14.400" },
-      { authorId: 481, minutesAgo: 7990, content: "telat dari arsip: 20% dasar beli, 16,67% dasar jual, dan naik-turun persen gak simetris. semua di atas" },
+      { authorId: 481, minutesAgo: 7990, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -407,7 +407,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 156, minutesAgo: 8556, content: "√(25+16) = √41 ≈ 6,4 yang menang" },
       { authorId: 396, minutesAgo: 8539, content: "6,403 tuh. √41. soal laba klasik olim, suka dimodifikasi balok" },
       { authorId: 82, minutesAgo: 8522, content: "jawaban 2√5 ≈ 4,47. catet bedanya sama diagonal ruang 2√3 ≈ 3,46" },
-      { authorId: 457, minutesAgo: 7880, content: "telat. permukaan 2√5, ruang 2√3, dua konsep beda dunia. tuntas" },
+      { authorId: 457, minutesAgo: 7880, content: "Permukaan 2√5, ruang 2√3, dua konsep beda dunia. tuntas" },
     ],
   },
   {
@@ -436,7 +436,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 404, minutesAgo: 8501, content: "nah itu cara bener buat ulangan, rasio digeser" },
       { authorId: 283, minutesAgo: 8483, content: "9:600:375 tuh. cantik banget angkanya" },
       { authorId: 94, minutesAgo: 8465, content: "1,5 kali semua. tuntas dua jalur" },
-      { authorId: 466, minutesAgo: 7730, content: "telat dari arsip. tepung 600 g, gula 375 g, skala 1,5. kuku semua" },
+      { authorId: 466, minutesAgo: 7730, content: "Tepung 600 g, gula 375 g, skala 1,5. kuku semua" },
     ],
   },
   {
@@ -460,7 +460,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 75, minutesAgo: 8585, content: "PR gue: (4/9)^(1/2) = 2/3 kan?" },
       { authorId: 172, minutesAgo: 8567, content: "iya 2/3. pembilang sama penyebut diakarin" },
       { authorId: 359, minutesAgo: 8548, content: "jawaban post 9, 8, 125, 1/2. empat-empatnya aman" },
-      { authorId: 297, minutesAgo: 7930, content: "telat dari arsip. pangkat minus = kebalikan, bukan minus. 1/2 udah dibuktiin dua jalur" },
+      { authorId: 297, minutesAgo: 7930, content: "Pangkat minus = kebalikan, bukan minus. 1/2 udah dibuktiin dua jalur" },
     ],
   },
   {
@@ -486,7 +486,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 8592, content: "4/663 ≈ 0,6%. makin spesifik makin kecil" },
       { authorId: 330, minutesAgo: 8575, content: "kenapa 4/51? karena satu kartu udah keluar, sisa 51" },
       { authorId: 193, minutesAgo: 8558, content: "jawaban post semua bener: 2/13, 1/52, 4/13" },
-      { authorId: 115, minutesAgo: 8080, content: "telat dari arsip. koreksi dobel As hati tepat, dan hati-keriting = 1/2. tuntas semua" },
+      { authorId: 115, minutesAgo: 8080, content: "Koreksi dobel As hati tepat, dan hati-keriting = 1/2. tuntas semua" },
     ],
   },
   {
@@ -507,7 +507,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 138, minutesAgo: 8698, content: "hafalin jumlah hari: April Juni September November itu 30" },
       { authorId: 318, minutesAgo: 8679, content: "pepatah lama: 30 hari punya September, April, Juni dan November" },
       { authorId: 79, minutesAgo: 8659, content: "sisanya 31, kecuali Februari 28 atau 29" },
-      { authorId: 446, minutesAgo: 7990, content: "telat dari pencarian: Jumat. sisa 2 hari dari 30. udah kuku di atas" },
+      { authorId: 446, minutesAgo: 7990, content: "Sisa 2 hari dari 30. udah kuku di atas" },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 389, minutesAgo: 8624, content: "tuliskan syaratnya dulu bre, baru angka" },
       { authorId: 129, minutesAgo: 8607, content: "6. udah final" },
       { authorId: 288, minutesAgo: 8590, content: "final banget wkwk, sisa 12rb pas buat ongkos" },
-      { authorId: 413, minutesAgo: 8160, content: "telat dari arsip. n ≤ 6, tanda pembagi negatif dibalik. kuku" },
+      { authorId: 413, minutesAgo: 8160, content: "N ≤ 6, tanda pembagi negatif dibalik. kuku" },
     ],
   },
   {
@@ -557,7 +557,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 313, minutesAgo: 8711, content: "13-14-15 emang standar soal Heron, luasnya 84 hafalan berat" },
       { authorId: 170, minutesAgo: 8678, content: "s itu semiperimeter ya, bukan sisi. biar gak ketuker" },
       { authorId: 64, minutesAgo: 8646, content: "iya s = (a+b+c)/2. 42/2 = 21" },
-      { authorId: 250, minutesAgo: 8130, content: "telat dari arsip. luas 84, tinggi ke sisi 14 = 12. Heron + cek balik, dua jalur" },
+      { authorId: 250, minutesAgo: 8130, content: "Luas 84, tinggi ke sisi 14 = 12. Heron + cek balik, dua jalur" },
     ],
   },
   {
@@ -582,7 +582,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 8758, content: "385, 55, 650, 225. empat angka satu keluarga" },
       { authorId: 289, minutesAgo: 8743, content: "presentasi kelompok dengan cek dua jalur, guru pasti suka" },
       { authorId: 394, minutesAgo: 8728, content: "tulis 10×11×21/6 di slide biar keliatan jalannya" },
-      { authorId: 196, minutesAgo: 8100, content: "telat dari arsip: 385, sampai 12 jadi 650, kubik 1..5 = 225. semua kuku" },
+      { authorId: 196, minutesAgo: 8100, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -612,7 +612,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 406, minutesAgo: 8692, content: "iya statusnya berubah 2006, tapi hitungannya tetep jalan" },
       { authorId: 137, minutesAgo: 8678, content: "jawaban post 500 detik dan 1,28 detik. dua-duanya kuku" },
       { authorId: 349, minutesAgo: 8665, content: "matahari 8m20d, bulan 1,28 dtk, pluto 5 jam. tiga jarak tiga waktu" },
-      { authorId: 474, minutesAgo: 7970, content: "telat dari arsip. 500 detik ke matahari, 1,28 ke bulan. notasi ilmiah bikin cepet" },
+      { authorId: 474, minutesAgo: 7970, content: "500 detik ke matahari, 1,28 ke bulan. notasi ilmiah bikin cepet" },
     ],
   },
   {
@@ -635,7 +635,7 @@ export const THREADS_PART12: ThreadzThread[] = [
       { authorId: 96, minutesAgo: 8826, content: "(6,4) kuadran I. tiga transformasi, tiga cek posisi" },
       { authorId: 201, minutesAgo: 8809, content: "matriks rotasi searah jam: baris pertama 0 1, baris kedua −1 0. hasil (3,−2) pas" },
       { authorId: 391, minutesAgo: 8792, content: "iya matriksnya benar. 0×2+1×3 = 3 dan −1×2+0×3 = −2" },
-      { authorId: 483, minutesAgo: 8150, content: "telat dari arsip: (3,−2), (3,2), (6,4). tiga langkah kuku semua" },
+      { authorId: 483, minutesAgo: 8150, content: "yang bikin mikir di soal ini 2,3-nya" },
     ],
   },
 ]

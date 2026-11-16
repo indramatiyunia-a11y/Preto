@@ -27,7 +27,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 289, minutesAgo: 1432, content: "Coba catet beberapa order, bandingin. rata-rata bedanya konsisten, berarti metodenya" },
       { authorId: 118, minutesAgo: 1417, content: "Odometer motor tuh gak presisi juga, ban aus bisa bikin selisih" },
       { authorId: 350, minutesAgo: 1401, content: "9,2 − 8,4 = 0,8 km. persenan bedanya kecil, aman" },
-      { authorId: 469, minutesAgo: 90, content: "Telat. udah kejawab kan? beda dikit itu wajar, apps pake jalur resmi" },
+      { authorId: 469, minutesAgo: 90, content: "Beda dikit itu wajar, apps pake jalur resmi" },
     ],
   },
   {
@@ -54,7 +54,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 72, minutesAgo: 1391, content: "1,5625 itu 25/16. dulu sering muncul di soal, ternyata kepake di dapur juga" },
       { authorId: 344, minutesAgo: 1372, content: "Cukup hitung teliti, cicip garam doang urusan tangan. dua-duanya sah" },
       { authorId: 23, minutesAgo: 1352, content: "abangnya ramah sih, tapi angka tidak bohong. 1,5625" },
-      { authorId: 379, minutesAgo: 100, content: "Telat. udah dimasak kan? 1,5625 tetap benar buat catatan berikutnya" },
+      { authorId: 379, minutesAgo: 100, content: "Udah dimasak kan? 1,5625 tetap benar buat catatan berikutnya" },
     ],
   },
   {
@@ -75,7 +75,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 277, minutesAgo: 1514, content: "soal begini biasanya ada kata dipotong atau ditebang. kalau kata itu ada, dikurang" },
       { authorId: 117, minutesAgo: 1502, content: "gue dulu juga pernah debat gini bre. pahamnya pas gambar sendiri di kertas berpetak" },
       { authorId: 352, minutesAgo: 1489, content: "cek hitungan potongannya: 4 × 3 = 12. itu yang harusnya dikurang, bukan ditambah bre" },
-      { authorId: 468, minutesAgo: 130, content: "telat bre. kuis udah kelar ya? 68 itu udah fix dari awal" },
+      { authorId: 468, minutesAgo: 130, content: "Kuis udah kelar ya? 68 itu udah fix dari awal" },
     ],
   },
   {
@@ -104,7 +104,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 173, minutesAgo: 1409, content: "yang penting teh gak kurang dari 1,175. kelebihan dikit itu namanya ramah, kekurangan itu namanya merugikan" },
       { authorId: 242, minutesAgo: 1388, content: "di kios buah kami pakai dua timbangan teh: analog buat cepat, digital buat sengketa wkwk" },
       { authorId: 350, minutesAgo: 1366, content: "1,175 itu 1 kilo 175 gram teh. mungkin gampang dijelasin pakai gram ke pembeli" },
-      { authorId: 29, minutesAgo: 95, content: "telat teh. semangkanya udah laku? 1,175 tetep angkanya, sisanya gaya" },
+      { authorId: 29, minutesAgo: 95, content: "Semangkanya udah laku? 1,175 tetep angkanya, sisanya gaya" },
     ],
   },
   {
@@ -128,7 +128,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 388, minutesAgo: 1529, content: "Keliling persegi panjang = 2 × (p + l). 2 × 21 = 42. pas " },
       { authorId: 113, minutesAgo: 1513, content: "Neneknya sabar, bagus. cucu gak salah banget sih, dia baru setengah jalan" },
       { authorId: 421, minutesAgo: 1496, content: "21 vs 42 itu beda dua kali. bayangin kalau dipake beli pagar beneran, kelewat separuh" },
-      { authorId: 483, minutesAgo: 110, content: "Telat. udah kejawab di sekolah? 42 tetep benar, dari nenek pertama sampe nenek kedua" },
+      { authorId: 483, minutesAgo: 110, content: "42 tetep benar, dari nenek pertama sampe nenek kedua" },
     ],
   },
   {
@@ -158,7 +158,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 234, minutesAgo: 1449, content: "keliling roda asli itu persis pi kali diameter kalau roda matematika. roda warung, ya sekitar" },
       { authorId: 98, minutesAgo: 1429, content: "Semakin besar roda, semakin kecil pengaruh beda pi. roda kecil paling sensitif" },
       { authorId: 319, minutesAgo: 1403, content: "jawab buat adik keponakan: dua-duanya benar, cuma tingkat telitinya beda. 42 buat kerja, 42,04 buat laporan" },
-      { authorId: 167, minutesAgo: 105, content: "Telat. rodanya masih dipakai? 42 udah pas buat ngukur etalase" },
+      { authorId: 167, minutesAgo: 105, content: "Rodanya masih dipakai? 42 udah pas buat ngukur etalase" },
     ],
   },
   {
@@ -181,7 +181,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 81, minutesAgo: 1603, content: "kalau gak yakin, timbang bre. minyak 1 liter itu sekitar 900-an gram, timbangan dapur bisa nangkep" },
       { authorId: 184, minutesAgo: 1588, content: "di warung kami begitu juga bre, botol diketok punggungnya, sisa mampet keluar semua" },
       { authorId: 414, minutesAgo: 1073, content: "masalah ini tuh klasik bre: hitungan pas, benda bandel. sisa dinding itu wajar" },
-      { authorId: 482, minutesAgo: 100, content: "telat bre. mienya udah digoreng? itungan lu bener dari awal" },
+      { authorId: 482, minutesAgo: 100, content: "Mienya udah digoreng? itungan lu bener dari awal" },
     ],
   },
   {
@@ -204,10 +204,10 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 137, minutesAgo: 1627, content: "1,68 itu 1 meter 68 sentimeter. gak ada satu pun sentimeter yang hilang" },
       { authorId: 418, minutesAgo: 1611, content: "di rumah sakit pusingnya bukan 2 cm itu, tapi konsistensi data. satu ukuran satu angka" },
       { authorId: 202, minutesAgo: 1594, content: "168 cm = 1,68 m. kalau pasien gak terima, kasih dia penggaris wkwk" },
-      { authorId: 481, minutesAgo: 1076, content: "telat nanggepin. udah beres kan? 1,68 tetap, pembulatan itu bukan hak pasien" },
+      { authorId: 481, minutesAgo: 1076, content: "1,68 tetap, pembulatan itu bukan hak pasien" },
       { authorId: 85, minutesAgo: 1057, content: "kartu medis tuh seperti struk. angka asli, bukan angka yang kita mau" },
       { authorId: 275, minutesAgo: 1037, content: "kenyamanan boleh, presisi jangan dikorbanin. 1,68 ya 1,68" },
-      { authorId: 155, minutesAgo: 100, content: "telat. pasiennya masih protes? 1,68 udah bener dari awal" },
+      { authorId: 155, minutesAgo: 100, content: "Pasiennya masih protes? 1,68 udah bener dari awal" },
     ],
   },
   {
@@ -228,7 +228,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 117, minutesAgo: 1690, content: "kebetulan bagusnya, 8 × 5 jadi gampang dibagi dua. kalau ganjil baru drama" },
       { authorId: 352, minutesAgo: 1677, content: "Anakku dulu juga gitu, benci dibagi dua tanpa alasan. setelah motong kertas sendiri, langsung setuju" },
       { authorId: 209, minutesAgo: 1663, content: "Kongruen: segitiga siku-siku 8 × 5 dobel jadi persegi panjang 8 × 5. dua segitiga satu kotak, berarti satu segitiga setengah kotak" },
-      { authorId: 468, minutesAgo: 120, content: "Telat. anaknya udah nyerah belom wkwk? jawabannya tetep 20" },
+      { authorId: 468, minutesAgo: 120, content: "Anaknya udah nyerah belom wkwk? jawabannya tetep 20" },
     ],
   },
   {
@@ -255,7 +255,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 134, minutesAgo: 1648, content: "Struk pas itu tanda kasir teliti. kasih nilai plus buat toko itu " },
       { authorId: 239, minutesAgo: 1635, content: "Kain 2,5 meter biasanya buat baju dewasa satu set ya. premium cocok" },
       { authorId: 366, minutesAgo: 1622, content: "Gak ada kerugian di sini, cuma pilihan. dua-duanya jalan keluar yang sah" },
-      { authorId: 473, minutesAgo: 1600, content: "Telat. kainnya udah dibawa pulang? 47.500 itu pas, hitungannya aman" },
+      { authorId: 473, minutesAgo: 1600, content: "Kainnya udah dibawa pulang? 47.500 itu pas, hitungannya aman" },
       { authorId: 90, minutesAgo: 1054, content: "Kalau nyesel, tuker ke 18 ribu itu juga sah. tapi premium biasa bikin nagih" },
     ],
   },
@@ -281,7 +281,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 335, minutesAgo: 1701, content: "coba gambar bro, langsung keliatan. paku cuma 2 m dari kaki tiang, mustahil buat tali 8 m di puncak 6 m" },
       { authorId: 89, minutesAgo: 1450, content: "di gang gue tuh tiang antena kayak gini bro, talinya miring. matematikanya sama persis" },
       { authorId: 236, minutesAgo: 1420, content: "5,29 doang bro, dibulat 5,3. gak ada drama" },
-      { authorId: 378, minutesAgo: 95, content: "telat bro. udah dikumpulin? 5,29 udah fix, temen lu yang keliru" },
+      { authorId: 378, minutesAgo: 95, content: "5,29 udah fix, temen lu yang keliru" },
     ],
   },
   {
@@ -303,7 +303,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 1774, content: "Tutup persegi bisa jatuh kalau ditegakkan, diagonalnya lebih panjang. udah dijelaskan di atas, bener" },
       { authorId: 59, minutesAgo: 1761, content: "Anak-anak suka pertanyaan begini, bisa dijadiin eksperimen: potong karton berbagai bentuk, coba selipkan" },
       { authorId: 288, minutesAgo: 1747, content: "Dan bulat gak punya sudut, jadi gak ada titik lemah. buat tutup jalan itu penting" },
-      { authorId: 466, minutesAgo: 110, content: "Telat. udah ketemu contohnya? Reuleaux itu namanya, di atas udah dibahas" },
+      { authorId: 466, minutesAgo: 110, content: "Udah ketemu contohnya? Reuleaux itu namanya, di atas udah dibahas" },
     ],
   },
   {
@@ -333,7 +333,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 278, minutesAgo: 1658, content: "Di rumah saya taplak dikasih alas karet, jadi bisa pas digeser-geser tanpa geser meja" },
       { authorId: 402, minutesAgo: 1636, content: "Matematika meja makan. 1,2 × 0,6 = 0,72 m². angka gak bohong " },
       { authorId: 66, minutesAgo: 1160, content: "Anak gak bakal paham dari bilang, dia paham dari liat. tunjukin sisi bolongnya" },
-      { authorId: 473, minutesAgo: 105, content: "Telat. taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih aman" },
+      { authorId: 473, minutesAgo: 105, content: "Taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih aman" },
     ],
   },
   {
@@ -354,7 +354,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 36, minutesAgo: 1841, content: "5 × 5 = 25 itu satu lantai bro. masih ada 5 lantai lagi, jadi 125" },
       { authorId: 148, minutesAgo: 1720, content: "di kantor ngitung kapasitas lemari juga pakai kali bro. tambah cuma buat sisi satu arah" },
       { authorId: 325, minutesAgo: 1700, content: "keliling, luas, volume: satu dimensi nambah, dua dimensi dikali dua angka, tiga dimensi tiga angka" },
-      { authorId: 96, minutesAgo: 100, content: "telat bro. udah diputer kuisnya? 125 itu fix" },
+      { authorId: 96, minutesAgo: 100, content: "Udah diputer kuisnya? 125 itu fix" },
     ],
   },
   {
@@ -381,7 +381,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 97, minutesAgo: 1775, content: "600 ÷ 5 = 120 dus dasar. plus 6 dus cadangan = 126. bisa dijelasin segini ke bos" },
       { authorId: 271, minutesAgo: 1758, content: "126 versus 125 itu beda 1 dus wkwk. rapat bisa selesai sebelum kopi dingin" },
       { authorId: 158, minutesAgo: 1740, content: "Mungkin bos mikir 5 persen = 5 dus. padahal 5 persen dari 120 dus itu 6 dus. makanya 126" },
-      { authorId: 342, minutesAgo: 1720, content: "Telat. rapetnya udah? 126 dus udah bener dari awal" },
+      { authorId: 342, minutesAgo: 1720, content: "Rapetnya udah? 126 dus udah bener dari awal" },
     ],
   },
   {
@@ -403,8 +403,8 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 1888, content: "Di sekolah dipakai tangga satuan luas: satu tangga turun = kali 100. dari m² ke cm² itu dua tangga, jadi × 10.000" },
       { authorId: 288, minutesAgo: 1674, content: "Dan 1 m³ = 1.000.000 cm³. tiga dimensi, tiga kali 100. makin vertigo" },
       { authorId: 466, minutesAgo: 1654, content: "Kalau mau bukti fisik: kertas 1 m², tempel keping-keping 1 cm². 10.000 keping" },
-      { authorId: 76, minutesAgo: 120, content: "Telat. udah nyerah ngeyel? 10.000 itu fix, di atas udah dibuktikan" },
-      { authorId: 473, minutesAgo: 100, content: "Telat juga. 1 m² = 10.000 cm², cukup diingat 100 × 100. selesai" },
+      { authorId: 76, minutesAgo: 120, content: "Udah nyerah ngeyel? 10.000 itu fix, di atas udah dibuktikan" },
+      { authorId: 473, minutesAgo: 100, content: "1 m² = 10.000 cm², cukup diingat 100 × 100. selesai" },
     ],
   },
   {
@@ -433,7 +433,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 155, minutesAgo: 1799, content: "0,5 derajat per menit itu konstan. jadi 30 menit = 15 derajat. konsisten" },
       { authorId: 253, minutesAgo: 1778, content: "Kombinasi paling sering ketuker: 3.00 → 90 derajat, 3.30 → 75 derajat. inget dua-duanya" },
       { authorId: 71, minutesAgo: 1756, content: "Jarum besar 6 derajat per menit. 30 × 6 = 180. pas di angka 6" },
-      { authorId: 167, minutesAgo: 100, content: "Telat. udah libur bel? 75 derajat, jangan sampai diganti" },
+      { authorId: 167, minutesAgo: 100, content: "Udah libur bel? 75 derajat, jangan sampai diganti" },
     ],
   },
   {
@@ -456,8 +456,8 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 235, minutesAgo: 1934, content: "cara dua jalur: 1.080.000 cm² ÷ 10.000 = 108 m². hasilnya sama, tinggal pilih rutenya" },
       { authorId: 352, minutesAgo: 1919, content: "108 m² buat arsip besar banget, mungkin campur dengan ruang lain. tapi hitungannya benar" },
       { authorId: 113, minutesAgo: 1903, content: "kirim ke grup dua versi: hitungan panjang dan hitungan luas. gak ada yang bisa protes dua-duanya" },
-      { authorId: 296, minutesAgo: 1300, content: "Telat. grup-nya udah tenang? 108 m² udah fix" },
-      { authorId: 423, minutesAgo: 100, content: "Telat juga. skala luas itu jebakan klasik, 200 dikali dua kali. 108 m², selesai" },
+      { authorId: 296, minutesAgo: 1300, content: "Grup-nya udah tenang? 108 m² udah fix" },
+      { authorId: 423, minutesAgo: 100, content: "Skala luas itu jebakan klasik, 200 dikali dua kali. 108 m², selesai" },
     ],
   },
   {
@@ -482,8 +482,8 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 307, minutesAgo: 1933, content: "26 km per jam itu sekitar 7,2 meter per detik. pelan tapi konsisten di macet" },
       { authorId: 176, minutesAgo: 1916, content: "Penumpang yang nanya tuh niat belajar. bagus, gak semua penumpang gitu" },
       { authorId: 91, minutesAgo: 1898, content: "5,2 ÷ 12 = 0,4333.... dibulat 0,43. dikali 60 = 26. dua desimal cukup" },
-      { authorId: 233, minutesAgo: 1270, content: "Telat. penumpangnya udah sampe? 26 km per jam udah fix" },
-      { authorId: 358, minutesAgo: 100, content: "Telat juga. kecepatan itu jarak dibagi waktu, gak bisa ditukar. 26 km per jam" },
+      { authorId: 233, minutesAgo: 1270, content: "Penumpangnya udah sampe? 26 km per jam udah fix" },
+      { authorId: 358, minutesAgo: 100, content: "Kecepatan itu jarak dibagi waktu, gak bisa ditukar. 26 km per jam" },
     ],
   },
   {
@@ -504,7 +504,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 2021, content: "panci baru itu buat acara bre, panci lama buat harian. dua-duanya dipake, gak ada yang buang" },
       { authorId: 59, minutesAgo: 1900, content: "cek cepet bre: 15² − 12² = 81. kali 3,14 ≈ 254. perhitungan laporannya udah pas" },
       { authorId: 288, minutesAgo: 1880, content: "di katering kalau ganti panci, semua resep dihitung ulang bre. kali ini dapur lu bener" },
-      { authorId: 466, minutesAgo: 100, content: "telat bre. panci barunya kepake? luas dasar memang loncat 56 persen" },
+      { authorId: 466, minutesAgo: 100, content: "Panci barunya kepake? luas dasar memang loncat 56 persen" },
     ],
   },
   {
@@ -529,10 +529,10 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 297, minutesAgo: 1993, content: "Pembimbing mungkin cuma ngetes, apakah lu tau dari mana 360-nya. jelasin pake langkah 50 m per cm" },
       { authorId: 486, minutesAgo: 1976, content: "7,2 × 50 = 360. hitung ganda sama hasilnya, aman buat laporan" },
       { authorId: 97, minutesAgo: 1958, content: "Peta skala kecil memang membingungkan. yang penting 1 di kiri = 5.000 di kanan, satuan sama" },
-      { authorId: 231, minutesAgo: 1739, content: "Telat. udah dibales pembimbing? 360 m itu benar dari awal" },
+      { authorId: 231, minutesAgo: 1739, content: "Udah dibales pembimbing? 360 m itu benar dari awal" },
       { authorId: 163, minutesAgo: 1719, content: "Kelurahan gak mungkin 36 km, itu udah seberang kota. 360 m masuk banget" },
-      { authorId: 278, minutesAgo: 115, content: "telat. skala peta emang sering bikin bingung, 360 m fix" },
-      { authorId: 55, minutesAgo: 100, content: "telat juga. 1 cm = 50 m, 7,2 cm = 360 m. selesai" },
+      { authorId: 278, minutesAgo: 115, content: "Skala peta emang sering bikin bingung, 360 m fix" },
+      { authorId: 55, minutesAgo: 100, content: "1 cm = 50 m, 7,2 cm = 360 m. selesai" },
     ],
   },
   {
@@ -554,7 +554,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 148, minutesAgo: 2068, content: "Gambar aja di kertas: 80 cm diberi garis per 30. dua garis muat, garis ketiga nonggong" },
       { authorId: 325, minutesAgo: 2054, content: "istilah teknisnya pemanfaatan ruang, tapi buat atasan cukup: sisa kurang dari satu box" },
       { authorId: 96, minutesAgo: 2000, content: "Kalau mau penuh 100 persen, boxnya harus diganti ukuran 20 cm. urusan pengadaan " },
-      { authorId: 481, minutesAgo: 100, content: "Telat. atasannya udah paham? 10 box itu fix, 80 cm terpakai, 20 santai" },
+      { authorId: 481, minutesAgo: 100, content: "Atasannya udah paham? 10 box itu fix, 80 cm terpakai, 20 santai" },
     ],
   },
   {
@@ -579,7 +579,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 2053, content: "Toleransi alat manual umumnya 0,3 sampai 0,5 cm, sesuai yang bilang spv" },
       { authorId: 245, minutesAgo: 2036, content: "Catat alat yang dipakai juga: benang vs pita. biar tren konsisten alatnya" },
       { authorId: 87, minutesAgo: 2018, content: "Udah rajin banget ngukur dua kali. itu protokol yang bener" },
-      { authorId: 275, minutesAgo: 100, content: "Telat. bayinya udah dicek lagi? 0,5 cm manual itu wajar" },
+      { authorId: 275, minutesAgo: 100, content: "Bayinya udah dicek lagi? 0,5 cm manual itu wajar" },
     ],
   },
   {
@@ -602,14 +602,14 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 137, minutesAgo: 2107, content: "0,05 inci tuh setengah milimeter bro. gak ada mata manusia yang keberatan" },
       { authorId: 418, minutesAgo: 2091, content: "pythagoras juga dipakai buat cek lemari, pintu, rak bro. alat ukur universal" },
       { authorId: 202, minutesAgo: 1074, content: "produktivitas jam 2 pagi itu memang aneh-aneh munculnya wkwk" },
-      { authorId: 481, minutesAgo: 1054, content: "telat bro. monitor-nya udah dipake? 576 pas, pabrik benar" },
+      { authorId: 481, minutesAgo: 1054, content: "Monitor-nya udah dipake? 576 pas, pabrik benar" },
       { authorId: 85, minutesAgo: 1033, content: "gue malah baru tau spek 20,9 × 11,8 itu hasil pythagoras. belajar dari post" },
       { authorId: 275, minutesAgo: 1011, content: "24 inci itu sekitar 61 cm diagonal bro. bayangin penggaris meter sepotong" },
       { authorId: 155, minutesAgo: 988, content: "selisih 0,05 di 576 itu mepet banget. pabriknya teliti bro" },
       { authorId: 253, minutesAgo: 964, content: "cek mundur bro: √576,05 ≈ 24,001. masuk akal buat layar produksi massal" },
       { authorId: 71, minutesAgo: 939, content: "jam 2.40 itu jamnya teknisi atau mahasiswa bro wkwk. dua-duanya pythagoras-an" },
-      { authorId: 167, minutesAgo: 113, content: "telat bro. layarnya udah nyala? 24 inci udah fix" },
-      { authorId: 311, minutesAgo: 100, content: "telat juga. pythagoras gak pernah gagal, pabrik juga. dua-duanya bener" },
+      { authorId: 167, minutesAgo: 113, content: "Layarnya udah nyala? 24 inci udah fix" },
+      { authorId: 311, minutesAgo: 100, content: "Pythagoras gak pernah gagal, pabrik juga. dua-duanya bener" },
     ],
   },
   {
@@ -632,7 +632,7 @@ export const THREADS_PART3: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 2144, content: "Sumbu lurus dari sepupu itu masuk akal, asal semua anak setuju sebelum garis ditarik" },
       { authorId: 137, minutesAgo: 2129, content: "25 × 4 itu 100 juga sih, cocok buat kios atau usaha sepanjang jalan. tergantung mau dipakai apa" },
       { authorId: 418, minutesAgo: 2113, content: "Notaris nyatet luas dan batas koordinat. bentuk pasti kelihatan di gambar situasi" },
-      { authorId: 202, minutesAgo: 100, content: "Telat. keluarganya udah sepakat? 100 m² per anak udah pas dari awal" },
+      { authorId: 202, minutesAgo: 100, content: "Keluarganya udah sepakat? 100 m² per anak udah pas dari awal" },
     ],
   },
 ]

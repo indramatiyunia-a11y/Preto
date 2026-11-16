@@ -1,0 +1,1384 @@
+threads-10.ts T226 KEEP: Telat nanggepin, tapi 650.115 itu bener. 450 × 1.444,70 -> 450 × 1.444,70 udah dihitung dua arah di atas
+threads-10.ts T227 KEEP: Telat banget aku. tapi 15 itu udah dikukuhkan semua di  -> 15 itu udah dikukuhkan semua di atas
+threads-10.ts T228 KEEP: Telat. udah dijahit? 0,35 itu sisa yang bener dari awal -> Udah dijahit? 0,35 itu sisa yang bener dari awal
+threads-10.ts T229 TPL9: Telat, tapi jawaban di atas udah lengkap semua. 1.330 L -> 1,4 itu contoh klasik, langsung nyambung ke rumusnya
+threads-10.ts T230 KEEP: Telat. udah dikumpul? 20 × 10 cm itu fix -> 20 × 10 cm itu fix
+threads-10.ts T231 KEEP: Telat banget. pasti udah beres semua kan? 440 plus 35 = -> Pasti udah beres semua kan? 440 plus 35 = 475 itu angka
+threads-10.ts T232 KEEP: Telat. udah rapat? dua kolom itu jawabannya, sama kayak -> Udah rapat? dua kolom itu jawabannya, sama kayak semua 
+threads-10.ts T233 KEEP: Telat. udah jalan sesinya? 6 dan 8 itu komposisi finaln -> Udah jalan sesinya? 6 dan 8 itu komposisi finalnya
+threads-10.ts T234 KEEP: Telat. udah dibagi kelompok? 08 dan 8 memang satu -> Udah dibagi kelompok? 08 dan 8 memang satu
+threads-10.ts T235 KEEP: Telat. udah pilih? ekspektasi bilang tangga, badan juga -> Udah pilih? ekspektasi bilang tangga, badan juga bilang
+threads-10.ts T236 KEEP: Telat. udah gugur? 16 hari penuh plus 16 jam. itunganny -> Udah gugur? 16 hari penuh plus 16 jam. itungannya fix
+threads-10.ts T237 KEEP: Telat. udah dipotong? 8 meter itu estimasi final, tukan -> Udah dipotong? 8 meter itu estimasi final, tukang pasti
+threads-10.ts T238 KEEP: Telat. udah selesai? 29rb itu jawaban matematisnya, tin -> Udah selesai? 29rb itu jawaban matematisnya, tinggal mi
+threads-10.ts T239 KEEP: Telat. udah beli? 30rb per kilo itu hitungan ecerannya, -> Udah beli? 30rb per kilo itu hitungan ecerannya, bener 
+threads-10.ts T240 KEEP: Telat. udah dicetak? harga per lembar dua-duanya 1.500, -> Udah dicetak? harga per lembar dua-duanya 1.500, jadi y
+threads-10.ts T241 KEEP: Telat. udah dicoba? 2-3 kali itulah jawaban di lapangan -> Udah dicoba? 2-3 kali itulah jawaban di lapangan
+threads-10.ts T242 KEEP: Telat. udah dikumpul? 325rb jawaban yang bener, terbukt -> 325rb jawaban yang bener, terbukti dua cara
+threads-10.ts T243 KEEP: Telat. udah dikoreksi? 4¼ itu final, dua jalur di atas -> Udah dikoreksi? 4¼ itu final, dua jalur di atas
+threads-10.ts T244 KEEP: Telat. jaketnya udah dibeli? 135rb angka finalnya, disk -> Jaketnya udah dibeli? 135rb angka finalnya, diskon efek
+threads-10.ts T245 KEEP: Telat. jadwalnya udah keluar? tim A itu vonis final -> Jadwalnya udah keluar? tim A itu vonis final
+threads-10.ts T246 KEEP: Telat. udah dipanggang? 3 kemasan itu keputusan yang be -> Udah dipanggang? 3 kemasan itu keputusan yang benar
+threads-10.ts T247 KEEP: Telat. udah dipraktikkan? 25 m per detik dan 75 m itu a -> Udah dipraktikkan? 25 m per detik dan 75 m itu angka ya
+threads-10.ts T248 KEEP: Telat. nilainya udah keluar? 82,5 itu final -> Nilainya udah keluar? 82,5 itu final
+threads-10.ts T249 KEEP: Telat. udah keisi? 3j12m itu hitungan hujan normalnya,  -> Udah keisi? 3j12m itu hitungan hujan normalnya, sisanya
+threads-10.ts T250 KEEP: Telat. kursinya udah diangkut? 255 total, titip 15 dari -> Kursinya udah diangkut? 255 total, titip 15 dari SD. se
+threads-11.ts T251 KEEP: mampir dari pencarian. PR anak saya kebetulan sama pers -> PR anak saya kebetulan sama persis, 36 dan 120. terima 
+threads-11.ts T252 KEEP: telat lewat. jawabannya 48, rata-rata per waktu. prinsi -> Jawabannya 48, rata-rata per waktu. prinsipnya bobot wa
+threads-11.ts T253 KEEP: telat. kuncinya bilang ke adiknya: pangkat itu dobel te -> Kuncinya bilang ke adiknya: pangkat itu dobel terus, bu
+threads-11.ts T254 KEEP: telat banget, dari arsip. 8-12-6-1, total 27. udah kuku -> 8-12-6-1, total 27. udah kuku semua di atas
+threads-11.ts T255 KEEP: telat, dari arsip. tinggi 10 → 160, tinggi 20 → 320. ce -> Tinggi 10 → 160, tinggi 20 → 320. cek soal aslinya
+threads-11.ts T256 KEEP: telat. 99, dan baliknya butuh turun 9,09%. dua-duanya d -> 99, dan baliknya butuh turun 9,09%. dua-duanya di atas
+threads-11.ts T257 KEEP: telat dari arsip. 24 faktor, rumus eksponen+1. daftar m -> 24 faktor, rumus eksponen+1. daftar manual di atas pas
+threads-11.ts T258 KEEP: telat lewat. 1/6, dan 1/11 memang umum salah. tabel 6×6 -> 1/6, dan 1/11 memang umum salah. tabel 6×6 jurus pamung
+threads-11.ts T259 KEEP: telat. 384 dan 765, trik r=2: jumlahnya 2^8×3 − 3. tunt -> 384 dan 765, trik r=2: jumlahnya 2^8×3 − 3. tuntas
+threads-11.ts T260 KEEP: telat tepat satu jam lagi kejadian 30 hari dari sekaran -> Tepat satu jam lagi kejadian 30 hari dari sekarang kala
+threads-11.ts T260 KEEP: telat. set 08.15, telat satu jam lagi 30 hari lagi. dap -> Set 08.15, telat satu jam lagi 30 hari lagi. dapur teta
+threads-11.ts T261 KEEP: telat. 10 dan 10√3, bukti Pythagoras balik di komen ked -> 10 dan 10√3, bukti Pythagoras balik di komen kedua. tun
+threads-11.ts T262 KEEP: telat. 68, selisih total 468 dan 400. tuntas semua -> 68, selisih total 468 dan 400. tuntas semua
+threads-11.ts T263 KEEP: telat. 1080 total, 135 per sudut, bukti segitiga n−2. t -> 1080 total, 135 per sudut, bukti segitiga n−2. tuntas
+threads-11.ts T264 KEEP: telat dari arsip. 4x − 1; mendatar y = 5; tegak x = 2 d -> 4x − 1; mendatar y = 5; tegak x = 2 dan bukan fungsi. s
+threads-11.ts T265 KEEP: telat. pembagi berpasangan kecil-besar, yang kecil gak  -> Pembagi berpasangan kecil-besar, yang kecil gak lewat a
+threads-11.ts T266 KEEP: telat. 6 hari, konstanta 48 pekerja-hari. tuntas -> 6 hari, konstanta 48 pekerja-hari. tuntas
+threads-11.ts T267 KEEP: telat dari arsip. empat jawaban di atas pas semua, log  -> Empat jawaban di atas pas semua, log 12 sudah dua jalur
+threads-11.ts T268 KEEP: telat. 1/6 tanpa pengembalian, 16/81 itu kasus lain. tu -> 1/6 tanpa pengembalian, 16/81 itu kasus lain. tuntas
+threads-11.ts T269 KEEP: telat. 12 cm, tripel 5-12-13, bukti cek balik di atas.  -> 12 cm, tripel 5-12-13, bukti cek balik di atas. tuntas
+threads-11.ts T270 KEEP: telat. 300 cm³, alasan 1/3: tiga limas jadi satu balok. -> 300 cm³, alasan 1/3: tiga limas jadi satu balok. di ata
+threads-11.ts T271 KEEP: telat dari arsip. √5 + 2 ≈ 4,236, penyebut 1 karena 5−4 -> √5 + 2 ≈ 4,236, penyebut 1 karena 5−4. tuntas
+threads-11.ts T272 KEEP: telat. efektifnya 65%, bukan 80%. contoh 100rb bayar 35 -> Efektifnya 65%, bukan 80%. contoh 100rb bayar 35rb suda
+threads-11.ts T273 KEEP: telat. π/2, π/3, π/4, π/6 sudah kuku, 135° = 3π/4. tunt -> π/2, π/3, π/4, π/6 sudah kuku, 135° = 3π/4. tuntas
+threads-11.ts T274 KEEP: telat. jumlah ganjil pertama k suku = k², bukti gambar  -> Jumlah ganjil pertama k suku = k², bukti gambar L. tunt
+threads-11.ts T275 KEEP: telat dari arsip. 31,5 juta detik per tahun, 86.400 per -> 31,5 juta detik per tahun, 86.400 per hari. dua-duanya 
+threads-12.ts T276 KEEP: telat mampir. 3024, dan versi pakai 0 = 4536. dua-duany -> 3024, dan versi pakai 0 = 4536. dua-duanya dibahas di a
+threads-12.ts T278 KEEP: telat dari arsip. c = 9, (x+3)², akar −3 kembar. udah k -> C = 9, (x+3)², akar −3 kembar. udah kuku di atas
+threads-12.ts T280 KEEP: telat. pengali mengikuti panjang blok, sisanya kurangin -> Pengali mengikuti panjang blok, sisanya kurangin. 4/11 
+threads-12.ts T281 KEEP: telat. 96 cm², sisi 10, keliling 40. bukti Pythagoras d -> 96 cm², sisi 10, keliling 40. bukti Pythagoras di atas
+threads-12.ts T282 KEEP: telat dari arsip. 360 liter dan 408 dm² kain. semua kuk -> 360 liter dan 408 dm² kain. semua kuku di atas
+threads-12.ts T283 KEEP: telat lewat. 1/8 semua gambar, 3/8 tepat dua. adik udah -> 1/8 semua gambar, 3/8 tepat dua. adik udah dijawab paka
+threads-12.ts T284 KEEP: telat. 17, urutannya kurung-kali-bagi-tambah. di atas u -> 17, urutannya kurung-kali-bagi-tambah. di atas udah kuk
+threads-12.ts T285 KEEP: telat. 2 jam berdua, 1 jam bertiga, rumus ab/(a+b). tun -> 2 jam berdua, 1 jam bertiga, rumus ab/(a+b). tuntas
+threads-12.ts T286 KEEP: telat. 3 jam 36 menit, rata-rata efektif 200/3. di atas -> 3 jam 36 menit, rata-rata efektif 200/3. di atas udah k
+threads-12.ts T287 KEEP: telat dari arsip. 42 (22/7) atau 42,14 (3,14). ikutin p -> 42 (22/7) atau 42,14 (3,14). ikutin petunjuk soal
+threads-12.ts T288 KEEP: telat dari simpanan. kanan dulu baru kiri, 9 dan 10. tu -> Kanan dulu baru kiri, 9 dan 10. tuntas
+threads-12.ts T289 KEEP: telat dari arsip. segi-12 = 54, 20 diagonal = segi-8. d -> Segi-12 = 54, 20 diagonal = segi-8. dua-duanya kuku
+threads-12.ts T290 TPL2: telat dari arsip: 20% dasar beli, 16,67% dasar jual, da -> 180-nya kuncinya, sisanya tinggal jalanin
+threads-12.ts T291 KEEP: telat. permukaan 2√5, ruang 2√3, dua konsep beda dunia. -> Permukaan 2√5, ruang 2√3, dua konsep beda dunia. tuntas
+threads-12.ts T292 KEEP: telat dari arsip. tepung 600 g, gula 375 g, skala 1,5.  -> Tepung 600 g, gula 375 g, skala 1,5. kuku semua
+threads-12.ts T293 KEEP: telat dari arsip. pangkat minus = kebalikan, bukan minu -> Pangkat minus = kebalikan, bukan minus. 1/2 udah dibukt
+threads-12.ts T294 KEEP: telat dari arsip. koreksi dobel As hati tepat, dan hati -> Koreksi dobel As hati tepat, dan hati-keriting = 1/2. t
+threads-12.ts T295 KEEP: telat dari pencarian: Jumat. sisa 2 hari dari 30. udah  -> Sisa 2 hari dari 30. udah kuku di atas
+threads-12.ts T296 KEEP: telat dari arsip. n ≤ 6, tanda pembagi negatif dibalik. -> N ≤ 6, tanda pembagi negatif dibalik. kuku
+threads-12.ts T297 KEEP: telat dari arsip. luas 84, tinggi ke sisi 14 = 12. Hero -> Luas 84, tinggi ke sisi 14 = 12. Heron + cek balik, dua
+threads-12.ts T298 TPL11: telat dari arsip: 385, sampai 12 jadi 650, kubik 1..5 = -> angka 1 ama 2-nya cocok buat latihan bareng
+threads-12.ts T299 KEEP: telat dari arsip. 500 detik ke matahari, 1,28 ke bulan. -> 500 detik ke matahari, 1,28 ke bulan. notasi ilmiah bik
+threads-12.ts T300 TPL10: telat dari arsip: (3,−2), (3,2), (6,4). tiga langkah ku -> yang bikin mikir di soal ini 2,3-nya
+threads-13.ts T301 KEEP: telat dari arsip. (4,3), eliminasi atau substitusi sama -> (4,3), eliminasi atau substitusi sama saja. kuku
+threads-13.ts T302 KEEP: telat. −√2 tuh, dan 2√12 = 4√3 emang beda. semua di ata -> −√2 tuh, dan 2√12 = 4√3 emang beda. semua di atas
+threads-13.ts T303 KEEP: telat dari arsip. U10 = 55, suku ke-12 = 144. tuntas -> U10 = 55, suku ke-12 = 144. tuntas
+threads-13.ts T304 KEEP: telat. RRRAA itu rute pertama daftarmu, total tetap 10  -> RRRAA itu rute pertama daftarmu, total tetap 10 dan 35.
+threads-13.ts T305 KEEP: telat. EF = 15. udah kuku di atas -> EF = 15. udah kuku di atas
+threads-13.ts T306 KEEP: telat dari simpanan. (3,−4), akar 1 dan 5, minimum = yp -> (3,−4), akar 1 dan 5, minimum = yp = −4. kuku semua
+threads-13.ts T307 KEEP: telat. 77 dan 37,8, plus 40 °C = 40 °F unik. kuku -> 77 dan 37,8, plus 40 °C = 40 °F unik. kuku
+threads-13.ts T308 KEEP: telat dari arsip. 40°, 90° (diameter), 50°. kuku -> 40°, 90° (diameter), 50°. kuku
+threads-13.ts T309 KEEP: telat. 37°30′, 24,75°, dan 12,3° = 12°18′. kuku -> 37°30′, 24,75°, dan 12,3° = 12°18′. kuku
+threads-13.ts T310 KEEP: telat dari arsip. a⁷b⁵, ×a² jadi a⁹b⁵, dan (2a²b)³ = 8a -> A⁷b⁵, ×a² jadi a⁹b⁵, dan (2a²b)³ = 8a⁶b³. tuntas
+threads-13.ts T311 KEEP: telat. 8/−2 dan 4/−3, semua lolos cek balik. kuku -> 8/−2 dan 4/−3, semua lolos cek balik. kuku
+threads-13.ts T312 KEEP: telat dari arsip. DE = ½ BC, jadi 6 dan 7,5. kuku -> DE = ½ BC, jadi 6 dan 7,5. kuku
+threads-13.ts T313 KEEP: telat dari simpanan. 6,5 / 11 / 4,5 / 11, median 8,5. k -> 6,5 / 11 / 4,5 / 11, median 8,5. kuku semua
+threads-13.ts T314 KEEP: telat. 100n − n dan 25×4 dulu. dua trik tuntas -> 100n − n dan 25×4 dulu. dua trik tuntas
+threads-13.ts T315 KEEP: telat dari arsip. 110 / 130 / 120 dan total 360. kuku s -> 110 / 130 / 120 dan total 360. kuku semua
+threads-13.ts T316 KEEP: telat dari arsip. √2 irasional, −3 rasional, 0 bukan as -> √2 irasional, −3 rasional, 0 bukan asli. kuku
+threads-13.ts T317 KEEP: telat dari arsip. 25, 550, 704, 1232, dan tripel 7-24-2 -> 25, 550, 704, 1232, dan tripel 7-24-25. tuntas
+threads-13.ts T318 KEEP: telat dari arsip. luas 70 pasti, keliling butuh data ta -> Luas 70 pasti, keliling butuh data tambahan. tuntas
+threads-13.ts T319 KEEP: telat dari simpanan. 90°, 75°, dan 12.00 satu-satunya 0 -> 90°, 75°, dan 12.00 satu-satunya 0°. kuku
+threads-13.ts T320 KEEP: telat dari arsip. 5040, KAKAK = 10, MAMA = 6. kuku -> 5040, KAKAK = 10, MAMA = 6. kuku
+threads-13.ts T321 KEEP: telat dari arsip. 65-65-115, dan 72 → 108. tuntas -> 65-65-115, dan 72 → 108. tuntas
+threads-13.ts T322 TPL0: telat dari arsip. 4x²+12x+9 dan 9x²−12x+4. kuku -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-13.ts T323 KEEP: telat dari arsip. 38.808 cm³ dan 5.544 cm². satuan jang -> 38.808 cm³ dan 5.544 cm². satuan jangan dicampur. kuku
+threads-13.ts T324 KEEP: telat dari arsip. jarak 10 (6-8-10), √5 bukan bulat, ve -> Jarak 10 (6-8-10), √5 bukan bulat, vertikal = 7. tuntas
+threads-13.ts T325 KEEP: telat dari arsip. sisa 4 dan 6, 2026 sisa 3. kuku -> Sisa 4 dan 6, 2026 sisa 3. kuku
+threads-14.ts T326 KEEP: telat dari arsip. 3,47 → 3,5, 147 → 150, 2,849 → 2,85.  -> 3,47 → 3,5, 147 → 150, 2,849 → 2,85. kuku semua
+threads-14.ts T327 KEEP: telat. 70/70 untuk puncak 40, dan 40/40 kalau puncak 10 -> 70/70 untuk puncak 40, dan 40/40 kalau puncak 100. tunt
+threads-14.ts T328 TPL7: lewat dari arsip, luas ×10.000, 2,5 m² = 25.000 cm². ku -> 1 dan 10.000 beda tipis, gampang ketuker
+threads-14.ts T329 KEEP: telat dari arsip. 3/4 > 5/7, 3/7 > 2/5, 5/6 > 7/9. tunt -> 3/4 > 5/7, 3/7 > 2/5, 5/6 > 7/9. tuntas
+threads-14.ts T330 KEEP: telat. 154 / 22 / 50, dan susulan 77. kuku semua -> 154 / 22 / 50, dan susulan 77. kuku semua
+threads-14.ts T331 KEEP: telat dari arsip. SAS sah, skala 1:1, SSS pas, 3-5-7 ≠  -> SAS sah, skala 1:1, SSS pas, 3-5-7 ≠ 3-5-9. tuntas
+threads-14.ts T332 KEEP: telat dari arsip. 13-14-15 → 84, 5-12-13 → 30, 6-8-10 → -> 13-14-15 → 84, 5-12-13 → 30, 6-8-10 → 24. tuntas
+threads-14.ts T333 KEEP: telat dari arsip. semua konversi lolos, jebakan 0,30 ja -> Semua konversi lolos, jebakan 0,30 jam = 18 menit. kuku
+threads-14.ts T334 KEEP: telat dari arsip. segi-8 = 1080, segi-7 = 900. kuku -> Segi-8 = 1080, segi-7 = 900. kuku
+threads-14.ts T335 TPL0: nyusul dari arsip, semua sifat lolos, ganjil−ganjil = g -> kalau 3 diganti angka lain, langkahnya tetep sama kan?
+threads-14.ts T336 KEEP: telat dari arsip. 144/126/90, 10% = 36°, 12,5% = 45°. k -> 144/126/90, 10% = 36°, 12,5% = 45°. kuku
+threads-14.ts T337 KEEP: telat dari arsip. pilih satu = jumlah, dua langkah = ka -> Pilih satu = jumlah, dua langkah = kali. tuntas
+threads-14.ts T338 KEEP: telat dari arsip. 2,5 ton = 2.500 kg = 25 kuintal; ons  -> 2,5 ton = 2.500 kg = 25 kuintal; ons Indonesia 100 g. t
+threads-14.ts T339 KEEP: telat dari arsip. 471 ÷ 3 ya ÷ 9 gak, 5.724 ÷ 9 ya dan  -> 471 ÷ 3 ya ÷ 9 gak, 5.724 ÷ 9 ya dan ÷ 4 juga ya. kuku
+threads-14.ts T340 KEEP: telat dari arsip. 24/120/12, plus 6 orang = 120, gelang -> 24/120/12, plus 6 orang = 120, gelang 7 = 360. kuku
+threads-14.ts T341 KEEP: telat dari arsip. kuadrat gak pernah berakhir 2/3/7/8,  -> Kuadrat gak pernah berakhir 2/3/7/8, 78² = 6084. kuku
+threads-14.ts T342 TPL8: telat nyamber, +5 → rata/median naik 5, jangkauan tetap -> catet 5-nya, soal begini balik modal pas ujian
+threads-14.ts T343 TPL3: kelewat, dari arsip: (−3)(−4) = 12, (−3)² = 9 vs −3² =  -> soal 3 kayak gini suka nongol pas ulangan
+threads-14.ts T344 KEEP: telat dari arsip. semua pasangan lolos, 45 unik kembar. -> Semua pasangan lolos, 45 unik kembar. kuku
+threads-14.ts T345 TPL3: telat dari arsip. 60° dan 45°. kuku -> soal 55 kayak gini suka nongol pas ulangan
+threads-14.ts T346 TPL7: kelewat, dari arsip: 5x + 2, 5x − 2, 10x + 18, 3 − 2x,  -> 3 dan 2 beda tipis, gampang ketuker
+threads-14.ts T347 KEEP: telat dari arsip. (p−2)(l−2) = 4 → 6×3 dan 4×4. tuntas -> (p−2)(l−2) = 4 → 6×3 dan 4×4. tuntas
+threads-14.ts T348 KEEP: telat dari arsip. 220 ↔ 284 dan 1184 ↔ 1210 saling bali -> 220 ↔ 284 dan 1184 ↔ 1210 saling balik. kuku
+threads-14.ts T349 KEEP: telat dari arsip. 3-4-8 dan 2-3-6 gak bisa; 4-5-8 dan 5 -> 3-4-8 dan 2-3-6 gak bisa; 4-5-8 dan 5-6-10 bisa. kuku
+threads-14.ts T350 KEEP: telat dari arsip. 6.543, 2.918, 4.187, 7.001. kuku -> 6.543, 2.918, 4.187, 7.001. kuku
+threads-15.ts T351 KEEP: telat dari arsip. 20-40 = 21 bilangan, genap 1-100 = 50 -> 20-40 = 21 bilangan, genap 1-100 = 50. tuntas
+threads-15.ts T352 KEEP: telat. (x+2)/3, f⁻¹(10) = 4, invers saling batal. tunta -> (x+2)/3, f⁻¹(10) = 4, invers saling batal. tuntas
+threads-15.ts T353 TPL3: dari arsip gue: jajargenjang 0, ketupat 2, sama kaki 1. -> soal 4 kayak gini suka nongol pas ulangan
+threads-15.ts T354 TPL8: dari arsip gue: (4,5)/(4,2)/(1,3)/(8,6) semua kuku. ber -> catet 2-nya, soal begini balik modal pas ujian
+threads-15.ts T355 KEEP: telat dari arsip. estimasi 1000/1000/1200 vs asli 987/9 -> Estimasi 1000/1000/1200 vs asli 987/990/1188. tuntas
+threads-15.ts T357 TPL5: telat nyamber, terpanjang di depan sudut terbesar. kuku -> dari 50 ke 60 itu lompatan yang paling sering ketuker
+threads-15.ts T358 KEEP: telat dari arsip. KPK×FPB = a×b buat dua bilangan. tunt -> KPK×FPB = a×b buat dua bilangan. tuntas
+threads-15.ts T359 KEEP: telat dari arsip. 0/5 = 0, 5/0 tak terdefinisi. tuntas -> 0/5 = 0, 5/0 tak terdefinisi. tuntas
+threads-15.ts T361 TPL5: nyusul dari arsip, selisih kuadrat & kuadrat sempurna,  -> dari 9 ke 3 itu lompatan yang paling sering ketuker
+threads-15.ts T363 TPL5: dari arsip gue: samakan b via KPK, 8:12:15 dst. kelar -> dari 2 ke 3 itu lompatan yang paling sering ketuker
+threads-15.ts T364 TPL5: kelewat, dari arsip: keliling sama, persegi luasnya max -> dari 16 ke 4 itu lompatan yang paling sering ketuker
+threads-15.ts T365 KEEP: telat dari arsip. geser koma = kali 10 berdua. 8/60/40. -> Geser koma = kali 10 berdua. 8/60/40. tuntas
+threads-15.ts T366 KEEP: telat dari arsip. kebalikan saling jadi 1, 0 tak punya  -> Kebalikan saling jadi 1, 0 tak punya kebalikan. tuntas
+threads-15.ts T367 TPL11: telat nyamber, A 2,4 / B 1,2, mutlak wajib, 8/3 ≈ 2,67. -> angka 2 ama 4-nya cocok buat latihan bareng
+threads-15.ts T368 TPL1: telat dari arsip, √ selalu satu jawaban non-negatif, x² -> angka 16 di soal ini emang buat ngetes teliti
+threads-15.ts T369 KEEP: telat dari arsip. sama kaki dari puncak: tinggi = bagi  -> Sama kaki dari puncak: tinggi = bagi = berat. tuntas
+threads-15.ts T370 KEEP: telat dari arsip. 360/180/90, 360 pembaginya ramai. tun -> 360/180/90, 360 pembaginya ramai. tuntas
+threads-15.ts T371 TPL6: mampir telat, (6,2), vektor x dulu y belakang. tuntas s -> kasus 2 begini enak buat latihan cepet
+threads-15.ts T372 TPL5: telat dari arsip, persegi dobel, jajargenjang payung. t -> dari ? ke ? itu lompatan yang paling sering ketuker
+threads-15.ts T373 KEEP: telat dari arsip. 10 April / 13 Sep / 27 Okt, Feb 28. t -> 10 April / 13 Sep / 27 Okt, Feb 28. tuntas
+threads-15.ts T374 TPL10: telat nyamber, benda > kotak → pasti ada kotak berdua.  -> yang bikin mikir di soal ini 13-nya
+threads-15.ts T375 KEEP: telat dari arsip. tiga berurutan selalu habis dibagi 6. -> Tiga berurutan selalu habis dibagi 6. tuntas
+threads-16.ts T376 KEEP: telat dari arsip. 1-50 ada 7, 1-100 ada 10. tuntas -> 1-50 ada 7, 1-100 ada 10. tuntas
+threads-16.ts T377 KEEP: telat dari arsip. kubus 8-12-6, Euler 2. tuntas -> Kubus 8-12-6, Euler 2. tuntas
+threads-16.ts T378 KEEP: telat dari arsip. busur + diameter. 36. tuntas -> Busur + diameter. 36. tuntas
+threads-16.ts T379 KEEP: telat dari arsip. 3,3,4 / 2,4,3 / 2,5-3,5-3,5. tuntas -> 3,3,4 / 2,4,3 / 2,5-3,5-3,5. tuntas
+threads-16.ts T380 KEEP: telat dari arsip. tiap 65 5/11 menit, 11 kali per 12 ja -> Tiap 65 5/11 menit, 11 kali per 12 jam. tuntas
+threads-16.ts T381 KEEP: telat dari arsip. 3-4-5 dan kelipatannya = siku. tuntas -> 3-4-5 dan kelipatannya = siku. tuntas
+threads-16.ts T382 KEEP: telat dari arsip. volume ÷ luas alas = tinggi. tuntas -> Volume ÷ luas alas = tinggi. tuntas
+threads-16.ts T383 TPL0: telat dari arsip. penuh + setengah-setengah. tuntas -> kalau 12 diganti angka lain, langkahnya tetep sama kan?
+threads-16.ts T384 KEEP: telat dari arsip. 2×3 menang, 1×4 kalah, 2×2 seri. tunt -> 2×3 menang, 1×4 kalah, 2×2 seri. tuntas
+threads-16.ts T385 KEEP: telat dari arsip. π(R² − r²), 62 6/7. tuntas -> π(R² − r²), 62 6/7. tuntas
+threads-16.ts T386 KEEP: telat dari arsip. kali lipat = bagi, selisih = kurang.  -> Kali lipat = bagi, selisih = kurang. tuntas
+threads-16.ts T387 KEEP: telat dari arsip. kali balik = bukti. tuntas -> Kali balik = bukti. tuntas
+threads-16.ts T388 KEEP: telat dari arsip. selimut 440, total 748, volume 1.540. -> Selimut 440, total 748, volume 1.540. tuntas
+threads-16.ts T389 KEEP: telat dari arsip. 3,75 km = 3.750 m. tuntas -> 3,75 km = 3.750 m. tuntas
+threads-16.ts T390 TPL7: telat dari arsip. kurang-kurang sampai nol. tuntas -> 48 dan 18 beda tipis, gampang ketuker
+threads-16.ts T391 KEEP: telat dari arsip. refleks = 360 − kecil. tuntas -> Refleks = 360 − kecil. tuntas
+threads-16.ts T392 TPL3: telat dari arsip. 1.540+462 = 2.002. tuntas -> soal 7 kayak gini suka nongol pas ulangan
+threads-16.ts T393 KEEP: telat dari arsip. WITA +1, WIT +2. tuntas -> WITA +1, WIT +2. tuntas
+threads-16.ts T394 KEEP: telat dari arsip. 2x + 5 = 17 → 6. tuntas -> 2x + 5 = 17 → 6. tuntas
+threads-16.ts T395 TPL6: mampir telat, ganjil dibagi 2 berakhir ,5. tuntas -> kasus 5 begini enak buat latihan cepet
+threads-16.ts T396 KEEP: telat dari arsip. jumlah baru = 2×rata → rata tetap. tu -> Jumlah baru = 2×rata → rata tetap. tuntas
+threads-16.ts T397 KEEP: telat dari arsip. sisa melewati akhir bulan. tuntas -> Sisa melewati akhir bulan. tuntas
+threads-16.ts T398 KEEP: telat dari arsip. pecah ke puluhan + satuan. tuntas -> Pecah ke puluhan + satuan. tuntas
+threads-16.ts T399 TPL8: telat dari arsip. 9/25 vs 3/10. tuntas -> catet 3-nya, soal begini balik modal pas ujian
+threads-16.ts T400 KEEP: telat dari arsip. lebih dari 12 kurangi 12. tuntas -> Lebih dari 12 kurangi 12. tuntas
+threads-17.ts T401 KEEP: telat dari arsip. diagonal = sisi × √2. tuntas -> Diagonal = sisi × √2. tuntas
+threads-17.ts T402 TPL2: telat dari arsip. samakan penyebut dulu. tuntas -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-17.ts T403 TPL9: telat dari arsip. penta-heksa-hepta-okta. tuntas -> 5 itu contoh klasik, langsung nyambung ke rumusnya
+threads-17.ts T404 KEEP: telat dari arsip. 13/25/41 bisa, 7 gak. tuntas -> 13/25/41 bisa, 7 gak. tuntas
+threads-17.ts T405 KEEP: telat dari arsip. total − salah + bener. tuntas -> Total − salah + bener. tuntas
+threads-17.ts T406 TPL3: telat dari arsip. 6 × s². tuntas -> soal 5 kayak gini suka nongol pas ulangan
+threads-17.ts T407 TPL3: telat dari arsip. tengah-tengah. tuntas -> soal 17 kayak gini suka nongol pas ulangan
+threads-17.ts T408 KEEP: telat dari arsip. bulat × penyebut + pembilang. tuntas -> Bulat × penyebut + pembilang. tuntas
+threads-17.ts T409 TPL6: telat nyamber, lancip-siku-tumpul-lurus. pas semua -> kasus 90 begini enak buat latihan cepet
+threads-17.ts T410 TPL7: lewat dari arsip, rata kebal pencilan, median tahan. ke -> 3 dan 4 beda tipis, gampang ketuker
+threads-17.ts T411 KEEP: telat dari arsip. ½ alas × tinggi. tuntas -> ½ alas × tinggi. tuntas
+threads-17.ts T412 TPL6: mampir telat, bagi 4, baru kuadrat. pas semua -> kasus 36 begini enak buat latihan cepet
+threads-17.ts T413 KEEP: telat dari arsip. dua segitiga = 360. tuntas -> Dua segitiga = 360. tuntas
+threads-17.ts T414 KEEP: telat dari arsip. lusin 12, gros 144. tuntas -> Lusin 12, gros 144. tuntas
+threads-17.ts T415 KEEP: telat dari arsip. tinggi ≠ sisi miring. tuntas -> Tinggi ≠ sisi miring. tuntas
+threads-17.ts T416 KEEP: telat dari arsip. angka penting dulu, nol belakangan. t -> Angka penting dulu, nol belakangan. tuntas
+threads-17.ts T417 TPL5: telat dari arsip. sudut/360 × keliling. tuntas -> dari 7 ke 44 itu lompatan yang paling sering ketuker
+threads-17.ts T418 KEEP: telat dari arsip. tiga statistik, tiga cerita. tuntas -> Tiga statistik, tiga cerita. tuntas
+threads-17.ts T419 TPL1: telat dari arsip. pembagian terdistribusi. tuntas -> angka 6 di soal ini emang buat ngetes teliti
+threads-17.ts T420 KEEP: telat dari arsip. sama sisi = 60 semua. tuntas -> Sama sisi = 60 semua. tuntas
+threads-17.ts T421 KEEP: telat dari arsip. kali → tambah pangkat. tuntas -> Kali → tambah pangkat. tuntas
+threads-17.ts T422 KEEP: telat dari arsip. kelipatan terdekat + sisa. tuntas -> Kelipatan terdekat + sisa. tuntas
+threads-17.ts T423 TPL8: kelewat, dari arsip: sistem 3-1-0. kuku -> catet 3-nya, soal begini balik modal pas ujian
+threads-17.ts T424 KEEP: telat dari arsip. selisih ganjil → n²+c. tuntas -> Selisih ganjil → n²+c. tuntas
+threads-17.ts T425 TPL5: telat dari arsip. baris × kolom. tuntas -> dari 6 ke 8 itu lompatan yang paling sering ketuker
+threads-18.ts T426 KEEP: telat dari arsip. kali satu aman, 1ⁿ = 1. tuntas -> Kali satu aman, 1ⁿ = 1. tuntas
+threads-18.ts T427 TPL3: telat dari arsip. 360 dibagi n. tuntas -> soal 360 kayak gini suka nongol pas ulangan
+threads-18.ts T428 KEEP: telat dari arsip. selisih = 9 × selisih digit. tuntas -> Selisih = 9 × selisih digit. tuntas
+threads-18.ts T429 KEEP: telat dari arsip. luas nambah, keliling gak. tuntas -> Luas nambah, keliling gak. tuntas
+threads-18.ts T430 KEEP: telat dari arsip. 3 garis = 7 bagian. tuntas -> 3 garis = 7 bagian. tuntas
+threads-18.ts T431 KEEP: telat dari arsip. x² + jumlah + hasil kali. tuntas -> X² + jumlah + hasil kali. tuntas
+threads-18.ts T432 KEEP: telat dari arsip. jumlah tetangga, simpan jika ≥ 10. tu -> Jumlah tetangga, simpan jika ≥ 10. tuntas
+threads-18.ts T433 TPL11: telat dari arsip. orde simetri putar. tuntas -> angka 90 ama 4-nya cocok buat latihan bareng
+threads-18.ts T434 KEEP: telat dari arsip. kecil di kiri = kurang. tuntas -> Kecil di kiri = kurang. tuntas
+threads-18.ts T435 KEEP: telat dari arsip. FPB bagi semua, KPK dibagi semua. tun -> FPB bagi semua, KPK dibagi semua. tuntas
+threads-18.ts T436 KEEP: telat dari arsip. keliling 2×, luas 4×. tuntas -> Keliling 2×, luas 4×. tuntas
+threads-18.ts T437 TPL0: telat dari arsip. suku-koefisien-konstanta-derajat. tun -> kalau 3 diganti angka lain, langkahnya tetep sama kan?
+threads-18.ts T438 TPL0: telat dari arsip. bebas → kali. tuntas -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-18.ts T439 TPL8: telat dari arsip. geser 60 menit. tuntas -> catet 09.07-nya, soal begini balik modal pas ujian
+threads-18.ts T440 TPL3: telat dari arsip. urutan menentukan. tuntas -> soal 2 kayak gini suka nongol pas ulangan
+threads-18.ts T441 TPL1: telat dari arsip. kali/bagi 12. tuntas -> angka 2,5 di soal ini emang buat ngetes teliti
+threads-18.ts T442 TPL7: telat dari arsip. (2,2) dan (0,0). tuntas -> 2 dan 4 beda tipis, gampang ketuker
+threads-18.ts T443 TPL9: telat dari arsip. timbangan dua sisi. tuntas -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-18.ts T444 KEEP: telat dari arsip. kaki = (keliling − alas)/2. tuntas -> Kaki = (keliling − alas)/2. tuntas
+threads-18.ts T445 KEEP: telat dari arsip. nol ekor desimal aman. tuntas -> Nol ekor desimal aman. tuntas
+threads-18.ts T446 TPL9: telat dari arsip. 60×, 12×, 720×. tuntas -> 60 itu contoh klasik, langsung nyambung ke rumusnya
+threads-18.ts T447 TPL11: lewat dari arsip, ½+¼+⅛ = ⅞. pas semua -> angka 7 ama 8-nya cocok buat latihan bareng
+threads-18.ts T448 KEEP: telat dari arsip. dekat di tengah = maksimum. tuntas -> Dekat di tengah = maksimum. tuntas
+threads-18.ts T449 KEEP: telat dari arsip. berurutan jumlah, paralel maksimum. t -> Berurutan jumlah, paralel maksimum. tuntas
+threads-18.ts T450 TPL1: telat dari arsip. π × diameter. tuntas -> angka 2 di soal ini emang buat ngetes teliti
+threads-19.ts T451 TPL4: telat dari arsip. jumlah tiga sisi. tuntas -> ada yang coba 5 lewat jalan lain gak?
+threads-19.ts T452 KEEP: telat dari arsip. tinggi = 2 × luas ÷ miring. tuntas -> Tinggi = 2 × luas ÷ miring. tuntas
+threads-19.ts T453 KEEP: telat dari arsip. antara 0,5 dan 1. tuntas -> Antara 0,5 dan 1. tuntas
+threads-19.ts T454 TPL3: mampir telat, sisa sama → KPK + sisa. tuntas kok -> soal 7 kayak gini suka nongol pas ulangan
+threads-19.ts T455 TPL9: telat dari arsip. kurung membalik tanda. tuntas -> 12 itu contoh klasik, langsung nyambung ke rumusnya
+threads-19.ts T456 TPL2: telat dari arsip. tangga ×1.000. tuntas -> 1-nya kuncinya, sisanya tinggal jalanin
+threads-19.ts T457 KEEP: telat dari arsip. bertolak belakang sama besar. tuntas -> Bertolak belakang sama besar. tuntas
+threads-19.ts T458 TPL11: telat dari arsip. pecahkan satu bulat. tuntas -> angka 3 ama 1-nya cocok buat latihan bareng
+threads-19.ts T459 TPL6: telat dari arsip. 180/90/45/22,5. tuntas -> kasus 180 begini enak buat latihan cepet
+threads-19.ts T460 TPL2: dari arsip gue: samakan penyebut, jangan dijumlah. bere -> 6-nya kuncinya, sisanya tinggal jalanin
+threads-19.ts T461 KEEP: telat dari arsip. ÷4 minus ÷100 plus ÷400. tuntas -> ÷4 minus ÷100 plus ÷400. tuntas
+threads-19.ts T462 TPL7: telat dari arsip. bagi 7. tuntas -> 3 dan 21 beda tipis, gampang ketuker
+threads-19.ts T463 KEEP: telat dari arsip. lapis 50+25+12+6+3+1 = 97. tuntas -> Lapis 50+25+12+6+3+1 = 97. tuntas
+threads-19.ts T464 TPL2: telat dari arsip. balik urutan operasi. tuntas -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-19.ts T465 TPL7: telat dari arsip. (jumlah ± selisih)/2. tuntas -> 30 dan 4 beda tipis, gampang ketuker
+threads-19.ts T466 KEEP: telat dari arsip. tiga digit sama = 3 × 37 × digit. tun -> Tiga digit sama = 3 × 37 × digit. tuntas
+threads-19.ts T467 KEEP: telat dari arsip. samakan dua persamaan garis. tuntas -> Samakan dua persamaan garis. tuntas
+threads-19.ts T468 TPL11: telat dari arsip. 1²+2²+...+8² = 204. tuntas -> angka 8 ama 64-nya cocok buat latihan bareng
+threads-19.ts T469 KEEP: telat dari arsip. jarak pusat = jumlah radius. tuntas -> Jarak pusat = jumlah radius. tuntas
+threads-19.ts T470 KEEP: telat dari arsip. 36, segitiga sekaligus kuadrat. tunta -> 36, segitiga sekaligus kuadrat. tuntas
+threads-19.ts T471 TPL3: telat dari arsip. detik jadi menit. tuntas -> soal 8 kayak gini suka nongol pas ulangan
+threads-19.ts T472 KEEP: telat dari arsip. n − n/2 = n/2. tuntas -> N − n/2 = n/2. tuntas
+threads-19.ts T473 TPL0: telat dari arsip. jumlah tempat desimal. tuntas -> kalau 0,5 diganti angka lain, langkahnya tetep sama kan
+threads-19.ts T474 KEEP: telat dari arsip. sisa dan desimal satu koin dua sisi.  -> Sisa dan desimal satu koin dua sisi. tuntas
+threads-19.ts T475 KEEP: telat dari arsip. genap = prima + prima. tuntas -> Genap = prima + prima. tuntas
+threads-2.ts T26 TPL6: telat nanggepin, tapi 3/8 itu udah fix. udah tuntas kan -> kasus 3 begini enak buat latihan cepet
+threads-2.ts T27 KEEP: telat, tapi jawabannya tetep: 5 bukan faktor 84. udah k -> Udah kejawab kan dari siang?
+threads-2.ts T29 KEEP: Telat, tapi udah kejawab kan? 15 cm dari hitungan, ukur -> 15 cm dari hitungan, ukur cuma buat gaya
+threads-2.ts T30 KEEP: Telat, tapi penjelasan di atas udah lengkap. intinya me -> Intinya mesin pake biner, kita pake sepuluh. dua bahasa
+threads-2.ts T31 KEEP: telat nanggepin, tapi udah beres kan? soal 150 itu mema -> Soal 150 itu memang urusan prinsip
+threads-2.ts T33 KEEP: Telat, pasti masakannya udah mateng. jawabannya tetep:  -> Jawabannya tetep: 1,5 × 1/2 = 3/4, sah
+threads-2.ts T34 KEEP: telat. udah gantian kan? 4 jam itu udah bener dari awal -> Udah gantian kan? 4 jam itu udah bener dari awal
+threads-2.ts T35 KEEP: telat tapi penting: cerita utang di atas udah bener sem -> Minus kali minus = plus, fix
+threads-2.ts T36 KEEP: telat, kuisnya udah kelar pasti. jawaban lu bener dari  -> Jawaban lu bener dari awal: 2/5, 3/7, 1/2
+threads-2.ts T37 KEEP: Telat. udah beres kan jam belajarnya? 7×8 = 56, jangan  -> 7×8 = 56, jangan lupa
+threads-2.ts T38 KEEP: telat bunda. udah dikumpulin kan PR-nya? 51 bukan prima -> 51 bukan prima, udah fix
+threads-2.ts T39 KEEP: Telat. udah dibales cucunya? 2520 fix, udah dihitung bo -> Udah dibales cucunya? 2520 fix, udah dihitung bolak-bal
+threads-2.ts T40 TPL0: Telat. udah minggu ke berapa sekarang? tinggal dikit la -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-2.ts T41 KEEP: telat. gang-nya masih aman? 7 rumah genap itu udah pas  -> Gang-nya masih aman? 7 rumah genap itu udah pas dari aw
+threads-2.ts T42 KEEP: telat. udah diisi kan token-nya? A emang duluan gelap,  -> Udah diisi kan token-nya? A emang duluan gelap, 8 hari 
+threads-2.ts T43 KEEP: telat. shift-nya udah kelar kayaknya. besok tunjukin da -> Shift-nya udah kelar kayaknya. besok tunjukin datanya k
+threads-2.ts T44 KEEP: telat bre. nasinya udah mateng kali ya. 2,25 bener dari -> Nasinya udah mateng kali ya. 2,25 bener dari awal
+threads-2.ts T45 KEEP: Telat. struknya udah nunjukin kan? 25%, fix -> Struknya udah nunjukin kan? 25%, fix
+threads-2.ts T46 KEEP: Telat. rapetnya udah lewat? kalau ditanya, jawab: dasar -> Rapetnya udah lewat? kalau ditanya, jawab: dasar 93,5, 
+threads-2.ts T47 KEEP: Telat. nasabahnya udah pulang seneng kali ya. 90 ribu = -> Nasabahnya udah pulang seneng kali ya. 90 ribu = 9 × 10
+threads-2.ts T48 KEEP: Telat. udah diputusin kan? dua-duanya muat, yang milih  -> Udah diputusin kan? dua-duanya muat, yang milih tetep m
+threads-2.ts T49 KEEP: telat bos. udah ditutup kan? besok dihitung lagi pelan- -> Udah ditutup kan? besok dihitung lagi pelan-pelan
+threads-2.ts T50 KEEP: telat. malem ketiga udah lewat kali ya. sisa berapa sek -> Malem ketiga udah lewat kali ya. sisa berapa sekarang w
+threads-20.ts T476 TPL5: lewat dari arsip, kali-bagi duluan. tuntas semua -> dari 3 ke 2 itu lompatan yang paling sering ketuker
+threads-20.ts T477 TPL6: lewat dari arsip, pajak nempel harga bayar. kelar -> kasus 200.000 begini enak buat latihan cepet
+threads-20.ts T478 TPL11: telat dari arsip. mm bagi 10. tuntas -> angka 25 ama 2,5-nya cocok buat latihan bareng
+threads-20.ts T479 KEEP: telat dari arsip. permukaan 4πr², volume 4/3 πr³. tunta -> Permukaan 4πr², volume 4/3 πr³. tuntas
+threads-20.ts T480 KEEP: telat dari arsip. rata gabungan pakai bobot. tuntas -> Rata gabungan pakai bobot. tuntas
+threads-20.ts T482 KEEP: telat dari arsip. berlawanan jumlah, searah selisih. tu -> Berlawanan jumlah, searah selisih. tuntas
+threads-20.ts T483 KEEP: telat dari arsip. sisa dibagi sisa hari. tuntas -> Sisa dibagi sisa hari. tuntas
+threads-20.ts T484 TPL2: telat dari arsip. pecah sampai prima. tuntas -> 60-nya kuncinya, sisanya tinggal jalanin
+threads-20.ts T485 KEEP: telat dari arsip. jumlah rasio = pembagi. tuntas -> Jumlah rasio = pembagi. tuntas
+threads-20.ts T486 KEEP: telat dari arsip. kehadiran = masuk ÷ total. tuntas -> Kehadiran = masuk ÷ total. tuntas
+threads-20.ts T487 TPL2: telat dari arsip. dari = kali. tuntas -> 1-nya kuncinya, sisanya tinggal jalanin
+threads-20.ts T488 TPL8: telat dari arsip. bagi 60 bertingkat. tuntas -> catet 185-nya, soal begini balik modal pas ujian
+threads-20.ts T489 KEEP: telat dari arsip. gabungan = jumlah − dobel. tuntas -> Gabungan = jumlah − dobel. tuntas
+threads-20.ts T490 TPL4: lewat dari arsip, estimasi buat cek. tuntas kok -> ada yang coba 3 lewat jalan lain gak?
+threads-20.ts T491 KEEP: telat dari arsip. tetangga = kuadrat ± n. tuntas -> Tetangga = kuadrat ± n. tuntas
+threads-20.ts T492 TPL1: telat dari arsip. majemuk × (1+r)ⁿ. tuntas -> angka 1 di soal ini emang buat ngetes teliti
+threads-20.ts T493 TPL1: telat dari arsip. siklus pakai modulo. tuntas -> angka 24 di soal ini emang buat ngetes teliti
+threads-20.ts T494 TPL6: telat dari arsip. sisa minus libur. tuntas -> kasus 30 begini enak buat latihan cepet
+threads-20.ts T495 KEEP: telat dari arsip. alas + empat sisi. tuntas -> Alas + empat sisi. tuntas
+threads-20.ts T496 KEEP: telat dari arsip. digit 9 = kelipatan 9. tuntas -> Digit 9 = kelipatan 9. tuntas
+threads-20.ts T497 TPL5: telat dari arsip. 1/221, kartu berkurang. tuntas -> dari 4 ke 52 itu lompatan yang paling sering ketuker
+threads-20.ts T498 TPL10: mampir telat, samakan satuan dulu. pas semua -> yang bikin mikir di soal ini 750-nya
+threads-20.ts T499 TPL0: dari arsip gue: dua digit terakhir. kelar -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-20.ts T500 KEEP: telat dari arsip. umur cek hari lahir dulu. tuntas -> Umur cek hari lahir dulu. tuntas
+threads-21.ts T501 TPL6: telat dari arsip. kali pecahan lurus. tuntas -> kasus 1 begini enak buat latihan cepet
+threads-21.ts T502 TPL1: telat dari arsip. koordinat → keliling. tuntas -> angka 0,0 di soal ini emang buat ngetes teliti
+threads-21.ts T503 TPL3: telat dari arsip. 5! = 120. tuntas -> soal 5 kayak gini suka nongol pas ulangan
+threads-21.ts T504 KEEP: telat dari arsip. tinggi sama kaki = Pythagoras. tuntas -> Tinggi sama kaki = Pythagoras. tuntas
+threads-21.ts T505 KEEP: telat dari arsip. debit × waktu = volume. tuntas -> Debit × waktu = volume. tuntas
+threads-21.ts T506 TPL3: telat dari arsip. isi minus bocor. tuntas -> soal 6 kayak gini suka nongol pas ulangan
+threads-21.ts T507 TPL9: telat dari arsip. harga akhir dulu. tuntas -> 200 itu contoh klasik, langsung nyambung ke rumusnya
+threads-21.ts T508 TPL1: nyusul dari arsip, flip lalu kali. kelar -> angka 6 di soal ini emang buat ngetes teliti
+threads-21.ts T509 KEEP: telat dari arsip. kubik menang mulai n = 2. tuntas -> Kubik menang mulai n = 2. tuntas
+threads-21.ts T510 TPL3: nyusul dari arsip, rasio 16:9. beres -> soal 16 kayak gini suka nongol pas ulangan
+threads-21.ts T511 TPL0: telat dari arsip, komplemen nol dulu. tuntas -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-21.ts T512 KEEP: telat dari arsip. bagi adil pakai pecahan. tuntas -> Bagi adil pakai pecahan. tuntas
+threads-21.ts T513 TPL2: telat dari arsip. lima kembar persen. tuntas -> 50-nya kuncinya, sisanya tinggal jalanin
+threads-21.ts T514 TPL1: telat dari arsip. bit dibagi 8. tuntas -> angka 100 di soal ini emang buat ngetes teliti
+threads-21.ts T515 KEEP: telat dari arsip. kubah + dasar = 3πr². tuntas -> Kubah + dasar = 3πr². tuntas
+threads-21.ts T516 TPL5: telat dari arsip. kurs asli. tuntas -> dari 1 ke 15.500 itu lompatan yang paling sering ketuke
+threads-21.ts T517 KEEP: telat dari arsip. menit lewat 60 geser. tuntas -> Menit lewat 60 geser. tuntas
+threads-21.ts T518 TPL5: telat dari arsip. target dibagi kemampuan. tuntas -> dari 600 ke 12 itu lompatan yang paling sering ketuker
+threads-21.ts T519 TPL6: kelewat, dari arsip: sepuluh prima pertama. tuntas kok -> kasus 2 begini enak buat latihan cepet
+threads-21.ts T520 TPL10: dari arsip gue: agenda dikurang dulu. beres semua -> yang bikin mikir di soal ini 20-nya
+threads-21.ts T521 KEEP: telat dari arsip. satu kali hitung, kali banyak. tuntas -> Satu kali hitung, kali banyak. tuntas
+threads-21.ts T522 TPL10: telat dari arsip. nominal × frekuensi. tuntas -> yang bikin mikir di soal ini 50-nya
+threads-21.ts T523 TPL3: telat dari arsip. nol penghapus. tuntas -> soal 1.000.000 kayak gini suka nongol pas ulangan
+threads-21.ts T524 TPL11: telat dari arsip. pasang depan-belakang. tuntas -> angka 1 ama 2-nya cocok buat latihan bareng
+threads-21.ts T525 TPL7: telat dari arsip. pecah ke kelipatan. tuntas -> 96 dan 8 beda tipis, gampang ketuker
+threads-22.ts T526 KEEP: telat dari arsip. 5% = setengah 10%. tuntas -> 5% = setengah 10%. tuntas
+threads-22.ts T527 KEEP: telat dari arsip. are 100, hektare 10.000. tuntas -> Are 100, hektare 10.000. tuntas
+threads-22.ts T528 KEEP: telat dari arsip. 200% = dua kali. tuntas -> 200% = dua kali. tuntas
+threads-22.ts T529 TPL4: telat dari arsip. tiga tarik tanpa. tuntas -> ada yang coba 5 lewat jalan lain gak?
+threads-22.ts T530 KEEP: telat dari arsip. sdm 15, sdt 5. tuntas -> Sdm 15, sdt 5. tuntas
+threads-22.ts T531 KEEP: telat dari arsip. empat kuadrat di 100-200. tuntas -> Empat kuadrat di 100-200. tuntas
+threads-22.ts T533 KEEP: telat dari arsip. dekade = 10 tahun. tuntas -> Dekade = 10 tahun. tuntas
+threads-22.ts T534 TPL2: telat dari arsip. gratis ÷ total. tuntas -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-22.ts T535 KEEP: telat dari arsip. Pascal, jumlah = 2^(n−1). tuntas -> Pascal, jumlah = 2^(n−1). tuntas
+threads-22.ts T536 TPL10: telat dari arsip. desimal × 60. tuntas -> yang bikin mikir di soal ini 11-nya
+threads-22.ts T537 TPL6: telat dari arsip. geser koma. tuntas -> kasus 10 begini enak buat latihan cepet
+threads-22.ts T538 TPL3: telat dari arsip. jumlah − 2×sambungan. tuntas -> soal 3 kayak gini suka nongol pas ulangan
+threads-22.ts T539 TPL9: telat dari arsip. basis peserta. tuntas -> 200 itu contoh klasik, langsung nyambung ke rumusnya
+threads-22.ts T540 KEEP: telat dari arsip. gram air = ml. tuntas -> Gram air = ml. tuntas
+threads-22.ts T541 TPL10: telat nyamber, bagi dua, 2⁷ > 100. beres -> yang bikin mikir di soal ini 1-nya
+threads-22.ts T542 KEEP: telat dari arsip. harga box ÷ isi. tuntas -> Harga box ÷ isi. tuntas
+threads-22.ts T543 TPL2: lewat dari arsip, ekor 00/25/50/75. tuntas -> 25-nya kuncinya, sisanya tinggal jalanin
+threads-22.ts T544 TPL4: telat dari arsip, jumlah dulu. pas semua -> ada yang coba 100 lewat jalan lain gak?
+threads-22.ts T545 TPL7: lewat dari arsip, √3/4 × s². beres -> 6 dan 3 beda tipis, gampang ketuker
+threads-22.ts T546 KEEP: telat dari arsip. banding ke 720 jam. tuntas -> Banding ke 720 jam. tuntas
+threads-22.ts T547 TPL2: telat dari arsip. kuadrat belasan. tuntas -> 11-nya kuncinya, sisanya tinggal jalanin
+threads-22.ts T548 KEEP: telat dari arsip. luar = dua dalam. tuntas -> Luar = dua dalam. tuntas
+threads-22.ts T549 TPL5: telat dari arsip. cek keterbagian dulu. tuntas -> dari 36 ke 4 itu lompatan yang paling sering ketuker
+threads-22.ts T550 TPL1: telat dari arsip. bagi penyebut dulu. tuntas -> angka 30 di soal ini emang buat ngetes teliti
+threads-23.ts T551 TPL3: dari arsip gue: persen dari persen = kali. kelar -> soal 10 kayak gini suka nongol pas ulangan
+threads-23.ts T552 TPL0: lewat dari arsip, laju × waktu. beres semua -> kalau 500 diganti angka lain, langkahnya tetep sama kan
+threads-23.ts T553 KEEP: telat dari arsip. dua jalur satu gambar. tuntas -> Dua jalur satu gambar. tuntas
+threads-23.ts T554 KEEP: telat dari arsip. setengah keliling = jumlah. tuntas -> Setengah keliling = jumlah. tuntas
+threads-23.ts T555 TPL7: nyusul dari arsip, minimal satu via komplemen. tuntas k -> 1 dan 2 beda tipis, gampang ketuker
+threads-23.ts T556 KEEP: telat dari arsip. km² = 100 ha. tuntas -> Km² = 100 ha. tuntas
+threads-23.ts T557 TPL11: telat dari arsip. keluarga 1/8. tuntas -> angka 3 ama 8-nya cocok buat latihan bareng
+threads-23.ts T558 TPL4: dari arsip gue: stok = awal − laju. tuntas -> ada yang coba 250 lewat jalan lain gak?
+threads-23.ts T559 TPL1: telat dari arsip. KPK sinkron putaran. tuntas -> angka 12 di soal ini emang buat ngetes teliti
+threads-23.ts T560 TPL9: telat nyamber, persen × kapasitas. tuntas semua -> 40 itu contoh klasik, langsung nyambung ke rumusnya
+threads-23.ts T561 KEEP: telat dari arsip. digit pertama mulai 1. tuntas -> Digit pertama mulai 1. tuntas
+threads-23.ts T562 KEEP: telat dari arsip. tahun × 12 = bulan. tuntas -> Tahun × 12 = bulan. tuntas
+threads-23.ts T563 TPL4: kelewat, dari arsip: selimut + satu alas. beres semua -> ada yang coba 7 lewat jalan lain gak?
+threads-23.ts T564 TPL4: telat dari arsip. selisih digit. tuntas -> ada yang coba 3 lewat jalan lain gak?
+threads-23.ts T565 TPL1: telat dari arsip. hari efektif. tuntas -> angka 8 di soal ini emang buat ngetes teliti
+threads-23.ts T566 TPL7: telat dari arsip. paritas dadu. tuntas -> 1 dan 2 beda tipis, gampang ketuker
+threads-23.ts T567 TPL5: telat dari arsip. faktor berpasangan. tuntas -> dari 18 ke 1 itu lompatan yang paling sering ketuker
+threads-23.ts T568 TPL10: telat nyamber, sisa kali × nominal. tuntas -> yang bikin mikir di soal ini 3-nya
+threads-23.ts T569 KEEP: telat dari arsip. Heron 9-10-17 = 36. tuntas -> Heron 9-10-17 = 36. tuntas
+threads-23.ts T570 TPL6: telat dari arsip. n(n−1)/2. tuntas -> kasus 5 begini enak buat latihan cepet
+threads-23.ts T571 TPL2: telat dari arsip. nol genap. tuntas -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-23.ts T572 TPL8: telat dari arsip. dua arah konsumsi. tuntas -> catet 50-nya, soal begini balik modal pas ujian
+threads-23.ts T573 TPL3: telat dari arsip. setengah persegi. tuntas -> soal 10 kayak gini suka nongol pas ulangan
+threads-23.ts T574 KEEP: telat dari arsip. jumlah = 3 × tengah. tuntas -> Jumlah = 3 × tengah. tuntas
+threads-23.ts T575 KEEP: telat dari arsip. 22/7 enak di r 7. tuntas -> 22/7 enak di r 7. tuntas
+threads-24.ts T576 KEEP: telat dari arsip. bagi juta biasa aja. tuntas -> Bagi juta biasa aja. tuntas
+threads-24.ts T577 TPL1: telat dari arsip. total − diketahui. tuntas -> angka 20 di soal ini emang buat ngetes teliti
+threads-24.ts T578 TPL6: telat dari arsip. bertingkat atau langsung. tuntas -> kasus 60 begini enak buat latihan cepet
+threads-24.ts T579 TPL6: telat dari arsip. sambungan n−1. tuntas -> kasus 2 begini enak buat latihan cepet
+threads-24.ts T580 TPL2: kelewat, dari arsip: total dulu. beres semua -> 2,4-nya kuncinya, sisanya tinggal jalanin
+threads-24.ts T581 TPL10: telat dari arsip. tabel kubik. tuntas -> yang bikin mikir di soal ini 2-nya
+threads-24.ts T582 TPL7: telat dari arsip. laju nentuin. tuntas -> 45 dan 90 beda tipis, gampang ketuker
+threads-24.ts T583 TPL9: telat dari arsip. daftar sistematis. tuntas -> 10 itu contoh klasik, langsung nyambung ke rumusnya
+threads-24.ts T584 TPL11: telat dari arsip. depan bukan nol. tuntas -> angka 20 ama 22-nya cocok buat latihan bareng
+threads-24.ts T585 TPL6: telat dari arsip. cm² bagi 10.000. tuntas -> kasus 4 begini enak buat latihan cepet
+threads-24.ts T586 TPL7: kelewat, dari arsip: 10% dari total. tuntas -> 350 dan 4 beda tipis, gampang ketuker
+threads-24.ts T587 TPL9: telat dari arsip. 21 bukan prima. tuntas -> 17 itu contoh klasik, langsung nyambung ke rumusnya
+threads-24.ts T588 TPL11: telat dari arsip. ⅓ πr²t. tuntas -> angka 3 ama 7-nya cocok buat latihan bareng
+threads-24.ts T589 TPL2: telat dari arsip. total ÷ porsi. tuntas -> 60-nya kuncinya, sisanya tinggal jalanin
+threads-24.ts T590 TPL1: dari arsip gue: per-delapan terhenti. pas semua -> angka 5 di soal ini emang buat ngetes teliti
+threads-24.ts T591 TPL7: lewat dari arsip, dobel enam kemungkinan. kuku -> 1,1 dan 6,6 beda tipis, gampang ketuker
+threads-24.ts T592 TPL8: telat dari arsip. telat × tarif. tuntas -> catet 14-nya, soal begini balik modal pas ujian
+threads-24.ts T593 TPL3: telat dari arsip. kalender vs kerja. tuntas -> soal 24 kayak gini suka nongol pas ulangan
+threads-24.ts T594 TPL2: telat dari arsip. awal − terpakai. tuntas -> 100-nya kuncinya, sisanya tinggal jalanin
+threads-24.ts T595 TPL1: telat dari arsip. jam jalan terus. tuntas -> angka 09.45 di soal ini emang buat ngetes teliti
+threads-24.ts T596 TPL1: kelewat, dari arsip: basis total. tuntas semua -> angka 12 di soal ini emang buat ngetes teliti
+threads-24.ts T597 KEEP: telat dari arsip. kuadrat + dua nol. tuntas -> Kuadrat + dua nol. tuntas
+threads-24.ts T598 TPL2: telat dari arsip. kurang semua pemakaian. tuntas -> 12-nya kuncinya, sisanya tinggal jalanin
+threads-24.ts T599 TPL3: mampir telat, (n−2) × 180. beres semua -> soal 12 kayak gini suka nongol pas ulangan
+threads-24.ts T600 TPL2: telat dari arsip. abad 100 tahun. tuntas -> 50-nya kuncinya, sisanya tinggal jalanin
+threads-25.ts T601 TPL8: telat dari arsip. 12,5% = 1/8. tuntas -> catet 8-nya, soal begini balik modal pas ujian
+threads-25.ts T602 TPL3: telat dari arsip. basis sisa. tuntas -> soal 12 kayak gini suka nongol pas ulangan
+threads-25.ts T603 TPL3: telat dari arsip. menit dua digit. tuntas -> soal 10 kayak gini suka nongol pas ulangan
+threads-25.ts T604 TPL2: telat dari arsip. dua arah warna. tuntas -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-25.ts T605 KEEP: telat dari arsip. tip = persen × tagihan. tuntas -> Tip = persen × tagihan. tuntas
+threads-25.ts T606 TPL7: mampir telat, −2ab suku tengah. kuku -> 2 dan 10 beda tipis, gampang ketuker
+threads-25.ts T607 KEEP: telat dari arsip. 21 prima dua digit. tuntas -> 21 prima dua digit. tuntas
+threads-25.ts T608 TPL4: telat dari arsip. persen × basis. tuntas -> ada yang coba 10 lewat jalan lain gak?
+threads-25.ts T609 TPL0: telat dari arsip. bentuk baru. tuntas -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-25.ts T610 TPL4: dari arsip gue: kali tujuh. tuntas semua -> ada yang coba 1 lewat jalan lain gak?
+threads-25.ts T611 TPL3: kelewat, dari arsip: tangga kali dua. tuntas kok -> soal 2 kayak gini suka nongol pas ulangan
+threads-25.ts T612 TPL6: kelewat, dari arsip: potong per total. tuntas -> kasus 6 begini enak buat latihan cepet
+threads-25.ts T613 TPL6: telat dari arsip. 25/102. tuntas -> kasus 52 begini enak buat latihan cepet
+threads-25.ts T614 KEEP: telat dari arsip. 9 = 10 − 1. tuntas -> 9 = 10 − 1. tuntas
+threads-25.ts T615 KEEP: telat dari arsip. jumlah = rata × banyak. tuntas -> Jumlah = rata × banyak. tuntas
+threads-25.ts T616 KEEP: telat dari arsip. gram total ÷ dosis. tuntas -> Gram total ÷ dosis. tuntas
+threads-25.ts T617 TPL6: telat dari arsip. penyebut 8. tuntas -> kasus 7 begini enak buat latihan cepet
+threads-25.ts T618 TPL6: nyusul dari arsip, harga per GB. tuntas semua -> kasus 50 begini enak buat latihan cepet
+threads-25.ts T620 TPL10: telat dari arsip. deposit dibalikin. tuntas -> yang bikin mikir di soal ini 3-nya
+threads-25.ts T621 KEEP: telat dari arsip. 2 genap prima tunggal. tuntas -> 2 genap prima tunggal. tuntas
+threads-25.ts T622 KEEP: telat dari arsip. menit × hari ÷ 60. tuntas -> Menit × hari ÷ 60. tuntas
+threads-25.ts T623 TPL3: telat dari arsip. geometri kali 3. tuntas -> soal 3 kayak gini suka nongol pas ulangan
+threads-25.ts T624 TPL4: telat dari arsip. komplemen ke 1. tuntas -> ada yang coba 0,9 lewat jalan lain gak?
+threads-25.ts T625 TPL7: telat dari arsip. 53 dan 59. tuntas -> 50 dan 60 beda tipis, gampang ketuker
+threads-26.ts T627 TPL9: telat dari arsip. 1% dulu. tuntas -> 2 itu contoh klasik, langsung nyambung ke rumusnya
+threads-26.ts T628 KEEP: telat dari arsip. digit sama = kelipatan 11. tuntas -> Digit sama = kelipatan 11. tuntas
+threads-26.ts T629 TPL8: telat nyamber, selisih tahun. beres semua -> catet 2019-nya, soal begini balik modal pas ujian
+threads-26.ts T630 TPL8: mampir telat, palindrom prima langka. beres -> catet 11-nya, soal begini balik modal pas ujian
+threads-26.ts T631 TPL9: telat dari arsip. tarif harian dulu. tuntas -> 900 itu contoh klasik, langsung nyambung ke rumusnya
+threads-26.ts T632 KEEP: telat dari arsip. 10ⁿ → n+1 digit. tuntas -> 10ⁿ → n+1 digit. tuntas
+threads-26.ts T633 TPL6: lewat dari arsip, barisan = n!. beres -> kasus 5 begini enak buat latihan cepet
+threads-26.ts T634 TPL10: telat dari arsip. tempat desimal. tuntas -> yang bikin mikir di soal ini 0,4-nya
+threads-26.ts T636 TPL9: telat dari arsip. metrik desimal. tuntas -> 1 itu contoh klasik, langsung nyambung ke rumusnya
+threads-26.ts T637 TPL7: kelewat, dari arsip: bagi rata = FPB. beres semua -> 12 dan 18 beda tipis, gampang ketuker
+threads-26.ts T638 TPL5: nyusul dari arsip, habis 2 dan 3. beres -> dari 6 ke 12 itu lompatan yang paling sering ketuker
+threads-26.ts T639 TPL9: telat dari arsip. 100 ÷ soal. tuntas -> 30 itu contoh klasik, langsung nyambung ke rumusnya
+threads-26.ts T640 TPL8: dari arsip gue: luas alas × tinggi. tuntas kok -> catet 6-nya, soal begini balik modal pas ujian
+threads-26.ts T641 TPL2: telat dari arsip. 19 ganjil. tuntas -> 7-nya kuncinya, sisanya tinggal jalanin
+threads-26.ts T642 TPL0: telat dari arsip. bulan + tahun. tuntas -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-26.ts T643 KEEP: telat dari arsip. basis 60 ramah pembagi. tuntas -> Basis 60 ramah pembagi. tuntas
+threads-26.ts T644 TPL8: dari arsip gue: pangkat turun bagi basis. pas semua -> catet 1-nya, soal begini balik modal pas ujian
+threads-26.ts T646 TPL10: telat dari arsip. dalam = selisih. tuntas -> yang bikin mikir di soal ini 10-nya
+threads-26.ts T647 KEEP: telat dari arsip. kelipatan 8 dua digit. tuntas -> Kelipatan 8 dua digit. tuntas
+threads-26.ts T648 TPL10: mampir telat, kalender kompromi. kelar -> yang bikin mikir di soal ini 12-nya
+threads-26.ts T649 TPL0: telat dari arsip. jumlah digit 11. tuntas -> kalau 11 diganti angka lain, langkahnya tetep sama kan?
+threads-26.ts T650 KEEP: telat dari arsip. basis 10 dari jari. tuntas -> Basis 10 dari jari. tuntas
+threads-27.ts T651 KEEP: telat dari arsip. 45 = setengah siku. tuntas -> 45 = setengah siku. tuntas
+threads-27.ts T652 TPL8: telat dari arsip, pekan × 7. tuntas kok -> catet 4-nya, soal begini balik modal pas ujian
+threads-27.ts T653 TPL6: telat dari arsip. 5% = 1/20. tuntas -> kasus 0,05 begini enak buat latihan cepet
+threads-27.ts T654 TPL4: telat dari arsip, kali prima berurutan. kuku -> ada yang coba 2 lewat jalan lain gak?
+threads-27.ts T655 TPL2: telat dari arsip. 15% = 3/20. tuntas -> 15-nya kuncinya, sisanya tinggal jalanin
+threads-27.ts T656 TPL10: dari arsip gue: 0,999... = 1. kelar -> yang bikin mikir di soal ini 0,999-nya
+threads-27.ts T657 TPL6: nyusul dari arsip, distributif pecahan. kelar -> kasus 12 begini enak buat latihan cepet
+threads-27.ts T658 TPL0: lewat dari arsip, basis genap → genap. kuku -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-27.ts T659 TPL11: telat dari arsip. ekor 0/5. tuntas -> angka 5 ama 0-nya cocok buat latihan bareng
+threads-27.ts T660 TPL2: telat dari arsip. sisa × frekuensi. tuntas -> 12-nya kuncinya, sisanya tinggal jalanin
+threads-27.ts T661 TPL5: telat dari arsip. 12 bilangan ramah. tuntas -> dari 12 ke 2 itu lompatan yang paling sering ketuker
+threads-27.ts T662 TPL4: telat dari arsip. juara pembagi. tuntas -> ada yang coba 12 lewat jalan lain gak?
+threads-27.ts T663 TPL3: telat dari arsip. kubik jadi kuadrat. tuntas -> soal 1 kayak gini suka nongol pas ulangan
+threads-27.ts T664 TPL11: telat dari arsip, cek keterbagian. tuntas -> angka 100 ama 3-nya cocok buat latihan bareng
+threads-27.ts T665 TPL1: telat dari arsip. ekor bukan jamin. tuntas -> angka 3 di soal ini emang buat ngetes teliti
+threads-27.ts T666 TPL11: telat dari arsip, sisa × durasi. beres -> angka 16 ama 6-nya cocok buat latihan bareng
+threads-27.ts T667 TPL7: mampir telat, susunan = faktorial. pas semua -> 24 dan 4 beda tipis, gampang ketuker
+threads-27.ts T668 TPL7: telat dari arsip. campur satuan. tuntas -> 2 dan 50 beda tipis, gampang ketuker
+threads-27.ts T669 KEEP: telat dari arsip. 7 × 24 = 168. tuntas -> 7 × 24 = 168. tuntas
+threads-27.ts T670 TPL1: kelewat, dari arsip: ml = cm³. tuntas semua -> angka 1 di soal ini emang buat ngetes teliti
+threads-27.ts T671 TPL0: telat nyamber, jam ÷ 24. tuntas kok -> kalau 1.000 diganti angka lain, langkahnya tetep sama k
+threads-27.ts T672 TPL10: dari arsip gue: 2026 = 2 × 1013. kelar -> yang bikin mikir di soal ini 2026-nya
+threads-27.ts T673 TPL1: telat dari arsip. 2025 = 45². tuntas -> angka 2025 di soal ini emang buat ngetes teliti
+threads-27.ts T674 TPL9: nyusul dari arsip, tetangga kuadrat. beres semua -> 2026 itu contoh klasik, langsung nyambung ke rumusnya
+threads-27.ts T675 TPL11: telat dari arsip. 46² = 2.116. tuntas -> angka 46 ama 2.116-nya cocok buat latihan bareng
+threads-28.ts T676 TPL9: kelewat, dari arsip: tripel dilipatgandakan. kuku -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-28.ts T677 KEEP: telat dari arsip. THR = jumlah gaji. tuntas -> THR = jumlah gaji. tuntas
+threads-28.ts T678 TPL11: telat dari arsip. tangga koin 25. tuntas -> angka 25 ama 50-nya cocok buat latihan bareng
+threads-28.ts T679 TPL0: telat dari arsip. lembar × tarif. tuntas -> kalau 500 diganti angka lain, langkahnya tetep sama kan
+threads-28.ts T680 TPL4: nyusul dari arsip, gros = 144. tuntas semua -> ada yang coba 12 lewat jalan lain gak?
+threads-28.ts T681 TPL3: dari arsip gue: detik bagi 60. kuku -> soal 90 kayak gini suka nongol pas ulangan
+threads-28.ts T682 TPL2: mampir telat, menit × 60. beres -> 300-nya kuncinya, sisanya tinggal jalanin
+threads-28.ts T683 TPL2: kelewat, dari arsip: pecah faktor. tuntas semua -> 12-nya kuncinya, sisanya tinggal jalanin
+threads-28.ts T684 TPL8: telat dari arsip. peluang 70% dijelaskan. tuntas -> catet 70-nya, soal begini balik modal pas ujian
+threads-28.ts T685 TPL10: telat dari arsip. jumlah dulu. tuntas -> yang bikin mikir di soal ini 80-nya
+threads-28.ts T686 TPL0: telat dari arsip. kg × tarif. tuntas -> kalau 7 diganti angka lain, langkahnya tetep sama kan?
+threads-28.ts T687 KEEP: telat dari arsip. 5 × 7 = 35. tuntas -> 5 × 7 = 35. tuntas
+threads-28.ts T688 TPL10: dari arsip gue: total − diketahui. tuntas -> yang bikin mikir di soal ini 45-nya
+threads-28.ts T690 TPL0: telat dari arsip. sesi + istirahat. tuntas -> kalau 90 diganti angka lain, langkahnya tetep sama kan?
+threads-28.ts T691 TPL11: lewat dari arsip, 7 × 7 = 49. beres -> angka 49 ama 7-nya cocok buat latihan bareng
+threads-28.ts T692 TPL7: telat dari arsip. tabel kucing. tuntas -> 1 dan 15 beda tipis, gampang ketuker
+threads-28.ts T693 TPL4: mampir telat, kuartal 3 bulan. tuntas semua -> ada yang coba 3 lewat jalan lain gak?
+threads-28.ts T694 TPL7: telat dari arsip. suit = ¼. tuntas -> 52 dan 13 beda tipis, gampang ketuker
+threads-28.ts T695 TPL0: telat dari arsip. bulan × nominal. tuntas -> kalau 200 diganti angka lain, langkahnya tetep sama kan
+threads-28.ts T696 TPL0: telat dari arsip. liter × 1.000. tuntas -> kalau 0,125 diganti angka lain, langkahnya tetep sama k
+threads-28.ts T697 TPL10: telat dari arsip. tangga 10. tuntas -> yang bikin mikir di soal ini 10-nya
+threads-28.ts T698 TPL9: telat dari arsip. keliling tripel. tuntas -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-28.ts T699 TPL9: telat nyamber, baca tren. tuntas kok -> 120 itu contoh klasik, langsung nyambung ke rumusnya
+threads-28.ts T700 TPL8: telat dari arsip. 700 antara kuadrat. tuntas -> catet 700-nya, soal begini balik modal pas ujian
+threads-29.ts T701 TPL7: telat dari arsip. 8 × 125. tuntas -> 8 dan 125 beda tipis, gampang ketuker
+threads-29.ts T702 TPL1: nyusul dari arsip, batas voucher. kelar -> angka 87 di soal ini emang buat ngetes teliti
+threads-29.ts T704 TPL1: telat dari arsip. watt × jam. tuntas -> angka 50 di soal ini emang buat ngetes teliti
+threads-29.ts T705 TPL7: telat dari arsip. pembagi 60. tuntas -> 15 dan 4 beda tipis, gampang ketuker
+threads-29.ts T707 TPL4: nyusul dari arsip, tabel 6. tuntas kok -> ada yang coba 6 lewat jalan lain gak?
+threads-29.ts T708 TPL3: telat dari arsip. sesi 20 menit. tuntas -> soal 20 kayak gini suka nongol pas ulangan
+threads-29.ts T709 TPL11: telat dari arsip. keliling trapesium. tuntas -> angka 8 ama 6-nya cocok buat latihan bareng
+threads-29.ts T710 TPL3: telat dari arsip. seperempat. tuntas -> soal 200 kayak gini suka nongol pas ulangan
+threads-29.ts T711 TPL6: telat dari arsip. km sepatu. tuntas -> kasus 600 begini enak buat latihan cepet
+threads-29.ts T712 TPL7: telat dari arsip. bagi panen. tuntas -> 60 dan 3 beda tipis, gampang ketuker
+threads-29.ts T713 TPL0: telat dari arsip. keliling segi-5. tuntas -> kalau 5 diganti angka lain, langkahnya tetep sama kan?
+threads-29.ts T714 TPL0: telat dari arsip. jumlah kecil dadu. tuntas -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-29.ts T715 TPL6: telat dari arsip. 105 × 3. tuntas -> kasus 105 begini enak buat latihan cepet
+threads-29.ts T716 TPL6: telat dari arsip. penyebut 12. tuntas -> kasus 3 begini enak buat latihan cepet
+threads-29.ts T717 TPL11: telat dari arsip. bagi 25. tuntas -> angka 100 ama 25-nya cocok buat latihan bareng
+threads-29.ts T718 TPL7: kelewat, dari arsip: paket vs satuan. pas semua -> 100 dan 55 beda tipis, gampang ketuker
+threads-29.ts T719 TPL10: telat dari arsip. total vs kapasitas. tuntas -> yang bikin mikir di soal ini 4-nya
+threads-29.ts T720 TPL8: telat dari arsip. 5³ = 125. tuntas -> catet 5-nya, soal begini balik modal pas ujian
+threads-29.ts T721 TPL2: lewat dari arsip, tiga dekade. kuku -> 30-nya kuncinya, sisanya tinggal jalanin
+threads-29.ts T722 TPL11: telat dari arsip. prima kembar. tuntas -> angka 2 ama 11-nya cocok buat latihan bareng
+threads-29.ts T723 TPL3: telat dari arsip. tinggi tangga. tuntas -> soal 16 kayak gini suka nongol pas ulangan
+threads-29.ts T724 TPL3: telat dari arsip. snooze 9 menit. tuntas -> soal 05.30 kayak gini suka nongol pas ulangan
+threads-29.ts T725 TPL3: telat dari arsip. separuh 26. tuntas -> soal 26 kayak gini suka nongol pas ulangan
+threads-3.ts T51 KEEP: Telat. udah kejawab kan? beda dikit itu wajar, apps pak -> Beda dikit itu wajar, apps pake jalur resmi
+threads-3.ts T52 KEEP: Telat. udah dimasak kan? 1,5625 tetap benar buat catata -> Udah dimasak kan? 1,5625 tetap benar buat catatan berik
+threads-3.ts T53 KEEP: telat bre. kuis udah kelar ya? 68 itu udah fix dari awa -> Kuis udah kelar ya? 68 itu udah fix dari awal
+threads-3.ts T54 KEEP: telat teh. semangkanya udah laku? 1,175 tetep angkanya, -> Semangkanya udah laku? 1,175 tetep angkanya, sisanya ga
+threads-3.ts T55 KEEP: Telat. udah kejawab di sekolah? 42 tetep benar, dari ne -> 42 tetep benar, dari nenek pertama sampe nenek kedua
+threads-3.ts T56 KEEP: Telat. rodanya masih dipakai? 42 udah pas buat ngukur e -> Rodanya masih dipakai? 42 udah pas buat ngukur etalase
+threads-3.ts T57 KEEP: telat bre. mienya udah digoreng? itungan lu bener dari  -> Mienya udah digoreng? itungan lu bener dari awal
+threads-3.ts T58 KEEP: telat nanggepin. udah beres kan? 1,68 tetap, pembulatan -> 1,68 tetap, pembulatan itu bukan hak pasien
+threads-3.ts T58 KEEP: telat. pasiennya masih protes? 1,68 udah bener dari awa -> Pasiennya masih protes? 1,68 udah bener dari awal
+threads-3.ts T59 KEEP: Telat. anaknya udah nyerah belom wkwk? jawabannya tetep -> Anaknya udah nyerah belom wkwk? jawabannya tetep 20
+threads-3.ts T60 KEEP: Telat. kainnya udah dibawa pulang? 47.500 itu pas, hitu -> Kainnya udah dibawa pulang? 47.500 itu pas, hitungannya
+threads-3.ts T61 KEEP: telat bro. udah dikumpulin? 5,29 udah fix, temen lu yan -> 5,29 udah fix, temen lu yang keliru
+threads-3.ts T62 KEEP: Telat. udah ketemu contohnya? Reuleaux itu namanya, di  -> Udah ketemu contohnya? Reuleaux itu namanya, di atas ud
+threads-3.ts T63 KEEP: Telat. taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih am -> Taplaknya udah dibeli? ukuran 1,4 × 0,8 lebih aman
+threads-3.ts T64 KEEP: telat bro. udah diputer kuisnya? 125 itu fix -> Udah diputer kuisnya? 125 itu fix
+threads-3.ts T65 KEEP: Telat. rapetnya udah? 126 dus udah bener dari awal -> Rapetnya udah? 126 dus udah bener dari awal
+threads-3.ts T66 KEEP: Telat. udah nyerah ngeyel? 10.000 itu fix, di atas udah -> Udah nyerah ngeyel? 10.000 itu fix, di atas udah dibukt
+threads-3.ts T66 KEEP: Telat juga. 1 m² = 10.000 cm², cukup diingat 100 × 100. -> 1 m² = 10.000 cm², cukup diingat 100 × 100. selesai
+threads-3.ts T67 KEEP: Telat. udah libur bel? 75 derajat, jangan sampai digant -> Udah libur bel? 75 derajat, jangan sampai diganti
+threads-3.ts T68 KEEP: Telat. grup-nya udah tenang? 108 m² udah fix -> Grup-nya udah tenang? 108 m² udah fix
+threads-3.ts T68 KEEP: Telat juga. skala luas itu jebakan klasik, 200 dikali d -> Skala luas itu jebakan klasik, 200 dikali dua kali. 108
+threads-3.ts T69 KEEP: Telat. penumpangnya udah sampe? 26 km per jam udah fix -> Penumpangnya udah sampe? 26 km per jam udah fix
+threads-3.ts T69 KEEP: Telat juga. kecepatan itu jarak dibagi waktu, gak bisa  -> Kecepatan itu jarak dibagi waktu, gak bisa ditukar. 26 
+threads-3.ts T70 KEEP: telat bre. panci barunya kepake? luas dasar memang lonc -> Panci barunya kepake? luas dasar memang loncat 56 perse
+threads-3.ts T71 KEEP: Telat. udah dibales pembimbing? 360 m itu benar dari aw -> Udah dibales pembimbing? 360 m itu benar dari awal
+threads-3.ts T71 KEEP: telat. skala peta emang sering bikin bingung, 360 m fix -> Skala peta emang sering bikin bingung, 360 m fix
+threads-3.ts T71 KEEP: telat juga. 1 cm = 50 m, 7,2 cm = 360 m. selesai -> 1 cm = 50 m, 7,2 cm = 360 m. selesai
+threads-3.ts T72 KEEP: Telat. atasannya udah paham? 10 box itu fix, 80 cm terp -> Atasannya udah paham? 10 box itu fix, 80 cm terpakai, 2
+threads-3.ts T73 KEEP: Telat. bayinya udah dicek lagi? 0,5 cm manual itu wajar -> Bayinya udah dicek lagi? 0,5 cm manual itu wajar
+threads-3.ts T74 KEEP: telat bro. monitor-nya udah dipake? 576 pas, pabrik ben -> Monitor-nya udah dipake? 576 pas, pabrik benar
+threads-3.ts T74 KEEP: telat bro. layarnya udah nyala? 24 inci udah fix -> Layarnya udah nyala? 24 inci udah fix
+threads-3.ts T74 KEEP: telat juga. pythagoras gak pernah gagal, pabrik juga. d -> Pythagoras gak pernah gagal, pabrik juga. dua-duanya be
+threads-3.ts T75 KEEP: Telat. keluarganya udah sepakat? 100 m² per anak udah p -> Keluarganya udah sepakat? 100 m² per anak udah pas dari
+threads-30.ts T726 TPL6: telat dari arsip. 12 × 5. tuntas -> kasus 12 begini enak buat latihan cepet
+threads-30.ts T727 TPL8: dari arsip gue: balok 2×3×4. tuntas semua -> catet 2-nya, soal begini balik modal pas ujian
+threads-30.ts T728 TPL4: mampir telat, tiga perempat. tuntas semua -> ada yang coba 16 lewat jalan lain gak?
+threads-30.ts T729 TPL7: telat dari arsip. rata tiga toko. tuntas -> 12 dan 13 beda tipis, gampang ketuker
+threads-30.ts T730 TPL7: telat dari arsip. luas 120. tuntas -> 15 dan 8 beda tipis, gampang ketuker
+threads-30.ts T731 TPL5: telat dari arsip. 64 banyak wajah. tuntas -> dari 8 ke 64 itu lompatan yang paling sering ketuker
+threads-30.ts T732 TPL10: telat dari arsip. kelereng 4-4. tuntas -> yang bikin mikir di soal ini 4-nya
+threads-30.ts T733 TPL6: dari arsip gue: prima 100-120. tuntas semua -> kasus 100 begini enak buat latihan cepet
+threads-30.ts T735 TPL2: telat dari arsip, 2 × 45. tuntas kok -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-30.ts T736 TPL0: telat dari arsip. refleks 270. tuntas -> kalau 270 diganti angka lain, langkahnya tetep sama kan
+threads-30.ts T737 TPL3: telat dari arsip. tren kuartal. tuntas -> soal 120 kayak gini suka nongol pas ulangan
+threads-30.ts T738 TPL4: telat dari arsip. 7² = 49. tuntas -> ada yang coba 7 lewat jalan lain gak?
+threads-30.ts T739 TPL9: dari arsip gue: dua pembayaran. beres -> 250 itu contoh klasik, langsung nyambung ke rumusnya
+threads-30.ts T740 TPL2: telat dari arsip. keliling meja. tuntas -> 120-nya kuncinya, sisanya tinggal jalanin
+threads-30.ts T741 TPL0: kelewat, dari arsip: 11 × 9. tuntas -> kalau 11 diganti angka lain, langkahnya tetep sama kan?
+threads-30.ts T742 TPL7: lewat dari arsip, persen volume. kuku -> 30 dan 1,5 beda tipis, gampang ketuker
+threads-30.ts T743 TPL5: telat dari arsip. campuran × 3. tuntas -> dari 1 ke 3 itu lompatan yang paling sering ketuker
+threads-30.ts T744 TPL9: telat dari arsip. 6 × 15. tuntas -> 6 itu contoh klasik, langsung nyambung ke rumusnya
+threads-30.ts T745 TPL11: telat dari arsip. putaran game. tuntas -> angka 1 ama 20-nya cocok buat latihan bareng
+threads-30.ts T746 TPL9: telat dari arsip. 3(x+2). tuntas -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-30.ts T747 TPL7: telat dari arsip. 3 × 33. tuntas -> 3 dan 33 beda tipis, gampang ketuker
+threads-30.ts T748 TPL5: dari arsip gue: jumlah 5 dadu. tuntas semua -> dari 5 ke 1,4 itu lompatan yang paling sering ketuker
+threads-30.ts T749 TPL4: mampir telat, hemat per unit. beres -> ada yang coba 2 lewat jalan lain gak?
+threads-30.ts T750 KEEP: telat dari arsip. 750 = ¾ ribu. tuntas -> 750 = ¾ ribu. tuntas
+threads-31.ts T751 TPL10: telat dari arsip. separuh 26. tuntas -> yang bikin mikir di soal ini 26-nya
+threads-31.ts T752 TPL3: telat dari arsip. kelereng 6-6. tuntas -> soal 6 kayak gini suka nongol pas ulangan
+threads-31.ts T753 TPL7: telat dari arsip. 9 × 11. tuntas -> 9 dan 11 beda tipis, gampang ketuker
+threads-31.ts T755 TPL10: telat dari arsip. Februari geser. tuntas -> yang bikin mikir di soal ini 28-nya
+threads-31.ts T756 TPL9: telat nyamber, wifi perangkat. tuntas kok -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-31.ts T757 TPL10: telat dari arsip, rata empat. beres semua -> yang bikin mikir di soal ini 65-nya
+threads-31.ts T758 TPL1: telat dari arsip. 4 × 25. tuntas -> angka 4 di soal ini emang buat ngetes teliti
+threads-31.ts T760 TPL4: telat dari arsip. umur KTP. tuntas -> ada yang coba 2010 lewat jalan lain gak?
+threads-31.ts T761 TPL10: telat dari arsip. prima 199. tuntas -> yang bikin mikir di soal ini 200-nya
+threads-31.ts T762 TPL3: telat dari arsip. 2 × 60. tuntas -> soal 2 kayak gini suka nongol pas ulangan
+threads-31.ts T763 TPL7: telat nyamber, akar 625 & 441. tuntas kok -> 625 dan 25 beda tipis, gampang ketuker
+threads-31.ts T764 TPL3: telat dari arsip. 5/6 × 3/10. tuntas -> soal 5 kayak gini suka nongol pas ulangan
+threads-31.ts T765 TPL0: telat dari arsip. 15² = 225. tuntas -> kalau 15 diganti angka lain, langkahnya tetep sama kan?
+threads-31.ts T766 TPL10: lewat dari arsip, pencapaian. kuku -> yang bikin mikir di soal ini 75-nya
+threads-31.ts T767 TPL5: telat dari arsip. tripel 20-21-29. tuntas -> dari 20 ke 21 itu lompatan yang paling sering ketuker
+threads-31.ts T768 TPL2: telat dari arsip, 3 × 40. kelar -> 3-nya kuncinya, sisanya tinggal jalanin
+threads-31.ts T769 TPL1: nyusul dari arsip, prisma segiempat. beres semua -> angka 5 di soal ini emang buat ngetes teliti
+threads-31.ts T771 TPL2: telat dari arsip. 10 × 30. tuntas -> 10-nya kuncinya, sisanya tinggal jalanin
+threads-31.ts T772 TPL7: dari arsip gue: 90 hari. tuntas kok -> 90 dan 3 beda tipis, gampang ketuker
+threads-31.ts T773 TPL0: nyusul dari arsip, kartu angka. beres -> kalau 10 diganti angka lain, langkahnya tetep sama kan?
+threads-31.ts T774 TPL5: dari arsip gue: 3 hari 4 jam. tuntas kok -> dari 3 ke 4 itu lompatan yang paling sering ketuker
+threads-31.ts T775 TPL5: telat dari arsip. 5 × 45. tuntas -> dari 5 ke 45 itu lompatan yang paling sering ketuker
+threads-32.ts T776 TPL11: telat dari arsip. 16 × 5. tuntas -> angka 16 ama 5-nya cocok buat latihan bareng
+threads-32.ts T777 TPL6: telat dari arsip. belanja 4 pekan. tuntas -> kasus 4 begini enak buat latihan cepet
+threads-32.ts T778 TPL6: nyusul dari arsip, separuh 38. tuntas semua -> kasus 38 begini enak buat latihan cepet
+threads-32.ts T779 TPL8: telat dari arsip. tripel 7-24-25. tuntas -> catet 25-nya, soal begini balik modal pas ujian
+threads-32.ts T780 TPL3: telat dari arsip. dua hari kerja. tuntas -> soal 12 kayak gini suka nongol pas ulangan
+threads-32.ts T781 TPL11: telat dari arsip. 6² = 36. tuntas -> angka 6 ama 36-nya cocok buat latihan bareng
+threads-32.ts T782 TPL4: kelewat, dari arsip: 15 dari 60. tuntas -> ada yang coba 15 lewat jalan lain gak?
+threads-32.ts T783 TPL2: telat dari arsip. 7 × 13. tuntas -> 7-nya kuncinya, sisanya tinggal jalanin
+threads-32.ts T784 TPL11: lewat dari arsip, puzzle persegi. kelar -> angka 9 ama 81-nya cocok buat latihan bareng
+threads-32.ts T785 TPL2: telat dari arsip. ton-kuintal. tuntas -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-32.ts T786 TPL1: lewat dari arsip, 81 dua wajah. tuntas semua -> angka 3 di soal ini emang buat ngetes teliti
+threads-32.ts T787 TPL10: telat dari arsip. dadu jumlah 8. tuntas -> yang bikin mikir di soal ini 8-nya
+threads-32.ts T788 TPL1: telat dari arsip. sisa cash 200. tuntas -> angka 200 di soal ini emang buat ngetes teliti
+threads-32.ts T789 TPL8: telat dari arsip. 8 × 12. tuntas -> catet 8-nya, soal begini balik modal pas ujian
+threads-32.ts T790 TPL6: telat dari arsip, barisan simetris. tuntas kok -> kasus 10 begini enak buat latihan cepet
+threads-32.ts T791 TPL6: telat dari arsip. Armstrong 153. tuntas -> kasus 3 begini enak buat latihan cepet
+threads-32.ts T792 TPL11: kelewat, dari arsip: 9 × 7. beres semua -> angka 9 ama 7-nya cocok buat latihan bareng
+threads-32.ts T793 TPL6: telat dari arsip. luas setengah lingkaran. tuntas -> kasus 14 begini enak buat latihan cepet
+threads-32.ts T794 TPL0: telat dari arsip. jumlah durasi. tuntas -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-32.ts T795 TPL11: telat dari arsip. 4 × 18. tuntas -> angka 4 ama 18-nya cocok buat latihan bareng
+threads-32.ts T796 TPL4: lewat dari arsip, kurang persepuluh. kelar -> ada yang coba 7 lewat jalan lain gak?
+threads-32.ts T798 TPL11: telat nyamber, 12 × 4. kelar -> angka 12 ama 4-nya cocok buat latihan bareng
+threads-32.ts T799 TPL6: telat dari arsip. 13²-14². tuntas -> kasus 13 begini enak buat latihan cepet
+threads-32.ts T800 TPL0: telat dari arsip. 800 antara kuadrat. tuntas -> kalau 800 diganti angka lain, langkahnya tetep sama kan
+threads-33.ts T801 TPL4: telat dari arsip. separuh 46. tuntas -> ada yang coba 46 lewat jalan lain gak?
+threads-33.ts T802 TPL4: telat nyamber, pulang-pergi. beres semua -> ada yang coba 8 lewat jalan lain gak?
+threads-33.ts T803 TPL7: telat dari arsip. 5 × 8. tuntas -> 5 dan 8 beda tipis, gampang ketuker
+threads-33.ts T804 TPL8: telat dari arsip. diagonal ruang. tuntas -> catet 4-nya, soal begini balik modal pas ujian
+threads-33.ts T805 TPL0: telat dari arsip. 7 × 14. tuntas -> kalau 7 diganti angka lain, langkahnya tetep sama kan?
+threads-33.ts T806 TPL7: kelewat, dari arsip: 90 persen. tuntas semua -> 90 dan 45 beda tipis, gampang ketuker
+threads-33.ts T807 TPL4: nyusul dari arsip, 6 × 9. tuntas kok -> ada yang coba 6 lewat jalan lain gak?
+threads-33.ts T808 TPL5: telat dari arsip. tabel frekuensi. tuntas -> dari 5 ke 4 itu lompatan yang paling sering ketuker
+threads-33.ts T809 TPL7: kelewat, dari arsip: 3 × 34. tuntas -> 3 dan 34 beda tipis, gampang ketuker
+threads-33.ts T810 TPL2: telat nyamber, keterbagian 11. kuku -> 11-nya kuncinya, sisanya tinggal jalanin
+threads-33.ts T811 TPL7: telat dari arsip. 4 × 21. tuntas -> 4 dan 21 beda tipis, gampang ketuker
+threads-33.ts T812 TPL2: nyusul dari arsip, pekan-hari. tuntas semua -> 3-nya kuncinya, sisanya tinggal jalanin
+threads-33.ts T813 TPL6: nyusul dari arsip, 9 × 12. beres -> kasus 9 begini enak buat latihan cepet
+threads-33.ts T814 TPL0: telat dari arsip. kelereng tiga warna. tuntas -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-33.ts T815 TPL2: telat dari arsip. belanja tiga minggu. tuntas -> 80-nya kuncinya, sisanya tinggal jalanin
+threads-33.ts T816 TPL3: telat nyamber, 2 × 65. kelar -> soal 2 kayak gini suka nongol pas ulangan
+threads-33.ts T819 TPL10: telat dari arsip. campuran jumlah. tuntas -> yang bikin mikir di soal ini 2-nya
+threads-33.ts T820 TPL2: telat dari arsip. 11² = 121. kuku -> 11-nya kuncinya, sisanya tinggal jalanin
+threads-33.ts T821 TPL7: telat dari arsip. Mei-Juni. tuntas -> 1 dan 31 beda tipis, gampang ketuker
+threads-33.ts T822 KEEP: telat dari arsip. 90 km 60 km/j. tuntas -> 90 km 60 km/j. tuntas
+threads-33.ts T823 TPL3: telat nyamber, 6 × 13. beres semua -> soal 6 kayak gini suka nongol pas ulangan
+threads-33.ts T824 TPL6: telat dari arsip. 5x + 2x. tuntas -> kasus 5 begini enak buat latihan cepet
+threads-33.ts T825 TPL6: mampir telat, 825 hari. tuntas semua -> kasus 825 begini enak buat latihan cepet
+threads-34.ts T826 TPL2: telat dari arsip, separuh 54. tuntas kok -> 54-nya kuncinya, sisanya tinggal jalanin
+threads-34.ts T827 TPL5: telat dari arsip. 18 dari 24. tuntas -> dari 18 ke 24 itu lompatan yang paling sering ketuker
+threads-34.ts T828 TPL9: telat dari arsip. 5 × 14. tuntas -> 5 itu contoh klasik, langsung nyambung ke rumusnya
+threads-34.ts T829 TPL5: telat dari arsip. prima 150-180. tuntas -> dari 150 ke 180 itu lompatan yang paling sering ketuker
+threads-34.ts T830 TPL0: kelewat, dari arsip: kali dua pecahan. tuntas kok -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-34.ts T831 TPL7: dari arsip gue: 5 × 19. beres -> 5 dan 19 beda tipis, gampang ketuker
+threads-34.ts T832 TPL10: lewat dari arsip, diagonal muka kubus. tuntas kok -> yang bikin mikir di soal ini 2-nya
+threads-34.ts T834 TPL11: lewat dari arsip, 6,5 × 3. beres semua -> angka 6,5 ama 19,5-nya cocok buat latihan bareng
+threads-34.ts T835 TPL0: telat dari arsip. 15 × 6. tuntas -> kalau 15 diganti angka lain, langkahnya tetep sama kan?
+threads-34.ts T836 TPL7: lewat dari arsip, dompet pisah. kuku -> 50 dan 80 beda tipis, gampang ketuker
+threads-34.ts T837 TPL5: telat dari arsip. 6 × 17. tuntas -> dari 6 ke 17 itu lompatan yang paling sering ketuker
+threads-34.ts T839 TPL10: mampir telat, 8 × 11. tuntas -> yang bikin mikir di soal ini 8-nya
+threads-34.ts T840 TPL11: mampir telat, prima dadu. beres semua -> angka 1 ama 4-nya cocok buat latihan bareng
+threads-34.ts T841 TPL10: telat dari arsip. rata tujuh. tuntas -> yang bikin mikir di soal ini 65-nya
+threads-34.ts T843 TPL2: kelewat, dari arsip: 7,2 jam. kuku -> 7,2-nya kuncinya, sisanya tinggal jalanin
+threads-34.ts T844 TPL8: telat dari arsip. 13 × 3. kelar -> catet 13-nya, soal begini balik modal pas ujian
+threads-34.ts T845 TPL9: telat dari arsip. keliling → luas. tuntas -> 60 itu contoh klasik, langsung nyambung ke rumusnya
+threads-34.ts T846 TPL3: telat dari arsip. 33 dari 44. tuntas -> soal 33 kayak gini suka nongol pas ulangan
+threads-34.ts T847 TPL2: telat dari arsip. 5 × 17. tuntas -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-34.ts T848 TPL2: kelewat, dari arsip: 19² = 361. kelar -> 19-nya kuncinya, sisanya tinggal jalanin
+threads-34.ts T849 TPL1: telat dari arsip. 1.200 hari. tuntas -> angka 1.200 di soal ini emang buat ngetes teliti
+threads-35.ts T851 TPL7: telat nyamber, separuh 62. pas semua -> 62 dan 31 beda tipis, gampang ketuker
+threads-35.ts T852 TPL10: telat dari arsip, saldo tiga komponen. tuntas -> yang bikin mikir di soal ini 100-nya
+threads-35.ts T853 TPL10: nyusul dari arsip, 9 × 13. kuku -> yang bikin mikir di soal ini 9-nya
+threads-35.ts T854 TPL8: mampir telat, diagonal segi-n. kelar -> catet 3-nya, soal begini balik modal pas ujian
+threads-35.ts T855 TPL4: telat nyamber, 6 × 18. tuntas kok -> ada yang coba 6 lewat jalan lain gak?
+threads-35.ts T856 TPL7: telat dari arsip. dadu ≤ 2. tuntas -> 2 dan 6 beda tipis, gampang ketuker
+threads-35.ts T857 TPL2: mampir telat, rata nol. beres -> 80-nya kuncinya, sisanya tinggal jalanin
+threads-35.ts T858 TPL1: lewat dari arsip, 8 × 14. tuntas semua -> angka 8 di soal ini emang buat ngetes teliti
+threads-35.ts T859 KEEP: telat dari arsip. 6 pekan 4 hari. tuntas -> 6 pekan 4 hari. tuntas
+threads-35.ts T860 TPL4: kelewat, dari arsip: 3 × 45. pas semua -> ada yang coba 3 lewat jalan lain gak?
+threads-35.ts T861 TPL2: telat dari arsip, 0,25 hari. tuntas -> 0,25-nya kuncinya, sisanya tinggal jalanin
+threads-35.ts T862 TPL11: nyusul dari arsip, 5 × 23. pas semua -> angka 5 ama 23-nya cocok buat latihan bareng
+threads-35.ts T863 TPL7: telat dari arsip. rata 5 barang. tuntas -> 5 dan 375 beda tipis, gampang ketuker
+threads-35.ts T864 TPL3: telat dari arsip. 7 × 19. tuntas -> soal 7 kayak gini suka nongol pas ulangan
+threads-35.ts T865 TPL4: telat dari arsip, keterbagian 12. pas semua -> ada yang coba 12 lewat jalan lain gak?
+threads-35.ts T866 TPL8: lewat dari arsip, 9 × 15. beres semua -> catet 9-nya, soal begini balik modal pas ujian
+threads-35.ts T867 TPL0: telat dari arsip. sudut vertikal. tuntas -> kalau 35 diganti angka lain, langkahnya tetep sama kan?
+threads-35.ts T868 TPL9: kelewat, dari arsip: 4 × 33. kuku -> 4 itu contoh klasik, langsung nyambung ke rumusnya
+threads-35.ts T869 TPL6: telat nyamber, estimasi tiba. kelar -> kasus 150 begini enak buat latihan cepet
+threads-35.ts T870 TPL6: telat dari arsip, 10 × 47. tuntas kok -> kasus 10 begini enak buat latihan cepet
+threads-35.ts T871 TPL4: telat dari arsip. koin semua sama. tuntas -> ada yang coba 2 lewat jalan lain gak?
+threads-35.ts T872 TPL9: mampir telat, 14 × 3. beres -> 14 itu contoh klasik, langsung nyambung ke rumusnya
+threads-35.ts T874 TPL5: telat dari arsip, 11 × 15. kelar -> dari 11 ke 15 itu lompatan yang paling sering ketuker
+threads-35.ts T875 TPL10: lewat dari arsip, sisa hari tahun. kelar -> yang bikin mikir di soal ini 1-nya
+threads-36.ts T876 TPL10: mampir telat, separuh 74. tuntas semua -> yang bikin mikir di soal ini 74-nya
+threads-36.ts T877 TPL2: telat dari arsip. persen hari. tuntas -> 9-nya kuncinya, sisanya tinggal jalanin
+threads-36.ts T878 TPL9: mampir telat, 7 × 16. tuntas kok -> 7 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T879 TPL8: telat dari arsip. dua lingkaran 20×10. tuntas -> catet 5-nya, soal begini balik modal pas ujian
+threads-36.ts T881 TPL5: telat dari arsip, tebak pilihan. beres semua -> dari 4 ke 1 itu lompatan yang paling sering ketuker
+threads-36.ts T882 TPL6: dari arsip gue: 6 × 21. tuntas -> kasus 6 begini enak buat latihan cepet
+threads-36.ts T883 TPL6: telat dari arsip. 31² = 961. tuntas -> kasus 31 begini enak buat latihan cepet
+threads-36.ts T884 TPL0: telat dari arsip. 3 × 47. tuntas -> kalau 3 diganti angka lain, langkahnya tetep sama kan?
+threads-36.ts T885 TPL9: telat dari arsip. 0,75 hari. tuntas -> 0,75 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T886 TPL11: telat dari arsip. 9 × 18. tuntas -> angka 9 ama 18-nya cocok buat latihan bareng
+threads-36.ts T887 TPL9: lewat dari arsip, prima ke-20. tuntas kok -> 20 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T889 TPL11: mampir telat, pecah 500rb. tuntas kok -> angka 500 ama 5-nya cocok buat latihan bareng
+threads-36.ts T890 TPL3: telat dari arsip. 8 × 16. tuntas -> soal 8 kayak gini suka nongol pas ulangan
+threads-36.ts T891 TPL5: telat dari arsip. 32² dua wajah. tuntas -> dari 32 ke 1.024 itu lompatan yang paling sering ketuke
+threads-36.ts T892 TPL4: telat dari arsip. 5 × 28. tuntas -> ada yang coba 5 lewat jalan lain gak?
+threads-36.ts T893 TPL9: kelewat, dari arsip: 3(x−2) = 2(x+1). tuntas kok -> 3 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T894 TPL9: telat dari arsip. 7 × 23. tuntas -> 7 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T895 TPL2: telat dari arsip. rentang nol. tuntas -> 7-nya kuncinya, sisanya tinggal jalanin
+threads-36.ts T896 TPL9: mampir telat, 6 × 24. tuntas semua -> 6 itu contoh klasik, langsung nyambung ke rumusnya
+threads-36.ts T897 TPL5: nyusul dari arsip, 7,5 × 4. beres -> dari 4 ke 7,5 itu lompatan yang paling sering ketuker
+threads-36.ts T898 TPL1: telat nyamber, 11 × 14. tuntas kok -> angka 11 di soal ini emang buat ngetes teliti
+threads-36.ts T899 TPL1: nyusul dari arsip, 1,1 pekan. kelar -> angka 1,1 di soal ini emang buat ngetes teliti
+threads-36.ts T900 TPL1: nyusul dari arsip, 900 = 30². beres semua -> angka 900 di soal ini emang buat ngetes teliti
+threads-37.ts T901 TPL2: telat dari arsip. separuh 78. tuntas -> 78-nya kuncinya, sisanya tinggal jalanin
+threads-37.ts T902 TPL1: lewat dari arsip, 14 dari 56. beres semua -> angka 14 di soal ini emang buat ngetes teliti
+threads-37.ts T903 TPL4: telat dari arsip, 6 × 19. beres semua -> ada yang coba 6 lewat jalan lain gak?
+threads-37.ts T904 TPL1: telat dari arsip, keliling trapesium 32. kuku -> angka 12 di soal ini emang buat ngetes teliti
+threads-37.ts T906 TPL7: telat dari arsip. sisa 120rb. tuntas -> 120 dan 45 beda tipis, gampang ketuker
+threads-37.ts T907 TPL9: kelewat, dari arsip: 7 × 21. tuntas -> 7 itu contoh klasik, langsung nyambung ke rumusnya
+threads-37.ts T908 TPL9: telat dari arsip, rata delapan. tuntas -> 70 itu contoh klasik, langsung nyambung ke rumusnya
+threads-37.ts T909 TPL4: dari arsip gue: 12 × 6. tuntas kok -> ada yang coba 12 lewat jalan lain gak?
+threads-37.ts T910 TPL3: nyusul dari arsip, kelereng 8-4. tuntas semua -> soal 8 kayak gini suka nongol pas ulangan
+threads-37.ts T911 KEEP: telat dari arsip. 5 hari 6 jam. tuntas -> 5 hari 6 jam. tuntas
+threads-37.ts T912 TPL2: mampir telat, 8 × 19. beres -> 8-nya kuncinya, sisanya tinggal jalanin
+threads-37.ts T913 TPL11: telat dari arsip. prima 180-200. tuntas -> angka 180 ama 200-nya cocok buat latihan bareng
+threads-37.ts T914 TPL7: nyusul dari arsip, 7/10 × 5/14. kelar -> 7 dan 10 beda tipis, gampang ketuker
+threads-37.ts T915 TPL10: lewat dari arsip, 5 × 31. kuku -> yang bikin mikir di soal ini 5-nya
+threads-37.ts T916 TPL11: mampir telat, 33² = 1.089. tuntas kok -> angka 33 ama 1.089-nya cocok buat latihan bareng
+threads-37.ts T918 KEEP: telat dari arsip. 180 km 90 km/j. tuntas -> 180 km 90 km/j. tuntas
+threads-37.ts T919 TPL4: telat dari arsip, 7x = 91. pas semua -> ada yang coba 7 lewat jalan lain gak?
+threads-37.ts T920 TPL1: telat dari arsip. 10 × 53. tuntas -> angka 10 di soal ini emang buat ngetes teliti
+threads-37.ts T921 TPL1: telat dari arsip. keliling 46. tuntas -> angka 46 di soal ini emang buat ngetes teliti
+threads-37.ts T922 TPL11: kelewat, dari arsip: 11 × 13. kelar -> angka 11 ama 13-nya cocok buat latihan bareng
+threads-37.ts T923 TPL5: telat dari arsip. 4,2 jam. tuntas -> dari 4,2 ke 4 itu lompatan yang paling sering ketuker
+threads-37.ts T924 TPL11: kelewat, dari arsip: median genap 10. tuntas -> angka 10 ama 5-nya cocok buat latihan bareng
+threads-37.ts T925 TPL9: kelewat, dari arsip: faktorisasi 925. beres -> 925 itu contoh klasik, langsung nyambung ke rumusnya
+threads-38.ts T926 TPL6: dari arsip gue: separuh 86. beres semua -> kasus 86 begini enak buat latihan cepet
+threads-38.ts T928 TPL2: mampir telat, 8 × 23. kelar -> 8-nya kuncinya, sisanya tinggal jalanin
+threads-38.ts T929 TPL3: telat dari arsip. balok 5×4×3. tuntas -> soal 5 kayak gini suka nongol pas ulangan
+threads-38.ts T931 TPL8: kelewat, dari arsip: 4 hari 12 jam. tuntas semua -> catet 4-nya, soal begini balik modal pas ujian
+threads-38.ts T932 TPL10: lewat dari arsip, 12 × 15. kelar -> yang bikin mikir di soal ini 12-nya
+threads-38.ts T933 TPL1: telat nyamber, 21 dari 84. beres semua -> angka 21 di soal ini emang buat ngetes teliti
+threads-38.ts T934 TPL3: lewat dari arsip, 6 × 29. beres semua -> soal 6 kayak gini suka nongol pas ulangan
+threads-38.ts T935 TPL1: telat dari arsip, prima 210-250. tuntas -> angka 210 di soal ini emang buat ngetes teliti
+threads-38.ts T936 TPL9: telat nyamber, 4 × 41. kuku -> 4 itu contoh klasik, langsung nyambung ke rumusnya
+threads-38.ts T937 TPL10: lewat dari arsip, 8x − 3 = 5x + 12. tuntas kok -> yang bikin mikir di soal ini 8-nya
+threads-38.ts T938 TPL1: telat dari arsip, 13 × 5. beres -> angka 13 di soal ini emang buat ngetes teliti
+threads-38.ts T939 TPL10: telat dari arsip. median genap 12. tuntas -> yang bikin mikir di soal ini 12-nya
+threads-38.ts T940 TPL4: telat nyamber, 11 × 17. kuku -> ada yang coba 11 lewat jalan lain gak?
+threads-38.ts T941 TPL0: dari arsip gue: raja hati. kuku -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-38.ts T942 TPL5: telat dari arsip. 6 × 31. tuntas -> dari 6 ke 31 itu lompatan yang paling sering ketuker
+threads-38.ts T943 TPL4: telat nyamber, luas r 14. pas semua -> ada yang coba 14 lewat jalan lain gak?
+threads-38.ts T944 TPL7: lewat dari arsip, 5 × 37. tuntas -> 5 dan 37 beda tipis, gampang ketuker
+threads-38.ts T945 TPL8: mampir telat, 5,6 jam. tuntas kok -> catet 5,6-nya, soal begini balik modal pas ujian
+threads-38.ts T946 TPL3: telat dari arsip. 8 × 27. tuntas -> soal 8 kayak gini suka nongol pas ulangan
+threads-38.ts T948 TPL10: lewat dari arsip, 12 × 17. tuntas semua -> yang bikin mikir di soal ini 12-nya
+threads-38.ts T949 TPL4: dari arsip gue: 11/16. pas semua -> ada yang coba 11 lewat jalan lain gak?
+threads-38.ts T950 TPL6: telat dari arsip, faktorisasi 950. tuntas semua -> kasus 950 begini enak buat latihan cepet
+threads-39.ts T951 TPL6: mampir telat, separuh 94. beres -> kasus 94 begini enak buat latihan cepet
+threads-39.ts T952 KEEP: telat dari arsip. 6 hari 10 jam. tuntas -> 6 hari 10 jam. tuntas
+threads-39.ts T953 TPL4: mampir telat, 7 × 29. tuntas semua -> ada yang coba 7 lewat jalan lain gak?
+threads-39.ts T955 TPL0: dari arsip gue: 4 × 47. tuntas kok -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T956 TPL1: telat dari arsip. sisa 300rb. tuntas -> angka 300 di soal ini emang buat ngetes teliti
+threads-39.ts T957 TPL1: mampir telat, 9 × 23. tuntas kok -> angka 9 di soal ini emang buat ngetes teliti
+threads-39.ts T959 TPL11: telat dari arsip. 8 × 31. tuntas -> angka 8 ama 31-nya cocok buat latihan bareng
+threads-39.ts T960 TPL0: telat dari arsip, rata sembilan. kuku -> kalau 76 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T961 TPL0: nyusul dari arsip, 6 × 37. tuntas semua -> kalau 6 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T962 KEEP: telat dari arsip. 9x − 4 = 6x + 11. tuntas -> 9x − 4 = 6x + 11. tuntas
+threads-39.ts T963 TPL0: kelewat, dari arsip: 12 × 19. beres -> kalau 12 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T964 TPL11: dari arsip gue: kelereng 9-3. kelar -> angka 9 ama 3-nya cocok buat latihan bareng
+threads-39.ts T965 TPL2: telat nyamber, 5 × 43. pas semua -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-39.ts T966 TPL3: telat dari arsip. prima 250-280. tuntas -> soal 250 kayak gini suka nongol pas ulangan
+threads-39.ts T967 TPL3: telat dari arsip. 10 × 61. tuntas -> soal 10 kayak gini suka nongol pas ulangan
+threads-39.ts T968 TPL11: mampir telat, 6,4 jam. beres semua -> angka 6,4 ama 6-nya cocok buat latihan bareng
+threads-39.ts T969 TPL0: kelewat, dari arsip: 7 × 35. kelar -> kalau 7 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T971 TPL11: telat nyamber, 14 × 9. beres semua -> angka 14 ama 9-nya cocok buat latihan bareng
+threads-39.ts T972 KEEP: telat dari arsip. 8 hari 5 jam. tuntas -> 8 hari 5 jam. tuntas
+threads-39.ts T973 TPL0: telat dari arsip. 15 × 9. tuntas -> kalau 15 diganti angka lain, langkahnya tetep sama kan?
+threads-39.ts T975 TPL10: nyusul dari arsip, faktorisasi 975. beres semua -> yang bikin mikir di soal ini 975-nya
+threads-4.ts T76 KEEP: telat bre. udah dikoreksi kan? 6 itu fix -> Udah dikoreksi kan? 6 itu fix
+threads-4.ts T77 KEEP: Telat. bosnya udah kepotong rambutnya? 30 dan 10 udah f -> Bosnya udah kepotong rambutnya? 30 dan 10 udah fix
+threads-4.ts T78 KEEP: telat bro. kasnya udah disetor? 12 itu bener -> Kasnya udah disetor? 12 itu bener
+threads-4.ts T79 KEEP: Telat. logbook-nya udah ditulis? ke-6, aman -> Logbook-nya udah ditulis? ke-6, aman
+threads-4.ts T80 KEEP: Telat. anandanya udah paham? x = −1, sah di aljabar -> Anandanya udah paham? x = −1, sah di aljabar
+threads-4.ts T81 KEEP: telat bro. paketnya udah sampai? 15.000 itu pas, urusan -> Paketnya udah sampai? 15.000 itu pas, urusannya info aw
+threads-4.ts T82 KEEP: telat bos. pelanggannya udah pulang? 20.000 itu fix -> Pelanggannya udah pulang? 20.000 itu fix
+threads-4.ts T83 KEEP: telat. shift-nya udah jalan? 08.00 Anda lagi, bener dar -> Shift-nya udah jalan? 08.00 Anda lagi, bener dari awal
+threads-4.ts T84 KEEP: telat. struknya udah dijelaskan? 9.000 tetep benar -> Struknya udah dijelaskan? 9.000 tetep benar
+threads-4.ts T85 KEEP: Telat. nasabahnya udah beres? 5 lembar 100 ribu itu fix -> Nasabahnya udah beres? 5 lembar 100 ribu itu fix
+threads-4.ts T85 KEEP: telat juga. 1.500.000 + 500.000 = 2.000.000. selesai -> 1.500.000 + 500.000 = 2.000.000. selesai
+threads-4.ts T86 KEEP: telat nanggepin. udah ditanya? bawa slip sama absen, an -> Udah ditanya? bawa slip sama absen, angka jangan salah
+threads-4.ts T86 KEEP: telat juga. 1.320 lawan 1.290, selisih 30. tanya pakai  -> 1.320 lawan 1.290, selisih 30. tanya pakai dua angka it
+threads-4.ts T87 KEEP: Telat. permenya masih laku? 500 per biji itu kuncinya -> Permenya masih laku? 500 per biji itu kuncinya
+threads-4.ts T88 KEEP: telat bre. temen lu udah nyerah ngeyel? x = 4, y = 2 fi -> Temen lu udah nyerah ngeyel? x = 4, y = 2 fix
+threads-4.ts T89 KEEP: Telat. anak kosnya udah tau kalah? 4.000 dan 4.500 fix -> Anak kosnya udah tau kalah? 4.000 dan 4.500 fix
+threads-4.ts T90 KEEP: Telat. laporannya udah dikirim? 58 per palet fix -> Laporannya udah dikirim? 58 per palet fix
+threads-4.ts T91 KEEP: telat. omnya udah pulang? 5 jam itu fix -> Omnya udah pulang? 5 jam itu fix
+threads-4.ts T91 KEEP: telat juga. 11 ribu lima jam, tujuh jam 15 ribu. selesa -> 11 ribu lima jam, tujuh jam 15 ribu. selesai
+threads-4.ts T92 KEEP: telat bre. mesinnya udah jalan? 140 fix -> Mesinnya udah jalan? 140 fix
+threads-4.ts T93 KEEP: Telat. tangganya masih ada? 5 langkah, 6 pijakan. dua-d -> Tangganya masih ada? 5 langkah, 6 pijakan. dua-duanya s
+threads-4.ts T94 KEEP: Telat. muridnya udah balik? barisan aritmetika, beda 3, -> Muridnya udah balik? barisan aritmetika, beda 3, fix
+threads-4.ts T95 KEEP: telat bre. udah paham? 2x vs x², beda tindakan, beda ha -> Udah paham? 2x vs x², beda tindakan, beda hasil
+threads-4.ts T96 KEEP: telat. shift malamnya udah jalan? 270 total, 54 per ora -> Shift malamnya udah jalan? 270 total, 54 per orang. fix
+threads-4.ts T97 KEEP: Telat. mangganya udah dibongkar? 40 itu fix -> Mangganya udah dibongkar? 40 itu fix
+threads-4.ts T98 KEEP: Telat. cabe-nya udah ditanam? 36 lubang itu fix -> Cabe-nya udah ditanam? 36 lubang itu fix
+threads-4.ts T99 KEEP: telat teh. jeruknya laku? 13.500 itu harga yang benar -> Jeruknya laku? 13.500 itu harga yang benar
+threads-4.ts T100 KEEP: Telat. tangganya udah sampai lantai 6? hitungan lift ud -> Tangganya udah sampai lantai 6? hitungan lift udah pas 
+threads-40.ts T976 TPL5: telat dari arsip. separuh 98. tuntas -> dari 98 ke 49 itu lompatan yang paling sering ketuker
+threads-40.ts T977 TPL10: telat dari arsip. 30 dari 40. tuntas -> yang bikin mikir di soal ini 30-nya
+threads-40.ts T978 TPL6: dari arsip gue: 6 × 33. kuku -> kasus 6 begini enak buat latihan cepet
+threads-40.ts T979 TPL6: telat dari arsip. luas 168. tuntas -> kasus 168 begini enak buat latihan cepet
+threads-40.ts T980 TPL8: nyusul dari arsip, 5 × 41. kelar -> catet 5-nya, soal begini balik modal pas ujian
+threads-40.ts T981 TPL5: nyusul dari arsip, 7 hari 2 jam. beres semua -> dari 7 ke 2 itu lompatan yang paling sering ketuker
+threads-40.ts T982 TPL0: lewat dari arsip, 8 × 29. beres semua -> kalau 8 diganti angka lain, langkahnya tetep sama kan?
+threads-40.ts T983 TPL5: dari arsip gue: prima 280-320. tuntas -> dari 280 ke 320 itu lompatan yang paling sering ketuker
+threads-40.ts T984 TPL9: telat nyamber, 11 × 19. beres semua -> 11 itu contoh klasik, langsung nyambung ke rumusnya
+threads-40.ts T985 TPL9: telat dari arsip, 12x − 5 = 7x + 20. beres semua -> 12 itu contoh klasik, langsung nyambung ke rumusnya
+threads-40.ts T986 TPL0: telat dari arsip. 4 × 53. tuntas -> kalau 4 diganti angka lain, langkahnya tetep sama kan?
+threads-40.ts T987 TPL3: telat dari arsip. rata sepuluh. tuntas -> soal 68 kayak gini suka nongol pas ulangan
+threads-40.ts T988 TPL3: telat dari arsip. 7 × 27. tuntas -> soal 7 kayak gini suka nongol pas ulangan
+threads-40.ts T989 TPL4: telat dari arsip. 7,8 jam. tuntas -> ada yang coba 7,8 lewat jalan lain gak?
+threads-40.ts T990 TPL7: telat dari arsip, faktorisasi 990. tuntas kok -> 990 dan 2 beda tipis, gampang ketuker
+threads-40.ts T991 TPL3: telat dari arsip, kelereng 10-5. tuntas -> soal 10 kayak gini suka nongol pas ulangan
+threads-40.ts T992 TPL8: kelewat, dari arsip: 13 × 7. kelar -> catet 13-nya, soal begini balik modal pas ujian
+threads-40.ts T993 TPL7: telat dari arsip. 9/16. tuntas -> 9 dan 16 beda tipis, gampang ketuker
+threads-40.ts T994 TPL0: telat dari arsip. 15 × 13. tuntas -> kalau 15 diganti angka lain, langkahnya tetep sama kan?
+threads-40.ts T995 TPL10: dari arsip gue: 36² = 1.296. beres -> yang bikin mikir di soal ini 36-nya
+threads-40.ts T998 TPL10: kelewat, dari arsip: 8 × 37. kelar -> yang bikin mikir di soal ini 8-nya
+threads-40.ts T999 TPL10: nyusul dari arsip, faktorisasi 999. beres semua -> yang bikin mikir di soal ini 999-nya
+threads-40.ts T1000 TPL5: kelewat, dari arsip: 1.000 = 10³. pas semua -> dari 1.000 ke 2 itu lompatan yang paling sering ketuker
+threads-41.ts T1001 TPL11: dari arsip gue: separuh 102. tuntas semua -> angka 102 ama 51-nya cocok buat latihan bareng
+threads-41.ts T1002 TPL7: telat nyamber, kerja bersama. tuntas -> 4 dan 6 beda tipis, gampang ketuker
+threads-41.ts T1003 TPL9: telat nyamber, KPK 12-18. tuntas kok -> 12 itu contoh klasik, langsung nyambung ke rumusnya
+threads-41.ts T1004 TPL1: nyusul dari arsip, T10 = 55. beres semua -> angka 1 di soal ini emang buat ngetes teliti
+threads-41.ts T1005 TPL3: telat nyamber, Fibonacci 21. kelar -> soal 1 kayak gini suka nongol pas ulangan
+threads-41.ts T1006 TPL0: telat dari arsip. 9 × 12. kelar -> kalau 9 diganti angka lain, langkahnya tetep sama kan?
+threads-41.ts T1007 TPL4: kelewat, dari arsip: 2^10 = 1.024. kuku -> ada yang coba 2 lewat jalan lain gak?
+threads-41.ts T1008 TPL5: telat nyamber, A = 10. pas semua -> dari 10 ke 15 itu lompatan yang paling sering ketuker
+threads-41.ts T1010 TPL2: nyusul dari arsip, salip searah. beres semua -> 80-nya kuncinya, sisanya tinggal jalanin
+threads-41.ts T1011 TPL2: telat nyamber, jam ke detik. beres semua -> 40-nya kuncinya, sisanya tinggal jalanin
+threads-41.ts T1012 TPL6: lewat dari arsip, tagihan air. beres -> kasus 12 begini enak buat latihan cepet
+threads-41.ts T1013 TPL1: telat dari arsip. hektare. tuntas -> angka 1 di soal ini emang buat ngetes teliti
+threads-41.ts T1014 TPL3: dari arsip gue: komisi 5%. beres semua -> soal 5 kayak gini suka nongol pas ulangan
+threads-41.ts T1015 TPL11: mampir telat, 7 × 14. tuntas semua -> angka 7 ama 14-nya cocok buat latihan bareng
+threads-41.ts T1016 TPL5: dari arsip gue: waktu per soal. pas semua -> dari 50 ke 90 itu lompatan yang paling sering ketuker
+threads-41.ts T1017 TPL2: telat dari arsip, skor penalti. beres -> 4-nya kuncinya, sisanya tinggal jalanin
+threads-41.ts T1018 TPL10: telat dari arsip. kapasitas bus. tuntas -> yang bikin mikir di soal ini 45-nya
+threads-41.ts T1019 TPL2: lewat dari arsip, putaran cuci. beres -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-41.ts T1020 TPL2: telat dari arsip. lantai lift. tuntas -> 3-nya kuncinya, sisanya tinggal jalanin
+threads-41.ts T1021 TPL6: telat dari arsip. kotak telur. tuntas -> kasus 30 begini enak buat latihan cepet
+threads-41.ts T1024 TPL6: dari arsip gue: deret 1..100. tuntas semua -> kasus 1 begini enak buat latihan cepet
+threads-41.ts T1025 TPL5: dari arsip gue: faktorisasi 1025. tuntas kok -> dari 1025 ke 5 itu lompatan yang paling sering ketuker
+threads-42.ts T1026 TPL0: telat nyamber, separuh 106. tuntas -> kalau 106 diganti angka lain, langkahnya tetep sama kan
+threads-42.ts T1027 TPL6: telat nyamber, kerja bersama 3-6. tuntas -> kasus 3 begini enak buat latihan cepet
+threads-42.ts T1028 TPL2: telat nyamber, KPK 8-12. beres -> 8-nya kuncinya, sisanya tinggal jalanin
+threads-42.ts T1029 TPL3: mampir telat, T12 = 78. tuntas kok -> soal 12 kayak gini suka nongol pas ulangan
+threads-42.ts T1030 TPL5: lewat dari arsip, Fibonacci 34. kelar -> dari 13 ke 21 itu lompatan yang paling sering ketuker
+threads-42.ts T1031 TPL6: dari arsip gue: 8 × 13. pas semua -> kasus 8 begini enak buat latihan cepet
+threads-42.ts T1032 TPL8: mampir telat, biner 1010. tuntas -> catet 1010-nya, soal begini balik modal pas ujian
+threads-42.ts T1033 TPL6: kelewat, dari arsip: heksa 2A. beres -> kasus 2 begini enak buat latihan cepet
+threads-42.ts T1034 TPL11: nyusul dari arsip, skala 1:50.000. beres semua -> angka 1 ama 50.000-nya cocok buat latihan bareng
+threads-42.ts T1035 TPL8: dari arsip gue: pembulatan ratusan. tuntas -> catet 1.274-nya, soal begini balik modal pas ujian
+threads-42.ts T1036 TPL6: telat dari arsip, estimasi 19×21. pas semua -> kasus 19 begini enak buat latihan cepet
+threads-42.ts T1037 TPL5: nyusul dari arsip, kompensasi 29×4. pas semua -> dari 29 ke 4 itu lompatan yang paling sering ketuker
+threads-42.ts T1038 TPL11: nyusul dari arsip, 51 × 49. tuntas semua -> angka 51 ama 49-nya cocok buat latihan bareng
+threads-42.ts T1039 TPL0: telat dari arsip. jumlah genap. beres -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-42.ts T1040 TPL0: telat dari arsip, siklus 2^n. tuntas semua -> kalau 2 diganti angka lain, langkahnya tetep sama kan?
+threads-42.ts T1041 TPL5: telat dari arsip, orang-hari. beres -> dari 3 ke 5 itu lompatan yang paling sering ketuker
+threads-42.ts T1042 TPL4: telat nyamber, tangki net. tuntas -> ada yang coba 3 lewat jalan lain gak?
+threads-42.ts T1043 TPL2: nyusul dari arsip, resep setengah. beres semua -> 2-nya kuncinya, sisanya tinggal jalanin
+threads-42.ts T1044 TPL6: nyusul dari arsip, Celsius ke F. tuntas -> kasus 25 begini enak buat latihan cepet
+threads-42.ts T1045 TPL10: mampir telat, rasio kompresi. beres -> yang bikin mikir di soal ini 80-nya
+threads-42.ts T1046 TPL3: telat dari arsip. tidur seminggu. tuntas -> soal 8 kayak gini suka nongol pas ulangan
+threads-42.ts T1048 TPL8: nyusul dari arsip, poin loyalitas. kelar -> catet 35-nya, soal begini balik modal pas ujian
+threads-42.ts T1049 TPL1: kelewat, dari arsip: sisa penyimpanan. tuntas -> angka 64 di soal ini emang buat ngetes teliti
+threads-42.ts T1050 TPL2: lewat dari arsip, faktorisasi 1050. beres semua -> 1050-nya kuncinya, sisanya tinggal jalanin
+threads-43.ts T1051 TPL2: telat dari arsip, separuh 118. tuntas semua -> 118-nya kuncinya, sisanya tinggal jalanin
+threads-43.ts T1052 TPL5: telat dari arsip. kerja bersama 4-12. tuntas -> dari 4 ke 12 itu lompatan yang paling sering ketuker
+threads-43.ts T1053 TPL10: lewat dari arsip, KPK 6-9. beres -> yang bikin mikir di soal ini 6-nya
+threads-43.ts T1054 TPL3: mampir telat, T15 = 120. tuntas semua -> soal 15 kayak gini suka nongol pas ulangan
+threads-43.ts T1055 TPL6: kelewat, dari arsip: Fibonacci 55. tuntas kok -> kasus 21 begini enak buat latihan cepet
+threads-43.ts T1056 TPL4: telat dari arsip. 6 × 19. tuntas -> ada yang coba 6 lewat jalan lain gak?
+threads-43.ts T1057 TPL1: mampir telat, biner 110. pas semua -> angka 110 di soal ini emang buat ngetes teliti
+threads-43.ts T1059 TPL2: lewat dari arsip, digital root. pas semua -> 987-nya kuncinya, sisanya tinggal jalanin
+threads-43.ts T1060 TPL0: telat dari arsip, mod 7 hari. tuntas kok -> kalau 100 diganti angka lain, langkahnya tetep sama kan
+threads-43.ts T1061 TPL8: dari arsip gue: pembulatan 999. beres semua -> catet 999-nya, soal begini balik modal pas ujian
+threads-43.ts T1062 TPL5: dari arsip gue: estimasi jumlah. beres -> dari 398 ke 402 itu lompatan yang paling sering ketuker
+threads-43.ts T1063 TPL7: nyusul dari arsip, kompensasi 398×3. kuku -> 398 dan 3 beda tipis, gampang ketuker
+threads-43.ts T1065 TPL11: nyusul dari arsip, siklus 3^n. kelar -> angka 3 ama 9-nya cocok buat latihan bareng
+threads-43.ts T1066 TPL9: telat dari arsip. salip 90-70. tuntas -> 90 itu contoh klasik, langsung nyambung ke rumusnya
+threads-43.ts T1067 TPL6: telat dari arsip. tangki 2-4. tuntas -> kasus 2 begini enak buat latihan cepet
+threads-43.ts T1068 TPL8: dari arsip gue: resep ganda. tuntas kok -> catet 2-nya, soal begini balik modal pas ujian
+threads-43.ts T1069 TPL0: nyusul dari arsip, F ke Celsius. beres semua -> kalau 68 diganti angka lain, langkahnya tetep sama kan?
+threads-43.ts T1070 TPL10: telat dari arsip, baca buku. tuntas semua -> yang bikin mikir di soal ini 320-nya
+threads-43.ts T1071 TPL6: telat dari arsip, progres puzzle. beres semua -> kasus 500 begini enak buat latihan cepet
+threads-43.ts T1072 TPL5: dari arsip gue: kursi 15×20. kuku -> dari 15 ke 20 itu lompatan yang paling sering ketuker
+threads-43.ts T1073 KEEP: telat dari arsip. poin 2 per 10rb. tuntas -> Poin 2 per 10rb. tuntas
+threads-43.ts T1074 TPL4: mampir telat, keramik 40 cm. beres -> ada yang coba 40 lewat jalan lain gak?
+threads-43.ts T1075 TPL6: nyusul dari arsip, faktorisasi 1075 udah beres -> kasus 1075 begini enak buat latihan cepet
+threads-44.ts T1076 TPL8: mampir telat, separuh 122. tuntas semua -> catet 122-nya, soal begini balik modal pas ujian
+threads-44.ts T1077 TPL9: kelewat, dari arsip: kerja bersama 5-20. tuntas -> 5 itu contoh klasik, langsung nyambung ke rumusnya
+threads-44.ts T1078 TPL0: lewat dari arsip, KPK 9-12. beres -> kalau 9 diganti angka lain, langkahnya tetep sama kan?
+threads-44.ts T1079 TPL9: kelewat, dari arsip: T20 = 210. tuntas kok -> 20 itu contoh klasik, langsung nyambung ke rumusnya
+threads-44.ts T1081 TPL9: lewat dari arsip, 7 × 15. kuku -> 7 itu contoh klasik, langsung nyambung ke rumusnya
+threads-44.ts T1082 TPL6: lewat dari arsip, biner 1111. kelar -> kasus 1111 begini enak buat latihan cepet
+threads-44.ts T1083 TPL7: nyusul dari arsip, heksa 30. kuku -> 30 dan 48 beda tipis, gampang ketuker
+threads-44.ts T1084 TPL4: dari arsip gue: digital root 456. kuku -> ada yang coba 456 lewat jalan lain gak?
+threads-44.ts T1085 TPL2: kelewat, dari arsip: 500 mod 7. tuntas kok -> 500-nya kuncinya, sisanya tinggal jalanin
+threads-44.ts T1086 TPL8: telat nyamber, pembulatan 5.649. pas semua -> catet 5.649-nya, soal begini balik modal pas ujian
+threads-44.ts T1087 TPL9: telat dari arsip, estimasi 49×51. tuntas kok -> 49 itu contoh klasik, langsung nyambung ke rumusnya
+threads-44.ts T1088 TPL2: dari arsip gue: kompensasi 98×7. pas semua -> 98-nya kuncinya, sisanya tinggal jalanin
+threads-44.ts T1089 TPL1: telat dari arsip. ganjil sampai 19. tuntas -> angka 19 di soal ini emang buat ngetes teliti
+threads-44.ts T1090 TPL2: mampir telat, siklus 7^n. kelar -> 7-nya kuncinya, sisanya tinggal jalanin
+threads-44.ts T1091 TPL11: lewat dari arsip, orang-hari balik. pas semua -> angka 18 ama 9-nya cocok buat latihan bareng
+threads-44.ts T1092 TPL10: lewat dari arsip, tangki 4-12. pas semua -> yang bikin mikir di soal ini 4-nya
+threads-44.ts T1093 TPL8: telat dari arsip. setengah dari setengah. tuntas -> catet 1-nya, soal begini balik modal pas ujian
+threads-44.ts T1094 TPL3: telat nyamber, 15°C ke F. kuku -> soal 15 kayak gini suka nongol pas ulangan
+threads-44.ts T1096 TPL10: nyusul dari arsip, susu 1 L. tuntas -> yang bikin mikir di soal ini 1-nya
+threads-44.ts T1097 TPL0: telat nyamber, file 3,5 GB. kuku -> kalau 6 diganti angka lain, langkahnya tetep sama kan?
+threads-44.ts T1098 TPL5: telat dari arsip, unggah 8 MB/s. pas semua -> dari 1.200 ke 8 itu lompatan yang paling sering ketuker
+threads-44.ts T1099 TPL6: lewat dari arsip, 9 gelas 200 ml. beres semua -> kasus 200 begini enak buat latihan cepet
+threads-44.ts T1100 TPL7: telat dari arsip, faktorisasi 1100. beres -> 1100 dan 2 beda tipis, gampang ketuker
+threads-45.ts T1101 TPL8: telat dari arsip. separuh 126. tuntas -> catet 126-nya, soal begini balik modal pas ujian
+threads-45.ts T1102 TPL8: telat dari arsip. kerja bersama 2-6. tuntas -> catet 2-nya, soal begini balik modal pas ujian
+threads-45.ts T1103 TPL9: telat nyamber, KPK 10-15. tuntas kok -> 10 itu contoh klasik, langsung nyambung ke rumusnya
+threads-45.ts T1105 TPL4: kelewat, dari arsip: Fibonacci 144. beres -> ada yang coba 89 lewat jalan lain gak?
+threads-45.ts T1106 TPL8: lewat dari arsip, 8 × 14. kuku -> catet 8-nya, soal begini balik modal pas ujian
+threads-45.ts T1107 TPL11: telat dari arsip. biner 10000. tuntas -> angka 10000 ama 16-nya cocok buat latihan bareng
+threads-45.ts T1108 TPL1: mampir telat, heksa 40. kuku -> angka 40 di soal ini emang buat ngetes teliti
+threads-45.ts T1109 TPL6: dari arsip gue: 2025 mod 9. kuku -> kasus 2025 begini enak buat latihan cepet
+threads-45.ts T1110 TPL7: telat dari arsip. 366 mod 7. tuntas -> 366 dan 7 beda tipis, gampang ketuker
+threads-45.ts T1111 TPL5: dari arsip gue: pembulatan 7.500. beres semua -> dari 7.500 ke 8.000 itu lompatan yang paling sering ket
+threads-45.ts T1112 TPL10: telat dari arsip. estimasi 59+61. tuntas -> yang bikin mikir di soal ini 59-nya
+threads-45.ts T1114 TPL0: telat dari arsip. deret 1..28. tuntas -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-45.ts T1115 TPL3: mampir telat, siklus 4^n. tuntas -> soal 4 kayak gini suka nongol pas ulangan
+threads-45.ts T1116 TPL4: telat dari arsip. lembur 1,5. tuntas -> ada yang coba 1,5 lewat jalan lain gak?
+threads-45.ts T1117 TPL9: telat dari arsip. komisi 8%. tuntas -> 8 itu contoh klasik, langsung nyambung ke rumusnya
+threads-45.ts T1118 TPL1: dari arsip gue: aturan 50-30-20. kuku -> angka 50 di soal ini emang buat ngetes teliti
+threads-45.ts T1119 TPL1: telat nyamber, dana darurat. tuntas kok -> angka 2 di soal ini emang buat ngetes teliti
+threads-45.ts T1120 TPL11: lewat dari arsip, kurs 100 dolar. pas semua -> angka 15.500 ama 100-nya cocok buat latihan bareng
+threads-45.ts T1121 TPL2: kelewat, dari arsip: beras grosir. tuntas semua -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-45.ts T1122 TPL8: dari arsip gue: nasi 1:1,5. beres semua -> catet 1-nya, soal begini balik modal pas ujian
+threads-45.ts T1123 TPL8: telat dari arsip. cuci 17 kg. tuntas -> catet 5-nya, soal begini balik modal pas ujian
+threads-45.ts T1124 TPL7: telat dari arsip. lift turun. tuntas -> 12 dan 5 beda tipis, gampang ketuker
+threads-45.ts T1125 TPL4: dari arsip gue: ganjil 11². beres -> ada yang coba 21 lewat jalan lain gak?
+threads-46.ts T1126 TPL11: telat dari arsip. separuh 130. tuntas -> angka 130 ama 65-nya cocok buat latihan bareng
+threads-46.ts T1127 TPL10: telat dari arsip. kerja bersama 3-15. tuntas -> yang bikin mikir di soal ini 3-nya
+threads-46.ts T1128 TPL5: telat dari arsip. KPK 14-21. tuntas -> dari 14 ke 21 itu lompatan yang paling sering ketuker
+threads-46.ts T1130 TPL8: telat nyamber, Fibonacci 233. tuntas kok -> catet 144-nya, soal begini balik modal pas ujian
+threads-46.ts T1131 TPL5: telat dari arsip. 9 × 13. tuntas -> dari 9 ke 13 itu lompatan yang paling sering ketuker
+threads-46.ts T1132 TPL8: dari arsip gue: biner 10101. pas semua -> catet 10101-nya, soal begini balik modal pas ujian
+threads-46.ts T1133 TPL3: telat nyamber, heksa 50. beres -> soal 50 kayak gini suka nongol pas ulangan
+threads-46.ts T1135 TPL4: telat nyamber, 1.500 mod 7. pas semua -> ada yang coba 1.500 lewat jalan lain gak?
+threads-46.ts T1136 TPL7: telat dari arsip. pembulatan 2.345. tuntas -> 2.345 dan 2.300 beda tipis, gampang ketuker
+threads-46.ts T1137 TPL7: telat nyamber, estimasi 79×81. tuntas semua -> 79 dan 81 beda tipis, gampang ketuker
+threads-46.ts T1139 TPL3: nyusul dari arsip, 101 × 99. beres semua -> soal 101 kayak gini suka nongol pas ulangan
+threads-46.ts T1140 TPL10: mampir telat, siklus 8^n. tuntas semua -> yang bikin mikir di soal ini 8-nya
+threads-46.ts T1141 TPL3: kelewat, dari arsip: orang-hari 40. tuntas -> soal 40 kayak gini suka nongol pas ulangan
+threads-46.ts T1142 TPL2: telat nyamber, tangki 5-10. pas semua -> 5-nya kuncinya, sisanya tinggal jalanin
+threads-46.ts T1143 TPL1: telat dari arsip. resep × 3. tuntas -> angka 1 di soal ini emang buat ngetes teliti
+threads-46.ts T1144 TPL8: lewat dari arsip, 41°F ke C. tuntas kok -> catet 41-nya, soal begini balik modal pas ujian
+threads-46.ts T1145 TPL7: telat dari arsip. kopi 15 g. kelar -> 1 dan 15 beda tipis, gampang ketuker
+threads-46.ts T1146 TPL10: telat dari arsip. kaleng 330. tuntas -> yang bikin mikir di soal ini 330-nya
+threads-46.ts T1147 TPL11: dari arsip gue: file 6 GB. tuntas -> angka 4 ama 6-nya cocok buat latihan bareng
+threads-46.ts T1148 TPL8: nyusul dari arsip, unggah 10 MB/s. pas semua -> catet 2.000-nya, soal begini balik modal pas ujian
+threads-46.ts T1149 TPL1: telat dari arsip. saklar 2⁵. tuntas -> angka 2 di soal ini emang buat ngetes teliti
+threads-46.ts T1150 TPL1: kelewat, dari arsip: deret 1..24. pas semua -> angka 1 di soal ini emang buat ngetes teliti
+threads-47.ts T1151 TPL10: telat dari arsip. separuh 134. tuntas -> yang bikin mikir di soal ini 134-nya
+threads-47.ts T1152 TPL4: telat dari arsip, kerja simetris 8-8. kelar -> ada yang coba 8 lewat jalan lain gak?
+threads-47.ts T1154 TPL10: telat dari arsip. T40 = 820. tuntas -> yang bikin mikir di soal ini 40-nya
+threads-47.ts T1155 TPL4: nyusul dari arsip, Fibonacci 377. tuntas kok -> ada yang coba 233 lewat jalan lain gak?
+threads-47.ts T1156 TPL2: nyusul dari arsip, 11 × 15. tuntas -> 11-nya kuncinya, sisanya tinggal jalanin
+threads-47.ts T1157 TPL2: telat nyamber, biner 111111. pas semua -> 111111-nya kuncinya, sisanya tinggal jalanin
+threads-47.ts T1158 TPL5: nyusul dari arsip, heksa 60. kuku -> dari 60 ke 96 itu lompatan yang paling sering ketuker
+threads-47.ts T1159 TPL2: telat dari arsip. 999 mod 9. tuntas -> 999-nya kuncinya, sisanya tinggal jalanin
+threads-47.ts T1160 TPL5: dari arsip gue: 1.000 mod 7. beres -> dari 1.000 ke 7 itu lompatan yang paling sering ketuker
+threads-47.ts T1161 TPL3: telat dari arsip. pembulatan 4.501. tuntas -> soal 4.501 kayak gini suka nongol pas ulangan
+threads-47.ts T1163 TPL7: telat dari arsip. kompensasi 999×4. tuntas -> 999 dan 4 beda tipis, gampang ketuker
+threads-47.ts T1164 TPL11: dari arsip gue: 61 × 59. tuntas semua -> angka 61 ama 59-nya cocok buat latihan bareng
+threads-47.ts T1165 TPL0: telat dari arsip. ganjil 13². tuntas -> kalau 25 diganti angka lain, langkahnya tetep sama kan?
+threads-47.ts T1166 TPL7: mampir telat, siklus 9^n. tuntas -> 9 dan 1 beda tipis, gampang ketuker
+threads-47.ts T1167 TPL9: telat dari arsip. kerja bersama 12-4. tuntas -> 12 itu contoh klasik, langsung nyambung ke rumusnya
+threads-47.ts T1168 TPL9: telat dari arsip. tangki 6-8. tuntas -> 6 itu contoh klasik, langsung nyambung ke rumusnya
+threads-47.ts T1169 TPL11: mampir telat, resep × 4. tuntas -> angka 4 ama 3-nya cocok buat latihan bareng
+threads-47.ts T1170 TPL3: telat dari arsip. 45°C ke F. tuntas -> soal 45 kayak gini suka nongol pas ulangan
+threads-47.ts T1171 TPL9: telat nyamber, kopi 12 g. kuku -> 1 itu contoh klasik, langsung nyambung ke rumusnya
+threads-47.ts T1172 TPL2: dari arsip gue: gelas 240. kuku -> 240-nya kuncinya, sisanya tinggal jalanin
+threads-47.ts T1173 TPL1: telat nyamber, file 1,5 GB. tuntas kok -> angka 8 di soal ini emang buat ngetes teliti
+threads-47.ts T1174 TPL6: telat dari arsip, unggah 5 MB/s. pas semua -> kasus 750 begini enak buat latihan cepet
+threads-47.ts T1175 TPL8: telat nyamber, meja 100 tamu. tuntas -> catet 100-nya, soal begini balik modal pas ujian
+threads-48.ts T1176 TPL2: dari arsip gue: separuh 142. tuntas -> 142-nya kuncinya, sisanya tinggal jalanin
+threads-48.ts T1177 TPL4: nyusul dari arsip, kerja bersama 6-12. beres semua -> ada yang coba 6 lewat jalan lain gak?
+threads-48.ts T1178 TPL4: telat dari arsip. KPK 18-24. tuntas -> ada yang coba 18 lewat jalan lain gak?
+threads-48.ts T1179 TPL6: telat dari arsip. T50 = 1.275. tuntas -> kasus 50 begini enak buat latihan cepet
+threads-48.ts T1181 TPL5: telat dari arsip. 7 × 17. tuntas -> dari 7 ke 17 itu lompatan yang paling sering ketuker
+threads-48.ts T1182 TPL7: telat dari arsip. biner 100000. tuntas -> 100000 dan 32 beda tipis, gampang ketuker
+threads-48.ts T1183 TPL5: telat dari arsip, heksa 70. beres semua -> dari 70 ke 112 itu lompatan yang paling sering ketuker
+threads-48.ts T1184 TPL5: telat dari arsip. digital root 5.678. tuntas -> dari 5.678 ke 5 itu lompatan yang paling sering ketuker
+threads-48.ts T1185 TPL1: telat dari arsip. 2.000 mod 7. tuntas -> angka 2.000 di soal ini emang buat ngetes teliti
+threads-48.ts T1186 TPL6: dari arsip gue: pembulatan 9.999. beres semua -> kasus 9.999 begini enak buat latihan cepet
+threads-48.ts T1187 TPL3: lewat dari arsip, estimasi selisih. tuntas kok -> soal 503 kayak gini suka nongol pas ulangan
+threads-48.ts T1188 TPL9: telat dari arsip. kompensasi 199×4. tuntas -> 199 itu contoh klasik, langsung nyambung ke rumusnya
+threads-48.ts T1189 TPL10: mampir telat, 71 × 69. pas semua -> yang bikin mikir di soal ini 71-nya
+threads-48.ts T1190 TPL10: telat dari arsip. 6^n konstan. tuntas -> yang bikin mikir di soal ini 6-nya
+threads-48.ts T1191 TPL9: lewat dari arsip, orang-hari 40. kelar -> 5 itu contoh klasik, langsung nyambung ke rumusnya
+threads-48.ts T1192 TPL6: telat dari arsip. tangki 3-5. tuntas -> kasus 3 begini enak buat latihan cepet
+threads-48.ts T1194 TPL1: telat dari arsip. 77°F ke C. tuntas -> angka 77 di soal ini emang buat ngetes teliti
+threads-48.ts T1195 TPL4: nyusul dari arsip, kopi 18 g. tuntas semua -> ada yang coba 1 lewat jalan lain gak?
+threads-48.ts T1196 TPL7: telat dari arsip. botol 600. tuntas -> 600 dan 3 beda tipis, gampang ketuker
+threads-48.ts T1197 TPL3: telat dari arsip. file 2,2 GB. tuntas -> soal 5 kayak gini suka nongol pas ulangan
+threads-48.ts T1198 TPL3: lewat dari arsip, unggah 6 MB/s. tuntas kok -> soal 300 kayak gini suka nongol pas ulangan
+threads-48.ts T1199 TPL7: nyusul dari arsip, mobil 55 orang. tuntas kok -> 12 dan 55 beda tipis, gampang ketuker
+threads-48.ts T1200 TPL0: kelewat, dari arsip: deret 1..36. tuntas kok -> kalau 1 diganti angka lain, langkahnya tetep sama kan?
+threads-49.ts T1201 TPL3: kelewat, dari arsip: separuh 146. kelar -> soal 146 kayak gini suka nongol pas ulangan
+threads-49.ts T1202 TPL4: telat dari arsip. kerja simetris 3-3. tuntas -> ada yang coba 3 lewat jalan lain gak?
+threads-49.ts T1203 TPL2: mampir telat, KPK 16-24. beres semua -> 16-nya kuncinya, sisanya tinggal jalanin
+threads-49.ts T1204 TPL8: telat dari arsip. T64 = 2.080. tuntas -> catet 64-nya, soal begini balik modal pas ujian
+threads-49.ts T1205 TPL7: kelewat, dari arsip: Fibonacci 987. beres -> 610 dan 987 beda tipis, gampang ketuker
+threads-49.ts T1207 TPL1: telat dari arsip, biner 127. tuntas -> angka 1111111 di soal ini emang buat ngetes teliti
+threads-49.ts T1208 TPL2: nyusul dari arsip, heksa 80. tuntas -> 80-nya kuncinya, sisanya tinggal jalanin
+threads-49.ts T1209 TPL10: lewat dari arsip, 2.026 mod 9. tuntas semua -> yang bikin mikir di soal ini 2.026-nya
+threads-49.ts T1211 TPL4: nyusul dari arsip, pembulatan 1.234. kuku -> ada yang coba 1.234 lewat jalan lain gak?
+threads-49.ts T1212 TPL2: telat dari arsip. estimasi 602−397. tuntas -> 602-nya kuncinya, sisanya tinggal jalanin
+threads-49.ts T1213 TPL11: mampir telat, kompensasi 98×25. tuntas semua -> angka 98 ama 25-nya cocok buat latihan bareng
+threads-49.ts T1214 TPL1: telat dari arsip. 91 × 89. tuntas -> angka 91 di soal ini emang buat ngetes teliti
+threads-49.ts T1215 TPL9: nyusul dari arsip, ganjil 15². kelar -> 29 itu contoh klasik, langsung nyambung ke rumusnya
+threads-49.ts T1216 TPL1: telat nyamber, 5^n konstan. kuku -> angka 5 di soal ini emang buat ngetes teliti
+threads-49.ts T1217 TPL0: kelewat, dari arsip: kerja bersama 15-10. kuku -> kalau 15 diganti angka lain, langkahnya tetep sama kan?
+threads-49.ts T1218 TPL1: telat nyamber, tangki 2-3. tuntas -> angka 2 di soal ini emang buat ngetes teliti
+threads-49.ts T1219 TPL11: nyusul dari arsip, resep 1⅓ × 3. tuntas -> angka 1 ama 3-nya cocok buat latihan bareng
+threads-49.ts T1220 TPL1: lewat dari arsip, −5°C ke F. beres semua -> angka 5 di soal ini emang buat ngetes teliti
+threads-49.ts T1221 TPL3: telat nyamber, kopi 9 g. tuntas semua -> soal 1 kayak gini suka nongol pas ulangan
+threads-49.ts T1222 TPL7: kelewat, dari arsip: botol 1,5 L. kelar -> 1,5 dan 6 beda tipis, gampang ketuker
+threads-49.ts T1223 TPL2: telat dari arsip. file 0,8 GB. tuntas -> 15-nya kuncinya, sisanya tinggal jalanin
+threads-49.ts T1224 TPL0: telat dari arsip. unggah 15 MB/s. tuntas -> kalau 1.500 diganti angka lain, langkahnya tetep sama k
+threads-49.ts T1225 TPL2: telat dari arsip. deret 1..44. tuntas -> 1-nya kuncinya, sisanya tinggal jalanin
+threads-5.ts T101 KEEP: telat. ulangannya udah kelar? 87 targetnya, semangat an -> Ulangannya udah kelar? 87 targetnya, semangat anaknya
+threads-5.ts T102 KEEP: telat bre. nilai udah dibahas di kelas? mean dan median -> Nilai udah dibahas di kelas? mean dan median dua-duanya
+threads-5.ts T103 KEEP: Telat. muridnya udah puas? median dua orang itu sah -> Muridnya udah puas? median dua orang itu sah
+threads-5.ts T104 KEEP: telat. diskusinya udah selesai? 89 sah, 88,9 lebih teli -> Diskusinya udah selesai? 89 sah, 88,9 lebih teliti
+threads-5.ts T105 KEEP: telat bre. rodanya masih muter? catat 100 putaran, sele -> Rodanya masih muter? catat 100 putaran, selesai ceritan
+threads-5.ts T106 KEEP: telat bre. dadunya udah dipensiunin? 60 lempar aja dulu -> Dadunya udah dipensiunin? 60 lempar aja dulu, baru voni
+threads-5.ts T107 KEEP: telat. diagramnya udah digambar? 108 derajat itu fix -> Diagramnya udah digambar? 108 derajat itu fix
+threads-5.ts T108 KEEP: telat. pasiennya udah pulih? 37,25 sah, trennya yang be -> Pasiennya udah pulih? 37,25 sah, trennya yang bener
+threads-5.ts T109 KEEP: Telat. hujannya udah reda? 30% itu wajar -> Hujannya udah reda? 30% itu wajar
+threads-5.ts T110 KEEP: telat bre. nilainya udah keluar? 82,5 itu fix buat data -> Nilainya udah keluar? 82,5 itu fix buat data berkelompo
+threads-5.ts T111 KEEP: telat. rapat senin udah lewat? 134,17 itu fix -> Rapat senin udah lewat? 134,17 itu fix
+threads-5.ts T112 KEEP: telat. polanya udah keliatan? 9 hari itu cukup buat awa -> Polanya udah keliatan? 9 hari itu cukup buat awal
+threads-5.ts T113 KEEP: telat bre. PR-nya udah dikumpul? 1/4 itu jawaban yang b -> PR-nya udah dikumpul? 1/4 itu jawaban yang benar
+threads-5.ts T114 KEEP: telat. omnya udah buka pos? tunjukin angka 22 itu, sele -> Omnya udah buka pos? tunjukin angka 22 itu, selesai
+threads-5.ts T115 KEEP: telat teh. minggu ini masuk brp? kalau balik ke 230, am -> Minggu ini masuk brp? kalau balik ke 230, aman
+threads-5.ts T116 KEEP: telat. bosnya udah cocok? 62,5 itu jujur, 63 boleh di s -> Bosnya udah cocok? 62,5 itu jujur, 63 boleh di slide
+threads-5.ts T117 KEEP: telat bro. laporannya udah dikumpul? rata 44, range 5.  -> Laporannya udah dikumpul? rata 44, range 5. dua-duanya 
+threads-5.ts T118 KEEP: Telat. mangganya udah ke pasar? 40 kilo itu patokan awa -> Mangganya udah ke pasar? 40 kilo itu patokan awal
+threads-5.ts T119 KEEP: telat bos. minggu depan omzetnya masuk 290-an? tinggal  -> Minggu depan omzetnya masuk 290-an? tinggal bandingin
+threads-5.ts T120 KEEP: Telat. penumpangnya udah paham? 33,6 lawan 27, pertama  -> Penumpangnya udah paham? 33,6 lawan 27, pertama yang me
+threads-5.ts T121 KEEP: Telat. udah bayar? bagi rata, tidur, selesai -> Udah bayar? bagi rata, tidur, selesai
+threads-5.ts T122 KEEP: Telat. anaknya masih main? biarin dia ambil terus, pola -> Anaknya masih main? biarin dia ambil terus, polanya jel
+threads-5.ts T123 KEEP: telat bre. udah ketahuan penyebabnya? 6,3% itu masih am -> Udah ketahuan penyebabnya? 6,3% itu masih aman
+threads-5.ts T124 KEEP: Telat. cucunya udah tenang? 60 lulus mepet, tetap seman -> Cucunya udah tenang? 60 lulus mepet, tetap semangat
+threads-5.ts T125 KEEP: telat. laporannya udah masuk? 91,67 asli, 92 ringkasan. -> Laporannya udah masuk? 91,67 asli, 92 ringkasan. beres
+threads-50.ts T1226 TPL6: telat nyamber, separuh 150. kuku -> kasus 150 begini enak buat latihan cepet
+threads-50.ts T1227 TPL3: telat dari arsip. kerja bersama 10-15. tuntas -> soal 10 kayak gini suka nongol pas ulangan
+threads-50.ts T1229 TPL8: telat dari arsip. T53 = 1.431. tuntas -> catet 53-nya, soal begini balik modal pas ujian
+threads-50.ts T1230 TPL11: dari arsip gue: Fibonacci 1.597. tuntas semua -> angka 987 ama 1.597-nya cocok buat latihan bareng
+threads-50.ts T1232 TPL4: telat dari arsip. biner 101010. tuntas -> ada yang coba 101010 lewat jalan lain gak?
+threads-50.ts T1234 TPL0: telat dari arsip. digital root 777. tuntas -> kalau 777 diganti angka lain, langkahnya tetep sama kan
+threads-50.ts T1235 TPL3: nyusul dari arsip, 700 mod 7. beres semua -> soal 700 kayak gini suka nongol pas ulangan
+threads-50.ts T1236 TPL6: mampir telat, pembulatan 6.543. tuntas kok -> kasus 6.543 begini enak buat latihan cepet
+threads-50.ts T1237 TPL8: telat dari arsip. estimasi 799+202. tuntas -> catet 799-nya, soal begini balik modal pas ujian
+threads-50.ts T1238 TPL3: telat nyamber, kompensasi 97×9. kelar -> soal 97 kayak gini suka nongol pas ulangan
+threads-50.ts T1239 TPL0: telat dari arsip. 201 × 199. tuntas -> kalau 201 diganti angka lain, langkahnya tetep sama kan
+threads-50.ts T1240 TPL11: mampir telat, digit akhir 3^10. beres semua -> angka 3 ama 10-nya cocok buat latihan bareng
+threads-50.ts T1241 TPL0: dari arsip gue: orang-hari 36. tuntas -> kalau 36 diganti angka lain, langkahnya tetep sama kan?
+threads-50.ts T1242 TPL7: telat dari arsip. tangki 8-24. tuntas -> 8 dan 24 beda tipis, gampang ketuker
+threads-50.ts T1243 TPL11: lewat dari arsip, resep 2¼ × 2. tuntas semua -> angka 2 ama 4-nya cocok buat latihan bareng
+threads-50.ts T1244 TPL9: kelewat, dari arsip: 100°C ke F. tuntas semua -> 100 itu contoh klasik, langsung nyambung ke rumusnya
+threads-50.ts T1245 TPL2: telat dari arsip. kopi 14 g. tuntas -> 1-nya kuncinya, sisanya tinggal jalanin
+threads-50.ts T1246 TPL6: telat dari arsip. kaleng 500. tuntas -> kasus 500 begini enak buat latihan cepet
+threads-50.ts T1247 TPL11: telat dari arsip. file 4,5 GB. tuntas -> angka 4 ama 4,5-nya cocok buat latihan bareng
+threads-50.ts T1248 TPL7: telat nyamber, unggah 12 MB/s. tuntas -> 2.400 dan 12 beda tipis, gampang ketuker
+threads-50.ts T1249 TPL5: dari arsip gue: telur 90. tuntas kok -> dari 90 ke 12 itu lompatan yang paling sering ketuker
+threads-50.ts T1250 TPL5: telat dari arsip. deret 1..49. tuntas -> dari 1 ke 2 itu lompatan yang paling sering ketuker
+threads-51.ts T1251 TPL6: telat dari arsip. separuh 154. tuntas -> kasus 154 begini enak buat latihan cepet
+threads-51.ts T1252 TPL4: telat nyamber, kerja bersama 4-20. kelar -> ada yang coba 4 lewat jalan lain gak?
+threads-51.ts T1253 TPL8: telat dari arsip. KPK 21-28. tuntas -> catet 21-nya, soal begini balik modal pas ujian
+threads-51.ts T1254 TPL5: telat nyamber, T66 = 2.211. beres -> dari 66 ke 2.211 itu lompatan yang paling sering ketuke
+threads-51.ts T1255 TPL10: lewat dari arsip, Fibonacci 2.584. kelar -> yang bikin mikir di soal ini 1.597-nya
+threads-51.ts T1256 TPL6: telat dari arsip. 14 × 4. tuntas -> kasus 14 begini enak buat latihan cepet
+threads-51.ts T1257 TPL10: kelewat, dari arsip: biner 110110. tuntas kok -> yang bikin mikir di soal ini 110110-nya
+threads-51.ts T1258 TPL0: telat dari arsip. heksa A0. tuntas -> kalau 0 diganti angka lain, langkahnya tetep sama kan?
+threads-51.ts T1259 TPL4: telat dari arsip. digital root 1.234. tuntas -> ada yang coba 1.234 lewat jalan lain gak?
+threads-51.ts T1261 TPL1: kelewat, dari arsip: pembulatan 3,14159. pas semua -> angka 3.14159 di soal ini emang buat ngetes teliti
+threads-51.ts T1262 TPL4: telat dari arsip. estimasi 1.499+502. tuntas -> ada yang coba 1.499 lewat jalan lain gak?
+threads-51.ts T1263 TPL7: mampir telat, kompensasi 998×5. kuku -> 998 dan 5 beda tipis, gampang ketuker
+threads-51.ts T1264 TPL3: telat dari arsip. 111 × 109. tuntas -> soal 111 kayak gini suka nongol pas ulangan
+threads-51.ts T1265 TPL11: telat nyamber, ganjil 17². beres -> angka 33 ama 1-nya cocok buat latihan bareng
+threads-51.ts T1266 TPL0: dari arsip gue: digit akhir 7^10. pas semua -> kalau 7 diganti angka lain, langkahnya tetep sama kan?
+threads-51.ts T1267 TPL0: telat dari arsip. kerja bersama 9-18. tuntas -> kalau 9 diganti angka lain, langkahnya tetep sama kan?
+threads-51.ts T1268 TPL1: lewat dari arsip, tangki 9-18. kuku -> angka 9 di soal ini emang buat ngetes teliti
+threads-51.ts T1269 KEEP: telat dari arsip. resep 1¾ × 2. tuntas -> Resep 1¾ × 2. tuntas
+threads-51.ts T1270 TPL0: telat dari arsip. 35°C ke F. tuntas -> kalau 35 diganti angka lain, langkahnya tetep sama kan?
+threads-51.ts T1273 TPL1: telat dari arsip. file 2,5 GB. tuntas -> angka 6 di soal ini emang buat ngetes teliti
+threads-51.ts T1274 TPL4: lewat dari arsip, unggah 20 MB/s. kuku -> ada yang coba 3.600 lewat jalan lain gak?
+threads-51.ts T1275 TPL10: telat dari arsip, kantong 100 kelereng. tuntas -> yang bikin mikir di soal ini 100-nya
+threads-52.ts T1276 TPL5: telat nyamber, separuh 158. beres semua -> dari 158 ke 79 itu lompatan yang paling sering ketuker
+threads-52.ts T1278 TPL3: dari arsip gue: KPK 22-33. tuntas semua -> soal 22 kayak gini suka nongol pas ulangan
+threads-52.ts T1279 TPL8: telat dari arsip, T75 = 2.850. tuntas -> catet 75-nya, soal begini balik modal pas ujian
+threads-52.ts T1280 TPL7: mampir telat, Fibonacci 4.181. beres semua -> 2.584 dan 4.181 beda tipis, gampang ketuker
+threads-52.ts T1281 TPL9: telat dari arsip. 22 × 5. tuntas -> 22 itu contoh klasik, langsung nyambung ke rumusnya
+threads-52.ts T1282 TPL4: telat dari arsip. biner 11111. tuntas -> ada yang coba 11111 lewat jalan lain gak?
+threads-52.ts T1283 TPL10: nyusul dari arsip, heksa 100. tuntas kok -> yang bikin mikir di soal ini 100-nya
+threads-52.ts T1285 TPL0: dari arsip gue: 3.000 mod 7. pas semua -> kalau 3.000 diganti angka lain, langkahnya tetep sama k
+threads-52.ts T1286 TPL2: telat dari arsip. pembulatan 7.777. tuntas -> 7.777-nya kuncinya, sisanya tinggal jalanin
+threads-52.ts T1288 TPL3: telat nyamber, kompensasi 95×8. kelar -> soal 95 kayak gini suka nongol pas ulangan
+threads-52.ts T1289 TPL4: telat nyamber, 121 × 119. kuku -> ada yang coba 121 lewat jalan lain gak?
+threads-52.ts T1290 TPL11: nyusul dari arsip, digit akhir 2^20. beres -> angka 2 ama 20-nya cocok buat latihan bareng
+threads-52.ts T1291 TPL10: telat dari arsip. orang-hari 4×10. tuntas -> yang bikin mikir di soal ini 4-nya
+threads-52.ts T1292 TPL10: telat dari arsip. tangki 10-15. tuntas -> yang bikin mikir di soal ini 10-nya
+threads-52.ts T1293 KEEP: telat dari arsip. resep 1⅔ ÷ 2. tuntas -> Resep 1⅔ ÷ 2. tuntas
+threads-52.ts T1294 TPL0: telat dari arsip, 50°F ke C. kelar -> kalau 50 diganti angka lain, langkahnya tetep sama kan?
+threads-52.ts T1296 TPL3: telat dari arsip, gelas 220. pas semua -> soal 220 kayak gini suka nongol pas ulangan
+threads-52.ts T1297 TPL6: nyusul dari arsip, file 5,5 GB. tuntas semua -> kasus 2 begini enak buat latihan cepet
+threads-52.ts T1298 TPL1: dari arsip gue: unggah 15 MB/s. beres -> angka 900 di soal ini emang buat ngetes teliti
+threads-52.ts T1300 TPL1: telat dari arsip. akhir kuadrat. tuntas -> angka 0 di soal ini emang buat ngetes teliti
+threads-53.ts T1302 TPL1: telat dari arsip, kerja bersama 30-20. tuntas kok -> angka 30 di soal ini emang buat ngetes teliti
+threads-53.ts T1304 TPL11: mampir telat, T80 = 3.240. tuntas semua -> angka 80 ama 3.240-nya cocok buat latihan bareng
+threads-53.ts T1305 TPL2: telat dari arsip. Fibonacci 6.765. tuntas -> 4.181-nya kuncinya, sisanya tinggal jalanin
+threads-53.ts T1306 TPL5: mampir telat, 24 × 3. pas semua -> dari 24 ke 3 itu lompatan yang paling sering ketuker
+threads-53.ts T1307 TPL4: nyusul dari arsip, 2^12 = 4.096. beres semua -> ada yang coba 2 lewat jalan lain gak?
+threads-53.ts T1309 TPL10: telat dari arsip. digital root 888. tuntas -> yang bikin mikir di soal ini 888-nya
+threads-53.ts T1310 TPL8: mampir telat, 3.500 mod 7. beres -> catet 3.500-nya, soal begini balik modal pas ujian
+threads-53.ts T1311 TPL8: telat nyamber, pembulatan 8.888. tuntas -> catet 8.888-nya, soal begini balik modal pas ujian
+threads-53.ts T1312 TPL9: telat dari arsip, estimasi 598+401. tuntas semua -> 598 itu contoh klasik, langsung nyambung ke rumusnya
+threads-53.ts T1313 TPL4: telat dari arsip. kompensasi 299×3. tuntas -> ada yang coba 299 lewat jalan lain gak?
+threads-53.ts T1314 TPL4: telat dari arsip. 151 × 149. tuntas -> ada yang coba 151 lewat jalan lain gak?
+threads-53.ts T1315 TPL1: mampir telat, ganjil 19². tuntas kok -> angka 37 di soal ini emang buat ngetes teliti
+threads-53.ts T1316 TPL10: telat dari arsip. digit akhir 4^10. tuntas -> yang bikin mikir di soal ini 4-nya
+threads-53.ts T1317 TPL8: telat dari arsip, kerja bersama 12-36. tuntas -> catet 12-nya, soal begini balik modal pas ujian
+threads-53.ts T1318 TPL5: telat dari arsip. tangki 12-36. tuntas -> dari 12 ke 36 itu lompatan yang paling sering ketuker
+threads-53.ts T1319 KEEP: telat dari arsip. resep 2½ ÷ ½. tuntas -> Resep 2½ ÷ ½. tuntas
+threads-53.ts T1320 TPL11: telat dari arsip. −10°C ke F. tuntas -> angka 10 ama 9-nya cocok buat latihan bareng
+threads-53.ts T1321 TPL10: nyusul dari arsip, kopi 8 g. beres semua -> yang bikin mikir di soal ini 1-nya
+threads-53.ts T1322 TPL11: telat dari arsip. gelas 300. tuntas -> angka 300 ama 1,5-nya cocok buat latihan bareng
+threads-53.ts T1323 TPL5: kelewat, dari arsip: file 3,3 GB. tuntas kok -> dari 3 ke 3,3 itu lompatan yang paling sering ketuker
+threads-54.ts T1326 TPL1: telat nyamber, separuh 170. tuntas semua -> angka 170 di soal ini emang buat ngetes teliti
+threads-54.ts T1327 TPL4: lewat dari arsip, kerja bersama 40-24. tuntas -> ada yang coba 40 lewat jalan lain gak?
+threads-54.ts T1328 TPL2: nyusul dari arsip, KPK 32-48. tuntas kok -> 32-nya kuncinya, sisanya tinggal jalanin
+threads-54.ts T1329 TPL4: telat dari arsip. T90 = 4.095. tuntas -> ada yang coba 90 lewat jalan lain gak?
+threads-54.ts T1330 TPL10: telat dari arsip, Fibonacci 10.946. pas semua -> yang bikin mikir di soal ini 6.765-nya
+threads-54.ts T1331 TPL9: kelewat, dari arsip: 31 × 3. beres -> 31 itu contoh klasik, langsung nyambung ke rumusnya
+threads-54.ts T1334 TPL0: telat dari arsip. digital root 12.345. tuntas -> kalau 12.345 diganti angka lain, langkahnya tetep sama 
+threads-54.ts T1335 TPL1: telat dari arsip. 5.000 mod 7. tuntas -> angka 5.000 di soal ini emang buat ngetes teliti
+threads-54.ts T1336 TPL10: telat dari arsip, pembulatan 6.666. kuku -> yang bikin mikir di soal ini 6.666-nya
+threads-54.ts T1337 TPL4: kelewat, dari arsip: estimasi 51×39. tuntas -> ada yang coba 51 lewat jalan lain gak?
+threads-54.ts T1338 TPL4: telat dari arsip. kompensasi 194×5. tuntas -> ada yang coba 194 lewat jalan lain gak?
+threads-54.ts T1340 TPL10: nyusul dari arsip, digit akhir 8^10. tuntas -> yang bikin mikir di soal ini 8-nya
+threads-54.ts T1341 TPL3: kelewat, dari arsip: orang-hari 45. tuntas semua -> soal 45 kayak gini suka nongol pas ulangan
+threads-54.ts T1343 TPL6: mampir telat, resep 3¾ × 4. beres -> kasus 3 begini enak buat latihan cepet
+threads-54.ts T1344 TPL8: lewat dari arsip, 55°C ke F. tuntas kok -> catet 55-nya, soal begini balik modal pas ujian
+threads-54.ts T1345 TPL8: telat dari arsip. kopi 13 g. tuntas -> catet 1-nya, soal begini balik modal pas ujian
+threads-54.ts T1346 KEEP: telat dari arsip. kaleng 330 × 10. tuntas -> Kaleng 330 × 10. tuntas
+threads-54.ts T1347 TPL6: telat nyamber, file 7,2 GB. beres -> kasus 5 begini enak buat latihan cepet
+threads-54.ts T1348 TPL7: nyusul dari arsip, unggah 30 MB/s. beres -> 4.200 dan 30 beda tipis, gampang ketuker
+threads-54.ts T1349 TPL7: lewat dari arsip, bus 130 siswa. tuntas -> 30 dan 130 beda tipis, gampang ketuker
+threads-54.ts T1350 TPL9: telat nyamber, deret 1..55. tuntas semua -> 1 itu contoh klasik, langsung nyambung ke rumusnya
+threads-55.ts T1351 TPL3: nyusul dari arsip, separuh 178. tuntas semua -> soal 178 kayak gini suka nongol pas ulangan
+threads-55.ts T1353 TPL2: nyusul dari arsip, KPK 36-48. tuntas -> 36-nya kuncinya, sisanya tinggal jalanin
+threads-55.ts T1354 TPL4: nyusul dari arsip, T85 = 3.655. tuntas kok -> ada yang coba 85 lewat jalan lain gak?
+threads-55.ts T1356 TPL9: telat nyamber, 29 × 3. tuntas -> 29 itu contoh klasik, langsung nyambung ke rumusnya
+threads-55.ts T1357 TPL5: telat dari arsip. 2^14 = 16.384. tuntas -> dari 2 ke 14 itu lompatan yang paling sering ketuker
+threads-55.ts T1358 TPL10: kelewat, dari arsip: heksa 120. beres semua -> yang bikin mikir di soal ini 120-nya
+threads-55.ts T1359 TPL11: telat dari arsip. digital root 98.765. tuntas -> angka 98.765 ama 9-nya cocok buat latihan bareng
+threads-55.ts T1360 TPL11: telat dari arsip. 6.000 mod 7. tuntas -> angka 6.000 ama 7-nya cocok buat latihan bareng
+threads-55.ts T1361 TPL1: telat dari arsip. pembulatan 5.555. tuntas -> angka 5.555 di soal ini emang buat ngetes teliti
+threads-55.ts T1362 TPL0: nyusul dari arsip, estimasi 201×99. beres semua -> kalau 201 diganti angka lain, langkahnya tetep sama kan
+threads-55.ts T1363 TPL3: telat dari arsip. kompensasi 98×12. tuntas -> soal 98 kayak gini suka nongol pas ulangan
+threads-55.ts T1365 TPL7: kelewat, dari arsip: ganjil 21². tuntas kok -> 41 dan 1 beda tipis, gampang ketuker
+threads-55.ts T1366 TPL6: dari arsip gue: digit akhir 9^10. kuku -> kasus 9 begini enak buat latihan cepet
+threads-55.ts T1367 TPL6: nyusul dari arsip, kerja bersama 15-60. tuntas -> kasus 15 begini enak buat latihan cepet
+threads-55.ts T1368 TPL11: kelewat, dari arsip: tangki 4-20. tuntas kok -> angka 4 ama 20-nya cocok buat latihan bareng
+threads-55.ts T1369 TPL11: kelewat, dari arsip: resep 1⅕ × 5. kelar -> angka 1 ama 5-nya cocok buat latihan bareng
+threads-55.ts T1370 TPL8: telat dari arsip, −40 titik sama. tuntas semua -> catet 40-nya, soal begini balik modal pas ujian
+threads-55.ts T1371 TPL9: telat dari arsip. kopi 10 g. tuntas -> 1 itu contoh klasik, langsung nyambung ke rumusnya
+threads-55.ts T1372 KEEP: telat dari arsip. botol 1,5 × 8. tuntas -> Botol 1,5 × 8. tuntas
+threads-55.ts T1373 TPL9: telat dari arsip. file 8,1 GB. tuntas -> 2 itu contoh klasik, langsung nyambung ke rumusnya
+threads-55.ts T1374 TPL0: mampir telat, unggah 28 MB/s. kelar -> kalau 5.600 diganti angka lain, langkahnya tetep sama k
+threads-55.ts T1375 TPL2: telat dari arsip. stok undangan. tuntas -> 250-nya kuncinya, sisanya tinggal jalanin
+threads-56.ts T1376 TPL2: telat dari arsip. separuh 182. tuntas -> 182-nya kuncinya, sisanya tinggal jalanin
+threads-56.ts T1377 TPL6: dari arsip gue: kerja bersama 6-30. tuntas semua -> kasus 6 begini enak buat latihan cepet
+threads-56.ts T1378 TPL7: dari arsip gue: KPK 40-60. tuntas kok -> 40 dan 60 beda tipis, gampang ketuker
+threads-56.ts T1379 TPL3: mampir telat, T93 = 4.371. beres semua -> soal 93 kayak gini suka nongol pas ulangan
+threads-56.ts T1380 TPL9: mampir telat, Fibonacci 28.657. tuntas kok -> 17.711 itu contoh klasik, langsung nyambung ke rumusnya
+threads-56.ts T1381 KEEP: telat dari arsip. 37 × 3 = 111. tuntas -> 37 × 3 = 111. tuntas
+threads-56.ts T1382 TPL3: telat dari arsip. 2^15 = 32.768. tuntas -> soal 2 kayak gini suka nongol pas ulangan
+threads-56.ts T1383 TPL2: lewat dari arsip, heksa 200. beres -> 200-nya kuncinya, sisanya tinggal jalanin
+threads-56.ts T1384 TPL9: mampir telat, digital root 111.111. kuku -> 111.111 itu contoh klasik, langsung nyambung ke rumusny
+threads-56.ts T1385 TPL3: telat dari arsip. 7.000 mod 7. tuntas -> soal 7.000 kayak gini suka nongol pas ulangan
+threads-56.ts T1386 TPL11: dari arsip gue: pembulatan 9.444. tuntas -> angka 9.444 ama 9.000-nya cocok buat latihan bareng
+threads-56.ts T1387 TPL10: kelewat, dari arsip: estimasi 399×201. beres -> yang bikin mikir di soal ini 399-nya
+threads-56.ts T1388 TPL4: telat dari arsip, kompensasi 97×13. kuku -> ada yang coba 97 lewat jalan lain gak?
+threads-56.ts T1389 TPL6: telat dari arsip. 501 × 499. tuntas -> kasus 501 begini enak buat latihan cepet
+threads-56.ts T1390 TPL3: telat dari arsip. digit akhir 3^100. tuntas -> soal 3 kayak gini suka nongol pas ulangan
+threads-56.ts T1391 TPL3: telat dari arsip. orang-hari 60. tuntas -> soal 60 kayak gini suka nongol pas ulangan
+threads-56.ts T1392 TPL5: telat dari arsip. tangki 3-12. tuntas -> dari 3 ke 12 itu lompatan yang paling sering ketuker
+threads-56.ts T1394 TPL7: dari arsip gue: 86°F ke C. beres semua -> 86 dan 32 beda tipis, gampang ketuker
+threads-56.ts T1395 TPL10: dari arsip gue: kopi 7 g. tuntas -> yang bikin mikir di soal ini 1-nya
+threads-56.ts T1396 TPL7: telat dari arsip. gelas 160. tuntas -> 160 dan 960 beda tipis, gampang ketuker
+threads-56.ts T1397 TPL3: telat dari arsip. sisa 9,9. tuntas -> soal 9,9 kayak gini suka nongol pas ulangan
+threads-56.ts T1398 TPL4: telat dari arsip. unggah 35 MB/s. tuntas -> ada yang coba 6.300 lewat jalan lain gak?
+threads-56.ts T1399 TPL7: kelewat, dari arsip: kursi 93. kuku -> 93 dan 12 beda tipis, gampang ketuker
+threads-56.ts T1400 TPL8: nyusul dari arsip, deret 1..58. kelar -> catet 1-nya, soal begini balik modal pas ujian
+threads-57.ts T1401 TPL7: lewat dari arsip, separuh 186. beres semua -> 186 dan 93 beda tipis, gampang ketuker
+threads-57.ts T1402 TPL6: telat nyamber, kerja bersama 12-60. beres -> kasus 12 begini enak buat latihan cepet
+threads-57.ts T1403 TPL0: telat dari arsip, KPK 45-60. kelar -> kalau 45 diganti angka lain, langkahnya tetep sama kan?
+threads-57.ts T1405 TPL10: dari arsip gue: Fibonacci 46.368. beres semua -> yang bikin mikir di soal ini 28.657-nya
+threads-57.ts T1406 TPL11: mampir telat, 41 × 3. kelar -> angka 41 ama 3-nya cocok buat latihan bareng
+threads-57.ts T1407 TPL11: telat dari arsip. 2^16 = 65.536. tuntas -> angka 2 ama 16-nya cocok buat latihan bareng
+threads-57.ts T1408 TPL9: telat dari arsip. heksa 400. tuntas -> 400 itu contoh klasik, langsung nyambung ke rumusnya
+threads-57.ts T1409 TPL5: telat dari arsip. digital root 222.222. tuntas -> dari 222.222 ke 2 itu lompatan yang paling sering ketuk
+threads-57.ts T1410 TPL2: dari arsip gue: 9.000 mod 7. kuku -> 9.000-nya kuncinya, sisanya tinggal jalanin
+threads-57.ts T1411 TPL5: mampir telat, pembulatan 2,718. kelar -> dari 2.718 ke 2,72 itu lompatan yang paling sering ketu
+threads-57.ts T1412 TPL7: lewat dari arsip, estimasi 8.004−3.996. tuntas -> 8.004 dan 3.996 beda tipis, gampang ketuker
+threads-57.ts T1413 TPL8: telat dari arsip. kompensasi 89×11. tuntas -> catet 89-nya, soal begini balik modal pas ujian
+threads-57.ts T1414 TPL11: telat dari arsip. 601 × 599. tuntas -> angka 601 ama 599-nya cocok buat latihan bareng
+threads-57.ts T1415 TPL1: telat dari arsip. ganjil 23². tuntas -> angka 45 di soal ini emang buat ngetes teliti
+threads-57.ts T1416 TPL11: mampir telat, digit akhir 7^100. kelar -> angka 7 ama 100-nya cocok buat latihan bareng
+threads-57.ts T1417 TPL8: dari arsip gue: kerja bersama 40-60. beres semua -> catet 40-nya, soal begini balik modal pas ujian
+threads-57.ts T1419 TPL8: telat dari arsip, resep 2⅔ ÷ 2. pas semua -> catet 2-nya, soal begini balik modal pas ujian
+threads-57.ts T1420 TPL7: telat dari arsip. 90°C ke F. tuntas -> 90 dan 9 beda tipis, gampang ketuker
+threads-57.ts T1422 TPL11: telat dari arsip. kaleng 240. tuntas -> angka 240 ama 1,2-nya cocok buat latihan bareng
+threads-57.ts T1423 TPL7: dari arsip gue: file 6,6 GB. pas semua -> 5 dan 6,6 beda tipis, gampang ketuker
+threads-57.ts T1424 TPL8: telat dari arsip. unggah 40 MB/s. tuntas -> catet 7.200-nya, soal begini balik modal pas ujian
+threads-57.ts T1425 TPL6: mampir telat, kartu 77. tuntas semua -> kasus 77 begini enak buat latihan cepet
+threads-58.ts T1426 TPL3: nyusul dari arsip, separuh 190. beres -> soal 190 kayak gini suka nongol pas ulangan
+threads-58.ts T1427 TPL9: kelewat, dari arsip: kerja bersama 10-40. tuntas semua -> 10 itu contoh klasik, langsung nyambung ke rumusnya
+threads-58.ts T1428 TPL11: mampir telat, KPK 55-66. beres -> angka 55 ama 66-nya cocok buat latihan bareng
+threads-58.ts T1429 TPL4: dari arsip gue: T84 = 3.570. tuntas semua -> ada yang coba 84 lewat jalan lain gak?
+threads-58.ts T1430 TPL11: telat dari arsip, Fibonacci 75.025. kuku -> angka 46.368 ama 75.025-nya cocok buat latihan bareng
+threads-58.ts T1431 TPL11: mampir telat, 43 × 3. beres semua -> angka 43 ama 3-nya cocok buat latihan bareng
+threads-58.ts T1432 TPL10: telat dari arsip. 2^17 = 131.072. tuntas -> yang bikin mikir di soal ini 2-nya
+threads-58.ts T1433 TPL3: telat dari arsip. heksa 500. tuntas -> soal 500 kayak gini suka nongol pas ulangan
+threads-58.ts T1434 TPL6: telat dari arsip, digital root 333.333. tuntas -> kasus 333.333 begini enak buat latihan cepet
+threads-58.ts T1435 TPL1: telat dari arsip. 10.000 mod 7. tuntas -> angka 10.000 di soal ini emang buat ngetes teliti
+threads-58.ts T1436 TPL7: telat dari arsip. pembulatan 4.045. tuntas -> 4.045 dan 4.000 beda tipis, gampang ketuker
+threads-58.ts T1437 TPL3: telat dari arsip. estimasi 6.997+2.003. tuntas -> soal 6.997 kayak gini suka nongol pas ulangan
+threads-58.ts T1438 TPL5: telat nyamber, kompensasi 87×9. tuntas kok -> dari 87 ke 9 itu lompatan yang paling sering ketuker
+threads-58.ts T1439 TPL7: dari arsip gue: 701 × 699. tuntas -> 701 dan 699 beda tipis, gampang ketuker
+threads-58.ts T1440 TPL3: telat dari arsip. digit akhir 2^50. tuntas -> soal 2 kayak gini suka nongol pas ulangan
+threads-58.ts T1441 TPL10: kelewat, dari arsip: orang-hari 7×8. pas semua -> yang bikin mikir di soal ini 7-nya
+threads-58.ts T1442 TPL1: telat dari arsip, tangki 18-36. beres semua -> angka 18 di soal ini emang buat ngetes teliti
+threads-58.ts T1443 TPL11: telat nyamber, resep 4½ ÷ 1½. beres semua -> angka 4 ama 1-nya cocok buat latihan bareng
+threads-58.ts T1444 TPL1: mampir telat, −15°C ke F. beres semua -> angka 15 di soal ini emang buat ngetes teliti
+threads-58.ts T1445 TPL1: telat dari arsip, kopi 17 g. pas semua -> angka 1 di soal ini emang buat ngetes teliti
+threads-58.ts T1446 KEEP: telat dari arsip. gelas 150 × 12. tuntas -> Gelas 150 × 12. tuntas
+threads-58.ts T1447 TPL8: telat dari arsip. file 4,4 GB. tuntas -> catet 6-nya, soal begini balik modal pas ujian
+threads-58.ts T1448 TPL2: kelewat, dari arsip: unggah 45 MB/s. beres semua -> 8.100-nya kuncinya, sisanya tinggal jalanin
+threads-58.ts T1450 TPL8: telat dari arsip. deret 1..62. tuntas -> catet 1-nya, soal begini balik modal pas ujian
+threads-59.ts T1451 TPL4: telat nyamber, separuh 194. tuntas semua -> ada yang coba 194 lewat jalan lain gak?
+threads-59.ts T1452 TPL4: telat dari arsip. kerja bersama 9-45. tuntas -> ada yang coba 9 lewat jalan lain gak?
+threads-59.ts T1453 TPL9: telat dari arsip. KPK 60-80. tuntas -> 60 itu contoh klasik, langsung nyambung ke rumusnya
+threads-59.ts T1454 TPL2: mampir telat, T92 = 4.278. kelar -> 92-nya kuncinya, sisanya tinggal jalanin
+threads-59.ts T1455 TPL11: telat dari arsip. Fibonacci 121.393. tuntas -> angka 75.025 ama 121.393-nya cocok buat latihan bareng
+threads-59.ts T1456 TPL11: telat dari arsip. 53 × 3. tuntas -> angka 53 ama 3-nya cocok buat latihan bareng
+threads-59.ts T1457 TPL8: telat dari arsip. 2^18 = 262.144. tuntas -> catet 2-nya, soal begini balik modal pas ujian
+threads-59.ts T1459 TPL11: telat dari arsip. digital root 444.444. tuntas -> angka 444.444 ama 4-nya cocok buat latihan bareng
+threads-59.ts T1460 TPL8: kelewat, dari arsip: 18.000 mod 7. beres -> catet 18.000-nya, soal begini balik modal pas ujian
+threads-59.ts T1461 KEEP: telat dari arsip. pembulatan 3,14159 tiga desimal. tunt -> Pembulatan 3,14159 tiga desimal. tuntas
+threads-59.ts T1462 TPL4: telat dari arsip. estimasi 5.005−2.999. tuntas -> ada yang coba 5.005 lewat jalan lain gak?
+threads-59.ts T1463 TPL3: telat dari arsip. kompensasi 79×12. tuntas -> soal 79 kayak gini suka nongol pas ulangan
+threads-59.ts T1464 TPL6: nyusul dari arsip, 801 × 799. kelar -> kasus 801 begini enak buat latihan cepet
+threads-59.ts T1465 TPL0: telat dari arsip. ganjil 25². tuntas -> kalau 49 diganti angka lain, langkahnya tetep sama kan?
+threads-59.ts T1466 TPL2: telat nyamber, digit akhir 8^100. pas semua -> 8-nya kuncinya, sisanya tinggal jalanin
+threads-59.ts T1467 TPL4: mampir telat, kerja bersama 60-30. beres -> ada yang coba 60 lewat jalan lain gak?
+threads-59.ts T1468 TPL6: telat dari arsip. tangki 14-21. tuntas -> kasus 14 begini enak buat latihan cepet
+threads-59.ts T1469 KEEP: telat dari arsip. resep 5½ ÷ 2. tuntas -> Resep 5½ ÷ 2. tuntas
+threads-59.ts T1470 TPL10: lewat dari arsip, 0°C ke F. tuntas -> yang bikin mikir di soal ini 0-nya
+threads-59.ts T1471 TPL6: lewat dari arsip, kopi 19 g. tuntas semua -> kasus 1 begini enak buat latihan cepet
+threads-59.ts T1472 KEEP: telat dari arsip. botol 600 × 8. tuntas -> Botol 600 × 8. tuntas
+threads-59.ts T1473 TPL11: telat dari arsip. file 2,4 GB. tuntas -> angka 9 ama 2,4-nya cocok buat latihan bareng
+threads-59.ts T1474 TPL2: mampir telat, unggah 50 MB/s. tuntas -> 9.000-nya kuncinya, sisanya tinggal jalanin
+threads-59.ts T1475 TPL5: kelewat, dari arsip: wadah 144 kelereng. tuntas semua -> dari 144 ke 12 itu lompatan yang paling sering ketuker
+threads-6.ts T126 KEEP: telat bro. penumpangnya udah turun? 20 km/j itu fix -> Penumpangnya udah turun? 20 km/j itu fix
+threads-6.ts T127 KEEP: Telat. laporannya udah sampai? 36 dan 60 itu fix -> Laporannya udah sampai? 36 dan 60 itu fix
+threads-6.ts T128 KEEP: telat bre. kuenya udah mateng? 525 g dan 10,5 g itu fix -> Kuenya udah mateng? 525 g dan 10,5 g itu fix
+threads-6.ts T129 KEEP: telat bro. mesinnya udah jalan? 100 ml itu fix -> Mesinnya udah jalan? 100 ml itu fix
+threads-6.ts T130 KEEP: Telat. anaknya udah paham? 12 km itu fix -> Anaknya udah paham? 12 km itu fix
+threads-6.ts T131 KEEP: telat. pelanggannya balik lagi? dua-duanya sah, kebutuh -> Pelanggannya balik lagi? dua-duanya sah, kebutuhan yang
+threads-6.ts T132 KEEP: telat teh. harganya masih 10? 25% itu fix -> Harganya masih 10? 25% itu fix
+threads-6.ts T133 KEEP: Telat. nasinya udah mateng? 3/8 itu fix, cicip adalah k -> Nasinya udah mateng? 3/8 itu fix, cicip adalah kuncinya
+threads-6.ts T134 KEEP: telat. lampunya masih nyala? 0,86 kWh itu fix -> Lampunya masih nyala? 0,86 kWh itu fix
+threads-6.ts T135 KEEP: telat bre. udah sampe? 35,6 itu contoh 1 jam + 15 menit -> Udah sampe? 35,6 itu contoh 1 jam + 15 menit
+threads-6.ts T136 KEEP: Telat. pembagiannya udah? undi aja, selesai -> Pembagiannya udah? undi aja, selesai
+threads-6.ts T137 KEEP: Telat. gelasnya masih penuh? 33% naik itu aman -> Gelasnya masih penuh? 33% naik itu aman
+threads-6.ts T138 KEEP: Telat. PR-nya udah kekirim? 300 m itu fix -> PR-nya udah kekirim? 300 m itu fix
+threads-6.ts T139 KEEP: Telat. triknya udah nyebar? 1/8 = 12,5% itu fix -> Triknya udah nyebar? 1/8 = 12,5% itu fix
+threads-6.ts T140 KEEP: Telat. tanamannya udah disemprot? 5 sendok itu fix -> Tanamannya udah disemprot? 5 sendok itu fix
+threads-6.ts T141 KEEP: telat bro. bonekanya udah terkirim? 4 kg volumetrik itu -> Bonekanya udah terkirim? 4 kg volumetrik itu fix
+threads-6.ts T142 KEEP: Telat. urusannya udah beres? 12.240 per kepala itu angk -> Urusannya udah beres? 12.240 per kepala itu angkanya
+threads-6.ts T143 KEEP: Telat. besok udah dicatat jam berhentinya? 90% itu fix -> Besok udah dicatat jam berhentinya? 90% itu fix
+threads-6.ts T144 KEEP: telat bro. omletnya udah mateng? 100 perak itu fix, amb -> Omletnya udah mateng? 100 perak itu fix, ambil yang dek
+threads-6.ts T145 KEEP: Telat. rutinitasnya jalan terus? 16% itu bagus -> Rutinitasnya jalan terus? 16% itu bagus
+threads-6.ts T146 KEEP: Telat. rapetnya udah? 300 ribu itu fix, tinggal ganti p -> Rapetnya udah? 300 ribu itu fix, tinggal ganti persen d
+threads-6.ts T147 KEEP: Telat. nasabahnya udah tenang? 2.900.000 itu fix -> Nasabahnya udah tenang? 2.900.000 itu fix
+threads-6.ts T148 KEEP: Telat. jalannya masih dipakai? 90 m itu fix -> Jalannya masih dipakai? 90 m itu fix
+threads-6.ts T149 KEEP: telat bos. udah tutup? 18.00 estimasinya itu bener -> Udah tutup? 18.00 estimasinya itu bener
+threads-6.ts T150 KEEP: telat bro. tamunya udah dateng? 7,5 liter itu angkanya -> Tamunya udah dateng? 7,5 liter itu angkanya
+threads-60.ts T1478 TPL9: lewat dari arsip, KPK 70-105. kuku -> 70 itu contoh klasik, langsung nyambung ke rumusnya
+threads-60.ts T1479 TPL9: nyusul dari arsip, T96 = 4.656. kelar -> 96 itu contoh klasik, langsung nyambung ke rumusnya
+threads-60.ts T1481 TPL7: kelewat, dari arsip: 59 × 3. kuku -> 59 dan 3 beda tipis, gampang ketuker
+threads-60.ts T1482 TPL5: telat dari arsip, 2^19 = 524.288. kuku -> dari 2 ke 19 itu lompatan yang paling sering ketuker
+threads-60.ts T1483 TPL4: kelewat, dari arsip: heksa 700. beres -> ada yang coba 700 lewat jalan lain gak?
+threads-60.ts T1484 TPL5: telat nyamber, digital root 555.555. beres -> dari 555.555 ke 5 itu lompatan yang paling sering ketuk
+threads-60.ts T1485 TPL2: telat dari arsip. 21.000 mod 7. tuntas -> 21.000-nya kuncinya, sisanya tinggal jalanin
+threads-60.ts T1486 TPL7: telat dari arsip. pembulatan 149.500. tuntas -> 149.500 dan 150.000 beda tipis, gampang ketuker
+threads-60.ts T1488 TPL9: telat dari arsip. kompensasi 197×15. tuntas -> 197 itu contoh klasik, langsung nyambung ke rumusnya
+threads-60.ts T1491 TPL2: dari arsip gue: kerja bersama 20-12. kuku -> 20-nya kuncinya, sisanya tinggal jalanin
+threads-60.ts T1492 TPL6: telat dari arsip, tangki 15-60. tuntas kok -> kasus 15 begini enak buat latihan cepet
+threads-60.ts T1493 TPL5: dari arsip gue: resep 6¾ ÷ 1½. kuku -> dari 6 ke 1 itu lompatan yang paling sering ketuker
+threads-60.ts T1495 TPL11: telat dari arsip. kopi 22 g. tuntas -> angka 1 ama 15-nya cocok buat latihan bareng
+threads-60.ts T1496 TPL11: telat nyamber, gelas 200 × 15. kuku -> angka 200 ama 3-nya cocok buat latihan bareng
+threads-60.ts T1497 TPL3: telat dari arsip. file 3,5 GB. tuntas -> soal 8 kayak gini suka nongol pas ulangan
+threads-60.ts T1498 TPL5: telat dari arsip. unggah 50 MB/s. tuntas -> dari 10.000 ke 50 itu lompatan yang paling sering ketuk
+threads-60.ts T1499 TPL8: lewat dari arsip, rim 1.500 lembar. tuntas semua -> catet 1.500-nya, soal begini balik modal pas ujian
+threads-60.ts T1500 TPL8: telat dari arsip, 1.500 angka penutup. kelar -> catet 1.500-nya, soal begini balik modal pas ujian
+threads-7.ts T151 KEEP: Telat. besok udah jalan awal? 10 menit itu bener -> Besok udah jalan awal? 10 menit itu bener
+threads-7.ts T152 KEEP: telat bre. keretanya udah jalan? A itu fix buat aman -> Keretanya udah jalan? A itu fix buat aman
+threads-7.ts T153 KEEP: Telat. jurnalnya udah masuk? 9,6 itu fix -> Jurnalnya udah masuk? 9,6 itu fix
+threads-7.ts T154 KEEP: Telat. keretanya udah dikejar? 06.44 itu fix -> Keretanya udah dikejar? 06.44 itu fix
+threads-7.ts T155 KEEP: Telat. ojeknya nyampe pas? dua-dua itu fix buat besok -> Ojeknya nyampe pas? dua-dua itu fix buat besok
+threads-7.ts T156 KEEP: telat bre. warungnya masih dibuka? 7,5 itu fix -> Warungnya masih dibuka? 7,5 itu fix
+threads-7.ts T157 KEEP: Telat. skripsinya udah beres? 2,5 per hari itu fix -> Skripsinya udah beres? 2,5 per hari itu fix
+threads-7.ts T158 KEEP: telat. laporannya udah masuk? 8,25 itu fix buat desimal -> Laporannya udah masuk? 8,25 itu fix buat desimal
+threads-7.ts T159 KEEP: Telat nyusul. hujannya udah reda? 40% wajar juga kok -> Hujannya udah reda? 40% wajar juga kok
+threads-7.ts T160 KEEP: telat bre. lari lagi minggu ini? 300 detik per km targe -> Lari lagi minggu ini? 300 detik per km targetnya
+threads-7.ts T161 KEEP: Telat. rapat berikutnya udah? 90 vs 100 itu fix -> Rapat berikutnya udah? 90 vs 100 itu fix
+threads-7.ts T162 KEEP: telat. kaki masih protes? 3.780 m itu fix -> Kaki masih protes? 3.780 m itu fix
+threads-7.ts T163 KEEP: telat bre. udah nyampe? 30 menit itu fix dari awal -> Udah nyampe? 30 menit itu fix dari awal
+threads-7.ts T164 KEEP: Telat. shift udah kelar? 3-5 itu pembagian lu -> Shift udah kelar? 3-5 itu pembagian lu
+threads-7.ts T165 KEEP: telat teh. besok bawa berapa? rasio 60-40 itu patokan -> Besok bawa berapa? rasio 60-40 itu patokan
+threads-7.ts T166 KEEP: Telat. formnya udah jalan? 1,25 hari itu angka  -> Formnya udah jalan? 1,25 hari itu angka
+threads-7.ts T167 KEEP: telat bro. debatnya selesai? dua-duanya benar, tulis 3, -> Debatnya selesai? dua-duanya benar, tulis 3,6
+threads-7.ts T168 KEEP: Telat. motor masih sehat? 252 km itu fix -> Motor masih sehat? 252 km itu fix
+threads-7.ts T169 KEEP: telat bos. kiosnya udah atur ulang? 12,5 itu fix -> Kiosnya udah atur ulang? 12,5 itu fix
+threads-7.ts T170 KEEP: Telat. penumpangnya keburu? 48 menit itu fix -> Penumpangnya keburu? 48 menit itu fix
+threads-7.ts T171 KEEP: telat bre. airnya udah mateng? 5 itu datamu, pegang -> Airnya udah mateng? 5 itu datamu, pegang
+threads-7.ts T172 KEEP: Telat. anaknya masih nanya? 80 detik itu fix -> Anaknya masih nanya? 80 detik itu fix
+threads-7.ts T173 KEEP: telat bre. baterai sisa berapa? 25 jam idle itu fix -> Baterai sisa berapa? 25 jam idle itu fix
+threads-7.ts T174 KEEP: Telat. udah berangkat? 10 menit kucing itu fix -> Udah berangkat? 10 menit kucing itu fix
+threads-7.ts T175 KEEP: telat. udah ditanya? 7,5 vs 8 itu fix dari hitungan -> Udah ditanya? 7,5 vs 8 itu fix dari hitungan
+threads-8.ts T176 KEEP: telat bro. kondektur baru udah lancar? 35 itu fix -> Kondektur baru udah lancar? 35 itu fix
+threads-8.ts T177 KEEP: Telat. karungnya udah disusun? 15 itu fix -> Karungnya udah disusun? 15 itu fix
+threads-8.ts T179 KEEP: telat bro. bautnya udah dipakai? 44 itu fix -> Bautnya udah dipakai? 44 itu fix
+threads-8.ts T180 KEEP: Telat. anaknya masih tertawa? dua lingkaran itu fix -> Anaknya masih tertawa? dua lingkaran itu fix
+threads-8.ts T181 KEEP: telat bro. auditor udah dateng? catatan satu baris itu  -> Auditor udah dateng? catatan satu baris itu fix
+threads-8.ts T182 KEEP: telat teh. besok udah dicatat per jam? polanya bakal ke -> Besok udah dicatat per jam? polanya bakal keliatan
+threads-8.ts T183 KEEP: Telat. kuenya udah mateng? 7 sendok teh itu fix -> Kuenya udah mateng? 7 sendok teh itu fix
+threads-8.ts T185 KEEP: telat bre. jajan udah? 2 itu fix satu-satunya -> Jajan udah? 2 itu fix satu-satunya
+threads-8.ts T186 KEEP: telat bre. hafalannya udah selesai? 23-22 itu pilihanny -> Hafalannya udah selesai? 23-22 itu pilihannya
+threads-8.ts T187 KEEP: Telat. tangganya dilanjut? 13 itu angka berikutnya -> Tangganya dilanjut? 13 itu angka berikutnya
+threads-8.ts T188 KEEP: Telat. PR-nya udah dikumpul? 162 itu fix -> PR-nya udah dikumpul? 162 itu fix
+threads-8.ts T189 KEEP: Telat. cucunya udah hafal? 2.025 itu fix -> Cucunya udah hafal? 2.025 itu fix
+threads-8.ts T190 KEEP: Telat. lubangnya udah ditandain? 11 itu fix -> Lubangnya udah ditandain? 11 itu fix
+threads-8.ts T191 KEEP: telat bro. resinya udah sampai? digit cek 3 itu cocok -> Resinya udah sampai? digit cek 3 itu cocok
+threads-8.ts T192 KEEP: Telat. wifi masih lancar? 28.500 + kas itu fix -> Wifi masih lancar? 28.500 + kas itu fix
+threads-8.ts T194 KEEP: telat bre. mie-nya udah dimakan? 2.000 itu fix -> Mie-nya udah dimakan? 2.000 itu fix
+threads-8.ts T195 KEEP: Telat. besok jalan lagi? 40 menit itu warisan -> Besok jalan lagi? 40 menit itu warisan
+threads-8.ts T196 KEEP: Telat. rapetnya udah? 13 halaman itu fix -> Rapetnya udah? 13 halaman itu fix
+threads-8.ts T197 KEEP: Telat. nasabahnya tenang? 12 menit itu sah -> Nasabahnya tenang? 12 menit itu sah
+threads-8.ts T198 KEEP: Telat. bukunya udah datang? 17 posisi itu cadangan -> Bukunya udah datang? 17 posisi itu cadangan
+threads-8.ts T199 KEEP: telat bos. udah tutup? 15.00 selesainya itu tepat -> Udah tutup? 15.00 selesainya itu tepat
+threads-8.ts T200 KEEP: telat guys. sosisnya udah ludes? 9 tamu itu jawabannya -> Sosisnya udah ludes? 9 tamu itu jawabannya
+threads-9.ts T201 KEEP: Telat. PR-nya udah dikumpul? 78 itu fix -> PR-nya udah dikumpul? 78 itu fix
+threads-9.ts T202 KEEP: telat bro. kuisnya udah? 3/4 itu fix -> Kuisnya udah? 3/4 itu fix
+threads-9.ts T203 KEEP: Telat. adiknya udah paham? 81 itu fix -> Adiknya udah paham? 81 itu fix
+threads-9.ts T204 KEEP: telat teh. urusannya beres? 6.000 lawan 10.000 itu fix -> Urusannya beres? 6.000 lawan 10.000 itu fix
+threads-9.ts T205 KEEP: telat bre. PR-nya udah kekumpul? 81 tanpa sisa itu fix -> PR-nya udah kekumpul? 81 tanpa sisa itu fix
+threads-9.ts T206 KEEP: telat. PR-nya udah ditulis? 0,75 itu fix -> PR-nya udah ditulis? 0,75 itu fix
+threads-9.ts T208 KEEP: telat bre. udah paham? −3 itu fix -> Udah paham? −3 itu fix
+threads-9.ts T210 KEEP: Telat. kuenya udah dimakan? 1/4 = 3/12 itu fix -> Kuenya udah dimakan? 1/4 = 3/12 itu fix
+threads-9.ts T212 KEEP: Telat. kardusnya udah dateng? 91 itu patokannya -> Kardusnya udah dateng? 91 itu patokannya
+threads-9.ts T213 KEEP: telat bre. kuisnya udah? 9 itu fix -> Kuisnya udah? 9 itu fix
+threads-9.ts T215 KEEP: telat bre. sekolahnya udah? 20 menit itu fix -> Sekolahnya udah? 20 menit itu fix
+threads-9.ts T216 KEEP: telat. busnya udah bareng lagi? 07.06 itu fix -> Busnya udah bareng lagi? 07.06 itu fix
+threads-9.ts T217 KEEP: telat bre. lantainya udah kering? 9 lawan −9 itu fix -> Lantainya udah kering? 9 lawan −9 itu fix
+threads-9.ts T218 KEEP: telat. jaketnya udah dibeli? 39.000 itu fix -> Jaketnya udah dibeli? 39.000 itu fix
+threads-9.ts T219 KEEP: Telat. akuariumnya udah diisi? 72 liter itu fix -> Akuariumnya udah diisi? 72 liter itu fix
+threads-9.ts T220 KEEP: telat. udah ketemu bocahnya lagi? 2 dan 8 itu fix -> Udah ketemu bocahnya lagi? 2 dan 8 itu fix
+threads-9.ts T221 KEEP: telat bre. urusan selesai? modus 4 itu fix -> Urusan selesai? modus 4 itu fix
+threads-9.ts T222 KEEP: Telat. berasnya udah masuk? 12.500 per kilo itu bener -> Berasnya udah masuk? 12.500 per kilo itu bener
+threads-9.ts T223 KEEP: telat. keretanya udah jalan? 10.10 itu fix -> Keretanya udah jalan? 10.10 itu fix
+threads-9.ts T224 KEEP: telat bre. es tehnya laku? 1.100 per gelas itu bener -> Es tehnya laku? 1.100 per gelas itu bener
+threads-9.ts T225 KEEP: telat bre. udah tidur? jawabannya banyak, itu fix. tidu -> Udah tidur? jawabannya banyak, itu fix. tidur dulu

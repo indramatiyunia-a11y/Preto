@@ -53,7 +53,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 307, minutesAgo: 18581, content: "iya, numpuk" },
       { authorId: 369, minutesAgo: 18562, content: "PR gue: 2% dari 2,25 juta? 45rb" },
       { authorId: 10, minutesAgo: 18543, content: "fix itu" },
-      { authorId: 185, minutesAgo: 18100, content: "telat dari arsip. 1% dulu. tuntas" },
+      { authorId: 185, minutesAgo: 18100, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -74,7 +74,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 459, minutesAgo: 18688, content: "semua jawaban di atas udah kuku, gak ada yang perlu dibantah lagi" },
       { authorId: 464, minutesAgo: 18669, content: "catet: digit sama = kali repunit" },
       { authorId: 81, minutesAgo: 18649, content: "susulan: empat digit sama? 1111 dst, 9 juga" },
-      { authorId: 189, minutesAgo: 17980, content: "telat dari arsip. digit sama = kelipatan 11. tuntas" },
+      { authorId: 189, minutesAgo: 17980, content: "Digit sama = kelipatan 11. tuntas" },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 320, minutesAgo: 18611, content: "iya, dibulatkan" },
       { authorId: 77, minutesAgo: 18593, content: "susulan: catat tanggal servis di buku" },
       { authorId: 128, minutesAgo: 18575, content: "jawaban post semua lengkap" },
-      { authorId: 323, minutesAgo: 17840, content: "telat nyamber, selisih tahun. beres semua" },
+      { authorId: 323, minutesAgo: 17840, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 223, minutesAgo: 18695, content: "iya, genap gak prima kecuali 2" },
       { authorId: 80, minutesAgo: 18677, content: "jawabannya lengkap sampai detail kecil" },
       { authorId: 177, minutesAgo: 18658, content: "susulan: 191 bolak balik sama, keren" },
-      { authorId: 47, minutesAgo: 18040, content: "mampir telat, palindrom prima langka. beres" },
+      { authorId: 47, minutesAgo: 18040, content: "catet 11-nya, soal begini balik modal pas ujian" },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 211, minutesAgo: 18652, content: "susulan: tarif naik tahun depan? hitung ulang" },
       { authorId: 409, minutesAgo: 18638, content: "sepakat" },
       { authorId: 246, minutesAgo: 18625, content: "jawaban post semua lengkap" },
-      { authorId: 434, minutesAgo: 17930, content: "telat dari arsip. tarif harian dulu. tuntas" },
+      { authorId: 434, minutesAgo: 17930, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 395, minutesAgo: 18786, content: "catet: pangkat n → digit n+1 untuk 10ⁿ" },
       { authorId: 277, minutesAgo: 18769, content: "bahasanya gampang, isinya lengkap" },
       { authorId: 175, minutesAgo: 18752, content: "susulan: 9.999.999 delapan digit, nol digitnya" },
-      { authorId: 203, minutesAgo: 18110, content: "telat dari arsip. 10ⁿ → n+1 digit. tuntas" },
+      { authorId: 203, minutesAgo: 18110, content: "10ⁿ → n+1 digit. tuntas" },
     ],
   },
   {
@@ -206,7 +206,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 368, minutesAgo: 18762, content: "susulan: barisan = jabatan + urutan" },
       { authorId: 351, minutesAgo: 18745, content: "susulan: A-B-C ≠ B-A-C di barisan" },
       { authorId: 324, minutesAgo: 18728, content: "fix itu" },
-      { authorId: 128, minutesAgo: 18250, content: "lewat dari arsip, barisan = n!. beres" },
+      { authorId: 128, minutesAgo: 18250, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -227,7 +227,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 436, minutesAgo: 18868, content: "udah rapi semua di atas" },
       { authorId: 145, minutesAgo: 18849, content: "catet: tempat desimal nentuin penyebut" },
       { authorId: 186, minutesAgo: 18829, content: "susulan: 0,5 = 1/2, paling terkenal" },
-      { authorId: 46, minutesAgo: 18160, content: "telat dari arsip. tempat desimal. tuntas" },
+      { authorId: 46, minutesAgo: 18160, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 335, minutesAgo: 18898, content: "susulan: tangga mm-cm-dm-m-dam-hm-km" },
       { authorId: 274, minutesAgo: 18883, content: "PR gue: 1 dam = 10 m, jarang dipakai" },
       { authorId: 384, minutesAgo: 18868, content: "jawaban post semua lengkap" },
-      { authorId: 228, minutesAgo: 18240, content: "telat dari arsip. metrik desimal. tuntas" },
+      { authorId: 228, minutesAgo: 18240, content: "1 itu contoh klasik, langsung nyambung ke rumusnya" },
     ],
   },
   {
@@ -302,7 +302,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 148, minutesAgo: 18911, content: "catet: bagi rata = FPB" },
       { authorId: 92, minutesAgo: 18878, content: "udah rapi semua" },
       { authorId: 308, minutesAgo: 18846, content: "susulan: sisanya nol syarat" },
-      { authorId: 162, minutesAgo: 18330, content: "kelewat, dari arsip: bagi rata = FPB. beres semua" },
+      { authorId: 162, minutesAgo: 18330, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 383, minutesAgo: 18862, content: "oke sip" },
       { authorId: 126, minutesAgo: 18848, content: "susulan: 12? digit sum 3, genap → ya" },
       { authorId: 288, minutesAgo: 18835, content: "sepakat" },
-      { authorId: 187, minutesAgo: 18140, content: "nyusul dari arsip, habis 2 dan 3. beres" },
+      { authorId: 187, minutesAgo: 18140, content: "angka 6 di soal ini emang buat ngetes teliti" },
     ],
   },
   {
@@ -353,7 +353,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 44, minutesAgo: 19018, content: "semua udah kejawab di atas, aman" },
       { authorId: 445, minutesAgo: 18999, content: "catet: 100 ÷ jumlah soal" },
       { authorId: 89, minutesAgo: 18979, content: "susulan: remidi hitung ulang benar-baris" },
-      { authorId: 51, minutesAgo: 18310, content: "telat dari arsip. 100 ÷ soal. tuntas" },
+      { authorId: 51, minutesAgo: 18310, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -380,7 +380,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 466, minutesAgo: 18971, content: "susulan: satuan cm³, isi air" },
       { authorId: 493, minutesAgo: 18952, content: "ok" },
       { authorId: 479, minutesAgo: 18933, content: "iya, nyambung" },
-      { authorId: 440, minutesAgo: 18490, content: "dari arsip gue: luas alas × tinggi. tuntas kok" },
+      { authorId: 440, minutesAgo: 18490, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -403,7 +403,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 341, minutesAgo: 19056, content: "catet: ganjil ÷ 2 berakhir ,5" },
       { authorId: 239, minutesAgo: 19039, content: "bahasanya gampang, isinya lengkap" },
       { authorId: 466, minutesAgo: 19022, content: "susulan: galon isi ulang lebih murah" },
-      { authorId: 159, minutesAgo: 18380, content: "telat dari arsip. 19 ganjil. tuntas" },
+      { authorId: 159, minutesAgo: 18380, content: "7-nya kuncinya, sisanya tinggal jalanin" },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 197, minutesAgo: 19001, content: "iya" },
       { authorId: 126, minutesAgo: 18983, content: "susulan: cek SN juga, gak cuma tanggal" },
       { authorId: 83, minutesAgo: 18965, content: "jawaban post semua lengkap" },
-      { authorId: 199, minutesAgo: 18230, content: "telat dari arsip. bulan + tahun. tuntas" },
+      { authorId: 199, minutesAgo: 18230, content: "kalau 2 diganti angka lain, langkahnya tetep sama kan?" },
     ],
   },
   {
@@ -456,7 +456,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 424, minutesAgo: 19085, content: "iya, itu keunggulannya" },
       { authorId: 497, minutesAgo: 19067, content: "semua udah nyambung di atas" },
       { authorId: 2, minutesAgo: 19048, content: "susulan: sejarahnya panjang, astronomi juga" },
-      { authorId: 261, minutesAgo: 18430, content: "telat dari arsip. basis 60 ramah pembagi. tuntas" },
+      { authorId: 261, minutesAgo: 18430, content: "Basis 60 ramah pembagi. tuntas" },
     ],
   },
   {
@@ -482,7 +482,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 369, minutesAgo: 19092, content: "susulan: 4⁰? 1 juga, pola sama" },
       { authorId: 131, minutesAgo: 19075, content: "PR gue: 10⁰? 1" },
       { authorId: 182, minutesAgo: 19058, content: "iya, itu intinya" },
-      { authorId: 461, minutesAgo: 18580, content: "dari arsip gue: pangkat turun bagi basis. pas semua" },
+      { authorId: 461, minutesAgo: 18580, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -531,7 +531,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 392, minutesAgo: 19124, content: "PR gue: R 15, r 6? pusat 9" },
       { authorId: 292, minutesAgo: 19107, content: "susulan: d = R − r nyentuh dalam" },
       { authorId: 423, minutesAgo: 19090, content: "jawaban post semua lengkap" },
-      { authorId: 472, minutesAgo: 18660, content: "telat dari arsip. dalam = selisih. tuntas" },
+      { authorId: 472, minutesAgo: 18660, content: "yang bikin mikir di soal ini 10-nya" },
     ],
   },
   {
@@ -553,7 +553,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 407, minutesAgo: 19211, content: "catet: mulai 16, bukan 8 (8 satu digit)" },
       { authorId: 184, minutesAgo: 19178, content: "ga ada yang bolong, jawabannya lengkap" },
       { authorId: 191, minutesAgo: 19146, content: "susulan: 88 dobel 8, keren" },
-      { authorId: 465, minutesAgo: 18630, content: "telat dari arsip. kelipatan 8 dua digit. tuntas" },
+      { authorId: 465, minutesAgo: 18630, content: "Kelipatan 8 dua digit. tuntas" },
     ],
   },
   {
@@ -578,7 +578,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 463, minutesAgo: 19258, content: "iya, sejarah panjang" },
       { authorId: 387, minutesAgo: 19243, content: "lengkap, malah nambah konteks yang berguna" },
       { authorId: 293, minutesAgo: 19228, content: "susulan: minggu 7 hari beda sistem lagi" },
-      { authorId: 276, minutesAgo: 18600, content: "mampir telat, kalender kompromi. kelar" },
+      { authorId: 276, minutesAgo: 18600, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
   {
@@ -608,7 +608,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 375, minutesAgo: 19192, content: "susulan: 66 dobel genap" },
       { authorId: 76, minutesAgo: 19178, content: "yes fix" },
       { authorId: 300, minutesAgo: 19165, content: "jawaban post semua lengkap" },
-      { authorId: 176, minutesAgo: 18470, content: "telat dari arsip. jumlah digit 11. tuntas" },
+      { authorId: 176, minutesAgo: 18470, content: "soal begini suka nongol pas ulangan" },
     ],
   },
   {
@@ -631,7 +631,7 @@ export const THREADS_PART26: ThreadzThread[] = [
       { authorId: 491, minutesAgo: 19326, content: "catet: basis = banyak simbol" },
       { authorId: 316, minutesAgo: 19309, content: "lengkap, susah nambah apa-apa lagi" },
       { authorId: 212, minutesAgo: 19292, content: "susulan: 0 ikut hitung simbol" },
-      { authorId: 325, minutesAgo: 18650, content: "telat dari arsip. basis 10 dari jari. tuntas" },
+      { authorId: 325, minutesAgo: 18650, content: "Basis 10 dari jari. tuntas" },
     ],
   },
 ]

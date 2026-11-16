@@ -30,7 +30,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 121, minutesAgo: 8831, content: "hati-hati tanda minus pas eliminasi, sering kelewat" },
       { authorId: 257, minutesAgo: 8798, content: "sistem dua variabel suka keluar di tengah semester" },
       { authorId: 430, minutesAgo: 8766, content: "jawaban 4 dan 3. dua jalur di atas" },
-      { authorId: 93, minutesAgo: 8250, content: "telat dari arsip. (4,3), eliminasi atau substitusi sama saja. kuku" },
+      { authorId: 93, minutesAgo: 8250, content: "(4,3), eliminasi atau substitusi sama saja. kuku" },
     ],
   },
   {
@@ -57,7 +57,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 132, minutesAgo: 8831, content: "iya 4√3" },
       { authorId: 67, minutesAgo: 8812, content: "jawaban post 5√2, 6√2, 3√3 dan jumlah 11√2. lengkap" },
       { authorId: 318, minutesAgo: 8793, content: "tambahan: √50 − √72 = −√2. minus karena 5 < 6" },
-      { authorId: 45, minutesAgo: 8350, content: "telat. −√2 tuh, dan 2√12 = 4√3 emang beda. semua di atas" },
+      { authorId: 45, minutesAgo: 8350, content: "−√2 tuh, dan 2√12 = 4√3 emang beda. semua di atas" },
     ],
   },
   {
@@ -78,7 +78,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 411, minutesAgo: 8938, content: "144 juga kebetulan kuadrat 12, manis banget" },
       { authorId: 289, minutesAgo: 8919, content: "bukan kebetulan tapi emang nilai deretnya. seru" },
       { authorId: 94, minutesAgo: 8899, content: "jawaban 55 dan rasio emas 1,618. dua-duanya kuku" },
-      { authorId: 452, minutesAgo: 8230, content: "telat dari arsip. U10 = 55, suku ke-12 = 144. tuntas" },
+      { authorId: 452, minutesAgo: 8230, content: "U10 = 55, suku ke-12 = 144. tuntas" },
     ],
   },
   {
@@ -107,7 +107,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 232, minutesAgo: 8861, content: "kalau boleh mundur jadi tak hingga, makanya dilarang" },
       { authorId: 44, minutesAgo: 8843, content: "iya tanpa larangan mundur jumlahnya gak berhenti" },
       { authorId: 307, minutesAgo: 8825, content: "RRRAA ikut terhitung kan? gak kulewat sepertinya" },
-      { authorId: 171, minutesAgo: 8090, content: "telat. RRRAA itu rute pertama daftarmu, total tetap 10 dan 35. lengkap" },
+      { authorId: 171, minutesAgo: 8090, content: "RRRAA itu rute pertama daftarmu, total tetap 10 dan 35. lengkap" },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 140, minutesAgo: 8945, content: "iya, dua sudut sama udah cukup buat segitiga" },
       { authorId: 385, minutesAgo: 8927, content: "jawaban 15 cm, skala 2,5. dua jalur" },
       { authorId: 499, minutesAgo: 8908, content: "temenmu tinggal dibalik aja bagi-kalinya" },
-      { authorId: 132, minutesAgo: 8290, content: "telat. EF = 15. udah kuku di atas" },
+      { authorId: 132, minutesAgo: 8290, content: "EF = 15. udah kuku di atas" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 104, minutesAgo: 8902, content: "jawaban post: (3,−4), akar 1 dan 5, minimum −4. lengkap" },
       { authorId: 356, minutesAgo: 8888, content: "temenmu tinggal dibuktiin dua jalur di atas" },
       { authorId: 231, minutesAgo: 8875, content: "sumbu simetri selalu lewat xp" },
-      { authorId: 459, minutesAgo: 8180, content: "telat dari simpanan. (3,−4), akar 1 dan 5, minimum = yp = −4. kuku semua" },
+      { authorId: 459, minutesAgo: 8180, content: "(3,−4), akar 1 dan 5, minimum = yp = −4. kuku semua" },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 468, minutesAgo: 9036, content: "menariknya 40 C = 40 F, satu-satunya titik yang sama" },
       { authorId: 139, minutesAgo: 9019, content: "iya −40 juga sama, di situ dua garis silang" },
       { authorId: 274, minutesAgo: 9002, content: "jawaban 77 dan 37,8. dua jalur di atas" },
-      { authorId: 47, minutesAgo: 8360, content: "telat. 77 dan 37,8, plus 40 °C = 40 °F unik. kuku" },
+      { authorId: 47, minutesAgo: 8360, content: "77 dan 37,8, plus 40 °C = 40 °F unik. kuku" },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 9012, content: "iya, 90 dan 90 berhadapan, 90+90 = 180. konsisten" },
       { authorId: 456, minutesAgo: 8995, content: "tiga pertanyaan, tiga jawaban: 40, 90, 50. rapi" },
       { authorId: 139, minutesAgo: 8978, content: "40, 90, 50. semua sudah dua jalur" },
-      { authorId: 289, minutesAgo: 8500, content: "telat dari arsip. 40°, 90° (diameter), 50°. kuku" },
+      { authorId: 289, minutesAgo: 8500, content: "40°, 90° (diameter), 50°. kuku" },
     ],
   },
   {
@@ -231,7 +231,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 175, minutesAgo: 9118, content: "jawaban 37°30′ dan 24,75°. dua arah" },
       { authorId: 288, minutesAgo: 9099, content: "kompas di HP tampil desimal, konversinya begini" },
       { authorId: 156, minutesAgo: 9079, content: "buat navigasi emang kepake banget" },
-      { authorId: 396, minutesAgo: 8410, content: "telat. 37°30′, 24,75°, dan 12,3° = 12°18′. kuku" },
+      { authorId: 396, minutesAgo: 8410, content: "37°30′, 24,75°, dan 12,3° = 12°18′. kuku" },
     ],
   },
   {
@@ -259,7 +259,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 9044, content: "pangkat nol semua bilangan hasilnya 1" },
       { authorId: 330, minutesAgo: 9027, content: "wkwk 0⁰ mah gak bakal ditanya di ulangan" },
       { authorId: 193, minutesAgo: 9010, content: "jawaban a⁷b⁵ dan a⁹b⁵. dua-duanya kuku" },
-      { authorId: 115, minutesAgo: 8580, content: "telat dari arsip. a⁷b⁵, ×a² jadi a⁹b⁵, dan (2a²b)³ = 8a⁶b³. tuntas" },
+      { authorId: 115, minutesAgo: 8580, content: "A⁷b⁵, ×a² jadi a⁹b⁵, dan (2a²b)³ = 8a⁶b³. tuntas" },
     ],
   },
   {
@@ -284,7 +284,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 104, minutesAgo: 9148, content: "dua jalur: angka dan gambar garis bilangan" },
       { authorId: 356, minutesAgo: 9133, content: "soal mutlak suka keluar dua nomor di ulangan" },
       { authorId: 231, minutesAgo: 9118, content: "jangan lupa cek balik ke persamaan asli" },
-      { authorId: 459, minutesAgo: 8490, content: "telat. 8/−2 dan 4/−3, semua lolos cek balik. kuku" },
+      { authorId: 459, minutesAgo: 8490, content: "8/−2 dan 4/−3, semua lolos cek balik. kuku" },
     ],
   },
   {
@@ -306,7 +306,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 419, minutesAgo: 9227, content: "iya 8" },
       { authorId: 150, minutesAgo: 9213, content: "jawaban 6 dan 7,5. dua-duanya pas" },
       { authorId: 293, minutesAgo: 9199, content: "kesebangunan lagi jadi jurus. enak" },
-      { authorId: 456, minutesAgo: 8460, content: "telat dari arsip. DE = ½ BC, jadi 6 dan 7,5. kuku" },
+      { authorId: 456, minutesAgo: 8460, content: "DE = ½ BC, jadi 6 dan 7,5. kuku" },
     ],
   },
   {
@@ -336,7 +336,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 64, minutesAgo: 9112, content: "jawaban post: 6,5, 11, IQR 4,5, jangkauan 11. lengkap" },
       { authorId: 250, minutesAgo: 9098, content: "versi temenmu itu beda buku, tapi jawaban sekolah udah jelas di atas" },
       { authorId: 426, minutesAgo: 9085, content: "median 8,5 juga bener" },
-      { authorId: 57, minutesAgo: 8390, content: "telat dari simpanan. 6,5 / 11 / 4,5 / 11, median 8,5. kuku semua" },
+      { authorId: 57, minutesAgo: 8390, content: "6,5 / 11 / 4,5 / 11, median 8,5. kuku semua" },
     ],
   },
   {
@@ -357,7 +357,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 163, minutesAgo: 9268, content: "5445 pas" },
       { authorId: 412, minutesAgo: 9249, content: "jaman kalkulator trik tetep berguna buat cek cepet" },
       { authorId: 73, minutesAgo: 9229, content: "jawaban 3663 dan 1200. dua-duanya kuku" },
-      { authorId: 289, minutesAgo: 8560, content: "telat. 100n − n dan 25×4 dulu. dua trik tuntas" },
+      { authorId: 289, minutesAgo: 8560, content: "100n − n dan 25×4 dulu. dua trik tuntas" },
     ],
   },
   {
@@ -384,7 +384,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 394, minutesAgo: 9221, content: "PR gue: dua sudut dalam 40 dan 75, luar di titik ketiga = 115 ya?" },
       { authorId: 196, minutesAgo: 9202, content: "iya 115. 40+75" },
       { authorId: 438, minutesAgo: 9183, content: "jawaban post: 110, 130, total luar 360. tuntas" },
-      { authorId: 105, minutesAgo: 8740, content: "telat dari arsip. 110 / 130 / 120 dan total 360. kuku semua" },
+      { authorId: 105, minutesAgo: 8740, content: "110 / 130 / 120 dan total 360. kuku semua" },
     ],
   },
   {
@@ -407,7 +407,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 178, minutesAgo: 9306, content: "0 juga bulat, bukan cuma cacah, karena cacah masuk bulat" },
       { authorId: 326, minutesAgo: 9289, content: "jawaban post lengkap semua, tinggal tempel di catatan" },
       { authorId: 117, minutesAgo: 9272, content: "diagram venn bilangan itu wajib digambar sekali" },
-      { authorId: 250, minutesAgo: 8630, content: "telat dari arsip. √2 irasional, −3 rasional, 0 bukan asli. kuku" },
+      { authorId: 250, minutesAgo: 8630, content: "√2 irasional, −3 rasional, 0 bukan asli. kuku" },
     ],
   },
   {
@@ -436,7 +436,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 201, minutesAgo: 9251, content: "22/7 bikin semua angka bulat, desain soalnya enak" },
       { authorId: 391, minutesAgo: 9233, content: "catet: selimut pakai garis pelukis, alas pakai r. jangan ketuker" },
       { authorId: 483, minutesAgo: 9215, content: "kelas kami persis begini minggu lalu, untung nilaiku aman" },
-      { authorId: 365, minutesAgo: 8480, content: "telat dari arsip. 25, 550, 704, 1232, dan tripel 7-24-25. tuntas" },
+      { authorId: 365, minutesAgo: 8480, content: "25, 550, 704, 1232, dan tripel 7-24-25. tuntas" },
     ],
   },
   {
@@ -460,7 +460,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 9335, content: "jawaban luas 70 pasti. keliling emang gak ditentukan" },
       { authorId: 45, minutesAgo: 9317, content: "temenmu harus dikasih info tambahan kalau mau keliling" },
       { authorId: 131, minutesAgo: 9298, content: "dua jalur luas: ½×14×10 = 70 dan 7×10 = 70 lewat dua segitiga" },
-      { authorId: 314, minutesAgo: 8680, content: "telat dari arsip. luas 70 pasti, keliling butuh data tambahan. tuntas" },
+      { authorId: 314, minutesAgo: 8680, content: "Luas 70 pasti, keliling butuh data tambahan. tuntas" },
     ],
   },
   {
@@ -486,7 +486,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 313, minutesAgo: 9342, content: "soal jarum jam suka muncul di olim, bukan cuma ulangan" },
       { authorId: 85, minutesAgo: 9325, content: "jawaban post: 90° dan 75°, plus 0° cuma di 12.00. lengkap" },
       { authorId: 466, minutesAgo: 9308, content: "temenmu tinggal dibedain 3.30 vs 3.00 doang" },
-      { authorId: 232, minutesAgo: 8830, content: "telat dari simpanan. 90°, 75°, dan 12.00 satu-satunya 0°. kuku" },
+      { authorId: 232, minutesAgo: 8830, content: "90°, 75°, dan 12.00 satu-satunya 0°. kuku" },
     ],
   },
   {
@@ -507,7 +507,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 57, minutesAgo: 9448, content: "SEKOLAH keluar di soal kaidah pencacahan, klasik" },
       { authorId: 350, minutesAgo: 9429, content: "jawaban 5040 dan susulan 10/6. lengkap" },
       { authorId: 181, minutesAgo: 9409, content: "tanda seru itu faktorial, bukan seru-seruan wkwk" },
-      { authorId: 447, minutesAgo: 8740, content: "telat dari arsip. 5040, KAKAK = 10, MAMA = 6. kuku" },
+      { authorId: 447, minutesAgo: 8740, content: "5040, KAKAK = 10, MAMA = 6. kuku" },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 86, minutesAgo: 9374, content: "iya kasus istimewa, x = 90" },
       { authorId: 439, minutesAgo: 9357, content: "jawaban lengkap, tinggal latihan nandain pasangannya" },
       { authorId: 121, minutesAgo: 9340, content: "65/65/115/108. semua kuku" },
-      { authorId: 257, minutesAgo: 8910, content: "telat dari arsip. 65-65-115, dan 72 → 108. tuntas" },
+      { authorId: 257, minutesAgo: 8910, content: "65-65-115, dan 72 → 108. tuntas" },
     ],
   },
   {
@@ -557,7 +557,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 9488, content: "iya, 2×4x×1 = 8x" },
       { authorId: 411, minutesAgo: 9472, content: "identitasnya dua: (a+b)² dan (a−b)², beda cuma tanda tengah" },
       { authorId: 289, minutesAgo: 9456, content: "jawaban post lengkap, cek numeriknya juga bagus buat bukti" },
-      { authorId: 94, minutesAgo: 8880, content: "telat dari arsip. 4x²+12x+9 dan 9x²−12x+4. kuku" },
+      { authorId: 94, minutesAgo: 8880, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -582,7 +582,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 459, minutesAgo: 9508, content: "jawaban post dua-duanya kuku, cek dua jalur" },
       { authorId: 122, minutesAgo: 9493, content: "diameter 42 itu tinggi bola, kalo dibanding tabung r=21 pas banget" },
       { authorId: 288, minutesAgo: 9478, content: "4 volume bola = 3 volume tabung same r. sifat klasik" },
-      { authorId: 49, minutesAgo: 8850, content: "telat dari arsip. 38.808 cm³ dan 5.544 cm². satuan jangan dicampur. kuku" },
+      { authorId: 49, minutesAgo: 8850, content: "38.808 cm³ dan 5.544 cm². satuan jangan dicampur. kuku" },
     ],
   },
   {
@@ -612,7 +612,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 156, minutesAgo: 9442, content: "iya, sekali paham Pythagoras, rumus jarak langsung nyambung" },
       { authorId: 242, minutesAgo: 9428, content: "soal koordinat suka dipasangkan sama tripel biar rapi" },
       { authorId: 398, minutesAgo: 9415, content: "10, 2,24, 7. semua kuku di atas" },
-      { authorId: 85, minutesAgo: 8720, content: "telat dari arsip. jarak 10 (6-8-10), √5 bukan bulat, vertikal = 7. tuntas" },
+      { authorId: 85, minutesAgo: 8720, content: "Jarak 10 (6-8-10), √5 bukan bulat, vertikal = 7. tuntas" },
     ],
   },
   {
@@ -635,7 +635,7 @@ export const THREADS_PART13: ThreadzThread[] = [
       { authorId: 284, minutesAgo: 9576, content: "jawaban post dua-duanya bener" },
       { authorId: 138, minutesAgo: 9559, content: "mod ini kepake di jam juga: 25 mod 12 = 1, jam 25.00 = 01.00" },
       { authorId: 318, minutesAgo: 9542, content: "4 dan 6, plus aplikasi hari dan jam. tuntas semua" },
-      { authorId: 79, minutesAgo: 8900, content: "telat dari arsip. sisa 4 dan 6, 2026 sisa 3. kuku" },
+      { authorId: 79, minutesAgo: 8900, content: "Sisa 4 dan 6, 2026 sisa 3. kuku" },
     ],
   },
 ]

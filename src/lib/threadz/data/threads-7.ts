@@ -26,7 +26,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 4230, content: "berangkat 10 menit awal itu solusi paling murah. gak perlu rumus tambahan" },
       { authorId: 209, minutesAgo: 4210, content: "kalau ibunya telat 5 menit, sisa jadi 5. makin panik. makanya awal itu jaringan" },
       { authorId: 468, minutesAgo: 4190, content: "Anak yang nanya sisa waktu, calon perencana bagus " },
-      { authorId: 404, minutesAgo: 100, content: "Telat. besok udah jalan awal? 10 menit itu bener" },
+      { authorId: 404, minutesAgo: 100, content: "Besok udah jalan awal? 10 menit itu bener" },
     ],
   },
   {
@@ -53,7 +53,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 4280, content: "tergantung platform bre. stasiun kecil ramai, besar makin lama jalan" },
       { authorId: 87, minutesAgo: 4260, content: "gue pilih A bre. tidur 30 menit bisa dibayar sama secangkir kopi" },
       { authorId: 275, minutesAgo: 4240, content: "toleransi 10 menit itu bukan males bangun, itu hukum stasiun" },
-      { authorId: 190, minutesAgo: 100, content: "telat bre. keretanya udah jalan? A itu fix buat aman" },
+      { authorId: 190, minutesAgo: 100, content: "Keretanya udah jalan? A itu fix buat aman" },
     ],
   },
   {
@@ -74,7 +74,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4320, content: "Anak lari 5 menit 800 m itu sehat. jurnalnya jadi patokan kelas" },
       { authorId: 288, minutesAgo: 4300, content: "9,6 km per jam itu jalan cepet doang. lari santai anak memang segitu" },
       { authorId: 466, minutesAgo: 4280, content: "cek: 9,6 km per jam = 2,67 m per detik. konsisten dengan 160 per menit" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. jurnalnya udah masuk? 9,6 itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "Jurnalnya udah masuk? 9,6 itu fix" },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 3260, content: "06.44 itu hidup. 06.45 baru jalan, sudah mepet" },
       { authorId: 123, minutesAgo: 3240, content: "cek: 06.44 + 2 = 06.46, + 4 = 06.50, + 2 menit naik = 06.52. pas semua" },
       { authorId: 286, minutesAgo: 3220, content: "Angka mundur gak bohong. yang bohong cuma kaki yang males" },
-      { authorId: 436, minutesAgo: 100, content: "Telat. keretanya udah dikejar? 06.44 itu fix" },
+      { authorId: 436, minutesAgo: 100, content: "Keretanya udah dikejar? 06.44 itu fix" },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 4300, content: "06.12 + 15 = 06.27. ojek 06.30 jalan, nyampe 06.35-an. masih depan" },
       { authorId: 466, minutesAgo: 4280, content: "Roti bakar itu olahraga estafet. api, tangan, dan telepon" },
       { authorId: 76, minutesAgo: 4260, content: "kalau 4 roti dua-dua, ronde pertama 2, ronde kedua 2. 10 menit bakar" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. ojeknya nyampe pas? dua-dua itu fix buat besok" },
+      { authorId: 473, minutesAgo: 100, content: "Ojeknya nyampe pas? dua-dua itu fix buat besok" },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 3300, content: "sepeda lu jalan, angka ikut jalan. angka berhenti pas lu berhenti" },
       { authorId: 123, minutesAgo: 3280, content: "10 ÷ 1,3333 = 7,5 pas. dua kali dicek bre" },
       { authorId: 286, minutesAgo: 3260, content: "gak ada yang dikejar bre, cuma jam yang jadi pembagi lebih gede" },
-      { authorId: 436, minutesAgo: 100, content: "telat bre. warungnya masih dibuka? 7,5 itu fix" },
+      { authorId: 436, minutesAgo: 100, content: "Warungnya masih dibuka? 7,5 itu fix" },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4610, content: "Halaman 21-22 jelek itu tanda lelah, bukan tanda nambah salah" },
       { authorId: 288, minutesAgo: 4350, content: "2 halaman per hari × 30 = 60. butuh 30 hari. dosen kasih 24. hitunganmu pas" },
       { authorId: 466, minutesAgo: 4330, content: "Tulis ritme baru di kalender. 2,5 × 24 = 60. pas deadline" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. skripsinya udah beres? 2,5 per hari itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "Skripsinya udah beres? 2,5 per hari itu fix" },
     ],
   },
   {
@@ -206,7 +206,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 4576, content: "9 jam dikurang 0,75 = 8,25. cocok sama hitungan lu" },
       { authorId: 87, minutesAgo: 4200, content: "8:15 itu gampang dibaca manusia, 8,25 gampang dibaca mesin" },
       { authorId: 275, minutesAgo: 4180, content: "ketuker terus itu wajar. kasih catatan tempel di meja: 15 menit = 0,25" },
-      { authorId: 190, minutesAgo: 100, content: "telat. laporannya udah masuk? 8,25 itu fix buat desimal" },
+      { authorId: 190, minutesAgo: 100, content: "Laporannya udah masuk? 8,25 itu fix buat desimal" },
     ],
   },
   {
@@ -227,7 +227,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 4691, content: "6 km 30 menit itu 12 km/j. dua kali dicek, bener" },
       { authorId: 59, minutesAgo: 4670, content: "Rugi bensin doang itu gak ada. yang rugi waktu, bensin tetep" },
       { authorId: 288, minutesAgo: 4450, content: "Ambil order pendek pas hujan. itu satu-satunya senjata" },
-      { authorId: 466, minutesAgo: 100, content: "Telat nyusul. hujannya udah reda? 40% wajar juga kok" },
+      { authorId: 466, minutesAgo: 100, content: "Hujannya udah reda? 40% wajar juga kok" },
     ],
   },
   {
@@ -255,7 +255,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 87, minutesAgo: 4360, content: "latihan mingguan naik dikit-dikit. 340 dulu, jangan langsung 300" },
       { authorId: 275, minutesAgo: 4340, content: "napas itu mesin bre. kaki cuma roda. mesin dulu" },
       { authorId: 190, minutesAgo: 4320, content: "gue dulu juga 18-an bre. seminggu latihan napas, turun ke 16" },
-      { authorId: 123, minutesAgo: 100, content: "telat bre. lari lagi minggu ini? 300 detik per km targetnya" },
+      { authorId: 123, minutesAgo: 100, content: "Lari lagi minggu ini? 300 detik per km targetnya" },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 76, minutesAgo: 4330, content: "Rapat tanpa angka itu ceramah. lu udah bener" },
       { authorId: 473, minutesAgo: 4310, content: "agenda penjualan 25 menit mepet juga sih. mungkin itu yang bocor duluan" },
       { authorId: 245, minutesAgo: 4290, content: "menu kantin bisa jadi agenda resmi 10 menit minggu depan. solusi lucu tapi jujur" },
-      { authorId: 87, minutesAgo: 100, content: "Telat. rapat berikutnya udah? 90 vs 100 itu fix" },
+      { authorId: 87, minutesAgo: 100, content: "Rapat berikutnya udah? 90 vs 100 itu fix" },
     ],
   },
   {
@@ -302,7 +302,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 76, minutesAgo: 4747, content: "3.780 m itu 3,78 km. pembulatan ke hampir 4 sah" },
       { authorId: 473, minutesAgo: 4730, content: "protes kaki itu bahan cerita shift pagi. kasih es balok" },
       { authorId: 245, minutesAgo: 4360, content: "shift begini gratis olahraga tanpa pindah gedung wkwk" },
-      { authorId: 87, minutesAgo: 100, content: "telat. kaki masih protes? 3.780 m itu fix" },
+      { authorId: 87, minutesAgo: 100, content: "Kaki masih protes? 3.780 m itu fix" },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 4658, content: "gue dulu juga sms bohong dua kali baru belajar bre" },
       { authorId: 123, minutesAgo: 4420, content: "0,5 jam = 30 menit. dua kali dicek bener bre" },
       { authorId: 286, minutesAgo: 4400, content: "7 km/jam itu 2,3 km per 20 menit. 3,5 km = sekitar 30 menit. pas" },
-      { authorId: 436, minutesAgo: 100, content: "telat bre. udah nyampe? 30 menit itu fix dari awal" },
+      { authorId: 436, minutesAgo: 100, content: "Udah nyampe? 30 menit itu fix dari awal" },
     ],
   },
   {
@@ -353,7 +353,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 4836, content: "8 jam shift standar. pembagian 3-5 itu yang menentukan mood" },
       { authorId: 288, minutesAgo: 4822, content: "Payung satu itu satu untuk semua. lambang kebersamaan wkwk" },
       { authorId: 466, minutesAgo: 4400, content: "3 jam pos A tenang, 5 jam pos B ramai. kombinasi bagus" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. shift udah kelar? 3-5 itu pembagian lu" },
+      { authorId: 473, minutesAgo: 100, content: "Shift udah kelar? 3-5 itu pembagian lu" },
     ],
   },
   {
@@ -380,7 +380,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 4778, content: "hitungan 25 dan 12 itu kasar tapi berguna teh. pasar gak butuh desimal" },
       { authorId: 87, minutesAgo: 4400, content: "kalau 2 jam pertama separuh, dua jam pertama itu 50%. dua kali lebih ngebut" },
       { authorId: 275, minutesAgo: 4380, content: "teh jangan sampai stok abis jam 07 terus. kehilangan 4 jam jualan" },
-      { authorId: 190, minutesAgo: 100, content: "telat teh. besok bawa berapa? rasio 60-40 itu patokan" },
+      { authorId: 190, minutesAgo: 100, content: "Besok bawa berapa? rasio 60-40 itu patokan" },
     ],
   },
   {
@@ -403,7 +403,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 4380, content: "tanya ke HR pakai angka: 10 jam, 1,25 hari. angka bikin mereka gerak" },
       { authorId: 466, minutesAgo: 4360, content: "di kantor gaku 2 minggu maksimal. satu bulan itu terlalu lama sih" },
       { authorId: 76, minutesAgo: 4340, content: "10 jam itu 600 menit. kecil per hari, gede per bulan" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. formnya udah jalan? 1,25 hari itu angka " },
+      { authorId: 473, minutesAgo: 100, content: "Formnya udah jalan? 1,25 hari itu angka" },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 275, minutesAgo: 4420, content: "3,6 itu hafalan wajib teknik bro. simpan di kesimpenan" },
       { authorId: 190, minutesAgo: 4400, content: "1 m/s = 3,6 km/j. kebalikannya bagi. dua-duanya hafal, selesai" },
       { authorId: 123, minutesAgo: 4380, content: "15 m/s itu 54 km/j. dua kali dicek" },
-      { authorId: 286, minutesAgo: 100, content: "telat bro. debatnya selesai? dua-duanya benar, tulis 3,6" },
+      { authorId: 286, minutesAgo: 100, content: "Debatnya selesai? dua-duanya benar, tulis 3,6" },
     ],
   },
   {
@@ -456,7 +456,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 76, minutesAgo: 4911, content: "6 hari × 42 = 252. minggu libur tinggal dikurangi" },
       { authorId: 473, minutesAgo: 4450, content: "Ini rajin. bodi sehari-hari kayak gini itu aset" },
       { authorId: 245, minutesAgo: 4430, content: "Servis rutin lebih murah dari mesin rusak. hitungan lu sayang uang" },
-      { authorId: 87, minutesAgo: 100, content: "Telat. motor masih sehat? 252 km itu fix" },
+      { authorId: 87, minutesAgo: 100, content: "Motor masih sehat? 252 km itu fix" },
     ],
   },
   {
@@ -482,7 +482,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 4916, content: "makan di tempat itu bukan kemalasan bos. itu jadwal" },
       { authorId: 245, minutesAgo: 4700, content: "12,5 jam efektif itu 78% dari hari. gede juga ya" },
       { authorId: 87, minutesAgo: 4680, content: "kalau badan drop, kios ikut drop bos. makan yang bener" },
-      { authorId: 275, minutesAgo: 100, content: "telat bos. kiosnya udah atur ulang? 12,5 itu fix" },
+      { authorId: 275, minutesAgo: 100, content: "Kiosnya udah atur ulang? 12,5 itu fix" },
     ],
   },
   {
@@ -503,7 +503,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 5021, content: "sekolah ajarin rumus, jalanan ajarin pakainya. dua-duanya perlu" },
       { authorId: 288, minutesAgo: 5008, content: "40 km/j itu 12 km per 18 menit. 32 km = 48 menit. cocok" },
       { authorId: 466, minutesAgo: 4720, content: "Check-in makin panjang itu hukum bandara. 58 menit itu pas banget" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. penumpangnya keburu? 48 menit itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "Penumpangnya keburu? 48 menit itu fix" },
     ],
   },
   {
@@ -531,7 +531,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 87, minutesAgo: 4720, content: "gas kompor gak stabil juga bre. nyala kecil bikin telat" },
       { authorId: 275, minutesAgo: 4700, content: "dapur gak nurut rumus, tapi deket bre. 5 vs 4,5 itu deket banget" },
       { authorId: 190, minutesAgo: 4680, content: "pemanasan awal ikut kehitung bre. itu yang bikin mepet 5" },
-      { authorId: 123, minutesAgo: 100, content: "telat bre. airnya udah mateng? 5 itu datamu, pegang" },
+      { authorId: 123, minutesAgo: 100, content: "Airnya udah mateng? 5 itu datamu, pegang" },
     ],
   },
   {
@@ -553,7 +553,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 5073, content: "Anak yang minta dihitung ulang tiga kali, calon auditor wkwk" },
       { authorId: 288, minutesAgo: 5060, content: "4 menit = 240 detik, 2:40 = 160. selisih 80. jelas" },
       { authorId: 466, minutesAgo: 4740, content: "kasih anak kalimat: bunda cepat, kamu kuat. dua-duanya benar" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. anaknya masih nanya? 80 detik itu fix" },
+      { authorId: 473, minutesAgo: 100, content: "Anaknya masih nanya? 80 detik itu fix" },
     ],
   },
   {
@@ -578,7 +578,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 4740, content: "charger cepat juga bikin baterai tua cepat bre. 25 jam bakal turun" },
       { authorId: 87, minutesAgo: 4720, content: "baterai 3.000 sekarang itu standar hp kecil bre. 25 jam idle layak" },
       { authorId: 275, minutesAgo: 4700, content: "25 jam itu kalo gak dipake sama sekali bre. hp dipake buat dipake" },
-      { authorId: 190, minutesAgo: 100, content: "telat bre. baterai sisa berapa? 25 jam idle itu fix" },
+      { authorId: 190, minutesAgo: 100, content: "Baterai sisa berapa? 25 jam idle itu fix" },
     ],
   },
   {
@@ -608,7 +608,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 286, minutesAgo: 4720, content: "nenek pura-pura tau itu teknik pengasuhan tingkat tinggi" },
       { authorId: 436, minutesAgo: 4700, content: "udara pagi 10 menit itu vitamin gratis buat anak" },
       { authorId: 226, minutesAgo: 4680, content: "06.40 lebih awal 5 menit dari 06.45. matematikanya simple, dampaknya gede" },
-      { authorId: 152, minutesAgo: 100, content: "Telat. udah berangkat? 10 menit kucing itu fix" },
+      { authorId: 152, minutesAgo: 100, content: "Udah berangkat? 10 menit kucing itu fix" },
     ],
   },
   {
@@ -631,7 +631,7 @@ export const THREADS_PART7: ThreadzThread[] = [
       { authorId: 466, minutesAgo: 5137, content: "manual gak ada itu masalah kantor, bukan masalah lu. tanya tertulis" },
       { authorId: 76, minutesAgo: 5121, content: "slip vs hitungan beda 30 menit. satu jeda yang belum kejawab" },
       { authorId: 473, minutesAgo: 4900, content: "magang yang ngitung sendiri, nilai plus. tanya pelan" },
-      { authorId: 245, minutesAgo: 100, content: "telat. udah ditanya? 7,5 vs 8 itu fix dari hitungan" },
+      { authorId: 245, minutesAgo: 100, content: "Udah ditanya? 7,5 vs 8 itu fix dari hitungan" },
     ],
   },
 ]

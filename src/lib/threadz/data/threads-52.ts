@@ -26,7 +26,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 38081, content: "semuanya udah kuku kok" },
       { authorId: 442, minutesAgo: 38048, content: "susulan: 158 = 2 × 79" },
       { authorId: 426, minutesAgo: 38016, content: "susulan: lewat tabel, angkanya sama" },
-      { authorId: 384, minutesAgo: 37500, content: "telat nyamber, separuh 158. beres semua" },
+      { authorId: 384, minutesAgo: 37500, content: "dari 158 ke 79 langkahnya nyambung, tinggal teliti" },
     ],
   },
   {
@@ -74,7 +74,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 490, minutesAgo: 38188, content: "manggut" },
       { authorId: 160, minutesAgo: 38169, content: "tinggal dicerna doang dari awal" },
       { authorId: 363, minutesAgo: 38149, content: "susulan: 66 = 2 × 3 × 11" },
-      { authorId: 31, minutesAgo: 37480, content: "dari arsip gue: KPK 22-33. tuntas semua" },
+      { authorId: 31, minutesAgo: 37480, content: "soal 22 kayak gini suka nongol pas ulangan" },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 499, minutesAgo: 38111, content: "note susulan: kertas berpetak bikin nggak salah hitung" },
       { authorId: 41, minutesAgo: 38093, content: "iya, mantap" },
       { authorId: 165, minutesAgo: 38075, content: "susulan: dicatet biar gak kelewat" },
-      { authorId: 52, minutesAgo: 37340, content: "telat dari arsip, T75 = 2.850. tuntas" },
+      { authorId: 52, minutesAgo: 37340, content: "catet 75-nya, soal begini balik modal pas ujian" },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 475, minutesAgo: 38195, content: "semuanya udah kuku di atas" },
       { authorId: 20, minutesAgo: 38177, content: "susulan: 6.765 = 5 × 1.353" },
       { authorId: 256, minutesAgo: 38158, content: "susulan singkat: polanya mirip, aturannya sama" },
-      { authorId: 162, minutesAgo: 37540, content: "mampir telat, Fibonacci 4.181. beres semua" },
+      { authorId: 162, minutesAgo: 37540, content: "angka 2.584 di soal ini emang buat ngetes teliti" },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 132, minutesAgo: 38152, content: "sepakat" },
       { authorId: 494, minutesAgo: 38138, content: "susulan singkat: hasilnya konsisten di semua jalur" },
       { authorId: 346, minutesAgo: 38125, content: "note susulan: angka gampang bikin latihan lancar" },
-      { authorId: 264, minutesAgo: 37430, content: "telat dari arsip. 22 × 5. tuntas" },
+      { authorId: 264, minutesAgo: 37430, content: "22 itu contoh klasik, langsung nyambung ke rumusnya" },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 298, minutesAgo: 38286, content: "susulan: 31 deket 32" },
       { authorId: 247, minutesAgo: 38269, content: "susulan: sketsa dulu, rumus belakangan" },
       { authorId: 458, minutesAgo: 38252, content: "note susulan: kalo gak yakin, itung ulang aja" },
-      { authorId: 1, minutesAgo: 37610, content: "telat dari arsip. biner 11111. tuntas" },
+      { authorId: 1, minutesAgo: 37610, content: "ada yang coba 11111 lewat jalan lain gak?" },
     ],
   },
   {
@@ -206,7 +206,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 212, minutesAgo: 38262, content: "susulan: rumusnya dicatet, nanti kepake" },
       { authorId: 235, minutesAgo: 38245, content: "gak ada sisa lagi tanpa sisa" },
       { authorId: 429, minutesAgo: 38228, content: "susulan: hitung manual duluan, kalkulator tinggal ngangguk" },
-      { authorId: 242, minutesAgo: 37750, content: "nyusul dari arsip, heksa 100. tuntas kok" },
+      { authorId: 242, minutesAgo: 37750, content: "angka 100 di soal ini emang buat ngetes teliti" },
     ],
   },
   {
@@ -255,7 +255,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 230, minutesAgo: 38294, content: "yoi" },
       { authorId: 126, minutesAgo: 38277, content: "susulan: dibongkar cara lain, tetep cocok" },
       { authorId: 106, minutesAgo: 38260, content: "susulan: cek pakai contoh lain, sama hasilnya" },
-      { authorId: 73, minutesAgo: 37830, content: "dari arsip gue: 3.000 mod 7. pas semua" },
+      { authorId: 73, minutesAgo: 37830, content: "kalau 3.000 diganti angka lain, langkahnya tetep sama kan?" },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 259, minutesAgo: 38398, content: "susulan — besarnya nunggu di ujung" },
       { authorId: 290, minutesAgo: 38383, content: "pr gue: ganti angka biar gak identik" },
       { authorId: 264, minutesAgo: 38368, content: "aman pas" },
-      { authorId: 252, minutesAgo: 37740, content: "telat dari arsip. pembulatan 7.777. tuntas" },
+      { authorId: 252, minutesAgo: 37740, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 270, minutesAgo: 38362, content: "note susulan: cuma hafalan doang begitu" },
       { authorId: 392, minutesAgo: 38348, content: "note susulan: yang besar kelakuan belakangan" },
       { authorId: 18, minutesAgo: 38335, content: "pr gue: angka gue ganti, jalannya sama" },
-      { authorId: 254, minutesAgo: 37640, content: "telat nyamber, kompensasi 95×8. kelar" },
+      { authorId: 254, minutesAgo: 37640, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
   {
@@ -353,7 +353,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 424, minutesAgo: 38518, content: "iya juga" },
       { authorId: 326, minutesAgo: 38499, content: "semua udah nyambung semua" },
       { authorId: 208, minutesAgo: 38479, content: "susulan: 14.399 deket 14.400" },
-      { authorId: 134, minutesAgo: 37810, content: "telat nyamber, 121 × 119. kuku" },
+      { authorId: 134, minutesAgo: 37810, content: "ada yang coba 121 lewat jalan lain gak?" },
     ],
   },
   {
@@ -380,7 +380,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 348, minutesAgo: 38471, content: "susulan: mesin nambah keyakinan, bukan jalan pintas" },
       { authorId: 307, minutesAgo: 38452, content: "benar" },
       { authorId: 305, minutesAgo: 38433, content: "susulan singkat: pola ini langganan soal" },
-      { authorId: 128, minutesAgo: 37990, content: "nyusul dari arsip, digit akhir 2^20. beres" },
+      { authorId: 128, minutesAgo: 37990, content: "angka 2 di soal ini emang buat ngetes teliti" },
     ],
   },
   {
@@ -403,7 +403,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 495, minutesAgo: 38556, content: "susulan: 20 orang ramai" },
       { authorId: 85, minutesAgo: 38539, content: "susulan: mulai dari yang kecil, enteng" },
       { authorId: 345, minutesAgo: 38522, content: "benar" },
-      { authorId: 67, minutesAgo: 37880, content: "telat dari arsip. orang-hari 4×10. tuntas" },
+      { authorId: 67, minutesAgo: 37880, content: "yang bikin mikir di soal ini 4-nya" },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 314, minutesAgo: 38501, content: "susulan: pakai skema lain, pas juga" },
       { authorId: 462, minutesAgo: 38483, content: "susulan: diulang tiga kali, tetep di situ" },
       { authorId: 148, minutesAgo: 38465, content: "susulan: rumusnya dicatet, nanti kepake" },
-      { authorId: 367, minutesAgo: 37730, content: "telat dari arsip. tangki 10-15. tuntas" },
+      { authorId: 367, minutesAgo: 37730, content: "yang bikin mikir di soal ini 10-nya" },
     ],
   },
   {
@@ -456,7 +456,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 411, minutesAgo: 38585, content: "susulan: ⅚ cup aneh tapi sah" },
       { authorId: 292, minutesAgo: 38567, content: "susulan singkat: yang besar kelakuan belakangan" },
       { authorId: 464, minutesAgo: 38548, content: "pr gue: sekalian gue ubah angkanya" },
-      { authorId: 387, minutesAgo: 37930, content: "telat dari arsip. resep 1⅔ ÷ 2. tuntas" },
+      { authorId: 387, minutesAgo: 37930, content: "Resep 1⅔ ÷ 2. tuntas" },
     ],
   },
   {
@@ -482,7 +482,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 343, minutesAgo: 38592, content: "mantap" },
       { authorId: 296, minutesAgo: 38575, content: "note susulan: jalur dobel, angka tetap satu" },
       { authorId: 193, minutesAgo: 38558, content: "kuku" },
-      { authorId: 25, minutesAgo: 38080, content: "telat dari arsip, 50°F ke C. kelar" },
+      { authorId: 25, minutesAgo: 38080, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -531,7 +531,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 487, minutesAgo: 38624, content: "susulan: pola sama, hasil konsisten" },
       { authorId: 227, minutesAgo: 38607, content: "note susulan: dua jalan dibanding, hasil sama" },
       { authorId: 154, minutesAgo: 38590, content: "susulan singkat: coba contoh kedua buat bukti" },
-      { authorId: 138, minutesAgo: 38160, content: "telat dari arsip, gelas 220. pas semua" },
+      { authorId: 138, minutesAgo: 38160, content: "soal 220 kayak gini suka nongol pas ulangan" },
     ],
   },
   {
@@ -553,7 +553,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 26, minutesAgo: 38711, content: "semua udah nyambung wkwk" },
       { authorId: 10, minutesAgo: 38678, content: "susulan: 22 GB makan banyak" },
       { authorId: 21, minutesAgo: 38646, content: "ijo itu" },
-      { authorId: 434, minutesAgo: 38130, content: "nyusul dari arsip, file 5,5 GB. tuntas semua" },
+      { authorId: 434, minutesAgo: 38130, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -570,7 +570,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 116, minutesAgo: 38877, content: "PR gue: 60 × 15 = 900 cek" },
       { authorId: 132, minutesAgo: 38862, content: "iya, selalu" },
       { authorId: 115, minutesAgo: 38848, content: "gak ada yang melayang" },
-      { authorId: 129, minutesAgo: 38833, content: "catet: ukuran ÷ laju" },
+      { authorId: 129, minutesAgo: 38833, content: "soal begini suka nongol pas ulangan" },
       { authorId: 301, minutesAgo: 38818, content: "sepaham" },
       { authorId: 331, minutesAgo: 38803, content: "udah rapi semua wkwk" },
       { authorId: 414, minutesAgo: 38788, content: "susulan: 60 dtk pas satu menit" },
@@ -578,7 +578,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 125, minutesAgo: 38758, content: "benar" },
       { authorId: 283, minutesAgo: 38743, content: "note susulan: keterbagian dicek duluan, hemat langkah" },
       { authorId: 217, minutesAgo: 38728, content: "pas sih" },
-      { authorId: 379, minutesAgo: 38100, content: "dari arsip gue: unggah 15 MB/s. beres" },
+      { authorId: 379, minutesAgo: 38100, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -631,7 +631,7 @@ export const THREADS_PART52: ThreadzThread[] = [
       { authorId: 39, minutesAgo: 38826, content: "jawaban di atas udah nutup semua wkwk" },
       { authorId: 30, minutesAgo: 38809, content: "susulan: 2.025 tahun kuadrat" },
       { authorId: 181, minutesAgo: 38792, content: "pr gue: sekalian gue ubah angkanya" },
-      { authorId: 16, minutesAgo: 38150, content: "telat dari arsip. akhir kuadrat. tuntas" },
+      { authorId: 16, minutesAgo: 38150, content: "angka 0 di soal ini emang buat ngetes teliti" },
     ],
   },
 ]

@@ -27,7 +27,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 2188, content: "x = 6 udah lolos dua cek bre. pindah ruas-nya udah bener" },
       { authorId: 209, minutesAgo: 2100, content: "kalau temen lu minta bukti, suruh dia cek balik. 17 ≠ 21, beres" },
       { authorId: 468, minutesAgo: 2080, content: "4x = 24 → x = 6. dua langkah doang bre, udah bener" },
-      { authorId: 77, minutesAgo: 100, content: "telat bre. udah dikoreksi kan? 6 itu fix" },
+      { authorId: 77, minutesAgo: 100, content: "Udah dikoreksi kan? 6 itu fix" },
     ],
   },
   {
@@ -54,7 +54,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 483, minutesAgo: 2138, content: "Di kelas saya soal begini sering muncul. rasio umur selalu punya satu jawaban" },
       { authorId: 89, minutesAgo: 2119, content: "Bos 30. umur anak 10. hitungannya udah kejawab semua di atas" },
       { authorId: 231, minutesAgo: 2099, content: "Minta bosnya jadi guru part time aja wkwk, soalnya udah berkarya" },
-      { authorId: 481, minutesAgo: 100, content: "Telat. bosnya udah kepotong rambutnya? 30 dan 10 udah fix" },
+      { authorId: 481, minutesAgo: 100, content: "Bosnya udah kepotong rambutnya? 30 dan 10 udah fix" },
     ],
   },
   {
@@ -75,7 +75,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 2256, content: "3.500 × 12 = 42.000. dua kali dicek, pas bro" },
       { authorId: 209, minutesAgo: 2100, content: "12 penumpang × 3.500. udah fix bro, gak ada sisa" },
       { authorId: 468, minutesAgo: 2080, content: "kalau ada yang nambah di tengah jalan, kasnya nambah bro. catet pas berhenti" },
-      { authorId: 404, minutesAgo: 95, content: "telat bro. kasnya udah disetor? 12 itu bener" },
+      { authorId: 404, minutesAgo: 95, content: "Kasnya udah disetor? 12 itu bener" },
     ],
   },
   {
@@ -104,7 +104,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 358, minutesAgo: 2138, content: "Tabel kecil di logbook: jam ronde 1 sampai 6. semua tinggal tunjuk" },
       { authorId: 55, minutesAgo: 2116, content: "200 ÷ 40 = 5. itu jeda. ronde = jeda + 1. jadi 6 " },
       { authorId: 137, minutesAgo: 2095, content: "Ronde ke-6, udah dikukuhkan semua di atas " },
-      { authorId: 418, minutesAgo: 100, content: "Telat. logbook-nya udah ditulis? ke-6, aman" },
+      { authorId: 418, minutesAgo: 100, content: "Logbook-nya udah ditulis? ke-6, aman" },
     ],
   },
   {
@@ -128,7 +128,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 325, minutesAgo: 2287, content: "Cekin: 5 × (−1) = −5. dua-duanya minus, tanda cocok" },
       { authorId: 96, minutesAgo: 2200, content: "Jangan diperpanjang, anak sudah di pintu. satu contoh utang, selesai" },
       { authorId: 307, minutesAgo: 2180, content: "dan nanti dia bakal ketemu −2, −3. tangganya panjang, tapi pintunya udah kebuka" },
-      { authorId: 481, minutesAgo: 100, content: "Telat. anandanya udah paham? x = −1, sah di aljabar" },
+      { authorId: 481, minutesAgo: 100, content: "Anandanya udah paham? x = −1, sah di aljabar" },
     ],
   },
   {
@@ -158,7 +158,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 87, minutesAgo: 1980, content: "pelanggan gak mau nyumbang 1.000 juga sah bro, kalau gak dijanjin di awal" },
       { authorId: 275, minutesAgo: 1960, content: "catat ke outlet: cantumin di awal. sekali omel, selesai" },
       { authorId: 190, minutesAgo: 1940, content: "di gudang kami packing dihitung per lem bro. 1.000 masih murah" },
-      { authorId: 483, minutesAgo: 100, content: "telat bro. paketnya udah sampai? 15.000 itu pas, urusannya info awal" },
+      { authorId: 483, minutesAgo: 100, content: "Paketnya udah sampai? 15.000 itu pas, urusannya info awal" },
     ],
   },
   {
@@ -181,7 +181,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 325, minutesAgo: 2354, content: "jangan debat panjang bos. tulis 3 × 10.000 = 30.000 di kertas. tunjuk" },
       { authorId: 96, minutesAgo: 2339, content: "pelanggan model gini biasanya bawa emosi dari tempat lain bos. angka lu aman" },
       { authorId: 307, minutesAgo: 2100, content: "kembalian 20.000. udah dua-duanya dicek di atas bos, tetep 20" },
-      { authorId: 481, minutesAgo: 100, content: "telat bos. pelanggannya udah pulang? 20.000 itu fix" },
+      { authorId: 481, minutesAgo: 100, content: "Pelanggannya udah pulang? 20.000 itu fix" },
     ],
   },
   {
@@ -207,7 +207,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 2100, content: "3 giliran per siklus, 6 jam. besok Anda dua kali jaga: 20.00 dan 08.00" },
       { authorId: 275, minutesAgo: 2070, content: "jadwal begini seru, kayak resep minyak yang muter wkwk" },
       { authorId: 155, minutesAgo: 1040, content: "ronde ke-7, jam 08.00, giliran Anda. fix" },
-      { authorId: 253, minutesAgo: 100, content: "telat. shift-nya udah jalan? 08.00 Anda lagi, bener dari awal" },
+      { authorId: 253, minutesAgo: 100, content: "Shift-nya udah jalan? 08.00 Anda lagi, bener dari awal" },
     ],
   },
   {
@@ -228,7 +228,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 2240, content: "promo per pasang itu jebakan klasik. struk yang jadi hakim, bukan mulut" },
       { authorId: 288, minutesAgo: 2220, content: "9.000 itu 3 pasang. 6 sabun. dua-duanya cocok. tinggal jelasin satuan" },
       { authorId: 466, minutesAgo: 2100, content: "pelanggan diam sejenak lalu setuju, tanda dia paham sendiri. bagus" },
-      { authorId: 473, minutesAgo: 100, content: "telat. struknya udah dijelaskan? 9.000 tetep benar" },
+      { authorId: 473, minutesAgo: 100, content: "Struknya udah dijelaskan? 9.000 tetep benar" },
     ],
   },
   {
@@ -255,8 +255,8 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 2378, content: "kasih dia kertas kecil: lembar × nilai. biar dia hitung sendiri pakai tangan dia" },
       { authorId: 87, minutesAgo: 2200, content: "1.500.000 dari 2.000.000 itu 75 persen. tinggal 25 persen lagi, yaitu 500 ribu" },
       { authorId: 275, minutesAgo: 2180, content: "5 lembar 100 ribu itu tumpukan tipis. bandingkan dengan tumpukan 30 lembar tadi" },
-      { authorId: 190, minutesAgo: 1160, content: "Telat. nasabahnya udah beres? 5 lembar 100 ribu itu fix" },
-      { authorId: 123, minutesAgo: 100, content: "telat juga. 1.500.000 + 500.000 = 2.000.000. selesai" },
+      { authorId: 190, minutesAgo: 1160, content: "Nasabahnya udah beres? 5 lembar 100 ribu itu fix" },
+      { authorId: 123, minutesAgo: 100, content: "1.500.000 + 500.000 = 2.000.000. selesai" },
     ],
   },
   {
@@ -280,8 +280,8 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 137, minutesAgo: 2459, content: "30 ribu × 12 bulan = 360 ribu setahun kalau kebiasaan. layak ditanya" },
       { authorId: 418, minutesAgo: 2443, content: "HR biasanya punya alasan formal. minta dalam tulisan, bukan lisan" },
       { authorId: 202, minutesAgo: 2426, content: "kayaknya ada rincian yang gak diceritain. 21,5 hari tuh gak natural" },
-      { authorId: 481, minutesAgo: 2408, content: "telat nanggepin. udah ditanya? bawa slip sama absen, angka jangan salah" },
-      { authorId: 85, minutesAgo: 100, content: "telat juga. 1.320 lawan 1.290, selisih 30. tanya pakai dua angka itu" },
+      { authorId: 481, minutesAgo: 2408, content: "Udah ditanya? bawa slip sama absen, angka jangan salah" },
+      { authorId: 85, minutesAgo: 100, content: "1.320 lawan 1.290, selisih 30. tanya pakai dua angka itu" },
     ],
   },
   {
@@ -303,7 +303,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 148, minutesAgo: 2280, content: "anak mengembalikan 500 itu tanda jujur plus paham. dua-duanya langka" },
       { authorId: 325, minutesAgo: 2260, content: "biar rapi: harga per biji ditulis di papan kecil. gak ada salah paket lagi" },
       { authorId: 96, minutesAgo: 2100, content: "Kelas 4 udah bisa bagi 1.500 ÷ 3. latihan jualan memang jalan bagus" },
-      { authorId: 481, minutesAgo: 100, content: "Telat. permenya masih laku? 500 per biji itu kuncinya" },
+      { authorId: 481, minutesAgo: 100, content: "Permenya masih laku? 500 per biji itu kuncinya" },
     ],
   },
   {
@@ -333,7 +333,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 358, minutesAgo: 2280, content: "dua pintu satu rumah bre: eliminasi atau substitusi. pintu lu bener" },
       { authorId: 55, minutesAgo: 2260, content: "kebetulan itu gak konsisten. metode itu konsisten. lu pake metode" },
       { authorId: 269, minutesAgo: 2240, content: "cek balik yang lu tulis udah sempurna. dua persamaan dua-duanya kepenuhi" },
-      { authorId: 481, minutesAgo: 100, content: "telat bre. temen lu udah nyerah ngeyel? x = 4, y = 2 fix" },
+      { authorId: 481, minutesAgo: 100, content: "Temen lu udah nyerah ngeyel? x = 4, y = 2 fix" },
     ],
   },
   {
@@ -354,7 +354,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 270, minutesAgo: 2595, content: "B bilang mie 7.000 dari 21.000 ÷ 3, lupa telur ikut. dua-duanya salah cara" },
       { authorId: 36, minutesAgo: 2390, content: "Kas bon ditulis rinci mulai sekarang, gak ada drama lagi" },
       { authorId: 148, minutesAgo: 2370, content: "4.000 + 4.500 = 8.500. satu porsi mie telor. masuk akal harga warung" },
-      { authorId: 325, minutesAgo: 100, content: "Telat. anak kosnya udah tau kalah? 4.000 dan 4.500 fix" },
+      { authorId: 325, minutesAgo: 100, content: "Anak kosnya udah tau kalah? 4.000 dan 4.500 fix" },
     ],
   },
   {
@@ -381,7 +381,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 91, minutesAgo: 2320, content: "240 − 8 = 232. dibagi 4 = 58. dua kali dicek " },
       { authorId: 233, minutesAgo: 2300, content: "rekan lu cepat, lu rapi. gabungin: cepat buat cek, rapi buat laporan" },
       { authorId: 358, minutesAgo: 2280, content: "8 dus rusak itu bukan tanggungan palet tertentu. makanya dibagi rata" },
-      { authorId: 481, minutesAgo: 100, content: "Telat. laporannya udah dikirim? 58 per palet fix" },
+      { authorId: 481, minutesAgo: 100, content: "Laporannya udah dikirim? 58 per palet fix" },
     ],
   },
   {
@@ -403,8 +403,8 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 209, minutesAgo: 2410, content: "lima jam. dua kali dicek, hasil sama" },
       { authorId: 468, minutesAgo: 2390, content: "kalau tarifnya beda minggu ini, bisa jadi dua-duanya benar di hari beda. tanya tarif resmi dulu" },
       { authorId: 404, minutesAgo: 2370, content: "Pos begini biasanya tarifnya stabil. 11 = 5 jam. yang salah inget" },
-      { authorId: 173, minutesAgo: 1150, content: "telat. omnya udah pulang? 5 jam itu fix" },
-      { authorId: 242, minutesAgo: 100, content: "telat juga. 11 ribu lima jam, tujuh jam 15 ribu. selesai" },
+      { authorId: 173, minutesAgo: 1150, content: "Omnya udah pulang? 5 jam itu fix" },
+      { authorId: 242, minutesAgo: 100, content: "11 ribu lima jam, tujuh jam 15 ribu. selesai" },
     ],
   },
   {
@@ -433,7 +433,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 55, minutesAgo: 2340, content: "Jawaban doang yang penting disini: 140. kerja terus bre" },
       { authorId: 137, minutesAgo: 2320, content: "84, 112, 140. tiap kotak nambah 28. rapi" },
       { authorId: 418, minutesAgo: 2300, content: "kelipatan 28: 28, 56, 84, 112, 140. lima kotak pas 140" },
-      { authorId: 202, minutesAgo: 100, content: "telat bre. mesinnya udah jalan? 140 fix" },
+      { authorId: 202, minutesAgo: 100, content: "Mesinnya udah jalan? 140 fix" },
     ],
   },
   {
@@ -457,7 +457,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 2440, content: "Gak ada yang menangis kalau dua-duanya diakui benar dalam kalimatnya masing-masing " },
       { authorId: 137, minutesAgo: 2420, content: "di sekolah nanti dia ketemu istilah selisih. 8 − 3 = 5. sekarang cukup jari" },
       { authorId: 418, minutesAgo: 2400, content: "6 itu banyak anak tangga dari 3 sampai 8 termasuk dua ujungnya. 5 itu langkahnya. beda pertanyaan" },
-      { authorId: 202, minutesAgo: 100, content: "Telat. tangganya masih ada? 5 langkah, 6 pijakan. dua-duanya sah" },
+      { authorId: 202, minutesAgo: 100, content: "Tangganya masih ada? 5 langkah, 6 pijakan. dua-duanya sah" },
     ],
   },
   {
@@ -483,7 +483,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 91, minutesAgo: 2400, content: "47 buku di baris ke-10. rak majalah begini bikin kangen sekolah" },
       { authorId: 233, minutesAgo: 2380, content: "3 × 9 = 27. ditambah 20 = 47. dua kali dicek " },
       { authorId: 358, minutesAgo: 2360, content: "Kalau baris ke-20: 20 + 3 × 19 = 77. masih muat gak raknya?" },
-      { authorId: 55, minutesAgo: 100, content: "Telat. muridnya udah balik? barisan aritmetika, beda 3, fix" },
+      { authorId: 55, minutesAgo: 100, content: "Muridnya udah balik? barisan aritmetika, beda 3, fix" },
     ],
   },
   {
@@ -504,7 +504,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 2771, content: "pangkat itu perkalian berulang bre. angka depan itu penjumlahan berulang" },
       { authorId: 59, minutesAgo: 2758, content: "kalau x = 5: 5 + 5 = 10, 5 × 5 = 25. makin gede makin kelihatan bedanya" },
       { authorId: 288, minutesAgo: 2744, content: "guru lu benar bre. nambah itu nambah, berlipat itu berlipat" },
-      { authorId: 466, minutesAgo: 100, content: "telat bre. udah paham? 2x vs x², beda tindakan, beda hasil" },
+      { authorId: 466, minutesAgo: 100, content: "Udah paham? 2x vs x², beda tindakan, beda hasil" },
     ],
   },
   {
@@ -532,7 +532,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 233, minutesAgo: 2470, content: "270 itu 27 persen target. siang udah nyumbang 73 persen. malam nyisa 27" },
       { authorId: 358, minutesAgo: 2450, content: "target per orang sama itu adilnya. total itu cuma target kertas" },
       { authorId: 55, minutesAgo: 2430, content: "kabarin operator malam: total 270, per orang 54 kalau 5 orang. dia bakal tenang" },
-      { authorId: 137, minutesAgo: 100, content: "telat. shift malamnya udah jalan? 270 total, 54 per orang. fix" },
+      { authorId: 137, minutesAgo: 100, content: "Shift malamnya udah jalan? 270 total, 54 per orang. fix" },
     ],
   },
   {
@@ -554,7 +554,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 55, minutesAgo: 2600, content: "Anak magang nanya bagus. dia belum lihat manfaat jalan tol doang" },
       { authorId: 269, minutesAgo: 2580, content: "Peti mangga 5 lapis × 8 = 40. hitungan peti bener" },
       { authorId: 418, minutesAgo: 2560, content: "nanti pas bagi juga sama: 40 ÷ 8 = 5 lapis. bolak-balik cocok" },
-      { authorId: 202, minutesAgo: 100, content: "Telat. mangganya udah dibongkar? 40 itu fix" },
+      { authorId: 202, minutesAgo: 100, content: "Mangganya udah dibongkar? 40 itu fix" },
     ],
   },
   {
@@ -579,7 +579,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 307, minutesAgo: 2580, content: "Istilah sekolahnya deret dan barisan. tapi masalah pagar lebih gampang diinget" },
       { authorId: 176, minutesAgo: 2560, content: "Cucu nanti belajar ini di SMP. neneknya udah duluan nemu wkwk" },
       { authorId: 91, minutesAgo: 2540, content: "9 per baris, 36 semua. dua kali dicek, pas" },
-      { authorId: 233, minutesAgo: 100, content: "Telat. cabe-nya udah ditanam? 36 lubang itu fix" },
+      { authorId: 233, minutesAgo: 100, content: "Cabe-nya udah ditanam? 36 lubang itu fix" },
     ],
   },
   {
@@ -609,7 +609,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 2560, content: "12 ribu itu harga kalau satu kilo 8 ribu teh. bukan harga gue" },
       { authorId: 123, minutesAgo: 2540, content: "tanggungan 1.500 itu catat aja teh. ilmu pecahannya naik kelas" },
       { authorId: 286, minutesAgo: 2520, content: "pembeli yang bener-bener jago matematika jarang ngotot teh. yang ngotot biasanya bingung" },
-      { authorId: 436, minutesAgo: 100, content: "telat teh. jeruknya laku? 13.500 itu harga yang benar" },
+      { authorId: 436, minutesAgo: 100, content: "Jeruknya laku? 13.500 itu harga yang benar" },
     ],
   },
   {
@@ -632,7 +632,7 @@ export const THREADS_PART4: ThreadzThread[] = [
       { authorId: 96, minutesAgo: 2680, content: "Lift gedung jam 8 itu selalu penuh. jam 8.15 lebih lega" },
       { authorId: 307, minutesAgo: 2660, content: "tangga juga ada bonus: gak perlu nunggu. total waktu sering lebih cepet" },
       { authorId: 176, minutesAgo: 2640, content: "Kalau lift datang tiap 120 detik, dalam 5 menit cukup 2-3 kali. cocok sama pengalaman " },
-      { authorId: 91, minutesAgo: 100, content: "Telat. tangganya udah sampai lantai 6? hitungan lift udah pas semua di atas" },
+      { authorId: 91, minutesAgo: 100, content: "Tangganya udah sampai lantai 6? hitungan lift udah pas semua di atas" },
     ],
   },
 ]

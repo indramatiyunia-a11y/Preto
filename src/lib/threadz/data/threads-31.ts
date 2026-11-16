@@ -28,7 +28,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 210, minutesAgo: 22331, content: "catet: separuh bagi 2" },
       { authorId: 211, minutesAgo: 22298, content: "iya dasar" },
       { authorId: 216, minutesAgo: 22266, content: "susulan: angka gampang dipilih" },
-      { authorId: 217, minutesAgo: 21750, content: "telat dari arsip. separuh 26. tuntas" },
+      { authorId: 217, minutesAgo: 21750, content: "yang bikin mikir di soal ini 26-nya" },
     ],
   },
 
@@ -57,7 +57,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 243, minutesAgo: 22331, content: "susulan: pakai contoh kedua" },
       { authorId: 244, minutesAgo: 22312, content: "pas udah" },
       { authorId: 247, minutesAgo: 22293, content: "susulan: dua jalur satu jawaban" },
-      { authorId: 248, minutesAgo: 21850, content: "telat dari arsip. kelereng 6-6. tuntas" },
+      { authorId: 248, minutesAgo: 21850, content: "soal 6 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -80,7 +80,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 266, minutesAgo: 22438, content: "udah pas semua dari awal" },
       { authorId: 267, minutesAgo: 22419, content: "catet: × 11 = × 10 + n" },
       { authorId: 273, minutesAgo: 22399, content: "iya, itu triknya" },
-      { authorId: 279, minutesAgo: 21730, content: "telat dari arsip. 9 × 11. tuntas" },
+      { authorId: 279, minutesAgo: 21730, content: "angka 9 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -137,7 +137,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 339, minutesAgo: 22445, content: "susulan: catet rumusnya" },
       { authorId: 340, minutesAgo: 22427, content: "tinggal dicerna doang" },
       { authorId: 343, minutesAgo: 22408, content: "susulan: dicocokin ke kalkulator, hasil sepaham" },
-      { authorId: 344, minutesAgo: 21790, content: "telat dari arsip. Februari geser. tuntas" },
+      { authorId: 344, minutesAgo: 21790, content: "yang bikin mikir di soal ini 28-nya" },
     ],
   },
 
@@ -169,7 +169,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 379, minutesAgo: 22402, content: "simpel tapi pas" },
       { authorId: 380, minutesAgo: 22388, content: "susulan: cek keterbagian dulu" },
       { authorId: 382, minutesAgo: 22375, content: "benar kok" },
-      { authorId: 384, minutesAgo: 21680, content: "telat nyamber, wifi perangkat. tuntas kok" },
+      { authorId: 384, minutesAgo: 21680, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
 
@@ -194,7 +194,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 399, minutesAgo: 22536, content: "isinya padat tapi lengkap" },
       { authorId: 401, minutesAgo: 22519, content: "susulan: dua hilang? dua persamaan" },
       { authorId: 402, minutesAgo: 22502, content: "susulan: latihan lagi biar lancar" },
-      { authorId: 403, minutesAgo: 21860, content: "telat dari arsip, rata empat. beres semua" },
+      { authorId: 403, minutesAgo: 21860, content: "yang bikin mikir di soal ini 65-nya" },
     ],
   },
 
@@ -222,7 +222,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 425, minutesAgo: 22512, content: "pas" },
       { authorId: 427, minutesAgo: 22495, content: "susulan: gambar kotak-kotak" },
       { authorId: 431, minutesAgo: 22478, content: "iya, mantap" },
-      { authorId: 432, minutesAgo: 22000, content: "telat dari arsip. 4 × 25. tuntas" },
+      { authorId: 432, minutesAgo: 22000, content: "angka 4 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -275,7 +275,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 483, minutesAgo: 22544, content: "sepakat" },
       { authorId: 484, minutesAgo: 22527, content: "susulan: hasilnya konsisten" },
       { authorId: 486, minutesAgo: 22510, content: "susulan: angka gampang dipilih" },
-      { authorId: 488, minutesAgo: 22080, content: "telat dari arsip. umur KTP. tuntas" },
+      { authorId: 488, minutesAgo: 22080, content: "ada yang coba 2010 lewat jalan lain gak?" },
     ],
   },
 
@@ -302,7 +302,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 2, minutesAgo: 22648, content: "susulan: 201 = 3 × 67, bukan" },
       { authorId: 3, minutesAgo: 22633, content: "susulan: hitung dua kali kalau ragu" },
       { authorId: 4, minutesAgo: 22618, content: "correct" },
-      { authorId: 5, minutesAgo: 21990, content: "telat dari arsip. prima 199. tuntas" },
+      { authorId: 5, minutesAgo: 21990, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -326,7 +326,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 14, minutesAgo: 22661, content: "catet: jam × 60" },
       { authorId: 15, minutesAgo: 22628, content: "iya, dasar" },
       { authorId: 16, minutesAgo: 22596, content: "isinya tuntas semua wkwk" },
-      { authorId: 17, minutesAgo: 22080, content: "telat dari arsip. 2 × 60. tuntas" },
+      { authorId: 17, minutesAgo: 22080, content: "soal 2 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -358,7 +358,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 37, minutesAgo: 22612, content: "sepakat" },
       { authorId: 38, minutesAgo: 22598, content: "susulan: sketsa dulu, bingung turun setengah" },
       { authorId: 39, minutesAgo: 22585, content: "susulan: hitung dua kali kalau ragu" },
-      { authorId: 40, minutesAgo: 21890, content: "telat nyamber, akar 625 & 441. tuntas kok" },
+      { authorId: 40, minutesAgo: 21890, content: "625 dan 25 dua-duanya masuk hitungan, jangan ada yang kelewat" },
     ],
   },
 
@@ -381,7 +381,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 54, minutesAgo: 22768, content: "iya, 5 dan 5 coret" },
       { authorId: 56, minutesAgo: 22749, content: "semua langkah udah ada dari awal" },
       { authorId: 65, minutesAgo: 22729, content: "catet: kali lalu sederhana" },
-      { authorId: 69, minutesAgo: 22060, content: "telat dari arsip. 5/6 × 3/10. tuntas" },
+      { authorId: 69, minutesAgo: 22060, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -410,7 +410,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 100, minutesAgo: 22721, content: "PR gue: ganti angkanya sendiri" },
       { authorId: 105, minutesAgo: 22702, content: "iya kuku" },
       { authorId: 107, minutesAgo: 22683, content: "susulan: gambar kotak-kotak" },
-      { authorId: 109, minutesAgo: 22240, content: "telat dari arsip. 15² = 225. tuntas" },
+      { authorId: 109, minutesAgo: 22240, content: "kalau 15 diganti angka lain, langkahnya tetep sama kan?" },
     ],
   },
 
@@ -435,7 +435,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 136, minutesAgo: 22806, content: "iya, itu kuncinya" },
       { authorId: 141, minutesAgo: 22789, content: "udah rapi semua dari awal" },
       { authorId: 142, minutesAgo: 22772, content: "susulan: lewat target bukan salah" },
-      { authorId: 149, minutesAgo: 22130, content: "lewat dari arsip, pencapaian. kuku" },
+      { authorId: 149, minutesAgo: 22130, content: "soal begini suka nongol pas ulangan" },
     ],
   },
 
@@ -466,7 +466,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 177, minutesAgo: 22751, content: "susulan: angka gampang dipilih" },
       { authorId: 179, minutesAgo: 22733, content: "susulan: triknya hafal" },
       { authorId: 180, minutesAgo: 22715, content: "susulan: yang besar belakangan" },
-      { authorId: 182, minutesAgo: 21980, content: "telat dari arsip. tripel 20-21-29. tuntas" },
+      { authorId: 182, minutesAgo: 21980, content: "20-nya kuncinya, sisanya tinggal jalanin" },
     ],
   },
 
@@ -492,7 +492,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 208, minutesAgo: 22835, content: "jawabannya rapi dan lengkap" },
       { authorId: 210, minutesAgo: 22817, content: "susulan: 120 mnt = 2 jam" },
       { authorId: 211, minutesAgo: 22798, content: "tinggal dicerna doang sih" },
-      { authorId: 214, minutesAgo: 22180, content: "telat dari arsip, 3 × 40. kelar" },
+      { authorId: 214, minutesAgo: 22180, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -520,7 +520,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 234, minutesAgo: 22842, content: "susulan: setengah? limas, bagi 3" },
       { authorId: 235, minutesAgo: 22825, content: "tinggal dicerna doang wkwk" },
       { authorId: 238, minutesAgo: 22808, content: "susulan: alat bantu boleh, jalan pikir tetep diperlukan" },
-      { authorId: 239, minutesAgo: 22330, content: "nyusul dari arsip, prisma segiempat. beres semua" },
+      { authorId: 239, minutesAgo: 22330, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -573,7 +573,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 294, minutesAgo: 22874, content: "susulan: gue pake jalan pintas beda, tetep nyantol" },
       { authorId: 295, minutesAgo: 22857, content: "susulan: gue catet ulang di kertas, pas" },
       { authorId: 298, minutesAgo: 22840, content: "susulan: catet rumusnya" },
-      { authorId: 299, minutesAgo: 22410, content: "telat dari arsip. 10 × 30. tuntas" },
+      { authorId: 299, minutesAgo: 22410, content: "10-nya kuncinya, sisanya tinggal jalanin" },
     ],
   },
 
@@ -597,7 +597,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 319, minutesAgo: 22961, content: "catet: 30 hari per bulan kasar" },
       { authorId: 320, minutesAgo: 22928, content: "iya, umum dipakai" },
       { authorId: 321, minutesAgo: 22896, content: "jawabannya lengkap sampai detail kecil" },
-      { authorId: 322, minutesAgo: 22380, content: "dari arsip gue: 90 hari. tuntas kok" },
+      { authorId: 322, minutesAgo: 22380, content: "angka 90 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -624,7 +624,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 344, minutesAgo: 23008, content: "tinggal dicerna doang wkwk" },
       { authorId: 346, minutesAgo: 22993, content: "susulan: 10/13 ≈ 0,769" },
       { authorId: 347, minutesAgo: 22978, content: "yoi" },
-      { authorId: 348, minutesAgo: 22350, content: "nyusul dari arsip, kartu angka. beres" },
+      { authorId: 348, minutesAgo: 22350, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -656,7 +656,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 380, minutesAgo: 22942, content: "susulan: triknya hafal" },
       { authorId: 382, minutesAgo: 22928, content: "susulan: yang besar belakangan" },
       { authorId: 384, minutesAgo: 22915, content: "PR gue: ganti angkanya sendiri" },
-      { authorId: 386, minutesAgo: 22220, content: "dari arsip gue: 3 hari 4 jam. tuntas kok" },
+      { authorId: 386, minutesAgo: 22220, content: "soal 3 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -681,7 +681,7 @@ export const THREADS_PART31: ThreadzThread[] = [
       { authorId: 401, minutesAgo: 23076, content: "iya, 180 + 45" },
       { authorId: 402, minutesAgo: 23059, content: "lengkap semua, gak ada langkah yang dipotong" },
       { authorId: 403, minutesAgo: 23042, content: "susulan: 225 = 15² juga" },
-      { authorId: 405, minutesAgo: 22400, content: "telat dari arsip. 5 × 45. tuntas" },
+      { authorId: 405, minutesAgo: 22400, content: "dari 5 ke 45 langkahnya nyambung, tinggal teliti" },
     ],
   },
 ]

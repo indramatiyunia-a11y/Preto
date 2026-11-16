@@ -27,7 +27,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 236, minutesAgo: 27581, content: "catet: cek balik kali 2" },
       { authorId: 119, minutesAgo: 27548, content: "iya, selalu" },
       { authorId: 411, minutesAgo: 27516, content: "gak ada yang melayang wkwk" },
-      { authorId: 58, minutesAgo: 27000, content: "dari arsip gue: separuh 86. beres semua" },
+      { authorId: 58, minutesAgo: 27000, content: "kasus 86 begini enak buat latihan cepet" },
     ],
   },
 
@@ -77,7 +77,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 192, minutesAgo: 27688, content: "udah pas semua tanpa sisa" },
       { authorId: 204, minutesAgo: 27669, content: "catet: pecah angkanya dulu, baru dijumlah" },
       { authorId: 176, minutesAgo: 27649, content: "iya, standar" },
-      { authorId: 97, minutesAgo: 26980, content: "mampir telat, 8 × 23. kelar" },
+      { authorId: 97, minutesAgo: 26980, content: "8-nya kuncinya, sisanya tinggal jalanin" },
     ],
   },
 
@@ -107,7 +107,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 16, minutesAgo: 27611, content: "mantap" },
       { authorId: 139, minutesAgo: 27593, content: "susulan singkat: hasilnya konsisten di semua jalur" },
       { authorId: 13, minutesAgo: 27575, content: "susulan — pilih angka yang ramah buat latihan" },
-      { authorId: 122, minutesAgo: 26840, content: "telat dari arsip. balok 5×4×3. tuntas" },
+      { authorId: 122, minutesAgo: 26840, content: "soal 5 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -163,7 +163,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 483, minutesAgo: 27652, content: "pas udah" },
       { authorId: 81, minutesAgo: 27638, content: "susulan — tipe soal kayak gini sering nongol" },
       { authorId: 379, minutesAgo: 27625, content: "susulan singkat: sederhanain dulu sebelum ditulis rapi" },
-      { authorId: 386, minutesAgo: 26930, content: "kelewat, dari arsip: 4 hari 12 jam. tuntas semua" },
+      { authorId: 386, minutesAgo: 26930, content: "catet 4-nya, soal begini balik modal pas ujian" },
     ],
   },
 
@@ -187,7 +187,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 448, minutesAgo: 27786, content: "iya, standar" },
       { authorId: 497, minutesAgo: 27769, content: "tinggal dicerna doang kok" },
       { authorId: 395, minutesAgo: 27752, content: "susulan: 180 mnt = 3 jam" },
-      { authorId: 146, minutesAgo: 27110, content: "lewat dari arsip, 12 × 15. kelar" },
+      { authorId: 146, minutesAgo: 27110, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -214,7 +214,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 241, minutesAgo: 27762, content: "susulan: latihan dikit lagi, tangan lancar sendiri" },
       { authorId: 319, minutesAgo: 27745, content: "susulan — langkah rapi bikin cepet" },
       { authorId: 475, minutesAgo: 27728, content: "sip" },
-      { authorId: 274, minutesAgo: 27250, content: "telat nyamber, 21 dari 84. beres semua" },
+      { authorId: 274, minutesAgo: 27250, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -236,7 +236,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 172, minutesAgo: 27868, content: "semua langkah udah ada semua" },
       { authorId: 30, minutesAgo: 27849, content: "catet: × 30 minus 6" },
       { authorId: 294, minutesAgo: 27829, content: "gak ada yang melayang dari awal" },
-      { authorId: 400, minutesAgo: 27160, content: "lewat dari arsip, 6 × 29. beres semua" },
+      { authorId: 400, minutesAgo: 27160, content: "soal 6 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -265,7 +265,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 291, minutesAgo: 27794, content: "susulan — dua jalan, satu tujuan" },
       { authorId: 244, minutesAgo: 27777, content: "isinya tuntas semua" },
       { authorId: 271, minutesAgo: 27760, content: "susulan singkat: pakai kasus sehari-hari, langsung nyantol" },
-      { authorId: 406, minutesAgo: 27330, content: "telat dari arsip, prima 210-250. tuntas" },
+      { authorId: 406, minutesAgo: 27330, content: "angka 210 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -291,7 +291,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 246, minutesAgo: 27898, content: "susulan: 164 = 4 × 41" },
       { authorId: 487, minutesAgo: 27883, content: "note susulan: nebak doang gak nyelametin angka" },
       { authorId: 260, minutesAgo: 27868, content: "oke sip" },
-      { authorId: 231, minutesAgo: 27240, content: "telat nyamber, 4 × 41. kuku" },
+      { authorId: 231, minutesAgo: 27240, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -314,7 +314,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 241, minutesAgo: 27911, content: "catet: dua sisi aljabar" },
       { authorId: 199, minutesAgo: 27878, content: "iya amin" },
       { authorId: 246, minutesAgo: 27846, content: "gak ada yang melayang dari awal" },
-      { authorId: 171, minutesAgo: 27330, content: "lewat dari arsip, 8x − 3 = 5x + 12. tuntas kok" },
+      { authorId: 171, minutesAgo: 27330, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
 
@@ -345,7 +345,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 351, minutesAgo: 27862, content: "note susulan: tipe soal kayak gini sering nongol" },
       { authorId: 201, minutesAgo: 27848, content: "susulan — pecah yang bisa disederhanain dulu" },
       { authorId: 347, minutesAgo: 27835, content: "note susulan: nebak doang gak nyelametin angka" },
-      { authorId: 189, minutesAgo: 27140, content: "telat dari arsip, 13 × 5. beres" },
+      { authorId: 189, minutesAgo: 27140, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -367,7 +367,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 56, minutesAgo: 28018, content: "betul" },
       { authorId: 426, minutesAgo: 27999, content: "catet: genap = dua tengah" },
       { authorId: 313, minutesAgo: 27979, content: "pas" },
-      { authorId: 139, minutesAgo: 27310, content: "telat dari arsip. median genap 12. tuntas" },
+      { authorId: 139, minutesAgo: 27310, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -395,7 +395,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 484, minutesAgo: 27971, content: "pas" },
       { authorId: 154, minutesAgo: 27952, content: "susulan: bulat dikit, niat tetep presisi" },
       { authorId: 343, minutesAgo: 27933, content: "sip" },
-      { authorId: 263, minutesAgo: 27490, content: "telat nyamber, 11 × 17. kuku" },
+      { authorId: 263, minutesAgo: 27490, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -419,7 +419,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 186, minutesAgo: 28056, content: "tinggal dicerna doang kok" },
       { authorId: 298, minutesAgo: 28039, content: "susulan: 1/52 ≈ 0,019" },
       { authorId: 463, minutesAgo: 28022, content: "susulan singkat: yang besar kelakuan belakangan" },
-      { authorId: 438, minutesAgo: 27380, content: "dari arsip gue: raja hati. kuku" },
+      { authorId: 438, minutesAgo: 27380, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -449,7 +449,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 221, minutesAgo: 28001, content: "benar kok" },
       { authorId: 266, minutesAgo: 27983, content: "susulan singkat: contoh dunia nyata bikin paham cepat" },
       { authorId: 474, minutesAgo: 27965, content: "note susulan: satu dua soal lagi biar lancar" },
-      { authorId: 82, minutesAgo: 27230, content: "telat dari arsip. 6 × 31. tuntas" },
+      { authorId: 82, minutesAgo: 27230, content: "angka 6 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -474,7 +474,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 477, minutesAgo: 28085, content: "susulan: 616 = 2 × 308" },
       { authorId: 106, minutesAgo: 28067, content: "correct" },
       { authorId: 271, minutesAgo: 28048, content: "susulan — tulis pelan biar bisa dicek" },
-      { authorId: 87, minutesAgo: 27430, content: "telat nyamber, luas r 14. pas semua" },
+      { authorId: 87, minutesAgo: 27430, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
 
@@ -501,7 +501,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 47, minutesAgo: 28092, content: "ijo itu" },
       { authorId: 299, minutesAgo: 28075, content: "betul" },
       { authorId: 35, minutesAgo: 28058, content: "susulan singkat: satuan ikut ditulis, jangan dilepas" },
-      { authorId: 201, minutesAgo: 27580, content: "lewat dari arsip, 5 × 37. tuntas" },
+      { authorId: 201, minutesAgo: 27580, content: "angka 5 di soal ini emang buat ngetes teliti" },
     ],
   },
 
@@ -523,7 +523,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 65, minutesAgo: 28198, content: "udah rapi semua" },
       { authorId: 284, minutesAgo: 28179, content: "catet: pecahan jam × 60" },
       { authorId: 378, minutesAgo: 28159, content: "sepakat juga" },
-      { authorId: 249, minutesAgo: 27490, content: "mampir telat, 5,6 jam. tuntas kok" },
+      { authorId: 249, minutesAgo: 27490, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
 
@@ -552,7 +552,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 165, minutesAgo: 28124, content: "susulan singkat: mulai dari cek dibagi berapa" },
       { authorId: 458, minutesAgo: 28107, content: "semuanya udah kuku semua" },
       { authorId: 470, minutesAgo: 28090, content: "susulan: visual dulu, hitungan nyantol" },
-      { authorId: 137, minutesAgo: 27660, content: "telat dari arsip. 8 × 27. tuntas" },
+      { authorId: 137, minutesAgo: 27660, content: "soal 8 kayak gini suka nongol pas ulangan" },
     ],
   },
 
@@ -601,7 +601,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 497, minutesAgo: 28258, content: "susulan: 204 habis dibagi 12" },
       { authorId: 311, minutesAgo: 28243, content: "pr gue: sekalian gue ubah angkanya" },
       { authorId: 404, minutesAgo: 28228, content: "ijo itu" },
-      { authorId: 26, minutesAgo: 27600, content: "lewat dari arsip, 12 × 17. tuntas semua" },
+      { authorId: 26, minutesAgo: 27600, content: "yang bikin mikir di soal ini 12-nya" },
     ],
   },
 
@@ -632,7 +632,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 244, minutesAgo: 28192, content: "susulan — latihan dikit lagi, tangan lancar sendiri" },
       { authorId: 151, minutesAgo: 28178, content: "susulan — langkah rapi bikin cepet" },
       { authorId: 122, minutesAgo: 28165, content: "ijo itu" },
-      { authorId: 414, minutesAgo: 27470, content: "dari arsip gue: 11/16. pas semua" },
+      { authorId: 414, minutesAgo: 27470, content: "enak buat latihan cepet begini" },
     ],
   },
 
@@ -656,7 +656,7 @@ export const THREADS_PART38: ThreadzThread[] = [
       { authorId: 322, minutesAgo: 28326, content: "susulan: 950 habis dibagi 25" },
       { authorId: 392, minutesAgo: 28309, content: "susulan singkat: tulis pelan biar bisa dicek" },
       { authorId: 454, minutesAgo: 28292, content: "fix itu" },
-      { authorId: 135, minutesAgo: 27650, content: "telat dari arsip, faktorisasi 950. tuntas semua" },
+      { authorId: 135, minutesAgo: 27650, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
 ]

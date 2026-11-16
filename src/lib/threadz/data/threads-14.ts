@@ -31,7 +31,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 257, minutesAgo: 9581, content: "soal pembulatan keluar di literasi juga, bukan cuma matematika" },
       { authorId: 430, minutesAgo: 9548, content: "jawaban 3,5 dan 150. dua-duanya kuku" },
       { authorId: 93, minutesAgo: 9516, content: "cek tambahan: 147 → 140 itu pembulatan paksa ke bawah, gak ada aturannya" },
-      { authorId: 158, minutesAgo: 9000, content: "telat dari arsip. 3,47 → 3,5, 147 → 150, 2,849 → 2,85. kuku semua" },
+      { authorId: 158, minutesAgo: 9000, content: "3,47 → 3,5, 147 → 150, 2,849 → 2,85. kuku semua" },
     ],
   },
   {
@@ -58,7 +58,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 132, minutesAgo: 9581, content: "iya, (180−100)/2 = 40" },
       { authorId: 67, minutesAgo: 9562, content: "dibagi dua karena dua sudut dasar wajib sama besar" },
       { authorId: 318, minutesAgo: 9543, content: "kunci: sisi sama dihadapi sudut sama besar" },
-      { authorId: 45, minutesAgo: 9100, content: "telat. 70/70 untuk puncak 40, dan 40/40 kalau puncak 100. tuntas" },
+      { authorId: 45, minutesAgo: 9100, content: "70/70 untuk puncak 40, dan 40/40 kalau puncak 100. tuntas" },
     ],
   },
   {
@@ -79,7 +79,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 411, minutesAgo: 9688, content: "iya, ×100 tiga kali" },
       { authorId: 289, minutesAgo: 9669, content: "jawaban 10.000 dan 25.000. dua-duanya kuku" },
       { authorId: 94, minutesAgo: 9649, content: "1 km² = 1.000 × 1.000 = 1.000.000 m² juga" },
-      { authorId: 452, minutesAgo: 8980, content: "lewat dari arsip, luas ×10.000, 2,5 m² = 25.000 cm². kuku" },
+      { authorId: 452, minutesAgo: 8980, content: "angka 1 di soal ini emang buat ngetes teliti" },
     ],
   },
   {
@@ -108,7 +108,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 232, minutesAgo: 9611, content: "temenmu tinggal dibuktiin nyamain penyebut doang" },
       { authorId: 44, minutesAgo: 9593, content: "PR lagi: 5/6 vs 7/9? 45 vs 42 → 5/6" },
       { authorId: 307, minutesAgo: 9575, content: "iya 5/6 menang" },
-      { authorId: 171, minutesAgo: 8840, content: "telat dari arsip. 3/4 > 5/7, 3/7 > 2/5, 5/6 > 7/9. tuntas" },
+      { authorId: 171, minutesAgo: 8840, content: "3/4 > 5/7, 3/7 > 2/5, 5/6 > 7/9. tuntas" },
     ],
   },
   {
@@ -132,7 +132,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 140, minutesAgo: 9695, content: "45/360 = 1/8, jadi 1/8 × 22/7 × 144 = 56,57" },
       { authorId: 385, minutesAgo: 9677, content: "iya 396/7 = 56,57" },
       { authorId: 499, minutesAgo: 9658, content: "tiga jawaban rapi: 154, 22, 50" },
-      { authorId: 132, minutesAgo: 9040, content: "telat. 154 / 22 / 50, dan susulan 77. kuku semua" },
+      { authorId: 132, minutesAgo: 9040, content: "154 / 22 / 50, dan susulan 77. kuku semua" },
     ],
   },
   {
@@ -162,7 +162,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 104, minutesAgo: 9652, content: "jawaban post lengkap: SAS sah, BC = EF, 3-5-7 ≠ 3-5-9" },
       { authorId: 356, minutesAgo: 9638, content: "temenmu tinggal dibuktiin pakai gunting kertas, langsung ngeh" },
       { authorId: 231, minutesAgo: 9625, content: "kalau kongruen, semua sisi dan sudut berpasangan sama" },
-      { authorId: 459, minutesAgo: 8930, content: "telat dari arsip. SAS sah, skala 1:1, SSS pas, 3-5-7 ≠ 3-5-9. tuntas" },
+      { authorId: 459, minutesAgo: 8930, content: "SAS sah, skala 1:1, SSS pas, 3-5-7 ≠ 3-5-9. tuntas" },
     ],
   },
   {
@@ -185,7 +185,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 468, minutesAgo: 9786, content: "iya 24. 12×6×4×2 = 576, akarnya 24" },
       { authorId: 139, minutesAgo: 9769, content: "jawaban post 84 cm². dua jalur" },
       { authorId: 274, minutesAgo: 9752, content: "tripel semua enak, angka Heronnya bulat semua" },
-      { authorId: 47, minutesAgo: 9110, content: "telat dari arsip. 13-14-15 → 84, 5-12-13 → 30, 6-8-10 → 24. tuntas" },
+      { authorId: 47, minutesAgo: 9110, content: "13-14-15 → 84, 5-12-13 → 30, 6-8-10 → 24. tuntas" },
     ],
   },
   {
@@ -211,7 +211,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 9762, content: "iya 11/3 jam, sekitar 3,67" },
       { authorId: 456, minutesAgo: 9745, content: "jawaban post semua bener: 30, 15, 45, 1,5, 2,2" },
       { authorId: 139, minutesAgo: 9728, content: "temenmu tinggal diingetin: ×60, bukan ×100" },
-      { authorId: 289, minutesAgo: 9250, content: "telat dari arsip. semua konversi lolos, jebakan 0,30 jam = 18 menit. kuku" },
+      { authorId: 289, minutesAgo: 9250, content: "Semua konversi lolos, jebakan 0,30 jam = 18 menit. kuku" },
     ],
   },
   {
@@ -232,7 +232,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 175, minutesAgo: 9868, content: "iya 135 masing-masing" },
       { authorId: 288, minutesAgo: 9849, content: "jawaban 1080 pas" },
       { authorId: 156, minutesAgo: 9829, content: "diagram di buku semua pakai rumus ini" },
-      { authorId: 396, minutesAgo: 9160, content: "telat dari arsip. segi-8 = 1080, segi-7 = 900. kuku" },
+      { authorId: 396, minutesAgo: 9160, content: "Segi-8 = 1080, segi-7 = 900. kuku" },
     ],
   },
   {
@@ -260,7 +260,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 9794, content: "sifat paritas kepake di bukti olim level dasar" },
       { authorId: 330, minutesAgo: 9777, content: "jawaban post: tiga sifat + tiga ganjil ganjil + 55 ganjil. lengkap" },
       { authorId: 193, minutesAgo: 9760, content: "temenmu tinggal dikasih tabel kecil ganjil-genap" },
-      { authorId: 115, minutesAgo: 9330, content: "nyusul dari arsip, semua sifat lolos, ganjil−ganjil = genap, 55 ganjil. beres semua" },
+      { authorId: 115, minutesAgo: 9330, content: "kalau 3 diganti angka lain, langkahnya tetep sama kan?" },
     ],
   },
   {
@@ -285,7 +285,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 104, minutesAgo: 9898, content: "persen desimal juga bisa: 12,5% → 45°" },
       { authorId: 356, minutesAgo: 9883, content: "iya, 12,5 × 3,6 = 45" },
       { authorId: 231, minutesAgo: 9868, content: "diagram lingkaran keluar di statistik tiap semester" },
-      { authorId: 459, minutesAgo: 9240, content: "telat dari arsip. 144/126/90, 10% = 36°, 12,5% = 45°. kuku" },
+      { authorId: 459, minutesAgo: 9240, content: "144/126/90, 10% = 36°, 12,5% = 45°. kuku" },
     ],
   },
   {
@@ -307,7 +307,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 419, minutesAgo: 9977, content: "PR gue: 2 rute naik gunung, 3 rute turun → 2 × 3 = 6 rute lengkap" },
       { authorId: 150, minutesAgo: 9963, content: "iya, naik dan turun dua keputusan berurutan" },
       { authorId: 293, minutesAgo: 9949, content: "jawaban post: 5, 6, 20, dan bedanya jumlah vs kali. lengkap" },
-      { authorId: 456, minutesAgo: 9210, content: "telat dari arsip. pilih satu = jumlah, dua langkah = kali. tuntas" },
+      { authorId: 456, minutesAgo: 9210, content: "Pilih satu = jumlah, dua langkah = kali. tuntas" },
     ],
   },
   {
@@ -337,7 +337,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 64, minutesAgo: 9862, content: "jawaban post: 2.500 kg, 25 kuintal, 35 ons, 1/4 kg. lengkap" },
       { authorId: 250, minutesAgo: 9848, content: "temenmu yang kira kuintal 1.000 kg tinggal dikasih tangga satuan" },
       { authorId: 426, minutesAgo: 9835, content: "faktor tangganya beda-beda: ton→kuintal ×10, kuintal→kg ×100, kg→ons ×10" },
-      { authorId: 57, minutesAgo: 9140, content: "telat dari arsip. 2,5 ton = 2.500 kg = 25 kuintal; ons Indonesia 100 g. tuntas" },
+      { authorId: 57, minutesAgo: 9140, content: "2,5 ton = 2.500 kg = 25 kuintal; ons Indonesia 100 g. tuntas" },
     ],
   },
   {
@@ -358,7 +358,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 163, minutesAgo: 10018, content: "iya, 5724/4 = 1431 pas" },
       { authorId: 412, minutesAgo: 9999, content: "jawaban post dua-duanya bener" },
       { authorId: 73, minutesAgo: 9979, content: "aturan digit ini hemat waktu banget di ulangan" },
-      { authorId: 289, minutesAgo: 9310, content: "telat dari arsip. 471 ÷ 3 ya ÷ 9 gak, 5.724 ÷ 9 ya dan ÷ 4 juga ya. kuku" },
+      { authorId: 289, minutesAgo: 9310, content: "471 ÷ 3 ya ÷ 9 gak, 5.724 ÷ 9 ya dan ÷ 4 juga ya. kuku" },
     ],
   },
   {
@@ -385,7 +385,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 394, minutesAgo: 9971, content: "jawaban post 24, 120, 12. tuntas" },
       { authorId: 196, minutesAgo: 9952, content: "dua jalur putaran dan faktorial hasilnya cocok" },
       { authorId: 438, minutesAgo: 9933, content: "temenmu tinggal dibuktiin muter kertas bertanda" },
-      { authorId: 105, minutesAgo: 9490, content: "telat dari arsip. 24/120/12, plus 6 orang = 120, gelang 7 = 360. kuku" },
+      { authorId: 105, minutesAgo: 9490, content: "24/120/12, plus 6 orang = 120, gelang 7 = 360. kuku" },
     ],
   },
   {
@@ -408,7 +408,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 178, minutesAgo: 10056, content: "iya 6" },
       { authorId: 326, minutesAgo: 10039, content: "jawaban 6084 dan fakta digit. lengkap" },
       { authorId: 117, minutesAgo: 10022, content: "bilangan berakhir 2/3/7/8 pasti bukan kuadrat sempurna" },
-      { authorId: 250, minutesAgo: 9380, content: "telat dari arsip. kuadrat gak pernah berakhir 2/3/7/8, 78² = 6084. kuku" },
+      { authorId: 250, minutesAgo: 9380, content: "Kuadrat gak pernah berakhir 2/3/7/8, 78² = 6084. kuku" },
     ],
   },
   {
@@ -437,7 +437,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 201, minutesAgo: 10001, content: "temenmu tinggal lihat contoh 4,6,8 → 9,11,13" },
       { authorId: 391, minutesAgo: 9983, content: "sifat geser ini kepake juga di statistika lanjutan" },
       { authorId: 483, minutesAgo: 9965, content: "catet: geser = tambah semua, skala = kali semua. beda perilaku jangkauan" },
-      { authorId: 365, minutesAgo: 9230, content: "telat nyamber, +5 → rata/median naik 5, jangkauan tetap; ×2 → semua ×2. beres semua" },
+      { authorId: 365, minutesAgo: 9230, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -461,7 +461,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 269, minutesAgo: 10085, content: "iya, empat kali minus balik-balik jadi plus" },
       { authorId: 45, minutesAgo: 10067, content: "cara hafal: pangkat genap positif, ganjil ikut tanda" },
       { authorId: 131, minutesAgo: 10048, content: "jawaban post 12, 9, −9 semua bener" },
-      { authorId: 314, minutesAgo: 9430, content: "kelewat, dari arsip: (−3)(−4) = 12, (−3)² = 9 vs −3² = −9, (−5)³ = −125. tuntas" },
+      { authorId: 314, minutesAgo: 9430, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -487,7 +487,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 313, minutesAgo: 10092, content: "kompelmen 1° = 89°, makin kecil sudut makin besar pasangannya" },
       { authorId: 85, minutesAgo: 10075, content: "iya, kompelmen itu cermin di 45" },
       { authorId: 466, minutesAgo: 10058, content: "jawaban post 55/145, 30/60, 70/110. lengkap" },
-      { authorId: 232, minutesAgo: 9580, content: "telat dari arsip. semua pasangan lolos, 45 unik kembar. kuku" },
+      { authorId: 232, minutesAgo: 9580, content: "Semua pasangan lolos, 45 unik kembar. kuku" },
     ],
   },
   {
@@ -508,7 +508,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 57, minutesAgo: 10198, content: "iya, pasangan sudut tripelnya" },
       { authorId: 350, minutesAgo: 10179, content: "jawaban 60 dan 45. dua-duanya kuku" },
       { authorId: 181, minutesAgo: 10159, content: "jumlah sudut segitiga 180 itu pondasi semua soal sudut" },
-      { authorId: 447, minutesAgo: 9490, content: "telat dari arsip. 60° dan 45°. kuku" },
+      { authorId: 447, minutesAgo: 9490, content: "enak buat latihan cepet begini" },
     ],
   },
   {
@@ -536,7 +536,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 86, minutesAgo: 10124, content: "susulan: 6(x − 1) − 2(x − 3) = 4x ya?" },
       { authorId: 439, minutesAgo: 10107, content: "iya, 6x − 6 − 2x + 6 = 4x. konstantanya habis" },
       { authorId: 121, minutesAgo: 10090, content: "mantap, −2 × −3 = +6 di bagian terakhir" },
-      { authorId: 257, minutesAgo: 9660, content: "kelewat, dari arsip: 5x + 2, 5x − 2, 10x + 18, 3 − 2x, 4x. tuntas kok" },
+      { authorId: 257, minutesAgo: 9660, content: "tinggal teliti, sisanya jalanin" },
     ],
   },
   {
@@ -558,7 +558,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 10211, content: "jawaban post 6×3 dan 4×4. lengkap" },
       { authorId: 411, minutesAgo: 10178, content: "satuan beda memang, luas m² vs keliling m, tapi angkanya boleh sama" },
       { authorId: 289, minutesAgo: 10146, content: "teka-teki klasik, keluar di latihan olim juga" },
-      { authorId: 94, minutesAgo: 9630, content: "telat dari arsip. (p−2)(l−2) = 4 → 6×3 dan 4×4. tuntas" },
+      { authorId: 94, minutesAgo: 9630, content: "(p−2)(l−2) = 4 → 6×3 dan 4×4. tuntas" },
     ],
   },
   {
@@ -583,7 +583,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 459, minutesAgo: 10258, content: "iya, setelah 1184-1210" },
       { authorId: 122, minutesAgo: 10243, content: "jembatan keledai: bersahabat = saling memanggil lewat pembagi" },
       { authorId: 288, minutesAgo: 10228, content: "jawaban lengkap plus konteks sejarahnya" },
-      { authorId: 49, minutesAgo: 9600, content: "telat dari arsip. 220 ↔ 284 dan 1184 ↔ 1210 saling balik. kuku" },
+      { authorId: 49, minutesAgo: 9600, content: "220 ↔ 284 dan 1184 ↔ 1210 saling balik. kuku" },
     ],
   },
   {
@@ -613,7 +613,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 156, minutesAgo: 10192, content: "jawaban post semua klaim lolos" },
       { authorId: 242, minutesAgo: 10178, content: "kalau lolos syarat, luasnya pasti positif" },
       { authorId: 398, minutesAgo: 10165, content: "iya itu versi formalnya" },
-      { authorId: 85, minutesAgo: 9470, content: "telat dari arsip. 3-4-8 dan 2-3-6 gak bisa; 4-5-8 dan 5-6-10 bisa. kuku" },
+      { authorId: 85, minutesAgo: 9470, content: "3-4-8 dan 2-3-6 gak bisa; 4-5-8 dan 5-6-10 bisa. kuku" },
     ],
   },
   {
@@ -636,7 +636,7 @@ export const THREADS_PART14: ThreadzThread[] = [
       { authorId: 284, minutesAgo: 10326, content: "jawaban post dua-duanya kuku" },
       { authorId: 138, minutesAgo: 10309, content: "hati-hati digit nol di tengah, jangan kelewat" },
       { authorId: 318, minutesAgo: 10292, content: "iya, 2.918 ada 9 di tengah, tetap ditulis" },
-      { authorId: 79, minutesAgo: 9650, content: "telat dari arsip. 6.543, 2.918, 4.187, 7.001. kuku" },
+      { authorId: 79, minutesAgo: 9650, content: "6.543, 2.918, 4.187, 7.001. kuku" },
     ],
   },
 ]

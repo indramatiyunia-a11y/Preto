@@ -1,0 +1,484 @@
+threads-10.ts	T231	[checkin]	[angka]	POST: Anak masuk SMP tahun depan. Hitungan seragam: kaos 55.000, celana 75.000, jadi per set 130.000. Butuh 2 set = 260.000, ditambah se
+	KOMEN: Pasti udah beres semua kan? 440 plus 35 = 475 itu angka finalnya
+	SISA: Pasti udah beres semua kan? 440 plus 35 = 475 itu angka finalnya
+
+threads-17.ts	T412	[checkin]	[kosong]	POST: Keliling persegi 36 → sisi 36÷4 = 9 → luas 81. Temen langsung 36² — salah, itu kalau sisinya 36. Susulan: keliling 44 → sisi 11 → 
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-18.ts	T429	[checkin]	[kosong]	POST: Dua persegi menempel: persegi besar 4×4 dan kecil 3×3 nempel di sisi kanan bawah (menyentuh sebagian sisi besar). Luas total 16 + 
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-19.ts	T461	[checkin]	[kosong]	POST: Tahun kabisat: habis dibagi 4 → kabisat, KECUALI habis dibagi 100 tapi bukan 400. 2024 kabisat, 2025 bukan, 2100 BUKAN (100 tapi b
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-19.ts	T468	[checkin]	[kosong]	POST: Berapa banyak persegi di papan catur 8×8? Bukan 64! Kotak 1×1 ada 64, 2×2 ada 49 (7×7), 3×3 ada 36, ... sampai 8×8 ada 1. Total 1+
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-2.ts	T27	[checkin]	[kosong]	POST: 84 kardus mau dibagi rata ke rak. rak ada 6, tiap rak 14. rak ada 7, tiap rak 12. dua-duanya rata tanpa sisa. anak magang nanya: k
+	KOMEN: Udah kejawab kan dari siang?
+	SISA: Udah kejawab kan dari siang?
+
+threads-2.ts	T32	[opener/nyampe+checkin]	[kosong]	POST: ada pembeli nanya teh, setengah kilo itu berapa. gue tunjuk jarum timbangan, bilang pas di tengah antara 0 sama 1. dia ngotot sete
+	KOMEN: baru nyampe di thread ini. udah beres kan urusan timbangnya? koma itu emang butuh sabar
+	SISA: di thread ini. udah beres kan urusan timbangnya? koma itu emang butuh sabar
+
+threads-2.ts	T33	[checkin]	[kosong]	POST: Resep minta garam 3/4 sendok teh. Di rumah cuma ada sendok takar 1/2. Ternyata cukup diambil sekali penuh lalu setengahnya lagi. A
+	KOMEN: Sebelum jam masak siang udah kejawab semua kan? aman
+	SISA: Sebelum jam masak siang udah kejawab semua kan? aman
+
+threads-20.ts	T491	[checkin]	[kosong]	POST: Angka tetangga: 25 × 24 = 600 ya? Aku: 25² = 625, dikurang 25 = 600. Trik: n × (n−1) = n² − n. Temen kaget kok cepet. Susulan: 30 
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-20.ts	T499	[checkin]	[kosong]	POST: Keterbagian 4: cek dua digit terakhir doang. 1.316 → 16 habis dibagi 4 → ya. 1.318 → 18 gak habis dibagi 4 (sisa 2) → bukan. Temen
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-21.ts	T514	[checkin]	[kosong]	POST: Mbps ke MB/s: 100 Mbps ≈ 12,5 MB per detik — dibagi 8, karena 1 byte = 8 bit. Unduh file 3.750 MB → 3.750/12,5 = 300 detik = 5 men
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-21.ts	T517	[checkin]	[kosong]	POST: 10.50 + 25 menit = 11.15 (50+25 = 75 = 1j15m). Temen tulis 10.75 — gak ada. Susulan: 09.40 + 30 = 10.10 ya? Cek dong
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-26.ts	T639	[checkin]	[kosong]	POST: Ujian 30 soal, nilai maksimal 100 → 3,33 per soal (100/30). Salah 6 → nilai 80. Cek: benar 24 × 3,33 = 79,92 dibulatkan 80. Temen 
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-26.ts	T640	[checkin]	[kosong]	POST: Volume prisma segitiga: alas segitiga siku 6-8, tinggi prisma 10. Luas alas = ½ × 6 × 8 = 24 → volume 24 × 10 = 240 cm³. Temen kal
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-26.ts	T647	[checkin]	[kosong]	POST: Dua digit habis dibagi 8: 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96 — sebelas buah. Polanya +8 terus dari 16. Temen kelewat 40 da
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-28.ts	T688	[checkin]	[kosong]	POST: Dua barang bayar 45rb. Satu 25rb → lainnya 20rb (45 − 25). Temen bagi 22,5 — itu kalau gak tahu satu harga. Info satu harga = lang
+	KOMEN: semua udah kejawab di atas, aman
+	SISA: semua udah kejawab di atas, aman
+
+threads-29.ts	T708	[checkin]	[kosong]	POST: 20 menit × 3 = 60 menit = 1 jam. Tiga sesi 20 menit. Temen hitung 60 menit lalu bingung konversi — 60 menit = 1 jam ya. Susulan: e
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-29.ts	T719	[checkin]	[kosong]	POST: Enam tas × 4 kg = 24 kg total. Cek kapasitas: rak 30 kg — muat, sisa 6 kg. Temen heran kok muat semua: 24 < 30. Susulan: tujuh tas
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-3.ts	T53	[checkin]	[angka]	POST: SOAL LUAS TANAH BENTUK L DAN GUE BENAR-BENAR MENTOK. tanahnya persegi panjang 10 × 8, potong persegi kecil 4 × 3 di sudut. gue hit
+	KOMEN: Kuis udah kelar ya? 68 itu udah fix dari awal
+	SISA: Kuis udah kelar ya? 68 itu udah fix dari awal
+
+threads-3.ts	T54	[checkin]	[angka]	POST: semangka gue 4,7 kg. pembeli minta dipotong seperempat. gue itung 4,7 dibagi 4 itu 1,175 kg. cuma timbangan gue analog, jarumnya g
+	KOMEN: Semangkanya udah laku? 1,175 tetep angkanya, sisanya gaya
+	SISA: Semangkanya udah laku? 1,175 tetep angkanya, sisanya gaya
+
+threads-30.ts	T736	[checkin]	[kosong]	POST: Sudut refleks 270° = 360 − 90. Lebih dari setengah putaran. Temen bingung kenapa 270 sah — sudut dari 0 sampai 360 penuh. Susulan:
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-30.ts	T745	[checkin]	[kosong]	POST: Tiga putaran game × 1 jam 20 menit = 4 jam. Temen kali 3 × 20 — lupa 1 jam = 60 menit. Samakan dulu: 80 menit per putaran × 3 = 24
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-31.ts	T761	[checkin]	[kosong]	POST: Prima terbesar di bawah 200 adalah 199. Cek cepat: 199 gak habis 2, 3, 5, 7, 11, 13 (√199 ≈ 14,1). Temen tanya 197? prima juga, ta
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-31.ts	T773	[checkin]	[kosong]	POST: Dek: kartu ANGKA (As sampai 10) satu suit = 10 dari 13 → 10/13 ≈ 76,9%. Kartu gambar (J-Q-K) cuma 3 per suit. Temen kira angka leb
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-31.ts	T775	[checkin]	[kosong]	POST: 5 × 45 = 225. Lima kali empat puluh lima — 225. Temen nulis 215 — salah 10. Cek: 45 × 5 = 200 + 25. Susulan: 45 × 6? 270 ya? Cek d
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-32.ts	T777	[checkin]	[kosong]	POST: Belanja mingguan 4 pekan: 85rb × 4 = 340rb. Temen hitung 320 — salah 20. Cek: 85 × 4 = 340. Susulan: naik jadi 90rb? 360rb ya? Cek
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-32.ts	T777	[checkin]	[kosong]	POST: Belanja mingguan 4 pekan: 85rb × 4 = 340rb. Temen hitung 320 — salah 20. Cek: 85 × 4 = 340. Susulan: naik jadi 90rb? 360rb ya? Cek
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-32.ts	T792	[checkin]	[kosong]	POST: 9 × 7 = 63. Enam puluh tiga. Temen tulis 66 — salah 3. Cek: 9 × 7 = 10 × 7 − 7 = 70 − 7. Susulan: 9 × 8? 72 ya? Cek dong
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-32.ts	T795	[checkin]	[kosong]	POST: 4 × 18 = 72. Tujuh puluh dua. Temen tulis 62 — salah 10. Cek: 4 × 18 = 4 × 20 − 4 × 2 = 80 − 8. Susulan: 18 × 5? 90 ya? Cek dong
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-33.ts	T809	[checkin]	[kosong]	POST: 3 × 34 = 102. Seratus dua. Temen tulis 92 — salah 10. Cek: 3 × 34 = 3 × 30 + 3 × 4 = 90 + 12. Susulan: 34 × 4? 136 ya? Cek dong
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-33.ts	T811	[checkin]	[kosong]	POST: 4 × 21 = 84. Delapan puluh empat. Temen tulis 74 — salah 10. Cek: 4 × 21 = 4 × 20 + 4 = 84. Susulan: 21 × 5? 105 ya? Cek dong
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-33.ts	T813	[checkin]	[kosong]	POST: 9 × 12 = 108. Seratus delapan. Temen tulis 108 pas? bagus. Yang sering salah 98. Cek: 9 × 12 = 9 × 10 + 9 × 2 = 90 + 18. Susulan: 
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-33.ts	T815	[checkin]	[kosong]	POST: Belanja tiga minggu: 80rb, 85rb, 75rb → total 240rb, rata 80rb. Temen rata polos 80 juga kebetulan pas (jumlah sama). Susulan: 80,
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-33.ts	T821	[checkin]	[kosong]	POST: 1 Mei → 1 Juni = 31 hari (Mei 31 hari). Geser 31 mod 7 = 3 hari: Rabu → Sabtu. Temen geser 2 — Mei 30? bukan. Cek dong Latihan lag
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-34.ts	T826	[checkin]	[kosong]	POST: ½ × 54 = 27. Genap rapi. Temen jawab 26 — cek 27 × 2 = 54 pas. Susulan: ½ × 66? 33 ya? Cek dong
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-35.ts	T875	[checkin]	[kosong]	POST: Sisa hari sampai akhir tahun dari 1 November: 60 hari (Nov 30 + Des 31 − 1, karena 1 Nov dihitung sudah lewat... eh dihitung dari 
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-36.ts	T883	[checkin]	[kosong]	POST: 31² = 961. Sembilan ratus enam puluh satu — kuadrat 31, di atas 30² = 900. Temen tulis 916 — kebalik. Cek: 31² = 900 + 60 + 1. Sus
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-36.ts	T885	[checkin]	[kosong]	POST: 0,75 hari = 18 jam (0,75 × 24). Tiga perempat hari. Temen tulis 75 jam — koma hilang. Susulan: 0,9 hari? 21,6 jam ya? Cek dong
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-36.ts	T892	[checkin]	[kosong]	POST: 5 × 28 = 140. Seratus empat puluh. Temen tulis 130 — salah 10. Cek: 5 × 28 = 5 × 30 − 5 × 2 = 150 − 10. Susulan: 28 × 6? 168 ya? C
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-36.ts	T894	[checkin]	[kosong]	POST: 7 × 23 = 161. Seratus enam puluh satu. Temen tulis 151 — salah 10. Cek: 7 × 23 = 7 × 20 + 7 × 3 = 140 + 21. Susulan: 23 × 8? 184 y
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-37.ts	T914	[checkin]	[kosong]	POST: 7/10 × 5/14 = 35/140 = ¼. Kali lurus lalu sederhana (bagi 35). Temen heran hasil kecil — dua pecahan di bawah 1. Susulan: 2/5 × 5/
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-37.ts	T922	[checkin]	[kosong]	POST: 11 × 13 = 143. Seratus empat puluh tiga. Temen tulis 133 — salah 10. Cek: 11 × 13 = 10 × 13 + 13 = 143. Susulan: 13 × 12? 156 ya? 
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-37.ts	T923	[checkin]	[kosong]	POST: 4,2 jam = 4 jam 12 menit (0,2 × 60 = 12). Temen tulis 4j2m — salah konversi desimal lagi. Susulan: 2,4 jam? 2j24m ya? Cek dong
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-37.ts	T925	[checkin]	[kosong]	POST: 925 = 5² × 37. Faktorisasi: 925 ÷ 5 = 185, ÷ 5 lagi = 37 (prima). Temen berhenti di 185 — 5 × 37 masih tersisa. Cek dong
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-38.ts	T930	[checkin]	[kosong]	POST: 5 × 33 = 165. Seratus enam puluh lima. Temen tulis 155 — salah 10. Cek: 5 × 33 = 5 × 30 + 5 × 3 = 165. Susulan: 33 × 6? 198 ya? Ce
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-38.ts	T943	[checkin]	[kosong]	POST: Luas lingkaran r 14 = 22/7 × 196 = 616. Temen pakai 3,14 → 615,44 — beda tipis, dua konstanta. 22/7 pas untuk r kelipatan 7. Susul
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-39.ts	T955	[checkin]	[kosong]	POST: 4 × 47 = 188. Seratus delapan puluh delapan. Temen tulis 178 — salah 10. Cek: 4 × 47 = 4 × 40 + 4 × 7 = 188. Susulan: 47 × 5? 235 
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-39.ts	T962	[checkin]	[kosong]	POST: 9x − 4 = 6x + 11 → 3x = 15 → x = 5. Pindah ruas ubah tanda. Temen lupa ganti tanda −4 → +11 salah arah. Susulan: cek balik: 9(5) −
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-39.ts	T972	[checkin]	[kosong]	POST: 8 hari 5 jam = 197 jam (8 × 24 + 5). Temen kali 8 × 5 — salah operand. Cek: 192 + 5. Susulan: 6 hari 3 jam? 147 ya? Cek dong
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-4.ts	T77	[checkin]	[angka]	POST: ada bos yang nunggu giliran potong rambut, sambil itu dia ajak gue berhitung wkwk. katanya umurnya 3 kali umur anaknya. sepuluh ta
+	KOMEN: Bos 30. umur anak 10. hitungannya udah kejawab semua di atas
+	SISA: Bos 30. umur anak 10. hitungannya udah kejawab semua di atas
+
+threads-4.ts	T85	[checkin]	[angka]	POST: Nasabah datang mau menarik 2.000.000 untuk biaya hajatan. Buku tabungannya memang cukup. Ia membawa uang tunai 30 lembar lima pulu
+	KOMEN: Nasabahnya udah beres? 5 lembar 100 ribu itu fix
+	SISA: Nasabahnya udah beres? 5 lembar 100 ribu itu fix
+
+threads-40.ts	T983	[checkin]	[kosong]	POST: Prima 280-320: 281, 283, 293, 307, 311, 313, 317 — tujuh. 287? 7 × 41. 301? 7 × 43. 309? habis 3. Susulan: 311 prima ya? (√311 ≈ 1
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-40.ts	T988	[checkin]	[kosong]	POST: 7 × 27 = 189. Seratus delapan puluh sembilan. Temen tulis 179 — salah 10. Cek: 7 × 27 = 7 × 30 − 7 × 3 = 210 − 21. Susulan: 27 × 8
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-41.ts	T1004	[checkin]	[kosong]	POST: Bilangan segitiga: 1+2+3+...+10 = 55. Rumus n(n+1)/2: 10 × 11/2. Temen nanya gunanya: baris bertingkat, susun kelereng 1-2-3. Susu
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-41.ts	T1006	[checkin]	[kosong]	POST: 9 × 12 = 108. Seratus delapan. Temen tulis 98 — salah 10. Cek: 9 × 12 = 9 × 10 + 9 × 2 = 108. Susulan: 12 × 9 sama 108 ya? komutat
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-41.ts	T1007	[checkin]	[kosong]	POST: 2^10 = 1.024, bukan 1.000. Seribu = 10³; seribu DUA PULUH EMPAT = 2^10. Temen kecampur dua basis. Keluarga 2: 2, 4, 8, ..., 1.024 
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-41.ts	T1017	[checkin]	[kosong]	POST: Skor latihan: benar +4, salah −1. 20 benar 5 salah → 80 − 5 = 75. Temen lupa pengurang — skor murni 80 salah. Susulan: 18 benar 2 
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-42.ts	T1026	[checkin]	[kosong]	POST: ½ × 106 = 53. Genap rapi, hasil prima 53. Temen jawab 52 — 52 × 2 = 104, kurang 2. Susulan: ½ × 114? 57 ya? Cek dong
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-42.ts	T1034	[checkin]	[kosong]	POST: Skala 1:50.000. 4 cm di peta = 2 km nyata (4 × 50.000 cm = 200.000 cm). Temen tulis 20 km — satu tangga kelebihan. Susulan: 10 cm?
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-42.ts	T1044	[checkin]	[kosong]	POST: Konversi 25°C → °F: 25 × 9/5 + 32 = 45 + 32 = 77°F. Temen lupa +32 — 45°F itu dingin! Susulan: 30°C? 86°F ya? Cek dong
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-43.ts	T1072	[checkin]	[kosong]	POST: Kursi bioskop: 15 baris × 20 kursi = 300 total. Terisi 265 → kosong 35. Temen kali 15 × 20 kaku — pecah 15 × 2 × 10. Susulan: 12 b
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-43.ts	T1074	[checkin]	[kosong]	POST: Keramik 40 × 40 cm di lantai 4 × 5 m: per m² butuh 6,25 keping (100 × 100/40 × 40), total 20 m² × 6,25 = 125. Temen heran pecahan 
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-44.ts	T1088	[checkin]	[kosong]	POST: 98 × 7 = 686. Kompensasi: 100 × 7 = 700, kurang 2 × 7 = 14 → 686. Temen tulis 696 — kurangnya 14, bukan 4. Susulan: 96 × 7? 672 ya
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-45.ts	T1108	[checkin]	[kosong]	POST: Heks 40 = 64. 4 × 16 — dan 64 = 2⁶! Heks dan biner ketemu lagi. Temen heran kebetulan: 40 heksa = 4 × 16 memang pangkat 2. Susulan
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-45.ts	T1111	[checkin]	[kosong]	POST: Pembulatan 7.500 ke ribuan = 8.000 — pas di tengah, aturan umum naik. Temen nanya kenapa bukan 7.000: kesepakatan setengah naik. S
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-45.ts	T1116	[checkin]	[kosong]	POST: Lembur 1,5 × tarif (kesepakatan kantor): 20rb per jam × 4 jam lembur × 1,5 = 120rb. Temen lupa faktor 1,5. Susulan: 2 jam lembur? 
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-46.ts	T1129	[checkin]	[kosong]	POST: T30 = 465. Tangga segitiga 30 tingkat: 30 × 31/2. Temen heran deket 466 — T30 deket 21² = 441 juga. Susulan: T31? 496 ya? (465 + 3
+	KOMEN: udah kejawab semua di atas sih
+	SISA: udah kejawab semua di atas sih
+
+threads-46.ts	T1134	[checkin]	[kosong]	POST: 1.000 mod 9 = 1. Digit sum 1 → sisa 1. 999 = 111 × 9 habis, 1.000 sisa 1. Temen heran bilangan besar — mod 9 cuma butuh digit sum!
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-46.ts	T1142	[checkin]	[kosong]	POST: Tangki: isi 5 jam, bocor 10 jam → net 1/5 − 1/10 = 1/10 per jam → 10 jam penuh. Bocor makan separuh laju isi. Susulan: isi 5, boco
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-46.ts	T1145	[checkin]	[kosong]	POST: Kopi 1:15 — 15 g bubuk → 225 ml air. 15 × 15 = 225. Temen nanya kok 225 aneh: 15² juga! Rasio kuadrat. Susulan: 12 g? 180 ml ya? C
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-47.ts	T1163	[checkin]	[kosong]	POST: 999 × 4 = 3.996. Kompensasi: 1.000 × 4 = 4.000, kurang 4 → 3.996. Temen tulis 3.994 — selisihnya cuma 4. Susulan: 999 × 3? 2.997 y
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-47.ts	T1165	[checkin]	[kosong]	POST: Jumlah ganjil sampai 25: 1+3+...+25 = 169 = 13². Tiga belas bilangan ganjil → kuadrat 13. Temen heran 169 muncul lagi — 13² dari b
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-47.ts	T1175	[checkin]	[kosong]	POST: Tamu 100 orang, meja 8 kursi → 13 meja. 100/8 = 12 sisa 4 → 13 (sisa tetap butuh meja). Temen jawab 12 — 4 orang berdiri! Susulan:
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-47.ts	T1175	[checkin]	[kosong]	POST: Tamu 100 orang, meja 8 kursi → 13 meja. 100/8 = 12 sisa 4 → 13 (sisa tetap butuh meja). Temen jawab 12 — 4 orang berdiri! Susulan:
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-48.ts	T1177	[checkin]	[kosong]	POST: Kerja bersama: A 6 jam, B 12 jam → 1/6 + 1/12 = 3/12 = 1/4 per jam → 4 jam. Penyebut 12 penyatu. Susulan: A 8, B 8? 4 jam juga ya?
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-48.ts	T1183	[checkin]	[kosong]	POST: Heks 70 = 112. 7 × 16. Temen tulis 70 — kali 16. Susulan: 90? 144 ya? — 12² juga! Cek dong
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-48.ts	T1194	[checkin]	[kosong]	POST: 77°F → °C: (77 − 32) × 5/9 = 45 × 5/9 = 25°C. Temen balik urutan — kurangi 32 dulu. Susulan: 59°F? 15°C ya? (27 × 5/9). Cek dong
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-49.ts	T1208	[checkin]	[kosong]	POST: Heks 80 = 128. 8 × 16 — dan 128 = 2⁷! Heks satu digit × 16 selalu pangkat 2 kalau digitnya pangkat 2. Susulan: 20? 32 ya? Cek dong
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-49.ts	T1212	[checkin]	[kosong]	POST: Estimasi 602 − 397 ≈ 200 via 600 − 400. Persis 205 — selisih 5. Estimasi selisih ribuan juga jalan. Susulan: 899 − 503 ≈ 400 ya? p
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-49.ts	T1214	[checkin]	[kosong]	POST: 91 × 89 = 8.099. (90+1)(90−1) = 8.100 − 1. Temen kali lurus lama. Susulan: 71 × 69? 4.899 ya? — kebetulan sama dengan 69 × 71! Cek
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-5.ts	T101	[checkin]	[angka]	POST: Alhamdulillah nilai anak naik terus tapi dia maunya lebih. Tiga ulangan terakhir: 70, 75, 80. Dia bertanya kalau ulangan keempat h
+	KOMEN: Ulangannya udah kelar? 87 targetnya, semangat anaknya
+	SISA: Ulangannya udah kelar? 87 targetnya, semangat anaknya
+
+threads-50.ts	T1239	[checkin]	[kosong]	POST: 201 × 199 = 39.999. (200+1)(200−1) = 40.000 − 1. Temen kali lurus lama. Susulan: 301 × 299? 89.999 ya? (300² − 1). Cek dong
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-51.ts	T1263	[checkin]	[kosong]	POST: 998 × 5 = 4.990. Kompensasi: 1.000 × 5 = 5.000, kurang 2 × 5 = 10 → 4.990. Temen tulis 4.900 — selisihnya 10. Susulan: 997 × 5? 4.
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-51.ts	T1264	[checkin]	[kosong]	POST: 111 × 109 = 12.099. (110+1)(110−1) = 12.100 − 1. Temen kali lurus lama. Susulan: 121 × 119? 14.399 ya? (120² − 1). Cek dong
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-51.ts	T1266	[checkin]	[kosong]	POST: Digit terakhir 7^10: siklus 7-9-3-1, 10 mod 4 = 2 → posisi 2 → akhir 9. Temen hitung 7^10 = 282.475.249 — akhir 9 cek! Susulan: 7^
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-52.ts	T1281	[checkin]	[kosong]	POST: 22 × 5 = 110. Seratus sepuluh. Temen tulis 100 — salah 10. Cek: 22 × 5 = 110 (20×5 + 2×5). Susulan: 22 × 6? 132 ya? Cek dong
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-52.ts	T1299	[checkin]	[kosong]	POST: Mobil 4 kursi, 30 orang → 8 mobil. 30/4 = 7 sisa 2 → 8 (sisa tetap jalan). Temen jawab 7 — 2 orang tertinggal! Susulan: 28 orang? 
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-53.ts	T1321	[checkin]	[kosong]	POST: Kopi 1:15 — 8 g bubuk → 120 ml air. 8 × 15. Temen nanya 8 g kecil? espresso single. Susulan: 9 g? 135 ml ya? Cek dong
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-54.ts	T1329	[checkin]	[kosong]	POST: T90 = 4.095. Tangga segitiga 90 tingkat — dan 4.095 = 2^12 − 1! Deret dan pangkat bertemu lagi. Temen kaget. Susulan: T91? 4.186 y
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-55.ts	T1366	[checkin]	[kosong]	POST: Digit terakhir 9^10: siklus 9-1, 10 genap → akhir 1. Temen cek 9² = 81 akhir 1, 9⁴ = 6.561 akhir 1 — konsisten. Susulan: 9^11? akh
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-56.ts	T1380	[checkin]	[kosong]	POST: Fibonacci: ..., 17.711, 28.657 — 17.711 + 10.946 = 28.657. Temen nanya 28.657 prima? ya! Fibonacci prima besar. Susulan: setelah 2
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-56.ts	T1388	[checkin]	[kosong]	POST: 97 × 13 = 1.261. Kompensasi: 100 × 13 = 1.300, kurang 3 × 13 = 39 → 1.261. Temen tulis 1.263 — selisihnya 39. Susulan: 96 × 13? 1.
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-56.ts	T1392	[checkin]	[kosong]	POST: Tangki: isi 3 jam, bocor 12 jam → net 1/3 − 1/12 = 3/12 = 1/4 per jam → 4 jam penuh. Temen heran net rapi lagi. Susulan: isi 3, bo
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-56.ts	T1396	[checkin]	[kosong]	POST: Enam gelas 160 ml = 960 ml. 160 × 6. Temen tulis 96 L — salah tangga. Cek: 960 ml hampir 1 L. Susulan: 7 gelas? 1,12 L ya? Cek don
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-56.ts	T1400	[checkin]	[kosong]	POST: 1+2+...+58 = 1.711. Pasangan 29: (1+58) sampai (29+30), masing 59 × 29. Temen heran 1.711 prima? cek: 1.711 ÷ 29 = 59 — bukan prim
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-57.ts	T1402	[checkin]	[kosong]	POST: Kerja bersama: A 12 jam, B 60 jam → 1/12 + 1/60 = 6/60 = 1/10 per jam → 10 jam. Penyebut 60 penyatu. Susulan: A 60, B 12? 10 juga 
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-57.ts	T1404	[checkin]	[kosong]	POST: T88 = 3.916. Tangga segitiga 88 tingkat: 88 × 89/2. Temen nanya dekat 4.000 — ya, 84 lagi. Susulan: T89? 4.005 ya? (3.916 + 89). C
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-57.ts	T1423	[checkin]	[kosong]	POST: Penyimpanan 5 file × 6,6 GB = 33 GB. Temen tulis 330 — koma hilang. Cek: 6,6 × 5 = 33. Susulan: 2 file? 13,2 GB ya? Cek dong
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-57.ts	T1425	[checkin]	[kosong]	POST: Kartu 77 lembar dibagi 8 pemain: tiap 9, sisa 5. Beda dengan kapasitas — sini sisa dibagi adil manual. Susulan: 80 kartu? 10 tepat
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-58.ts	T1432	[checkin]	[kosong]	POST: 2^17 = 131.072. Tangga pangkat 2 besar. Temen nanya 131.072 = 2 × 65.536 ya? pas — lipat dua. Susulan: 2^18? 262.144 ya? Cek dong
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-58.ts	T1432	[checkin]	[kosong]	POST: 2^17 = 131.072. Tangga pangkat 2 besar. Temen nanya 131.072 = 2 × 65.536 ya? pas — lipat dua. Susulan: 2^18? 262.144 ya? Cek dong
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-58.ts	T1435	[checkin]	[kosong]	POST: 10.000 mod 7 = 4. 9.996 = 1.428 × 7, sisa 4. Temen pecah: 9.800 habis 7 (7 × 1.400), 10.000 − 9.800 = 200, 200 mod 7 = 4. Susulan:
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-58.ts	T1440	[checkin]	[kosong]	POST: Digit terakhir 2^50: siklus 2-4-8-6, 50 mod 4 = 2 → posisi 2 → akhir 4. Temen heran pangkat lima puluh sekali sisa. Susulan: 2^51?
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-58.ts	T1440	[checkin]	[kosong]	POST: Digit terakhir 2^50: siklus 2-4-8-6, 50 mod 4 = 2 → posisi 2 → akhir 4. Temen heran pangkat lima puluh sekali sisa. Susulan: 2^51?
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-58.ts	T1441	[checkin]	[kosong]	POST: Orang-hari: 7 orang × 8 hari = 56 orang-hari. Total tenaga 56. Temen nanya 14 orang? 4 hari ya. Susulan: 28 orang? 2 hari ya? Cek 
+	KOMEN: udah kejawab semua di atas dari awal
+	SISA: udah kejawab semua di atas dari awal
+
+threads-58.ts	T1442	[checkin]	[kosong]	POST: Tangki: isi 18 jam, bocor 36 jam → net 1/18 − 1/36 = 1/36 per jam → 36 jam penuh. Net tipis — bocor separuh laju isi. Susulan: isi
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-58.ts	T1446	[checkin]	[kosong]	POST: Dua belas gelas 150 ml = 1,8 L. 150 × 12. Temen tulis 18 L — salah tangga. Cek: 1.800 ml = 1,8 L. Susulan: 10 gelas? 1,5 L ya? Cek
+	KOMEN: udah kejawab semua di atas semua
+	SISA: udah kejawab semua di atas semua
+
+threads-58.ts	T1450	[checkin]	[kosong]	POST: 1+2+...+62 = 1.953. Pasangan 31: (1+62) sampai (31+32), masing 63 × 31. Temen nanya 1.953 habis dibagi 3: ya, digit sum 18. Susula
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-59.ts	T1453	[checkin]	[kosong]	POST: KPK 60 dan 80 = 240. Kelipatan 60: 60, 120, 180, 240. Kelipatan 80: 80, 160, 240. Temen jawab 4.800 — 240 cukup. Susulan: 240 = 60
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-59.ts	T1458	[checkin]	[kosong]	POST: Heks 600 = 1.536. 6 × 256. Temen baca enam ratus — heksa per posisi 256-16-1. Susulan: 610? 1.552 ya? (1.536 + 16). Cek dong
+	KOMEN: udah kejawab semua di atas
+	SISA: udah kejawab semua di atas
+
+threads-59.ts	T1462	[checkin]	[kosong]	POST: Estimasi 5.005 − 2.999 ≈ 2.000 via 5.000 − 3.000. Persis 2.006 — selisih 6. Temen heran kompensasi ganda (+5 dan −1). Susulan: 4.9
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-59.ts	T1466	[checkin]	[kosong]	POST: Digit terakhir 8^100: siklus 8-4-2-6, 100 mod 4 = 0 → posisi 4 → akhir 6. Temen heran pangkat seratus sekali lihat sisa. Susulan: 
+	KOMEN: udah kejawab semua di atas kok
+	SISA: udah kejawab semua di atas kok
+
+threads-59.ts	T1469	[checkin]	[kosong]	POST: Reseh dibelah: 5½ ÷ 2 = 2¾. 11/2 × 1/2 = 11/4. Temen heran campuran keluar — setengah dari 5½ memang 2¾. Susulan: 5½ ÷ 11? ½ ya? C
+	KOMEN: udah kejawab semua di atas tanpa sisa
+	SISA: udah kejawab semua di atas tanpa sisa
+
+threads-6.ts	T142	[checkin]	[angka]	POST: tagihan air bulanan tiga kamar: total pemakaian 24 m³, tagihan 61.200. dibagi rata jadi 20.400 per kamar. masalahnya kamar A dua o
+	KOMEN: Urusannya udah beres? 12.240 per kepala itu angkanya
+	SISA: Urusannya udah beres? 12.240 per kepala itu angkanya
+
+threads-6.ts	T149	[checkin]	[angka]	POST: bos-bos, itung antrian rambut sore tadi. jam 16.00 datang 6 orang: 2 minta model rumit 30 menit per kepala, 4 biasa 15 menit. gue 
+	KOMEN: Udah tutup? 18.00 estimasinya itu bener
+	SISA: Udah tutup? 18.00 estimasinya itu bener
+
+threads-60.ts	T1481	[checkin]	[kosong]	POST: 59 × 3 = 177. Seratus tujuh puluh tujuh. Temen tulis 167 — salah 10. Cek: 59 × 3 = 177 (60×3 − 3). Susulan: 59 × 4? 236 ya? Cek do
+	KOMEN: udah kejawab semua di atas deh
+	SISA: udah kejawab semua di atas deh
+
+threads-60.ts	T1484	[checkin]	[kosong]	POST: Digital root 555.555: 5×6 = 30 → 3. Temen kali enam lima — cepat. Susulan: 888.888? 48 → 3 juga ya? Cek dong
+	KOMEN: udah kejawab semua di atas sampai bawah
+	SISA: udah kejawab semua di atas sampai bawah
+
+threads-60.ts	T1485	[checkin]	[kosong]	POST: 21.000 mod 7 = 0. 21.000 = 7 × 3.000 — kelipatan penuh. Temen nanya 21.007? sisa 0 lagi ya? (7 × 3.001). Susulan: 21.014? sisa 0 l
+	KOMEN: udah kejawab semua di atas wkwk
+	SISA: udah kejawab semua di atas wkwk
+
+threads-7.ts	T157	[checkin]	[angka]	POST: hitung mundur skripsi hari ini: sisa 60 halaman. ritme gue 2 halaman per hari. 60 ÷ 2 = 30 hari. deadline dari dosen 24 hari. GAK 
+	KOMEN: Skripsinya udah beres? 2,5 per hari itu fix
+	SISA: Skripsinya udah beres? 2,5 per hari itu fix
+
+threads-7.ts	T164	[checkin]	[angka]	POST: shift 08.00-16.00. delapan jam. tiga jam pos A. lima jam pos B. pos B deket makanan, itu untungnya. payung tinggal satu. om-om reb
+	KOMEN: Shift udah kelar? 3-5 itu pembagian lu
+	SISA: Shift udah kelar? 3-5 itu pembagian lu
+
+threads-8.ts	T199	[checkin]	[angka]	POST: bos-bos, itung antrian tadi siang. datang 6 orang: 2 minta model rumit, 30 menit per kepala, 4 model biasa, 15 menit. gue itung: 2
+	KOMEN: Udah tutup? 15.00 selesainya itu tepat
+	SISA: Udah tutup? 15.00 selesainya itu tepat
+

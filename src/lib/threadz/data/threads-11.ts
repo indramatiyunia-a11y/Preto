@@ -30,7 +30,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 267, minutesAgo: 7331, content: "piramida 4 baris butuh 20 bola. 8 baris 120. enak buat latihan bertahap" },
       { authorId: 59, minutesAgo: 7298, content: "makasih, anak saya nanya hal sama kemarin. sekarang ada rumusnya" },
       { authorId: 355, minutesAgo: 7266, content: "jawaban bener dua-duanya: 36 per baris, 120 total. gak ada jebakan" },
-      { authorId: 430, minutesAgo: 6750, content: "mampir dari pencarian. PR anak saya kebetulan sama persis, 36 dan 120. terima kasih semua" },
+      { authorId: 430, minutesAgo: 6750, content: "PR anak saya kebetulan sama persis, 36 dan 120. terima kasih semua" },
     ],
   },
   {
@@ -57,7 +57,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 199, minutesAgo: 7331, content: "iya itu khusus jarak sama. kalau beda, langsung total jarak ÷ total waktu" },
       { authorId: 404, minutesAgo: 7312, content: "tukang ojol ngalamin terus ini: macet vs lancar, rata-rata gak pernah kira-kira wkwk" },
       { authorId: 310, minutesAgo: 7293, content: "48 ya, dua jalur di atas konsisten" },
-      { authorId: 87, minutesAgo: 6850, content: "telat lewat. jawabannya 48, rata-rata per waktu. prinsipnya bobot waktu" },
+      { authorId: 87, minutesAgo: 6850, content: "Jawabannya 48, rata-rata per waktu. prinsipnya bobot waktu" },
     ],
   },
   {
@@ -78,7 +78,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 480, minutesAgo: 7438, content: "praktiknya di kuota HP: 1 GB, 2 GB, 4 GB, 8 GB. semuanya pangkat dua" },
       { authorId: 306, minutesAgo: 7419, content: "lipat kertas: 12 kali lipat teorinya 4096 lembar tebal. realita kertasnya sobek dulu wkwk" },
       { authorId: 63, minutesAgo: 7399, content: "4096 = 64² = 2^12. tiga bentuk, satu angka" },
-      { authorId: 452, minutesAgo: 6730, content: "telat. kuncinya bilang ke adiknya: pangkat itu dobel terus, bukan kali. hasilnya 4096" },
+      { authorId: 452, minutesAgo: 6730, content: "Kuncinya bilang ke adiknya: pangkat itu dobel terus, bukan kali. hasilnya 4096" },
     ],
   },
   {
@@ -107,7 +107,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 205, minutesAgo: 7361, content: "dua muka di 3×3×3 ya 12 karena tiap rusuk cuma satu kubus tengah" },
       { authorId: 77, minutesAgo: 7343, content: "makasih, jadi bekal buat adik olim. contoh 4×4×4 di atas ngebantu" },
       { authorId: 458, minutesAgo: 7325, content: "soal rapi, jawaban rapi. semua terjawab dengan cek dua jalur" },
-      { authorId: 166, minutesAgo: 6590, content: "telat banget, dari arsip. 8-12-6-1, total 27. udah kuku semua di atas" },
+      { authorId: 166, minutesAgo: 6590, content: "8-12-6-1, total 27. udah kuku semua di atas" },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 284, minutesAgo: 7445, content: "oh iya komen di atas masuk: dengan tinggi 20 hasilnya 320. mungkin ada dua versi soal beredar" },
       { authorId: 53, minutesAgo: 7427, content: "kadarannya: bawa soal fisik ke guru, tunjuk tinggi 10. kalau soal benar, kunci salah" },
       { authorId: 478, minutesAgo: 7408, content: "dua-duanya mungkin: kunci salah, atau soal yang berubah angka. di kelas kami sering gitu" },
-      { authorId: 353, minutesAgo: 6790, content: "telat, dari arsip. tinggi 10 → 160, tinggi 20 → 320. cek soal aslinya" },
+      { authorId: 353, minutesAgo: 6790, content: "Tinggi 10 → 160, tinggi 20 → 320. cek soal aslinya" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 44, minutesAgo: 7402, content: "singkatnya: 10% pertama nempel di angka baru. itu semua" },
       { authorId: 307, minutesAgo: 7388, content: "jawaban 99. kelas saya debat 10 menit, ujungnya setuju semua" },
       { authorId: 171, minutesAgo: 7375, content: "soal begini makin sering di literasi keuangan. bagus" },
-      { authorId: 489, minutesAgo: 6680, content: "telat. 99, dan baliknya butuh turun 9,09%. dua-duanya di atas" },
+      { authorId: 489, minutesAgo: 6680, content: "99, dan baliknya butuh turun 9,09%. dua-duanya di atas" },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 315, minutesAgo: 7536, content: "24 udah dicek dua jalur: rumus dan daftar. tuntas" },
       { authorId: 140, minutesAgo: 7519, content: "kalau ditanya jumlah semua faktor, beda rumus: 15×13×6 = 1170" },
       { authorId: 385, minutesAgo: 7502, content: "1170 tuh. bisa jadi soal lanjutan buat yang cepet kelar" },
-      { authorId: 499, minutesAgo: 6860, content: "telat dari arsip. 24 faktor, rumus eksponen+1. daftar manual di atas pas" },
+      { authorId: 499, minutesAgo: 6860, content: "24 faktor, rumus eksponen+1. daftar manual di atas pas" },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 130, minutesAgo: 7512, content: "1/11 salah karena sebelas angka itu gak sama peluang. udah dijelasin rapi di atas" },
       { authorId: 402, minutesAgo: 7495, content: "soal klasik peluang. jawaban 1/6, catat buat ulangan" },
       { authorId: 212, minutesAgo: 7478, content: "36 pasangan, 6 jalur buat jumlah 7. dua-duanya dihitung dua kali di atas" },
-      { authorId: 460, minutesAgo: 7000, content: "telat lewat. 1/6, dan 1/11 memang umum salah. tabel 6×6 jurus pamungkas" },
+      { authorId: 460, minutesAgo: 7000, content: "1/6, dan 1/11 memang umum salah. tabel 6×6 jurus pamungkas" },
     ],
   },
   {
@@ -231,7 +231,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 273, minutesAgo: 7618, content: "1536 bener, dobel dari U9 = 768" },
       { authorId: 50, minutesAgo: 7597, content: "jawaban 384 dan 765. dua cara sudah cocok" },
       { authorId: 468, minutesAgo: 7579, content: "PR selesai. tulis dua jalur biar nilai penuh" },
-      { authorId: 139, minutesAgo: 6910, content: "telat. 384 dan 765, trik r=2: jumlahnya 2^8×3 − 3. tuntas" },
+      { authorId: 139, minutesAgo: 6910, content: "384 dan 765, trik r=2: jumlahnya 2^8×3 − 3. tuntas" },
     ],
   },
   {
@@ -244,7 +244,7 @@ export const THREADS_PART11: ThreadzThread[] = [
     comments: [
       { authorId: 207, minutesAgo: 7780, content: "jam dapur diatur ke 08.15. telat satu jam dari HP" },
       { authorId: 59, minutesAgo: 7764, content: "30 hari lagi telat dua jam, 90 hari tiga jam. polanya linier" },
-      { authorId: 415, minutesAgo: 7747, content: "telat tepat satu jam lagi kejadian 30 hari dari sekarang kalau gak disentuh" },
+      { authorId: 415, minutesAgo: 7747, content: "Tepat satu jam lagi kejadian 30 hari dari sekarang kalau gak disentuh" },
       { authorId: 113, minutesAgo: 7731, content: "2 menit/hari × 30 = 60 menit. dua kali dicek" },
       { authorId: 341, minutesAgo: 7715, content: "dalam seminggu telat 14 menit. kecil tapi numpuk" },
       { authorId: 175, minutesAgo: 7698, content: "2 menit = 120 detik per hari. kecil di detik, gede di minggu" },
@@ -259,7 +259,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 319, minutesAgo: 7544, content: "susulan: makin lama makin telat, jadi persisnya cuma pas di hari ke-30 itu" },
       { authorId: 106, minutesAgo: 7527, content: "soal begini enak buat latihan laju perubahan: dua menit per hari" },
       { authorId: 451, minutesAgo: 7510, content: "semua angka pas: 60 menit, 30 hari, set 08.15" },
-      { authorId: 90, minutesAgo: 7080, content: "telat. set 08.15, telat satu jam lagi 30 hari lagi. dapur tetap rujukan makan" },
+      { authorId: 90, minutesAgo: 7080, content: "Set 08.15, telat satu jam lagi 30 hari lagi. dapur tetap rujukan makan" },
     ],
   },
   {
@@ -284,7 +284,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 69, minutesAgo: 7648, content: "susulan: keliling ≈ 47,3 cm, luas 50√3 ≈ 86,6 cm²" },
       { authorId: 393, minutesAgo: 7633, content: "86,6 bener. 50 × 1,732 = 86,6" },
       { authorId: 137, minutesAgo: 7618, content: "segitiga spesial favorit guru. dua angka di atas udah aman" },
-      { authorId: 445, minutesAgo: 6990, content: "telat. 10 dan 10√3, bukti Pythagoras balik di komen kedua. tuntas" },
+      { authorId: 445, minutesAgo: 6990, content: "10 dan 10√3, bukti Pythagoras balik di komen kedua. tuntas" },
     ],
   },
   {
@@ -306,7 +306,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 347, minutesAgo: 7661, content: "68, dua jalur: selisih total dan cek logika. aman" },
       { authorId: 122, minutesAgo: 7628, content: "468 − 400. gampang diinget polanya" },
       { authorId: 301, minutesAgo: 7596, content: "68 pas. pertanyaan syarat di atas bagus" },
-      { authorId: 79, minutesAgo: 7080, content: "telat. 68, selisih total 468 dan 400. tuntas semua" },
+      { authorId: 79, minutesAgo: 7080, content: "68, selisih total 468 dan 400. tuntas semua" },
     ],
   },
   {
@@ -336,7 +336,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 66, minutesAgo: 7612, content: "jawaban 1080 dan 135. udah dikukuh banyak jalur" },
       { authorId: 471, minutesAgo: 7598, content: "segi-12: 1800 total, 150 per sudut. latihan sendiri" },
       { authorId: 211, minutesAgo: 7585, content: "150 pas. per sudut makin mendekat 180 kalau sisinya makin banyak" },
-      { authorId: 383, minutesAgo: 6890, content: "telat. 1080 total, 135 per sudut, bukti segitiga n−2. tuntas" },
+      { authorId: 383, minutesAgo: 6890, content: "1080 total, 135 per sudut, bukti segitiga n−2. tuntas" },
     ],
   },
   {
@@ -357,7 +357,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 7801, content: "dua-duanya fungsi gak? guru saya bilang vertikal bukan fungsi, horizontal iya" },
       { authorId: 228, minutesAgo: 7787, content: "iya, vertikal gagal tes garis: satu x bisa dua y. horizontal lolos" },
       { authorId: 417, minutesAgo: 7773, content: "jawaban utama 4x − 1 pas, susulan dua-duanya dijawab di atas dengan daftar-anggota" },
-      { authorId: 178, minutesAgo: 7020, content: "telat dari arsip. 4x − 1; mendatar y = 5; tegak x = 2 dan bukan fungsi. semua di atas" },
+      { authorId: 178, minutesAgo: 7020, content: "4x − 1; mendatar y = 5; tegak x = 2 dan bukan fungsi. semua di atas" },
     ],
   },
   {
@@ -384,7 +384,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 321, minutesAgo: 7721, content: "997 ÷ 31 = 32 sisa 5. aman" },
       { authorId: 186, minutesAgo: 7702, content: "akar 997 ≈ 31,6. cek semua prima sampai 31, semua sisa bukan nol. prima" },
       { authorId: 94, minutesAgo: 7683, content: "97 prima, terbukti cukup cek 2,3,5,7. dua jalur" },
-      { authorId: 481, minutesAgo: 7240, content: "telat. pembagi berpasangan kecil-besar, yang kecil gak lewat akar. 97 aman" },
+      { authorId: 481, minutesAgo: 7240, content: "Pembagi berpasangan kecil-besar, yang kecil gak lewat akar. 97 aman" },
     ],
   },
   {
@@ -407,7 +407,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 156, minutesAgo: 7806, content: "1 pekerja 48 hari. sendirian gudang wkwk" },
       { authorId: 396, minutesAgo: 7789, content: "jawaban 6 hari. temenmu dibalik aja 4 × 12/8" },
       { authorId: 82, minutesAgo: 7772, content: "ciri soal berbalik: hasil kali orang × hari tetap. 48 konstanta" },
-      { authorId: 457, minutesAgo: 7130, content: "telat. 6 hari, konstanta 48 pekerja-hari. tuntas" },
+      { authorId: 457, minutesAgo: 7130, content: "6 hari, konstanta 48 pekerja-hari. tuntas" },
     ],
   },
   {
@@ -436,7 +436,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 404, minutesAgo: 7751, content: "catatan kecil: angka di soal ini emang bentok tabel logaritma. gak kebetulan wkwk" },
       { authorId: 283, minutesAgo: 7733, content: "soalnya didesain rapi ya. angkanya cocok semua" },
       { authorId: 94, minutesAgo: 7715, content: "0,7781 / 1,0791 / 0,6990 / 1,1761. catat" },
-      { authorId: 466, minutesAgo: 6980, content: "telat dari arsip. empat jawaban di atas pas semua, log 12 sudah dua jalur" },
+      { authorId: 466, minutesAgo: 6980, content: "Empat jawaban di atas pas semua, log 12 sudah dua jalur" },
     ],
   },
   {
@@ -460,7 +460,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 75, minutesAgo: 7835, content: "5/9 tuh. 1/6 + 5/18 + 5/9 = 1 total. rapi" },
       { authorId: 172, minutesAgo: 7817, content: "1/6 + 5/18 + 5/9, sama-sama 18 penyebutnya: 3/18 + 5/18 + 10/18 = 18/18. pas" },
       { authorId: 359, minutesAgo: 7798, content: "jawaban 1/6. temenmu lupa kantongnya berubah" },
-      { authorId: 297, minutesAgo: 7180, content: "telat. 1/6 tanpa pengembalian, 16/81 itu kasus lain. tuntas" },
+      { authorId: 297, minutesAgo: 7180, content: "1/6 tanpa pengembalian, 16/81 itu kasus lain. tuntas" },
     ],
   },
   {
@@ -486,7 +486,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 85, minutesAgo: 7842, content: "289 pas. 17². koleksi lengkap wkwk" },
       { authorId: 330, minutesAgo: 7825, content: "mulus itu tanda soalnya enak, bukan salah. jawaban 12 udah kukuh" },
       { authorId: 193, minutesAgo: 7808, content: "12 cm, terbukti dua arah di atas" },
-      { authorId: 115, minutesAgo: 7330, content: "telat. 12 cm, tripel 5-12-13, bukti cek balik di atas. tuntas" },
+      { authorId: 115, minutesAgo: 7330, content: "12 cm, tripel 5-12-13, bukti cek balik di atas. tuntas" },
     ],
   },
   {
@@ -507,7 +507,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 138, minutesAgo: 7948, content: "400 tuh. 1/3 × 100 × 12" },
       { authorId: 318, minutesAgo: 7929, content: "limas sejajar prisma, rasio volumenya selalu 1:3. inget itu cukup" },
       { authorId: 79, minutesAgo: 7909, content: "jawaban 300, balok 900, selisih persis 3 kali. tuntas" },
-      { authorId: 446, minutesAgo: 7240, content: "telat. 300 cm³, alasan 1/3: tiga limas jadi satu balok. di atas sudah kuku" },
+      { authorId: 446, minutesAgo: 7240, content: "300 cm³, alasan 1/3: tiga limas jadi satu balok. di atas sudah kuku" },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 389, minutesAgo: 7874, content: "jawaban √5 + 2 ≈ 4,236. cek balik di atas jadi bukti" },
       { authorId: 129, minutesAgo: 7857, content: "soal singkat, jawaban singkat, bukti lengkap. mantap" },
       { authorId: 288, minutesAgo: 7840, content: "terima kasih semua, PR-ku mirip banget. langsung nangkep" },
-      { authorId: 413, minutesAgo: 7410, content: "telat dari arsip. √5 + 2 ≈ 4,236, penyebut 1 karena 5−4. tuntas" },
+      { authorId: 413, minutesAgo: 7410, content: "√5 + 2 ≈ 4,236, penyebut 1 karena 5−4. tuntas" },
     ],
   },
   {
@@ -557,7 +557,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 313, minutesAgo: 7961, content: "makanya promo berantai sering lebih kecil dari keliatannya" },
       { authorId: 170, minutesAgo: 7928, content: "tiga diskon 20+20+20? 0,8³ = 0,512, potong 48,8% doang. jauh dari 60" },
       { authorId: 64, minutesAgo: 7896, content: "48,8% tuh. berantai itu makin banyak makin menipis" },
-      { authorId: 250, minutesAgo: 7380, content: "telat. efektifnya 65%, bukan 80%. contoh 100rb bayar 35rb sudah kuku di atas" },
+      { authorId: 250, minutesAgo: 7380, content: "Efektifnya 65%, bukan 80%. contoh 100rb bayar 35rb sudah kuku di atas" },
     ],
   },
   {
@@ -582,7 +582,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 8008, content: "susulan: 330° = 11π/6. 330/180 bagi 30 jadi 11/6" },
       { authorId: 289, minutesAgo: 7993, content: "11π/6 pas. FPB 30 memang kunci" },
       { authorId: 394, minutesAgo: 7978, content: "jawaban utama empat-empatnya bener. teknik FPB di atas bikin cepet" },
-      { authorId: 196, minutesAgo: 7350, content: "telat. π/2, π/3, π/4, π/6 sudah kuku, 135° = 3π/4. tuntas" },
+      { authorId: 196, minutesAgo: 7350, content: "π/2, π/3, π/4, π/6 sudah kuku, 135° = 3π/4. tuntas" },
     ],
   },
   {
@@ -612,7 +612,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 406, minutesAgo: 7942, content: "49 pas. makin panjang makin seru" },
       { authorId: 137, minutesAgo: 7928, content: "jawaban: memang selalu k², bukan kebetulan. gambar L + aljabar di atas" },
       { authorId: 349, minutesAgo: 7915, content: "PR anak SD selesai dengan elegan. lanjut laporkan hasilnya ya" },
-      { authorId: 474, minutesAgo: 7220, content: "telat. jumlah ganjil pertama k suku = k², bukti gambar L. tuntas semua" },
+      { authorId: 474, minutesAgo: 7220, content: "Jumlah ganjil pertama k suku = k², bukti gambar L. tuntas semua" },
     ],
   },
   {
@@ -635,7 +635,7 @@ export const THREADS_PART11: ThreadzThread[] = [
       { authorId: 96, minutesAgo: 8076, content: "tahun kabisat: 366 × 86.400 = 31.622.400. tambahan 86.400" },
       { authorId: 201, minutesAgo: 8059, content: "31.622.400 pas, tambahan satu hari penuh" },
       { authorId: 391, minutesAgo: 8042, content: "jawaban utama 31.536.000 udah kuku. kabisat jadi bonus" },
-      { authorId: 483, minutesAgo: 7400, content: "telat dari arsip. 31,5 juta detik per tahun, 86.400 per hari. dua-duanya di atas" },
+      { authorId: 483, minutesAgo: 7400, content: "31,5 juta detik per tahun, 86.400 per hari. dua-duanya di atas" },
     ],
   },
 ]

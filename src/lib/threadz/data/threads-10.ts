@@ -30,7 +30,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 340, minutesAgo: 6636, content: "Kalkulator di HP juga boleh, yang penting angkanya dicocokin sama meteran" },
       { authorId: 73, minutesAgo: 6610, content: "1.444,70 × 400 = 577.880, + ×50 = 72.235, jumlah 650.115. dua jalur pas" },
       { authorId: 206, minutesAgo: 6580, content: "Ini ngingetin cek meteran sebelum bayar. angka meteran dan tagihan harus nyambung" },
-      { authorId: 372, minutesAgo: 6100, content: "Telat nanggepin, tapi 650.115 itu bener. 450 × 1.444,70 udah dihitung dua arah di atas" },
+      { authorId: 372, minutesAgo: 6100, content: "450 × 1.444,70 udah dihitung dua arah di atas" },
     ],
   },
   {
@@ -57,7 +57,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 201, minutesAgo: 6626, content: "Motor detik 0 itu masih di garis stop, belum nyebrang. jadi gak masuk hitungan" },
       { authorId: 425, minutesAgo: 6608, content: "Bawa stopwatch ke lapangan, biar temenmu liat sendiri. 15 itu keluar sendiri" },
       { authorId: 97, minutesAgo: 6589, content: "1 tiap 2 detik artinya laju 0,5 motor per detik × 30 = 15. dua cara, sama hasil" },
-      { authorId: 388, minutesAgo: 5950, content: "Telat banget aku. tapi 15 itu udah dikukuhkan semua di atas" },
+      { authorId: 388, minutesAgo: 5950, content: "15 itu udah dikukuhkan semua di atas" },
     ],
   },
   {
@@ -78,7 +78,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 57, minutesAgo: 6727, content: "Kain 2,75 dikurang 1,2 dan 1,2, sisa 0,35. gak ada drama" },
       { authorId: 414, minutesAgo: 6709, content: "Beli 3 meter sekalian lebih tenang. sisa 0,6 buat apa aja" },
       { authorId: 174, minutesAgo: 6690, content: "Tulis di kertas: 275 − 120 − 120 = 35 cm. kelihatan sendiri" },
-      { authorId: 386, minutesAgo: 5900, content: "Telat. udah dijahit? 0,35 itu sisa yang bener dari awal" },
+      { authorId: 386, minutesAgo: 5900, content: "Udah dijahit? 0,35 itu sisa yang bener dari awal" },
     ],
   },
   {
@@ -107,7 +107,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 240, minutesAgo: 6585, content: "Kalau mau presisi, ukur diameter asli benda. angka katalog suka beda 1-2 cm" },
       { authorId: 199, minutesAgo: 6559, content: "Hitunganmu bener dua-duanya. tandon muat 1.330, aman" },
       { authorId: 520, minutesAgo: 6532, content: "Pi 3,14 vs 3,14159 itu kayak ukur pake meteran biasa vs laser. hasil sama buat kebutuhan rumah" },
-      { authorId: 433, minutesAgo: 5400, content: "Telat, tapi jawaban di atas udah lengkap semua. 1.330 L, tandonnya layak" },
+      { authorId: 433, minutesAgo: 5400, content: "1,4 itu contoh klasik, langsung nyambung ke rumusnya" },
     ],
   },
   {
@@ -131,7 +131,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 341, minutesAgo: 6720, content: "1 cm kertas = 2 m lapangan. hafalin itu, gak bingung lagi" },
       { authorId: 105, minutesAgo: 6698, content: "Temenmu mungkin lupa 1 m = 100 cm. kali 200 langsung dari meter bikin raksasa" },
       { authorId: 490, minutesAgo: 6677, content: "Aku pengajar, PR begini dinilai dari skala ditulis jelas. cantumkan 1:200 di pojok kertas" },
-      { authorId: 272, minutesAgo: 6550, content: "Telat. udah dikumpul? 20 × 10 cm itu fix" },
+      { authorId: 272, minutesAgo: 6550, content: "20 × 10 cm itu fix" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 184, minutesAgo: 6649, content: "Bikin daftar belanja dan dicentang. yang sudah dibeli jangan kebeli lagi" },
       { authorId: 95, minutesAgo: 6625, content: "Sisa 25rb itu buat jajan anak di hari pertama sekolah. biar happy" },
       { authorId: 458, minutesAgo: 6600, content: "Masuk akal. cuma inget, sekolah kadang punya patokan khusus" },
-      { authorId: 132, minutesAgo: 5650, content: "Telat banget. pasti udah beres semua kan? 440 plus 35 = 475 itu angka finalnya" },
+      { authorId: 132, minutesAgo: 5650, content: "Pasti udah beres semua kan? 440 plus 35 = 475 itu angka finalnya" },
     ],
   },
   {
@@ -184,7 +184,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 470, minutesAgo: 6811, content: "350rb buat 32 orang murah kok, bakso 10rb plus es teh" },
       { authorId: 57, minutesAgo: 6792, content: "Biar aman, anggaran acara diancang 340rb, sisanya penyangga" },
       { authorId: 328, minutesAgo: 6774, content: "Tulis sisa 115rb plus catatan tagihan 15rb. transparan" },
-      { authorId: 236, minutesAgo: 5850, content: "Telat. udah rapat? dua kolom itu jawabannya, sama kayak semua yang di atas" },
+      { authorId: 236, minutesAgo: 5850, content: "Udah rapat? dua kolom itu jawabannya, sama kayak semua yang di atas" },
     ],
   },
   {
@@ -210,7 +210,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 53, minutesAgo: 6779, content: "Catat presensi tiap sesi, datanya jadi bahan evaluasi" },
       { authorId: 247, minutesAgo: 6759, content: "Kapasitas ideal pendampingan sih 5-6. tapi 8 masih jauh lebih baik dari 14 sekaligus" },
       { authorId: 481, minutesAgo: 6738, content: "Guru BK minta pindah satu, ya geser aja. yang penting total 14" },
-      { authorId: 120, minutesAgo: 6500, content: "Telat. udah jalan sesinya? 6 dan 8 itu komposisi finalnya" },
+      { authorId: 120, minutesAgo: 6500, content: "Udah jalan sesinya? 6 dan 8 itu komposisi finalnya" },
     ],
   },
   {
@@ -231,7 +231,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 217, minutesAgo: 6900, content: "Kalau ada kelompok 10, dua digit justru menyelamatkan urutan: 07, 08, 09, 10 rapi" },
       { authorId: 398, minutesAgo: 6881, content: "Matematis: 08 dan 8 sama-sama delapan. debatnya selesai" },
       { authorId: 141, minutesAgo: 6861, content: "Tulis di grup: 07 = 8 dan 08 = 8, jadi satu kelompok. beres" },
-      { authorId: 455, minutesAgo: 6300, content: "Telat. udah dibagi kelompok? 08 dan 8 memang satu" },
+      { authorId: 455, minutesAgo: 6300, content: "Udah dibagi kelompok? 08 dan 8 memang satu" },
     ],
   },
   {
@@ -259,7 +259,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 58, minutesAgo: 6776, content: "Ekspektasi itu temen paling jujur buat keputusan begini bre" },
       { authorId: 461, minutesAgo: 6750, content: "Kalau hujan, lift. kaki licin di tangga lebih mahal" },
       { authorId: 227, minutesAgo: 6723, content: "3,75 lawan 4. tangga menang 15 detik, plus menang kesehatan. menang gede" },
-      { authorId: 392, minutesAgo: 6100, content: "Telat. udah pilih? ekspektasi bilang tangga, badan juga bilang tangga" },
+      { authorId: 392, minutesAgo: 6100, content: "Udah pilih? ekspektasi bilang tangga, badan juga bilang tangga" },
     ],
   },
   {
@@ -284,7 +284,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 78, minutesAgo: 6867, content: "Yang bikin cepet biasanya pembaruan aplikasi di latar. matiin pembaruan otomatis" },
       { authorId: 482, minutesAgo: 6843, content: "16 hari itu udah bagus bre. awet sebulan butuh 0,8 GB per hari" },
       { authorId: 194, minutesAgo: 6818, content: "Hari ke-17 sore kuotanya gugur. persis pengalaman tiap bulan" },
-      { authorId: 345, minutesAgo: 6400, content: "Telat. udah gugur? 16 hari penuh plus 16 jam. itungannya fix" },
+      { authorId: 345, minutesAgo: 6400, content: "Udah gugur? 16 hari penuh plus 16 jam. itungannya fix" },
     ],
   },
   {
@@ -306,7 +306,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 196, minutesAgo: 6963, content: "Cara lain: 6 × 2 = 12, dibagi 1,5 = 8. hasil sama" },
       { authorId: 323, minutesAgo: 6942, content: "Kalau mendung cara ini gak jalan, harus matahari keluar" },
       { authorId: 71, minutesAgo: 6920, content: "Pohon 8 meter dipotong bertahap 2-3 kali. jangan sekali tebas" },
-      { authorId: 439, minutesAgo: 6700, content: "Telat. udah dipotong? 8 meter itu estimasi final, tukang pasti bawa cukup" },
+      { authorId: 439, minutesAgo: 6700, content: "Udah dipotong? 8 meter itu estimasi final, tukang pasti bawa cukup" },
     ],
   },
   {
@@ -336,7 +336,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 366, minutesAgo: 6813, content: "Bilang sopan:, hitung dua-duanya ya. kasir pasti mau" },
       { authorId: 89, minutesAgo: 6786, content: "29rb itu 17 persen lebih murah dari 35rb. gak sedikit" },
       { authorId: 431, minutesAgo: 6758, content: "Tarif parkir memang sumber drama. tulis pengalamanmu, bermanfaat buat semua" },
-      { authorId: 208, minutesAgo: 6200, content: "Telat. udah selesai? 29rb itu jawaban matematisnya, tinggal minta paketnya" },
+      { authorId: 208, minutesAgo: 6200, content: "Udah selesai? 29rb itu jawaban matematisnya, tinggal minta paketnya" },
     ],
   },
   {
@@ -357,7 +357,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 349, minutesAgo: 7050, content: "Beli sekali seminggu di yang kiloan, hemat 2rb dikali 4 minggu = 8rb sebulan" },
       { authorId: 207, minutesAgo: 7031, content: "Harga per 100 gram itu cara paling adil membandingkan dua kemasan" },
       { authorId: 128, minutesAgo: 7011, content: "Kalau di kios sering dikasih bonus sedikit, selisihnya balik lagi. hitungan plus relasi" },
-      { authorId: 447, minutesAgo: 6800, content: "Telat. udah beli? 30rb per kilo itu hitungan ecerannya, bener dari awal" },
+      { authorId: 447, minutesAgo: 6800, content: "Udah beli? 30rb per kilo itu hitungan ecerannya, bener dari awal" },
     ],
   },
   {
@@ -384,7 +384,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 444, minutesAgo: 6977, content: "Percetakan maksa rim biar gak rugi tinta dan set mesin. itu logika produksi" },
       { authorId: 160, minutesAgo: 6957, content: "Tulis dua opsi di rapat: rim 150rb pasti, lepas 90rb belum pasti. biar panitia milih bareng" },
       { authorId: 318, minutesAgo: 6936, content: "Satu lembar 4 undangan cocok kalau tata letak 2×2. pastiin garis potong biar rapi" },
-      { authorId: 58, minutesAgo: 6850, content: "Telat. udah dicetak? harga per lembar dua-duanya 1.500, jadi yang menang opsi yang pasti jalan" },
+      { authorId: 58, minutesAgo: 6850, content: "Udah dicetak? harga per lembar dua-duanya 1.500, jadi yang menang opsi yang pasti jalan" },
     ],
   },
   {
@@ -407,7 +407,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 452, minutesAgo: 7069, content: "Kalau HP dipakai sambil diisi, efektifnya turun lagi. jangan heran kalau cuma 2 kali" },
       { authorId: 81, minutesAgo: 7051, content: "2-3 kali itu standar semua power bank 20rb mAh yang jujur. belanja cerdas" },
       { authorId: 370, minutesAgo: 7032, content: "Yang nulis 4 kali mungkin membulatkan 4,44 ke bawah. dua-duanya ada logikanya" },
-      { authorId: 243, minutesAgo: 6500, content: "Telat. udah dicoba? 2-3 kali itulah jawaban di lapangan" },
+      { authorId: 243, minutesAgo: 6500, content: "Udah dicoba? 2-3 kali itulah jawaban di lapangan" },
     ],
   },
   {
@@ -436,7 +436,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 341, minutesAgo: 6948, content: "Kuncinya bedain nilai satu minggu sama jumlah total. dua istilah berbeda" },
       { authorId: 196, minutesAgo: 6921, content: "Kakakmu itung cepat pakai 30 × 10. kebiasaan orang dewasa, kadang meleset di detail" },
       { authorId: 72, minutesAgo: 6893, content: "Di PR tulis rumus lengkap sama yang diketahui. guru pasti senang" },
-      { authorId: 404, minutesAgo: 6400, content: "Telat. udah dikumpul? 325rb jawaban yang bener, terbukti dua cara" },
+      { authorId: 404, minutesAgo: 6400, content: "325rb jawaban yang bener, terbukti dua cara" },
     ],
   },
   {
@@ -460,7 +460,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 163, minutesAgo: 7108, content: "3 5/6 mungkin dari ½ jadi 3/6 lalu ¾ dia tulis 2/6. tanya ulang langkahnya" },
       { authorId: 89, minutesAgo: 7087, content: "4¼ = 17/4. kalau gurunya minta pecahan biasa, tulis 17/4" },
       { authorId: 338, minutesAgo: 7065, content: "Kakaknya sabar, adiknya berani mencoba. kombinasi bagus. 4¼ sudah dikukuhkan di atas" },
-      { authorId: 421, minutesAgo: 6750, content: "Telat. udah dikoreksi? 4¼ itu final, dua jalur di atas" },
+      { authorId: 421, minutesAgo: 6750, content: "Udah dikoreksi? 4¼ itu final, dua jalur di atas" },
     ],
   },
   {
@@ -486,7 +486,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 329, minutesAgo: 7089, content: "32,5 lawan 35, selisih 5rb di harga ini. kecil tapi prinsipnya penting" },
       { authorId: 261, minutesAgo: 7066, content: "Ajak temenmu liat struknya. struk tidak berbohong" },
       { authorId: 384, minutesAgo: 7042, content: "Rumus cepat: bayar = harga × (1 − diskon1) × (1 − diskon2). hafalkan" },
-      { authorId: 143, minutesAgo: 6750, content: "Telat. jaketnya udah dibeli? 135rb angka finalnya, diskon efektif 32,5 persen" },
+      { authorId: 143, minutesAgo: 6750, content: "Jaketnya udah dibeli? 135rb angka finalnya, diskon efektif 32,5 persen" },
     ],
   },
   {
@@ -507,7 +507,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 482, minutesAgo: 7225, content: "Cek cepat: hari ke-4 A karena 4 mod 3 = 1, hari ke-7 juga A. pola tiap 3 hari. hari 100 ikut pola itu" },
       { authorId: 314, minutesAgo: 7206, content: "Vonis: tim A, dengan catatan acuan hari ke-1 tertulis. selesai" },
       { authorId: 233, minutesAgo: 7187, content: "Rekanmu mungkin terbiasa indeks mulai dari 0. jadwal manusia mulai hari 1. beda dunia" },
-      { authorId: 408, minutesAgo: 6900, content: "Telat. jadwalnya udah keluar? tim A itu vonis final" },
+      { authorId: 408, minutesAgo: 6900, content: "Jadwalnya udah keluar? tim A itu vonis final" },
     ],
   },
   {
@@ -535,7 +535,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 113, minutesAgo: 7105, content: "Hitungan bapak biasanya untuk dompet, hitungan ibu untuk hasil. dua-duanya jujur" },
       { authorId: 352, minutesAgo: 7081, content: "Cek telur juga: kalau 6 porsi pakai 3 butir, 15 porsi = 7,5 butir. dibulat ke atas 8" },
       { authorId: 206, minutesAgo: 7056, content: "1.125 boleh dibulat naik jadi 1.150 untuk toleransi. tapi 1.250 lebih aman" },
-      { authorId: 479, minutesAgo: 6950, content: "Telat. udah dipanggang? 3 kemasan itu keputusan yang benar" },
+      { authorId: 479, minutesAgo: 6950, content: "Udah dipanggang? 3 kemasan itu keputusan yang benar" },
     ],
   },
   {
@@ -557,7 +557,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 271, minutesAgo: 7263, content: "Kepusingan itu wajar, konversi km/jam ke m/detik memang bagi 3,6" },
       { authorId: 466, minutesAgo: 7242, content: "Di 120 km/j jadi 33,3 m per detik. jarak 3 detik = 100 m. makin cepat makin jauh" },
       { authorId: 199, minutesAgo: 7220, content: "25 meter per detik itu dua setengah panjang bus dalam satu detik. parah cepatnya kalau dibayangkan" },
-      { authorId: 330, minutesAgo: 6900, content: "Telat. udah dipraktikkan? 25 m per detik dan 75 m itu angka yang benar semua" },
+      { authorId: 330, minutesAgo: 6900, content: "Udah dipraktikkan? 25 m per detik dan 75 m itu angka yang benar semua" },
     ],
   },
   {
@@ -582,7 +582,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 226, minutesAgo: 7222, content: "Di jawaban tulis rincian bobotnya. dosen suka proses yang kelihatan" },
       { authorId: 180, minutesAgo: 7198, content: "81,67 sah sebagai rata-rata sederhana, cuma bukan rumus yang dipakai kampus" },
       { authorId: 487, minutesAgo: 7173, content: "Dua metode, dua hasil, dua-duanya jujur. yang dipakai adalah yang ada di pedoman" },
-      { authorId: 254, minutesAgo: 6900, content: "Telat. nilainya udah keluar? 82,5 itu final" },
+      { authorId: 254, minutesAgo: 6900, content: "Nilainya udah keluar? 82,5 itu final" },
     ],
   },
   {
@@ -612,7 +612,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 412, minutesAgo: 7164, content: "0,5 L per detik di atap 60 m² setara hujan 30 mm per jam. masuk kategori sedang" },
       { authorId: 150, minutesAgo: 7138, content: "Kolam sekecil ini gampang dirawat. 7,2 m itu mini pool yang enak" },
       { authorId: 108, minutesAgo: 7111, content: "Semua angka di atas bener: 7,2 m³, 5.760 L, 86.400, 192 menit. teliti" },
-      { authorId: 362, minutesAgo: 6850, content: "Telat. udah keisi? 3j12m itu hitungan hujan normalnya, sisanya cuaca yang mengatur" },
+      { authorId: 362, minutesAgo: 6850, content: "Udah keisi? 3j12m itu hitungan hujan normalnya, sisanya cuaca yang mengatur" },
     ],
   },
   {
@@ -635,7 +635,7 @@ export const THREADS_PART10: ThreadzThread[] = [
       { authorId: 266, minutesAgo: 7339, content: "Suku ke-n pakai 12 + 3(n−1), jangan 12 + 3n. itu sumber salah paling sering" },
       { authorId: 145, minutesAgo: 7320, content: "Kalau baris pertama VIP hanya 12, sisanya 15 per baris. rapi" },
       { authorId: 493, minutesAgo: 7300, content: "255 − 240 = 15. dua kali dicek. minta ke SD, beres" },
-      { authorId: 310, minutesAgo: 6950, content: "Telat. kursinya udah diangkut? 255 total, titip 15 dari SD. semua di atas sudah kukuh" },
+      { authorId: 310, minutesAgo: 6950, content: "Kursinya udah diangkut? 255 total, titip 15 dari SD. semua di atas sudah kukuh" },
     ],
   },
 ]

@@ -26,7 +26,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 2938, content: "70, 75, 80 naik 5 tiap ulangan. kalau polanya lanjut, 85. 87 sedikit di atas pola" },
       { authorId: 209, minutesAgo: 2800, content: "tiga ulangan rata 75. keempat harus 87 biar rata total naik ke 78. berat tapi masuk akal" },
       { authorId: 468, minutesAgo: 2780, content: "87 itu fix. dua kali dicek di atas" },
-      { authorId: 404, minutesAgo: 100, content: "telat. ulangannya udah kelar? 87 targetnya, semangat anaknya" },
+      { authorId: 404, minutesAgo: 100, content: "Ulangannya udah kelar? 87 targetnya, semangat anaknya" },
     ],
   },
   {
@@ -53,7 +53,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 2898, content: "gurunya lucu sih bilang biar adil. tapi dugaan gue dia gak siap jelasin pencilan wkwk" },
       { authorId: 245, minutesAgo: 2880, content: "73,3 itu 440 ÷ 6 = 73,33 dibulat. benar bre" },
       { authorId: 87, minutesAgo: 2861, content: "mean bohong kalau datanya timpang bre. median jujur karena cuma lihat posisi" },
-      { authorId: 275, minutesAgo: 100, content: "telat bre. nilai udah dibahas di kelas? mean dan median dua-duanya sah" },
+      { authorId: 275, minutesAgo: 100, content: "Nilai udah dibahas di kelas? mean dan median dua-duanya sah" },
     ],
   },
   {
@@ -74,7 +74,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 3012, content: "median itu posisi, bukan pangkat. murid tadi paham bagus, tinggal dibalut" },
       { authorId: 288, minutesAgo: 3000, content: "ke-14 + ke-15 dibagi dua = nilai median. dua-duanya namanya masuk" },
       { authorId: 466, minutesAgo: 2880, content: "Kelas 28 atau 29 sama saja, yang penting definisinya jelas di papan" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. muridnya udah puas? median dua orang itu sah" },
+      { authorId: 473, minutesAgo: 100, content: "Muridnya udah puas? median dua orang itu sah" },
     ],
   },
   {
@@ -103,7 +103,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 325, minutesAgo: 2867, content: "jawaban singkat: asli 88,89%. tampilan ikut permintaan laporan" },
       { authorId: 96, minutesAgo: 2843, content: "9 hari itu pendek buat bulan. kalau 22 hari, desimalnya makin halus" },
       { authorId: 307, minutesAgo: 2818, content: "88,9 itu 8 ÷ 9. dua kali dicek, benar" },
-      { authorId: 481, minutesAgo: 100, content: "telat. diskusinya udah selesai? 89 sah, 88,9 lebih teliti" },
+      { authorId: 481, minutesAgo: 100, content: "Diskusinya udah selesai? 89 sah, 88,9 lebih teliti" },
     ],
   },
   {
@@ -127,7 +127,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 3036, content: "peluang 1/4 itu jangka panjang. 20 mutaran itu cuma babak pemanasan" },
       { authorId: 466, minutesAgo: 3021, content: "kalau mau aman dari tuduhan, undang pelanggan catat sendiri tiap putaran. transparan" },
       { authorId: 76, minutesAgo: 3005, content: "5 dari 20 itu ekspektasi. 6 itu nyata. nyata boleh menyimpang dikit" },
-      { authorId: 473, minutesAgo: 100, content: "telat bre. rodanya masih muter? catat 100 putaran, selesai ceritanya" },
+      { authorId: 473, minutesAgo: 100, content: "Rodanya masih muter? catat 100 putaran, selesai ceritanya" },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 275, minutesAgo: 2961, content: "6 itu gak punya ingatan bre. lempar ke-11 gak nyimpen dendam dari 10 lempar sebelumnya" },
       { authorId: 190, minutesAgo: 2940, content: "di pabrik cek dadu pakai ribuan lemparan. 10 itu cuma cek mata" },
       { authorId: 123, minutesAgo: 2918, content: "(5/6)^10 = 0,1615. jadi 16% dari kasus seperti lu gak lihat 6 sama sekali bre" },
-      { authorId: 286, minutesAgo: 100, content: "telat bre. dadunya udah dipensiunin? 60 lempar aja dulu, baru vonis" },
+      { authorId: 286, minutesAgo: 100, content: "Dadunya udah dipensiunin? 60 lempar aja dulu, baru vonis" },
     ],
   },
   {
@@ -180,7 +180,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 352, minutesAgo: 2980, content: "108 derajat itu oke. yang penting jarak antar garisnya rapi saat digambar" },
       { authorId: 468, minutesAgo: 2960, content: "Udah cek dua kali, itu budaya peneliti yang bener. lanjut" },
       { authorId: 404, minutesAgo: 2940, content: "108 itu aman. pembimbing bakal seneng lihat persen × 360 dipakai bener" },
-      { authorId: 61, minutesAgo: 100, content: "telat. diagramnya udah digambar? 108 derajat itu fix" },
+      { authorId: 61, minutesAgo: 100, content: "Diagramnya udah digambar? 108 derajat itu fix" },
     ],
   },
   {
@@ -206,7 +206,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 2940, content: "6 kali pengukuran, semua masuk itungan. data lengkap, chart sah" },
       { authorId: 87, minutesAgo: 2920, content: "37,25 dua desimal. kalau unit minta satu desimal, 37,3. ikuti aturannya" },
       { authorId: 275, minutesAgo: 2900, content: "chart pasien tuh urusan konsistensi. format sama dari awal sampai akhir" },
-      { authorId: 190, minutesAgo: 100, content: "telat. pasiennya udah pulih? 37,25 sah, trennya yang bener" },
+      { authorId: 190, minutesAgo: 100, content: "Pasiennya udah pulih? 37,25 sah, trennya yang bener" },
     ],
   },
   {
@@ -227,7 +227,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 74, minutesAgo: 3191, content: "catet dua kolom: hujan dan cerah. nanti kelihatan polanya sendiri" },
       { authorId: 59, minutesAgo: 3178, content: "30% batal tapi 7 order jalan. itu masih untung " },
       { authorId: 288, minutesAgo: 2900, content: "keluh ke platform itu sah kalau pakai data. bawa catatan 10 hari" },
-      { authorId: 466, minutesAgo: 100, content: "Telat. hujannya udah reda? 30% itu wajar" },
+      { authorId: 466, minutesAgo: 100, content: "Hujannya udah reda? 30% itu wajar" },
     ],
   },
   {
@@ -255,7 +255,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 232, minutesAgo: 2960, content: "di kertas berpetak kelihatan bre: batang dari 80 sampai 85. tengahnya 82,5" },
       { authorId: 175, minutesAgo: 2940, content: "jawaban lu 80 bukan salah total, cuma itu batas bawah kelas bre" },
       { authorId: 270, minutesAgo: 2920, content: "kelas 80-85 termasuk mana? kalau 85 masuk kelas laen, batangnya beda lagi. detail" },
-      { authorId: 481, minutesAgo: 100, content: "telat bre. nilainya udah keluar? 82,5 itu fix buat data berkelompok" },
+      { authorId: 481, minutesAgo: 100, content: "Nilainya udah keluar? 82,5 itu fix buat data berkelompok" },
     ],
   },
   {
@@ -280,7 +280,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 466, minutesAgo: 3201, content: "rekan kantor gak salah baca, dia cuma lupa pembaginya berubah jadi 6" },
       { authorId: 76, minutesAgo: 3185, content: "131 + 3,17 = 134,17. mundur cocok, maju cocok" },
       { authorId: 473, minutesAgo: 2900, content: "di slide tulis dua angka: rata lama 131, rata baru 134,17. rapat langsung paham" },
-      { authorId: 245, minutesAgo: 100, content: "telat. rapat senin udah lewat? 134,17 itu fix" },
+      { authorId: 245, minutesAgo: 100, content: "Rapat senin udah lewat? 134,17 itu fix" },
     ],
   },
   {
@@ -302,7 +302,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 76, minutesAgo: 3247, content: "9 titik data buat tren mingguan cukup. buat bulanan kurang" },
       { authorId: 473, minutesAgo: 3230, content: "cukup buat lihat pola, gak cukup buat diagnosis. itu dua hal beda" },
       { authorId: 245, minutesAgo: 2800, content: "kas pasien pulang kampung itu dicatat juga. dokumentasi lengkap" },
-      { authorId: 87, minutesAgo: 100, content: "telat. polanya udah keliatan? 9 hari itu cukup buat awal" },
+      { authorId: 87, minutesAgo: 100, content: "Polanya udah keliatan? 9 hari itu cukup buat awal" },
     ],
   },
   {
@@ -332,7 +332,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 190, minutesAgo: 3158, content: "koin gak punya nama bre, tapi posisinya punya. pertama dan kedua itu beda kursi" },
       { authorId: 123, minutesAgo: 3136, content: "GG 1/4, GA 1/4, AG 1/4, AA 1/4. total 4/4 = 1. cocok semua" },
       { authorId: 286, minutesAgo: 3113, content: "lempar 4 kali aja bre, catet. kadang langsung kena semua kemungkinan" },
-      { authorId: 436, minutesAgo: 100, content: "telat bre. PR-nya udah dikumpul? 1/4 itu jawaban yang benar" },
+      { authorId: 436, minutesAgo: 100, content: "PR-nya udah dikumpul? 1/4 itu jawaban yang benar" },
     ],
   },
   {
@@ -353,7 +353,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 3110, content: "Data segini cukup buat jawab. sisanya nanti keliatan sendiri" },
       { authorId: 466, minutesAgo: 3090, content: "9 motor jam 09-10 itu turun cepat. perhatiin besok apakah polanya sama" },
       { authorId: 76, minutesAgo: 2870, content: "Pos begini buat papernya sederhana: tabel jam dan jumlah. langsung paham" },
-      { authorId: 473, minutesAgo: 100, content: "telat. omnya udah buka pos? tunjukin angka 22 itu, selesai" },
+      { authorId: 473, minutesAgo: 100, content: "Omnya udah buka pos? tunjukin angka 22 itu, selesai" },
     ],
   },
   {
@@ -380,7 +380,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 3278, content: "240 tetap muncul di data teh, berarti pasar masih ada" },
       { authorId: 87, minutesAgo: 3050, content: "warung kecil emang bergelombang teh. 210 rata itu normal" },
       { authorId: 275, minutesAgo: 3030, content: "8,7% itu dalam toleransi teh. panik kalau lewat 15%" },
-      { authorId: 190, minutesAgo: 100, content: "telat teh. minggu ini masuk brp? kalau balik ke 230, aman" },
+      { authorId: 190, minutesAgo: 100, content: "Minggu ini masuk brp? kalau balik ke 230, aman" },
     ],
   },
   {
@@ -403,7 +403,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 288, minutesAgo: 3160, content: "kalau kopi tepat sepertiga lebih dari teh, harusnya sekitar 13 orang, bukan 25. jadi angka asli yang menang" },
       { authorId: 466, minutesAgo: 3140, content: "5 dari 40 itu 12,5%. 10 dari 40 itu 25%. semua kelipatan 12,5. rapi juga" },
       { authorId: 76, minutesAgo: 3120, content: "survey 40 orang memang gak bisa 60%. tawarin survei lanjutan 50 orang" },
-      { authorId: 473, minutesAgo: 100, content: "telat. bosnya udah cocok? 62,5 itu jujur, 63 boleh di slide" },
+      { authorId: 473, minutesAgo: 100, content: "Bosnya udah cocok? 62,5 itu jujur, 63 boleh di slide" },
     ],
   },
   {
@@ -432,7 +432,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 275, minutesAgo: 3299, content: "kalau dosen minta satu, rata-rata dulu. range jadi pelengkap" },
       { authorId: 190, minutesAgo: 3278, content: "44 menit rata, 42-47 rentang. itu kalimat laporan paling ringkas" },
       { authorId: 123, minutesAgo: 3256, content: "dua-duanya bre. mean buat ekspektasi, range buat kepercayaan" },
-      { authorId: 286, minutesAgo: 100, content: "telat bro. laporannya udah dikumpul? rata 44, range 5. dua-duanya bener" },
+      { authorId: 286, minutesAgo: 100, content: "Laporannya udah dikumpul? rata 44, range 5. dua-duanya bener" },
     ],
   },
   {
@@ -456,7 +456,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 3120, content: "Modal nganggur itu mangga. lebih baik kurang dari lebih" },
       { authorId: 245, minutesAgo: 3100, content: "2/3 laku itu sehat. pasar masih minta" },
       { authorId: 87, minutesAgo: 3080, content: "besok 40, lusa turun lagi kalau sisa masih banyak. bertahap" },
-      { authorId: 76, minutesAgo: 100, content: "Telat. mangganya udah ke pasar? 40 kilo itu patokan awal" },
+      { authorId: 76, minutesAgo: 100, content: "Mangganya udah ke pasar? 40 kilo itu patokan awal" },
     ],
   },
   {
@@ -482,7 +482,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 3204, content: "bos mikirnya bagus. angka rakitan itu tetap matematika sah" },
       { authorId: 245, minutesAgo: 3184, content: "mean 290, nilai harian 270-310. rentangnya rapat, dagang stabil" },
       { authorId: 87, minutesAgo: 3164, content: "rata tiga hari itu buat rencana stok bos. bukan buat struk" },
-      { authorId: 275, minutesAgo: 100, content: "telat bos. minggu depan omzetnya masuk 290-an? tinggal bandingin" },
+      { authorId: 275, minutesAgo: 100, content: "Minggu depan omzetnya masuk 290-an? tinggal bandingin" },
     ],
   },
   {
@@ -503,7 +503,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 3300, content: "cepat itu jarak dibagi waktu. dua angka wajib ikut, satu doang bohong" },
       { authorId: 288, minutesAgo: 3280, content: "9 km 20 menit itu 27 km/j. jalan kota memang segitu" },
       { authorId: 466, minutesAgo: 3260, content: "penumpang kedua mungkin ngerasa mepet waktu. rasanya cepat, hitungannya belum tentu" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. penumpangnya udah paham? 33,6 lawan 27, pertama yang menang" },
+      { authorId: 473, minutesAgo: 100, content: "Penumpangnya udah paham? 33,6 lawan 27, pertama yang menang" },
     ],
   },
   {
@@ -531,7 +531,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 245, minutesAgo: 3450, content: "per kepala 24. itu angka yang bakal diinget semua orang. pilih damai" },
       { authorId: 87, minutesAgo: 3431, content: "Gue tim itung ulang kalau selisihnya gede. kali ini 24 doang, lewat" },
       { authorId: 275, minutesAgo: 3411, content: "24 ribu × 4 = 96. pas. besok beresin sistemnya" },
-      { authorId: 190, minutesAgo: 100, content: "Telat. udah bayar? bagi rata, tidur, selesai" },
+      { authorId: 190, minutesAgo: 100, content: "Udah bayar? bagi rata, tidur, selesai" },
     ],
   },
   {
@@ -553,7 +553,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 59, minutesAgo: 3573, content: "3/8 itu 37,5%. hampir dua dari lima. gak kecil-kecil amat" },
       { authorId: 288, minutesAgo: 3560, content: "anak sekarang nanya-nanya peluang. pertahankan, itu pintu matematika" },
       { authorId: 466, minutesAgo: 3546, content: "kalau kantong 50 biru 10 merah, pasti merahnya gak keluar. banyak dan sedikit itu bahasanya" },
-      { authorId: 473, minutesAgo: 100, content: "Telat. anaknya masih main? biarin dia ambil terus, polanya jelas" },
+      { authorId: 473, minutesAgo: 100, content: "Anaknya masih main? biarin dia ambil terus, polanya jelas" },
     ],
   },
   {
@@ -578,7 +578,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 473, minutesAgo: 3310, content: "drop 6,3% di sepuluh menit itu gak panik bre. panik kalau 20%" },
       { authorId: 245, minutesAgo: 3290, content: "200 per menit rata-rata itu estimasi. nyata pasti bergoyang. gak usah sampe ekspektasi pas" },
       { authorId: 87, minutesAgo: 3270, content: "1.874. anehnya spesifik, berarti datanya bener. log server jujur" },
-      { authorId: 275, minutesAgo: 100, content: "telat bre. udah ketahuan penyebabnya? 6,3% itu masih aman" },
+      { authorId: 275, minutesAgo: 100, content: "Udah ketahuan penyebabnya? 6,3% itu masih aman" },
     ],
   },
   {
@@ -608,7 +608,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 286, minutesAgo: 3280, content: "Jawab kue itu memang bagus. benda nyata selalu menang" },
       { authorId: 436, minutesAgo: 3260, content: "kalau nilai temannya 70, baru terasa bedanya 60. konteks mempengaruhi" },
       { authorId: 226, minutesAgo: 3240, content: "60 itu tepat lulus di kebanyakan tempat. kata di atas udah bener semua" },
-      { authorId: 152, minutesAgo: 100, content: "Telat. cucunya udah tenang? 60 lulus mepet, tetap semangat" },
+      { authorId: 152, minutesAgo: 100, content: "Cucunya udah tenang? 60 lulus mepet, tetap semangat" },
     ],
   },
   {
@@ -631,7 +631,7 @@ export const THREADS_PART5: ThreadzThread[] = [
       { authorId: 466, minutesAgo: 3380, content: "91,67 ke bilangan terdekat emang 92. jaraknya cuma 0,33. sah" },
       { authorId: 76, minutesAgo: 3360, content: "magang yang ngitung sendiri persen absennya itu langka. nilai plus buat mentor" },
       { authorId: 473, minutesAgo: 3340, content: "HR biasanya bulat doang buat rekap besar. satuan kecil tetap desimal" },
-      { authorId: 245, minutesAgo: 100, content: "telat. laporannya udah masuk? 91,67 asli, 92 ringkasan. beres" },
+      { authorId: 245, minutesAgo: 100, content: "Laporannya udah masuk? 91,67 asli, 92 ringkasan. beres" },
     ],
   },
 ]

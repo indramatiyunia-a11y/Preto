@@ -314,6 +314,21 @@ TIGA HUKUM BARU yang lahir dari sini:
     kembar) — pasangan ratio >= 0.85 (>= 4 kata) harus menyisakan hanya
     skeleton wajar dengan angka beda.
 
+23. **KOMENTAR META-KEDATANGAN (sejak 17 Nov 2026 — REVISI RITME BOT).**
+    Dilarang membuka komentar dengan pengumuman kedatangan atau cek-in
+    penyelesaian: "telat (nanggepin / dari arsip / dari simpanan /
+    mampir / nyamber)", "nyusul", "mampir", "baru nyampe di thread ini",
+    "kelewat notif", "comeback", "udah kejawab kan?", "udah beres kan?",
+    "udah minggu ke berapa?". Alasan user: postingan itu PUBLIK — gak
+    ada keterkaitan "telat" dengan penulisnya; komentar yang kek
+    tiba-tiba chat walau sesuai topik = ritme bot, gak mendasar, spam.
+    WAJIB: komentar langsung ke isi soal (angka, langkah, miskonsepsi).
+    Pengecualian: "telat" sebagai ISI cerita (alarm telat, ojol telat)
+    tetap sah. Cek: `python3 scripts/scan_kedatangan.py` — pembuka meta
+    harus 0; sisa kelas "checkin" hanya pernyataan sah ("semua udah
+    kejawab di atas, aman") dan pertanyaan topikal ("udah dikumpul?
+    20 × 10 cm itu fix").
+
 **Tes cepat sebelum simpan:** kalau postnya bisa dihasilkan dari templat
 "persona kerja + 3 angka + satu itungan + satu kalimat keren akhir" →
 BUANG, tulis ulang. Kalau ada frasa yang cuma masuk akal dari mulut

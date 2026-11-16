@@ -659,6 +659,32 @@ CATATAN TEKNIS tetap: regenerasi threads-41..60 wajib fix authorId post
   rumus-v2.md. WAJIB sebelum batch baru: python3 scripts/scan_sapaan.py
   (harus pas 110) + deteksi kembar di scripts/fix_sapaan_1d.py.
 
+## REVISI RITME BOT (17 Nov 2026) — PEMBONGKARAN META-KEDATANGAN
+
+- Pemicu: user contoh 3 komentar ("telat nanggepin, tapi udah beres kan?
+  soal 150 itu memang urusan prinsip", "baru nyampe di thread ini. udah
+  beres kan urusan timbangnya? koma itu emang butuh sabar", "Telat. udah
+  minggu ke berapa sekarang? tinggal dikit lagi harusnya") + arahan:
+  FORMULA-nya yang diubah bukan kata-katanya; komentar harus langsung
+  sesuai topik — postingan publik, gak ada keterkaitan "telat"; jawaban
+  gak mendasar = spam.
+- Scan: 1.494 komentar meta-kedatangan (opener telat 998, kelewat 141,
+  cek-in 109, dari arsip 79, nyusul 74, mampir 73).
+- v1 script GAGAL (menelan 22.609 komentar) -> git checkout restore ke
+  commit 10a767f -> v2 benar: HANYA komentar berpembuka meta yang disentuh
+  (1.384: 457 strip+keep, 927 template tersusun dari angka post induk;
+  kalimat meta beruntun dibuang maks 3, kalimat berlabel cukup labelnya).
+- Lanjutan: templat klaim palsu (#6/#8 "beda tipis/ketuker") 152 dibenahi;
+  slot '?' (post tanpa angka) dibenahi; koordinasi templat per-author 508
+  + dedup tanpa-angka 8 + dedup string persis 10 -> pasangan kembar
+  per-author 79 -> 7 (baseline wajar, angka beda); 1 pembuka lolos ("baru
+  nyampe", contoh #2 user) dipatch manual.
+- Verifikasi: 1518 post / 22881 komentar / kerusakan struktur 0; pembuka
+  meta 0; audit-full "SEMUA AMAN", cek-matematika-v5 LOLOS,
+  cek-komen-aturan LOLOS (distribusi 11-20 per post tetap).
+- Hukum baru: FORMULA HITAM 23 (kommentar meta-kedatangan). Checker:
+  python3 scripts/scan_kedatangan.py (pembuka meta harus 0).
+
 ## PROTOKOL BACA SEBELUM NULIS BATCH
 
 1. `./dev.sh status` — lihat batch berikutnya, id, author, rentang menit.

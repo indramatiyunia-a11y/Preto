@@ -28,7 +28,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 244, minutesAgo: 655, content: "di kantor gue nyari liter juga pakai logikanya. 3/4 gelas antiseptik kepake setengah, sisa 3/8 gelas. nyata kok bre" },
       { authorId: 101, minutesAgo: 620, content: "anaknya keren tuh, gak asal jawab, masih gambar dulu. kebanyakan langsung nebak" },
       { authorId: 363, minutesAgo: 560, content: "sisa 3/8 bre. PR anak SD aja bikin debat satu rumah wkwk 🙃" },
-      { authorId: 215, minutesAgo: 15, content: "telat nanggepin, tapi 3/8 itu udah fix. udah tuntas kan PR-nya?" },
+      { authorId: 215, minutesAgo: 15, content: "kasus 3 begini enak buat latihan cepet" },
     ],
   },
   {
@@ -55,7 +55,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 58, minutesAgo: 555, content: "Di rumah juga gitu, bagi jajan 84 ribu ke 5 anak gak pernah rata. akhirnya satu dikit lebih" },
       { authorId: 331, minutesAgo: 510, content: "17×4 + 16 = 84 juga bisa sih, tapi tetep gak rata. bener deh mustahil sama semua" },
       { authorId: 184, minutesAgo: 460, content: "Gimana kalau raknya 8? 84 ÷ 8 = 10 sisa 4 juga kan. nanya buat magangnya" },
-      { authorId: 468, minutesAgo: 140, content: "telat, tapi jawabannya tetep: 5 bukan faktor 84. udah kejawab kan dari siang?" },
+      { authorId: 468, minutesAgo: 140, content: "Udah kejawab kan dari siang?" },
     ],
   },
   {
@@ -105,7 +105,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 205, minutesAgo: 630, content: "Yang ukur aja juga bisa salah kalau penggarisnya gak nempel. jadi pilih hitungan " },
       { authorId: 297, minutesAgo: 590, content: "Gak ada yang ngesahin hitungan. paling pengecekan fisiknya doang yang beda hasil dikit" },
       { authorId: 23, minutesAgo: 545, content: "pelat besi jarang persis persegi, biasanya ada toleransi. makanya laporan pakai hitungan, fisiknya diterima apa adanya" },
-      { authorId: 379, minutesAgo: 95, content: "Telat, tapi udah kejawab kan? 15 cm dari hitungan, ukur cuma buat gaya" },
+      { authorId: 379, minutesAgo: 95, content: "15 cm dari hitungan, ukur cuma buat gaya" },
     ],
   },
   {
@@ -129,7 +129,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 137, minutesAgo: 745, content: "0,5 dan 0,25 itu di biner bersih. makanya contoh tadi hasilnya rapi" },
       { authorId: 418, minutesAgo: 715, content: "Gak usah takut, kalkulator kasir aja dibikin pake aturan pembulatan sendiri biar bersih. ponsel cuma lebih jujur nunjukin sisa" },
       { authorId: 202, minutesAgo: 680, content: "Kita juga gitu sih: 1/3 ditulis 0,333... gak berhingga. komputer sama, cuma dia basis 2" },
-      { authorId: 481, minutesAgo: 250, content: "Telat, tapi penjelasan di atas udah lengkap. intinya mesin pake biner, kita pake sepuluh. dua bahasa beda" },
+      { authorId: 481, minutesAgo: 250, content: "Intinya mesin pake biner, kita pake sepuluh. dua bahasa beda" },
     ],
   },
   {
@@ -159,7 +159,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 29, minutesAgo: 677, content: "logika baliknya ngebuktiin sendiri bre: kalau lu gak mau rugi 150, orang lain juga gak mau" },
       { authorId: 143, minutesAgo: 654, content: "buat catatan: 17.350 + 2.650 = 20.000. pas. jadi 2.650 itu angka wajib, bukan selera" },
       { authorId: 476, minutesAgo: 630, content: "kasir yang baik nyatet receh habis jam berapa, besoknya bisa antisipasi. itu juga bagian matematika" },
-      { authorId: 286, minutesAgo: 90, content: "telat nanggepin, tapi udah beres kan? soal 150 itu memang urusan prinsip" },
+      { authorId: 286, minutesAgo: 90, content: "Soal 150 itu memang urusan prinsip" },
     ],
   },
   {
@@ -182,7 +182,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 73, minutesAgo: 855, content: "anak saya dulu sama, pahamnya pas dibagiin uang saku seribu jadi dua kali limaratus. langsung nyambung" },
       { authorId: 281, minutesAgo: 838, content: "pelanggan udah ditimbang manual teh, itu udah solusi. sisanya dikasih paham pelan-pelan aja" },
       { authorId: 187, minutesAgo: 818, content: "0,2 kilo itu 200 gram, setengah kilo 500 gram. beda 300 gram. bisa merugi teh kalau kejadian terus" },
-      { authorId: 447, minutesAgo: 120, content: "baru nyampe di thread ini. udah beres kan urusan timbangnya? koma itu emang butuh sabar" },
+      { authorId: 447, minutesAgo: 120, content: "koma itu emang butuh sabar. urusan timbangnya jadi keliatan jelas" },
     ],
   },
   {
@@ -208,7 +208,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 296, minutesAgo: 825, content: "buat cek terakhir: 3/4 × 4 = 3. jadi empat kali masak butuh 3 sendok penuh. nempel logikanya" },
       { authorId: 152, minutesAgo: 800, content: "Sebelum jam masak siang udah kejawab semua kan? aman" },
       { authorId: 444, minutesAgo: 770, content: "Kalau kebanyakan garam bisa diselametin pake kentang rebus, lagi-lagi urusan takaran wkwk" },
-      { authorId: 219, minutesAgo: 130, content: "Telat, pasti masakannya udah mateng. jawabannya tetep: 1,5 × 1/2 = 3/4, sah" },
+      { authorId: 219, minutesAgo: 130, content: "Jawabannya tetep: 1,5 × 1/2 = 3/4, sah" },
     ],
   },
   {
@@ -229,7 +229,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 310, minutesAgo: 923, content: "shift malam gak boleh mepet. catat 4 jam, sisain 30 menit cadangan di akhir" },
       { authorId: 22, minutesAgo: 907, content: "4 jam = 240 menit. kalau per ronda 30 menit, pas 8 ronda bre" },
       { authorId: 373, minutesAgo: 890, content: "rekan lu mungkin salah bacanya, 03.00 ke 06.00 = 3 jam. kejadian sering di logbook wkwk" },
-      { authorId: 439, minutesAgo: 95, content: "telat. udah gantian kan? 4 jam itu udah bener dari awal" },
+      { authorId: 439, minutesAgo: 95, content: "Udah gantian kan? 4 jam itu udah bener dari awal" },
     ],
   },
   {
@@ -257,7 +257,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 120, minutesAgo: 860, content: "Kalau minus ÷ minus gimana ya? kayak (−6) ÷ (−2) = 3. kok bisa plus" },
       { authorId: 284, minutesAgo: 840, content: "buat yang di atas nanya bagi: aturan tandanya sama kayak kali. beda tanda minus, sama tanda plus" },
       { authorId: 192, minutesAgo: 815, content: "cerita dosen dulu: matematika itu konsisten, bukan ajaib. minus kali minus plus karena kalau gak gitu semua rumus jadi gak cocok" },
-      { authorId: 462, minutesAgo: 105, content: "telat tapi penting: cerita utang di atas udah bener semua. minus kali minus = plus, fix" },
+      { authorId: 462, minutesAgo: 105, content: "Minus kali minus = plus, fix" },
     ],
   },
   {
@@ -282,7 +282,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 285, minutesAgo: 943, content: "Jangan panik, lu malah udah lebih teliti dari temen yang bilang 3/7 paling kecil" },
       { authorId: 411, minutesAgo: 926, content: "bonus: penyebut sama bikin nambah gampang. 28/70 + 30/70 = 58/70. latihan buat besok" },
       { authorId: 76, minutesAgo: 908, content: "temen gue dulu pake kalkulator buat soal ginian, kena tegur. paham konsepnya lebih penting" },
-      { authorId: 467, minutesAgo: 110, content: "telat, kuisnya udah kelar pasti. jawaban lu bener dari awal: 2/5, 3/7, 1/2" },
+      { authorId: 467, minutesAgo: 110, content: "Jawaban lu bener dari awal: 2/5, 3/7, 1/2" },
     ],
   },
   {
@@ -304,7 +304,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 130, minutesAgo: 1021, content: "Pakai jari juga bisa: 7×8 = 7×10 − 7×2 = 70 − 14 = 56. jalan tikus tapi sah" },
       { authorId: 388, minutesAgo: 1007, content: "keluarga 7 panjang: 7×6 = 42, 7×7 = 49, 7×8 = 56, 7×9 = 63. selisihnya 7 semua, rapi" },
       { authorId: 113, minutesAgo: 992, content: "Anak yang ngeh ada pola biasanya doyan matematika. kasih kotak titik 7×8, biar dia liat sendiri" },
-      { authorId: 421, minutesAgo: 90, content: "Telat. udah beres kan jam belajarnya? 7×8 = 56, jangan lupa" },
+      { authorId: 421, minutesAgo: 90, content: "7×8 = 56, jangan lupa" },
     ],
   },
   {
@@ -334,7 +334,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 239, minutesAgo: 910, content: "tabel itu kayak kamus saku, gak semua kata masuk. 17 kata langka, gak nempel di halaman pertama" },
       { authorId: 366, minutesAgo: 888, content: "yang bagus anak gak asal copet tabel. dia nanya kenapa 17 gak ada. otaknya jalan" },
       { authorId: 134, minutesAgo: 865, content: "masih inget PR beginian ampe sekarang wkwk. 51 = 3 × 17, anak gue juga pernah kena soal mirip" },
-      { authorId: 473, minutesAgo: 100, content: "telat bunda. udah dikumpulin kan PR-nya? 51 bukan prima, udah fix" },
+      { authorId: 473, minutesAgo: 100, content: "51 bukan prima, udah fix" },
     ],
   },
   {
@@ -355,7 +355,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 432, minutesAgo: 1089, content: "2520 angka ramah, pembaginya banyak. cocok buat tugas bocah yang curiga" },
       { authorId: 108, minutesAgo: 1076, content: "pakai tabel kelipatan juga bisa: 8, 16, 24, terus sampe ketemu yang juga kelipatan 7 dan 9. panjang tapi paham" },
       { authorId: 215, minutesAgo: 1062, content: "kalau dibikin soal cerita: 2520 murid dibagi tim beranggota 1 sampe 10 orang, gak ada yang nganggur" },
-      { authorId: 488, minutesAgo: 150, content: "Telat. udah dibales cucunya? 2520 fix, udah dihitung bolak-balik di atas" },
+      { authorId: 488, minutesAgo: 150, content: "Udah dibales cucunya? 2520 fix, udah dihitung bolak-balik di atas" },
     ],
   },
   {
@@ -382,7 +382,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 24, minutesAgo: 1026, content: "Tanaman gue dulu layu karena pupuk asal. takaran begini emang ngaruh " },
       { authorId: 289, minutesAgo: 1010, content: "1 kilo = 8 sendok penuh, patokan rumahan yang bagus. udah kebukti sendiri" },
       { authorId: 163, minutesAgo: 993, content: "cucunya kalau gede bisa jadi operator gudang wkwk 🙃" },
-      { authorId: 459, minutesAgo: 110, content: "Telat. udah minggu ke berapa sekarang? tinggal dikit lagi harusnya" },
+      { authorId: 459, minutesAgo: 110, content: "catet angkanya, balik modal pas ujian" },
     ],
   },
   {
@@ -405,7 +405,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 236, minutesAgo: 1100, content: "14 ÷ 2 = 7. udah pas" },
       { authorId: 378, minutesAgo: 1082, content: "nomor genap-ganjil beda sisi itu warisan tata kota. 2 lawan 1, 4 lawan 3. selisih satu nomor" },
       { authorId: 149, minutesAgo: 1063, content: "rumah ke-1 no. 2, ke-2 no. 4, ke-7 no. 14. polanya nambah 2 terus" },
-      { authorId: 452, minutesAgo: 105, content: "telat. gang-nya masih aman? 7 rumah genap itu udah pas dari awal" },
+      { authorId: 452, minutesAgo: 105, content: "Gang-nya masih aman? 7 rumah genap itu udah pas dari awal" },
     ],
   },
   {
@@ -434,7 +434,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 188, minutesAgo: 1049, content: "Bikin kalender aja. tandain hari ke-8 A kosong, hari ke-9 B. C langsung nangkep" },
       { authorId: 461, minutesAgo: 1028, content: "A tinggal beberapa hari lagi. hitung mundur dari sekarang lebih aman daripada nunggu gelap" },
       { authorId: 112, minutesAgo: 1006, content: "Urusan listrik tuh sensitif. sekali gelap, rapat dadakan. jadi hitungannya jangan sampai salah " },
-      { authorId: 493, minutesAgo: 115, content: "telat. udah diisi kan token-nya? A emang duluan gelap, 8 hari lawan 9 hari" },
+      { authorId: 493, minutesAgo: 115, content: "Udah diisi kan token-nya? A emang duluan gelap, 8 hari lawan 9 hari" },
     ],
   },
   {
@@ -458,7 +458,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 184, minutesAgo: 1169, content: "kalau jam terakhir dipaksa 250, jam berikutnya biasanya anjlok ke 120-an. ngutang besok" },
       { authorId: 414, minutesAgo: 1153, content: "atasan gak jawab karena dua-duanya susah: turunin target itu mundur, ngejar itu risiko. datanya senjata bre" },
       { authorId: 157, minutesAgo: 1136, content: "950 dari 1.200 itu udah bagus kok. 79 persen, sisa sekitar 21 persen di jam terakhir. berat tapi gak mustahil" },
-      { authorId: 482, minutesAgo: 105, content: "telat. shift-nya udah kelar kayaknya. besok tunjukin datanya ke atasan" },
+      { authorId: 482, minutesAgo: 105, content: "Shift-nya udah kelar kayaknya. besok tunjukin datanya ke atasan" },
     ],
   },
   {
@@ -484,7 +484,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 117, minutesAgo: 1145, content: "gue paling males itung pas masak. ternyata gampang: dikali 1,5 doang" },
       { authorId: 296, minutesAgo: 1125, content: "2 gelas beras 3 air itu standar. 1,5 gelas 2,25. lu udah bener bre" },
       { authorId: 374, minutesAgo: 1104, content: "nanti pas makannya dihitung ulang: 1,5 gelas beras ± 3 porsi kecil. matematika dapur 🙃" },
-      { authorId: 497, minutesAgo: 100, content: "telat bre. nasinya udah mateng kali ya. 2,25 bener dari awal" },
+      { authorId: 497, minutesAgo: 100, content: "Nasinya udah mateng kali ya. 2,25 bener dari awal" },
     ],
   },
   {
@@ -505,7 +505,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 240, minutesAgo: 1271, content: "di kantor kenaikan harga juga dihitung dari harga lama. kebijakannya sama aturannya" },
       { authorId: 95, minutesAgo: 1258, content: "25% itu sama dengan seperempat. 12.000 dibagi 4 = 3.000. pas" },
       { authorId: 419, minutesAgo: 1244, content: "kopi 15 ribu sekarang wajar sih. tapi hitungan 30% tetep salah, gak bisa ditawar" },
-      { authorId: 479, minutesAgo: 90, content: "Telat. struknya udah nunjukin kan? 25%, fix" },
+      { authorId: 479, minutesAgo: 90, content: "Struknya udah nunjukin kan? 25%, fix" },
     ],
   },
   {
@@ -533,7 +533,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 175, minutesAgo: 1189, content: "93,5 lebih jujur sih. tapi ringkasan bukan tempat desimal, biar bos gak pusing baca" },
       { authorId: 59, minutesAgo: 1169, content: "Anak magangnya masih muda. dikoreksi pelan-pelan, jangan di depan orang banyak" },
       { authorId: 297, minutesAgo: 1148, content: "kalau bos nanya bedanya sama lampiran, jawab: ringkasan buat baca cepet, lampiran buat arsip. beda fungsi" },
-      { authorId: 486, minutesAgo: 100, content: "Telat. rapetnya udah lewat? kalau ditanya, jawab: dasar 93,5, ringkasan 94" },
+      { authorId: 486, minutesAgo: 100, content: "Rapetnya udah lewat? kalau ditanya, jawab: dasar 93,5, ringkasan 94" },
     ],
   },
   {
@@ -555,7 +555,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 68, minutesAgo: 1318, content: "Penjelasan paling cepet: tunjukin uangnya sekalian. benda jelasin lebih cepet dari kata" },
       { authorId: 232, minutesAgo: 1304, content: "Kasus begini sering juga di warung, nyari kombinasi pecahan yang pas. uang kertas itu diskrit" },
       { authorId: 143, minutesAgo: 1289, content: "Nasabah setuju setelah dijelasin, berarti caranya bener. teller sabar kayak gini langka" },
-      { authorId: 471, minutesAgo: 95, content: "Telat. nasabahnya udah pulang seneng kali ya. 90 ribu = 9 × 10.000, fix" },
+      { authorId: 471, minutesAgo: 95, content: "Nasabahnya udah pulang seneng kali ya. 90 ribu = 9 × 10.000, fix" },
     ],
   },
   {
@@ -580,7 +580,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 177, minutesAgo: 1284, content: "hitungannya simpel: 120 ÷ 3 = 40, 120 ÷ 2 = 60. pembagian doang" },
       { authorId: 423, minutesAgo: 1265, content: "40 buku tebal itu lebih berat. raknya kuat kan? itu juga hitungan" },
       { authorId: 85, minutesAgo: 1245, content: "kepala pilih yang tebal, keputusan manusiawi. angka sih dua-duanya pas" },
-      { authorId: 489, minutesAgo: 95, content: "Telat. udah diputusin kan? dua-duanya muat, yang milih tetep manusia" },
+      { authorId: 489, minutesAgo: 95, content: "Udah diputusin kan? dua-duanya muat, yang milih tetep manusia" },
     ],
   },
   {
@@ -610,7 +610,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 139, minutesAgo: 1224, content: "kalau setengah pelanggan nambah 5 menit, rata-rata naik 2,5 menit per kepala. gitu cara hitungnya" },
       { authorId: 334, minutesAgo: 1201, content: "480 ÷ 24 menit = 20. cocok sama praktik. dua-duanya udah konsisten" },
       { authorId: 409, minutesAgo: 1177, content: "ngomongin rambut ampe matematika. forum ini seru bos 🙃" },
-      { authorId: 478, minutesAgo: 100, content: "telat bos. udah ditutup kan? besok dihitung lagi pelan-pelan" },
+      { authorId: 478, minutesAgo: 100, content: "Udah ditutup kan? besok dihitung lagi pelan-pelan" },
     ],
   },
   {
@@ -633,7 +633,7 @@ export const THREADS_PART2: ThreadzThread[] = [
       { authorId: 233, minutesAgo: 1387, content: "kalau mau pemerataan: 24 ÷ 3 malem = 8 per malem. fix, gak ada drama" },
       { authorId: 129, minutesAgo: 1371, content: "sisa 8 itu pas buat stok darurat. jangan disentuh dulu" },
       { authorId: 372, minutesAgo: 1354, content: "itungan lu bener bre. yang salah cuma ekspektasi. persen yang berubah, jumlah makan sama" },
-      { authorId: 487, minutesAgo: 100, content: "telat. malem ketiga udah lewat kali ya. sisa berapa sekarang wkwk" },
+      { authorId: 487, minutesAgo: 100, content: "Malem ketiga udah lewat kali ya. sisa berapa sekarang wkwk" },
     ],
   },
 ]
