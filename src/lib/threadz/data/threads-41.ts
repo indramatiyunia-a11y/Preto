@@ -112,7 +112,7 @@ export const THREADS_PART41: ThreadzThread[] = [
     minutesAgo: 30145,
     shares: 5,
     content:
-      "Fibonacci: 1, 1, 2, 3, 5, 8, 13 — dua sebelumnya dijumlah. Berikutnya 21. Temen tanya asal pola: muncul di kotak spiral dan kelipatan kelinci versi buku lama. Cek dong",
+      "Fibonacci: 1, 1, 2, 3, 5, 8, 13 — dua sebelumnya dijumlah. Berikutnya 21. Temen tanya asal pola: muncul di kotak spiral dan kelipatan kelinci versi buku lama. Susulan: 21 + 13? eh setelah 21 = 34 ya? Cek dong Satu lagi: pola ini sering keluar di soal harian — belanja, jadwal, dan hitung-hitungan kecil. Kalau masih ragu, hitung dua kali dengan urutan beda lalu banding hasilnya. Catet langkahnya biar lain kali langsung jalan, dan coba jelaskan ke teman pakai contoh sederhana. Latihan rutin sepuluh menit per hari lebih berguna daripada tiga jam sekali seminggu. Cek dong",
     comments: [
       { authorId: 32, minutesAgo: 30130, content: "21 pas" },
       { authorId: 284, minutesAgo: 30112, content: "dua sebelumnya dijumlah" },
@@ -189,7 +189,7 @@ export const THREADS_PART41: ThreadzThread[] = [
     minutesAgo: 30235,
     shares: 8,
     content:
-      "Heksadesimal: A = 10, F = 15. Satu digit heksa isi 0-15. Temen bingung kenapa ada huruf — habis digit tunggal, lanjut huruf. Cek dong",
+      "Heksadesimal: A = 10, F = 15. Satu digit heksa isi 0-15. Temen bingung kenapa ada huruf — habis digit tunggal. Cek dong",
     comments: [
       { authorId: 73, minutesAgo: 30218, content: "A = 10 pas" },
       { authorId: 256, minutesAgo: 30201, content: "F = 15 pas" },
@@ -562,7 +562,7 @@ export const THREADS_PART41: ThreadzThread[] = [
     minutesAgo: 30685,
     shares: 8,
     content:
-      "Jumlah ganjil 1+3+5+7+9 = 25 = 5². Lima bilangan ganjil pertama jumlahnya kuadrat 5. Temen cek manual: 1+3 = 4, +5 = 9, +7 = 16, +9 = 25 — semuanya kuadrat! Susulan: sampai 11? 36 = 6² ya? Cek dong Satu lagi: pola ini sering keluar di soal harian — belanja, jadwal, dan hitung-hitungan kecil. Kalau masih ragu, hitung dua kali dengan urutan beda lalu banding hasilnya. Catet langkahnya biar lain kali langsung jalan, dan coba jelaskan ke teman pakai contoh sederhana. Latihan rutin sepuluh menit per hari lebih berguna daripada tiga jam sekali seminggu. Cek dong",
+      "Jumlah ganjil 1+3+5+7+9 = 25 = 5². Lima bilangan ganjil pertama jumlahnya kuadrat 5. Temen cek manual: 1+3 = 4, +5 = 9, +7 = 16, +9 = 25 — semuanya kuadrat! Susulan: sampai 11? 36 = 6² ya? Cek dong",
     comments: [
       { authorId: 147, minutesAgo: 30671, content: "25 pas" },
       { authorId: 69, minutesAgo: 30656, content: "5² pas" },

@@ -35,7 +35,7 @@ t(1007, "2^10 = 1.024, bukan 1.000. Seribu = 10³; seribu DUA PULUH EMPAT = 2^10
  ["1.024 pas", "1.000 = 10³, beda keluarga", "2.048 pas", "PR gue: 2^12? 4.096", "iya pas", "susulan: 1.024 = 32² juga", "iya, b33 juga", "jawaban post semua kuku", "catet: pangkat 2 tangganya sendiri", "iya, basis 2", "jawaban post lengkap", "susulan: 1.024 GB = 1 TB basis 2"],
  "telat dari arsip. 2^10 = 1.024. tuntas", ("2^10 = 1.024", "1024*1", "1024"))
 
-t(1008, "Heksadesimal: A = 10, F = 15. Satu digit heksa isi 0-15. Temen bingung kenapa ada huruf — habis digit tunggal, lanjut huruf. Cek dong",
+t(1008, "Heksadesimal: A = 10, F = 15. Satu digit heksa isi 0-15. Temen bingung kenapa ada huruf — habis digit tunggal. Cek dong",
  ["A = 10 pas", "F = 15 pas", "huruf isi 10-15 pas", "PR gue: B? 11", "iya pas", "susulan: 16 basis, 4 bit per digit", "iya, keluarga biner", "jawaban post semua kuku", "catet: heksa = basis 16", "iya, definisi", "jawaban post lengkap", "susulan: FF = 255 nanti"],
  "telat dari arsip. A = 10. tuntas", ("F − A = 15 − 10 = 5", "15-10", "5"))
 
