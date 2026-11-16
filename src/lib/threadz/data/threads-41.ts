@@ -9,7 +9,7 @@ import type { ThreadzThread } from "../types"
 export const THREADS_PART41: ThreadzThread[] = [
   {
     id: 1001,
-    authorId: 501,
+    authorId: 150,
     minutesAgo: 30025,
     shares: 16,
     content:
@@ -31,7 +31,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1002,
-    authorId: 502,
+    authorId: 151,
     minutesAgo: 30055,
     shares: 17,
     content:
@@ -58,7 +58,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1003,
-    authorId: 503,
+    authorId: 152,
     minutesAgo: 30085,
     shares: 18,
     content:
@@ -79,7 +79,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1004,
-    authorId: 504,
+    authorId: 153,
     minutesAgo: 30115,
     shares: 19,
     content:
@@ -108,7 +108,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1005,
-    authorId: 505,
+    authorId: 154,
     minutesAgo: 30145,
     shares: 5,
     content:
@@ -132,7 +132,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1006,
-    authorId: 506,
+    authorId: 155,
     minutesAgo: 30175,
     shares: 6,
     content:
@@ -162,7 +162,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1007,
-    authorId: 507,
+    authorId: 156,
     minutesAgo: 30205,
     shares: 7,
     content:
@@ -185,7 +185,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1008,
-    authorId: 508,
+    authorId: 157,
     minutesAgo: 30235,
     shares: 8,
     content:
@@ -211,7 +211,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1009,
-    authorId: 509,
+    authorId: 158,
     minutesAgo: 30265,
     shares: 9,
     content:
@@ -232,7 +232,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1010,
-    authorId: 510,
+    authorId: 159,
     minutesAgo: 30295,
     shares: 10,
     content:
@@ -260,7 +260,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1011,
-    authorId: 511,
+    authorId: 160,
     minutesAgo: 30325,
     shares: 11,
     content:
@@ -285,7 +285,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1012,
-    authorId: 512,
+    authorId: 161,
     minutesAgo: 30355,
     shares: 12,
     content:
@@ -307,7 +307,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1013,
-    authorId: 513,
+    authorId: 162,
     minutesAgo: 30385,
     shares: 13,
     content:
@@ -337,7 +337,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1014,
-    authorId: 514,
+    authorId: 163,
     minutesAgo: 30415,
     shares: 14,
     content:
@@ -358,11 +358,11 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1015,
-    authorId: 515,
+    authorId: 164,
     minutesAgo: 30445,
     shares: 15,
     content:
-      "7 × 14 = 98. Sembilan puluh delapan. Temen tulis 88 — salah 10. Cek: 7 × 14 = 7 × 14 = 49 × 2. Susulan: 14 × 8? 112 ya? Cek dong",
+      "7 × 14 = 98. Sembilan puluh delapan. Temen tulis 88 — salah 10. Cek: 7 × 14 = 7 × 14 = 49 × 2. Cek dong",
     comments: [
       { authorId: 32, minutesAgo: 30432, content: "98 pas" },
       { authorId: 430, minutesAgo: 30418, content: "88 salah 10" },
@@ -385,7 +385,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1016,
-    authorId: 516,
+    authorId: 165,
     minutesAgo: 30475,
     shares: 16,
     content:
@@ -408,7 +408,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1017,
-    authorId: 517,
+    authorId: 166,
     minutesAgo: 30505,
     shares: 17,
     content:
@@ -437,7 +437,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1018,
-    authorId: 518,
+    authorId: 167,
     minutesAgo: 30535,
     shares: 18,
     content:
@@ -461,7 +461,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1019,
-    authorId: 519,
+    authorId: 168,
     minutesAgo: 30565,
     shares: 19,
     content:
@@ -487,7 +487,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1020,
-    authorId: 520,
+    authorId: 169,
     minutesAgo: 30595,
     shares: 5,
     content:
@@ -508,7 +508,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1021,
-    authorId: 521,
+    authorId: 170,
     minutesAgo: 30625,
     shares: 6,
     content:
@@ -536,7 +536,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1022,
-    authorId: 522,
+    authorId: 171,
     minutesAgo: 30655,
     shares: 7,
     content:
@@ -558,7 +558,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1023,
-    authorId: 523,
+    authorId: 172,
     minutesAgo: 30685,
     shares: 8,
     content:
@@ -583,7 +583,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1024,
-    authorId: 524,
+    authorId: 173,
     minutesAgo: 30715,
     shares: 9,
     content:
@@ -613,7 +613,7 @@ export const THREADS_PART41: ThreadzThread[] = [
   },
   {
     id: 1025,
-    authorId: 525,
+    authorId: 174,
     minutesAgo: 30745,
     shares: 10,
     content:

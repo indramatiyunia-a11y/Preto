@@ -63,7 +63,7 @@ t(1014, "Komisi 5% dari penjualan 800rb = 40rb. 800rb ÷ 20 (karena 5% = 1/20). 
  ["40rb pas", "5% = bagi 20", "susulan 80rb pas", "PR gue: 1.000rb? 50rb", "iya pas", "susulan: 10% = 2 × 5%", "iya, dua kali", "jawaban post semua kuku", "catet: persen dari penjualan", "iya, basis penjualan", "jawaban post lengkap", "susulan: 40rb = 800 × 0,05"],
  "telat dari arsip. komisi 5%. tuntas", ("800.000/20 = 40.000", "800000/20", "40000"))
 
-t(1015, "7 × 14 = 98. Sembilan puluh delapan. Temen tulis 88 — salah 10. Cek: 7 × 14 = 7 × 14 = 49 × 2. Susulan: 14 × 8? 112 ya? Cek dong",
+t(1015, "7 × 14 = 98. Sembilan puluh delapan. Temen tulis 88 — salah 10. Cek: 7 × 14 = 7 × 14 = 49 × 2. Cek dong",
  ["98 pas", "88 salah 10", "112 pas", "PR gue: 49 × 2 dua jalur", "iya pas", "susulan: 98 deket 100", "iya, kurang 2", "jawaban post semua kuku", "catet: dua jalur perkalian", "iya, konsisten", "jawaban post lengkap", "susulan: 98 = 2 × 7²"],
  "telat dari arsip. 7 × 14. tuntas", ("7 × 14 = 98", "7*14", "98"))
 

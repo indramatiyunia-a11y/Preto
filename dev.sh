@@ -2,7 +2,7 @@
 # ============================================================================
 # dev.sh — ORKESTRATOR SISTEM BATCH AKIOMIDA
 #
-# Target   : 1000 cuitan (thread) di feed Akiomida.
+# Target   : 1500 cuitan (thread) di feed Akiomida.
 # Ritme    : nambah 25 cuitan per batch, SATU batch per sesi kerja — biar
 #            nyaman, gak overload, dan kualitas tiap cuitan tetap ditanganin.
 #
@@ -54,7 +54,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 BASE=100
-TARGET=1000
+TARGET=1500
 BSIZE=25
 
 hitung_post() {
@@ -103,7 +103,7 @@ cmd_status() {
   echo " [$(printf '#%.0s' $(seq 1 $(( posts / 25 ))))$(printf -- '-%.0s' $(seq 1 $(( (TARGET - posts) / 25 ))))] (1 char = 25 cuitan)"
   echo "------------------------------------------------------------------"
   if (( posts >= TARGET )); then
-    echo " TARGET 1000 TERCAPAI. Sistem lanjut otomatis berhenti."
+    echo " TARGET 1500 TERCAPAI. Sistem lanjut otomatis berhenti."
     return 0
   fi
   echo " batch berikutnya:"
